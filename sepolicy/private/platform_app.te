@@ -2,3 +2,5 @@ binder_use(platform_app)
 
 # Allow PowerShare HAL service to be found
 hal_client_domain(platform_app, hal_aospa_powershare)
+
+allow platform_app nfc_service:service_manager find;
