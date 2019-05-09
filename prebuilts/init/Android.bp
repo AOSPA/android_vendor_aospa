@@ -17,3 +17,10 @@ prebuilt_etc {
     src: "init.aospa-hub.rc",
     sub_dir: "init",
 }
+
+prebuilt_etc {
+    name: "init.aospa.rc",
+    src: "init.aospa.rc",
+    sub_dir: "init",
+    vendor: true,
+}

@@ -51,7 +51,8 @@ PRODUCT_PACKAGES += ParanoidHub
 endif
 
 PRODUCT_PACKAGES += \
-    init.aospa-hub.rc
+    init.aospa-hub.rc \
+    init.aospa.rc
 
 # Paranoid ThemePicker
 PRODUCT_PACKAGES += \
