@@ -1,0 +1,20 @@
+//
+// Copyright (C) 2021 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+    apk: "GoogleCameraGo.apk",
+    name: "GoogleCameraGo",
+    overrides: ["Camera2"],
+    presigned: true,
+    product_specific: true,
+}
+
+android_app_import {
+    apk: "Abstruct.apk",
+    name: "Abstruct",
+    presigned: true,
+    product_specific: true,
+}
