@@ -1,0 +1,2 @@
+# PowerShare
+genfscon sysfs /class/qcom-battery/wireless_boost_en                            u:object_r:sysfs_powershare:s0

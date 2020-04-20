@@ -9,3 +9,7 @@ allow system_server pocket_service:service_manager { add find };
 
 # Set tethering properties
 set_prop(system_server, device_config_tethering_prop)
+
+
+# Powershare
+hal_client_domain(system_server, hal_aospa_powershare)
