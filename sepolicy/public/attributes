@@ -1,0 +1,4 @@
+# HALs
+attribute hal_aospa_powershare;
+attribute hal_aospa_powershare_server;
+attribute hal_aospa_powershare_client;
