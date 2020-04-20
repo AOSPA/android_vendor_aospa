@@ -18,6 +18,23 @@ needs_camera_boottime {
 }
 
 soong_config_module_type {
+    name: "powershare_node",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    value_variables: ["powershare_node"],
+    properties: ["cppflags"],
+}
+
+powershare_node {
+    name: "powershare_node_defaults",
+    soong_config_variables: {
+        powershare_node: {
+            cppflags: ["-DPOWERSHARE_NODE=\"%s\""],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "target_process_sdk_version_overrides",
     module_type: "cc_defaults",
     config_namespace: "aospaGlobalVars",
