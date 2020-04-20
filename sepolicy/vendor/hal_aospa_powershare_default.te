@@ -1,0 +1,9 @@
+type hal_aospa_powershare_default, domain;
+binder_use(hal_aospa_powershare_default);
+hal_server_domain(hal_aospa_powershare_default, hal_aospa_powershare)
+
+type hal_aospa_powershare_default_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_aospa_powershare_default)
+
+# Allow PowerShare HAL to write to PowerShare sysfs node
+allow hal_aospa_powershare_default sysfs_powershare:file rw_file_perms;

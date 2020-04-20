@@ -1,4 +1,4 @@
-<!-- Copyright (C) 2021 Paranoid Android
+<!-- Copyright (C) 2023 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -12,21 +12,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<compatibility-matrix version="1.0" type="framework">
-    <!-- Power -->
-    <hal format="aidl" optional="true">
-        <name>vendor.aospa.power</name>
-        <interface>
-            <name>IPowerFeature</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <!-- Powershare -->
-    <hal format="aidl" optional="true">
+
+<manifest version="1.0" type="device">
+    <hal format="aidl">
         <name>vendor.aospa.powershare</name>
-        <interface>
-            <name>IPowerShare</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>IPowerShare/default</fqname>
     </hal>
-</compatibility-matrix>
+</manifest>
