@@ -1,0 +1,3 @@
+attribute hal_powershare;
+attribute hal_powershare_server;
+attribute hal_powershare_client;
