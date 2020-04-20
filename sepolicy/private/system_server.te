@@ -1,4 +1,9 @@
+binder_use(system_server)
+
 # Pocket Judge
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
 allow system_server pocket_service:service_manager { add find };
+
+# Powershare
+hal_client_domain(system_server, hal_aospa_powershare)
