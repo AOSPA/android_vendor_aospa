@@ -19,4 +19,7 @@
     <!-- Whether to show activity indicators in the status bar -->
     <bool name="config_showActivity">false</bool>
 
+    <!-- Show RSRP Signal level for LTE -->
+    <bool name="config_showRsrpSignalLevelforLTE">true</bool>
+
 </resources>
