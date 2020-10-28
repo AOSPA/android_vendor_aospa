@@ -72,3 +72,6 @@ AOSPA_VERSION += $(AOSPA_BUILD)-$(BUILD_DATE)
 
 # Remove unwanted characters for zip naming
 AOSPA_VERSION := $(shell echo -n $(AOSPA_VERSION) | tr -d '[:space:]')
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+     ro.modversion=$(AOSPA_VERSION)
