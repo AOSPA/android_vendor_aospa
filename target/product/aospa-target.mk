@@ -24,6 +24,10 @@ DONT_DEXPREOPT_PREBUILTS := true
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/aospa/target/config/config.fs
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+     vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml
+
 # Include Common Qualcomm Device Tree.
 $(call inherit-product, device/qcom/common/common.mk)
 
