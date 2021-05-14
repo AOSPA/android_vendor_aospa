@@ -22,3 +22,8 @@ function repopick()
 
 export SKIP_ABI_CHECKS="true"
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+
+# Enable ThinLTO Source wide.
+echo "Building with ThinLTO."
+export GLOBAL_THINLTO=true
+export USE_THINLTO_CACHE=true
