@@ -185,6 +185,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
 
+# StrictMode
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+# Disable extra StrictMode features on all non-engineering builds
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.strictmode.disable=true
+endif
+
 # SEPolicy
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
