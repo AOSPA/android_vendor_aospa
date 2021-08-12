@@ -11,3 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+# Product Makefiles
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
+    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
+
+# Lunch targets
+COMMON_LUNCH_CHOICES += \
+    aospa_oneplus9-userdebug \
+    aospa_oneplus9pro-userdebug
