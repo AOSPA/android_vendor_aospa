@@ -12,3 +12,5 @@ function cafmerge()
     T=$(gettop)
     python3 $T/vendor/pa/scripts/merge-caf.py $target_branch
 }
+
+export SKIP_ABI_CHECKS="true"
