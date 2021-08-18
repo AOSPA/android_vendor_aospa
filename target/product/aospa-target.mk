@@ -12,5 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Include Common Qualcomm Device Tree.
+$(call inherit-product, device/qcom/common/common.mk)
+
 # Include definitions for Snapdragon Clang
 $(call inherit-product, vendor/qcom/sdclang/SnapdragonClang.mk)
