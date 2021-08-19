@@ -24,6 +24,9 @@ $(call inherit-product, device/qcom/common/common.mk)
 # Include definitions for Snapdragon Clang
 $(call inherit-product, vendor/qcom/sdclang/SnapdragonClang.mk)
 
+# Include Packages makefile.
+$(call inherit-product, vendor/aospa/target/product/packages.mk)
+
 # Include Properties makefile.
 $(call inherit-product, vendor/aospa/target/product/properties.mk)
 
