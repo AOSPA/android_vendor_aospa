@@ -39,6 +39,9 @@ $(call inherit-product, vendor/aospa/target/product/packages.mk)
 # Include Properties makefile.
 $(call inherit-product, vendor/aospa/target/product/properties.mk)
 
+# Include SEPolicy makefile.
+$(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
+
 # Include GMS, Modules, and Pixel features.
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_r.mk)
