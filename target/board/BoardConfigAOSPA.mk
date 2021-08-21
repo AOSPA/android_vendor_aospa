@@ -21,3 +21,6 @@ include device/qcom/common/BoardConfigQcom.mk
 
 # Kernel configuration.
 include vendor/aospa/target/board/BoardConfigKernel.mk
+
+# Soong
+include vendor/aospa/target/board/BoardConfigSoong.mk
