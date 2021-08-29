@@ -150,4 +150,12 @@
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
     <string name="config_displayLightSensorType" translatable="false">android.sensor.light</string>
 
+    <!-- Control the default night mode to use when there is no other mode override set.
+         One of the following values (see UiModeManager.java):
+             0 - MODE_NIGHT_AUTO
+             1 - MODE_NIGHT_NO
+             2 - MODE_NIGHT_YES
+    -->
+    <integer name="config_defaultNightMode">2</integer>
+
 </resources>
