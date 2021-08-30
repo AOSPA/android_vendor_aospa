@@ -14,4 +14,5 @@
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAFrameworksOverlay
+    AOSPAFrameworksOverlay \
+    AOSPASystemUIOverlay
