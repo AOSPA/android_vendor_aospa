@@ -24,7 +24,7 @@
 # This is the global AOSPA version flavor that determines the focal point
 # behind our releases. This is bundled alongside $(AOSPA_MINOR_VERSION)
 # and only changes per major Android releases.
-AOSPA_MAJOR_VERSION := ruby
+AOSPA_MAJOR_VERSION := sapphire
 
 # The version code is the upgradable portion during the cycle of
 # every major Android release. Each version code upgrade indicates
@@ -36,7 +36,15 @@ AOSPA_MINOR_VERSION := 1
 # Alpha: Development / Test
 # Beta: Public releases with CI
 # Release: Final Product | No Tagging
-AOSPA_BUILD_VARIANT := alpha
+ifndef AOSPA_BUILDTYPE
+  AOSPA_BUILD_VARIANT := alpha
+else
+  ifeq ($(AOSPA_BUILDTYPE), BETA)
+      AOSPA_BUILD_VARIANT := beta
+  else ifeq ($(AOSPA_BUILDTYPE), RELEASE)
+      AOSPA_BUILD_VARIANT := release
+  endif
+endif
 
 # Build Date
 BUILD_DATE := $(shell date -u +%Y%m%d)
