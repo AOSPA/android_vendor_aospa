@@ -108,19 +108,6 @@ PRODUCT_PACKAGES += \
 # Skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
 
-# Snapdragon LLVM Compiler
-ifneq ($(HOST_OS),linux)
-ifneq ($(sdclang_already_warned),true)
-$(warning **********************************************)
-$(warning * SDCLANG is not supported on non-linux hosts.)
-$(warning **********************************************)
-sdclang_already_warned := true
-endif
-else
-# include definitions for SDCLANG
-include vendor/pa/sdclang/sdclang.mk
-endif
-
 # Strip the local variable table and the local variable type table to reduce
 # the size of the system image. This has no bearing on stack traces, but will
 # leave less information available via JDWP.
