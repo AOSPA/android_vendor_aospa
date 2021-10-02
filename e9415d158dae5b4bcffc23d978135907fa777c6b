@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8dd0e5b_3d9fd704",
+        "filename": "overlay/AOSPASystemUIOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000481
+      },
+      "writtenOn": "2021-10-02T17:29:20Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/platform/frameworks/base/+/refs/tags/android-11.0.0_r43/packages/SystemUI/res/values/config.xml#378",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 35
+      },
+      "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
