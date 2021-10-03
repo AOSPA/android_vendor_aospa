@@ -35,6 +35,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0129c76e_c4830faa",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-03T08:47:19Z",
+      "side": 0,
+      "message": "Nevermind, didn\u0027t see that you added it back in newer commits",
+      "parentUuid": "fb4abfbd_9153c8a0",
+      "revId": "486b75b193dd740524a785054d3848a2cda72b56",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b09ea4ce_43bf8201",
