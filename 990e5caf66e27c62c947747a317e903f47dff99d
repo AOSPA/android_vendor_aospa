@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "296f0f87_8ba36e7c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-03T08:43:51Z",
+      "side": 1,
+      "message": "I guess this should be in device/qcom/common too",
+      "revId": "990e5caf66e27c62c947747a317e903f47dff99d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
