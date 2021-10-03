@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11e4c600_5e21cd82",
+        "filename": "apps/AuxiliaryKeyHandler/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-03T08:37:38Z",
+      "side": 0,
+      "message": "Deleting it at all is a bit over the top but im fine with it if we move that to a separate repo",
+      "revId": "486b75b193dd740524a785054d3848a2cda72b56",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb4abfbd_9153c8a0",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-03T08:37:38Z",
+      "side": 0,
+      "message": "I\u0027d like to keep this",
+      "revId": "486b75b193dd740524a785054d3848a2cda72b56",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b09ea4ce_43bf8201",
+        "filename": "overlay/AOSPAImmersiveNavigationOverlay/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-03T08:37:38Z",
+      "side": 0,
+      "message": "I\u0027d like to keep immensive nav if thats okay",
+      "revId": "486b75b193dd740524a785054d3848a2cda72b56",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
