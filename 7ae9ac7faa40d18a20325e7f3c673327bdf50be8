@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94575927_dd9a0e43",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-10-03T08:24:37Z",
+      "side": 1,
+      "message": "Whats your opinion about making those ?\u003d instead of force-enabling it?",
+      "revId": "7ae9ac7faa40d18a20325e7f3c673327bdf50be8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
