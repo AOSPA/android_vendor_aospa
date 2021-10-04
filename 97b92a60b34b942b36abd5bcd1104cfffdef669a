@@ -16,6 +16,24 @@
       "message": "I feel like this belongs to device/qcom/common",
       "revId": "97b92a60b34b942b36abd5bcd1104cfffdef669a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70b2ece7_1d74a0b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-04T17:21:54Z",
+      "side": 1,
+      "message": "be my guest pls",
+      "parentUuid": "2270e598_11a3991f",
+      "revId": "97b92a60b34b942b36abd5bcd1104cfffdef669a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
