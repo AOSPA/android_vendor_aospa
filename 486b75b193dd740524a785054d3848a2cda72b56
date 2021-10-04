@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "85b153b1_0c8c1629",
+        "filename": "apps/AuxiliaryKeyHandler/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-04T17:20:05Z",
+      "side": 0,
+      "message": "not really sure if anyone would want it, let\u0027s take a look at it again in S",
+      "parentUuid": "11e4c600_5e21cd82",
+      "revId": "486b75b193dd740524a785054d3848a2cda72b56",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fb4abfbd_9153c8a0",
         "filename": "build/envsetup.sh",
         "patchSetId": 2
@@ -66,6 +84,24 @@
       "writtenOn": "2021-10-03T08:37:38Z",
       "side": 0,
       "message": "I\u0027d like to keep immensive nav if thats okay",
+      "revId": "486b75b193dd740524a785054d3848a2cda72b56",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2d9671f_5d7ada67",
+        "filename": "overlay/AOSPAImmersiveNavigationOverlay/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-04T17:20:05Z",
+      "side": 0,
+      "message": "can bring it back again, no issues, cleaning up every feature except gestures for now",
+      "parentUuid": "b09ea4ce_43bf8201",
       "revId": "486b75b193dd740524a785054d3848a2cda72b56",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
