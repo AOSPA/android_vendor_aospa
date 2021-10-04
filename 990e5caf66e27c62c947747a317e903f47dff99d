@@ -16,6 +16,24 @@
       "message": "I guess this should be in device/qcom/common too",
       "revId": "990e5caf66e27c62c947747a317e903f47dff99d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8481731_ee3f4394",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-04T17:20:33Z",
+      "side": 1,
+      "message": "be my guest",
+      "parentUuid": "296f0f87_8ba36e7c",
+      "revId": "990e5caf66e27c62c947747a317e903f47dff99d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
