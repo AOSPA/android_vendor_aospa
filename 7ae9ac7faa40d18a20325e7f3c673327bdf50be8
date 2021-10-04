@@ -16,6 +16,24 @@
       "message": "Whats your opinion about making those ?\u003d instead of force-enabling it?",
       "revId": "7ae9ac7faa40d18a20325e7f3c673327bdf50be8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a313ca5_db44622c",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-04T17:21:39Z",
+      "side": 1,
+      "message": "i would rather have a toggle in the first place. So we can disable blur but let it be in developer options, i can get that done",
+      "parentUuid": "94575927_dd9a0e43",
+      "revId": "7ae9ac7faa40d18a20325e7f3c673327bdf50be8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
