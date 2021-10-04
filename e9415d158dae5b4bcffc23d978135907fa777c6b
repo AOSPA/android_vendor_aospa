@@ -22,6 +22,30 @@
       },
       "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f34a264_8074e65a",
+        "filename": "overlay/AOSPASystemUIOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-04T17:24:02Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/android_frameworks_base/blob/006b0543e422bb0811111e50ea0464b66526e564/packages/SystemUI/res/values/config.xml#L378\n\ndk if this was intentional by CAF",
+      "parentUuid": "f8dd0e5b_3d9fd704",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 35
+      },
+      "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
