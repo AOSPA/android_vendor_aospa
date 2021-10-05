@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "14dafd4f_be0b2615",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-10-05T17:50:51Z",
+      "side": 1,
+      "message": "would rather have it in an ifneq. that\u0027d be safer for other devices (albeit we might not have anything legacy, but sure) ",
+      "revId": "7ae9ac7faa40d18a20325e7f3c673327bdf50be8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94575927_dd9a0e43",
