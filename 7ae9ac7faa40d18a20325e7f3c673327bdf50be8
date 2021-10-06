@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "17a44fc7_3e571866",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-06T09:19:51Z",
+      "side": 1,
+      "message": "honestly, danny\u0027s optimisations for blur are a good base for even legacy devices to render blur. we can rather change the radius of blur through overlays, but I don\u0027t really think we should disable blur cuz honestly, parts of aospa\u0027s UI would depend on blur",
+      "parentUuid": "14dafd4f_be0b2615",
+      "revId": "7ae9ac7faa40d18a20325e7f3c673327bdf50be8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94575927_dd9a0e43",
