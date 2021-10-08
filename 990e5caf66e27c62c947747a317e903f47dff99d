@@ -34,6 +34,24 @@
       "parentUuid": "296f0f87_8ba36e7c",
       "revId": "990e5caf66e27c62c947747a317e903f47dff99d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06161684_523d0519",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-08T14:33:55Z",
+      "side": 1,
+      "message": "soundrecorder could break boot on non Qualcomm devices",
+      "parentUuid": "a8481731_ee3f4394",
+      "revId": "990e5caf66e27c62c947747a317e903f47dff99d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
