@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c35f3584_7b9268cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-08T14:40:42Z",
+      "side": 1,
+      "message": "I don\u0027t think all of these are in pixel. some are from Xiaomi. double check our history.",
+      "revId": "8d23f80886a56fa7051ee303efbfc38ad4849d7b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
