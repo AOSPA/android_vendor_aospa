@@ -46,6 +46,30 @@
       },
       "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "559a00dd_ae8046f0",
+        "filename": "overlay/AOSPASystemUIOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-08T14:32:48Z",
+      "side": 1,
+      "message": "it was pretty ugly when we implemented that. showed up and down arrows when downloading and uploading I believe. you can check again though.",
+      "parentUuid": "6f34a264_8074e65a",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 35
+      },
+      "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
