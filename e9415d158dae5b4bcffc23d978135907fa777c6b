@@ -70,6 +70,30 @@
       },
       "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f25d4260_24c6d0dd",
+        "filename": "overlay/AOSPASystemUIOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-09T09:26:04Z",
+      "side": 1,
+      "message": "showActivity doesnt show it anymore, anyway i think this was CAF\nhere, https://github.com/AOSPA/android_frameworks_base/commit/1c93e11481b91393c764bfcbd46d4de44467514f",
+      "parentUuid": "559a00dd_ae8046f0",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 35
+      },
+      "revId": "e9415d158dae5b4bcffc23d978135907fa777c6b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
