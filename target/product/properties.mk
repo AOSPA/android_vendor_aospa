@@ -24,3 +24,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Enforce privapp-permissions whitelist.
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
+
+# Enable one-handed mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
