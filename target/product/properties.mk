@@ -41,3 +41,6 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
+# Enable one-handed mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
