@@ -28,3 +28,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Disable blur on app-launch
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.launcher.blur.appLaunch=0
+
+# Disable async MTE on system_server
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    arm64.memtag.process.system_server=off
