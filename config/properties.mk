@@ -66,3 +66,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Enable dex2oat64 to do dexopt
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
+
+# Disable async MTE on system_server
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    arm64.memtag.process.system_server=off
+
