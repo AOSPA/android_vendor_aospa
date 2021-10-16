@@ -58,3 +58,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.bt_sco_vol_steps=30 \
     ro.config.media_vol_steps=30
+
+# Disable blur on app-launch
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.launcher.blur.appLaunch=0
