@@ -137,4 +137,7 @@
          it should be disabled in that locale's resources. -->
     <bool name="config_buttonTextAllCaps">false</bool>
 
+    <!-- SystemUIFactory component -->
+    <string name="config_systemUIFactoryComponent" translatable="false">org.protonaosp.systemui.CustomSystemUIFactory</string>
+
 </resources>
