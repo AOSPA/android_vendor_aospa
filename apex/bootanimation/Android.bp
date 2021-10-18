@@ -16,6 +16,7 @@ apex {
     name: "com.android.bootanimation",
     defaults: ["com.android.bootanimation-defaults"],
     manifest: "apex_manifest.json",
+    min_sdk_version: "30",
 }
 
 apex_defaults {
