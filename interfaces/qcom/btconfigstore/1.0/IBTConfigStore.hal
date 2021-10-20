@@ -1,7 +1,8 @@
 package vendor.qti.hardware.btconfigstore@1.0;
 
 interface IBTConfigStore {
-    getVendorProperties(uint32_t prop) generates (Result result, vec<VendorProperty> vendorProperty);
-    setVendorProperty(VendorProperty vendorProperty) generates (Result result);
+    getVendorProperties(uint32_t vPropType)
+            generates (Result result, vec<VendorProperty> vendorProp);
+    setVendorProperty(VendorProperty vendorProp) generates (Result result);
     getAddOnFeatures() generates (Result result, AddOnFeaturesList featuresList);
 };
