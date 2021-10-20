@@ -9,17 +9,20 @@ enum Result : int32_t {
     NOT_SUPPORTED,
 };
 
-struct VendorProperty {
+struct VendorProperty
+{
     uint32_t type;
     string value;
 };
 
-struct HostAddOnFeatures {
+struct HostAddOnFeatures
+{
     uint8_t feat_mask_len;
     vec<uint8_t> features;
 };
 
-struct ControllerAddOnFeatures {
+struct ControllerAddOnFeatures
+{
     uint16_t product_id;
     uint16_t rsp_version;
     uint8_t feat_mask_len;
