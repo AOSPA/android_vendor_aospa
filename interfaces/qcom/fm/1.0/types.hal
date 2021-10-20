@@ -6,5 +6,4 @@ enum Status : int32_t {
   INITIALIZATION_ERROR,
   UNKNOWN
 };
-
 typedef vec<uint8_t> HciPacket;

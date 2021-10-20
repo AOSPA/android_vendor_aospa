@@ -1,5 +1,4 @@
-b0d81417ddc5daf549ac2fb63db24a83b4fe2fae71cd38c76f7482d029dd338f  vendor.qti.hardware.btconfigstore@1.0::types
-04a894025ae70cb5821de82289b1a13426583696a4d3bf99042d0a25b615c10a  vendor.qti.hardware.btconfigstore@1.0::IBTConfigStore
-
-3c637d840916d6affda8b35359df37ea0510964242109b9e558ae8276a205d29  vendor.qti.hardware.btconfigstore@2.0::types
-3fd14e41ed74c712f74b34d930e595666a838945c1877b49825160106a3d932d  vendor.qti.hardware.btconfigstore@2.0::IBTConfigStore
+3fdd4f4e310443bde7f57f4be1a99b12e905f5be7aa29e620effe1831001a36e vendor.qti.hardware.btconfigstore@1.0::types
+b89339f0873ee3b88b72c94be3fb209755d692645a7562e7852b1d68dff0e8ce vendor.qti.hardware.btconfigstore@1.0::IBTConfigStore
+abfb7eaf46fad09ea8d39099fc99459b6dce661d0592a1075f3f132ecbfbeb6c vendor.qti.hardware.btconfigstore@2.0::types
+39921c2fced3a791dc31829918151ef0d7ee621ff60f215193936687ba620fb3 vendor.qti.hardware.btconfigstore@2.0::IBTConfigStore
