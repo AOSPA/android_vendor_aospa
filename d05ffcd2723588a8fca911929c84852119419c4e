@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be2a353d_5c4798de",
+        "filename": "products/miatoll/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-23T20:50:54Z",
+      "side": 1,
+      "message": "why",
+      "revId": "d05ffcd2723588a8fca911929c84852119419c4e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
