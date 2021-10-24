@@ -1,0 +1,68 @@
+[
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_device_oneplus_oneplus7pro",
+        "target_path": "device/oneplus/oneplus7pro",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_device_oneplus_sm8150-common",
+        "target_path": "device/oneplus/sm8150-common",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_kernel_oneplus_sm8150",
+        "target_path": "kernel/oneplus/sm8150",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/proprietary_vendor_oneplus",
+        "target_path": "vendor/oneplus",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/hardware_oneplus",
+        "target_path": "hardware/oneplus",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "aospa",
+        "repository": "AOSPA/android_hardware_qcom_audio",
+        "target_path": "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision": "sapphire-855"
+    },
+    {
+        "remote": "aospa",
+        "repository": "AOSPA/android_hardware_qcom_display",
+        "target_path": "hardware/qcom/display",
+        "revision": "sapphire-855"
+    },
+    {
+        "remote": "aospa",
+        "repository": "AOSPA/android_hardware_qcom_media",
+        "target_path": "hardware/qcom/media",
+        "revision": "sapphire-855"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_vendor_nxp_nfc",
+        "target_path": "vendor/nxp/nfc",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_vendor_nxp_secure_element",
+        "target_path": "vendor/nxp/secure_element",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_vendor_nxp_secure_element_extns",
+        "target_path": "vendor/nxp/secure_element_extns",
+        "revision": "sapphire"
+    }
+]
