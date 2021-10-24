@@ -16,6 +16,10 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
+    $(LOCAL_DIR)/oneplus7pro/aospa_oneplus7.mk \
+    $(LOCAL_DIR)/oneplus7pro/aospa_oneplus7pro.mk \
+    $(LOCAL_DIR)/oneplus7t/aospa_oneplus7t.mk \
+    $(LOCAL_DIR)/oneplus7tpro/aospa_oneplus7tpro.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
 
@@ -23,5 +27,9 @@ PRODUCT_MAKEFILES += \
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_mini5g-userdebug \
+    aospa_oneplus7-userdebug \
+    aospa_oneplus7pro-userdebug \
+    aospa_oneplus7t-userdebug \
+    aospa_oneplus7tpro-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug
