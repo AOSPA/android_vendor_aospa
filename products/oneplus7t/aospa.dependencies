@@ -1,0 +1,50 @@
+[
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_device_oneplus_oneplus7t",
+        "target_path": "device/oneplus/oneplus7t",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/android_device_oneplus_sm8150-common",
+        "target_path": "device/oneplus/sm8150-common",
+        "revision": "sapphire-rebase"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/msm-4.14",
+        "target_path": "kernel/oneplus/sm8150",
+        "revision": "sapphire-rebase"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/proprietary_vendor_oneplus",
+        "target_path": "vendor/oneplus",
+        "revision": "sapphire-rebase"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-op7/hardware_oneplus",
+        "target_path": "hardware/oneplus",
+        "revision": "sapphire-rebase"
+    },
+    {
+        "remote": "aospa",
+        "repository": "AOSPA/android_hardware_qcom_audio",
+        "target_path": "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision": "sapphire-855"
+    },
+    {
+        "remote": "aospa",
+        "repository": "aospa-op7/hardware_qcom_display",
+        "target_path": "hardware/qcom/display",
+        "revision": "sapphire"
+    },
+    {
+        "remote": "aospa",
+        "repository": "AOSPA/android_hardware_qcom_media",
+        "target_path": "hardware/qcom/media",
+        "revision": "sapphire-855"
+    }
+]
