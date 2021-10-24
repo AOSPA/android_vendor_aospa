@@ -16,6 +16,24 @@
       "message": "maybe we should add the 9r? same common tree",
       "revId": "d510beded06acd386e09f076ba04a74bf790385a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05ab3291_d2fc30a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2021-10-24T10:30:24Z",
+      "side": 1,
+      "message": "Ya, we\u0027ll add it",
+      "parentUuid": "23bddce8_6e76cd84",
+      "revId": "d510beded06acd386e09f076ba04a74bf790385a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
