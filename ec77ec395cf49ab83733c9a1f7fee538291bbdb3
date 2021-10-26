@@ -34,6 +34,23 @@
       "parentUuid": "f2b00543_5e753369",
       "revId": "ec77ec395cf49ab83733c9a1f7fee538291bbdb3",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b8ec0c1_a0e770a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-26T15:03:59Z",
+      "side": 1,
+      "message": "so, code seems fine, hit me up with the trees before i get this in",
+      "revId": "ec77ec395cf49ab83733c9a1f7fee538291bbdb3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
