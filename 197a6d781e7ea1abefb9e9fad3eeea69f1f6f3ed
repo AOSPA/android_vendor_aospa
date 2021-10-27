@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fb72c6a_194d07cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-10-27T06:36:10Z",
+      "side": 1,
+      "message": "I\u0027d move at least the gesture nav one to product ,customizations like this were intended for /product",
+      "revId": "197a6d781e7ea1abefb9e9fad3eeea69f1f6f3ed",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
