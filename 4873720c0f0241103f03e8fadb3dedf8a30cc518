@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "451645a8_93d9dfe7",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-10-28T06:45:46Z",
+      "side": 1,
+      "message": "is this needed on every device?",
+      "revId": "4873720c0f0241103f03e8fadb3dedf8a30cc518",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c67f35f4_c4e65282",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-10-28T06:45:46Z",
+      "side": 1,
+      "message": "this should be building 1.4, but devices should be taking care of this, depending on what version of the NN HAL they ship.",
+      "revId": "4873720c0f0241103f03e8fadb3dedf8a30cc518",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
