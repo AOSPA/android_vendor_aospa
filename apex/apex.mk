@@ -14,4 +14,4 @@
 
 # Packages
 PRODUCT_PACKAGES += \
-    com.android.bootanimation
+    com.android.bootanimation-$(TARGET_BOOT_ANIMATION_RES)
