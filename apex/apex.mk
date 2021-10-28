@@ -13,5 +13,9 @@
 # limitations under the License.
 
 # Packages
+ifeq ($(TARGET_BOOT_ANIMATION_RES),)
+$(error "TARGET_BOOT_ANIMATION_RES is not defined yet, please define in your product makefile to access AOSPA bootanimation apex.")
+else
 PRODUCT_PACKAGES += \
-    com.android.bootanimation
+    com.android.bootanimation-$(TARGET_BOOT_ANIMATION_RES)
+endif

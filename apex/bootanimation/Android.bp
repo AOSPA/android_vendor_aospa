@@ -13,27 +13,67 @@
 // limitations under the License.
 
 apex {
-    name: "com.android.bootanimation",
-    defaults: ["com.android.bootanimation-defaults"],
+    name: "com.android.bootanimation-720",
     manifest: "apex_manifest.json",
     min_sdk_version: "30",
-}
-
-apex_defaults {
-    name: "com.android.bootanimation-defaults",
     certificate: "platform",
     file_contexts: ":com.android.bootanimation-file_contexts",
     key: "com.android.bootanimation.key",
-    prebuilts: ["bootanimation.zip"],
+    prebuilts: ["bootanimation-720"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-720",
+    src:  "media/720/bootanimation.zip",
+}
+
+apex {
+    name: "com.android.bootanimation-1080",
+    manifest: "apex_manifest.json",
+    min_sdk_version: "30",
+    certificate: "platform",
+    file_contexts: ":com.android.bootanimation-file_contexts",
+    key: "com.android.bootanimation.key",
+    prebuilts: ["bootanimation-1080"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-1080",
+    src:  "media/1080/bootanimation.zip",
+}
+
+apex {
+    name: "com.android.bootanimation-1440",
+    manifest: "apex_manifest.json",
+    min_sdk_version: "30",
+    certificate: "platform",
+    file_contexts: ":com.android.bootanimation-file_contexts",
+    key: "com.android.bootanimation.key",
+    prebuilts: ["bootanimation-1440"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-1440",
+    src:  "media/1440/bootanimation.zip",
+}
+
+apex {
+    name: "com.android.bootanimation-2160",
+    manifest: "apex_manifest.json",
+    min_sdk_version: "30",
+    certificate: "platform",
+    file_contexts: ":com.android.bootanimation-file_contexts",
+    key: "com.android.bootanimation.key",
+    prebuilts: ["bootanimation-2160"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-2160",
+    src:  "media/2160/bootanimation.zip",
 }
 
 apex_key {
     name: "com.android.bootanimation.key",
     public_key: "com.android.bootanimation.avbpubkey",
     private_key: "com.android.bootanimation.pem",
-}
-
-prebuilt_etc {
-    name: "bootanimation.zip",
-    src: "bootanimation.zip",
 }
