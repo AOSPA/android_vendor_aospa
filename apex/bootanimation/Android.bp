@@ -13,10 +13,51 @@
 // limitations under the License.
 
 apex {
-    name: "com.android.bootanimation",
+    name: "com.android.bootanimation-720",
+    prebuilts: ["bootanimation-720"],
     defaults: ["com.android.bootanimation-defaults"],
-    manifest: "apex_manifest.json",
-    min_sdk_version: "30",
+}
+
+prebuilt_etc {
+    name: "bootanimation-720",
+    filename: "bootanimation.zip",
+    src:  "media/720/bootanimation.zip",
+}
+
+apex {
+    name: "com.android.bootanimation-1080",
+    prebuilts: ["bootanimation-1080"],
+    defaults: ["com.android.bootanimation-defaults"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-1080",
+    filename: "bootanimation.zip",
+    src:  "media/1080/bootanimation.zip",
+}
+
+apex {
+    name: "com.android.bootanimation-1440",
+    prebuilts: ["bootanimation-1440"],
+    defaults: ["com.android.bootanimation-defaults"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-1440",
+    filename: "bootanimation.zip",
+    src:  "media/1440/bootanimation.zip",
+}
+
+apex {
+    name: "com.android.bootanimation-2160",
+    prebuilts: ["bootanimation-2160"],
+    defaults: ["com.android.bootanimation-defaults"],
+}
+
+prebuilt_etc {
+    name: "bootanimation-2160",
+    filename: "bootanimation.zip",
+    src:  "media/2160/bootanimation.zip",
 }
 
 apex_defaults {
@@ -24,16 +65,12 @@ apex_defaults {
     certificate: "platform",
     file_contexts: ":com.android.bootanimation-file_contexts",
     key: "com.android.bootanimation.key",
-    prebuilts: ["bootanimation.zip"],
+    manifest: "apex_manifest.json",
+    min_sdk_version: "30",
 }
 
 apex_key {
     name: "com.android.bootanimation.key",
     public_key: "com.android.bootanimation.avbpubkey",
     private_key: "com.android.bootanimation.pem",
-}
-
-prebuilt_etc {
-    name: "bootanimation.zip",
-    src: "bootanimation.zip",
 }
