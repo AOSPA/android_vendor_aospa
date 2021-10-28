@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Authsecret
+PRODUCT_PACKAGES += \
+    android.hardware.authsecret@1.0.vendor
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -21,6 +25,7 @@ PRODUCT_PACKAGES += \
 
 # Neural Network
 PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor \
     libprotobuf-cpp-full-rtti
 
 # Paranoid Packages
