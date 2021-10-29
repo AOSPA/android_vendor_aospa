@@ -14,10 +14,12 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    aospa_lmi-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug
