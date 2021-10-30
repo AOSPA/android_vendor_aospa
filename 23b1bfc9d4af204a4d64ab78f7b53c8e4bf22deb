@@ -16,6 +16,24 @@
       "message": "bad move, we will ship GMS whatsoever",
       "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ac464bb_31cc2f33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-10-30T04:01:00Z",
+      "side": 1,
+      "message": "It can be useful even for test builds, and won\u0027t hurt to have a check there.",
+      "parentUuid": "3e908264_7630d2d1",
+      "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
