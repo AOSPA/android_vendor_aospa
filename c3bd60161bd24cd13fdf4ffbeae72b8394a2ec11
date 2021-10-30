@@ -34,6 +34,24 @@
       "parentUuid": "aff0d558_73563447",
       "revId": "c3bd60161bd24cd13fdf4ffbeae72b8394a2ec11",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96690700_ff97edc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-30T06:27:37Z",
+      "side": 1,
+      "message": "yes either that, or no changes to navbar.",
+      "parentUuid": "4cff54c4_0a4a6a76",
+      "revId": "c3bd60161bd24cd13fdf4ffbeae72b8394a2ec11",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
