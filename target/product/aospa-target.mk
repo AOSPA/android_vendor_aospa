@@ -26,7 +26,9 @@ $(call inherit-product, vendor/aospa/target/product/version.mk)
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
 # Don't dexpreopt prebuilts. (For GMS).
+ifneq ($(TARGET_DISABLES_GMS), true)
 DONT_DEXPREOPT_PREBUILTS := true
+endif
 
 # Fonts
 PRODUCT_COPY_FILES += \
@@ -58,6 +60,7 @@ $(call inherit-product, vendor/aospa/target/product/properties.mk)
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Include GMS, Modules, and Pixel features.
+ifneq ($(TARGET_DISABLES_GMS), true)
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 
@@ -65,6 +68,7 @@ ifneq ($(TARGET_FLATTEN_APEX), true)
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
 else
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_flatten_apex.mk)
+endif
 endif
 
 # Move Wi-Fi modules to vendor.
