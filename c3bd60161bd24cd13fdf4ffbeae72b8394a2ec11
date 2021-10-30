@@ -16,6 +16,24 @@
       "message": "honestly I and rituj were against it, might wanna reconsider. OEMs do it differently, its more of a floating nav bar for them, so might be a no no from my side this time.",
       "revId": "c3bd60161bd24cd13fdf4ffbeae72b8394a2ec11",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cff54c4_0a4a6a76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-10-30T04:50:08Z",
+      "side": 1,
+      "message": "if you wanna port what OOS or others do im all for it",
+      "parentUuid": "aff0d558_73563447",
+      "revId": "c3bd60161bd24cd13fdf4ffbeae72b8394a2ec11",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
