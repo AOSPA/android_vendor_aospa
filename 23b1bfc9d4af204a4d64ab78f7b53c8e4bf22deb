@@ -87,6 +87,24 @@
       "message": "This is absolutely needed - we need reduction in size to test out builds for device-specific functionality",
       "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acf19a59_cd2c3e68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-10-31T16:35:23Z",
+      "side": 1,
+      "message": "\"faster to build\" seems wrong to me - you dont build prebuilt apps, you just copy them. aosp counterparts however have to be built",
+      "parentUuid": "2bf9d019_c902e177",
+      "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
