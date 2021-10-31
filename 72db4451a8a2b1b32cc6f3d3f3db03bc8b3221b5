@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8b101193_8413bb30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T15:20:19Z",
+      "side": 1,
+      "message": "I did check these SEPolicy changes for almost a week and can safely assume everything I dropped is not effecting functionality as far as I have tested.",
+      "parentUuid": "d98eb13e_2ac2fec1",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7c06f5ce_b2ec6f13",
         "filename": "products/vayu/aospa_vayu.mk",
         "patchSetId": 1
