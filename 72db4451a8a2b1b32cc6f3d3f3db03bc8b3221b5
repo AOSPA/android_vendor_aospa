@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3a84280_c4d51fa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-10-31T15:06:59Z",
+      "side": 1,
+      "message": "https://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/8aa90d1028c49006166b5691ee69c67aaef79bcc\nRequires better commit message\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/15d72247aef006ac110c230da4e94166ef129d3e\nDrop the import in-tree and either include hw/qcom/gps makefile, or use GPS common component\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/d27779ae67e8919d00cb3706f9bfbc1c22b8550a\nBetter commit message would be: \"vayu: Move includes to system/libbase.\"\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/9f5b01f441a75925c85c50546355ca277f3d7733#diff-e1eb90db9dade1176a4d0ac45ada2a498f2fed026944fb89151333c69731c1f4L2\nSome drops make no sense [maybe someone else can help you out with this]\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/blob/pa/device.mk#L359\nDoesn\u0027t make sense to use libperfmgr on CAF since BoostFramework and the QTI Perf stack is more than enough in my opinion\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/blob/pa/device.mk#L443\nCleanup Soong namespaces for the ones that you include with the AOSPA common stack i.e. bluetooth (bt)\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/blob/pa/BoardConfig.mk#L45\nShould be device board name and not SoC codename. (Ref - https://cs.android.com/android/platform/superproject/+/master:build/make/core/main.mk;l\u003d323?q\u003dTARGET_BOOTLOADER_BOARD_NAME)\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/blob/master/BoardConfig.mk#L143\nCan be dropped since you already referenced the same flag in device.mk\n\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/blob/pa/BoardConfig.mk#L113\nWould rather have you to not reserve partition sizes until needed, (for builds with GMS) the build system will allocate space accordingly.\n",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7c06f5ce_b2ec6f13",
