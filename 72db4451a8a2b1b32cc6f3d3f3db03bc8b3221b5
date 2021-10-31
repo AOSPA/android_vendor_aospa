@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d98eb13e_2ac2fec1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-10-31T15:17:35Z",
+      "side": 1,
+      "message": "As for the sepolicy issues, I am not the right person to ask because I myself do not have a proper understanding of neverallows. \n\nAs for the Soong namespacing, don\u0027t keep the redundant Soong namespaces in the tree.",
+      "parentUuid": "5f1060db_48786ea7",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7c06f5ce_b2ec6f13",
         "filename": "products/vayu/aospa_vayu.mk",
         "patchSetId": 1
