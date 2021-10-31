@@ -16,6 +16,24 @@
       "message": "Maitreya, it would take a bit of time to review your trees. I\u0027ll get back to you on TG around 6th-7th Nov (After diwali). Will review then, have a nice day",
       "revId": "5771b9c17054f063025794a67aa28b951fc428e8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbc38ca7_91c68d53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T16:10:07Z",
+      "side": 1,
+      "message": "Got it, I have resolved the current issues. Will await your response next week.",
+      "parentUuid": "89e599de_efaf6c6e",
+      "revId": "5771b9c17054f063025794a67aa28b951fc428e8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
