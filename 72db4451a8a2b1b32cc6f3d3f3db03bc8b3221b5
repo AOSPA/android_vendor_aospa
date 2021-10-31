@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a7a551f_9fe94468",
+        "filename": "products/vayu/aospa_vayu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T15:02:49Z",
+      "side": 1,
+      "message": "From the old copyright header, I\u0027ll redo the whole file with new licensing and the other changes as mentioned.",
+      "parentUuid": "7c06f5ce_b2ec6f13",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e3733928_f1aba1b9",
@@ -35,6 +53,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "35fcd5c0_bc7e649f",
+        "filename": "products/vayu/aospa_vayu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T15:02:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3733928_f1aba1b9",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "206c5a09_1a8ad424",
@@ -48,6 +84,24 @@
       "writtenOn": "2021-10-31T14:34:57Z",
       "side": 1,
       "message": "really need this? we might override with pixel fp for everyone",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c615dba5_8324a65c",
+        "filename": "products/vayu/aospa_vayu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T15:02:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "206c5a09_1a8ad424",
       "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
