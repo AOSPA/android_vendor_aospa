@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a46c95e4_0092034d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-10-31T15:18:58Z",
+      "side": 1,
+      "message": "https://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/0e54561dcebb8f940ad8119e1564707653c8b0eb\nHonestly, drop everything related to build fingerprint overrides. We already override that in vendor/aospa.",
+      "revId": "e36b1b5dfac129a1e158a23ba72353905a166283",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
