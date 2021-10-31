@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5f1060db_48786ea7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T15:12:52Z",
+      "side": 1,
+      "message": "I\u0027ll take care of these. But,\n\nAs for SEP drops:\nhttps://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/9f5b01f441a75925c85c50546355ca277f3d7733#diff-e1eb90db9dade1176a4d0ac45ada2a498f2fed026944fb89151333c69731c1f4R1 there\u0027s a label just like this right below. https://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/9f5b01f441a75925c85c50546355ca277f3d7733#diff-267d2c2eac9a053a127596fd3b76999b9b61723c7db83d964da50d1c8ea73fe0R37 Labels for files were changed because https://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/9f5b01f441a75925c85c50546355ca277f3d7733#diff-5dfb63294faa0dc5eb17081c1f8b21c4adf7b2822997fa336ea479e789514cd9L5 had core_data_file_type which was causing neverallows in our usage.\n\nAs for the libperf comment:\nI am not, https://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/ae0a03c71935b07c9571432d9bcb5ef4dfbb942e this switches to QTI Perf. We were using libperf from hardware/xiaomi anyways. I\u0027ll look into why we have hardware/google soong imports and drop if needed.\n\nI\u0027ll check up on the rest later.",
+      "parentUuid": "f3a84280_c4d51fa1",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7c06f5ce_b2ec6f13",
         "filename": "products/vayu/aospa_vayu.mk",
         "patchSetId": 1
