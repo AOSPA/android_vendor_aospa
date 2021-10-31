@@ -264,6 +264,7 @@ else
     checkExit
 
     cp -f $OUT/aospa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION.zip
+    echo "Package Complete: $OUT/aospa-$AOSPA_VERSION.zip"
 fi
 echo -e ""
 
