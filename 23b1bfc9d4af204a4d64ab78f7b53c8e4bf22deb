@@ -123,6 +123,24 @@
       "parentUuid": "acf19a59_cd2c3e68",
       "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2da64c19_96a5a550",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-10-31T16:41:13Z",
+      "side": 1,
+      "message": "FWIW 400 MB is 1/3rd of the build. That is quite significant.",
+      "parentUuid": "6ab7795e_13066751",
+      "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
