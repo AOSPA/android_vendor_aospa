@@ -36,3 +36,8 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Enable dex2oat64 to do dexopt
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
+
+# Enable IORap I/O Prefetching
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+
