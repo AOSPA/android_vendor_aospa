@@ -51,6 +51,24 @@
       "message": "https://github.com/AOSP-Master-Vayu/device_xiaomi_vayu/commit/613a6be266cbba1529737c9c15fc0e99349e284a#diff-2703e9e7e831a0565e46fbaaa46405414ca4e31298d643224f2ec52aae48a4c2R32\nyou know you can drop these makefiles, don\u0027t you \n",
       "revId": "5771b9c17054f063025794a67aa28b951fc428e8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a744488c_8270c4f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2021-10-31T18:39:57Z",
+      "side": 1,
+      "message": "I do but these were commited before I merged them in vendor so I didn\u0027t get around it. I\u0027ll fix and push at 7 Nov or well abandon this patch depending on what that day brings.",
+      "parentUuid": "36ca4c95_807238f0",
+      "revId": "5771b9c17054f063025794a67aa28b951fc428e8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
