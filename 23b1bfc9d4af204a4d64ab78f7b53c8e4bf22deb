@@ -105,6 +105,24 @@
       "parentUuid": "2bf9d019_c902e177",
       "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ab7795e_13066751",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-31T16:38:53Z",
+      "side": 1,
+      "message": "400mb difference, eh.",
+      "parentUuid": "acf19a59_cd2c3e68",
+      "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
