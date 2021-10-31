@@ -70,6 +70,23 @@
       "parentUuid": "d832f2ce_44fae612",
       "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a26f0b26_dd59c42a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-10-31T16:28:35Z",
+      "side": 1,
+      "message": "This is absolutely needed - we need reduction in size to test out builds for device-specific functionality",
+      "revId": "23b1bfc9d4af204a4d64ab78f7b53c8e4bf22deb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
