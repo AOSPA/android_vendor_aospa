@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "210d0133_a5a73a7d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-10-31T16:27:15Z",
+      "side": 1,
+      "message": "ref - https://source.codeaurora.org/quic/la/device/qcom/qssi/commit/?h\u003dLA.QSSI.12.0.r1-04900.03-qssi.0\u0026id\u003d1167fae4bc230edd3c8d53d5ffae5f33c8cca69d",
+      "revId": "a960bb9ddcb456f66a8741975bcdf0aa415bc0c4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
