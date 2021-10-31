@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c06f5ce_b2ec6f13",
+        "filename": "products/vayu/aospa_vayu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-31T14:34:57Z",
+      "side": 1,
+      "message": "Arrow?",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3733928_f1aba1b9",
+        "filename": "products/vayu/aospa_vayu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-31T14:34:57Z",
+      "side": 1,
+      "message": "follow licensing as per op9",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "206c5a09_1a8ad424",
+        "filename": "products/vayu/aospa_vayu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-10-31T14:34:57Z",
+      "side": 1,
+      "message": "really need this? we might override with pixel fp for everyone",
+      "revId": "72db4451a8a2b1b32cc6f3d3f3db03bc8b3221b5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
