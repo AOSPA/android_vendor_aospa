@@ -32,7 +32,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 $(call inherit-product, device/qcom/common/common.mk)
 
 # Include definitions for Snapdragon Clang
-$(call inherit-product, vendor/qcom/sdclang/SnapdragonClang.mk)
+$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
 
 # Include Overlay makefile.
 $(call inherit-product, vendor/aospa/overlay/overlays.mk)
