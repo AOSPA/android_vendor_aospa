@@ -16,6 +16,24 @@
       "message": "seems fine to me",
       "revId": "6dae4374abbc005db62029da9789e6b8f3308c6d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4afbe34b_d4f32ec3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000686
+      },
+      "writtenOn": "2021-10-31T08:48:38Z",
+      "side": 1,
+      "message": "isn\u0027t renderscript deprecated in A12? any reason why the libs are pinned?",
+      "parentUuid": "03abde92_990891de",
+      "revId": "6dae4374abbc005db62029da9789e6b8f3308c6d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
