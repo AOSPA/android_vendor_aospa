@@ -1,0 +1,8 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/device_google_raviole",
+        "target_path":  "device/google/raviole",
+        "revision":     "sapphire"
+    }
+]
