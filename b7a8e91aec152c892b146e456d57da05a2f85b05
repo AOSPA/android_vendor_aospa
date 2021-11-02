@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ebd7cf1_9058301b",
+        "filename": "products/gs101/aospa_gs101.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-02T07:29:20Z",
+      "side": 1,
+      "message": "For Pixel 6 for now, pro can use a separate makefile i guess",
+      "revId": "b7a8e91aec152c892b146e456d57da05a2f85b05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74696970_1c53b759",
+        "filename": "products/gs101/aospa_gs101.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-02T07:29:20Z",
+      "side": 1,
+      "message": "Not sure yet",
+      "revId": "b7a8e91aec152c892b146e456d57da05a2f85b05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
