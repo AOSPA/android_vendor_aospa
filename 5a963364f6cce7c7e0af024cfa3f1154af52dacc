@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "972ea3d0_323a28bf",
+        "filename": "products/gs101/aospa_raviole.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-11-02T19:52:17Z",
+      "side": 1,
+      "message": "ah yes, oneplus\u0027s new device",
+      "revId": "5a963364f6cce7c7e0af024cfa3f1154af52dacc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
