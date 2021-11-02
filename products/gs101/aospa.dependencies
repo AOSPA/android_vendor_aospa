@@ -1,0 +1,8 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/device_google_gs101",
+        "target_path":  "device/google/gs101",
+        "revision":     "sapphire"
+    }
+]
