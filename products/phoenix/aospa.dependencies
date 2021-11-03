@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_device_xiaomi_phoenix",
+        "target_path":  "device/xiaomi/phoenix",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_kernel_xiaomi_sm6150",
+        "target_path":  "kernel/xiaomi/sm6150",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-855"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-855"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-phoenix/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-855"
+    }
+]
