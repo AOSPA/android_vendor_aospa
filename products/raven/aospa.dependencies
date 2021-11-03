@@ -1,0 +1,32 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_google_raviole",
+        "target_path":  "device/google/raviole",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_google_raviole-kernel",
+        "target_path":  "device/google/raviole-kernel",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_google_gs101",
+        "target_path":  "device/google/gs101",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "github",
+        "repository":   "Sirhc95/android_hardware_google_pixel",
+        "target_path":  "hardware/google/pixel",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "device/google/raviole-kernel",
+        "target_path":  "device/google/raviole-kernel",
+        "revision":     "refs/tags/android-12.0.0_r13"
+    }
+]
