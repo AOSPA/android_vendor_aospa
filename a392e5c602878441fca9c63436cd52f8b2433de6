@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae41388b_227c40a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-11-03T09:17:31Z",
+      "side": 1,
+      "message": "does it need hardware repos to compile or you going vendorless?",
+      "revId": "a392e5c602878441fca9c63436cd52f8b2433de6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
