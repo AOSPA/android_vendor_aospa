@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea571389_a31931a8",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000443
+      },
+      "writtenOn": "2021-11-03T05:53:46Z",
+      "side": 0,
+      "message": "This still needs to enable/support window level blur",
+      "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
