@@ -16,6 +16,24 @@
       "message": "does it need hardware repos to compile or you going vendorless?",
       "revId": "a392e5c602878441fca9c63436cd52f8b2433de6",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e9b41ba_175bfc98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-03T20:26:33Z",
+      "side": 1,
+      "message": "gs101 requires hardware repos afaik",
+      "parentUuid": "ae41388b_227c40a0",
+      "revId": "a392e5c602878441fca9c63436cd52f8b2433de6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
