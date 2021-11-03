@@ -16,6 +16,24 @@
       "message": "This still needs to enable/support window level blur",
       "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9812b6ce_63555e7a",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000443
+      },
+      "writtenOn": "2021-11-03T06:04:37Z",
+      "side": 0,
+      "message": "For reference: https://github.com/aex-tmp/platform_frameworks_native/blob/43e0d2580f7135619c68eb0f71efddb081cba034/services/surfaceflinger/SurfaceFlinger.cpp#L448L453",
+      "parentUuid": "ea571389_a31931a8",
+      "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
