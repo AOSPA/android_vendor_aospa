@@ -34,6 +34,24 @@
       "parentUuid": "ea571389_a31931a8",
       "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c00ce284_0a6cae9c",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-11-03T09:19:59Z",
+      "side": 0,
+      "message": "Makes sense, thanks!",
+      "parentUuid": "9812b6ce_63555e7a",
+      "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
