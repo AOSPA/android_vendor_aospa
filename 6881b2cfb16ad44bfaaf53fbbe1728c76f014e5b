@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cc2b500_2ada6c62",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-11-04T16:37:24Z",
+      "side": 1,
+      "message": "so the \u0027release\u0027 name tag would be removed from zip and that\u0027s about it, right?",
+      "revId": "6881b2cfb16ad44bfaaf53fbbe1728c76f014e5b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
