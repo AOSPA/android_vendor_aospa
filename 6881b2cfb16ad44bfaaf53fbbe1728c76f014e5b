@@ -34,6 +34,40 @@
       "parentUuid": "6cc2b500_2ada6c62",
       "revId": "6881b2cfb16ad44bfaaf53fbbe1728c76f014e5b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d1ec2aa_65457c89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-11-04T23:34:32Z",
+      "side": 1,
+      "message": "Any changes here will impact existing automation in build.sh and on Jenkins",
+      "revId": "6881b2cfb16ad44bfaaf53fbbe1728c76f014e5b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10361f65_789180d0",
+        "filename": "target/product/version.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-11-04T23:34:32Z",
+      "side": 1,
+      "message": "major and minor should always be together for ease of scripting",
+      "revId": "6881b2cfb16ad44bfaaf53fbbe1728c76f014e5b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
