@@ -52,6 +52,24 @@
       "parentUuid": "9812b6ce_63555e7a",
       "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd9de74b_074d370b",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000597
+      },
+      "writtenOn": "2021-11-04T17:04:51Z",
+      "side": 0,
+      "message": "Where are window level blurs actually used for?, I don\u0027t see anything on A12(S) using them.",
+      "parentUuid": "c00ce284_0a6cae9c",
+      "revId": "d8c1664687241d7f273697d6a417ca90cce86ddf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
