@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fb7931a_b6c69098",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-11-04T16:32:00Z",
+      "side": 1,
+      "message": "AOSPASettingsProvider would do better?",
+      "revId": "990908f6d42de8b2384f6f1c6b24f85fb54d65f9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
