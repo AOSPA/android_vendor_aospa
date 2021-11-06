@@ -21,6 +21,7 @@ TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86
 
 # Enable LLVM Support.
 KERNEL_LLVM_SUPPORT := true
+KERNEL_SD_LLVM_SUPPORT ?= true
 
 # Qualcomm kernel.
 TARGET_COMPILE_WITH_MSM_KERNEL := true
