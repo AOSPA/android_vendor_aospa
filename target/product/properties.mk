@@ -44,3 +44,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Enable one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+
+# Fingerprint
+#ifneq ($(TARGET_BUILD_VARIANT),eng)
+BUILD_FINGERPRINT ?= google/raven/raven:12/SD1A.210817.019.C2/7738411:user/release-keys
+#endif
