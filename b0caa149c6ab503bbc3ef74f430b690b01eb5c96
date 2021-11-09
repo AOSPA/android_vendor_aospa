@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "892efbd3_dd271d6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2021-11-09T19:03:14Z",
+      "side": 1,
+      "message": "doesnt work, still default aosp animation",
+      "revId": "b0caa149c6ab503bbc3ef74f430b690b01eb5c96",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
