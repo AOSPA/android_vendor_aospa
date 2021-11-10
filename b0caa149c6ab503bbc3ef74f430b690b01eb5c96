@@ -16,6 +16,23 @@
       "message": "doesnt work, still default aosp animation",
       "revId": "b0caa149c6ab503bbc3ef74f430b690b01eb5c96",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6ab01f5_16996ad9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000580
+      },
+      "writtenOn": "2021-11-10T01:49:12Z",
+      "side": 1,
+      "message": "Still default AOSP bootanimation",
+      "revId": "b0caa149c6ab503bbc3ef74f430b690b01eb5c96",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
