@@ -1,0 +1,80 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_google_raviole",
+        "target_path":  "device/google/raviole",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "device/google/raviole-kernel",
+        "target_path":  "device/google/raviole-kernel",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_google_gs101",
+        "target_path":  "device/google/gs101",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "github",
+        "repository":   "Sirhc95/android_hardware_google_pixel",
+        "target_path":  "hardware/google/pixel",
+        "revision":     "sapphire"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/pixel-sepolicy",
+        "target_path":  "hardware/google/pixel-sepolicy",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/gchips",
+        "target_path":  "hardware/google/gchips",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/graphics/common",
+        "target_path":  "hardware/google/graphics/common",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/graphics/gs101",
+        "target_path":  "hardware/google/graphics/gs101",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/interfaces",
+        "target_path":  "hardware/google/interfaces",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/broadcom/wlan",
+        "target_path":  "hardware/broadcom/wlan",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/external/armnn",
+        "target_path":  "external/armnn",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/external/android-nn-driver",
+        "target_path":  "external/android-nn-driver",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/external/ComputeLibrary",
+        "target_path":  "external/ComputeLibrary",
+        "revision":     "refs/tags/android-12.1.0_r5"
+    }
+]
