@@ -16,6 +16,23 @@
       "message": "We need to think about a good use for power button if assistant isn´t enabled, but never change the power combo, it´s too inconsistent and goes against the new idea on Android 12.",
       "revId": "ee3145a928ff0f68dd835fa2f392c13bc1657ac9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ee78848_1c97e57e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2021-11-12T13:54:03Z",
+      "side": 1,
+      "message": "Also I wouldn´t even do this, since if the user enables assistant again the power button behaviour will change and that´s too much of caos.\n\nDesigners think the current idea is executed correctly, we should keep it at it´s.",
+      "revId": "ee3145a928ff0f68dd835fa2f392c13bc1657ac9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
