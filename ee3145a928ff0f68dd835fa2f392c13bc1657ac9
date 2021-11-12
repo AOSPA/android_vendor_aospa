@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e28e77f5_b25aa455",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2021-11-12T13:50:01Z",
+      "side": 1,
+      "message": "We need to think about a good use for power button if assistant isn´t enabled, but never change the power combo, it´s too inconsistent and goes against the new idea on Android 12.",
+      "revId": "ee3145a928ff0f68dd835fa2f392c13bc1657ac9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
