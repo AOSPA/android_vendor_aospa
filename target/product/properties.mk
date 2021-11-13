@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Blurs
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
     ro.sf.blurs_are_expensive=1 \
     ro.surface_flinger.supports_background_blur=1
 
@@ -26,15 +26,15 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
 # Disable blur on app-launch
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
     ro.launcher.blur.appLaunch=0
 
 # Disable async MTE on system_server
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
     arm64.memtag.process.system_server=off
 
 # Enable dex2oat64 to do dexopt
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
 # Enable IORap I/O Prefetching
