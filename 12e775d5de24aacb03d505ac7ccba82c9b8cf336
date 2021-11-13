@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96de0d41_80e82812",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-13T15:01:54Z",
+      "side": 1,
+      "message": "Google puts this on vendor.",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a5688ef_329edaeb",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-13T15:01:54Z",
+      "side": 1,
+      "message": "matches Qualcomm and Google",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0e539a6_ee4a1d6a",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-13T15:01:54Z",
+      "side": 1,
+      "message": "matches Qualcomm",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c0bbcbe_c861f4bc",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-13T15:01:54Z",
+      "side": 1,
+      "message": "matches Qualcomm, Google puts this on vendor. can we verify?",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
