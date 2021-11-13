@@ -16,6 +16,23 @@
       "message": "can you please give the author to hampus",
       "revId": "89edac255afd610a94df840d7585d7782f75f2c1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3187a7cd_d3320644",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-13T15:51:34Z",
+      "side": 1,
+      "message": "seems to be small in size compared to the source files and the Ruby jpg.",
+      "revId": "89edac255afd610a94df840d7585d7782f75f2c1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
