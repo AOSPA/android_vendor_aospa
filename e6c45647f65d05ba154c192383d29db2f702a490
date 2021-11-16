@@ -16,6 +16,24 @@
       "message": "Vishal and Anay are we doing translations this way or directly adding to framework and apps for S with crowdin?",
       "revId": "e6c45647f65d05ba154c192383d29db2f702a490",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e65d31e6_eacc8a17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-11-16T03:51:34Z",
+      "side": 1,
+      "message": "yup, i planned on creating TranslationSettingsOverlays and so on for crowdin so things get easier.",
+      "parentUuid": "2a069c3a_b481f3e3",
+      "revId": "e6c45647f65d05ba154c192383d29db2f702a490",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
