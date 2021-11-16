@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "839fc00e_374d0d66",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2021-11-16T11:56:45Z",
+      "side": 1,
+      "message": "CAF puts it too",
+      "parentUuid": "96de0d41_80e82812",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6a5688ef_329edaeb",
         "filename": "target/product/properties.mk",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "writtenOn": "2021-11-13T15:01:54Z",
       "side": 1,
       "message": "matches Qualcomm and Google",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7360c188_f17a57ec",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2021-11-16T11:56:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a5688ef_329edaeb",
       "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -69,6 +105,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5913cad5_bf55ecfd",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2021-11-16T11:56:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0e539a6_ee4a1d6a",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0c0bbcbe_c861f4bc",
@@ -82,6 +136,24 @@
       "writtenOn": "2021-11-13T15:01:54Z",
       "side": 1,
       "message": "matches Qualcomm, Google puts this on vendor. can we verify?",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5278c44_151a2e80",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2021-11-16T11:56:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c0bbcbe_c861f4bc",
       "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
