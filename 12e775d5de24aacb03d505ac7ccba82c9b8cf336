@@ -53,6 +53,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "00756ef6_525c7132",
+        "filename": "target/product/properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2021-11-16T11:57:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "839fc00e_374d0d66",
+      "revId": "12e775d5de24aacb03d505ac7ccba82c9b8cf336",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6a5688ef_329edaeb",
