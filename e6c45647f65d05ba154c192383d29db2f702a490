@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a069c3a_b481f3e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-16T00:39:09Z",
+      "side": 1,
+      "message": "Vishal and Anay are we doing translations this way or directly adding to framework and apps for S with crowdin?",
+      "revId": "e6c45647f65d05ba154c192383d29db2f702a490",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
