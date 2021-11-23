@@ -86,6 +86,23 @@
       "message": "Didn\u0027t we do that in our pixel vendor previously?\nhttps://github.com/ThankYouMario/android_vendor_google_pixel/",
       "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c74be6d_8eeda95e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-11-23T16:04:47Z",
+      "side": 1,
+      "message": "I agree with Fabian, this seems more suited for a Pixel repo. I would also pull in the Pixel Sounds app to replace the AOSP picker",
+      "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
