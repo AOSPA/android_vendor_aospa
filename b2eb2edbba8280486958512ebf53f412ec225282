@@ -16,6 +16,24 @@
       "message": "why ?\u003d\n\ndevices shouldn\u0027t override this",
       "revId": "b2eb2edbba8280486958512ebf53f412ec225282",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e14953e_b48a5c6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-23T03:34:48Z",
+      "side": 1,
+      "message": "It was referenced from aosp, honestly didn\u0027t think about it",
+      "parentUuid": "d1ed461c_ec8f677d",
+      "revId": "b2eb2edbba8280486958512ebf53f412ec225282",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
