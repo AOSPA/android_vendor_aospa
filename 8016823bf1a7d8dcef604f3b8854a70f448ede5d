@@ -34,6 +34,23 @@
       "parentUuid": "353c3a91_b7c7219a",
       "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd0a6651_55be463c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-23T03:37:24Z",
+      "side": 1,
+      "message": "PS2: Modified the OGG metadata to display the names without the usage of PixelSounds app",
+      "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
