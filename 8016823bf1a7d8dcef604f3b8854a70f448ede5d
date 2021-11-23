@@ -69,6 +69,23 @@
       "parentUuid": "94aa0fd0_2dace670",
       "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "433ec14b_49e9d165",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2021-11-23T09:41:31Z",
+      "side": 1,
+      "message": "Didn\u0027t we do that in our pixel vendor previously?\nhttps://github.com/ThankYouMario/android_vendor_google_pixel/",
+      "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
