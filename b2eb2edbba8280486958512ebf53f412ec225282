@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1ed461c_ec8f677d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-11-23T03:29:58Z",
+      "side": 1,
+      "message": "why ?\u003d\n\ndevices shouldn\u0027t override this",
+      "revId": "b2eb2edbba8280486958512ebf53f412ec225282",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
