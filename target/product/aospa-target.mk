@@ -28,6 +28,9 @@ TARGET_FS_CONFIG_GEN += vendor/aospa/target/config/config.fs
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
      vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml
 
+# Include system audio
+$(call inherit-product, vendor/aospa/prebuilt/data/sounds/AllAudio.mk)
+
 # Include Common Qualcomm Device Tree.
 $(call inherit-product, device/qcom/common/common.mk)
 
