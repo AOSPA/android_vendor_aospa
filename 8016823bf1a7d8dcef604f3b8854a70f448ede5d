@@ -103,6 +103,42 @@
       "message": "I agree with Fabian, this seems more suited for a Pixel repo. I would also pull in the Pixel Sounds app to replace the AOSP picker",
       "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e38e2d4_e47000ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-24T04:47:20Z",
+      "side": 1,
+      "message": "You sure? Pixel sounds aren\u0027t really beneficial unless you have the entire library of sounds",
+      "parentUuid": "9c74be6d_8eeda95e",
+      "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64112360_c29a38ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2021-11-24T04:47:20Z",
+      "side": 1,
+      "message": "Had no clue, although those are a bit outdated, plus the goal is to have a custom aospa audio-set (not just pixel audio) eventually",
+      "parentUuid": "433ec14b_49e9d165",
+      "revId": "8016823bf1a7d8dcef604f3b8854a70f448ede5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
