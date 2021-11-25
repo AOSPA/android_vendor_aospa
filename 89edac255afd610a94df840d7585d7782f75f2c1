@@ -33,6 +33,24 @@
       "message": "seems to be small in size compared to the source files and the Ruby jpg.",
       "revId": "89edac255afd610a94df840d7585d7782f75f2c1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41aaed8b_96cae05b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2021-11-25T00:10:27Z",
+      "side": 1,
+      "message": "Original Ruby was 11MB ad it was 3200 x 3200.\n\nThe original one as PNG is about 1476 x 3200 and the original size is 6.1MB with 96 ppp and 24 bits.\n\nThe jpg version has same specs but it´s 4.3MB, with the quality settings to the maximum.",
+      "parentUuid": "3187a7cd_d3320644",
+      "revId": "89edac255afd610a94df840d7585d7782f75f2c1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
