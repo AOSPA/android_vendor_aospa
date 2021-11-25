@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "546e2c7c_2eee5273",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2021-11-25T19:06:13Z",
+      "side": 1,
+      "message": "Adding the filename to prebuilts solved the issue. I also made use of apex_defaults to get rid of redundant definitions.\n\nfilename: \"bootanimation.zip\"",
+      "revId": "7609790d53b5a3261b86985102bd8f077c90d263",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
