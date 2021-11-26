@@ -70,6 +70,30 @@
       },
       "revId": "086326dc432b85fc8efdd2562250f665db007f65",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1e196ed_848cef34",
+        "filename": "target/board/BoardConfigSoong.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-11-26T15:18:17Z",
+      "side": 1,
+      "message": "i already fixed it u slow ass\n\nsurprised it worked tho",
+      "parentUuid": "c787ae36_a0690dbf",
+      "range": {
+        "startLine": 27,
+        "startChar": 50,
+        "endLine": 27,
+        "endChar": 55
+      },
+      "revId": "086326dc432b85fc8efdd2562250f665db007f65",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
