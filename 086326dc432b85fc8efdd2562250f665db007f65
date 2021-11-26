@@ -46,6 +46,30 @@
       },
       "revId": "086326dc432b85fc8efdd2562250f665db007f65",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c787ae36_a0690dbf",
+        "filename": "target/board/BoardConfigSoong.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-11-26T14:48:37Z",
+      "side": 1,
+      "message": "no @andrey",
+      "parentUuid": "b0cf094f_710f5a75",
+      "range": {
+        "startLine": 27,
+        "startChar": 50,
+        "endLine": 27,
+        "endChar": 55
+      },
+      "revId": "086326dc432b85fc8efdd2562250f665db007f65",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
