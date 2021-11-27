@@ -1,0 +1,62 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_device_xiaomi_equuleus",
+        "target_path":  "device/xiaomi/equuleus",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_device_xiaomi_sdm845-common",
+        "target_path":  "device/xiaomi/sdm845-common",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_kernel_xiaomi_sdm845",
+        "target_path":  "kernel/xiaomi/sdm845",
+        "revision":     "los191-t"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-845-shim"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/external_qtimapper-shim",
+        "target_path":  "external/qtimapper-shim",
+        "revision":     "master"
+    },
+    {
+        "remote":       "caf_system",
+        "repository":   "platform/vendor/nxp/opensource/halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "nfc.vendor.lnx.2.1.r7-rel"
+    },
+    {
+        "remote":       "caf_system",
+        "repository":   "platform/vendor/nxp/opensource/hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "nfc.vendor.lnx.2.1.r7-rel"
+    }
+]
