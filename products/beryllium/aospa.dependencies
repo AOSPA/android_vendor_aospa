@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_device_xiaomi_beryllium",
+        "target_path":  "device/xiaomi/beryllium",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_device_xiaomi_sdm845-common",
+        "target_path":  "device/xiaomi/sdm845-common",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_kernel_xiaomi_sdm845",
+        "target_path":  "kernel/xiaomi/sdm845",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/proprietary_vendor_xiaomi-ifaa",
+        "target_path":  "vendor/xiaomi-ifaa",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-r-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-r-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-r-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_vendor_qcom_opensource_fm-commonsys",
+        "target_path":  "vendor/qcom/opensource/commonsys/fm",
+        "revision":     "sapphire"
+    }
+]
