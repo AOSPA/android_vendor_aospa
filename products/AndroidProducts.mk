@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2021-2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,16 +16,28 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
+    $(LOCAL_DIR)/beryllium/aospa_beryllium.mk \
+    $(LOCAL_DIR)/dipper/aospa_dipper.mk \
+    $(LOCAL_DIR)/equuleus/aospa_equuleus.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
-    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
+    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
+    $(LOCAL_DIR)/perseus/aospa_perseus.mk \
+    $(LOCAL_DIR)/polaris/aospa_polaris.mk \
+    $(LOCAL_DIR)/ursa/aospa_ursa.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
+    aospa_beryllium-userdebug \
+    aospa_dipper-userdebug \
+    aospa_equuleus-userdebug \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
-    aospa_oneplus9pro-userdebug
+    aospa_oneplus9pro-userdebug \
+    aospa_perseus-userdebug \
+    aospa_polaris-userdebug \
+    aospa_ursa-userdebug
