@@ -1,2 +1,5 @@
 # AOSPA Power HAL
 vendor.aospa.power.IPowerFeature/default    u:object_r:hal_power_service:s0
+
+# Pocket Judge
+pocket                                    u:object_r:pocket_service:s0
