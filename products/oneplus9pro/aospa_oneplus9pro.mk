@@ -36,4 +36,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# Boot animation resolution.
+TARGET_BOOT_ANIMATION_RES := 1440
+
 endif
