@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
+    FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontOnePlusOverlay  \
     FontOppoSansOverlay \
