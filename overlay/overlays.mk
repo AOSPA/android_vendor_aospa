@@ -15,6 +15,10 @@
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAFrameworksOverlay \
+    AOSPAFrameworksTranslation \
+    AOSPASettingsTranslation \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
-    ParanoidLauncherOverlay
+    AOSPASystemUITranslation \
+    ParanoidLauncherOverlay \
+    ParanoidLauncherTranslation
