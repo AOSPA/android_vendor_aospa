@@ -16,10 +16,16 @@
 PRODUCT_PACKAGES += \
     AOSPABlackThemeOverlay \
     AOSPAFrameworksOverlay \
+<<<<<<< HEAD   (0a28b0 aospa: interfaces: add powershare HAL)
     AOSPAImmersiveNavigationOverlay \
     AOSPASettingsOverlay \
+=======
+    AOSPAFrameworksTranslation \
+    AOSPASettingsTranslation \
+>>>>>>> CHANGE (e6c3f1 vendor: aospa: Create dummy overlays for crowdin infrastruct)
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
+<<<<<<< HEAD   (0a28b0 aospa: interfaces: add powershare HAL)
     AOSPAWifiOverlay \
     FontGoogleSansLatoOverlay \
     FontHarmonySansOverlay \
@@ -61,3 +67,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aospa/overlay/static
 PRODUCT_PACKAGE_OVERLAYS += vendor/aospa/overlay/static
+=======
+    AOSPASystemUITranslation \
+    ParanoidLauncherOverlay \
+    ParanoidLauncherTranslation
+>>>>>>> CHANGE (e6c3f1 vendor: aospa: Create dummy overlays for crowdin infrastruct)
