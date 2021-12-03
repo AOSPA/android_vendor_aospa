@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The server that hosts the update files -->
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Update to date -->
+    <!-- Checking -->
+    <!-- Update available -->
+    <!-- Update download and install -->
+    <!-- Notifications -->
+</resources>
