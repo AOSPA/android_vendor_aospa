@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
 
 # Paranoid Packages
 PRODUCT_PACKAGES += \
+    ParanoidHub \
     ParanoidPapers \
     ParanoidQuickStep
 
