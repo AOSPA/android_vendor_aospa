@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f052bd6_5f375182",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-12-04T09:49:09Z",
+      "side": 1,
+      "message": "wanna gaurd it maybe for user?",
+      "revId": "b3bb06aab64b99aa02cedc86ab7b4a3c34e28ab8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
