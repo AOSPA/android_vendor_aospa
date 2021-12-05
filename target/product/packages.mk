@@ -28,6 +28,11 @@ PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep
 
+# Paranoid Packages (OTA)
+ifeq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_PACKAGES += ParanoidHub
+endif
+
 # Theme Picker
 PRODUCT_PACKAGES += \
     ThemePicker
