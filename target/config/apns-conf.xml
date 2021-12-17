@@ -25684,7 +25684,12 @@
       mmsc="http://mms.celcom.net.my"
       type="default,supl,mms"
   />
-
+  <apn carrier="Unifi"
+      mcc="502"
+      mnc="153"
+      apn="unifi"
+      type="default,supl"
+  />
   <apn carrier="Telstra Internet"
       mcc="505"
       mnc="01"
