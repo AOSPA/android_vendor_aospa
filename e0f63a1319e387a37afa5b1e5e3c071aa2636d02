@@ -35,6 +35,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "00b3a33c_5aba98bd",
+        "filename": "extensions/framework/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-12-23T09:01:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "43104197_6a54a731",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88fac746_0d47c092",
@@ -52,6 +70,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e84239de_f767edad",
+        "filename": "extensions/framework/src/co/aospa/framework/preference/SecureSettingSwitchPreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-12-23T09:01:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88fac746_0d47c092",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6e3f3ed4_81f3c594",
@@ -65,6 +101,24 @@
       "writtenOn": "2021-12-23T07:40:23Z",
       "side": 1,
       "message": "whitespace",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0a41372_af8f5aae",
+        "filename": "extensions/framework/src/co/aospa/framework/preference/SecureSettingsStore.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-12-23T09:01:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6e3f3ed4_81f3c594",
       "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
