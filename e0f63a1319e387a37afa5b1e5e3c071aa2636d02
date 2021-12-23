@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0907652d_d3263215",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-12-23T07:40:23Z",
+      "side": 1,
+      "message": "looks good otherwise.",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43104197_6a54a731",
+        "filename": "extensions/framework/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-12-23T07:40:23Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88fac746_0d47c092",
+        "filename": "extensions/framework/src/co/aospa/framework/preference/SecureSettingSwitchPreference.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-12-23T07:40:23Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e3f3ed4_81f3c594",
+        "filename": "extensions/framework/src/co/aospa/framework/preference/SecureSettingsStore.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-12-23T07:40:23Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "e0f63a1319e387a37afa5b1e5e3c071aa2636d02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
