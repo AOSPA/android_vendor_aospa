@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea29aef6_f31f7b4d",
+        "filename": "products/jasmine_sprout/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-12-25T22:46:14Z",
+      "side": 1,
+      "message": "this will need to be fleshed out.",
+      "revId": "bc4a0df8e5417dcd5a6b9737f98e2e6c2464cf4c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
