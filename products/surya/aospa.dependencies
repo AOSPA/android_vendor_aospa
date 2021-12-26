@@ -1,0 +1,68 @@
+[
+    {
+       "remote"      : "aospa",
+       "repository"  : "AOSPA/device_xiaomi_surya",
+       "target_path" : "device/xiaomi/surya",
+       "revision"    : "sapphire"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "Surya-Project/device_xiaomi_J20C-sepolicy",
+       "target_path" : "device/xiaomi/J20C-sepolicy",
+       "revision"    : "sapphire"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "Surya-Project/android_kernel_xiaomi_surya",
+       "target_path" : "kernel/xiaomi/surya",
+       "revision"    : "sapphire"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "Surya-Project/vendor_xiaomi_surya",
+       "target_path" : "vendor/xiaomi/surya",
+       "revision"    : "sapphire"
+    },
+    {
+       "remote"      : "github",
+       "repository"  : "Surya-Project/packages_resources_devicesettings",
+       "target_path" : "packages/resources/devicesettings",
+       "revision"    : "sapphire"
+    },
+    {
+       "remote"      : "gitlab",
+       "repository"  : "CHRISL7/firmware_xiaomi_surya",
+       "target_path" : "firmware/xiaomi/surya",
+       "revision"    : "global"
+    },
+    {
+       "remote"      : "aospa",
+       "repository"  : "AOSPA/android_hardware_qcom_audio",
+       "target_path" : "vendor/qcom/opensource/audio-hal/primary-hal",
+       "revision"    : "sapphire-855"
+    },
+    {
+       "remote"      : "aospa",
+       "repository"  : "AOSPA/android_hardware_qcom_display",
+       "target_path" : "hardware/qcom/display",
+       "revision"    : "sapphire-855"
+    },
+    {
+       "remote"      : "aospa",
+       "repository"  : "AOSPA/android_hardware_qcom_gps",
+       "target_path" : "hardware/qcom/gps",
+       "revision"    : "sapphire-855"
+    },
+    {
+       "remote"      : "aospa",
+       "repository"  : "AOSPA/android_hardware_qcom_media",
+       "target_path" : "hardware/qcom/media",
+       "revision"    : "sapphire-855"
+    },
+    {
+       "remote"      : "aospa",
+       "repository"  : "AOSPA/android_hardware_xiaomi",
+       "target_path" : "hardware/xiaomi",
+       "revision"    : "sapphire"
+    }
+]
