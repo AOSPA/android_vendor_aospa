@@ -1,0 +1,57 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "imjyotiraditya/device_xiaomi_odin",
+        "target_path":  "device/xiaomi/odin",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "imjyotiraditya/device_xiaomi_odin-fw",
+        "target_path":  "device/xiaomi/odin-fw",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "imjyotiraditya/kernel_xiaomi_odin",
+        "target_path":  "kernel/xiaomi/odin",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "imjyotiraditya/vendor_xiaomi_odin",
+        "target_path":  "vendor/xiaomi/odin",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "android_prebuilts_clang-standalone",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "13",
+        "clone-depth":  "1"
+    }
+]
