@@ -39,7 +39,7 @@ import git
 from git.exc import GitCommandError
 
 BASE_URL = "https://source.codeaurora.org/quic/la/"
-WORKING_DIR = "{0}/../../..".format(os.path.dirname(os.path.realpath(__file__)))
+WORKING_DIR = "{0}/../../../..".format(os.path.dirname(os.path.realpath(__file__)))
 MANIFEST_NAME = "aospa.xml"
 REPOS_TO_MERGE = {}
 REPOS_RESULTS = {}

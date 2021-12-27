@@ -11,7 +11,7 @@ function cafmerge()
     target_branch=$1
     set_stuff_for_environment
     T=$(gettop)
-    python3 $T/vendor/aospa/scripts/merge-caf.py $target_branch
+    python3 $T/vendor/aospa/build/tools/merge-caf.py $target_branch
 }
 
 function repopick()
