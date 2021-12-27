@@ -16,6 +16,24 @@
       "message": "is Ruby right here",
       "revId": "1fea242704e0f3f4ce0738361c9637e761987d8d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8def4091_c228f17e",
+        "filename": "products/apollo/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-12-27T02:08:28Z",
+      "side": 1,
+      "message": "We don\u0027t have a sapphire branch for hardware_xiaomi yet.\n\nhttps://github.com/AOSPA/android_hardware_xiaomi",
+      "parentUuid": "adc6daa9_f45d9ab9",
+      "revId": "1fea242704e0f3f4ce0738361c9637e761987d8d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
