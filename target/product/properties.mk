@@ -42,5 +42,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Fingerprint
 #ifneq ($(TARGET_BUILD_VARIANT),eng)
-BUILD_FINGERPRINT ?= google/raven/raven:12/SD1A.210817.019.C2/7738411:user/release-keys
+BUILD_FINGERPRINT ?= google/raven/raven:12/SQ1D.211205.017/7955197:user/release-keys
 #endif
