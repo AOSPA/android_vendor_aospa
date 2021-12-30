@@ -145,13 +145,6 @@ if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
         m clobber "$CMD"
 fi
 
-# Prep for a installclean build, if requested so
-if [ "$FLAG_INSTALLCLEAN_BUILD" = 'y' ]; then
-        echo -e "${CLR_BLD_BLU}Cleaning compiled image files left from old builds${CLR_RST}"
-        echo -e ""
-        m installclean "$CMD"
-fi
-
 # Sync up, if asked to
 if [ "$FLAG_SYNC" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Downloading the latest source files${CLR_RST}"
@@ -174,6 +167,13 @@ AOSPA_VERSION=$(lunch "aospa_$DEVICE-$BUILD_TYPE" | grep 'AOSPA_VERSION=*' | sed
 lunch "aospa_$DEVICE-$BUILD_TYPE"
 checkExit
 echo -e ""
+
+# Perform installclean, if requested so
+if [ "$FLAG_INSTALLCLEAN_BUILD" = 'y' ]; then
+	echo -e "${CLR_BLD_BLU}Cleaning compiled image files left from old builds${CLR_RST}"
+	echo -e ""
+	m installclean "$CMD"
+fi
 
 # Build away!
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
