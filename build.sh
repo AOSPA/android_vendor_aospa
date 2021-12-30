@@ -165,6 +165,7 @@ echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependenc
 echo -e ""
 AOSPA_VERSION=$(lunch "aospa_$DEVICE-$BUILD_TYPE" | grep 'AOSPA_VERSION=*' | sed 's/.*=//')
 lunch "aospa_$DEVICE-$BUILD_TYPE"
+checkExit
 echo -e ""
 
 # Perform installclean, if requested so
