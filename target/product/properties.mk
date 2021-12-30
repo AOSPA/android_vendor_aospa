@@ -44,3 +44,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 #ifneq ($(TARGET_BUILD_VARIANT),eng)
 BUILD_FINGERPRINT ?= google/raven/raven:12/SQ1D.211205.017/7955197:user/release-keys
 #endif
+
+# Renderthread
+PRODUCT_PRODUCT_PROPERTIES += \
+   debug.hwui.renderer=skiagl \
+   debug.renderengine.backend=skiaglthreaded \
+   renderthread.skia.reduceopstasksplitting=true
