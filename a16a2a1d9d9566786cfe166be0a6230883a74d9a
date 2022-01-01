@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3fe143b_7c27229f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-01-01T17:49:32Z",
+      "side": 1,
+      "message": "do we fork SKIA? if so, we can pick this instead \n\nhttps://skia-review.googlesource.com/c/skia/+/419836\n\notherwise, maybe include a note to remove this in T.",
+      "revId": "a16a2a1d9d9566786cfe166be0a6230883a74d9a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
