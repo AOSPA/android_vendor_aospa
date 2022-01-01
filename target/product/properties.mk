@@ -40,6 +40,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
+# (b/183612348): Enable skia reduceOpsTaskSplitting
+PRODUCT_PROPERTY_OVERRIDES += \
+    renderthread.skia.reduceopstasksplitting?=true
+
 # Fingerprint
 #ifneq ($(TARGET_BUILD_VARIANT),eng)
 BUILD_FINGERPRINT ?= google/raven/raven:12/SQ1D.211205.017/7955197:user/release-keys
