@@ -28,6 +28,6 @@
     <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
 
     <!-- SystemUIFactory component -->
-    <string name="config_systemUIFactoryComponent" translatable="false">org.protonaosp.systemui.CustomSystemUIFactory</string>
+    <string name="config_systemUIFactoryComponent" translatable="false">co.aospa.android.systemui.AospaSystemUIFactory</string>
 
 </resources>
