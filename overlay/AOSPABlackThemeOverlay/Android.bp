@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "AOSPABlackThemeOverlay",
+    product_specific: true,
+    sdk_version: "current",
+    theme: "AOSPABlackThemeOverlay",
+}
