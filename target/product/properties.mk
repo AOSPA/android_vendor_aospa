@@ -40,11 +40,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
-# Fingerprint
-#ifneq ($(TARGET_BUILD_VARIANT),eng)
-BUILD_FINGERPRINT ?= google/raven/raven:12/SQ1D.211205.017/7955197:user/release-keys
-#endif
-
 # Renderthread
 PRODUCT_PRODUCT_PROPERTIES += \
    debug.hwui.renderer=skiagl \
