@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d64a3867_4cff964a",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-01-16T18:42:56Z",
+      "side": 1,
+      "message": "no",
+      "revId": "fedf05d622bcdd1a9aaecc967feca9257c70c0ab",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
