@@ -48,8 +48,13 @@ $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Include GMS, Modules, and Pixel features.
 $(call inherit-product, vendor/google/gms/config.mk)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_r.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
+
+ifeq ($(TARGET_FLATTEN_APEX), false)
+$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s.mk)
+else
+$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s_flatten_apex.mk)
+endif
 
 # Move Wi-Fi modules to vendor.
 PRODUCT_VENDOR_MOVE_ENABLED := true
