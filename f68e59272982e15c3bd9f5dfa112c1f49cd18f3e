@@ -16,6 +16,24 @@
       "message": "Strange, which shell are you using?",
       "revId": "f68e59272982e15c3bd9f5dfa112c1f49cd18f3e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f1c73b0_edb7d828",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000662
+      },
+      "writtenOn": "2022-01-23T14:02:17Z",
+      "side": 1,
+      "message": "bash. I am building AOSPA in the Podman container.",
+      "parentUuid": "41e43496_d79d1298",
+      "revId": "f68e59272982e15c3bd9f5dfa112c1f49cd18f3e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
