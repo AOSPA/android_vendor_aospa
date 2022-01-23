@@ -182,6 +182,9 @@ echo -e ""
 
 # If we aren't in Jenkins, use the engineering tag
 if [ -z "${BUILD_NUMBER}" ]; then
+    if [ -z "${USER}" ]; then
+        export USER=`whoami`
+    fi
     export FILE_NAME_TAG=eng.$USER
 else
     export FILE_NAME_TAG=$BUILD_NUMBER
