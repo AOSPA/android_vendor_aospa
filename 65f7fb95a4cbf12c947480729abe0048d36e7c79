@@ -16,6 +16,23 @@
       "message": "looks good, matches CAF. if we find SDLLVM is better for newer targets, we can expand this but this is a good start. merge when ready",
       "revId": "65f7fb95a4cbf12c947480729abe0048d36e7c79",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc064cc2_6ab8b77e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2022-01-23T17:48:14Z",
+      "side": 1,
+      "message": "Tested with 4.9 kernel\nBuild completed successfully",
+      "revId": "65f7fb95a4cbf12c947480729abe0048d36e7c79",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
