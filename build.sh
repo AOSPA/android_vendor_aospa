@@ -105,12 +105,10 @@ if [ $AOSPA_VARIANT ]; then
     AOSPA_VARIANT=`echo $AOSPA_VARIANT |  tr "[:upper:]" "[:lower:]"`
     if [ "${AOSPA_VARIANT}" = "release" ]; then
         export AOSPA_BUILDTYPE=RELEASE
-    elif [ "${AOSPA_VARIANT}" = "alpha" ]; then
-        export AOSPA_BUILDTYPE=ALPHA
     elif [ "${AOSPA_VARIANT}" = "beta" ]; then
         export AOSPA_BUILDTYPE=BETA
     else
-        echo -e "${CLR_BLD_RED} Unknown AOSPA variant - use alpha, beta or release${CLR_RST}"
+        echo -e "${CLR_BLD_RED} Unknown AOSPA variant - use beta or release${CLR_RST}"
         exit 1
     fi
 fi
