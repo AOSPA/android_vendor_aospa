@@ -1,3 +1,4 @@
+  GNU nano 6.0                                                                          AndroidProducts.mk                                                                                    
 # Copyright (C) 2021 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +16,11 @@
 # Product Makefiles
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
-    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
+    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
+    $(LOCAL_DIR)/vayu/aospa_vayu.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     aospa_oneplus9-userdebug \
-    aospa_oneplus9pro-userdebug
+    aospa_oneplus9pro-userdebug \
+    aospa_vayu-userdebug
