@@ -121,12 +121,6 @@ echo -e ""
 . build/envsetup.sh
 echo -e ""
 
-# Use the thread count specified by user
-CMD=""
-if [ $JOBS ]; then
-  CMD+=" -j$JOBS"
-fi
-
 # Pick the default thread count (allow overrides from the environment)
 if [ -z "$JOBS" ]; then
         if [ "$(uname -s)" = 'Darwin' ]; then
@@ -144,14 +138,14 @@ $(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSI
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Cleaning output files left from old builds${CLR_RST}"
         echo -e ""
-        m clobber"$CMD"
+        m clobber -j"$JOBS"
 fi
 
 # Prep for a installclean build, if requested so
 if [ "$FLAG_INSTALLCLEAN_BUILD" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Cleaning compiled image files left from old builds${CLR_RST}"
         echo -e ""
-        m installclean"$CMD"
+        m installclean -j"$JOBS"
 fi
 
 # Sync up, if asked to
@@ -189,7 +183,7 @@ fi
 
 # Build a specific module
 if [ "${MODULE}" ]; then
-    m $MODULE"$CMD"
+    m $MODULE -j"$JOBS"
     checkExit
 
 # Build signed rom package if specified
@@ -200,7 +194,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
     fi
 
     # Make package for distribution
-    m dist"$CMD"
+    m dist -j"$JOBS"
 
     checkExit
 
@@ -240,7 +234,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
     fi
 # Build rom package
 elif [ "$FLAG_IMG_ZIP" = 'y' ]; then
-    m updatepackage otapackage"$CMD"
+    m updatepackage otapackage -j"$JOBS"
 
     checkExit
 
@@ -248,7 +242,7 @@ elif [ "$FLAG_IMG_ZIP" = 'y' ]; then
     cp -f $OUT/aospa_$DEVICE-img-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION-image.zip
 
 else
-    m otapackage"$CMD"
+    m otapackage -j"$JOBS"
 
     checkExit
 
