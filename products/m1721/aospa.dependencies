@@ -1,0 +1,68 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_device_meizu_m1721",
+        "target_path":  "device/meizu/m1721",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_kernel_meizu_m1721",
+        "target_path":  "kernel/meizu/m1721",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/proprietary_vendor_meizu",
+        "target_path":  "vendor/meizu",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-caf-89xx"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-89xx"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-89xx"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_device_qcom_sepolicy",
+        "target_path":  "device/qcom/sepolicy-legacy",
+        "revision":     "sapphire-legacy-hack"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_system_bt",
+        "target_path":  "system/bt",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_device_qcom_wlan",
+        "target_path":  "device/qcom/wlan",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_vendor_qcom-opensource_fm-commonsys",
+        "target_path":  "vendor/qcom/opensource/commonsys/fm",
+        "revision":     "sapphire"
+    }
+]
