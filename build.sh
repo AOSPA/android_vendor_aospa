@@ -241,12 +241,23 @@ elif [ "${KEY_MAPPINGS}" ]; then
     fi
 # Build rom package
 elif [ "$FLAG_IMG_ZIP" = 'y' ]; then
-    m updatepackage otapackage "$CMD"
+    m otatools target-files-package "$CMD"
 
     checkExit
 
-    cp -f $OUT/aospa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION.zip
-    cp -f $OUT/aospa_$DEVICE-img-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION-image.zip
+    echo -e "${CLR_BLD_BLU}Generating install package${CLR_RST}"
+    ota_from_target_files \
+        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
+        aospa-$AOSPA_VERSION.zip
+
+    checkExit
+
+    echo -e "${CLR_BLD_BLU}Generating fastboot package${CLR_RST}"
+    img_from_target_files \
+        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
+        aospa-$AOSPA_VERSION-image.zip
+
+    checkExit
 
 else
     m otapackage "$CMD"
