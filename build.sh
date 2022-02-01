@@ -193,14 +193,14 @@ elif [ "${KEY_MAPPINGS}" ]; then
         export ANDROID_PW_FILE=$PWFILE
     fi
 
-    # Make package for distribution
-    m dist -j"$JOBS"
+    # Make target-files-package
+    m otatools target-files-package -j"$JOBS"
 
     checkExit
 
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
     sign_target_files_apks -o -d $KEY_MAPPINGS \
-        out/dist/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
+        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
         aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip
 
     checkExit
