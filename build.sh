@@ -236,7 +236,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
         echo -e "${CLR_BLD_BLU}Generating signed fastboot package${CLR_RST}"
         img_from_target_files \
             aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-            aospa-$AOSPA_VERSION-signed-image.zip
+            aospa-$AOSPA_VERSION-image.zip
         checkExit
     fi
 # Build rom package
