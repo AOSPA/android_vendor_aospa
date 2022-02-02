@@ -16,6 +16,23 @@
       "message": "Thanks for submitting and good work, Joyal!\n\nThis commit looks good. we will review the supporting trees and make comments as needed.",
       "revId": "86de95a09967a679d656c218349896ee75601652",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1636e5a4_343878bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000597
+      },
+      "writtenOn": "2022-02-02T11:01:07Z",
+      "side": 1,
+      "message": "you should add GPS HAL in dependencies as you are using GPS component.",
+      "revId": "86de95a09967a679d656c218349896ee75601652",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
