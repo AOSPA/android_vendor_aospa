@@ -33,6 +33,24 @@
       "message": "you should add GPS HAL in dependencies as you are using GPS component.",
       "revId": "86de95a09967a679d656c218349896ee75601652",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dcba2cf_db2ab09f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000763
+      },
+      "writtenOn": "2022-02-03T16:51:47Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "1636e5a4_343878bb",
+      "revId": "86de95a09967a679d656c218349896ee75601652",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
