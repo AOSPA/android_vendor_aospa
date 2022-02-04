@@ -32,6 +32,18 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
+# Optimise package manager dex flags
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    pm.dexopt.boot=verify \
+    pm.dexopt.first-boot=verify \
+    pm.dexopt.install=speed \
+    pm.dexopt.bg-dexopt=everything
+
+ifneq ($(AB_OTA_PARTITIONS),)
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    pm.dexopt.ab-ota=verify
+endif
+
 # Enable IORap I/O Prefetching
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
