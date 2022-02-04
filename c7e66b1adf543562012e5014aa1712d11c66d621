@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22e77b8e_6e49d27b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-02-04T05:41:46Z",
+      "side": 1,
+      "message": "seems very snakeoil-y so dnm unless we find a way to bench this",
+      "revId": "c7e66b1adf543562012e5014aa1712d11c66d621",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
