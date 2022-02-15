@@ -30,4 +30,7 @@
     <!-- SystemUIFactory component -->
     <string name="config_systemUIFactoryComponent" translatable="false">co.aospa.android.systemui.AospaSystemUIFactory</string>
 
+    <!-- SystemUI vendor service, used in config_systemUIServiceComponents. -->
+    <string name="config_systemUIVendorServiceComponent">co.aospa.android.systemui.AospaServices</string>
+
 </resources>
