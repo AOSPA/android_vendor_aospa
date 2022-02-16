@@ -20,8 +20,9 @@ soong_config_module_type {
         "target_two_finger_swipe_node",
         "target_draw_s_node",
         "target_single_tap_to_wake_node",
+        "target_power_feature_ext_lib",
     ],
-    properties: ["cppflags"],
+    properties: ["cppflags", "whole_static_libs"],
 }
 
 powerfeature_cc_defaults {
@@ -77,6 +78,10 @@ powerfeature_cc_defaults {
         },
         target_single_tap_to_wake_node: {
             cppflags: ["-DSINGLE_TAP_TO_WAKE_NODE=\"%s\""],
+        },
+        target_power_feature_ext_lib: {
+            cppflags: ["-DFEATURE_EXT"],
+            whole_static_libs: ["%s"],
         },
     },
 }
