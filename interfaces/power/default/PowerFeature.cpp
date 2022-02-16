@@ -31,7 +31,16 @@ namespace power {
 static constexpr int kInputEventWakeupModeOff = 4;
 static constexpr int kInputEventWakeupModeOn = 5;
 
+#ifdef FEATURE_EXT
+extern bool setDeviceSpecificFeature(Feature feature, bool enabled);
+#endif
+
 ndk::ScopedAStatus PowerFeature::setFeature(Feature feature, bool enabled) {
+#ifdef FEATURE_EXT
+    if (setDeviceSpecificFeature(feature, enabled)) {
+        return ndk::ScopedAStatus::ok();
+    }
+#endif
     switch (feature) {
 #ifdef GESTURES_NODE
         case Feature::GESTURES:
