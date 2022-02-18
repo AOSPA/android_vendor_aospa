@@ -1,0 +1,2 @@
+# Allow vendor init to read debug properties.
+get_prop(vendor_init, persist_debug_prop)
