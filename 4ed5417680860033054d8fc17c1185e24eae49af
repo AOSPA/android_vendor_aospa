@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "727038ed_8da860f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-02-18T12:50:36Z",
+      "side": 1,
+      "message": "Tested on lisa: https://bin.kv2.dev/~620d3cf7410e7c32e669957d",
+      "revId": "4ed5417680860033054d8fc17c1185e24eae49af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
