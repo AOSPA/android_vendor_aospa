@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
+# Repainter (kdrag0n)
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
