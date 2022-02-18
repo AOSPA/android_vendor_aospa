@@ -16,6 +16,24 @@
       "message": "can you add the auto-updating lawnicons thingy instead, I prefer the looks of it ",
       "revId": "7bb6800493e5efd2aedffe10c886ffae06bd2c2d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7aababf_a930ef10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-02-18T12:40:08Z",
+      "side": 1,
+      "message": "I don\u0027t, iirc the last time I saw, it had outlined icons instead of filled. Looks gross IMO.",
+      "parentUuid": "f5576714_93753c58",
+      "revId": "7bb6800493e5efd2aedffe10c886ffae06bd2c2d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
