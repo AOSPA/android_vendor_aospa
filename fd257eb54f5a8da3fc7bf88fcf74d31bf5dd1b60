@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a06ac9a_8c89fc1f",
+        "filename": "target/config/permissions/privapp-permissions-aospa-system-ext.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2022-02-19T06:17:55Z",
+      "side": 1,
+      "message": "2022, also let\u0027s switch to SPDX",
+      "revId": "fd257eb54f5a8da3fc7bf88fcf74d31bf5dd1b60",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
