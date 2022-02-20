@@ -16,6 +16,24 @@
       "message": "probably not a huge deal but this can \"break\" devices like headphones and headsets. if they do not have enough volume steps, the first X number of steps may be muted. enough OEMs do this that we should be ok though.",
       "revId": "6dab5f5933f1c956ea1d12557e4ba4c8f8387179",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "620646b6_60c35edb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-02-20T16:07:21Z",
+      "side": 1,
+      "message": "\u003e probably not a huge deal but this can \"break\" devices like headphones and headsets. if they do not have enough volume steps, the first X number of steps may be muted. enough OEMs do this that we should be ok though.\n\nHuh, didn\u0027t know that and it was always fine for me (been using this for years at this point, including OxygenOS).\n\nBut yeah, a lot of OEMs are doing this.",
+      "parentUuid": "8f1637c7_8bb9f889",
+      "revId": "6dab5f5933f1c956ea1d12557e4ba4c8f8387179",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
