@@ -43,3 +43,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
+
+# Increase volume level steps
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.config.media_vol_steps=30
