@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f1637c7_8bb9f889",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-02-20T16:02:58Z",
+      "side": 1,
+      "message": "probably not a huge deal but this can \"break\" devices like headphones and headsets. if they do not have enough volume steps, the first X number of steps may be muted. enough OEMs do this that we should be ok though.",
+      "revId": "6dab5f5933f1c956ea1d12557e4ba4c8f8387179",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
