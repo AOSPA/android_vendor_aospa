@@ -20,4 +20,5 @@
     <bool name="flag_monet">true</bool>
     <bool name="flag_smartspace">true</bool>
     <bool name="flag_smartspace_shared_element_transition">true</bool>
+    <bool name="flag_combined_status_bar_signal_icons">true</bool>
 </resources>
