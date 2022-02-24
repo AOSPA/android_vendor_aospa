@@ -16,6 +16,24 @@
       "message": "what fixed it",
       "revId": "e3050632adf97daefe9aeafda27f45f939c5976e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "253a122a_a8440204",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2022-02-24T14:03:38Z",
+      "side": 1,
+      "message": "Idk, I don\u0027t have display issue after qpr1. So I think it\u0027s time to bring it back.",
+      "parentUuid": "837bd888_52f5fe62",
+      "revId": "e3050632adf97daefe9aeafda27f45f939c5976e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
