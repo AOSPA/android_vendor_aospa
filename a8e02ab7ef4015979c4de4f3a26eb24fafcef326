@@ -16,6 +16,23 @@
       "message": "we\u0027d need to fix compile failures on new targets and prove that this is an improvement over AOSP on them. per CDD, AOSP clang must be used to compile kernels for recent targets, so CAF uses AOSP for 4.14 and higher.",
       "revId": "a8e02ab7ef4015979c4de4f3a26eb24fafcef326",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d226ed09_e48c788e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-02-28T16:05:23Z",
+      "side": 1,
+      "message": "4.14 opnile is happpy",
+      "revId": "a8e02ab7ef4015979c4de4f3a26eb24fafcef326",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
