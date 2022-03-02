@@ -50,10 +50,18 @@ $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 
-ifeq ($(TARGET_FLATTEN_APEX), false)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s.mk)
+ifneq ($(wildcard vendor/google/modules/.),)
+# Flatten APEXs for performance
+OVERRIDE_TARGET_FLATTEN_APEX := true
+# This needs to be specified explicitly to override ro.apex.updatable=true from
+# # prebuilt vendors, as init reads /product/build.prop after /vendor/build.prop
+PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
 else
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s_flatten_apex.mk)
+ifeq ($(TARGET_FLATTEN_APEX), false)
+$(call inherit-product, vendor/google/modules/build/mainline_modules_s.mk)
+else
+$(call inherit-product, vendor/google/modules/build/mainline_modules_s_flatten_apex.mk)
+endif
 endif
 
 # Move Wi-Fi modules to vendor.
