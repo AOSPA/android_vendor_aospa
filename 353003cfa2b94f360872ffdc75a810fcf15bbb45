@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8f52571_b5d696c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-02T07:36:06Z",
+      "side": 1,
+      "message": "if you ask me disabling updateable apexes when partner modules are absent makes a lot of sense but I am open to feedback as always",
+      "revId": "353003cfa2b94f360872ffdc75a810fcf15bbb45",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
