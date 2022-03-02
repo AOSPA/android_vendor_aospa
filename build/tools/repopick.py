@@ -365,6 +365,8 @@ if __name__ == '__main__':
 
         if item['project'] in project_name_to_data and item['branch'] in project_name_to_data[item['project']]:
             project_path = project_name_to_data[item['project']][item['branch']]
+        elif 'https://android-review.googlesource.com' in args.gerrit:
+            project_path = item['project'].replace("platform/", "")
         elif args.path:
             project_path = args.path
         elif item['project'] in project_name_to_data and len(project_name_to_data[item['project']]) == 1:
@@ -419,6 +421,8 @@ if __name__ == '__main__':
 
         if 'anonymous http' in item['fetch']:
             method = 'anonymous http'
+        elif 'https://android-review.googlesource.com' in args.gerrit:
+            method = 'http'
         else:
             method = 'ssh'
 
