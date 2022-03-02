@@ -32,8 +32,7 @@ PRODUCT_PACKAGES += \
 
 # Paranoid Packages
 PRODUCT_PACKAGES += \
-    ParanoidPapers \
-    ParanoidQuickStep
+    ParanoidPapers
 
 # Theme Picker
 PRODUCT_PACKAGES += \
