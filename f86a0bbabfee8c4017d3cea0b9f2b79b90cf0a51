@@ -33,6 +33,24 @@
       "message": "pressed the wrong button and accidentally removed my review. see previous comment",
       "revId": "f86a0bbabfee8c4017d3cea0b9f2b79b90cf0a51",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcf8b224_8caeb615",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-02T18:45:44Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "c02af123_b33bf77b",
+      "revId": "f86a0bbabfee8c4017d3cea0b9f2b79b90cf0a51",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
