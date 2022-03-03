@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "844200c8_2252103b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-03T16:28:40Z",
+      "side": 1,
+      "message": "unsure about combining it together like these or let them be seperate\nremoved if-exists since the wild card does that check already",
+      "revId": "22e16933d4d5ffdcf17f4b56cb6ac6e9299fa049",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
