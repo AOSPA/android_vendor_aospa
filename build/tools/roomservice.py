@@ -88,6 +88,8 @@ if __name__ == '__main__':
 
     syncable_projects = []
 
+    mentioned_projects = []
+
     # Clean up all the <remove-project> elements.
     for removable_project in roomservice_manifest.findall('remove-project'):
         name = removable_project.get('name')
@@ -124,6 +126,9 @@ if __name__ == '__main__':
         name = dependency.get('repository')
         remote = dependency.get('remote')
         revision = dependency.get('revision')
+
+        # Store path of every repositories mentioned in dependencies.
+        mentioned_projects.append(path)
 
         # Make sure the required remote exists in the upstream manifest.
         found_remote = False
@@ -203,6 +208,14 @@ if __name__ == '__main__':
         '<!-- You should probably let Roomservice deal with this unless you know what you are doing. -->',
         ET.tostring(roomservice_manifest).decode()
     ]))
+
+    #  If roomservice manifest is perfectly fine, check if there are missing repos to be resynced.
+    if len(syncable_projects) == 0:
+        for path in mentioned_projects:
+            if not os.path.exists(path):
+                print('Dependency to be resynced:')
+                print(f'--> Repository Path : {path}\n')
+                syncable_projects.append(path)
 
     # Sync the project that have changed and should be synced.
     if len(syncable_projects) > 0:
