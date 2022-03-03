@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # roomservice: Android device repository management utility.
 # Copyright (C) 2013 Cybojenix <anthonydking@gmail.com>
@@ -159,6 +159,11 @@ if __name__ == '__main__':
 
         # In case the project was not already added, create it.
         if not found_in_roomservice:
+            print('Adding dependency:')
+            print(f'--> Repository : {name}')
+            print(f'--> Path       : {path}')
+            print(f'--> Revision   : {revision}')
+            print(f'--> Remote     : {remote}\n')
             found_in_roomservice = True
             modified_project = True
             roomservice_manifest.append(ET.Element('project', attrib = {
