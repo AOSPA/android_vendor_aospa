@@ -1,2 +1,5 @@
+# DC Dimming
+type vendor_sysfs_dc_dim, fs_type, sysfs_type;
+
 # Pocket Judge
 type pocket_judge_sysfs, fs_type, sysfs_type;
