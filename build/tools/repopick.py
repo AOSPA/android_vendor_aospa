@@ -413,9 +413,9 @@ if __name__ == '__main__':
 
         # Print out some useful info
         if not args.quiet:
-            print(u'--> Subject:       "{0}"'.format(item['subject']))
-            print('--> Project path:  {0}'.format(project_path))
-            print('--> Change number: {0} (Patch Set {1})'.format(item['id'], item['patchset']))
+            print(u'--> Subject       : "{0}"'.format(item['subject']))
+            print('--> Project path  : {0}'.format(project_path))
+            print('--> Change number : {0} (Patch Set {1})'.format(item['id'], item['patchset']))
 
         if 'anonymous http' in item['fetch']:
             method = 'anonymous http'
@@ -434,7 +434,7 @@ if __name__ == '__main__':
             if args.quiet:
                 cmd.append('--quiet')
             else:
-                print(cmd)
+                print('--> Command       : "{0}"'.format(' '.join(cmd)))
             result = subprocess.call([' '.join(cmd)], cwd=project_path, shell=True)
             FETCH_HEAD = '{0}/.git/FETCH_HEAD'.format(project_path)
             if result != 0 and os.stat(FETCH_HEAD).st_size != 0:
@@ -456,7 +456,7 @@ if __name__ == '__main__':
             if args.quiet:
                 cmd.append('--quiet')
             else:
-                print(cmd)
+                print('--> Command       : "{0}"'.format(' '.join(cmd)))
             result = subprocess.call([' '.join(cmd)], cwd=project_path, shell=True)
             if result != 0:
                 print('ERROR: git command failed')
