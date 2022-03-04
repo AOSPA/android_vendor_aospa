@@ -135,7 +135,8 @@ if [ -z "$JOBS" ]; then
 fi
 
 # Grab the build version
-AOSPA_DISPLAY_VERSION="$(get_build_var AOSPA_MAJOR_VERSION) $(get_build_var AOSPA_MINOR_VERSION)"
+AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //') \
+$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSION := *' | sed 's/.*= //')"
 
 # Prep for a clean build, if requested so
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
@@ -162,8 +163,8 @@ echo -e ""
 # Lunch-time!
 echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependencies sync)${CLR_RST}"
 echo -e ""
-AOSPA_VERSION="$(get_build_var AOSPA_VERSION)"
 lunch "aospa_$DEVICE-$BUILD_TYPE"
+AOSPA_VERSION="$(get_build_var AOSPA_VERSION)"
 checkExit
 echo -e ""
 
