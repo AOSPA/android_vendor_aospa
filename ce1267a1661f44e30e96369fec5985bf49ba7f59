@@ -34,6 +34,24 @@
       "parentUuid": "6a0a05dc_6ded6e63",
       "revId": "ce1267a1661f44e30e96369fec5985bf49ba7f59",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b395f51_8cbbb8aa",
+        "filename": "products/ginkgo/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-06T17:00:44Z",
+      "side": 1,
+      "message": "\u003e check ruby-stagging branch we can track it https://github.com/AOSPA/android_vendor_aospa/blob/ruby-staging/products/ginkgo/pa.dependencies#L58\n\nhttps://github.com/mickaelmendes50/android_device_xiaomi_lmi/commit/b43e6396af47925ddd108c9edab0412467f40d4e\n\nthis a better approach..",
+      "parentUuid": "7ad0a058_e0da0f33",
+      "revId": "ce1267a1661f44e30e96369fec5985bf49ba7f59",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
