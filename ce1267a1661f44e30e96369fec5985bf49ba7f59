@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a0a05dc_6ded6e63",
+        "filename": "products/ginkgo/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-06T16:25:40Z",
+      "side": 1,
+      "message": "i dont think tracking this is allowed",
+      "revId": "ce1267a1661f44e30e96369fec5985bf49ba7f59",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
