@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/device_xiaomi_ginkgo",
+        "target_path":  "device/xiaomi/ginkgo",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/vendor_xiaomi_ginkgo",
+        "target_path":  "vendor/xiaomi/ginkgo",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-ginkgo/kernel_xiaomi_ginkgo",
+        "target_path":  "kernel/xiaomi/ginkgo",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-nicobar"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-nicobar"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-nicobar"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-nicobar"
+    }
+]
