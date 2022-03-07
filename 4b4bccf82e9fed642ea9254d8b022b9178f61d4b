@@ -33,6 +33,24 @@
       "message": "doesn\u0027t even work kek",
       "revId": "4b4bccf82e9fed642ea9254d8b022b9178f61d4b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e95189dc_c9dc27d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000173
+      },
+      "writtenOn": "2022-03-07T18:10:07Z",
+      "side": 1,
+      "message": "maybe it\u0027s called too late. anyways i\u0027m with Maitreya. We should definitely fix bootanimation copying",
+      "parentUuid": "f930382c_2933755d",
+      "revId": "4b4bccf82e9fed642ea9254d8b022b9178f61d4b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
