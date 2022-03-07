@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ea0bef5_6ef1b739",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2022-03-07T08:34:51Z",
+      "side": 1,
+      "message": "Every device already has the flag set, I\u0027d rather we fix our bootanimation copying than to add this to source",
+      "revId": "4b4bccf82e9fed642ea9254d8b022b9178f61d4b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
