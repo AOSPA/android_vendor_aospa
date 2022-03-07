@@ -16,6 +16,9 @@
 # and breaks WPA Supplicant compilation.
 DISABLE_EAP_PROXY := true
 
+# Allow building duplicate targets
+BUILD_BROKEN_DUP_RULES := true
+
 # Include our Qualcomm Board configuration.
 include device/qcom/common/BoardConfigQcom.mk
 
