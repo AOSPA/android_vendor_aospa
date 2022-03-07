@@ -52,6 +52,24 @@
       "parentUuid": "7ad0a058_e0da0f33",
       "revId": "ce1267a1661f44e30e96369fec5985bf49ba7f59",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dbf1c6e_39529369",
+        "filename": "products/ginkgo/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000650
+      },
+      "writtenOn": "2022-03-07T09:38:18Z",
+      "side": 1,
+      "message": "I don\u0027t think so it will be a good approach since there are many translations that will be added in that repo side but still we do it no problem.",
+      "parentUuid": "3b395f51_8cbbb8aa",
+      "revId": "ce1267a1661f44e30e96369fec5985bf49ba7f59",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
