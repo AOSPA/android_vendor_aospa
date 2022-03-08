@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "381fca6e_b7bd3da9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000715
+      },
+      "writtenOn": "2022-03-08T14:29:06Z",
+      "side": 1,
+      "message": "I fully agree that bootanimation shouldn\u0027t be an apex, however Vishal made that decision and I\u0027ll wait for his opinion before a +2",
+      "revId": "f4ab65c15e571164b5f56dc4fcd87bba652504b2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
