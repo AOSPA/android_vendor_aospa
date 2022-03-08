@@ -16,6 +16,24 @@
       "message": "I fully agree that bootanimation shouldn\u0027t be an apex, however Vishal made that decision and I\u0027ll wait for his opinion before a +2",
       "revId": "f4ab65c15e571164b5f56dc4fcd87bba652504b2",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83b75281_f75e5d76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-08T14:35:02Z",
+      "side": 1,
+      "message": "he already replied in slack with a \"no\" lmfao",
+      "parentUuid": "381fca6e_b7bd3da9",
+      "revId": "f4ab65c15e571164b5f56dc4fcd87bba652504b2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
