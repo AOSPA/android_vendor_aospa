@@ -16,6 +16,24 @@
       "message": "weird that we didn\u0027t have this. what version is this? do we need a newer copy from Hampus or the play store?",
       "revId": "3c89a44620af6621e476aabd407ffffc447083e1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72425750_abb712cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2022-03-08T10:44:05Z",
+      "side": 1,
+      "message": "I took the latest stable version from ApkMirror",
+      "parentUuid": "33f6acc2_7054254c",
+      "revId": "3c89a44620af6621e476aabd407ffffc447083e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
