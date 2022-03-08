@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33f6acc2_7054254c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-03-08T09:32:16Z",
+      "side": 1,
+      "message": "weird that we didn\u0027t have this. what version is this? do we need a newer copy from Hampus or the play store?",
+      "revId": "3c89a44620af6621e476aabd407ffffc447083e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
