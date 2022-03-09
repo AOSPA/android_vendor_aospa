@@ -16,6 +16,23 @@
       "message": "better to track that repo locally or drop useless device settings all together, keep the essentials and you could probably get by with importing 2-3 strings.",
       "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7558631_65728d3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-09T18:29:25Z",
+      "side": 1,
+      "message": "https://github.com/aospa-ginkgo/android_device_xiaomi_ginkgo/blob/sapphire/BoardConfig.mk#L132\n\nno",
+      "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
