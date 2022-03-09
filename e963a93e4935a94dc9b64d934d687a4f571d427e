@@ -33,6 +33,23 @@
       "message": "https://github.com/aospa-ginkgo/android_device_xiaomi_ginkgo/blob/sapphire/BoardConfig.mk#L132\n\nno",
       "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cab06373_4a5f5767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-09T18:31:07Z",
+      "side": 1,
+      "message": "merge the system.prop and vendor.prop into device makefile\n\nreference:\nhttps://github.com/aospa-sdm660/android_device_asus_sdm660-common/commit/2f5ed234a6f0c0c8e230d02c3cc6b99aaf7e63d6",
+      "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
