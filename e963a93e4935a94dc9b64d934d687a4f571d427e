@@ -67,6 +67,23 @@
       "message": "https://github.com/aospa-ginkgo/android_device_xiaomi_ginkgo/blob/sapphire/device.mk#L158\n\nthese are in perf component.. first test those, if that has got any issues, then try to override from tree..",
       "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80e2c73c_46a69b50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-09T18:38:15Z",
+      "side": 1,
+      "message": "else looks good to me.. wait for other reviews",
+      "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
