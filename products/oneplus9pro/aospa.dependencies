@@ -43,6 +43,12 @@
     },
     {
         "remote":       "blobs",
+        "repository":   "android_prebuilts_clang-standalone",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "13"
+    },
+    {
+        "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
         "revision":     "sapphire"
