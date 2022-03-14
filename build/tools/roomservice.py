@@ -126,6 +126,7 @@ if __name__ == '__main__':
         name = dependency.get('repository')
         remote = dependency.get('remote')
         revision = dependency.get('revision')
+        clone_depth = dependency.get('clone-depth')
 
         # Store path of every repositories mentioned in dependencies.
         mentioned_projects.append(path)
@@ -161,22 +162,31 @@ if __name__ == '__main__':
                     if project.get('revision') != revision:
                         modified_project = True
                         project.set('revision', revision)
+                    if project.get('clone-depth') != clone_depth:
+                        modified_project = True
+                        project.set('clone-depth', clone_depth)
 
         # In case the project was not already added, create it.
         if not found_in_roomservice:
             print('Adding dependency:')
-            print(f'--> Repository : {name}')
-            print(f'--> Path       : {path}')
-            print(f'--> Revision   : {revision}')
-            print(f'--> Remote     : {remote}\n')
+            print(f'--> Repository  : {name}')
+            print(f'--> Path        : {path}')
+            print(f'--> Revision    : {revision}')
+            print(f'--> Depth clone : {bool(clone_depth)}')
+            print(f'--> Remote      : {remote}\n')
             found_in_roomservice = True
             modified_project = True
-            roomservice_manifest.append(ET.Element('project', attrib = {
+            attributes = {
                 'path': path,
                 'name': name,
                 'remote': remote,
                 'revision': revision
-            }))
+            }
+
+            if clone_depth:
+                attributes['clone-depth'] = clone_depth
+
+            roomservice_manifest.append(ET.Element('project', attrib=attributes))
 
         # In case the project also exists in the main manifest, instruct Repo to ignore that one.
         for project in upstream_manifest.findall('project'):
