@@ -16,6 +16,24 @@
       "message": "pretty sure we can gaurd it and sync from manifest",
       "revId": "6c2ec817390107cc757d10ab029d5fdc389046cb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39568e4f_fc011091",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-14T16:19:27Z",
+      "side": 1,
+      "message": "can make it a flag to set aosp llvm ver in kernelscripts",
+      "parentUuid": "f616af9b_b8f3d554",
+      "revId": "6c2ec817390107cc757d10ab029d5fdc389046cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
