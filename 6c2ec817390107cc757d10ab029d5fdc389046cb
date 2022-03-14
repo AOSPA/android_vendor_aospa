@@ -34,6 +34,41 @@
       "parentUuid": "f616af9b_b8f3d554",
       "revId": "6c2ec817390107cc757d10ab029d5fdc389046cb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2904d35_7e7b3bf7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-03-14T16:22:27Z",
+      "side": 1,
+      "message": "Should be changed after roomservice can handle clone-depth\u003d1.",
+      "revId": "6c2ec817390107cc757d10ab029d5fdc389046cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd84fc6e_0aa7a158",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-03-14T16:22:27Z",
+      "side": 1,
+      "message": "\u003e can make it a flag to set aosp llvm ver in kernelscripts\n\nThe entire branches combined is too huge. Making this opt-in with per-device basis makes more sense.",
+      "parentUuid": "39568e4f_fc011091",
+      "revId": "6c2ec817390107cc757d10ab029d5fdc389046cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
