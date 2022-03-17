@@ -138,6 +138,24 @@
       "parentUuid": "927b822e_ba17f83d",
       "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "238489e8_d2680e57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000650
+      },
+      "writtenOn": "2022-03-17T15:40:29Z",
+      "side": 1,
+      "message": "https://github.com/aospa-ginkgo/android_device_xiaomi_ginkgo/commit/63948f16c662011506727113f1c3554aded94f06",
+      "parentUuid": "77597a5a_48817684",
+      "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
