@@ -156,6 +156,24 @@
       "parentUuid": "77597a5a_48817684",
       "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0dba1cdc_990a6a56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-18T06:50:53Z",
+      "side": 1,
+      "message": "https://github.com/aospa-ginkgo/android_device_xiaomi_ginkgo/commit/1d1a50d018071b40000b6a96aca6e72b49c76dbb\n\nmisleading commit message.. it shud be\n\n\"ginkgo: Merge system/vendor props into device makefile\"",
+      "parentUuid": "5605946b_46a8dc9e",
+      "revId": "e963a93e4935a94dc9b64d934d687a4f571d427e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
