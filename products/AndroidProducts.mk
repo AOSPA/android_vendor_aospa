@@ -16,12 +16,10 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
-    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
-    $(LOCAL_DIR)/X01BD/aospa_X01BD.mk
+    $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
-    aospa_oneplus9pro-userdebug \
-    aospa_X01BD-userdebug
+    aospa_oneplus9pro-userdebug
