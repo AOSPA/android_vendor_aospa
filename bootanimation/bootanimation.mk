@@ -5,19 +5,15 @@
 #
 
 # Bootanimation
-ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
-     PRODUCT_COPY_FILES += vendor/aospa/bootanimation/720/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-else ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
-     PRODUCT_COPY_FILES += vendor/aospa/bootanimation/1080/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-else ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
-     PRODUCT_COPY_FILES += vendor/aospa/bootanimation/1440/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
-else ifeq ($(TARGET_BOOT_ANIMATION_RES),2160)
-     PRODUCT_COPY_FILES += vendor/aospa/bootanimation/2160/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+TARGET_BOOT_ANIMATION_RES := $(strip $(TARGET_BOOT_ANIMATION_RES))
+
+ifeq ($(TARGET_BOOT_ANIMATION_RES),)
+    $(error "TARGET_BOOT_ANIMATION_RES is undefined, Define any from 720/1080/1440/2160")
 else
-    ifeq ($(TARGET_BOOT_ANIMATION_RES),)
-        $(warning "TARGET_BOOT_ANIMATION_RES is undefined, assuming 1080p")
+    ifneq ($(filter $(TARGET_BOOT_ANIMATION_RES),720 1080 1440 2160),)
+        PRODUCT_COPY_FILES += vendor/aospa/bootanimation/$(TARGET_BOOT_ANIMATION_RES)/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
     else
-        $(warning "Current bootanimation res is not supported, forcing 1080p")
+        $(warning "Invalid bootanimation resolution: $(TARGET_BOOT_ANIMATION_RES). Defaulting to 1080p.")
+        PRODUCT_COPY_FILES += vendor/aospa/bootanimation/1080/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
     endif
-    PRODUCT_COPY_FILES += vendor/aospa/bootanimation/1080/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 endif
