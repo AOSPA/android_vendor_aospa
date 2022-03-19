@@ -16,6 +16,24 @@
       "message": "uff, it sucks to see the error on start of build just bcz u dont have ur bootanim res defined.. almost everything is 1080p now.. thats why i didn\u0027t make it an error.. or else i had that in mind as well",
       "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4c60a28_cf86dc7d",
+        "filename": "bootanimation/bootanimation.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-03-19T21:10:38Z",
+      "side": 1,
+      "message": "most people are probably copying from existing devices anyway. personally I love compile errors if something would be broken otherwise. silently ignoring means whoever is building would have to spend more time looking into the boot animation than if we just make them do it.",
+      "parentUuid": "6964073d_a0425f81",
+      "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
