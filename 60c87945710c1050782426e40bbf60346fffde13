@@ -52,6 +52,24 @@
       "parentUuid": "90e942d6_3c6d738c",
       "revId": "60c87945710c1050782426e40bbf60346fffde13",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "436915ff_70dfe000",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2022-03-19T16:57:12Z",
+      "side": 1,
+      "message": "last time I saw we official maintainers already define TARGET_BOOT_ANIMATION_RES in aospa_devicename.mk anyway,\nif anybody sees error they should define it ¯\\_(ツ)_/¯",
+      "parentUuid": "f7fee738_1dd2ba01",
+      "revId": "60c87945710c1050782426e40bbf60346fffde13",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
