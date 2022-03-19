@@ -15,8 +15,11 @@
 # AOSPA Versioning.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
-# Bootanimation
-$(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
+# Boot Animation
+ifneq ($(TARGET_BOOT_ANIMATION_RES),)
+PRODUCT_COPY_FILES += \
+    vendor/aospa/prebuilts/bootanimation/$(TARGET_BOOT_ANIMATION_RES)/bootanimation.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
+endif
 
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
