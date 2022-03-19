@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45aa99db_590e094f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-19T14:23:03Z",
+      "side": 1,
+      "message": "add a fallback or convert into error like hake said",
+      "revId": "a79c3f6b53df0b5679e0e2ed403710dbe1a97f4e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
