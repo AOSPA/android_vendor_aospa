@@ -16,6 +16,24 @@
       "message": "keep 1080 as a fallback, most devices are 1080 already and it\u0027s not fun to see an error as soon as your build starts",
       "revId": "60c87945710c1050782426e40bbf60346fffde13",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90e942d6_3c6d738c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2022-03-19T16:47:11Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "2527bdce_c724c03d",
+      "revId": "60c87945710c1050782426e40bbf60346fffde13",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
