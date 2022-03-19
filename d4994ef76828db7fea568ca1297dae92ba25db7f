@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6964073d_a0425f81",
+        "filename": "bootanimation/bootanimation.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-19T17:41:53Z",
+      "side": 1,
+      "message": "uff, it sucks to see the error on start of build just bcz u dont have ur bootanim res defined.. almost everything is 1080p now.. thats why i didn\u0027t make it an error.. or else i had that in mind as well",
+      "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
