@@ -105,6 +105,24 @@
       "parentUuid": "d96d5307_739c68e3",
       "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "888b4b2f_57c5a266",
+        "filename": "bootanimation/bootanimation.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-20T14:46:57Z",
+      "side": 1,
+      "message": "sure, I don\u0027t mind",
+      "parentUuid": "a6921434_2595a141",
+      "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
