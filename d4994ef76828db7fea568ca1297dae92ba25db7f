@@ -52,6 +52,24 @@
       "parentUuid": "b4c60a28_cf86dc7d",
       "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d96d5307_739c68e3",
+        "filename": "bootanimation/bootanimation.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-20T05:57:59Z",
+      "side": 1,
+      "message": "what if we just added a TARGET_BOOT_ANIMATION_RES ?\u003d 1080 to make our lives a bit easier, since majority are 1080p, would also get rid of error when var is unset",
+      "parentUuid": "eed460ea_9692bb82",
+      "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
