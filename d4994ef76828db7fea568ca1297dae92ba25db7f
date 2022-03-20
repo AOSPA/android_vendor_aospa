@@ -87,6 +87,24 @@
       "parentUuid": "eed460ea_9692bb82",
       "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6921434_2595a141",
+        "filename": "bootanimation/bootanimation.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-03-20T13:37:44Z",
+      "side": 1,
+      "message": "personally I like the current state of the code better. I don\u0027t see the need to suppress this error. there\u0027s plenty of places we should be more mindful of making maintainers lives easier, especially where we\u0027re just renaming things to rename them and breaking compile for device trees from other roms. this isn\u0027t one of them.",
+      "parentUuid": "d96d5307_739c68e3",
+      "revId": "d4994ef76828db7fea568ca1297dae92ba25db7f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
