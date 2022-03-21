@@ -1,0 +1,67 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_device_nokia_drg",
+        "target_path":  "device/nokia/drg",
+        "revision":     "sapphire"
+    },
+    {   "remote":       "github",
+        "repository":   "BladeRunner-A2C/kernel_nokia_drg", 
+        "target_path":  "kernel/nokia/drg",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/proprietary_vendor_nokia_drg",
+        "target_path":  "vendor/nokia/drg",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android_device_qcom_sepolicy-legacy",
+        "target_path":  "device/qcom/sepolicy-legacy",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android/hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-8998"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android/hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-8998-q"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android/hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-8998"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-865"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android_vendor_qcom_opensource_commonsys_display",
+        "target_path":  "vendor/qcom/opensource/commonsys/display",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-miatoll/android_vendor_qcom-opensource_usb",
+        "target_path":  "vendor/qcom/opensource/usb",
+        "revision":     "sapphire"
+    }
+]
