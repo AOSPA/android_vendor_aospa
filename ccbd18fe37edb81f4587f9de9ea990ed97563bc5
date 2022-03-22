@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7270b3c5_3296604e",
+        "filename": "products/miatoll/aospa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-03-22T22:30:53Z",
+      "side": 1,
+      "message": "2022",
+      "revId": "ccbd18fe37edb81f4587f9de9ea990ed97563bc5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
