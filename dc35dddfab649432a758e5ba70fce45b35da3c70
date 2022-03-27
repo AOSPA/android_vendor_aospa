@@ -16,6 +16,24 @@
       "message": "https://github.com/pa-gr/android_vendor_aospa/commit/a2048f61eff0a09062bb35af956df3108093d147\n\nwhy not this and why that.. i have very little idea so just asking",
       "revId": "dc35dddfab649432a758e5ba70fce45b35da3c70",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbc20e0c_5a0135ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-03-27T05:15:18Z",
+      "side": 1,
+      "message": "already handled in 20638: target: Optimize everything on preopt | https://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/20638",
+      "parentUuid": "08eb1d20_d957c379",
+      "revId": "dc35dddfab649432a758e5ba70fce45b35da3c70",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
