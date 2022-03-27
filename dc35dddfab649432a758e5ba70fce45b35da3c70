@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08eb1d20_d957c379",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-27T03:08:44Z",
+      "side": 1,
+      "message": "https://github.com/pa-gr/android_vendor_aospa/commit/a2048f61eff0a09062bb35af956df3108093d147\n\nwhy not this and why that.. i have very little idea so just asking",
+      "revId": "dc35dddfab649432a758e5ba70fce45b35da3c70",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
