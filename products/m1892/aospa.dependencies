@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_device_meizu_m1892",
+        "target_path":  "device/meizu/m1892",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_device_meizu_sdm845-common",
+        "target_path":  "device/meizu/sdm845-common",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-meizu-sdm845"
+    }
+]
