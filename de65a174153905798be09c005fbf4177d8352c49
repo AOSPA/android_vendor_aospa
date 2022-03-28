@@ -34,6 +34,24 @@
       "parentUuid": "8ff49b83_787d9b54",
       "revId": "de65a174153905798be09c005fbf4177d8352c49",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93c3cf4b_326a2f6e",
+        "filename": "target/product/aospa-target.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-03-28T09:17:51Z",
+      "side": 1,
+      "message": "\u003e sure but its unrelated to this\n\u003e prebuilts werent dexpreopted because of huge sizes of google apps\n\u003e I already ran out of super/2 on alioth before this\n\ni tested and the zip size went up by around 200mb, will u mind testing once as well?",
+      "parentUuid": "8e5f57fb_7af343b0",
+      "revId": "de65a174153905798be09c005fbf4177d8352c49",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
