@@ -24,3 +24,8 @@ include vendor/aospa/target/board/BoardConfigKernel.mk
 
 # Soong
 include vendor/aospa/target/board/BoardConfigSoong.mk
+
+# Board configuration for low performance devices
+ifeq ($(TARGET_HAS_LOW_PERFORMANCE), true)
+include vendor/aospa/target/board/BoardConfigLowPerformance.mk
+endif

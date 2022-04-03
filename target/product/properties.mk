@@ -51,3 +51,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Disable remote keyguard animation
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0
+
+# Low performance device properties
+ifeq ($(TARGET_HAS_LOW_PERFORMANCE), true)
+# Use Vulkan renderer to use GPU for UI render
+PRODUCT_SYSTEM_PROPERTIES += \
+    debug.hwui.renderer=vulkan
+endif
