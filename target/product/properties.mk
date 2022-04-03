@@ -47,3 +47,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Increase volume level steps
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
+
+# Low performance device properties
+ifeq ($(TARGET_HAS_LOW_PERFORMANCE), true)
+# Use Vulkan renderer to use GPU for UI render
+PRODUCT_SYSTEM_PROPERTIES += \
+    debug.hwui.renderer=vulkan
+endif

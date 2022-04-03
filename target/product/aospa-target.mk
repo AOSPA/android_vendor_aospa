@@ -84,3 +84,11 @@ SKIP_BOOT_JARS_CHECK := true
 # the size of the system image. This has no bearing on stack traces, but will
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
+# Low performance device configs
+ifeq ($(TARGET_HAS_LOW_PERFORMANCE), true)
+# Dexpreopt everything
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+# Speed dexpreopt everything
+PRODUCT_DEXPREOPT_SPEED_APPS := everything
+endif
