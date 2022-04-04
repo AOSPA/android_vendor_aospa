@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3aadf18b_aafb04a8",
+        "filename": "target/product/aospa-target.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-04-04T02:18:30Z",
+      "side": 1,
+      "message": "why are you compiling with everything as filter but then switching to speed filter?",
+      "revId": "a31ca13a1d4c7b993453e475d4629d2a58af644c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
