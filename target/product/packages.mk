@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    Camera
 
 # curl
 PRODUCT_PACKAGES += \
