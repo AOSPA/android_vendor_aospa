@@ -60,3 +60,8 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti_vendor \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
+
+# Wifi
+PRODUCT_PACKAGES += \
+    libwpa_client \
+    wificond
