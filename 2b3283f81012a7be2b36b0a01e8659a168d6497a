@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06330ca9_d62f13cd",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2022-04-15T16:16:47Z",
+      "side": 1,
+      "message": "What do we need libcurl for? If its for the elf only, maybe let the build system decide whether it\u0027s needed or not.",
+      "revId": "2b3283f81012a7be2b36b0a01e8659a168d6497a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
