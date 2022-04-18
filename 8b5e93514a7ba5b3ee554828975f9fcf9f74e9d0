@@ -16,6 +16,24 @@
       "message": "kill products/ and target/ changes",
       "revId": "8b5e93514a7ba5b3ee554828975f9fcf9f74e9d0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d57c71d3_70c039c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-04-18T23:05:24Z",
+      "side": 1,
+      "message": "Let me handle that",
+      "parentUuid": "23c73463_18f7172c",
+      "revId": "8b5e93514a7ba5b3ee554828975f9fcf9f74e9d0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
