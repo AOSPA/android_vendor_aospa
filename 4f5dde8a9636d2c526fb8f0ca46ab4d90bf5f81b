@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7491a4e2_ab750d4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-04-18T22:49:51Z",
+      "side": 1,
+      "message": "We\u0027re ready for betas",
+      "revId": "4f5dde8a9636d2c526fb8f0ca46ab4d90bf5f81b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
