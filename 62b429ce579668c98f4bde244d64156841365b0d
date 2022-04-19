@@ -16,6 +16,24 @@
       "message": "but after that, ninja will reload and re-include all makefiles taking considerable time, no?",
       "revId": "62b429ce579668c98f4bde244d64156841365b0d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdf36bf7_8dfdab82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-04-19T18:58:01Z",
+      "side": 1,
+      "message": "that\u0027s still better than getting confused over builds LMFAO...\nit sucks when u just built it and flashed an old build instead of new one",
+      "parentUuid": "bc1d5a52_b2eee8e2",
+      "revId": "62b429ce579668c98f4bde244d64156841365b0d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
