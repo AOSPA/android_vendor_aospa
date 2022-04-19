@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc1d5a52_b2eee8e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000580
+      },
+      "writtenOn": "2022-04-19T17:39:01Z",
+      "side": 1,
+      "message": "but after that, ninja will reload and re-include all makefiles taking considerable time, no?",
+      "revId": "62b429ce579668c98f4bde244d64156841365b0d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
