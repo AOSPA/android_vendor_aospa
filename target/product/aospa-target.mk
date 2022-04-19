@@ -84,3 +84,9 @@ SKIP_BOOT_JARS_CHECK := true
 # the size of the system image. This has no bearing on stack traces, but will
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
+# Low performance device properties
+ifeq ($(TARGET_HAS_LOW_PERFORMANCE), true)
+# Use Vulkan renderer to use GPU for UI render
+TARGET_USES_VULKAN = true
+endif
