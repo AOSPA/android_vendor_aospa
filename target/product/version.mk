@@ -47,7 +47,7 @@ else
 endif
 
 # Build Date
-BUILD_DATE := $(shell date -u +%Y%m%d)
+BUILD_DATE := $(shell date -u '+%Y%m%d-%H%M')
 
 # AOSPA Version
 AOSPA_VERSION := $(AOSPA_MAJOR_VERSION)-$(AOSPA_MINOR_VERSION)-$(AOSPA_BUILD)-$(AOSPA_BUILD_VARIANT)-$(BUILD_DATE)
