@@ -65,6 +65,9 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     debug.sf.frame_rate_multiple_threshold=60 \
     ro.launcher.blur.appLaunch=0
 
+PRODUCT_VENDOR_PROPERTIES += \
+    debug.renderengine.backend=skiaglthreaded
+
 # Exfat FS
 PRODUCT_PACKAGES += \
     fsck.exfat \
