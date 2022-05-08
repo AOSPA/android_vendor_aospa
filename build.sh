@@ -37,6 +37,7 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -i, --installclean    Dirty build - Use 'installclean'${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -r, --repo-sync       Sync before building${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -v, --variant         AOSPA variant - Can be dev, alpha, beta or release${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -n, --number          AOSPA variant number - 1/2/3...${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -t, --build-type      Specify build type${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -j, --jobs            Specify jobs/threads to use${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -m, --module          Build a specific module${CLR_RST}"
@@ -63,6 +64,7 @@ while true; do
         -i|--installclean|i|installclean) FLAG_INSTALLCLEAN_BUILD=y;;
         -r|--repo-sync|r|repo-sync) FLAG_SYNC=y;;
         -v|--variant|v|variant) AOSPA_VARIANT="$2"; shift;;
+        -n|--number|n|number) AOSPA_NUMBER="$2"; shift;;
         -t|--build-type|t|build-type) BUILD_TYPE="$2"; shift;;
         -j|--jobs|j|jobs) JOBS="$2"; shift;;
         -m|--module|m|module) MODULES+=("$2"); echo $2; shift;;
@@ -111,6 +113,11 @@ if [ $AOSPA_VARIANT ]; then
         echo -e "${CLR_BLD_RED} Unknown AOSPA variant - use beta or release${CLR_RST}"
         exit 1
     fi
+fi
+
+# Setup AOSPA number if specified
+if [ $AOSPA_NUMBER ]; then
+    AOSPA_MINOR_VERSION=`echo $AOSPA_NUMBER`
 fi
 
 # Initializationizing!
