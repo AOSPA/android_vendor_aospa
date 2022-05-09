@@ -20,9 +20,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# curl
+# External
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    ncurses \
+    htop
 
 # Set compiler filter "verify" and disable AOT-compilation in dexpreopt
 RELAX_USES_LIBRARY_CHECK := true
