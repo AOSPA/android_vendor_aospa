@@ -20,9 +20,24 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# curl
+# External tools
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    htop
+
+# Openssh
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
+
+# rsync
+PRODUCT_PACKAGES += \
+    rsync
 
 # HIDL
 PRODUCT_PACKAGES += \
