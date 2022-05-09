@@ -20,9 +20,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# curl
+# External
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    htop \
+    rsync
 
 # HIDL
 PRODUCT_PACKAGES += \
