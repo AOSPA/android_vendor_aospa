@@ -88,13 +88,23 @@ ifeq ($(TARGET_KERNEL_NO_GCC), true)
     KERNEL_NO_GCC := true
 endif
 
-ifneq ($(TARGET_KERNEL_CLANG_VERSION),)
-    KERNEL_CLANG_VERSION := clang-$(TARGET_KERNEL_CLANG_VERSION)
+ifneq ($(TARGET_KERNEL_SDCLANG_COMPILE), false)
+    # Use previous directory as sdclang path because
+    # SDCLANG_PATH defines path to bin directory under sdclang.
+    ifeq ($(shell echo $(SDCLANG_PATH) | head -c 1),/)
+        TARGET_KERNEL_CLANG_PATH ?= $(SDCLANG_PATH)/..
+    else
+        TARGET_KERNEL_CLANG_PATH ?= $(shell pwd)/$(SDCLANG_PATH)/..
+    endif	
 else
-    # Use the default version of clang if TARGET_KERNEL_CLANG_VERSION hasn't been set by the device config
-    KERNEL_CLANG_VERSION := clang-r487747c
+    ifneq ($(TARGET_KERNEL_CLANG_VERSION),)
+        KERNEL_CLANG_VERSION := clang-$(TARGET_KERNEL_CLANG_VERSION)
+    else
+        # Use the default version of clang if TARGET_KERNEL_CLANG_VERSION hasn't been set by the device config
+        KERNEL_CLANG_VERSION := clang-r487747c
+    endif
+    TARGET_KERNEL_CLANG_PATH ?= $(BUILD_TOP)/prebuilts/clang/host/$(HOST_PREBUILT_TAG)/$(KERNEL_CLANG_VERSION)
 endif
-TARGET_KERNEL_CLANG_PATH ?= $(BUILD_TOP)/prebuilts/clang/host/$(HOST_PREBUILT_TAG)/$(KERNEL_CLANG_VERSION)
 
 ifneq ($(USE_CCACHE),)
     ifneq ($(CCACHE_EXEC),)
