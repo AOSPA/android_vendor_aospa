@@ -79,6 +79,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Compile SystemUI on device with `speed`.
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # Sensitive phone numbers and APN configurations
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
