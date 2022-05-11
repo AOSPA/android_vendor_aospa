@@ -20,7 +20,11 @@ DISABLE_EAP_PROXY := true
 include device/qcom/common/BoardConfigQcom.mk
 
 # Kernel configuration.
+ifeq ($(BOARD_USES_LINEAGE_KERNEL_BUILDER),true)
+include vendor/aospa/target/board/BoardConfigKernelLineage.mk
+else
 include vendor/aospa/target/board/BoardConfigKernel.mk
+endif
 
 # Soong
 include vendor/aospa/target/board/BoardConfigSoong.mk
