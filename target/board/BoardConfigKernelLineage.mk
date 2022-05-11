@@ -102,7 +102,7 @@ endif
 KERNEL_MAKE_FLAGS :=
 
 # Add back threads, ninja cuts this to $(nproc)/2
-KERNEL_MAKE_FLAGS += -j$(shell prebuilts/tools-lineage/$(HOST_PREBUILT_TAG)/bin/nproc --all)
+KERNEL_MAKE_FLAGS += -j$(shell vendor/aospa/prebuilts/host/$(HOST_PREBUILT_TAG)/bin/nproc --all)
 
 ifeq ($(KERNEL_ARCH),arm)
   # Avoid "Unknown symbol _GLOBAL_OFFSET_TABLE_" errors
