@@ -171,22 +171,18 @@ else
         $(error "NO KERNEL CONFIG")
     else
         ifneq ($(TARGET_FORCE_PREBUILT_KERNEL),)
-            ifneq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(LINEAGE_BUILDTYPE)),)
-                $(error "PREBUILT KERNEL IS NOT ALLOWED ON OFFICIAL BUILDS!")
-            else
-                $(warning **********************************************************)
-                $(warning * Kernel source found and configuration was defined,     *)
-                $(warning * but prebuilt kernel is being forced.                   *)
-                $(warning * While this is likely intentional,                      *)
-                $(warning * it is NOT SUPPORTED WHATSOEVER.                        *)
-                $(warning * Generated kernel headers may not align with            *)
-                $(warning * the ABI of kernel you're including.                    *)
-                $(warning * Please unset TARGET_FORCE_PREBUILT_KERNEL              *)
-                $(warning * to build the kernel from source.                       *)
-                $(warning **********************************************************)
-                FULL_KERNEL_BUILD := false
-                KERNEL_BIN := $(TARGET_PREBUILT_KERNEL)
-            endif
+			$(warning **********************************************************)
+			$(warning * Kernel source found and configuration was defined,     *)
+			$(warning * but prebuilt kernel is being forced.                   *)
+			$(warning * While this is likely intentional,                      *)
+			$(warning * it is NOT SUPPORTED WHATSOEVER.                        *)
+			$(warning * Generated kernel headers may not align with            *)
+			$(warning * the ABI of kernel you're including.                    *)
+			$(warning * Please unset TARGET_FORCE_PREBUILT_KERNEL              *)
+			$(warning * to build the kernel from source.                       *)
+			$(warning **********************************************************)
+			FULL_KERNEL_BUILD := false
+			KERNEL_BIN := $(TARGET_PREBUILT_KERNEL)
         else
             FULL_KERNEL_BUILD := true
             KERNEL_BIN := $(TARGET_PREBUILT_INT_KERNEL)
