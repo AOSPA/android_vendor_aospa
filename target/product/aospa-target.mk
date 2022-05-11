@@ -34,6 +34,11 @@ $(call inherit-product, device/qcom/common/common.mk)
 # Include definitions for Snapdragon Clang
 $(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
 
+# Include LineageOS kernel build makefile if needed.
+ifeq ($(BOARD_USES_LINEAGE_KERNEL_BUILDER),true)
+include vendor/aospa/build/tasks/lineage_kernel.mk
+endif
+
 # Include Overlay makefile.
 $(call inherit-product, vendor/aospa/overlay/overlays.mk)
 
