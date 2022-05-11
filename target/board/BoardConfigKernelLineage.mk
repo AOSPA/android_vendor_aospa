@@ -154,3 +154,6 @@ KERNEL_BUILD_OUT_PREFIX :=
 ifeq ($(OUT_DIR_PREFIX),out)
 KERNEL_BUILD_OUT_PREFIX := $(BUILD_TOP)/
 endif
+
+# Disable Qualcomm kernel build system
+DISABLE_QUALCOMM_KERNEL_SCRIPTS := true
