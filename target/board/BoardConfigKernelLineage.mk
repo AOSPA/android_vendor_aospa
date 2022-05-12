@@ -261,3 +261,8 @@ KERNEL_BUILD_OUT_PREFIX :=
 ifeq ($(OUT_DIR_PREFIX),out)
     KERNEL_BUILD_OUT_PREFIX := $(BUILD_TOP)/
 endif
+
+# Qualcomm kernel.
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+endif
