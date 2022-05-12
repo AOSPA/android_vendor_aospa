@@ -157,3 +157,6 @@ endif
 
 # Disable Qualcomm kernel build system
 DISABLE_QUALCOMM_KERNEL_SCRIPTS := true
+
+# Qualcomm kernel.
+TARGET_COMPILE_WITH_MSM_KERNEL := true
