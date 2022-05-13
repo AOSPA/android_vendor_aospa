@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5113391f_6abe6a46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000580
+      },
+      "writtenOn": "2022-05-13T22:21:19Z",
+      "side": 1,
+      "message": "any reason to switch for Lineage\u0027s kernel build system?",
+      "revId": "1001f097b5602f0ed2ad58739a91dd10192a7c46",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
