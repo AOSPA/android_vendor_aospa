@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b75cb71_e8ef2b20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-05-13T03:43:59Z",
+      "side": 1,
+      "message": "we have https://github.com/AOSPA/android_vendor_aospa/blob/sapphire/target/board/BoardConfigKernel.mk#L30",
+      "revId": "670c48de0eabe16e23fcd4ccd26cb3cd09c7310e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
