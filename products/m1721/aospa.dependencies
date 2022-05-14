@@ -64,5 +64,11 @@
         "repository":   "rtx4d/android_vendor_qcom-opensource_fm-commonsys",
         "target_path":  "vendor/qcom/opensource/commonsys/fm",
         "revision":     "sapphire"
+    },
+    {
+        "remote":       "github",
+        "repository":   "meizucustoms/android_vendor_qcom-opensource_audio-hal_st-hal",
+        "target_path":  "vendor/qcom/opensource/audio-hal/st-hal",
+        "revision":     "sapphire"
     }
 ]
