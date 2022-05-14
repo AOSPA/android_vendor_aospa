@@ -16,6 +16,24 @@
       "message": "any reason to switch for Lineage\u0027s kernel build system?",
       "revId": "1001f097b5602f0ed2ad58739a91dd10192a7c46",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80229264_01fdfd95",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000765
+      },
+      "writtenOn": "2022-05-14T08:42:30Z",
+      "side": 1,
+      "message": "I\u0027ve described it in Slack, but some kernels do not build with CAF builder (like in @rtx4d\u0027s case), also (somewhy) kernel builds faster with LOS build system.",
+      "parentUuid": "5113391f_6abe6a46",
+      "revId": "1001f097b5602f0ed2ad58739a91dd10192a7c46",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
