@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "345bc199_1cee7613",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2022-05-17T03:57:14Z",
+      "side": 1,
+      "message": "Camera works? Btw op common is here.\nhttps://github.com/aospa-op8/device_oneplus_common",
+      "revId": "c5538be74185e9bf93644b36c965d0d626d99d06",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
