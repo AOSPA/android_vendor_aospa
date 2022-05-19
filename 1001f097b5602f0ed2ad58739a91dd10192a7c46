@@ -87,6 +87,24 @@
       "parentUuid": "fde1b0df_2f72c0c2",
       "revId": "1001f097b5602f0ed2ad58739a91dd10192a7c46",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb5aef9a_f522055d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2022-05-19T21:57:14Z",
+      "side": 1,
+      "message": "We can help you. Don\u0027t be shy, ping us on Slack and we\u0027ll help you :D",
+      "parentUuid": "a737b9db_3839eb40",
+      "revId": "1001f097b5602f0ed2ad58739a91dd10192a7c46",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
