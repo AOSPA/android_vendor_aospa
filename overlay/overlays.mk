@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
+    FontGoogleSansLatoOverlay \
     FontInterOverlay \
     FontManropeOverlay \
     FontRobotoOverlay \
