@@ -24,6 +24,11 @@ DONT_DEXPREOPT_PREBUILTS := true
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/aospa/target/config/config.fs
 
+# Fonts
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
      vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml
