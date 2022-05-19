@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.theme.font.googlesans">
+    package="co.aospa.theme.font.roboto">
 
     <overlay
         android:category="android.theme.customization.font"
@@ -22,9 +22,9 @@
         android:targetPackage="android" />
 
     <application
-        android:label="@string/font_google_sans_overlay">
+        android:label="@string/font_roboto_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="google-sans,google-sans-medium" />
+            android:value="sans-serif,sans-serif-medium" />
     </application>
 </manifest>

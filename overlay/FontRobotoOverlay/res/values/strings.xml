@@ -16,18 +16,7 @@
 -->
 <resources>
 
-	<!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
-	<string name="config_headlineFontFamily">google-sans</string>
-
-	<!-- Name of the font family used for system surfaces where the font should use medium weight -->
-    <string name="config_headlineFontFamilyMedium">google-sans-medium</string>
-
-    <!-- Name of a font family to use for body text. -->
-    <string name="config_bodyFontFamily" translatable="false">sans-serif</string>
-
-    <!-- Name of a font family to use for medium body text. -->
-    <string name="config_bodyFontFamilyMedium" translatable="false">sans-serif-medium</string>
-
-    <string name="config_headlineFontFeatureSettings">ss03</string>
+    <!-- Roboto font overlay -->
+    <string name="font_roboto_overlay" translatable="false">Roboto</string>
 
 </resources>

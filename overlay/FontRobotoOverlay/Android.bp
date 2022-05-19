@@ -13,8 +13,8 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "FontGoogleSansOverlay",
+    name: "FontRobotoOverlay",
     product_specific: true,
     sdk_version: "current",
-    theme: "FontGoogleSans",
+    theme: "FontRoboto",
 }
