@@ -16,6 +16,24 @@
       "message": "I\u0027m open to this if it really is much faster.  CLO 5.10 doesn\u0027t build kernel in line anyway so it\u0027s only a matter of time before we need another solution or have to build our own.",
       "revId": "95acf7dfbc5e56e736e8ad441070f2bac22a411d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94cbdcea_ccdde826",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000765
+      },
+      "writtenOn": "2022-05-24T22:10:14Z",
+      "side": 1,
+      "message": "About speed, dirty builds of 4.9 kernel took:\nQcom builder - 5-6 minutes\nLOS builder - 1-1.5 minutes, highly depends on disk usage\n\nAnyway I still can\u0027t get results like they were in LOS environment (4.9 dirty build took 40 SECONDS)\n\nMy PC specs: Xeon e5-2673v3, 32GB RAM, 240GB SSD (SATA III)",
+      "parentUuid": "3f919794_c293072a",
+      "revId": "95acf7dfbc5e56e736e8ad441070f2bac22a411d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
