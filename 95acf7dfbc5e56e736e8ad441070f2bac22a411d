@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f919794_c293072a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-05-24T18:00:19Z",
+      "side": 1,
+      "message": "I\u0027m open to this if it really is much faster.  CLO 5.10 doesn\u0027t build kernel in line anyway so it\u0027s only a matter of time before we need another solution or have to build our own.",
+      "revId": "95acf7dfbc5e56e736e8ad441070f2bac22a411d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
