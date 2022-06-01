@@ -59,14 +59,6 @@ else
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s_flatten_apex.mk)
 endif
 
-ifneq ($(wildcard vendor/google/modules/.),)
-# Flatten APEXs for performance
-OVERRIDE_TARGET_FLATTEN_APEX := true
-# This needs to be specified explicitly to override ro.apex.updatable=true from
-# # prebuilt vendors, as init reads /product/build.prop after /vendor/build.prop
-PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
-endif
-
 # Move Wi-Fi modules to vendor.
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
