@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c52c21e_244692a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2022-06-02T02:27:12Z",
+      "side": 1,
+      "message": "already there in pixel repo, no?",
+      "revId": "e71c4f105400f5d73847f51789c8a2af50d9ea97",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
