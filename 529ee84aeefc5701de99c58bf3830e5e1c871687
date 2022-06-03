@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4279c587_5d5731d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 21
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-03T10:24:17Z",
+      "side": 1,
+      "message": "builds, boots and works as expected\nCR -1 is placed until required repos on org are made",
+      "revId": "529ee84aeefc5701de99c58bf3830e5e1c871687",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
