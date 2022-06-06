@@ -33,6 +33,24 @@
       "message": "you dont generally touch the screen either unless you want to interact with something..",
       "revId": "d2eeb9cae900fc041b2df095f6c8be1cce33a6ba",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "caa1fb69_8adcd9df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-06-06T21:34:36Z",
+      "side": 1,
+      "message": "\u003e you dont generally touch the screen either unless you want to interact with something..\n\nBrightness/volume changes?\nEven some swipes to clean the screen will boost the refresh rate unnecessarily, content detection is not a fail-safe for this.\n\nPanels without LTPO will even have gamma shifts then. imo it\u0027s better to have this hack practically.",
+      "parentUuid": "38cff3ee_4cfc48b7",
+      "revId": "d2eeb9cae900fc041b2df095f6c8be1cce33a6ba",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
