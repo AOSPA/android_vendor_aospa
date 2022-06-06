@@ -108,6 +108,10 @@
         <item>jackpal.androidterm</item>
         <item>org.connectbot</item>
         <item>yarolegovich.materialterminal</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.mxtech.videoplayer.pro</item>
+        <item>org.videolan.vlc</item>
+        <item>is.xyz.mpv</item>
     </string-array>
 
 </resources>
