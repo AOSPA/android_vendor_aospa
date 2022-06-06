@@ -16,6 +16,23 @@
       "message": "Will merge if no objections are raised until tomorrow.",
       "revId": "12af2d8c20eaf85a529747ce1418c249b733bb5c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c96ccc5a_093b7e24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-06T20:42:10Z",
+      "side": 1,
+      "message": "can you comment what all these are either in the xml or in this commit message",
+      "revId": "12af2d8c20eaf85a529747ce1418c249b733bb5c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
