@@ -69,6 +69,24 @@
       "parentUuid": "caa1fb69_8adcd9df",
       "revId": "d2eeb9cae900fc041b2df095f6c8be1cce33a6ba",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d52db1e_8edba1e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-06-06T22:40:50Z",
+      "side": 1,
+      "message": "\u003e not every app allows brightness or volume interactions in their app,\n\nAll apps added in this commit can, and it\u0027s their default behavior.\n\n\u003e and mpv can interpolate videos, which would break app behavior\n\nInterpolation above 60 fps doesn\u0027t make sense, and if that is the case (which is dumb), it\u0027s already broken by I065250bbbe3f0b9ff071779bcc43a4499463ef24",
+      "parentUuid": "16b1b0af_2ebca8a4",
+      "revId": "d2eeb9cae900fc041b2df095f6c8be1cce33a6ba",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
