@@ -50,6 +50,42 @@
       "message": "also maybe connectbot",
       "revId": "78a5d08cb663ef3d946c780ee21c3d91649df81b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "104e0545_66cd252a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-06-06T21:01:29Z",
+      "side": 1,
+      "message": "Added.",
+      "parentUuid": "ea0bf6fd_ecdbe65d",
+      "revId": "78a5d08cb663ef3d946c780ee21c3d91649df81b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5729a21_ba8c9ac6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-06-06T21:01:29Z",
+      "side": 1,
+      "message": "Too much clutter imo, either in the commit message or in the XML itself, anyone can easily look it up online.",
+      "parentUuid": "f41a9950_a02d3e24",
+      "revId": "78a5d08cb663ef3d946c780ee21c3d91649df81b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
