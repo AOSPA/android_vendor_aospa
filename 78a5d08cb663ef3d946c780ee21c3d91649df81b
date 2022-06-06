@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ed00888_e8bad8e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-06-06T19:53:21Z",
+      "side": 1,
+      "message": "Will merge if no objections are raised until tomorrow.",
+      "revId": "78a5d08cb663ef3d946c780ee21c3d91649df81b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
