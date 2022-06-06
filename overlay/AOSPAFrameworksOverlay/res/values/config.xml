@@ -100,4 +100,14 @@
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
+    <!-- Limit these apps to 60 Hz to save power -->
+    <string-array name="config_highRefreshRateBlacklist">
+        <item>com.server.auditor.ssh.client</item>
+        <item>com.sonelli.juicessh</item>
+        <item>com.termux</item>
+        <item>jackpal.androidterm</item>
+        <item>org.connectbot</item>
+        <item>yarolegovich.materialterminal</item>
+    </string-array>
+
 </resources>
