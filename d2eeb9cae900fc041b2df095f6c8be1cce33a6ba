@@ -51,6 +51,24 @@
       "parentUuid": "38cff3ee_4cfc48b7",
       "revId": "d2eeb9cae900fc041b2df095f6c8be1cce33a6ba",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16b1b0af_2ebca8a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-06-06T21:39:49Z",
+      "side": 1,
+      "message": "not every app allows brightness or volume interactions in their app, and mpv can interpolate videos, which would break app behavior",
+      "parentUuid": "caa1fb69_8adcd9df",
+      "revId": "d2eeb9cae900fc041b2df095f6c8be1cce33a6ba",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
