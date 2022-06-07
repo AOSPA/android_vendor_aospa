@@ -16,6 +16,23 @@
       "message": "zip size is still a concern because herna insists on updatepackages which cant cross 2 gb",
       "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ce904c3_54a735b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-06-07T15:06:27Z",
+      "side": 1,
+      "message": "thisll raise the zip size by ~100 MB which will also cause issues for peeps like mesquita",
+      "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
