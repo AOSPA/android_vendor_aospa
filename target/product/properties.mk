@@ -32,6 +32,13 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
+# Use reasonable amount of threads for dexopt
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    dalvik.vm.dex2oat-threads=6 \
+    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,7 \
+    dalvik.vm.restore-dex2oat-threads=6 \
+    dalvik.vm.restore-dex2oat-cpu-set=0,1,2,3,4,5,7
+
 # Optimise package manager dex flags
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     pm.dexopt.boot=verify \
