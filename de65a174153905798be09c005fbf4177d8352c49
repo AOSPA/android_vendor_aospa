@@ -52,6 +52,24 @@
       "parentUuid": "8e5f57fb_7af343b0",
       "revId": "de65a174153905798be09c005fbf4177d8352c49",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a24fa93d_1043a720",
+        "filename": "target/product/aospa-target.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-07T08:34:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93c3cf4b_326a2f6e",
+      "revId": "de65a174153905798be09c005fbf4177d8352c49",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
