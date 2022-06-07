@@ -50,6 +50,24 @@
       "message": "(this \u003d the chain)",
       "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3df5a2fb_5e0a98c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-07T15:28:31Z",
+      "side": 1,
+      "message": "otapackage for alioth is still ~2GB regardless of this patch, there\u0027s nothing I can do about that",
+      "parentUuid": "edaa294c_ff359541",
+      "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
