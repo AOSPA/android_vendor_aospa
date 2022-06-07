@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edaa294c_ff359541",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-06-07T15:05:35Z",
+      "side": 1,
+      "message": "zip size is still a concern because herna insists on updatepackages which cant cross 2 gb",
+      "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
