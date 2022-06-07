@@ -68,6 +68,24 @@
       "parentUuid": "edaa294c_ff359541",
       "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbd6e1cd_d21cef44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-07T15:28:59Z",
+      "side": 1,
+      "message": "on erofs, it only increased size taken up in super but actual zip size remained the same",
+      "parentUuid": "7ce904c3_54a735b3",
+      "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
