@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6b88c1b_b549fd29",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2022-06-07T20:04:04Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be carried over",
+      "revId": "4f4a274a1b4a68d49fcae998fe33f4ea6727e38a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
