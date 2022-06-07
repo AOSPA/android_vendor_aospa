@@ -16,6 +16,24 @@
       "message": "\"squeeze\" animation on lockscreen clock broken when plugged in",
       "revId": "605a0623c933ad3bc652a95385e0022c4a7745c4",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43f65cc7_f75b04d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-06-07T12:47:54Z",
+      "side": 1,
+      "message": "21759 has been modified to account for this",
+      "parentUuid": "e589c848_347a21aa",
+      "revId": "605a0623c933ad3bc652a95385e0022c4a7745c4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
