@@ -33,6 +33,23 @@
       "message": "thisll raise the zip size by ~100 MB which will also cause issues for peeps like mesquita",
       "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9dfbb87_7f3480e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-06-07T15:06:45Z",
+      "side": 1,
+      "message": "(this \u003d the chain)",
+      "revId": "de7c4f40b3cca21c3aafb3a652200ae3534d277c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
