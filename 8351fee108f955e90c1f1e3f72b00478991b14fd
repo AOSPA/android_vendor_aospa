@@ -52,6 +52,24 @@
       "parentUuid": "b91d20bb_c8ece8e9",
       "revId": "8351fee108f955e90c1f1e3f72b00478991b14fd",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97bbb793_12d9ccf8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-08T01:10:36Z",
+      "side": 1,
+      "message": "do you currently have dynamic refresh rate on alioth?  I\u0027d be fine making this conditional on that if it isn\u0027t",
+      "parentUuid": "689db59c_9606c242",
+      "revId": "8351fee108f955e90c1f1e3f72b00478991b14fd",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
