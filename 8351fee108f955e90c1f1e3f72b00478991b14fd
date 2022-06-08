@@ -70,6 +70,24 @@
       "parentUuid": "689db59c_9606c242",
       "revId": "8351fee108f955e90c1f1e3f72b00478991b14fd",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae459503_2c31220b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-08T09:35:08Z",
+      "side": 1,
+      "message": "I do because of the new vrr patches had some regressions if content detection was disabled afaik? @timo might explain that\nalso on both 7t and alioth, 60hz is downright unusable, I compared it against native 60hz only devices and its worse on hrr devices.",
+      "parentUuid": "97bbb793_12d9ccf8",
+      "revId": "8351fee108f955e90c1f1e3f72b00478991b14fd",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
