@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensitive phone numbers and APN configurations
 PRODUCT_COPY_FILES += \
-    vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+    vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
 
 # Skip boot JAR checks.
