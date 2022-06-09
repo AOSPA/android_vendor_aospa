@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6191c0b1_eea0d875",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-09T22:25:47Z",
+      "side": 1,
+      "message": "thinking we should follow Google\u0027s recommendation on first boot.  any more specific reason not to?",
+      "revId": "a76b62d6ac683a4a7296fd7fb133aa89367233f5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
