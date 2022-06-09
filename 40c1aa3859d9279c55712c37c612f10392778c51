@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7a11ace_8d81e7a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-09T18:43:20Z",
+      "side": 1,
+      "message": "pm.dexopt.first-boot\u003dquicken\nThe compilation filter for the first time the device ever boots. The filter used here will only affect the boot time after factory. We recommend the filter quicken for it to avoid long times before a user gets to use the phone for the very first time. Note that if all applications in /system are already compiled with the quicken compiler filter or are compiled with the speed or speed-profile compiler filter, the pm.dexopt.first-boot has no effect.\n\nany reason not to follow that?",
+      "revId": "40c1aa3859d9279c55712c37c612f10392778c51",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
