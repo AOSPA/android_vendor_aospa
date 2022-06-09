@@ -1,4 +1,4 @@
-# Copyright (C) 2016-2021 Paranoid Android
+# Copyright (C) 2016-2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -64,11 +64,6 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti_vendor \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
-
-# Telephony - AOSP
-PRODUCT_PACKAGES += \
-    CellBroadcastReceiver \
-    Stk
 
 # Telephony - CLO
 PRODUCT_PACKAGES += \
