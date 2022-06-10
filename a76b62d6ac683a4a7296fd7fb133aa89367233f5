@@ -16,6 +16,24 @@
       "message": "thinking we should follow Google\u0027s recommendation on first boot.  any more specific reason not to?",
       "revId": "a76b62d6ac683a4a7296fd7fb133aa89367233f5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c148a02_37709c89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-10T06:50:32Z",
+      "side": 1,
+      "message": "first boot is set to quicken as of right now, although wouldnt that cause regression because shipped packages are aot compiled with everything filter not speed/-profile",
+      "parentUuid": "6191c0b1_eea0d875",
+      "revId": "a76b62d6ac683a4a7296fd7fb133aa89367233f5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
