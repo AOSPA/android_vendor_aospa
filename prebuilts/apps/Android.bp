@@ -10,7 +10,7 @@ android_app_import {
     overrides: ["Camera2"],
     presigned: true,
     product_specific: true,
-    optional_uses_libs: ["androidx.camera.extensions.impl"],
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"]
 }
 
 android_app_import {
