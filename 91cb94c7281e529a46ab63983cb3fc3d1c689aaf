@@ -16,6 +16,24 @@
       "message": "probably wanna skip cpu7, possibly 6 also for gold+",
       "revId": "91cb94c7281e529a46ab63983cb3fc3d1c689aaf",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea9e3737_7cf199f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-10T06:51:11Z",
+      "side": 1,
+      "message": "these are stolen from pixel lito, surprisingly no other pixel has any core overrides",
+      "parentUuid": "16cfddf9_ab613f70",
+      "revId": "91cb94c7281e529a46ab63983cb3fc3d1c689aaf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
