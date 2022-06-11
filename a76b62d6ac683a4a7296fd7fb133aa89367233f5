@@ -34,6 +34,24 @@
       "parentUuid": "6191c0b1_eea0d875",
       "revId": "a76b62d6ac683a4a7296fd7fb133aa89367233f5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9ec094d_7aaa1b94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-11T08:26:15Z",
+      "side": 1,
+      "message": "Verified, setting to quicken causes some regression which leads to recompilation and worse perf in prebuilt apps until bg dexopt kicks in, verify would ensure that it\u0027s not recompiled",
+      "parentUuid": "8c148a02_37709c89",
+      "revId": "a76b62d6ac683a4a7296fd7fb133aa89367233f5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
