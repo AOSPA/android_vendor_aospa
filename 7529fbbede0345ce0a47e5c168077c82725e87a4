@@ -35,6 +35,23 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "23496359_b77f2cad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2022-06-12T15:20:06Z",
+      "side": 1,
+      "message": "\u003e Patch Set 4:\n\u003e \n\u003e \u003e Patch Set 4:\n\u003e  \u003e \n\u003e  \u003e (2 comments)\n\u003e \n\u003e not really, adb only allows you to interact with the phone from your pc, scp / rsync allows you to remotely push things from the phone to somewhere else - there has only been 1 scenario where i ever would\u0027ve needed that though\n\nBackup data via rsync/scp",
+      "revId": "7529fbbede0345ce0a47e5c168077c82725e87a4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f9e341a_ad8e1e28",
