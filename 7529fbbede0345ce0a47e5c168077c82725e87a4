@@ -18,6 +18,23 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c06c5e67_fc035e38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-12T13:21:07Z",
+      "side": 1,
+      "message": "lame commit message, why is any of this necessary?",
+      "revId": "7529fbbede0345ce0a47e5c168077c82725e87a4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6f9e341a_ad8e1e28",
