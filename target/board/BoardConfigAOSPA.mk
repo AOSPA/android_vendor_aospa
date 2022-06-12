@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,6 +15,9 @@
 # Disable EAP Proxy because it depends on proprietary headers
 # and breaks WPA Supplicant compilation.
 DISABLE_EAP_PROXY := true
+
+# Enable DRM plugins 64 bit compilation
+TARGET_ENABLE_MEDIADRM_64 := true
 
 # Include our Qualcomm Board configuration.
 include device/qcom/common/BoardConfigQcom.mk
