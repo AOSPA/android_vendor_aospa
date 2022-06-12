@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5dcb0dc_36247947",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2022-06-12T12:58:41Z",
+      "side": 1,
+      "message": "I won\u0027t block it but not a big fan of this",
+      "revId": "7529fbbede0345ce0a47e5c168077c82725e87a4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f9e341a_ad8e1e28",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2022-06-12T12:58:41Z",
+      "side": 1,
+      "message": "I don\u0027t think you need this, adb over wifi basically does the same",
+      "revId": "7529fbbede0345ce0a47e5c168077c82725e87a4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
