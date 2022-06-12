@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2022 The AtomX Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "FontOnePlusOverlay",
+    product_specific: true,
+    sdk_version: "current",
+    theme: "FontOnePlus",
+}
