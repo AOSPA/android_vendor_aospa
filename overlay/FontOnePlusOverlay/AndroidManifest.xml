@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2022 The AtomX Project
+**
+** SPDX-License-Identifier: Apache-2.0
+*/
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.theme.font.oneplus"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay
+        android:category="android.theme.customization.font"
+        android:priority="600"
+        android:targetPackage="android"/>
+
+    <application android:label="OnePlus Sans" android:hasCode="false">
+        <meta-data
+            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:value="op-sans" />
+    </application>
+</manifest>
