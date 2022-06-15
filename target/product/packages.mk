@@ -39,6 +39,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ParanoidPapers
 
+# Paranoid Packages (OTA)
+ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
+PRODUCT_PACKAGES += ParanoidHub
+endif
+
 # Theme Picker
 PRODUCT_PACKAGES += \
     ThemePicker
