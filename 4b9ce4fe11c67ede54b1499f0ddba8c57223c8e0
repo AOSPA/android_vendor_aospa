@@ -16,6 +16,24 @@
       "message": "are betas currently signed? if not, they can\u0027t OTA can they?",
       "revId": "4b9ce4fe11c67ede54b1499f0ddba8c57223c8e0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b22faec2_70b912c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2022-06-15T10:46:47Z",
+      "side": 1,
+      "message": "yes Jake, Beta builds are signed as well.",
+      "parentUuid": "6213ed67_df3323db",
+      "revId": "4b9ce4fe11c67ede54b1499f0ddba8c57223c8e0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
