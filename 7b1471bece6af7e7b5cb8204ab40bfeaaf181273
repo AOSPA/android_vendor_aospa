@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f210bf58_b576c47d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-06-15T06:12:47Z",
+      "side": 1,
+      "message": "I would guard this for beta and release, like we did back in Quartz.",
+      "revId": "7b1471bece6af7e7b5cb8204ab40bfeaaf181273",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
