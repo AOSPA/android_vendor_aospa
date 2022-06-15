@@ -16,6 +16,24 @@
       "message": "will transition to a script to dynamically set based on soc_id\n",
       "revId": "2eb7effd5866a330b3eca8f47e6e607b72303ab7",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3964dc2a_8854dd41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-15T08:33:52Z",
+      "side": 1,
+      "message": "soc ID sounds like a lot to maintain.  I think doing it automatically based on cpusets would be better if possible.\n\nGoogle says they match the foreground cpuset, so I think we should do the same.  that takes energy costs into account and reserves capacity for more important threads.",
+      "parentUuid": "5f8829ef_1c3046d4",
+      "revId": "2eb7effd5866a330b3eca8f47e6e607b72303ab7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
