@@ -29,7 +29,11 @@ AOSPA_MAJOR_VERSION := sapphire
 # The version code is the upgradable portion during the cycle of
 # every major Android release. Each version code upgrade indicates
 # our own major release during each lifecycle.
-AOSPA_MINOR_VERSION := 1
+ifdef AOSPA_BUILDVERSION
+    AOSPA_MINOR_VERSION := $(AOSPA_BUILDVERSION)
+else
+    AOSPA_MINOR_VERSION := 1
+endif
 
 # Build Variants
 #
