@@ -66,7 +66,7 @@ while true; do
         -v|--variant|v|variant) AOSPA_VARIANT="$2"; shift;;
         -t|--build-type|t|build-type) BUILD_TYPE="$2"; shift;;
         -j|--jobs|j|jobs) JOBS="$2"; shift;;
-        -m|--module|m|module) MODULES+=("$2"); echo $2; shift;;
+        -m|--module|m|module) MODULES+=("$2"); shift;;
         -s|--sign-keys|s|sign-keys) KEY_MAPPINGS="$2"; shift;;
         -p|--pwfile|p|pwfile) PWFILE="$2"; shift;;
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
