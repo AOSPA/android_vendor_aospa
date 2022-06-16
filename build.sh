@@ -45,12 +45,13 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -b, --backup-unsigned Store a copy of unsignied package along with signed${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -d, --delta           Generate a delta ota from the specified target_files zip${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -z, --imgzip          Generate fastboot flashable image zip from signed target_files${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -e, --version         Specify build minor version (number)${CLR_RST}"
         exit 1
 }
 
 # Setup getopt.
-long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,imgzip"
-getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:bd:z --long "$long_opts" \
+long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,imgzip,version:"
+getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:bd:ze: --long "$long_opts" \
             -n $(basename $0) -- "$@") || \
             { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; exit 1;}
 
@@ -71,6 +72,7 @@ while true; do
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
         -d|--delta|d|delta) DELTA_TARGET_FILES="$2"; shift;;
         -z|--imgzip|img|imgzip) FLAG_IMG_ZIP=y;;
+        -e|--version|e|version) AOSPA_USER_VERSION="$2"; shift;;
         --) shift; break;;
     esac
     shift
@@ -113,6 +115,17 @@ if [ $AOSPA_VARIANT ]; then
     fi
 fi
 
+# Setup AOSPA version if specified
+if [ $AOSPA_USER_VERSION ]; then
+    # Check is it a number
+    if [ ! -z "${AOSPA_USER_VERSION##*[!0-9]*}" ]; then
+        export AOSPA_BUILDVERSION=${AOSPA_USER_VERSION}
+    else
+        echo -e "${CLR_BLD_RED} Invalid AOSPA minor version - use any non-negative integer${CLR_RST}"
+        exit 1
+    fi
+fi
+
 # Initializationizing!
 echo -e "${CLR_BLD_BLU}Setting up the environment${CLR_RST}"
 echo -e ""
@@ -135,8 +148,12 @@ if [ -z "$JOBS" ]; then
 fi
 
 # Grab the build version
-AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //') \
-$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSION := *' | sed 's/.*= //')"
+AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //') "
+if [ $AOSPA_BUILDVERSION ]; then
+    AOSPA_DISPLAY_VERSION+="$AOSPA_BUILDVERSION"
+else
+    AOSPA_DISPLAY_VERSION+="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSION := *' | tail -n 1 | sed 's/.*= //')"
+fi
 
 # Prep for a clean build, if requested so
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
