@@ -1,6 +1,3 @@
-# FOD
-hal_client_domain(system_server, vendor_fod)
-
 # Pocket Judge
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
