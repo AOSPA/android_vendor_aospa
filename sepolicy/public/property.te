@@ -1,0 +1,2 @@
+# Aux camera allow prop
+system_vendor_config_prop(vendor_persist_camera_prop)
