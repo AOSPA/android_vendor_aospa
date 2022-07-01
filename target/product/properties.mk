@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Enable Navigation gestures.
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-
 # Enforce privapp-permissions whitelist.
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
