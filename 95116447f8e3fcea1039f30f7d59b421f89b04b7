@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8628ef1_1cb2b57a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2022-07-01T11:50:20Z",
+      "side": 1,
+      "message": "Use n better, as number :)",
+      "revId": "95116447f8e3fcea1039f30f7d59b421f89b04b7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
