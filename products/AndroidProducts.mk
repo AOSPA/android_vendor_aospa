@@ -14,12 +14,14 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/mata/aospa_mata.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    aospa_mata-userdebug \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug
