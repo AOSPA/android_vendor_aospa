@@ -33,6 +33,23 @@
       "message": "Gcam Go in this commit directly updated from Google Play Store\nBecause it\u0027s stock unmodded Gcam Go\nThough, It\u0027s not updated in APKMirror\nIf there\u0027s other requirements to proof thiss is untouched Gcam Go,\nI can trying to send you some screenshot of play store page",
       "revId": "15bc54149eeb27b27309a2ee0d92bb5bfdb48e1b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3e2e5ba_5f046394",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000802
+      },
+      "writtenOn": "2022-07-09T04:20:48Z",
+      "side": 1,
+      "message": "I uploaded screenshot of Google Play Store\u0027s info page in AOSPA\u0027s official telegram group.\nIf you don\u0027t mind could you please check that? Thanks!",
+      "revId": "15bc54149eeb27b27309a2ee0d92bb5bfdb48e1b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
