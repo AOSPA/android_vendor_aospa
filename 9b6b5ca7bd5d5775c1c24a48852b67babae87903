@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67156bcd_19252e7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000802
+      },
+      "writtenOn": "2022-07-09T04:13:04Z",
+      "side": 1,
+      "message": "Fixed tabbing in patchset 9b6b5ca",
+      "revId": "9b6b5ca7bd5d5775c1c24a48852b67babae87903",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
