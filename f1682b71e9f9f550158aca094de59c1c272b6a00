@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89c07709_bac51553",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2022-07-11T02:11:15Z",
+      "side": 1,
+      "message": "Just get kernel working with the current setup, next cycle we\u0027ll switch to prebuilt kernel with the new kernel/build stuff most likely.",
+      "revId": "f1682b71e9f9f550158aca094de59c1c272b6a00",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
