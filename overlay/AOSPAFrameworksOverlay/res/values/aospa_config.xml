@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Configuration that imitates properties based on platform.
+         This config requires values for the following properties.
+         ex. BRAND: google	
+             MANUFACTURER: Google -->
+    <string-array name="config_systemPropertiesImitationPlatform">
+        <item>google</item>
+        <item>Google</item>
+    </string-array>
+
+    <!-- Configuration that imitates properties from the device of choice.
+         Please refer to the V1 configuration in com/android/internal/util/PropImitationFactory.java
+         to determine which device to use with this config.
+         This config requires values for the following properties.
+         ex. DEVICE: marlin	
+             PRODUCT: marlin
+             MODEL: Pixel XL
+             FINGERPRINT: google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys -->
+    <string-array name="config_systemPropertiesImitationValuesV1">
+        <item>marlin</item>
+        <item>marlin</item>
+        <item>Pixel XL</item>
+        <item>google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys</item>
+    </string-array>
+
+    <!-- Configuration that imitates properties from the device of choice.
+         Please refer to the V2 configuration in com/android/internal/util/PropImitationFactory.java
+         to determine which device to use with this config.
+         This config requires values for the following properties.
+         ex. DEVICE: redfin	
+             PRODUCT: redfin
+             MODEL: Pixel 5
+             FINGERPRINT: google/redfin/redfin:12/SP2A.220505.002/8353555:user/release-keys -->
+    <string-array name="config_systemPropertiesImitationValuesV2">
+        <item>redfin</item>
+        <item>redfin</item>
+        <item>Pixel 5</item>
+        <item>google/redfin/redfin:12/SP2A.220505.002/8353555:user/release-keys</item>
+    </string-array>
+
+</resources>
