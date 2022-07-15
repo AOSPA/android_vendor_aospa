@@ -1,0 +1,2 @@
+nano: invalid option -- '2'
+Type 'nano -h' for a list of available options.
