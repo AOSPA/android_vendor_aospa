@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github-ssh",
+        "repository":   "xboxfanj/android_device_nothing_phone1",
+        "target_path":  "device/nothing/phone1",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "sapphire-888"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "Vishalcj17/android_kernel_msm-5.4_nothing_sm7325",
+        "target_path":  "kernel/msm-5.4",
+        "revision":     "sapphire"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "33bca/proprietary_vendor_nothing",
+        "target_path":  "vendor/nothing",
+        "revision":     "sapphire"
+    }
+]
