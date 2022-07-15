@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0587717e_1926dd86",
+        "filename": "target/config/config.fs",
+        "patchSetId": 1
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-07-15T04:15:17Z",
+      "side": 0,
+      "message": "keep this entry",
+      "revId": "4f940eabd55cd98e264c4d2ba492bc51eddd0b73",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b4bd20a_31c1c993",
+        "filename": "target/product/packages.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-07-15T04:15:17Z",
+      "side": 0,
+      "message": "think these may be needed on pixel 6, can you check with Chris?",
+      "revId": "4f940eabd55cd98e264c4d2ba492bc51eddd0b73",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
