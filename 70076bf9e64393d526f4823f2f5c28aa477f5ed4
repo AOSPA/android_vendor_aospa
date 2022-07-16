@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70f5734e_90009e05",
+        "filename": "products/apollo/aospa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000722
+      },
+      "writtenOn": "2022-07-16T14:31:33Z",
+      "side": 1,
+      "message": "This says alioth as folder",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 9
+      },
+      "revId": "70076bf9e64393d526f4823f2f5c28aa477f5ed4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
