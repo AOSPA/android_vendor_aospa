@@ -1,0 +1,4 @@
+# OTA
+allow system_app ota_package_file:dir getattr;
+allow system_app ota_package_file:dir search;
+allow system_app ota_package_file:dir rw_file_perms;
