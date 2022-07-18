@@ -1,0 +1,2 @@
+# OTA
+allow system_app ota_package_file:dir search;
