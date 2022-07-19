@@ -44,6 +44,9 @@ ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
 PRODUCT_PACKAGES += ParanoidHub
 endif
 
+PRODUCT_PACKAGES += \
+    init.aospa-hub.rc
+
 # Theme Picker
 PRODUCT_PACKAGES += \
     ThemePicker
