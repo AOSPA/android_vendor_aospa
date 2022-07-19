@@ -1,0 +1,26 @@
+type hub_app, domain, coredomain;
+
+app_domain(hub_app)
+net_domain(hub_app)
+
+binder_call(hub_app, gpuservice)
+binder_call(hub_app, update_engine)
+
+allow hub_app app_api_service:service_manager find;
+allow hub_app recovery_service:service_manager find;
+allow hub_app system_api_service:service_manager find;
+allow hub_app update_engine_service:service_manager find;
+
+allow hub_app app_data_file:dir create_dir_perms;
+allow hub_app app_data_file:{ file lnk_file } create_file_perms;
+
+allow hub_app cache_file:dir r_dir_perms;
+
+allow hub_app cache_recovery_file:dir rw_dir_perms;
+allow hub_app cache_recovery_file:file create_file_perms;
+
+allow hub_app ota_package_file:dir create_dir_perms;
+allow hub_app ota_package_file:file create_file_perms;
+
+get_prop(hub_app, default_prop)
+get_prop(hub_app, build_prop)
