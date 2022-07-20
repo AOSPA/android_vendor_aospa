@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7114ac6_e793b0a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-07-20T23:05:07Z",
+      "side": 1,
+      "message": "i get that it\u0027s probably right, but \"aospa_phone1\" sounds horrible",
+      "revId": "53df88f468091efc9c802e5c7ce08d1a0f8dc9fb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
