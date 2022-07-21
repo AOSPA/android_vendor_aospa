@@ -69,6 +69,23 @@
       "message": "this is not a permanent rejection, but I think we should discuss it.  I don\u0027t really see the advantage of this.  When I\u0027m on Wi-Fi, I still want to see how much cell signal strength I have.  Especially, if my Wi-Fi is weak, I\u0027d want to know how strong my cell signal is.",
       "revId": "e3050632adf97daefe9aeafda27f45f939c5976e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90cb2544_157c2759",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-07-21T15:52:56Z",
+      "side": 1,
+      "message": "i still do not like not having no easy look at signal strength, especially with multisim",
+      "revId": "e3050632adf97daefe9aeafda27f45f939c5976e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
