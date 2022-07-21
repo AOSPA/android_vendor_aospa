@@ -59,6 +59,11 @@ endif
 # Move Wi-Fi modules to vendor.
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+# OTA Optimization
+PRODUCT_PACKAGES += \
+    checkpoint_gc \
+    otapreopt_script
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
