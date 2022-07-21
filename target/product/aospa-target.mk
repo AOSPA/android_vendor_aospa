@@ -12,6 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# A/B OTA Optimization
+ifneq ($(AB_OTA_PARTITIONS),)
+PRODUCT_PACKAGES += \
+    checkpoint_gc \
+    otapreopt_script
+endif
+
 # AOSPA Versioning.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
