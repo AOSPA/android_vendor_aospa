@@ -21,9 +21,6 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
 
-# Filesystem
-TARGET_FS_CONFIG_GEN += vendor/aospa/target/config/config.fs
-
 # Fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
