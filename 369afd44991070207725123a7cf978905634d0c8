@@ -16,6 +16,23 @@
       "message": "https://github.com/AOSPA/android_device_qcom_sepolicy/blob/dab342de70013e7588480266a2610a94bb7fd625/generic/private/vendor_hal_perf_allows.te following this",
       "revId": "369afd44991070207725123a7cf978905634d0c8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "229779f8_e9a14e01",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-07-27T07:43:26Z",
+      "side": 1,
+      "message": "Should this be here? Wouldn\u0027t it break build for non-qc devices",
+      "revId": "369afd44991070207725123a7cf978905634d0c8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
