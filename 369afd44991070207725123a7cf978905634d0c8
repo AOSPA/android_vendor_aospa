@@ -68,6 +68,23 @@
       "parentUuid": "1b015124_caa254d6",
       "revId": "369afd44991070207725123a7cf978905634d0c8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21b5d002_1f1c6eed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-07-29T20:45:27Z",
+      "side": 1,
+      "message": "I\u0027m ok with us having a PA QCOM SEPolicy so we don\u0027t have to forward port changes all the time (as long as we don\u0027t have to fragment further than that for different Qualcomm branches).\n\nOtherwise, this could move to QC SEPolicy right?",
+      "revId": "369afd44991070207725123a7cf978905634d0c8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
