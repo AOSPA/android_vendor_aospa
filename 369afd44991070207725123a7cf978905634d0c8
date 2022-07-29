@@ -33,6 +33,23 @@
       "message": "Should this be here? Wouldn\u0027t it break build for non-qc devices",
       "revId": "369afd44991070207725123a7cf978905634d0c8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b015124_caa254d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-07-29T15:08:55Z",
+      "side": 1,
+      "message": "vendor/aospa/sepolicy/private/vendor_hal_perf_allows.te:2:ERROR \u0027unknown type flipendo\u0027 at token \u0027;\u0027 on line 77463:\n#line 2\ntypeattribute flipendo halclientdomain;\ncheckpolicy:  error(s) encountered while parsing configuration\n",
+      "revId": "369afd44991070207725123a7cf978905634d0c8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
