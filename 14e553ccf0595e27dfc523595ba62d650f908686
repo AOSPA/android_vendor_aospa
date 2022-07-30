@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f1d76f0_8907934d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-07-30T04:02:46Z",
+      "side": 1,
+      "message": "let me know when you\u0027re ready for your repos to be pushed to GitHub",
+      "revId": "14e553ccf0595e27dfc523595ba62d650f908686",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
