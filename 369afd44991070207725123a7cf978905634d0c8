@@ -85,6 +85,24 @@
       "message": "I\u0027m ok with us having a PA QCOM SEPolicy so we don\u0027t have to forward port changes all the time (as long as we don\u0027t have to fragment further than that for different Qualcomm branches).\n\nOtherwise, this could move to QC SEPolicy right?",
       "revId": "369afd44991070207725123a7cf978905634d0c8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d68ac65_bd5798df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000697
+      },
+      "writtenOn": "2022-07-30T04:48:57Z",
+      "side": 1,
+      "message": "I think pa qcom sepolicy would be nice addition. But about this change if it can be moved to QC SEPolicy is possible only when vendor/google/pixel is made mandatory for everyone as such because flipendo type is defined at vendor/google/pixel/sepolicy/flipendo.te",
+      "parentUuid": "21b5d002_1f1c6eed",
+      "revId": "369afd44991070207725123a7cf978905634d0c8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
