@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7822588_bcf0c674",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 34
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-07-30T21:51:57Z",
+      "side": 1,
+      "message": "clang 15 builds and boots after https://github.com/aospa-op7/android_kernel_oneplus_sm8150/commit/c13600ab0558b69fffc3379f6361e73b0d851d88",
+      "revId": "06bdb594e7f6cee72d1c4ecc27f8e1ae3d33efa6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
