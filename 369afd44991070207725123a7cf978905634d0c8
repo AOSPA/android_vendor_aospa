@@ -103,6 +103,24 @@
       "parentUuid": "21b5d002_1f1c6eed",
       "revId": "369afd44991070207725123a7cf978905634d0c8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9792080c_96847d3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-07-30T05:10:46Z",
+      "side": 1,
+      "message": "Yeah I am going to move this to vendor/google/pixel and guard behind is qcom board flag",
+      "parentUuid": "6d68ac65_bd5798df",
+      "revId": "369afd44991070207725123a7cf978905634d0c8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ],
   "submitRequirementResults": []
