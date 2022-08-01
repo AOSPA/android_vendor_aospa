@@ -58,14 +58,18 @@ $(call inherit-product, vendor/aospa/target/product/properties.mk)
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Include GMS, Modules, and Pixel features.
-$(call inherit-product, vendor/google/gms/config.mk)
-$(call inherit-product, vendor/google/pixel/config.mk)
+$(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules.mk)
 
-ifneq ($(TARGET_FLATTEN_APEX), true)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s.mk)
-else
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s_flatten_apex.mk)
-endif
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/app/GoogleExtShared/GoogleExtShared.apk \
+    system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk \
+    system/etc/permissions/privapp-permissions-google-system.xml \
+    system/etc/sysconfig/google-hiddenapi-package-allowlist.xml \
+    system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk \
+    system/priv-app/TagGoogle/TagGoogle.apk
+
+$(call inherit-product, vendor/google/pixel/config.mk)
 
 # Move Wi-Fi modules to vendor.
 PRODUCT_VENDOR_MOVE_ENABLED := true
