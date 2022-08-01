@@ -58,7 +58,7 @@ $(call inherit-product, vendor/aospa/target/product/properties.mk)
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Include GMS, Modules, and Pixel features.
-$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/partner_gms/products/gms.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 
 ifneq ($(TARGET_FLATTEN_APEX), true)
