@@ -94,11 +94,11 @@ PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
 # Google - GMS, Pixel, and Mainline Modules
-$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product-if-exists, vendor/google/products/gms_product_enforcement_allow_list.mk)
+$(call inherit-product-if-exists, vendor/google/products/gms_64bit_only.mk)
+$(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules.mk)
+
 $(call inherit-product, vendor/google/pixel/config.mk)
-ifneq ($(TARGET_EXCLUDE_GMODULES), true)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
-endif
 
 PRODUCT_PRODUCT_PROPERTIES += \
     remote_provisioning.enable_rkpd=true \
