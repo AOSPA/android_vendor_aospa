@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fc34cbeb_e4ae2baf",
+        "filename": "products/spes/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2022-08-11T02:43:34Z",
+      "side": 1,
+      "message": "He should drop devicesettings imo. he can use this as reference:\n\nhttps://github.com/AOSPA/android_device_xiaomi_davinci/commit/a9c9d2c250491d5b22c08f3968477203f58c1b40\n\nhttps://github.com/AOSPA/android_device_xiaomi_lmi/tree/sapphire/motor",
+      "parentUuid": "88b2db26_2b38f379",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e50cddc7_90b4fb31",
         "filename": "products/spes/aospa.dependencies",
         "patchSetId": 7
