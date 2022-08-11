@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8444fae_568cbb61",
+        "filename": "products/spes/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-11T01:29:02Z",
+      "side": 1,
+      "message": "I don\u0027t like this.  the branch isn\u0027t that big.  as long as you\u0027re only syncing the branch you\u0027re on, you should be ok.  otherwise you can\u0027t easily push to it.",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88b2db26_2b38f379",
+        "filename": "products/spes/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-11T01:29:02Z",
+      "side": 1,
+      "message": "is PE the right origin for this?  I think it\u0027s from LOS.",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e50cddc7_90b4fb31",
+        "filename": "products/spes/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-11T01:29:02Z",
+      "side": 1,
+      "message": "I think you told me you can use 865 display but had to use Bengal audio.",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bc577c6_66d4f55e",
+        "filename": "products/spes/aospa_spes.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-11T01:29:02Z",
+      "side": 1,
+      "message": "2022",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
