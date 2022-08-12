@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "71e19cc3_c783d6d1",
+        "filename": "products/spes/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2022-08-12T17:03:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a8444fae_568cbb61",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88b2db26_2b38f379",
@@ -119,6 +137,24 @@
       "writtenOn": "2022-08-11T01:29:02Z",
       "side": 1,
       "message": "2022",
+      "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcb4f6f5_3b82137f",
+        "filename": "products/spes/aospa_spes.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2022-08-12T17:03:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bc577c6_66d4f55e",
       "revId": "37edb3524efe8a4ebd4116f2923a6feca8cf5dcb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
