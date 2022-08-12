@@ -36,7 +36,7 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -c, --clean           Wipe the tree before building${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -i, --installclean    Dirty build - Use 'installclean'${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -r, --repo-sync       Sync before building${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}  -v, --variant         AOSPA variant - Can be dev, alpha, beta or release${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -v, --variant         AOSPA variant - Can be alpha, beta or release${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -t, --build-type      Specify build type${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -j, --jobs            Specify jobs/threads to use${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -m, --module          Build a specific module${CLR_RST}"
@@ -109,6 +109,8 @@ if [ $AOSPA_VARIANT ]; then
         export AOSPA_BUILDTYPE=RELEASE
     elif [ "${AOSPA_VARIANT}" = "beta" ]; then
         export AOSPA_BUILDTYPE=BETA
+    elif [ "${AOSPA_VARIANT}" = "alpha" ]; then
+        export AOSPA_BUILDTYPE=ALPHA
     else
         echo -e "${CLR_BLD_RED} Unknown AOSPA variant - use beta or release${CLR_RST}"
         exit 1
