@@ -76,9 +76,11 @@ PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
 
 # Sensitive phone numbers and APN configurations
+ifneq ($(TARGET_NO_TELEPHONY), true)
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
+endif
 
 # Skip boot JAR checks.
 SKIP_BOOT_JARS_CHECK := true
