@@ -20,6 +20,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
+    $(LOCAL_DIR)/oneplus5/aospa_oneplus5.mk \
+    $(LOCAL_DIR)/oneplus5t/aospa_oneplus5t.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
@@ -35,6 +37,8 @@ COMMON_LUNCH_CHOICES += \
     aospa_cheetah-userdebug \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
+    aospa_oneplus5-userdebug \
+    aospa_oneplus5t-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug \
     aospa_oriole-userdebug \
