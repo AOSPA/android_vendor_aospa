@@ -19,9 +19,11 @@ PRODUCT_PACKAGES += \
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
+ifneq ($(TARGET_NO_TELEPHONY), true)
 # APNs
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+endif
 
 # Audio
 # Increase volume level steps
@@ -193,19 +195,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
 
+ifneq ($(TARGET_NO_TELEPHONY), true)
 # Sensitive Phone Numbers
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
+endif
 
 # SEPolicy
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Snapdragon Clang
 $(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
-
-# Telephony - AOSP
-PRODUCT_PACKAGES += \
-    Stk
 
 # Telephony - CLO
 PRODUCT_PACKAGES += \
@@ -214,7 +214,10 @@ PRODUCT_PACKAGES += \
     extphonelib.xml \
     extphonelib_product.xml \
     ims-ext-common \
-    ims_ext_common.xml \
+    ims_ext_common.xml
+
+ifneq ($(TARGET_NO_TELEPHONY), true)
+PRODUCT_PACKAGES += \
     tcmiface \
     telephony-ext \
     qti-telephony-hidl-wrapper \
@@ -229,6 +232,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     tcmiface \
     telephony-ext
+
+# Telephony - AOSP
+PRODUCT_PACKAGES += \
+    Stk
+endif
 
 # WiFi
 PRODUCT_PACKAGES += \
