@@ -166,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/default_permissions_com.google.android.deskclock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default_permissions_com.google.android.deskclock.xml \
     vendor/aospa/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+<<<<<<< HEAD   (6bcc17 aospa: products: Sync with gps-legacy component)
 # Privapp-permissions
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
@@ -194,8 +195,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
 
 # Sensitive Phone Numbers
+=======
+# Sensitive phone numbers and APN configurations
+ifneq ($(TARGET_NO_TELEPHONY), true)
+>>>>>>> CHANGE (11f379 aospa: products: do not build telephony modules if not suppo)
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
+endif
 
 # SEPolicy
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
