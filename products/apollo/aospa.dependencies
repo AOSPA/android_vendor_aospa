@@ -15,7 +15,7 @@
         "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "revision":     "sapphire",
+        "revision":     "sapphire"
     },
     {
         "remote":       "aospa",
