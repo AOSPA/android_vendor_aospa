@@ -16,6 +16,24 @@
       "message": "Why only these packages and not the ones above?",
       "revId": "641752355aa8761243c573fffc7748b1f33c4752",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f278e9ab_286c2a66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2022-08-14T01:45:11Z",
+      "side": 1,
+      "message": "E AndroidRuntime: FATAL EXCEPTION: main\nE AndroidRuntime: Process: com.android.systemui, PID: 1854\nE AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/android/systemui/statusbar/policy/FiveGServiceClient$1;\nE AndroidRuntime: \tat com.android.systemui.statusbar.policy.FiveGServiceClient.\u003cinit\u003e(FiveGServiceClient.java:195)\n...\nE AndroidRuntime: Caused by: java.lang.ClassNotFoundException: com.android.systemui.statusbar.policy.FiveGServiceClient$1\n-\u003e requires extlib\n\nE AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main\nE AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/codeaurora/ims/utils/QtiCarrierConfigHelper;\nE AndroidRuntime: \tat com.android.server.telecom.CallsManager.\u003cinit\u003e(CallsManager.java:624)\n...\nE AndroidRuntime: Caused by: java.lang.ClassNotFoundException: org.codeaurora.ims.utils.QtiCarrierConfigHelper\n-\u003e requires ims-ext-common\n\nI didn\u0027t see a way to avoid both of these so I ended up keeping the required targets",
+      "parentUuid": "d3390b70_66f800c5",
+      "revId": "641752355aa8761243c573fffc7748b1f33c4752",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
