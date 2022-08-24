@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
 # This is the global AOSPA version flavor that determines the focal point
 # behind our releases. This is bundled alongside $(AOSPA_MINOR_VERSION)
 # and only changes per major Android releases.
-AOSPA_MAJOR_VERSION := sapphire
+AOSPA_MAJOR_VERSION := topaz
 
 # The version code is the upgradable portion during the cycle of
 # every major Android release. Each version code upgrade indicates
