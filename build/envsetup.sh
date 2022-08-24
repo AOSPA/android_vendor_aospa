@@ -19,6 +19,3 @@ function repopick()
     T=$(gettop)
     $T/vendor/aospa/build/tools/repopick.py $@
 }
-
-export SKIP_ABI_CHECKS="true"
-export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
