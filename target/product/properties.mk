@@ -18,7 +18,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Enforce privapp-permissions whitelist.
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.control_privapp_permissions=enforce
+    ro.control_privapp_permissions=log
 
 # Disable blur on app-launch
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
