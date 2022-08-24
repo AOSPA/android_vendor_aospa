@@ -97,7 +97,7 @@ cc_binary {
         "libbase",
         "libbinder_ndk",
         "liblog",
-        "vendor.aospa.power-V1-ndk_platform",
+        "vendor.aospa.power-V1-ndk",
     ],
     srcs: [
         "PowerFeature.cpp",
