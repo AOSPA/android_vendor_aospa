@@ -16,6 +16,24 @@
       "message": "https://gerrit.aospa.co/c/AOSPA/android_packages_apps_ThemePicker/+/19583",
       "revId": "7e7a672949d7d50ef9d75d3d97536610c850d31b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5949ad14_5728e6c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-28T19:05:30Z",
+      "side": 1,
+      "message": "why break boot every year until we add that?  I like this better in vendor/aospa.",
+      "parentUuid": "cea713aa_3af1b55c",
+      "revId": "7e7a672949d7d50ef9d75d3d97536610c850d31b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
