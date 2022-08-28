@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db46e98e_5ffbcc0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-28T06:59:10Z",
+      "side": 1,
+      "message": "updated to work with generic target, still never going to be merged duh",
+      "revId": "a8022c4acb42e0db775c98680d046344093d2578",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
