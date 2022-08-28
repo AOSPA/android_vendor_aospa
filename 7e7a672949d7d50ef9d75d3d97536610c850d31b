@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cea713aa_3af1b55c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2022-08-28T04:00:38Z",
+      "side": 1,
+      "message": "https://gerrit.aospa.co/c/AOSPA/android_packages_apps_ThemePicker/+/19583",
+      "revId": "7e7a672949d7d50ef9d75d3d97536610c850d31b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
