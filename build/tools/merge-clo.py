@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 #
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@ import xml.etree.ElementTree as Et
 import git
 from git.exc import GitCommandError
 
-BASE_URL = "https://source.codeaurora.org/quic/la/"
+BASE_URL = "https://git.codelinaro.org/clo/la/"
 WORKING_DIR = "{0}/../../../..".format(os.path.dirname(os.path.realpath(__file__)))
 MANIFEST_NAME = "aospa.xml"
 REPOS_TO_MERGE = {}
@@ -154,7 +154,7 @@ def merge(repo_lst, branch):
 
 
 def merge_manifest(is_system, branch):
-    """ Updates CAF revision in .repo/manifests """
+    """ Updates CLO revision in .repo/manifests """
     with open("{0}/.repo/manifests/default.xml".format(WORKING_DIR)) as manifestxml:
         tree = Et.parse(manifestxml)
         root = tree.getroot()
@@ -164,7 +164,7 @@ def merge_manifest(is_system, branch):
             lst = root.findall("remote")
             remote = None
             for elem in lst:
-                if elem.attrib["name"] == "caf_vendor":
+                if elem.attrib["name"] == "clo_vendor":
                     remote = elem
                     break
             remote.set("revision", branch)
@@ -223,15 +223,15 @@ def print_results(branch):
 
 
 def main():
-    """Gathers and merges all repos from CAF and
+    """Gathers and merges all repos from CLO and
     reports all repos that need to be fixed manually"""
 
-    parser = argparse.ArgumentParser(description="Merge a CAF revision.")
+    parser = argparse.ArgumentParser(description="Merge a CLO revision.")
     parser.add_argument(
         "branch_to_merge",
         metavar="branch",
         type=str,
-        help="a tag to merge from source.codeaurora.org",
+        help="a tag to merge from git.codelinaro.org",
     )
     parser.add_argument(
         "--repos",

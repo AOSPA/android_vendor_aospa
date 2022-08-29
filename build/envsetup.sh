@@ -1,17 +1,17 @@
 function __print_aospa_functions_help() {
 cat <<EOF
 Additional Paranoid Android functions:
-- cafmerge:        Utility to merge CAF tags.
+- clomerge:        Utility to merge CLO tags.
 - repopick:        Utility to fetch changes from Gerrit.
 EOF
 }
 
-function cafmerge()
+function clomerge()
 {
     target_branch=$1
     set_stuff_for_environment
     T=$(gettop)
-    python3 $T/vendor/aospa/build/tools/merge-caf.py $target_branch
+    python3 $T/vendor/aospa/build/tools/merge-clo.py $target_branch
 }
 
 function repopick()
