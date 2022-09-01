@@ -99,4 +99,7 @@
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
+    <!-- Fingerprint from a certified Pixel Device -->
+    <string name="pixel_fingerprint" translatable="false">google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys</string>
+
 </resources>
