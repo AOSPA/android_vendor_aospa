@@ -30,6 +30,13 @@ PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2012K11AG
 
+PRODUCT_SYSTEM_NAME := alioth_global
+PRODUCT_SYSTEM_DEVICE := alioth
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE=alioth \
+    TARGET_PRODUCT=alioth_global
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Boot animation resolution.
