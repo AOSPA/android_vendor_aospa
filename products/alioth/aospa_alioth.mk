@@ -25,10 +25,17 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 PRODUCT_NAME := aospa_alioth
-PRODUCT_BRAND := POCO
+PRODUCT_BRAND := Mi
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := M2012K11AG
+PRODUCT_MODEL := M2012K11A1
+
+PRODUCT_SYSTEM_NAME := aliothin
+PRODUCT_SYSTEM_DEVICE := aliothin
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE=aliothin \
+    TARGET_PRODUCT=aliothin
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
