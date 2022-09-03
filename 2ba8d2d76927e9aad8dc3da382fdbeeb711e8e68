@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "758e0161_b7e6ec58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-09-03T16:09:02Z",
+      "side": 1,
+      "message": "We still track iorap here: https://github.com/AOSPA/manifest/blob/topaz/system.xml#L991\n\nCan it be untracked too?",
+      "revId": "2ba8d2d76927e9aad8dc3da382fdbeeb711e8e68",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
