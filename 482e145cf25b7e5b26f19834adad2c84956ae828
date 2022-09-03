@@ -34,6 +34,24 @@
       "parentUuid": "9da66469_7388cf21",
       "revId": "482e145cf25b7e5b26f19834adad2c84956ae828",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6279f5dd_0db8d734",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-03T13:37:38Z",
+      "side": 1,
+      "message": "that is not related to what this property does\nthis is to fix wakeup lag from aod on sidefps devices",
+      "parentUuid": "88ed1d49_931c7ac8",
+      "revId": "482e145cf25b7e5b26f19834adad2c84956ae828",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
