@@ -16,6 +16,24 @@
       "message": "It is fixed on T",
       "revId": "482e145cf25b7e5b26f19834adad2c84956ae828",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88ed1d49_931c7ac8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2022-09-03T06:44:28Z",
+      "side": 1,
+      "message": "I\u0027m currently testing it and no issues so far.\n\non A12 it caused a buggy behavior for UDFPS devices that sometimes (almost of them lol) the lockscreen overlapped the home screen after unlock using the fingerprint.\n\nAnd now testing on T, it didn\u0027t happen even once yet so I presume it\u0027s fixed. But I would like to someone else to test it too and check.",
+      "parentUuid": "9da66469_7388cf21",
+      "revId": "482e145cf25b7e5b26f19834adad2c84956ae828",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
