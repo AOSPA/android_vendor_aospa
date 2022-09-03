@@ -52,6 +52,23 @@
       "parentUuid": "88ed1d49_931c7ac8",
       "revId": "482e145cf25b7e5b26f19834adad2c84956ae828",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e7817a4_968c7c42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-03T13:38:06Z",
+      "side": 1,
+      "message": "nvm just assumed this was to disable animation",
+      "revId": "482e145cf25b7e5b26f19834adad2c84956ae828",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
