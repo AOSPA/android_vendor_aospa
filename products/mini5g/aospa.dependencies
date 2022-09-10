@@ -3,7 +3,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_nubia_mini5g",
         "target_path":  "device/nubia/mini5g",
-        "revision":     "sapphire"
+        "revision":     "topaz"
     },
     {
         "remote":       "aospa",
