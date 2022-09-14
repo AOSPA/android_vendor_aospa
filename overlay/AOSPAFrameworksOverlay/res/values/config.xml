@@ -103,7 +103,7 @@
     <string name="config_certifiedFingerprint" translatable="false">google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys</string>
 
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
-    <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
+    <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.android.launcher3</string>
 
 
 </resources>
