@@ -28,7 +28,9 @@ KERNEL_SD_LLVM_SUPPORT ?= true
 endif
 
 # Qualcomm kernel.
+ifeq (,$(filter 5.10, $(TARGET_KERNEL_VERSION)))
 TARGET_COMPILE_WITH_MSM_KERNEL := true
+endif
 
 # Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
 # is included before build/core/Makefile, where it is required to
