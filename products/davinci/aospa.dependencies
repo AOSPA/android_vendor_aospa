@@ -1,0 +1,98 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/arpal-lx",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/opensource/cvp-kernel",
+        "target_path":  "vendor/qcom/opensource/cvp-kernel",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/opensource/dataipa",
+        "target_path":  "vendor/qcom/opensource/cvp-kernel",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-13100-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/opensource/mmrm-driver",
+        "target_path":  "vendor/qcom/opensource/mmrm-driver",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-04000-WAIPIO.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/opensource/mmrm-driver-test",
+        "target_path":  "vendor/qcom/opensource/mmrm-driver/test",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-04000-WAIPIO.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/opensource/eva-kernel",
+        "target_path":  "vendor/qcom/opensource/eva-kernel",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/opensource/video-driver",
+        "target_path":  "vendor/qcom/opensource/video-driver",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-04000-WAIPIO.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/qcom-opensource/wlan/fw-api",
+        "target_path":  "vendor/qcom/opensource/wlan/fw-api",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn",
+        "target_path":  "vendor/qcom/opensource/wlan/qca-wifi-host-cmn",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/qcom-opensource/wlan/qcacld-3.0",
+        "target_path":  "vendor/qcom/opensource/wlan/qcacld-3.0",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/qcom/opensource/datarmnet",
+        "target_path":  "vendor/qcom/opensource/datarmnet",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    },
+    {
+        "remote":       "clo_vendor",
+        "repository":   "platform/vendor/qcom/opensource/datarmnet-ext",
+        "target_path":  "vendor/qcom/opensource/datarmnet-ext",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0"
+    }
+]
