@@ -35,6 +35,10 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := F2 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Override device name for Play Store.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=lmi
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 endif
