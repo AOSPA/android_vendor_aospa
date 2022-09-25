@@ -75,13 +75,9 @@ PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/aospa/target/config/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
 
-# Pre-optimization
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
-
-# Compile SystemUI on device with `speed`.
+# Compile SystemUI on device with `everything`.
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.systemuicompilerfilter=speed
+    dalvik.vm.systemuicompilerfilter=everything
 
 # Sensitive phone numbers and APN configurations
 PRODUCT_COPY_FILES += \
