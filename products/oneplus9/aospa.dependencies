@@ -37,7 +37,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "arter97/android_kernel_oneplus_sm8350",
+        "repository":   "Vishalcj17/lineage-kernel",
         "target_path":  "kernel/msm-5.4",
         "revision":     "topaz"
     },
