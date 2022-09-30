@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1a747f0_332e028a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-09-30T07:15:06Z",
+      "side": 1,
+      "message": "No concern about TPU? Does P5 not have the widgets?",
+      "revId": "44a9cb02f52a4bfede931c867b8cecc7cd8e92f0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
