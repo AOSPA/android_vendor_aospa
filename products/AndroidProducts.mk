@@ -29,6 +29,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/lunaa/aospa_lunaa.mk \
     $(LOCAL_DIR)/lynx/aospa_lynx.mk \
+    $(LOCAL_DIR)/marsche/aospa_marsche.mk \
     $(LOCAL_DIR)/mi439/aospa_mi439.mk \
     $(LOCAL_DIR)/miatoll/aospa_miatoll.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
@@ -68,6 +69,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_lmi-userdebug \
     aospa_lunaa-userdebug \
     aospa_lynx-userdebug \
+    aospa_marsche-userdebug \
     aospa_mi439-userdebug \
     aospa_miatoll-userdebug \
     aospa_mini5g-userdebug \
