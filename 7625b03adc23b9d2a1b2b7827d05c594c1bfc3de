@@ -16,6 +16,23 @@
       "message": "Not sure about this",
       "revId": "7625b03adc23b9d2a1b2b7827d05c594c1bfc3de",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49f434c9_be61ff64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2022-10-05T14:23:50Z",
+      "side": 1,
+      "message": "does Google\u0027s SUW imply Pixel? We just ship partner SUW\n\nAlso maybe auto dark mode?",
+      "revId": "7625b03adc23b9d2a1b2b7827d05c594c1bfc3de",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
