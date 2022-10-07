@@ -42,6 +42,12 @@
         "revision":     "topaz"
     },
     {
+        "remote":       "aospa",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-20.0"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
