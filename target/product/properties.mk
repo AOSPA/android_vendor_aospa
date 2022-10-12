@@ -43,3 +43,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Increase volume level steps
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
+
+# Disable Remote Keygaurd animation
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.wm.enable_remote_keyguard_animation=0
