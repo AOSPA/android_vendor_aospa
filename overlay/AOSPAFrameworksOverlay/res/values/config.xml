@@ -108,4 +108,7 @@
     <!-- Model from a certified device -->
     <string name="config_certifiedModel" translatable="false">Pixel 6 Pro</string>
 
+    <!-- QR Code Scanner on Lockscreen -->
+    <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
+
 </resources>
