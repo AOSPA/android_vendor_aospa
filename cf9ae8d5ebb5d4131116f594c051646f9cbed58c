@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a01d5bcf_816d80ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2022-10-15T04:03:50Z",
+      "side": 1,
+      "message": "Since these devices shipped with October security patch, this should be held until we merge it in platform",
+      "revId": "cf9ae8d5ebb5d4131116f594c051646f9cbed58c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
