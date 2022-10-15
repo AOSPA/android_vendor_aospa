@@ -16,6 +16,23 @@
       "message": "https://github.com/pa-gr/android_vendor_aospa/commit/219c2b90ab0fb0aa6ccdbf161de90e94de7f7244",
       "revId": "876aa03f7d01ef4b16c755319db7d18b640c5baa",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba22bb7e_0a42e654",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2022-10-15T18:01:16Z",
+      "side": 1,
+      "message": "I honestly didn\u0027t see that lmao\nSending authorship your way\n(did it in fwb like a week ago tho lol)",
+      "revId": "876aa03f7d01ef4b16c755319db7d18b640c5baa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
