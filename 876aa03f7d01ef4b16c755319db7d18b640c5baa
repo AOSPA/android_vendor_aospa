@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a814717_01bc712a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2022-10-15T17:52:28Z",
+      "side": 1,
+      "message": "https://github.com/pa-gr/android_vendor_aospa/commit/219c2b90ab0fb0aa6ccdbf161de90e94de7f7244",
+      "revId": "876aa03f7d01ef4b16c755319db7d18b640c5baa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
