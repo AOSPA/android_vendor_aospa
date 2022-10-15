@@ -154,4 +154,7 @@
          are controlled together (aliasing is true) or not. -->
     <bool name="config_alias_ring_notif_stream_types">false</bool>
 
+    <!-- QR Code Scanner on Lockscreen -->
+    <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
+
 </resources>
