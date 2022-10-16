@@ -16,6 +16,24 @@
       "message": "any plans on shifting these builds to 4.14?",
       "revId": "798ca6102151506fc16a433ace8288aec73aa361",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28c55fdc_510de577",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000706
+      },
+      "writtenOn": "2022-10-16T12:16:00Z",
+      "side": 1,
+      "message": "\u003e any plans on shifting these builds to 4.14?\n\nIf I can find someone to work on the kernel why not. Unfortunately no one is working on 4.14 right now.",
+      "parentUuid": "47c8e4c0_a25802bc",
+      "revId": "798ca6102151506fc16a433ace8288aec73aa361",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
