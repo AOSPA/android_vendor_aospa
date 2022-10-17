@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20f19768_cee090d1",
+        "filename": "products/miatoll/aospa.dependencies",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2022-10-17T03:46:42Z",
+      "side": 1,
+      "message": "android_device_xiaomi_miatoll",
+      "revId": "ab6dfa0a94300bc182cfe845aa6d14206bde0cb5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63abcaec_fbf2b5e9",
+        "filename": "products/miatoll/aospa.dependencies",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2022-10-17T03:46:42Z",
+      "side": 1,
+      "message": "android_kernel_xiaomi_miatoll",
+      "revId": "ab6dfa0a94300bc182cfe845aa6d14206bde0cb5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
