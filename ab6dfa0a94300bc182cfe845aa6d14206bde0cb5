@@ -33,6 +33,24 @@
       "message": "android_kernel_xiaomi_miatoll",
       "revId": "ab6dfa0a94300bc182cfe845aa6d14206bde0cb5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f41edf13_39de4126",
+        "filename": "products/miatoll/aospa.dependencies",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2022-10-17T09:36:19Z",
+      "side": 1,
+      "message": "did those intentionally, but thanks",
+      "parentUuid": "63abcaec_fbf2b5e9",
+      "revId": "ab6dfa0a94300bc182cfe845aa6d14206bde0cb5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
