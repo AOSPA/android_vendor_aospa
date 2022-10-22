@@ -17,11 +17,13 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
+    $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
+    $(LOCAL_DIR)/panther/aospa_panther.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk
 
@@ -30,10 +32,12 @@ COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
     aospa_bluejay-userdebug \
+    aospa_cheetah-userdebug \
     aospa_lmi-userdebug \
     aospa_mini5g-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug \
     aospa_oriole-userdebug \
+    aospa_panther-userdebug \
     aospa_phoenix-userdebug \
     aospa_raven-userdebug
