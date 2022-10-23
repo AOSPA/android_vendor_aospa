@@ -23,6 +23,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
+    $(LOCAL_DIR)/phone1/aospa_phone1.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk
 
 # Lunch targets
@@ -36,4 +37,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_oneplus9pro-userdebug \
     aospa_oriole-userdebug \
     aospa_phoenix-userdebug \
+    aospa_phone1-userdebug \
     aospa_raven-userdebug
