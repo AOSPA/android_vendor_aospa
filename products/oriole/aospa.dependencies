@@ -76,23 +76,5 @@
         "repository":   "platform/hardware/broadcom/wlan",
         "target_path":  "hardware/broadcom/wlan",
         "revision":     "refs/tags/android-13.0.0_r3"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/external/armnn",
-        "target_path":  "external/armnn",
-        "revision":     "refs/tags/android-13.0.0_r3"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/external/android-nn-driver",
-        "target_path":  "external/android-nn-driver",
-        "revision":     "refs/tags/android-13.0.0_r3"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/external/ComputeLibrary",
-        "target_path":  "external/ComputeLibrary",
-        "revision":     "refs/tags/android-13.0.0_r3"
     }
 ]
