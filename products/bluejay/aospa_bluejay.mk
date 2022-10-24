@@ -39,8 +39,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=Pixel6a
+    PRODUCT_DEVICE=Pixel6a \
+    PRIVATE_BUILD_DESC="bluejay-user 13 TP1A.221005.003 9018821 release-keys"
 
-$(call inherit-product, vendor/google/bluejay/bluejay-vendor.mk)
+BUILD_FINGERPRINT := google/bluejay/bluejay:13/TP1A.221005.003/9018821:user/release-ke
+
+$(call inherit-product, vendor/google_devices/bluejay/bluejay-vendor.mk)
 
 endif

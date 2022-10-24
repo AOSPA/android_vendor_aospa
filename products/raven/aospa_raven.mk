@@ -39,8 +39,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=Pixel6Pro
+    PRODUCT_DEVICE=Pixel6Pro \
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys"
 
-$(call inherit-product, vendor/google/raven/raven-vendor.mk)
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
+
+$(call inherit-product, vendor/google_devices/raven/raven-vendor.mk)
 
 endif
