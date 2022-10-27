@@ -16,6 +16,23 @@
       "message": "Commit as amended looks great! ",
       "revId": "852922a94273a6c8b42e13f4280b227b444f5b08",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e368648_366d2ac1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-10-27T17:56:28Z",
+      "side": 1,
+      "message": "further improvements coming, this is good enough for now.",
+      "revId": "852922a94273a6c8b42e13f4280b227b444f5b08",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
