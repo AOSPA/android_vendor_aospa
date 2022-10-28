@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac0b8dd3_2fce00e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000178
+      },
+      "writtenOn": "2022-10-28T08:06:15Z",
+      "side": 1,
+      "message": "- AIDL should be an actual interface but for now it only builds as a java library\n- Default permissions should be moved to sense repo",
+      "revId": "6337396e47d2d1405cc833aefe3eed57b66005c2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
