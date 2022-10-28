@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="co.aospa.sense">
+        <permission name="android.permission.CAMERA" fixed="false"/>
+    </exception>
+</exceptions>

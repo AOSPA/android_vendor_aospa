@@ -72,7 +72,9 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Permissions
 PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml \
     vendor/aospa/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
+    vendor/aospa/target/config/permissions/default_permissions_co.aospa.sense.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default_permissions_co.aospa.sense.xml \
     vendor/aospa/target/config/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
 
 # Pre-optimization
