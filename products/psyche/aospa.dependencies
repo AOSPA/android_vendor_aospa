@@ -1,0 +1,63 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_psyche",
+        "target_path":  "device/xiaomi/psyche",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_xiaomi_sm8250",
+        "target_path":  "kernel/msm-4.19",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "topaz",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "topaz-SN100X-legacy"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "topaz-SN100X-legacy"
+    }
+]
