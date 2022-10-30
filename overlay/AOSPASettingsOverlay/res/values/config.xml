@@ -24,4 +24,7 @@
     <!-- Whether or not device header widget tile should display in device info page -->
     <bool name="config_show_device_header_in_device_info">false</bool>
 
+    <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
+    <string name="config_face_enroll" translatable="false">co.aospa.sense/co.aospa.sense.activities.EnrollActivity</string>
+
 </resources>
