@@ -16,6 +16,23 @@
       "message": "\u003e bengal device\n\u003e lahaina audio hal\n\u003e kona display hal\n\nMate you OK ?",
       "revId": "8a9b17ee08cc017d013fa01d100a6a6b7ce7df61",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f2ab99f_68635cd8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2022-11-01T14:19:46Z",
+      "side": 1,
+      "message": "🤔\nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/24990/1/products/fog/aospa.dependencies#5",
+      "revId": "8a9b17ee08cc017d013fa01d100a6a6b7ce7df61",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
