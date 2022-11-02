@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Leyfa andlitslás</string>
+    <string name="security_settings_face_enroll_dialog_ok">Ég skil</string>
+    <string name="security_settings_face_enroll_done">Lokið</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Ef slökkt er á andlitskenni fyrir aðgengi er ekki víst að öll skref virki sem skyldi með TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Til baka</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Halda uppsetningu áfram</string>
+    <string name="security_settings_face_enroll_education_message">Á næsta skjá máttu snúa höfðinu svo andlitið náist frá öllum sjónarhornum</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Á næsta skjá skaltu halda símanum í augnhæð</string>
+    <string name="security_settings_face_enroll_education_start">Hefjast handa</string>
+    <string name="security_settings_face_enroll_education_title">Uppsetning andlitskennis</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Setja upp andlitskenni</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Notaðu andlitið til að staðfesta</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Sleppa</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Ekki var lokið við skráningu</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Andlitsskráning virkaði ekki.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Andlitsskráning rann út á tíma. Reyndu aftur.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Uppsetning andlitskennis rann út á tíma</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Nú geturðu notað andlitið til að taka símann úr lás eða til að staðfesta hver þú ert, t.d. þegar þú skráir þig inn í forrit eða samþykkir kaup</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Nú geturðu notað andlitið til að taka símann úr lás þegar þú tekur hann upp eða ýtir á skjáinn.
+
+Andlitskenni virkar best þegar birtan er næg og þú ert ekki með grímu eða dökk gleraugu."</string>
+    <string name="security_settings_face_enroll_finish_title">Lítur vel út!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Eyddu núverandi andlitslíkani til að setja upp andlitskenni aftur.
+
+Andlitslíkaninu þínu verður eytt varanlega á öruggan hátt.
+
+Þegar búið er að eyða því þarftu að nota PIN-númer, mynstur eða aðgangsorð til að taka símann úr lás eða til auðkenningar í forritum."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Eyddu núverandi andlitslíkani til að setja upp andlitskenni aftur.
+
+Andlitslíkaninu þínu verður eytt varanlega á öruggan hátt.
+
+Þegar búið er að eyða því þarftu að nota fingrafar, PIN-númer, mynstur eða aðgangsorð til að taka símann úr lás eða til auðkenningar í forritum."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Setja upp andlitskenni</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Uppsetning fyrir skerta sjón eða hreyfigetu</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Við notkun á andlitskenni gætirðu þurft að hafa höfuðið beint fyrir framan símann.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Augun verða að vera opin</string>
+    <string name="security_settings_face_enroll_introduction_agree">Ég samþykki</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Hætta við</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Óvíst er að öruggara sé að nota andlit barnsins til að taka símann úr lás heldur en að nota sterkt mynstur eða PIN-númer.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Leyfa barninu að nota andlitið til að opna símann</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Þú og barnið þitt getið eytt andlitslíkaninu eða slökkt á andlitslás hvenær sem er í stillingum. Andlitslíkön eru geymd í símanum þar til þeim er eytt.
+
+Nánar á g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Þú og barnið þitt stjórnið ferðinni</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Þú getur eytt andlitslíkaninu eða slökkt á andlitslás hvenær sem er í stillingum. Andlitslíkön eru geymd í símanum þar til þú eyðir þeim.
+
+Nánar á g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Þú ert við stjórnvölinn</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Andlitskenni býr til einkvæmt líkan af andliti barnsins þíns til að staðfesta hver það er. Til að búa andlitslíkanið til við uppsetningu tekur barnið þitt myndir af andlitinu á sér frá nokkrum sjónarhornum.
+
+Síminn mun einnig nota myndir frá notkun barnsins á andlitskenni til að uppfæra andlitslíkanið. Myndir sem eru notaðar til að búa andlitslíkan barnsins til eru ekki geymdar en andlitslíkanið er geymt á öruggan hátt í símanum og fer aldrei þaðan. Öll úrvinnsla fer fram í símanum á öruggan hátt."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Andlitskenni býr til einkvæmt líkan af andlitinu á þér til að staðfesta hver þú ert. Til að búa andlitslíkanið til við uppsetningu tekurðu myndir af andlitinu á þér frá nokkrum sjónarhornum.
+
+Þegar þú notar andlitskenni eru myndir notaðar til að uppfæra andlitslíkanið þitt. Myndir sem eru notaðar til að búa andlitslíkanið til eru ekki geymdar en andlitslíkanið er geymt á öruggan hátt í símanum og fer aldrei þaðan. Öll úrvinnsla fer fram í tækinu á öruggan hátt."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Svona virkar þetta</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Andlitskenni kann að krefjast þess að barnið hafi augun opin til að taka símann úr lás eða staðfesta hver það er. Þú og barnið þitt getið slökkt á þessum valkosti hvenær sem er í stillingum.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ef barnið notar gleraugu að staðaldri getur það verið með þau við uppsetningu.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Óvíst er að öruggara sé að nota andlit barnsins til að taka símann úr lás heldur en að nota sterkt mynstur, PIN-númer eða aðgangsorð</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Síminn gæti opnast óvart þegar barnið lítur á hann. Sími barnsins gæti einnig opnast þegar einhver sem líkist því mikið horfir á hann, t.d. eineggja tvíburi, eða ef einhver heldur símanum upp að andliti barnsins.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Andlitskenni kann að krefjast þess að þú hafir augun opin til að taka símann úr lás eða staðfesta hver þú ert. Þú getur slökkt á þessum valkosti hvenær sem er í stillingum.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Gleraugu eða lítið dekkt sólgleraugu trufla ekki.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Ekki er víst að öruggara sé að nota andlitið til að taka símann úr lás heldur en sterkt mynstur, PIN-númer eða aðgangsorð.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Síminn gæti opnast óvart þegar þú lítur á hann. Síminn gæti einnig opnast þegar einhver sem líkist þér mikið horfir á hann, t.d. eineggja tvíburi, eða ef einhver heldur símanum upp að andlitinu á þér.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Hafðu í huga</string>
+    <string name="security_settings_face_enroll_introduction_message">Notaðu andlitið til að opna símann eða staðfesta að þetta sért þú, t.d. þegar þú skráir þig inn í forrit eða samþykkir kaup.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Notaðu andlitið til að taka símann úr lás, heimila kaup eða skrá þig inn í forrit.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Notaðu andlitið til að taka símann þinn úr lás eða staðfesta kaup.
+
+Athugaðu: Þú getur ekki notað andlitið til að opna þetta tæki. Hafðu samband við kerfisstjóra fyrirtækisins þíns til að fá frekari upplýsingar."</string>
+    <string name="security_settings_face_enroll_introduction_more">Meira</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nei, takk</string>
+    <string name="security_settings_face_enroll_introduction_title">Setja upp andlitslás</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Notaðu andlitið til að staðfesta</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Bættu öryggi og afköst</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Setja upp andlitskenni aftur</string>
+    <string name="security_settings_face_enroll_next">Áfram</string>
+    <string name="security_settings_face_enroll_partial_message">Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum</string>
+    <string name="security_settings_face_enroll_partial_start_over">Byrja upp á nýtt</string>
+    <string name="security_settings_face_enroll_partial_title">Uppsetningu andlitskennis lokið</string>
+    <string name="security_settings_face_enroll_repeat_title">Staðsettu andlit þitt í miðju hringsins</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Setja upp andlitskenni aftur</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Auka gæði andlitskennis</string>
+    <string name="security_settings_face_enroll_timeout_message">"Prófaðu hraða uppsetningu í staðinn. Hafðu í huga að þú gætir þurft að hafa höfuðið beint fyrir framan símann þegar þú notar andlitskenni.
+
+Til að bæta eiginleikann geturðu sett andlitskenni upp aftur í stillingum."</string>
+    <string name="security_settings_face_enroll_timeout_title">Ekki er hægt að halda uppsetningu áfram</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Reyna aftur</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Nota hraða uppsetningu</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Hætta uppsetningu</string>
+    <string name="security_settings_face_enroll_too_hot_message">Ekki er hægt að ljúka við uppsetningu andlitskennis vegna þess að síminn er of heitur. Reyndu aftur síðar þegar síminn hefur kólnað.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Sleppa andlitskenni</string>
+    <string name="security_settings_face_enroll_too_hot_title">Síminn er of heitur</string>
+    <string name="security_settings_face_preference_summary">Andliti bætt við</string>
+    <string name="security_settings_face_preference_summary_none">Ýttu til að setja upp andlit</string>
+    <string name="security_settings_face_preference_title">Andlitskenni</string>
+    <string name="security_settings_face_profile_preference_title">Andlitskenni fyrir vinnu</string>
+    <string name="security_settings_face_settings_context_subtitle">Notaðu andlitskenni til að taka símann úr lás</string>
+    <string name="security_settings_face_settings_enroll">Setja upp andlitskenni</string>
+    <string name="security_settings_face_settings_footer">"Notaðu andlitið til að taka símann úr lás eða til að auðkenna þig í forritum, t.d. þegar þú skráir þig inn eða samþykkir kaup.
+
+Hafðu í huga:
+Þú getur aðeins verið með eitt andlit uppsett í einu. Eyddu núverandi andliti til að bæta nýju andliti við.
+
+Síminn gæti opnast óvart þegar þú lítur á hann.
+
+Aðrir geta opnað símann þinn með því að halda honum upp að andlitinu á þér.
+
+Manneskja sem er mjög lík þér getur opnað símann þinn, t.d. eineggja tvíburi."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Notaðu andlitið til að taka símann úr lás eða til að auðkenna þig í forritum, t.d. þegar þú skráir þig inn eða samþykkir kaup.
+
+Hafðu í huga:
+Þú getur aðeins verið með eitt andlit uppsett í einu. Eyddu núverandi andliti til að bæta nýju andliti við.
+
+Síminn gæti opnast óvart þegar þú lítur á hann.
+
+Aðrir geta opnað símann þinn með því að halda honum upp að andlitinu á þér, jafnvel þótt þú sért með lokuð augun.
+
+Manneskja sem er mjög lík þér getur opnað símann þinn, t.d. eineggja tvíburi."</string>
+    <string name="security_settings_face_settings_preferences_category">Þegar andlitskenni er notað</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Andlitslíkaninu þínu verður eytt endanlega á öruggan hátt.
+
+Þegar búið er að eyða því þarftu PIN-númer, mynstur eða aðgangsorð til að taka símann úr lás eða til að auðkenna þig í forritum."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Andlitslíkaninu þínu verður eytt endanlega á öruggan hátt.
+
+Þegar búið er að eyða því þarftu PIN-númer, mynstur eða aðgangsorð til að taka símann úr lás."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Eyða andlitslíkani?</string>
+    <string name="security_settings_face_settings_remove_face_model">Eyða andlitslíkani</string>
+    <string name="security_settings_face_settings_require_attention">Krefjast að augu séu opin</string>
+    <string name="security_settings_face_settings_require_attention_details">Augun verða að vera opin til að aflæsa</string>
+    <string name="security_settings_face_settings_require_confirmation">Krefjast alltaf staðfestingar</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Krefjast alltaf staðfestingarþreps ef andlitskenni er notað í forritum</string>
+    <string name="security_settings_face_settings_use_face_category">Nota andlitskenni til að</string>
+</resources>

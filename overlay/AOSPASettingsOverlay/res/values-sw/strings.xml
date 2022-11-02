@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Ruhusu kipengele cha Kufungua kwa Uso</string>
+    <string name="security_settings_face_enroll_dialog_ok">Sawa</string>
+    <string name="security_settings_face_enroll_done">Nimemaliza</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Ikiwa kipengele cha ufikivu cha Kufungua kwa uso kimezimwa, huenda baadhi ya hatua za kuweka mipangilio zisifanye kazi vizuri pamoja na TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Rudi nyuma</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Endelea kuweka mipangilio</string>
+    <string name="security_settings_face_enroll_education_message">Kwenye skrini inayofuata, zungusha kichwa chako ili upige picha ya pande zote za uso wako</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Kwenye skrini inayofuata, shikilia simu yako ikilingana na macho yako</string>
+    <string name="security_settings_face_enroll_education_start">Anza</string>
+    <string name="security_settings_face_enroll_education_title">Jinsi ya kuweka mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Weka mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Tumia uso wako kuthibitisha</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Ruka</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Usajili wako haujakamilika</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Imeshindwa kusajili uso.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Muda wa kusajili uso umefikia kikomo. Jaribu tena.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Muda wa kuweka mipangilio ya Kufungua kwa uso umekwisha</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Sasa unaweza kutumia uso wako kufungua simu yako au kuthibitisha kuwa ni wewe, kama vile unapoingia katika akaunti kwenye programu au unapoidhinisha ununuzi</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Sasa unapochukua simu yako au kugusa skrini, unaweza kutumia uso wako kuifungua.
+
+Kufungua kwa uso hufanya kazi vizuri zaidi kukiwa na mwangaza wa kutosha na ukiwa hujavaa barakoa au miwani nyeusi."</string>
+    <string name="security_settings_face_enroll_finish_title">Kila kitu ni shwari!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Futa muundo wako wa sasa wa uso ili uweke tena mipangilio ya Kufungua kwa uso.
+
+Muundo wa uso wako utafutwa kabisa kwa njia salama.
+
+Baada ya kufuta, utahitaji PIN, mchoro au nenosiri lako ili ufungue simu yako au uthibitishe katika programu."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Futa muundo wako wa sasa wa uso ili uweke tena mipangilio ya Kufungua kwa uso.
+
+Muundo wa uso wako utafutwa kabisa kwa njia salama.
+
+Baada ya kufuta, utahitaji alama ya kidole chako, mchoro au nenosiri lako ili ufungue simu yako au uthibitishe katika programu."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Weka mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Mipangilio ya wasioona au kuzungusha kichwa vizuri</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Unapotumia kipengele cha Kufungua kwa uso, huenda ukahitajika kuweka kichwa chako moja kwa moja mbele ya simu yako.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Inahitaji ufungue macho</string>
+    <string name="security_settings_face_enroll_introduction_agree">Ninakubali</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Ghairi</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Kutumia uso wa mtoto wako kufungua simu yake huenda kusiwe salama ikilinganishwa na mchoro au PIN thabiti.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Ruhusu mtoto wako atumie uso wake kufungua simu yake</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Wewe na mtoto wako mnaweza kufuta muundo wa uso wake au kuzima kipengele cha Kufungua kwa Uso wakati wowote katika Mipangilio. Miundo ya uso inahifadhiwa kwenye simu hadi utakapoifuta.
+
+Pata maelezo zaidi kwenye g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Uamuzi ni wako na mtoto wako</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Unaweza kufuta muundo wa uso wako au uzime kipengele cha Kufungua kwa Uso wakati wowote katika Mipangilio. Miundo ya uso inahifadhiwa kwenye simu hadi utakapoifuta.
+
+Pata maelezo zaidi kwenye g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Uamuzi ni wako</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Kipengele cha Kufungua kwa Uso huunda muundo wa kipekee wa uso wa mtoto wako ili kuthibitisha kuwa ni yeye. Ili kuunda muundo huu wa uso wakati wa kuweka mipangilio, mtoto wako atapiga picha za uso wake kutoka pembe tofauti.
+
+Anapotumia kipengele cha Kufungua kwa Uso, picha zinatumiwa ili kusasisha muundo wa uso wake. Picha zinazotumiwa kuunda muundo wa uso wake hazihifadhiwi, ila muundo wa uso unahifadhiwa kwa njia salama na husalia kwenye simu. Mchakato wote hufanyika kwenye simu kwa njia salama."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Kipengele cha Kufungua kwa Uso huunda muundo wa kipekee wa uso wako ili kuthibitisha kuwa ni wewe. Ili uunde muundo huu wa uso wakati wa kuweka mipangilio, utapiga picha za uso wako kutoka pembe tofauti.
+
+Unapotumia kipengele cha Kufungua kwa Uso, picha zinatumiwa ili kusasisha muundo wa uso wako. Picha zinazotumiwa kuunda muundo wa uso wako hazihifadhiwi, ila muundo wa uso unahifadhiwa kwa njia salama na kusalia kwenye simu yako. Mchakato wote hufanyika kwenye simu yako kwa njia salama."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Jinsi kinavyofanya kazi</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Kipengele cha kufungua kwa uso kinaweza kuhitaji mtoto wako afungue macho ili kufungua simu au kuthibitisha kuwa ni yeye. Wewe na mtoto wako mnaweza kuwasha chaguo hili katika Mipangilio wakati wowote.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ikiwa kwa kawaida mtoto wako anavaa miwani, anaweza kuivaa wakati wa kuweka mipangilio.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Kutumia uso wa mtoto wako kufungua simu yake huenda kusiwe salama ikilinganishwa na mchoro, PIN au nenosiri thabiti</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Kuangalia simu kunaweza kuifungua hata ikiwa hana lengo la kufanya hivyo. Simu yake inaweza pia kufunguliwa na mtu ambaye anamfanana, kama vile ndugu anayemfanana sana au mtu mwingine akiishikilia mbele ya uso wake.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Kipengele cha kufungua kwa uso kinaweza kuhitaji ufungue macho ili kufungua simu au kuthibitisha kuwa ni wewe. Unaweza kuwasha chaguo hili katika Mipangilio wakati wowote.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Miwani au miwani ya jua iliyowekwa rangi maalum kidogo ni sawa.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Huenda kiwango cha usalama wa kufungua simu yako kwa uso kikawa kidogo ikilinganishwa na kufungua kwa mchoro, PIN au nenosiri.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Kuangalia simu kunaweza kuifungua hata ikiwa huna lengo la kufanya hivyo. Simu yako inaweza pia kufunguliwa na mtu mnayefanana, kama vile ndugu mnayefanana sana au mtu mwingine akiishikilia mbele ya uso wako.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Kumbuka</string>
+    <string name="security_settings_face_enroll_introduction_message">Tumia uso wako kufungua simu yako au kuthibitisha kuwa ni wewe, kama vile unapoingia katika akaunti kwenye programu au unapoidhinisha ununuzi.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Tumia uso wako kufungua simu yako, kuidhinisha ununuzi au kuingia katika akaunti za programu.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Tumia uso wako kufungua simu yako au kuidhinisha ununuzi.
+
+Kumbuka: Huwezi kutumia uso wako kufungua kifaa hiki. Kwa maelezo zaidi, wasiliana na msimamizi wa shirika lako."</string>
+    <string name="security_settings_face_enroll_introduction_more">Zaidi</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Hapana</string>
+    <string name="security_settings_face_enroll_introduction_title">Weka mipangilio ya Kufungua kwa Uso</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Tumia uso wako kuthibitisha</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Boresha usalama na utendaji</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Weka tena mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_next">Inayofuata</string>
+    <string name="security_settings_face_enroll_partial_message">Ili uboreshe utendaji, unaweza kuweka tena kipengele cha Kufungua kwa uso katika Mipangilio</string>
+    <string name="security_settings_face_enroll_partial_start_over">Anza tena</string>
+    <string name="security_settings_face_enroll_partial_title">Umemaliza kuweka mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_repeat_title">Weka uso wako katikati ya mduara</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Weka tena mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Boresha utendaji wa kipengele cha Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_timeout_message">"Jaribu kuweka mipangilio kwa haraka badala yake. Kumbuka kuwa huenda ukahitajika kuweka kichwa chako moja kwa moja mbele ya simu yako unapotumia kipengele cha Kufungua kwa uso. 
+
+Ili uboreshe utendaji, unaweza kuweka tena mipangilio ya Kufungua kwa uso katika Mipangilio."</string>
+    <string name="security_settings_face_enroll_timeout_title">Imeshindwa kuendelea kuweka mipangilio</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Jaribu tena</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Tumia kipengele cha kuweka mipangilio kwa haraka</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Acha kuweka mipangilio</string>
+    <string name="security_settings_face_enroll_too_hot_message">Mipangilio ya Kufungua kwa uso haiwezi kukamilishwa kwa sababu simu ina joto sana. Jaribu tena baadaye joto la simu litakapopungua.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Ruka kuweka mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_enroll_too_hot_title">Simu ina joto sana</string>
+    <string name="security_settings_face_preference_summary">Utambuzi wa uso umeongezwa</string>
+    <string name="security_settings_face_preference_summary_none">Gusa ili uweke mipangilio ya uso</string>
+    <string name="security_settings_face_preference_title">Kufungua kwa uso</string>
+    <string name="security_settings_face_profile_preference_title">Kufungua kwa uso kwenye wasifu wa kazini</string>
+    <string name="security_settings_face_settings_context_subtitle">Tumia kipengele cha Kufungua kwa uso ili ufungue simu yako</string>
+    <string name="security_settings_face_settings_enroll">Weka mipangilio ya Kufungua kwa uso</string>
+    <string name="security_settings_face_settings_footer">"Tumia uso wako kufungua simu yako au kuthibitisha katika programu, kama vile unapoingia katika akaunti au kuidhinisha ununuzi.
+
+Kumbuka:
+Unaweza kuweka mipangilio ya uso mmoja tu kwa wakati mmoja. Ili uweke uso mwingine, futa uso wa sasa.
+
+Kuangalia simu kunaweza kuifungua wakati hujakusudia.
+
+Simu yako inaweza kufunguliwa na mtu mwingine akiiweka mbele ya uso wako.
+
+Simu yako inaweza kufunguliwa na mtu mnayefanana, kama vile ndugu mnayefanana sana."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Tumia uso wako kufungua simu yako au kuthibitisha katika programu, kama vile unapoingia katika akaunti au kuidhinisha ununuzi.
+
+Kumbuka:
+Unaweza kuweka mipangilio ya uso mmoja tu kwa wakati mmoja. Ili uweke uso mwingine, futa uso wa sasa.
+
+Kuangalia simu kunaweza kuifungua wakati hujakusudia.
+
+Simu yako inaweza kufunguliwa na mtu mwingine akiiweka mbele ya uso wako, hata ukiwa umefumba macho.
+
+Simu yako inaweza kufunguliwa na mtu mnayefanana, kama vile ndugu mnayefanana sana."</string>
+    <string name="security_settings_face_settings_preferences_category">Unapotumia kipengele cha Kufungua kwa uso</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Muundo wa uso wako utafutwa kabisa kwa njia salama.
+
+Baada ya kufuta, utahitaji PIN, mchoro au nenosiri lako ili ufungue simu yako au uthibitishe katika programu."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Muundo wa uso wako utafutwa kabisa kwa njia salama.
+
+Baada ya kufuta, utahitaji PIN, mchoro au nenosiri lako ili ufungue simu yako."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Ungependa kufuta muundo wa uso?</string>
+    <string name="security_settings_face_settings_remove_face_model">Futa muundo wa uso</string>
+    <string name="security_settings_face_settings_require_attention">Unafaa kuwa umefungua macho</string>
+    <string name="security_settings_face_settings_require_attention_details">Ili ufungue simu, lazima uwe umefungua macho yako</string>
+    <string name="security_settings_face_settings_require_confirmation">Omba uthibitishaji kila wakati</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Iombe uthibitishaji kila wakati unapofungua kwa uso katika programu</string>
+    <string name="security_settings_face_settings_use_face_category">Tumia kipengele cha Kufungua kwa uso</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">ଫେସ୍ ଅନଲକକୁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_dialog_ok">ଠିକ ଅଛି</string>
+    <string name="security_settings_face_enroll_done">ହୋଇଗଲା</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">ଯଦି ଆକ୍ସେସିବିଲିଟୀ ଫେସ୍ ଅନଲକ୍ ବନ୍ଦ କରାଯାଇଛି, ତେବେ ସେଟଅପର କିଛି ଷ୍ଟେପ୍ TalkBack ସହ ସଠିକ୍ ଭାବରେ କାମ କରିନପାରେ।</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">ପଛକୁ ଯାଅ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ସେଟଅପ୍ ଜାରି ରଖନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_education_message">ପରବର୍ତ୍ତୀ ସ୍କ୍ରିନ୍‌ରେ, ଆପଣଙ୍କ ମୁହଁକୁ ସବୁ ଦିଗରୁ କ୍ୟାପ୍ଚର୍ କରିବା ପାଇଁ ଆପଣଙ୍କ ମୁଣ୍ଡ ବୁଲାନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">ପରବର୍ତ୍ତୀ ସ୍କ୍ରିନରେ, ଆପଣଙ୍କ ଫୋନକୁ ଆଖି ସିଧାରେ ଧରି ରଖନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_education_start">ଆରମ୍ଭ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_education_title">ଫେସ୍ ଅନଲକ୍ କିପରି ସେଟ୍ ଅପ୍ କରିବେ</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">ଫେସ୍ ଅନଲକ୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">ପ୍ରମାଣ ପାଇଁ ଆପଣଙ୍କର ମୁହଁକୁ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_enrolling_skip">ବାଦ୍ ଦିଅନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_error_dialog_title">ପଞ୍ଜିକରଣ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇନାହିଁ</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">ମୁହଁ ମାଧ୍ୟମରେ ଚିହ୍ନଟ ହୋଇପାରିଲା ନାହିଁ।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">ମୁହଁ ମାଧ୍ୟମରେ ଚିହ୍ନଟର ସମୟ ସୀମା ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">ଫେସ୍ ଅନଲକ୍ ସେଟଅପ୍ ସମୟସୀମା ସମାପ୍ତ ହୋଇଯାଇଛି</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା କିମ୍ବା ଆପଣ ଆପ୍ସରେ ସାଇନ ଇନ କରିବା ବା ଏକ କ୍ରୟକୁ ଅନୁମୋଦନ ଦେବା ପରି କାର୍ଯ୍ୟଗୁଡ଼ିକ କରିବା ସମୟରେ ଏହା ଆପଣ ବୋଲି ଯାଞ୍ଚ କରିବାକୁ, ବର୍ତ୍ତମାନ ଆପଣ ଆପଣଙ୍କ ଫେସ ବ୍ୟବହାର କରିପାରିବେ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ବର୍ତ୍ତମାନ ଆପଣ ଆପଣଙ୍କ ଫୋନ ଉଠାଇବା କିମ୍ବା ସ୍କ୍ରିନରେ ଟାପ କରିବା ସମୟରେ ଏହାକୁ ଅନଲକ କରିବା ପାଇଁ ଆପଣ ଆପଣଙ୍କର ଫେସ ବ୍ୟବହାର କରିପାରିବେ।
+
+ପର୍ଯ୍ୟାପ୍ତ ଆଲୋକ ଥିବା ବେଳେ ଏବଂ ଆପଣ କୌଣସି ମାସ୍କ କିମ୍ବା ଗାଢ଼ା ରଙ୍ଗର ଚଷମା ପିନ୍ଧି ନଥିଲେ ଫେସ ଅନଲକ ସବୁଠାରୁ ଭଲ କାମ କରେ।"</string>
+    <string name="security_settings_face_enroll_finish_title">ଠିକ୍ ଥିବା ପରି ଲାଗୁଛି!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"ଫେସ୍ ଅନଲକ୍ ପୁଣି ସେଟ୍ ଅପ୍ କରିବା ପାଇଁ ଆପଣଙ୍କ ବର୍ତ୍ତମାନର ଫେସ୍ ମଡେଲ୍ ଡିଲିଟ୍ କରନ୍ତୁ।
+
+ଆପଣଙ୍କ ଫେସ୍ ମଡେଲକୁ ସ୍ଥାୟୀ ଏବଂ ସୁରକ୍ଷିତ ଭାବରେ ଡିଲିଟ୍ କରିଦିଆଯିବ।
+
+ଡିଲିଟ୍ କରିବା ପରେ ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରିବା କିମ୍ବା ଆପଗୁଡ଼ିକରେ ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣ ଆପଣଙ୍କର PIN, ପାଟର୍ନ କିମ୍ବା ପାସୱାର୍ଡ ଆବଶ୍ୟକ କରିବେ।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"ଫେସ୍ ଅନଲକ୍ ପୁଣି ସେଟ୍ ଅପ୍ କରିବା ପାଇଁ ଆପଣଙ୍କ ବର୍ତ୍ତମାନର ଫେସ୍ ମଡେଲ୍ ଡିଲିଟ୍ କରନ୍ତୁ।
+
+ଆପଣଙ୍କ ଫେସ୍ ମଡେଲକୁ ସ୍ଥାୟୀ ଏବଂ ସୁରକ୍ଷିତ ଭାବରେ ଡିଲିଟ୍ କରିଦିଆଯିବ।
+
+ଡିଲିଟ୍ କରିବା ପରେ ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରିବା କିମ୍ବା ଆପଗୁଡ଼ିକରେ ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣ ଆପଣଙ୍କର ଟିପଚିହ୍ନ, PIN, ପାଟର୍ନ କିମ୍ବା ପାସୱାର୍ଡ ଆବଶ୍ୟକ କରିବେ।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">ଫେସ୍ ଅନଲକ୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">ସୀମିତ ଭିଜନ୍ ବା ହେଡ୍ ମୋସନ୍ ପାଇଁ ସେଟ୍‍ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ଫେସ୍ ଅନଲକ୍ ବ୍ୟବହାର କରିବା ସମୟରେ ଆପଣଙ୍କ ମୁଣ୍ଡ ଆପଣଙ୍କ ଫୋନ୍ ସାମ୍ନାରେ ସମ୍ପୂର୍ଣ୍ଣ ସିଧା ରହିବା ଆବଶ୍ୟକ।</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">ଆଖି ଖୋଲା ରଖିବା ଆବଶ୍ୟକ</string>
+    <string name="security_settings_face_enroll_introduction_agree">ମୁଁ ରାଜି ଅଛି</string>
+    <string name="security_settings_face_enroll_introduction_cancel">ବାତିଲ</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">"ଏକ ଦୃଢ଼ ପାଟର୍ନ କିମ୍ବା PIN ଅପେକ୍ଷା ଆପଣଙ୍କ ପିଲାର ଫେସ ବ୍ୟବହାର କରି ତା'ର ଫୋନକୁ ଅନଲକ କରିବା କମ୍ ସୁରକ୍ଷିତ ହୋଇପାରେ।"</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">"ଆପଣଙ୍କ ପିଲାକୁ ତା'ର ଫୋନ ଅନଲକ କରିବା ପାଇଁ ତା'ର ଫେସ ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"ଫେସ୍ ମଡେଲକୁ ଆପଣ ଏବଂ ଆପଣଙ୍କ ପିଲା ଡିଲିଟ କରିପାରିବେ କିମ୍ବା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଫେସ୍ ଅନଲକକୁ ବନ୍ଦ କରିପାରିବେ। ଫେସ୍ ମଡେଲଗୁଡ଼ିକୁ ଡିଲିଟ ନକରିବା ପର୍ଯ୍ୟନ୍ତ ସେଗୁଡ଼ିକ ଫୋନରେ ଷ୍ଟୋର୍ ହୋଇ ରହିଥାଏ।
+
+g.co/pixel/faceunlockରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">ଆପଣଙ୍କ ଏବଂ ଆପଣଙ୍କ ପିଲା ପାଖରେ ନିୟନ୍ତ୍ରଣ ଅଛି</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"ଆପଣ ଆପଣଙ୍କ ଫେସ୍ ମଡେଲକୁ ଡିଲିଟ କରିପାରିବେ କିମ୍ବା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଫେସ୍ ଅନଲକକୁ ବନ୍ଦ କରିପାରିବେ। ଫେସ୍ ମଡେଲଗୁଡ଼ିକୁ ଆପଣ ଡିଲିଟ ନକରିବା ପର୍ଯ୍ୟନ୍ତ ସେଗୁଡ଼ିକ ଫୋନରେ ଷ୍ଟୋର ହୋଇ ରହିଥାଏ।
+
+g.co/pixel/faceunlockରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">ଆପଣଙ୍କ ନିୟନ୍ତ୍ରଣରେ ଅଛି</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"ଏହା ଆପଣଙ୍କ ପିଲା ଅଟେ ବୋଲି ଯାଞ୍ଚ କରିବାକୁ ଫେସ ଅନଲକ ତା'ର ଫେସର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ ତିଆରି କରିଥାଏ। ସେଟଅପ ସମୟରେ ଏହି ଫେସ ମଡେଲ ତିଆରି କରିବାକୁ, ଆପଣଙ୍କ ପିଲା ବିଭିନ୍ନ ଆଙ୍ଗେଲରୁ ତା’ର ଫେସର ଇମେଜ ନେବ।
+
+ସେ ଫେସ ଅନଲକ ବ୍ୟବହାର କରିବା ସମୟରେ, ତା’ର ଫେସ ମଡେଲକୁ ଅପଡେଟ କରିବା ପାଇଁ ଇମେଜଗୁଡ଼ିକୁ ବ୍ୟବହାର କରାଯାଏ। ତା’ର ଫେସ ମଡେଲ ତିଆରି କରିବା ପାଇଁ ବ୍ୟବହୃତ ଇମେଜଗୁଡ଼ିକୁ ଷ୍ଟୋର କରାଯାଏ ନାହିଁ, କିନ୍ତୁ ଫେସ ମଡେଲକୁ ଫୋନରେ ସୁରକ୍ଷିତ ଭାବେ ଷ୍ଟୋର କରାଯାଇଥାଏ ଏବଂ କେବେ ବି ଫୋନରୁ କାଢ଼ି ଦିଆଯାଏ ନାହିଁ। ସମସ୍ତ ପ୍ରକ୍ରିୟାକରଣ ସୁରକ୍ଷିତ ଭାବେ ଫୋନରେ କରାଯାଇଥାଏ।"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"ଏହା ଆପଣ ବୋଲି ଯାଞ୍ଚ କରିବାକୁ ଫେସ ଅନଲକ ଆପଣଙ୍କ ଫେସର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ ତିଆରି କରିଥାଏ। ସେଟଅପ୍ ସମୟରେ ଏହି ଫେସ ମଡେଲ ତିଆରି କରିବାକୁ, ଆପଣ ବିଭିନ୍ନ ଆଙ୍ଗେଲରୁ ଆପଣଙ୍କ ଫେସର ଇମେଜ ନେବେ।
+
+ଆପଣ ଫେସ ଅନଲକ ବ୍ୟବହାର କରିବା ସମୟରେ, ଆପଣଙ୍କ ଫେସ ମଡେଲକୁ ଅପଡେଟ କରିବା ପାଇଁ ଇମେଜଗୁଡ଼ିକୁ ବ୍ୟବହାର କରାଯାଏ। ଆପଣଙ୍କ ଫେସ୍ ମଡେଲ ତିଆରି କରିବା ପାଇଁ ବ୍ୟବହୃତ ଇମେଜଗୁଡ଼ିକୁ ଷ୍ଟୋର୍ କରାଯାଏ ନାହିଁ, କିନ୍ତୁ ଫେସ ମଡେଲ ଆପଣଙ୍କ ଫୋନରେ ସୁରକ୍ଷିତ ଭାବେ ଷ୍ଟୋର କରାଯାଇଥାଏ ଏବଂ କେବେ ବି ଫୋନରୁ କାଢ଼ି ଦିଆଯାଏ ନାହିଁ। ସମସ୍ତ ପ୍ରକ୍ରିୟାକରଣ ସୁରକ୍ଷିତ ଭାବେ ଆପଣଙ୍କ ଫୋନରେ କରାଯାଇଥାଏ।"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">ଏହା କିପରି କାମ କରେ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ଫୋନ ଅନଲକ କରିବାକୁ କିମ୍ବା ଆପଣଙ୍କ ପିଲାର ପରିଚୟ ଯାଞ୍ଚ କରିବା ପାଇଁ ଫେସ୍ ଅନଲକକୁ ଆପଣଙ୍କ ପିଲାର ଆଖିକୁ ଖୋଲା ରଖିବାର ଆବଶ୍ୟକତା ହୋଇପାରେ। ଆପଣ ଏବଂ ଆପଣଙ୍କ ପିଲା ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଏହି ବିକଳ୍ପକୁ ବନ୍ଦ କରିପାରିବେ।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">ଯଦି ଆପଣଙ୍କ ପିଲା ସାଧାରଣତଃ ଚଷମା ପିନ୍ଧେ, ତେବେ ସେଟଅପ୍ ସମୟରେ ସେ ତାହା ପିନ୍ଧିପାରିବ।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">"ଏକ ଜଟିଳ ପାଟର୍ନ, PIN କିମ୍ବା ପାସୱାର୍ଡ ଅପେକ୍ଷା ଆପଣଙ୍କ ପିଲାର ଫେସ ବ୍ୟବହାର କରି ତା'ର ଫୋନକୁ ଅନଲକ କରିବା କମ୍ ସୁରକ୍ଷିତ ହୋଇପାରେ"</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">ସେ ଅଜାଣତରେ ମଧ୍ୟ ତା’ର ଫୋନକୁ ଦେଖିଲେ ଏହା ଅନଲକ୍ ହୋଇପାରିବ। ତା ପରି ଦେଖାଯାଉଥିବା କେହି ଜଣେ ବ୍ୟକ୍ତି ଯେପରି ଯାଆଁଳା ଭାଇ/ଭଉଣୀଙ୍କ ଦ୍ୱାରା କିମ୍ବା କେହି ଜଣେ ତା’ର ଫୋନକୁ ତା’ର ଫେସ୍ ସାମ୍ନାରେ ରଖିଲେ ମଧ୍ୟ ଏହାକୁ ଅନଲକ୍ କରାଯାଇପାରିବ।</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">ଫୋନ ଅନଲକ କରିବାକୁ କିମ୍ବା ଏହା ଆପଣ ଅଟନ୍ତି ବୋଲି ଯାଞ୍ଚ କରିବା ପାଇଁ ଫେସ୍ ଅନଲକକୁ ଆପଣଙ୍କର ଆଖିକୁ ଖୋଲା ରଖିବାର ଆବଶ୍ୟକତା ହୋଇପାରେ। ଆପଣ ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଏହି ବିକଳ୍ପକୁ ବନ୍ଦ କରିପାରିବେ।</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">ଚଷମା କିମ୍ବା ହାଲୁକା ରଙ୍ଗର ସନଗ୍ଲାସ୍ ଠିକ୍ ଅଟେ।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ଏକ ଦୃଢ଼ ପାଟର୍ନ, PIN କିମ୍ବା ପାସୱାର୍ଡଠାରୁ ଆପଣଙ୍କ ଫେସ ବ୍ୟବହାର କରି ଆପଣଙ୍କର ଫୋନ ଅନଲକ କରିବା କମ୍ ସୁରକ୍ଷିତ ହୋଇପାରେ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">ଆପଣ ଅଜାଣତରେ ମଧ୍ୟ ଆପଣଙ୍କର ଫୋନକୁ ଦେଖିଲେ ଏହା ଅନଲକ୍ ହୋଇପାରିବ। ଆପଣଙ୍କ ପରି ଦେଖାଯାଉଥିବା କେହି ଜଣେ ଯେପରି ଯାଆଁଳା ଭାଇ/ଭଉଣୀ କିମ୍ବା କେହି ଜଣେ ଆପଣଙ୍କ ଫୋନକୁ ଆପଣଙ୍କ ଫେସ୍ ସାମ୍ନାରେ ରଖି ମଧ୍ୟ ଏହାକୁ ଅନଲକ୍ କରିପାରିବେ।</string>
+    <string name="security_settings_face_enroll_introduction_info_title">ମନେ ରଖନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_introduction_message">ଆପଣ ଆପଗୁଡ଼ିକରେ ସାଇନ୍ ଇନ୍ କରିବା କିମ୍ବା ଏକ କ୍ରୟକୁ ଅନୁମୋଦନ ଦେବା ପରି କାର୍ଯ୍ୟ କରିବା ସମୟରେ, ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରିବା କିମ୍ବା ଏହା ଆପଣ ବୋଲି ଯାଞ୍ଚ କରିବା ପାଇଁ ଆପଣଙ୍କ ଫେସ୍ ବ୍ୟବହାର କରନ୍ତୁ।</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">ନିଜର ଫୋନ୍‌ ଅନଲକ୍‌ କରିବା ପାଇଁ ନିଜର ଫେସ୍‌ ବ୍ୟବହାର କରନ୍ତୁ, କିଣାକିଣିକଗୁଡ଼ିକୁ ସ୍ୱୀକୃତି ଦିଅନ୍ତୁ, କିମ୍ବା ଆପ୍‌ଗୁଡ଼ିକରେ ସାଇନ୍‌ ଇନ୍‌ କରନ୍ତୁ।</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"ଫୋନକୁ ଅନଲକ କରିବା କିମ୍ୱା କ୍ରୟକୁ ଅନୁମୋଦନ କରିବା ପାଇଁ ନିଜ ଫେସର ବ୍ୟବହାର କରନ୍ତୁ।
+
+ଧ୍ୟାନ ଦିଅନ୍ତୁ: ଏହି ଡିଭାଇସ ଅନଲକ କରିବାକୁ ଆପଣ ଆପଣଙ୍କ ଫେସ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ଅଧିକ ସୂଚନା ପାଇଁ, ଆପଣଙ୍କ ସଂସ୍ଥାର ଆଡମିନଙ୍କ ସହ କଣ୍ଟାକ୍ଟ କରନ୍ତୁ।"</string>
+    <string name="security_settings_face_enroll_introduction_more">ଅଧିକ</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ନାହିଁ, ଧନ୍ୟବାଦ</string>
+    <string name="security_settings_face_enroll_introduction_title">ଫେସ୍ ଅନଲକ୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">ପ୍ରମାଣ ପାଇଁ ନିଜର ଫେସ୍‌କୁ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">ସୁରକ୍ଷା ଏବଂ କାର୍ଯ୍ୟଦକ୍ଷତାରେ ଉନ୍ନତି ଆଣନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">ଫେସ୍ ଅନଲକ୍ ପୁଣି ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_next">ପରବର୍ତ୍ତୀ</string>
+    <string name="security_settings_face_enroll_partial_message">ପରଫରମାନ୍ସରେ ଉନ୍ନତି ଆଣିବାକୁ, ଆପଣ ସେଟିଂସରେ ପୁଣି ଫେସ୍ ଅନଲକ ସେଟ ଅପ କରିପାରିବେ</string>
+    <string name="security_settings_face_enroll_partial_start_over">ଆରମ୍ଭ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_partial_title">ଫେସ୍ ଅନଲକ୍ ସେଟଅପ୍ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି</string>
+    <string name="security_settings_face_enroll_repeat_title">ବୃତ୍ତରେ ଆପଣଙ୍କ ମୁହଁ କେନ୍ଦ୍ରରେ ରଖନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">ଫେସ୍ ଅନଲକ୍ ପୁଣି ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">ଫେସ୍ ଅନଲକର ପରଫରମାନ୍ସରେ ଉନ୍ନତି ଆଣନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_timeout_message">"ଏହା ପରିବର୍ତ୍ତେ ଦ୍ରୁତ ସେଟଅପ ପାଇଁ ଚେଷ୍ଟା କରନ୍ତୁ। ମନେ ରଖନ୍ତୁ, ଫେସ୍ ଅନଲକ ବ୍ୟବହାର କରିବା ସମୟରେ ଆପଣଙ୍କ ମୁଣ୍ଡ ଆପଣଙ୍କ ଫୋନ ସାମ୍ନାରେ ସମ୍ପୂର୍ଣ୍ଣ ସିଧା ରହିବା ଆବଶ୍ୟକ।
+
+ପରଫରମାନ୍ସରେ ଉନ୍ନତି ଆଣିବାକୁ, ଆପଣ ସେଟିଂସରେ ପୁଣି ଫେସ୍ ଅନଲକ ସେଟ ଅପ କରିପାରିବେ।"</string>
+    <string name="security_settings_face_enroll_timeout_title">ସେଟ୍ ଅପ୍ ଜାରି କରିପାରିବେ ନାହିଁ</string>
+    <string name="security_settings_face_enroll_timeout_try_again">ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ଦ୍ରୁତ ସେଟଅପ୍ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">ସେଟ୍‍ଅପ୍‍ରୁ ବାହାରି ଯାଆନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_too_hot_message">ଫୋନ୍ ଅଧିକ ଗରମ ହୋଇଥିବା ଯୋଗୁଁ ଫେସ୍ ଅନଲକ୍ ସେଟଅପ୍ ସମ୍ପୂର୍ଣ୍ଣ କରାଯାଇପାରିବ ନାହିଁ। ଫୋନ୍ ଥଣ୍ଡା ହେବା ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ଫେସ୍ ଅନଲକ୍ ବାଦ୍ ଦିଅନ୍ତୁ</string>
+    <string name="security_settings_face_enroll_too_hot_title">ଫୋନ୍ ଅଧିକ ଗରମ ହୋଇଛି</string>
+    <string name="security_settings_face_preference_summary">ଫେସ୍‌ ଯୋଡ଼ାଗଲା</string>
+    <string name="security_settings_face_preference_summary_none">ଫେସ୍ ସେଟ୍ ଅପ୍ କରିବାକୁ ଟାପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_preference_title">ଫେସ୍ ଅନଲକ୍</string>
+    <string name="security_settings_face_profile_preference_title">କାର୍ଯ୍ୟ ପାଇଁ ଫେସ୍ ଅନଲକ୍</string>
+    <string name="security_settings_face_settings_context_subtitle">ଆପଣଙ୍କର ଫୋନ୍ ଅନଲକ୍ କରିବାକୁ ଫେସ୍ ଅନଲକ୍ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="security_settings_face_settings_enroll">ଫେସ୍ ଅନଲକ୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_settings_footer">"ଆପଣ ସାଇନ୍ ଇନ୍ କରିବା କିମ୍ବା ଏକ କ୍ରୟକୁ ଅନୁମୋଦନ ଦେବା ପରି କାର୍ଯ୍ୟ କରିବା ସମୟରେ, ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରିବା କିମ୍ବା ଆପଗୁଡ଼ିକରେ ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣଙ୍କ ଫେସ୍ ବ୍ୟବହାର କରନ୍ତୁ।
+
+ମନେ ରଖନ୍ତୁ:
+ଆପଣ ଗୋଟିଏ ଥରରେ କେବଳ ଗୋଟିଏ ଫେସ୍ ସେଟ୍ ଅପ୍ କରିପାରିବେ। ଅନ୍ୟ ଏକ ଫେସ୍ ଯୋଗ କରିବା ପାଇଁ, ବର୍ତ୍ତମାନର ଫେସକୁ ଡିଲିଟ୍ କରନ୍ତୁ।
+
+ଆପଣ ଅଜାଣତରେ ମଧ୍ୟ ଆପଣଙ୍କର ଫୋନକୁ ଦେଖିଲେ ଏହା ଅନଲକ୍ ହୋଇପାରିବ।
+
+ଅନ୍ୟ କେହି ଜଣେ ବ୍ୟକ୍ତି ଆପଣଙ୍କ ଫୋନକୁ ଆପଣଙ୍କର ଫେସ୍ ସାମ୍ନାରେ ରଖି ଏହାକୁ ଅନଲକ୍ କରିପାରିବେ।
+
+ଆପଣଙ୍କ ପରି ଦେଖାଯାଉଥିବା କେହି ଜଣେ ବ୍ୟକ୍ତି ଯେପରି ଯାଆଁଳା ଭାଇ/ଭଉଣୀଙ୍କ ଦ୍ୱାରା ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରାଯାଇପାରିବ।"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"ଆପଣ ସାଇନ୍ ଇନ୍ କରିବା କିମ୍ବା ଏକ କ୍ରୟକୁ ଅନୁମୋଦନ ଦେବା ପରି କାର୍ଯ୍ୟ କରିବା ସମୟରେ, ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରିବା କିମ୍ବା ଆପଗୁଡ଼ିକରେ ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣଙ୍କ ଫେସ୍ ବ୍ୟବହାର କରନ୍ତୁ।
+
+ମନେ ରଖନ୍ତୁ:
+ଆପଣ ଗୋଟିଏ ଥରରେ କେବଳ ଗୋଟିଏ ଫେସ୍ ସେଟ୍ ଅପ୍ କରିପାରିବେ। ଅନ୍ୟ ଏକ ଫେସ୍ ଯୋଗ କରିବା ପାଇଁ, ବର୍ତ୍ତମାନର ଫେସକୁ ଡିଲିଟ୍ କରନ୍ତୁ।
+
+ଆପଣ ଅଜାଣତରେ ମଧ୍ୟ ଆପଣଙ୍କର ଫୋନକୁ ଦେଖିଲେ ଏହା ଅନଲକ୍ ହୋଇପାରିବ।
+
+ଆପଣଙ୍କର ଆଖି ବନ୍ଦ ଥିବା ବେଳେ ମଧ୍ୟ ଅନ୍ୟ କେହି ଜଣେ ବ୍ୟକ୍ତି ଆପଣଙ୍କ ଫୋନକୁ ଆପଣଙ୍କର ଫେସ୍ ସାମ୍ନାରେ ରଖି ଏହାକୁ ଅନଲକ୍ କରିପାରିବେ।
+
+ଆପଣଙ୍କ ପରି ଦେଖାଯାଉଥିବା କେହି ଜଣେ ବ୍ୟକ୍ତି ଯେପରି ଯାଆଁଳା ଭାଇ/ଭଉଣୀଙ୍କ ଦ୍ୱାରା ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରାଯାଇପାରିବ।"</string>
+    <string name="security_settings_face_settings_preferences_category">ଫେସ୍ ଅନଲକ୍ ବ୍ୟବହାର କରିବା ସମୟରେ</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"ଆପଣଙ୍କ ଫେସ ମଡେଲକୁ ସ୍ଥାୟୀ ଏବଂ ସୁରକ୍ଷିତ ଭାବରେ ଡିଲିଟ କରିଦିଆଯିବ।
+
+ଡିଲିଟ କରିବା ପରେ ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା କିମ୍ବା ଆପଗୁଡ଼ିକରେ ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣ ଆପଣଙ୍କର PIN, ପାଟର୍ନ କିମ୍ବା ପାସୱାର୍ଡ ଆବଶ୍ୟକ କରିବେ।"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"ଆପଣଙ୍କ ଫେସ ମଡେଲକୁ ସ୍ଥାୟୀ ଏବଂ ସୁରକ୍ଷିତ ଭାବରେ ଡିଲିଟ କରିଦିଆଯିବ।
+
+ଡିଲିଟ କରିବା ପରେ ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା ପାଇଁ ଆପଣ ଆପଣଙ୍କର PIN, ପାଟର୍ନ କିମ୍ବା ପାସୱାର୍ଡ ଆବଶ୍ୟକ କରିବେ।"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">ଫେସ୍ ମଡେଲ୍ ଡିଲିଟ୍ କରିବେ?</string>
+    <string name="security_settings_face_settings_remove_face_model">ଫେସ୍ ମଡେଲ୍ ଡିଲିଟ୍ କରନ୍ତୁ</string>
+    <string name="security_settings_face_settings_require_attention">ଆଖି ଖୋଲା ରଖିବା ଆବଶ୍ୟକ ହୋଇଥାଏ</string>
+    <string name="security_settings_face_settings_require_attention_details">ଫୋନ୍ ଅନ୍‌ଲକ୍ କରିବା ପାଇଁ, ଆପଣଙ୍କ ଆଖି ଖୋଲା ରହିବା ଉଚିତ</string>
+    <string name="security_settings_face_settings_require_confirmation">ସବୁବେଳେ ସୁନିଶ୍ଚିତକରଣ ଆବଶ୍ୟକ ହୋଇଥାଏ</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ଆପ୍ସରେ ଫେସ୍ ଅନଲକ୍ ବ୍ୟବହାର କରିବା ବେଳେ ସର୍ବଦା ସୁନିଶ୍ଚିତକରଣ ଷ୍ଟେପ୍ ଆବଶ୍ୟକ</string>
+    <string name="security_settings_face_settings_use_face_category">ଏଥିପାଇଁ ଫେସ୍ ଅନଲକ୍ ବ୍ୟବହାର କରନ୍ତୁ</string>
+</resources>

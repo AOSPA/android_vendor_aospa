@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">"Yüz Tanıma Kilidi'ne izin verin"</string>
+    <string name="security_settings_face_enroll_dialog_ok">Tamam</string>
+    <string name="security_settings_face_enroll_done">Bitti</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Erişilebilirlik Yüz Tanıma Kilidi kapalıysa kurulum adımlarından bazıları TalkBack ile düzgün çalışmayabilir.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Geri dön</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Kuruluma devam et</string>
+    <string name="security_settings_face_enroll_education_message">Bir sonraki ekranda, yüzünüzün tüm açılardan fotoğrafını çekmek için başınızı çevirin</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Sonraki ekranda telefonunuzu göz hizasında tutun</string>
+    <string name="security_settings_face_enroll_education_start">Başla</string>
+    <string name="security_settings_face_enroll_education_title">"Yüz Tanıma Kilidi'ni ayarlama"</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">"Yüz Tanıma Kilidi'ni kurma"</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Kimlik doğrulama için yüzünüzü kullanın</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Atla</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Kayıt işlemi tamamlanmadı</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Yüz kaydı yapılamadı.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Yüz kayıt işlemi için süre sınırı aşıldı. Tekrar deneyin.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Yüz Tanıma Kilidi kurulumu zaman aşımına uğradı</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Artık telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da satın alma işlemlerini onaylama gibi durumlarda kimliğinizi doğrulamak için yüzünüzü kullanabilirsiniz</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Artık telefonunuzu elinize aldığınızda veya ekranına dokunduğunuzda kilidini açmak için yüzünüzü kullanabilirsiniz.
+
+Yüz Tanıma Kilidi'nin iyi bir şekilde çalışabilmesi için yeterli ışık olması ve maske ya da koyu renk gözlük takmıyor olmanız gerekir."</string>
+    <string name="security_settings_face_enroll_finish_title">İyi görünüyor!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Yüz Tanıma Kilidi'ni tekrar kurmak için mevcut yüz modelinizi silin.
+
+Yüz modeliniz güvenli bir şekilde kalıcı olarak silinir.
+
+Silme işleminden sonra, telefonunuzun kilidini açmak veya uygulamalarda kimliğinizi doğrulamak için PIN kodunuz, deseniniz veya şifreniz gerekir."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Yüz Tanıma Kilidi'ni tekrar kurmak için mevcut yüz modelinizi silin.
+
+Yüz modeliniz güvenli bir şekilde kalıcı olarak silinir.
+
+Silme işleminden sonra, telefonunuzun kilidini açmak veya uygulamalarda kimliğinizi doğrulamak için parmak iziniz, PIN kodunuz, deseniniz veya şifreniz gerekir."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">"Yüz Tanıma Kilidi'ni kurma"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Görme veya başını hareket ettirme yeteneği kısıtlı olanlar için kurulum</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">"Yüz Tanıma Kilidi'ni kullanırken başınızın doğrudan telefonunuzun karşısında olması gerekebilir."</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Gözlerin açık olması gerekli</string>
+    <string name="security_settings_face_enroll_introduction_agree">Kabul ediyorum</string>
+    <string name="security_settings_face_enroll_introduction_cancel">İptal</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">"Çocuğunuzun telefon kilidini açmak için yüzünü kullanmak, güçlü bir desen veya PIN'den daha az güvenli olabilir."</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Çocuğunuzun, telefonunu açmak için yüzünü kullanmasına izin verin</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Siz ve çocuğunuz, istediğiniz zaman Ayarlar'dan Yüz Tanıma Kilidi'ni devre dışı bırakabilir veya çocuğunuzun yüz modelini silebilirsiniz. Yüz modelleri, silinene kadar telefonda saklanır.
+
+Daha fazla bilgiyi g.co/pixel/faceunlock adresinde bulabilirsiniz."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Kontrol sizde ve çocuğunuzdadır</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"İstediğiniz zaman Ayarlar'dan Yüz Tanıma Kilidi'ni devre dışı bırakabilir veya yüz modelinizi silebilirsiniz. Yüz modelleri, siz silene kadar telefonda saklanır.
+
+Daha fazla bilgiyi g.co/pixel/faceunlock adresinde bulabilirsiniz."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Kontrol sizde</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Yüz Tanıma Kilidi, çocuğunuzun kimliğini doğrulamak için yüzünün benzersiz bir modelini oluşturur. Çocuğunuz, kurulum sırasında bu yüz modelini oluşturmak için yüzünün farklı açılardan resimlerini çeker.
+
+Çocuğunuz Yüz Tanıma Kilidi'ni kullandığında resimler, yüz modelini güncellemek için kullanılır. Çocuğunuzun yüz modelini oluşturmak için kullanılan resimler saklanmaz ancak yüz modeli, telefonda güvenli bir şekilde saklanıp hiçbir zaman telefondan dışarı çıkmaz. Tüm işlemler, güvenli bir şekilde telefonda gerçekleşir."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Yüz Tanıma Kilidi, kimliğinizi doğrulamak için yüzünüzün benzersiz bir modelini oluşturur. Kurulum sırasında bu yüz modelini oluşturmak için yüzünüzün farklı açılardan resimlerini çekersiniz.
+
+Yüz Tanıma Kilidi'ni kullandığınızda resimler, yüz modelinizi güncellemek için kullanılır. Yüz modelinizi oluşturmak için kullanılan resimler saklanmaz ancak yüz modeli, telefonunuzda güvenli bir şekilde saklanıp cihazdan dışarı çıkarılmaz. Tüm işlemler, güvenli bir şekilde telefonunuzda gerçekleşir."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">İşleyiş şekli</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">"Yüz Tanıma Kilidi, telefon kilidini açmak veya kimliğini doğrulamak için çocuğunuzun gözlerinin açık olmasını isteyebilir. Siz ve çocuğunuz, istediğiniz zaman Ayarlar'dan bu seçeneği açabilirsiniz."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Çocuğunuz normalde gözlük takıyorsa kurulum sırasında da takabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Çocuğunuzun telefon kilidini açmak için yüzünü kullanmak, güçlü bir desen, PIN veya şifreden daha az güvenli olabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Çocuğunuz telefona baktığında istemese bile kilidi açılabilir. Telefon kilidi, çocuğunuza çok benzeyen birisi (ör. ikiz kardeşi) tarafından veya telefonu yüzüne tutularak da açılabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">"Yüz Tanıma Kilidi, telefon kilidini açmak veya kimliğinizi doğrulamak için gözlerinizin açık olmasını isteyebilir. İstediğiniz zaman Ayarlar'dan bu seçeneği açabilirsiniz."</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Gözlük veya camı açık renkli olan güneş gözlüğü kullanılabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonunuzun kilidini yüzünüzle açmak, güçlü bir desen, PIN veya şifre kullanmak kadar güvenli olmayabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefona baktığınızda istemeseniz bile kilidi açılabilir. Telefonunuzun kilidi, size çok benzeyen (örneğin ikiz kardeşiniz gibi) birisi tarafından veya birisi telefonunuzu yüzünüze tuttuğunda da açılabilir.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Unutmayın</string>
+    <string name="security_settings_face_enroll_introduction_message">Telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da satın alma işlemlerini onaylama gibi durumlarda kimliğinizi doğrulamak için yüzünüzü kullanın.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Telefonunuzun kilidini açmak, satın alma işlemlerini yetkilendirmek veya uygulamalarda oturum açmak için yüzünüzü kullanın</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Telefonunuzun kilidini açmak veya bir satın alma işlemini onaylamak için yüzünüzü kullanın.
+
+Not: Bu cihazın kilidini açmak için yüzünüzü kullanamazsınız. Daha fazla bilgi için kuruluşunuzun yöneticisine başvurun."</string>
+    <string name="security_settings_face_enroll_introduction_more">Daha Fazla</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Hayır, teşekkürler</string>
+    <string name="security_settings_face_enroll_introduction_title">"Yüz Tanıma Kilidi'nin kurulumu"</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Kimlik doğrulama için yüzünüzü kullanın</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Güvenliği ve performansı iyileştirin</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">"Yüz Tanıma Kilidi'ni tekrar kurun"</string>
+    <string name="security_settings_face_enroll_next">İleri</string>
+    <string name="security_settings_face_enroll_partial_message">"Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar kurabilirsiniz."</string>
+    <string name="security_settings_face_enroll_partial_start_over">Baştan başla</string>
+    <string name="security_settings_face_enroll_partial_title">Yüz Tanıma Kilidi kurulumu tamamlandı</string>
+    <string name="security_settings_face_enroll_repeat_title">Yüzünüzü çemberin ortasına getirin</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">"Yüz Tanıma Kilidi'ni tekrar kurun"</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">"Yüz Tanıma Kilidi'nin performansını iyileştirin"</string>
+    <string name="security_settings_face_enroll_timeout_message">"Bunun yerine hızlı kurulumu deneyin. Yüz Tanıma Kilidi'ni kullanırken başınızın doğrudan telefonunuzun karşısında olması gerekebileceğini unutmayın. 
+
+Performansı artırmak için Yüz Tanıma Kilidi'ni Ayarlar'dan tekrar seçebilirsiniz."</string>
+    <string name="security_settings_face_enroll_timeout_title">Kuruluma devam edilemiyor</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Tekrar dene</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Hızlı kurulumu kullan</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Kurulumdan çık</string>
+    <string name="security_settings_face_enroll_too_hot_message">Telefon çok fazla ısındığından Yüz Tanıma Kilidi kurulumu tamamlanamadı. Telefon soğuduktan sonra tekrar deneyin.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">"Yüz Tanıma Kilidi'ni atla"</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon çok ısındı</string>
+    <string name="security_settings_face_preference_summary">Yüz eklendi</string>
+    <string name="security_settings_face_preference_summary_none">Yüz tanımayı kurmak için dokunun</string>
+    <string name="security_settings_face_preference_title">Yüz Tanıma Kilidi</string>
+    <string name="security_settings_face_profile_preference_title">İş için Yüz Tanıma Kilidi</string>
+    <string name="security_settings_face_settings_context_subtitle">"Telefonunuzun kilidini açmak için Yüz Tanıma Kilidi'ni kullanın"</string>
+    <string name="security_settings_face_settings_enroll">"Yüz Tanıma Kilidi'ni kurma"</string>
+    <string name="security_settings_face_settings_footer">"Telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da bir satın alma işlemini onaylama gibi işlemlerde kimliğinizi onaylamak için yüzünüzü kullanın.
+
+Dikkat edilecek noktalar:
+Aynı anda yalnızca bir yüz ayarlanabilir. Başka bir yüz eklemek için mevcut yüzü silin.
+
+Telefona bakarsanız, istemediğiniz zamanlarda da telefonunuzun kilidi açılabilir.
+
+Telefonunuz başka birisi tarafından yüzünüze tutulduğunda kilidi açılabilir.
+
+Telefonunuzun kilidi, ikiziniz gibi size çok benzeyen başka biri tarafından da açılabilir."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Telefonunuzun kilidini açmak veya uygulamalarda oturum açma ya da bir satın alma işlemini onaylama gibi işlemlerde kimliğinizi onaylamak için yüzünüzü kullanın.
+
+Dikkat edilecek noktalar:
+Aynı anda yalnızca bir yüz ayarlanabilir. Başka bir yüz eklemek için mevcut yüzü silin.
+
+Telefona bakarsanız, istemediğiniz zamanlarda da telefonunuzun kilidi açılabilir.
+
+Gözleriniz kapalı olsa bile telefonunuz başka birisi tarafından yüzünüze tutulduğunda kilidi açılabilir.
+
+Telefonunuzun kilidi, ikiziniz gibi size çok benzeyen başka biri tarafından da açılabilir."</string>
+    <string name="security_settings_face_settings_preferences_category">"Yüz Tanıma Kilidi'ni kullanırken"</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Yüz modeliniz, güvenli bir şekilde kalıcı olarak silinir.
+
+Silme işleminden sonra telefonunuzun kilidini açmak veya uygulamalarda kimliğinizi doğrulamak için PIN kodunuz, deseniniz veya şifreniz gerekir."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Yüz modeliniz güvenli bir şekilde kalıcı olarak silinir.
+
+Silme işleminden sonra, telefonunuzun kilidini açmak için PIN'iniz, deseniniz veya şifreniz gerekir."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Yüz modeli silinsin mi?</string>
+    <string name="security_settings_face_settings_remove_face_model">Yüz modelini sil</string>
+    <string name="security_settings_face_settings_require_attention">Gözlerin açık olması gerekli</string>
+    <string name="security_settings_face_settings_require_attention_details">Telefonunuzun kilidini açmak için gözleriniz açık olmalıdır</string>
+    <string name="security_settings_face_settings_require_confirmation">Her zaman onay gerekli</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Uygulamalarda Yüz Tanıma Kilidi kullanırken daima onay adımı gerektir</string>
+    <string name="security_settings_face_settings_use_face_category">Yüz Tanıma Kilidi kullan:</string>
+</resources>

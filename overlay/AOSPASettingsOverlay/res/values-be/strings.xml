@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Дазволіць распазнаванне твару</string>
+    <string name="security_settings_face_enroll_dialog_ok">ОК</string>
+    <string name="security_settings_face_enroll_done">Гатова</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Калі спецыяльныя магчымасці функцыі распазнавання твару выключаны, некаторыя крокі наладжвання могуць не працаваць з TalkBack належным чынам.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Назад</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Працягнуць наладку</string>
+    <string name="security_settings_face_enroll_education_message">На наступным экране паварочвайце галаву, каб зрабіць здымкі твару ва ўсіх ракурсах</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Каб працягнуць, трымайце тэлефон на ўзроўні вачэй</string>
+    <string name="security_settings_face_enroll_education_start">Пачаць</string>
+    <string name="security_settings_face_enroll_education_title">Як наладзіць распазнаванне твару</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Наладжванне распазнавання твару</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Выкарыстоўвайце твар для аўтэнтыфікацыі</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Прапусціць</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Рэгістрацыя не завершана</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Не ўдалося выканаць рэгістрацыю твару.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Час сканіравання твару скончыўся. Паспрабуйце яшчэ раз.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Перавышаны час чакання наладкі распазнавання твару</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Цяпер вы можаце выкарыстоўваць функцыю распазнавання твару для разблакіроўкі тэлефона ці спраўджання вашай асобы, напрыклад падчас уваходу ў праграмы ці ўхвалення куплі</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Цяпер для разблакіроўкі тэлефона вы можаце выкарыстоўваць свой твар.
+
+Лепш за ўсё распазнаванне твару працуе, калі ёсць добрае асвятленне і нішто не засланяе ваш твар."</string>
+    <string name="security_settings_face_enroll_finish_title">Усё добра!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Каб паўторна наладзіць функцыю распазнавання твару, выдаліце існуючую мадэль твару.
+
+Ваша мадэль твару будзе канчаткова і бяспечна выдалена.
+
+Пасля выдалення для разблакіроўкі тэлефона ці аўтэнтыфікацыі ў праграмах вам трэба выкарыстоўваць PIN-код, узор разблакіроўкі ці пароль."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Каб паўторна наладзіць функцыю распазнавання твару, выдаліце існуючую мадэль твару.
+
+Ваша мадэль твару будзе канчаткова і бяспечна выдалена.
+
+Пасля выдалення для разблакіроўкі тэлефона ці аўтэнтыфікацыі ў праграмах вам трэба выкарыстоўваць адбітак пальца, PIN-код, узор разблакіроўкі ці пароль."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Наладзьце распазнаванне твару</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Абмежаванні зроку ці руху галавы</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Падчас выкарыстання функцыі распазнавання твару трымайце галаву непасрэдна перад экранам тэлефона.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Трэба адкрыць вочы</string>
+    <string name="security_settings_face_enroll_introduction_agree">Я згаджаюся</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Скасаваць</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Разблакіроўка тэлефона вашага дзіцяці з дапамогай твару можа быць менш бяспечнай, чым выкарыстанне надзейнага ўзору разблакіроўкі ці PIN-кода.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Дазвольце свайму дзіцяці выкарыстоўваць твар для разблакіроўкі тэлефона</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Вы і ваша дзіця можаце ў любы час выдаліць мадэль твару ці выключыць распазнаванне твару ў Наладах. Мадэлі твару будуць захоўвацца на тэлефоне, пакуль іх не выдаляць.
+
+Даведайцеся больш на старонцы g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Доступ ёсць у вас і вашага дзіцяці</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Вы можаце ў любы час выдаліць мадэль твару ці выключыць распазнаванне твару ў Наладах. Мадэлі твару будуць захоўвацца на тэлефоне, пакуль вы іх не выдаліце.
+
+Даведайцеся больш на старонцы g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Усё пад кантролем</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Каб спраўджваць асобу дзіцяці, функцыя распазнавання твару стварае ўнікальную мадэль яго твару. Для стварэння мадэлі трэба зрабіць здымкі твару дзіцяці з розных ракурсаў.
+
+Калі дзіця ўжывае функцыю распазнавання твару, відарысы выкарыстоўваюцца для абнаўлення мадэлі твару. Відарысы, якія выкарыстоўваліся для стварэння мадэлі твару, не захоўваюцца. На тэлефоне бяспечна захоўваецца толькі сама мадэль, і яна нікуды не адпраўляецца. Уся апрацоўка выконваецца толькі на тэлефоне."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Каб спраўджваць вашу асобу, функцыя распазнавання твару стварае ўнікальную мадэль вашага твару. Для стварэння мадэлі зрабіце здымкі свайго твару з розных ракурсаў.
+
+Калі вы ўжываеце функцыю распазнавання твару, відарысы выкарыстоўваюцца для абнаўлення мадэлі вашага твару. Відарысы, якія выкарыстоўваліся для стварэння мадэлі твару, не захоўваюцца. На вашым тэлефоне бяспечна захоўваецца толькі сама мадэль, і яна нікуды не адпраўляецца. Уся апрацоўка выконваецца толькі на вашым тэлефоне."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Як гэта працуе</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Для функцыі распазнавання твару можна забараніць разблакіроўку тэлефона ці спраўджанне асобы, калі ў дзіцяці не адкрыты вочы. Вы і ваша дзіця можаце ў любы час уключыць гэты параметр у Наладах.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Калі ваша дзіця звычайна носіць акуляры, падчас наладжвання яно можа не здымаць іх.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Разблакіроўка тэлефона вашага дзіцяці з дапамогай твару можа быць менш бяспечнай, чым з выкарыстаннем надзейнага ўзору разблакіроўкі, PIN-кода ці пароля.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Гледзячы на тэлефон, можна разблакіраваць яго, нават не маючы такога намеру. Акрамя таго, тэлефон можа быць разблакіраваны кімсьці, хто падобны на ваша дзіця (напрыклад, гэта можа быць брат ці сястра), ці чалавекам, які паднясе тэлефон да твару дзіцяці.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Для функцыі распазнавання твару можна забараніць разблакіроўку тэлефона ці спраўджанне асобы, калі ў вас не расплюшчаны вочы. Вы можаце ў любы час уключыць гэты параметр у Наладах.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Акуляры з празрыстымі лінзамі ці крыху зацемненым шклом не перашкодзяць распазнаванню твару.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Выкарыстанне функцыі распазнавання твару для разблакіроўкі тэлефона можа быць менш бяспечным, чым складаны ўзор, PIN-код або пароль</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Гледзячы на тэлефон, вы можаце разблакіраваць яго, нават не маючы такога намеру. Акрамя таго, ваш тэлефон можа быць разблакіраваны кімсьці, хто падобны на вас (напрыклад, гэта можа быць ваш брат ці сястра), ці чалавекам, які паднясе тэлефон да вашага твару.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Майце на ўвазе</string>
+    <string name="security_settings_face_enroll_introduction_message">Твар можна выкарыстоўваць для разблакіроўкі тэлефона ці спраўджання вашай асобы, напрыклад падчас уваходу ў праграмы ці ўхвалення куплі.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Выкарыстоўвайце функцыю распазнавання твару для разблакіроўкі тэлефона, аўтарызацыі купляў і ўваходу ў праграмы</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Для ўхвалення куплі ці разблакіроўкі тэлефона можна карыстацца функцыяй распазнавання твару.
+
+Заўвага. Вы не можаце выкарыстоўваць твар для разблакіроўкі гэтай прылады. Для атрымання дадатковай інфармацыі звяжыцеся з адміністратарам арганізацыі."</string>
+    <string name="security_settings_face_enroll_introduction_more">Яшчэ</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Не, дзякуй</string>
+    <string name="security_settings_face_enroll_introduction_title">Наладзіць распазнаванне твару</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Выкарыстоўвайце твар для аўтэнтыфікацыі</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Палепшыце бяспеку і прадукцыйнасць працы</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Паўторна наладзьце распазнаванне твару</string>
+    <string name="security_settings_face_enroll_next">Далей</string>
+    <string name="security_settings_face_enroll_partial_message">Для лепшай прадукцыйнасці можна нанава задаць функцыю распазнавання твару ў Наладах</string>
+    <string name="security_settings_face_enroll_partial_start_over">Пачаць нанава</string>
+    <string name="security_settings_face_enroll_partial_title">Наладжванне функцыі распазнавання твару выканана</string>
+    <string name="security_settings_face_enroll_repeat_title">Размясціце твар у цэнтры круга</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Паўторна наладзьце распазнаванне твару</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Палепшыце эфектыўнасць функцыі распазнавання твару</string>
+    <string name="security_settings_face_enroll_timeout_message">"Паспрабуйце выканаць хуткую наладку. Увага! Падчас выкарыстання функцыі распазнавання твару трымайце галаву непасрэдна перад экранам тэлефона.
+
+Для лепшай прадукцыйнасці можна нанава задаць функцыю распазнавання твару ў Наладах."</string>
+    <string name="security_settings_face_enroll_timeout_title">Не ўдалося працягнуць наладку</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Паўтарыць спробу</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Выкарыстоўваць хуткую наладку</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Выйсці з наладжвання</string>
+    <string name="security_settings_face_enroll_too_hot_message">Не ўдалося завяршыць наладжванне распазнавання твару, таму што тэлефон перагрэўся. Паўтарыце спробу пазней, калі тэлефон астыне.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Прапусціць распазнаванне твару</string>
+    <string name="security_settings_face_enroll_too_hot_title">Тэлефон перагрэўся</string>
+    <string name="security_settings_face_preference_summary">Твар дададзены</string>
+    <string name="security_settings_face_preference_summary_none">Націсніце, каб наладзіць распазнаванне твару</string>
+    <string name="security_settings_face_preference_title">Распазнаванне твару</string>
+    <string name="security_settings_face_profile_preference_title">Распазнаванне твару для працы</string>
+    <string name="security_settings_face_settings_context_subtitle">Выкарыстанне функцыі распазнавання твару для разблакіроўкі тэлефона</string>
+    <string name="security_settings_face_settings_enroll">Наладзіць распазнаванне твару</string>
+    <string name="security_settings_face_settings_footer">"Выкарыстоўвайце твар для разблакіроўкі тэлефона ці для аўтэнтыфікацыі ў праграмах, напрыклад падчас уваходу ці для ўхвалення куплі.
+
+Прыміце пад увагу:
+За раз можна наладзіць толькі адзін твар. Каб дадаць іншы твар, выдаліце існуючы.
+
+Гледзячы на тэлефон, вы можаце разблакіраваць яго, нават калі не маеце такога намеру.
+
+Ваш тэлефон можа быць разблакіраваны кімсьці яшчэ, хто трымае яго на ўзроўні вашага твару.
+
+Ваш тэлефон можа быць разблакіраваны кімсьці, хто падобны на вас – напрыклад, гэта можа быць ваш брат ці сястра."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Выкарыстоўвайце твар для разблакіроўкі тэлефона ці для аўтэнтыфікацыі ў праграмах, напрыклад падчас уваходу ці для ўхвалення куплі.
+
+Прыміце пад увагу:
+За раз можна наладзіць толькі адзін твар. Каб дадаць іншы твар, выдаліце існуючы.
+
+Гледзячы на тэлефон, вы можаце разблакіраваць яго, нават калі не маеце такога намеру.
+
+Ваш тэлефон можа быць разблакіраваны кімсьці яшчэ, хто трымае яго на ўзроўні вашага твару, нават калі ў вас заплюшчаны вочы.
+
+Ваш тэлефон можа быць разблакіраваны кімсьці, хто падобны на вас – напрыклад, гэта можа быць ваш брат ці сястра."</string>
+    <string name="security_settings_face_settings_preferences_category">Падчас выкарыстання распазнавання твару</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Мадэль вашага твару будзе канчаткова і бяспечна выдалена.
+
+Пасля гэтага для разблакіроўкі тэлефона ці аўтэнтыфікацыі ў праграмах трэба будзе выкарыстоўваць PIN-код, узор разблакіроўкі ці пароль."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Мадэль вашага твару будзе канчаткова і бяспечна выдалена.
+
+Пасля гэтага для разблакіроўкі тэлефона трэба будзе выкарыстоўваць PIN-код, узор разблакіроўкі ці пароль."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Выдаліць мадэль твару?</string>
+    <string name="security_settings_face_settings_remove_face_model">Выдаліць мадэль твару</string>
+    <string name="security_settings_face_settings_require_attention">Вочы павінны быць расплюшчаны</string>
+    <string name="security_settings_face_settings_require_attention_details">Каб разблакіраваць тэлефон, расплюшчыце вочы</string>
+    <string name="security_settings_face_settings_require_confirmation">Заўсёды патрабаваць пацвярджэнне</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Пры распазнаванні твару ў праграмах патрабуецца этап пацвярджэння</string>
+    <string name="security_settings_face_settings_use_face_category">Налады распазнавання</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Üz ilə kiliddən çıxarmaya icazə verin</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Hazırdır</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Əlçatımlıq xüsusiyyəti olan Üz ilə kiliddən çıxarma sönülü olarsa, bəzi ayarlama mərhələləri TalkBack ilə düzgün işləməyə bilər.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Qayıdın</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Ayarlamağa davam edin</string>
+    <string name="security_settings_face_enroll_education_message">Növbəti ekranda üzünüzün bütün tərəflərini çəkmək üçün başınızı fırladın</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Növbəti ekranda telefonunuzu göz səviyyəsində saxlayın</string>
+    <string name="security_settings_face_enroll_education_start">Başladın</string>
+    <string name="security_settings_face_enroll_education_title">Üz ilə kiliddən çıxarmanı necə ayarlamalı</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Üz ilə kiliddən çıxarmanı ayarlayın</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Doğrulamaq üçün üzünüzdən istifadə edin</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Keçin</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Qeydiyyat tamamlanmadı</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Üz qeydiyyatı alınmadı.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Üz qeydiyyatı üçün vaxt limitinə çatdınız. Yenidən cəhd edin.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Üz ilə kiliddən çıxarmanın ayarlanması vaxtı bitdi</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">İndi tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzdən istifadə edə bilərsiniz</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"İndi telefonu götürəndə və ya ekrana toxunduqda kilidi açmaq üçün üzünüzdən istifadə edə bilərsiniz.
+
+Üzlə Kiliddən Açma kifayət qədər işıq olduqda və maska və ya tünd eynək taxmadığınız zaman yaxşı işləyir."</string>
+    <string name="security_settings_face_enroll_finish_title">Qaydasındadır!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Üz ilə kiliddən çıxarmanı yenidən ayarlamaq üçün cari üz modelinizi silin.
+
+Üz modeliniz həmişəlik və təhlükəsiz qaydada silinəcək.
+
+Silindikdən sonra telefonunuzun kilidini açmaq, yaxud tətbiqlərdə əsllik yoxlaması üçün PIN, model və ya parol tələb ediləcək."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Üz ilə kiliddən çıxarmanı yenidən ayarlamaq üçün cari üz modelinizi silin.
+
+Üz modeliniz həmişəlik və təhlükəsiz qaydada silinəcək.
+
+Silindikdən sonra telefonunuzun kilidini açmaq, yaxud tətbiqlərdə əsllik yoxlaması üçün barmaq izi, PIN, model və ya parol tələb ediləcək."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Üz ilə kiliddən çıxarmanı ayarlayın</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Məhdud görmə, baş hərəkəti üçün</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Üz ilə Kiliddən Açmadan istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Gözlərinizi açıq saxlayın</string>
+    <string name="security_settings_face_enroll_introduction_agree">Razıyam</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Ləğv edin</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Övladınızın telefonunu kiliddən çıxarmaq üçün onun üzündən istifadə etmək güclü model və ya PIN koddan daha az güvənli ola bilər.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Övladınızın telefonunu kiliddən çıxarmaq üçün üzündən istifadə etməsinə icazə verin</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Siz və övladınız ayarlarda istənilən vaxt üz modeli silə, yaxud Üz ilə kiliddən çıxarmanı deaktiv edə bilərsiniz. Üz modelləri silinənə qədər telefonda saxlanılır.
+
+Ətraflı məlumat: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Siz və övladınız nəzarət edirsiniz</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Ayarlarda istənilən vaxt üz modelinizi silə, yaxud Üz ilə Kiliddən Çıxarmanı deaktiv edə bilərsiniz. Üz modelləri silinənə qədər telefonda saxlanılır.
+
+Ətraflı məlumat: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Hər şey nəzarətinizdədir</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Üz ilə kiliddən çıxarma övladınızı doğrulamaq üçün onun üzünün unikal modelini yaradır. Ayarlama zamanı bu üz modelini yaratmaq üçün övladınız müxtəlif bucaqlardan üzünün şəkillərini çəkəcək.
+
+Üz ilə kiliddən çıxarmadan istifadə etdikdə, onun üz modelini güncəlləmək üçün şəkillərdən istifadə olunur. Onun üz modelini yaratmaq üçün istifadə edilən şəkillər saxlanılmır, lakin üz modeli telefonda təhlükəsiz qaydada saxlanılır və heç vaxt telefondan başqa yerə göndərilmir. Bütün emal prosesi telefonda təhlükəsiz qaydada baş verir."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Üz ilə kiliddən çıxarma kimliyinizi doğrulamaq üçün üzünüzün unikal modelini yaradır. Ayarlama zamanı bu üz modelini yaratmaq üçün müxtəlif bucaqlardan üzünüzün şəkillərini çəkəcəksiniz.
+
+Üz ilə kiliddən çıxarmadan istifadə etdikdə, üz modelinizi güncəlləmək üçün şəkillərdən istifadə olunur. Üz modelinizi yaratmaq üçün istifadə edilən şəkillər saxlanılmır, lakin üz modeli telefonunuzda təhlükəsiz qaydada saxlanılır və heç vaxt telefondan başqa yerə göndərilmir. Bütün emal prosesi telefonunuzda təhlükəsiz qaydada baş verir."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">İşləmə qaydası</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Üz ilə kiliddən çıxarma telefonu kiliddən çıxarmaq, yaxud uşağınızın özü olduğunu doğrulamaq üçün onun gözlərinin açıq olmasını tələb edə bilər. Siz və uşağınız Ayarlarda bu seçimi istənilən vaxt yandıra bilərsiniz.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Övladınız normalda eynəkdən istifadə edirsə, ayarlama zamanı onu taxa bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Övladınızın telefonunu kiliddən çıxarmaq üçün onun üzündən istifadə etmək güclü model, PIN kod və ya paroldan daha az güvənli ola bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Övladınız telefona baxmaqla istəmədən telefonu kiliddən çıxara bilər. Övladınızın telefonu ona çox bənzəyən biri (məsələn, əkiz bacı/qardaş) tərəfindən, yaxud onün üzünə tutularaq də kiliddən çıxarıla bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Üz ilə kiliddən çıxarma telefonu kiliddən çıxarmaq, yaxud kimliyinizi doğrulamaq üçün gözlərinizin açıq olmasını tələb edə bilər. Bu seçimi Ayarlarda istənilən vaxt yandıra bilərsiniz.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Eynək və ya solğun rəngli gün eynəyi taxa bilərsiniz.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonunuzu kiliddən çıxarmaq üçün üzünüzdən istifadə etmək güclü model, PIN və ya parol qədər təhlükəsiz olmaya bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefona baxmaqla istəmədən telefonu kiliddən çıxara bilərsiniz. Telefonunuz sizə çox bənzəyən biri (məsələn, əkiz bacı/qardaş) tərəfindən, yaxud sizə doğru yönəldilərək də kiliddən çıxarıla bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Unutmayın</string>
+    <string name="security_settings_face_enroll_introduction_message">Tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzü istifadə edin.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Telefonu kiliddən çıxarmaq, satınalmaları doğrulamaq və ya tətbiqlərə daxil olmaq üçün üzünüzdən istifadə edin</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Telefonu kiliddən çıxarmaq və ya satınalmaları təsdiq etmək üçün üzünüzdən istifadə edin.
+
+Qeyd: Bu cihazı kiliddən çıxarmaq üçün üzünüzdən istifadə edə bilməzsiniz. Ətraflı məlumat üçün təşkilat admini ilə əlaqə saxlayın."</string>
+    <string name="security_settings_face_enroll_introduction_more">Daha çox</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Yox, çox sağ olun</string>
+    <string name="security_settings_face_enroll_introduction_title">Üz ilə kiliddən çıxarmanı ayarlayın</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Doğrulamaq üçün üzünüzdən istifadə edin</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Təhlükəsizlik və performansı yeniləyin</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Üz ilə kiliddən çıxarmanı yenidən ayarlayın</string>
+    <string name="security_settings_face_enroll_next">Növbəti</string>
+    <string name="security_settings_face_enroll_partial_message">Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarmanı yenidən ayarlaya bilərsiniz</string>
+    <string name="security_settings_face_enroll_partial_start_over">Yenidən başlayın</string>
+    <string name="security_settings_face_enroll_partial_title">Üz ilə kiliddən çıxarmanın ayarlanması tamamlandı</string>
+    <string name="security_settings_face_enroll_repeat_title">Üzünüzü dairənin mərkəzində saxlayın</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Üz ilə kiliddən çıxarmanı yenidən ayarlayın</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Üz ilə kiliddən çıxarmanı təkmilləşdirin</string>
+    <string name="security_settings_face_enroll_timeout_message">"Əvəzində sürətli ayarlamanı sınayın. Nəzərə alın ki, Üz ilə kiliddən çıxarmadan istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.
+
+Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarmanı yenidən ayarlaya bilərsiniz."</string>
+    <string name="security_settings_face_enroll_timeout_title">Quraşdırmanı davam etdirmək mümkün deyil</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Yenidən cəhd edin</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Sürətli quraşdırmaı işlədin</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Quraşdırmadan çıxın</string>
+    <string name="security_settings_face_enroll_too_hot_message">Telefon çox qızdığına görə Üz ilə kiliddən çıxarmanı ayarlamaq tamamlanmadı. Telefon soyuduqdan sonra yenidən cəhd edin.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Üz ilə kiliddən çıxarmanı ötürün</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon çox qızıb</string>
+    <string name="security_settings_face_preference_summary">Üz əlavə edildi</string>
+    <string name="security_settings_face_preference_summary_none">Üz ayarlamaq üçün toxunun</string>
+    <string name="security_settings_face_preference_title">Üz ilə kiliddən çıxarma</string>
+    <string name="security_settings_face_profile_preference_title">İş üçün Üz ilə kiliddən çıxarma</string>
+    <string name="security_settings_face_settings_context_subtitle">Telefonu kiliddən çıxarmaq üçün Üz ilə kiliddən çıxarmadan istifadə edin</string>
+    <string name="security_settings_face_settings_enroll">Üz ilə kiliddən çıxarmanı ayarlayın</string>
+    <string name="security_settings_face_settings_footer">"Telefonunuzun kilidini açmaq, yaxud tətbiqlərdə giriş etmək, yaxud satınalmanı təsdiqləmək kimi əməliyyatlar vaxtı üzünüzdən istifadə edin.
+
+Unutmayın:
+Eyni anda yalnız bir üz ayarlaya bilərsiniz. Başqa bir üz əlavə etmək üçün cari üzü silin.
+
+Telefona baxarkən istəmədiyiniz halda onu kiliddən çıxara bilərsiniz.
+
+Telefonunuz başqası tərəfindən üzünüzə doğru tutularaq kiliddən çıxarıla bilər.
+
+Telefonunuz sizə çox bənzəyən biri tərəfindən (məsələn, eynilə bənzəyən bacı/qardaş) kiliddən çıxarıla bilər."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Telefonunuzun kilidini açmaq, yaxud tətbiqlərdə giriş etmək, yaxud satınalmanı təsdiqləmək kimi əməliyyatlar vaxtı üzünüzdən istifadə edin.
+
+Unutmayın:
+Eyni anda yalnız bir üz ayarlaya bilərsiniz. Başqa bir üz əlavə etmək üçün cari üzü silin.
+
+Telefona baxarkən istəmədiyiniz halda onu kiliddən çıxara bilərsiniz.
+
+Telefonunuz başqası tərəfindən üzünüzə doğru tutularaq kiliddən çıxarıla bilər (hətta gözləriniz bağlı olsa belə).
+
+Telefonunuz sizə çox bənzəyən biri tərəfindən (məsələn, eynilə bənzəyən bacı/qardaş) kiliddən çıxarıla bilər."</string>
+    <string name="security_settings_face_settings_preferences_category">Üz ilə kiliddən çıxarmadan istifadə etdikdə</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Üz modeliniz həmişəlik və təhlükəsiz qaydada silinəcək. 
+
+Sildikdən sonra telefonunuzu kiliddən çıxarmaq, yaxud tətbiqlərdə əsllik yoxlaması üçün PIN'iniz, modeliniz və ya parolunuz tələb ediləcək."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Üz modeliniz həmişəlik və təhlükəsiz qaydada silinəcək.
+
+Silindikdən sonra telefonu kiliddən çıxarmaq üçün PIN, model və ya parol tələb ediləcək."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Üz modeli silinsin?</string>
+    <string name="security_settings_face_settings_remove_face_model">Üz modelini silin</string>
+    <string name="security_settings_face_settings_require_attention">Gözlər açıq olmalıdır</string>
+    <string name="security_settings_face_settings_require_attention_details">Telefonu kiliddən çıxarmaq üçün gözləriniz açıq olmalıdır</string>
+    <string name="security_settings_face_settings_require_confirmation">Həmişə təsdiq tələb edin</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Tətbiqlərdə Üz ilə kiliddən çıxarma istifadə etdikdə həmişə təsdiq tələb edin</string>
+    <string name="security_settings_face_settings_use_face_category">Üz ilə kiliddən çıxarmadan istifadə edin:</string>
+</resources>

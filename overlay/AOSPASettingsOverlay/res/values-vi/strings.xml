@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Cho phép mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Xong</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Nếu tính năng Mở khóa bằng khuôn mặt qua dịch vụ hỗ trợ tiếp cận đang tắt, thì một số bước thiết lập có thể hoạt động không đúng cách với TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Quay lại</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Tiếp tục thiết lập</string>
+    <string name="security_settings_face_enroll_education_message">Trên màn hình tiếp theo, hãy xoay đầu để chụp mọi góc cạnh khuôn mặt bạn</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Trên màn hình tiếp theo, hãy cầm điện thoại ngang tầm mắt</string>
+    <string name="security_settings_face_enroll_education_start">Bắt đầu</string>
+    <string name="security_settings_face_enroll_education_title">Cách thiết lập tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Thiết lập tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Sử dụng khuôn mặt của bạn để xác thực</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Bỏ qua</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Chưa đăng ký được</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Quy trình đăng ký khuôn mặt không hoạt động.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Đã đến giới hạn thời gian đăng ký khuôn mặt. Hãy thử lại.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Đã hết giờ thiết lập tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Giờ đây, bạn có thể dùng khuôn mặt để mở khóa điện thoại hoặc xác minh danh tính, chẳng hạn như khi đăng nhập vào các ứng dụng hoặc phê duyệt một giao dịch mua</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Giờ đây, khi nhấc điện thoại lên hoặc nhấn vào màn hình, bạn có thể dùng khuôn mặt để mở khóa.
+
+Tính năng mở khóa bằng khuôn mặt hoạt động hiệu quả nhất khi màn hình đủ ánh sáng và bạn không đeo khẩu trang hoặc kính râm."</string>
+    <string name="security_settings_face_enroll_finish_title">Vậy là xong!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Xóa mẫu khuôn mặt hiện tại của bạn để thiết lập lại tính năng Mở khóa bằng khuôn mặt.
+
+Mẫu khuôn mặt của bạn sẽ bị xóa vĩnh viễn theo cách an toàn.
+
+Sau khi xóa, bạn sẽ cần nhập mã PIN, hình mở khóa hoặc mật khẩu để mở khóa điện thoại hoặc xác thực trong các ứng dụng."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Xóa mẫu khuôn mặt hiện tại của bạn để thiết lập lại tính năng Mở khóa bằng khuôn mặt.
+
+Mẫu khuôn mặt của bạn sẽ bị xóa vĩnh viễn theo cách an toàn.
+
+Sau khi xóa, bạn sẽ cần nhập vân tay, mã PIN, hình mở khóa hoặc mật khẩu để mở khóa điện thoại hoặc xác thực trong các ứng dụng."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Thiết lập tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Dành cho người có thị lực hoặc cử động đầu hạn chế</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Khi dùng tính năng Mở khóa bằng khuôn mặt, bạn có thể phải hướng thẳng đầu về phía trước điện thoại.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Bạn phải mở mắt</string>
+    <string name="security_settings_face_enroll_introduction_agree">Tôi đồng ý</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Hủy</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Sử dụng khuôn mặt của con bạn để mở khóa điện thoại của chúng có thể kém an toàn hơn so với hình mở khóa hoặc mã PIN mạnh.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Cho phép con bạn dùng khuôn mặt để mở khóa điện thoại</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Bạn và con bạn có thể xóa mẫu khuôn mặt của con hoặc tắt tính năng Mở khóa bằng khuôn mặt bất cứ lúc nào trong phần Cài đặt. Các mẫu khuôn mặt sẽ được lưu trữ trên điện thoại này cho đến khi bạn hoặc con bạn xóa đi.
+
+Tìm hiểu thêm tại g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Bạn và con bạn nắm quyền kiểm soát</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Bạn có thể xóa mẫu khuôn mặt hoặc tắt tính năng Mở khóa bằng khuôn mặt bất cứ lúc nào trong phần Cài đặt. Các mẫu khuôn mặt sẽ được lưu trữ trên điện thoại này cho đến khi bạn xóa đi.
+
+Tìm hiểu thêm tại g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Bạn nắm quyền kiểm soát</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Tính năng Mở khóa bằng khuôn mặt sẽ tạo một mẫu khuôn mặt duy nhất để xác minh danh tính của con bạn. Để tạo mẫu khuôn mặt này trong khi thiết lập, con bạn cần chụp ảnh khuôn mặt mình ở nhiều góc độ.
+
+Khi con dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh sẽ được dùng để cập nhật mẫu khuôn mặt của con. Các hình ảnh dùng để tạo mẫu khuôn mặt không được lưu trữ. Tuy nhiên, mẫu khuôn mặt sẽ được lưu trữ an toàn trên điện thoại và chỉ lưu trên điện thoại của con bạn mà thôi. Toàn bộ quá trình xử lý sẽ diễn ra một cách an toàn trên điện thoại."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Tính năng Mở khóa bằng khuôn mặt sẽ tạo một mẫu khuôn mặt duy nhất để xác minh người mở khoá chính là bạn. Để tạo mẫu khuôn mặt này trong khi thiết lập, bạn cần chụp ảnh khuôn mặt mình ở nhiều góc độ.
+
+Khi bạn dùng tính năng Mở khóa bằng khuôn mặt, các hình ảnh sẽ được dùng để cập nhật mẫu khuôn mặt của bạn. Các hình ảnh dùng để tạo mẫu khuôn mặt không được lưu trữ. Tuy nhiên, mẫu khuôn mặt sẽ được lưu trữ an toàn trên điện thoại và chỉ lưu trên điện thoại của bạn mà thôi. Toàn bộ quá trình xử lý sẽ diễn ra một cách an toàn trên điện thoại."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Cách thức hoạt động</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Tính năng Mở khóa bằng khuôn mặt có thể yêu cầu con bạn phải mở mắt để mở khóa điện thoại hoặc xác minh danh tính của con. Bạn và con bạn có thể bật tùy chọn này bất cứ lúc nào trong phần Cài đặt.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Nếu thường đeo kính, con bạn có thể đeo kính trong khi thiết lập.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Việc sử dụng khuôn mặt của con bạn để mở khóa điện thoại của chúng có thể kém an toàn hơn so với hình mở khóa, mã PIN hoặc mật khẩu mạnh.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Việc nhìn vào điện thoại có thể khiến điện thoại mở khóa ngay cả khi con bạn không định làm vậy. Người khác có thể mở khóa điện thoại của con nếu họ giơ chiếc điện thoại đó ra trước mặt con. Việc này cũng xảy ra với trường hợp người khác trông giống con, chẳng hạn như anh chị em ruột giống hệt con.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Tính năng Mở khóa bằng khuôn mặt có thể yêu cầu bạn phải mở mắt để mở khóa điện thoại hoặc xác minh danh tính của bạn. Bạn có thể bật tùy chọn này bất cứ lúc nào trong phần Cài đặt.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Bạn có thể đeo kính hoặc kính râm màu nhạt.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Sử dụng khuôn mặt để mở khóa điện thoại có thể kém an toàn hơn so với dùng hình mở khóa, mã PIN hoặc mật khẩu mạnh</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Việc nhìn vào điện thoại có thể khiến điện thoại mở khóa ngay cả khi bạn không định làm vậy. Người khác có thể mở khóa điện thoại của bạn nếu họ giơ chiếc điện thoại đó ra trước mặt bạn. Việc này cũng xảy ra với trường hợp người khác trông giống bạn, chẳng hạn như anh chị em ruột giống hệt bạn.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Lưu ý</string>
+    <string name="security_settings_face_enroll_introduction_message">Bạn có thể dùng khuôn mặt để mở khóa điện thoại hoặc xác minh danh tính, chẳng hạn như khi đăng nhập vào các ứng dụng hoặc phê duyệt một giao dịch mua.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Sử dụng khuôn mặt của bạn để mở khóa điện thoại, ủy quyền các giao dịch mua hoặc đăng nhập vào các ứng dụng</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Sử dụng khuôn mặt của bạn để mở khóa điện thoại hoặc phê duyệt các giao dịch mua.
+
+Lưu ý: Bạn không thể sử dụng khuôn mặt của mình để mở khóa thiết bị này. Để biết thêm thông tin, hãy liên hệ với quản trị viên của tổ chức bạn."</string>
+    <string name="security_settings_face_enroll_introduction_more">Xem thêm</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Không, cảm ơn</string>
+    <string name="security_settings_face_enroll_introduction_title">Thiết lập tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Sử dụng khuôn mặt của bạn để xác thực</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Cải thiện hiệu suất và độ bảo mật</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Thiết lập lại tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_next">Tiếp theo</string>
+    <string name="security_settings_face_enroll_partial_message">Để cải thiện hiệu suất, bạn có thể thiết lập lại tính năng Mở khóa bằng khuôn mặt trong phần Cài đặt</string>
+    <string name="security_settings_face_enroll_partial_start_over">Bắt đầu lại</string>
+    <string name="security_settings_face_enroll_partial_title">Đã thiết lập xong tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_repeat_title">Căn giữa khuôn mặt trong hình tròn</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Thiết lập lại tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Cải thiện hiệu suất Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_timeout_message">"Hãy thử quy trình thiết lập nhanh. Xin lưu ý rằng bạn có thể phải hướng thẳng đầu về phía trước điện thoại khi dùng tính năng Mở khóa bằng khuôn mặt.
+
+Để cải thiện hiệu suất, bạn có thể thiết lập lại tính năng Mở khóa bằng khuôn mặt trong phần Cài đặt."</string>
+    <string name="security_settings_face_enroll_timeout_title">Không thể tiếp tục thiết lập</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Thử lại</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Dùng tùy chọn thiết lập nhanh</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Thoát khỏi quy trình thiết lập</string>
+    <string name="security_settings_face_enroll_too_hot_message">Không thể hoàn tất việc thiết lập tính năng Mở khóa bằng khuôn mặt do điện thoại quá nóng. Hãy chờ điện thoại nguội bớt rồi thử lại sau.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Bỏ qua tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_enroll_too_hot_title">Điện thoại quá nóng</string>
+    <string name="security_settings_face_preference_summary">Đã thêm khuôn mặt</string>
+    <string name="security_settings_face_preference_summary_none">Nhấn để thiết lập khuôn mặt</string>
+    <string name="security_settings_face_preference_title">Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_profile_preference_title">Mở khóa bằng khuôn mặt cho công việc</string>
+    <string name="security_settings_face_settings_context_subtitle">Dùng tính năng Mở khóa bằng khuôn mặt để mở khóa điện thoại</string>
+    <string name="security_settings_face_settings_enroll">Thiết lập tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_settings_footer">"Dùng khuôn mặt để mở khóa điện thoại hoặc xác thực trong các ứng dụng, chẳng hạn như khi bạn đăng nhập hoặc phê duyệt một giao dịch mua.
+
+Lưu ý:
+Mỗi lần bạn chỉ có thể thiết lập một khuôn mặt. Để thêm một khuôn mặt khác, hãy xóa khuôn mặt hiện tại.
+
+Việc nhìn vào điện thoại có thể khiến điện thoại mở khóa ngay cả khi bạn không định làm vậy.
+
+Người khác có thể mở khóa điện thoại của bạn khi họ giơ điện thoại trước mặt bạn.
+
+Người có diện mạo giống bạn, chẳng hạn như anh chị em ruột giống hệt bạn, có thể mở khóa điện thoại của bạn."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Dùng khuôn mặt để mở khóa điện thoại hoặc xác thực trong các ứng dụng, chẳng hạn như khi bạn đăng nhập hoặc phê duyệt một giao dịch mua.
+
+Lưu ý:
+Mỗi lần bạn chỉ có thể thiết lập một khuôn mặt. Để thêm một khuôn mặt khác, hãy xóa khuôn mặt hiện tại.
+
+Việc nhìn vào điện thoại có thể khiến điện thoại mở khóa ngay cả khi bạn không định làm vậy.
+
+Người khác có thể mở khóa điện thoại của bạn khi họ giơ điện thoại trước mặt bạn, ngay cả khi bạn đang nhắm mắt.
+
+Người có diện mạo giống bạn, chẳng hạn như anh chị em ruột giống hệt bạn, có thể mở khóa điện thoại của bạn."</string>
+    <string name="security_settings_face_settings_preferences_category">Khi dùng tính năng Mở khóa bằng khuôn mặt</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Mẫu khuôn mặt của bạn sẽ bị xoá vĩnh viễn theo cách an toàn.
+
+Sau khi xoá, bạn cần có mã PIN, hình mở khoá hoặc mật khẩu để mở khoá điện thoại hoặc để xác thực trong các ứng dụng."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Mẫu khuôn mặt của bạn sẽ bị xoá vĩnh viễn theo cách an toàn.
+
+Sau khi xoá, bạn sẽ cần nhập mã PIN, hình mở khoá hoặc mật khẩu để mở khoá điện thoại."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Xóa mẫu khuôn mặt?</string>
+    <string name="security_settings_face_settings_remove_face_model">Xóa mẫu khuôn mặt</string>
+    <string name="security_settings_face_settings_require_attention">Yêu cầu mở mắt</string>
+    <string name="security_settings_face_settings_require_attention_details">Để mở khóa điện thoại, bạn phải mở mắt</string>
+    <string name="security_settings_face_settings_require_confirmation">Luôn yêu cầu xác nhận</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Luôn yêu cầu xác nhận khi dùng tính năng Mở khóa bằng khuôn mặt trong các ứng dụng</string>
+    <string name="security_settings_face_settings_use_face_category">Dùng tính năng Mở khóa bằng khuôn mặt để</string>
+</resources>

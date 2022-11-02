@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">ফেচ আনলকৰ অনুমতি দিয়ক</string>
+    <string name="security_settings_face_enroll_dialog_ok">ঠিক আছে</string>
+    <string name="security_settings_face_enroll_done">কৰা হ’ল</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">"সাধ্য সুবিধা ম'ডত ফেচ আনলক অফ কৰিলে, TalkBackত কিছুমান ছেটআপৰ পদক্ষেপে ভালদৰে কাম নকৰিবও পাৰে।"</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">উভতি যাওক</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ছেট আপ কৰাটো অব্যাহত ৰাখক</string>
+    <string name="security_settings_face_enroll_education_message">পৰৱর্তী স্ক্ৰীনখনত আপোনাৰ মুখাৱয়বৰ আটাইবোৰ দিশ কেপচাৰ কৰিবলৈ আপোনাৰ মূৰটো ঘূৰাওক</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">পৰৱৰ্তী স্ক্ৰীনখনত, আপোনাৰ ফ’নটো চকুৰ স্তৰত ধৰি ৰাখক</string>
+    <string name="security_settings_face_enroll_education_start">আৰম্ভণি</string>
+    <string name="security_settings_face_enroll_education_title">ফেচ আনলক কেনেকৈ ছেটআপ কৰে</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">ফেচ আনলক ছেট আপ কৰক</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">প্ৰমাণীকৰণৰ বাবে নিজৰ চেহেৰা ব্যৱহাৰ কৰক</string>
+    <string name="security_settings_face_enroll_enrolling_skip">এৰি যাওক</string>
+    <string name="security_settings_face_enroll_error_dialog_title">পঞ্জীয়ন সম্পূৰ্ণ নহ’ল</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">মুখমণ্ডল অন্তৰ্ভুক্তিকৰণে কাম নকৰিলে।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">মুখমণ্ডল অন্তৰ্ভুক্তিকৰণৰ সময়সীমা সম্পূৰ্ণ হৈছে। আকৌ চেষ্টা কৰক।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">ফেচ আনলক ছেটআপ কৰাৰ সময় উকলি গৈছে</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">এতিয়া আপুনি নিজৰ ফ’নটো আনলক কৰোঁতে অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে এয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰিব পাৰে</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"এতিয়া আপুনি নিজৰ ফ’নটো হাতত তুলি লওঁতে অথবা স্ক্ৰীনত টিপোঁতে, আনলক কৰিবলৈ আপোনাৰ মুখাৱয়ব ব্যৱহাৰ কৰিব পাৰে।
+
+ফেচ আনলক সুবিধাটোৱে পৰ্যাপ্ত পোহৰ থকা পৰিৱেশত আৰু আপুনি মুখ ঢকা বন্ধনী অথবা ডাঠ ৰঙৰ চশমা পিন্ধি নথকা অৱস্থাত থাকিলে আটাইতকৈ ভালকৈ কাম কৰে।"</string>
+    <string name="security_settings_face_enroll_finish_title">ঠিকেই লাগিছে!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"ফেচ আনলক পুনৰ ছেট আপ কৰিবলৈ বৰ্তমানৰ মুখাৱয়বৰ মডেলটো মচক।
+
+আপোনাৰ মুখাৱয়বৰ মডেলটো স্থায়ী তথা সুৰক্ষিতভাৱে মচা হ’ব।
+
+মচি পেলোৱাৰ পাছত, ফ’নটো আনলক কৰিবলৈ অথবা বিশ্বাসযোগ্যতা প্ৰমাণীকৰণৰ বাবে আপোনাক নিজৰ পিন, আৰ্হি অথবা পাছৱৰ্ডৰ প্ৰয়োজন হ’ব।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"ফেচ আনলক পুনৰ ছেট আপ কৰিবলৈ বৰ্তমানৰ মুখাৱয়বৰ মডেলটো মচক।
+
+আপোনাৰ মুখাৱয়বৰ মডেলটো স্থায়ী তথা সুৰক্ষিতভাৱে মচা হ’ব।
+
+মচি পেলোৱাৰ পাছত, ফ’নটো আনলক কৰিবলৈ অথবা বিশ্বাসযোগ্যতা প্ৰমাণীকৰণৰ বাবে আপোনাক নিজৰ ফিংগাৰপ্ৰিণ্ট, পিন, আৰ্হি অথবা পাছৱৰ্ডৰ প্ৰয়োজন হ’ব।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">ফেচ আনলক ছেট আপ কৰক</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">কম দৃষ্টিসম্পন্ন বা মূৰটো স্থিৰকৈ ৰাখিব নোৱৰা লোকৰ বাবে ছেট আপ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ফেচ আনলক ব্যৱহাৰ কৰোঁতে আপোনাৰ মূৰটো পোনপটীয়াকৈ আপোনাৰ ফ’নটোৰ সন্মুখত ৰাখিবলগীয়া হ’ব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">চকু মেলি ৰখাৰ প্ৰয়োজন</string>
+    <string name="security_settings_face_enroll_introduction_agree">মই সন্মত</string>
+    <string name="security_settings_face_enroll_introduction_cancel">বাতিল কৰক</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">আপোনাৰ শিশুটিৰ ফ’নটো আনলক কৰিবলৈ তেওঁৰ মুখাৱয়ব ব্যৱহাৰ কৰাটো এটা সবল আৰ্হি অথবা পিন ব্যৱহাৰ কৰাতকৈ কম সুৰক্ষিত হ’ব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">আপোনাৰ শিশুটিক তেওঁৰ ফ’নটো আনলক কৰিবলৈ তেওঁৰ মুখাৱয়ব ব্যৱহাৰ কৰিবলৈ দিয়ক</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"আপুনি আৰু আপোনাৰ শিশুৱে যিকোনো সময়তে ছেটিঙলৈ গৈ তেওঁৰ মুখাৱয়বৰ মডেলটো মচিব পাৰে অথবা ফেচ আনলক সুবিধাটো অফ কৰিব পাৰে। মুখাৱয়বৰ মডেলসমূহ মচি নেপেলোৱালৈকে ফ’নটোত ষ্ট’ৰ হৈ থাকে।
+
+g.co/pixel/faceunlockত অধিক জানক।"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">আপোনাৰ আৰু আপোনাৰ শিশুৰ হাতত নিয়ন্ত্ৰণ আছে</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"আপুনি যিকোনো সময়তে ছেটিঙলৈ গৈ নিজৰ মুখাৱয়বৰ মডেলটো মচিব পাৰে অথবা ফেচ আনলক সুবিধাটো অফ কৰিব পাৰে। মুখাৱয়বৰ মডেলসমূহ আপুনি মচি নেপেলোৱালৈকে ফ’নটোত ষ্ট’ৰ হৈ থাকে।
+
+g.co/pixel/faceunlockত অধিক জানক।"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">আপোনাৰ হাতত নিয়ন্ত্ৰণ আছে</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"ফেচ আনলক কৰাৰ সুবিধাটোৱে সেইয়া তেৱেঁই বুলি সত্যাপন কৰিবলৈ আপোনাৰ শিশুৰ মুখাৱয়বৰ এটা অদ্বিতীয় মডেল সৃষ্টি কৰে। ছেটআপৰ সময়ত এই মুখাৱয়বৰ মডেলটো সৃষ্টি কৰিবলৈ আপোনাৰ শিশুৱে বেলেগ বেলেগ কোণৰ পৰা তেওঁৰ মুখাৱয়বৰ ফট’ তুলিব লাগিব।
+
+তেওঁ ফেচ আনলক কৰাৰ সুবিধাটো ব্যৱহাৰ কৰাৰ সময়ত, তেওঁৰ মুখাৱয়বৰ মডেলটো আপডে’ট কৰিবলৈ প্ৰতিচ্ছবিসমূহ ব্যৱহাৰ কৰা হয়। তেওঁৰ মুখাৱয়বৰ মডেলটো সৃষ্টি কৰিবলৈ ব্যৱহাৰ কৰা প্ৰতিচ্ছবি ষ্ট’ৰ কৰা নহয়, কিন্তু মুখাৱয়বৰ মডেলটো ফ’নটোত সুৰক্ষিতভাৱে ষ্ট’ৰ কৰা হয় আৰু সেইয়া কেতিয়াও ফ’নটোৰ পৰা আঁতৰি নাযায়। আটাইবোৰ প্ৰক্ৰিয়া আপোনাৰ ফ’নটোত সুৰক্ষিতভাৱে সম্পাদন কৰা হয়।"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"ফেচ আনলক কৰাৰ সুবিধাটোৱে এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ আপোনাৰ মুখাৱয়বৰ এটা অদ্বিতীয় মডেল সৃষ্টি কৰে। ছেটআপৰ সময়ত এই মুখাৱয়বৰ মডেলটো সৃষ্টি কৰিবলৈ আপুনি বেলেগ বেলেগ কোণৰ পৰা নিজৰ মুখাৱয়বৰ ফট’ তুলিব লাগিব।
+
+আপুনি ফেচ আনলক কৰাৰ সুবিধাটো ব্যৱহাৰ কৰাৰ সময়ত, আপোনাৰ মুখাৱয়বৰ মডেলটো আপডে’ট কৰিবলৈ প্ৰতিচ্ছবিসমূহ ব্যৱহাৰ কৰা হয়। আপোনাৰ মুখাৱয়বৰ মডেলটো সৃষ্টি কৰিবলৈ ব্যৱহাৰ কৰা প্ৰতিচ্ছবি ষ্ট’ৰ কৰা নহয়, কিন্তু মুখাৱয়বৰ মডেলটো আপোনাৰ ফ’নত সুৰক্ষিতভাৱে ষ্ট’ৰ কৰা হয় আৰু সেইয়া কেতিয়াও ফ’নটোৰ পৰা আঁতৰি নাযায়। আটাইবোৰ প্ৰক্ৰিয়া আপোনাৰ ফ’নত সুৰক্ষিতভাৱে সম্পাদন কৰা হয়।"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">এইটোৱে কিদৰে কাম কৰে</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ফেচ আনলকৰ দ্বাৰা আনলক কৰিবলৈ অথবা এইয়া তেৱেঁই বুলি সত্যাপন কৰিবলৈ আপোনাৰ শিশুৰ চকু দুটা খোল খাই থাকিব লাগিব। আপুনি আৰু আপোনাৰ শিশুৱে যিকোনো সময়তে ছেটিঙলৈ গৈ এই বিকল্পটো অন কৰিব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">আপোনাৰ শিশুৱে সচৰাচৰ চশমা পিন্ধিলে, ছেটআপৰ সময়ত তেওঁ সেইয়া পিন্ধি থাকিব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">আপোনাৰ শিশুটিৰ ফ’নটো আনলক কৰিবলৈ তেওঁৰ মুখাৱয়ব ব্যৱহাৰ কৰাটো এটা সবল আৰ্হি, পিন অথবা পাছৱৰ্ডতকৈ কম সুৰক্ষিত হ’ব পাৰে</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">তেওঁ ফ’নটো আনলক কৰিবলৈ ইচ্ছা নকৰিলেও তেওঁ ফ’নটোলৈ চালে সেইটো আনলক হ’ব পাৰে। তেওঁৰ ফ’নটো এনে কোনো লোকেও আনলক কৰিব পাৰে যি দেখাত প্ৰায় তেওঁৰ দৰে হয়, যেনে তেওঁৰ যমজ ভাতৃ-ভগ্নী, অথবা যদি কোনোবাই সেইটো তেওঁৰ মুখাৱয়বৰ সন্মুখত ধৰি ৰাখে।</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">ফেচ আনলকৰ দ্বাৰা ফ’নটো আনলক কৰিবলৈ অথবা এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ আপোনাৰ চকু দুটা খোল খাই থাকিব লাগিব। আপুনি যিকোনো সময়তে ছেটিঙলৈ গৈ এই বিকল্পটো অন কৰিব পাৰে।</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">চশমা অথবা পাতল ৰঙীন ছানগ্লাছ ব্যৱহাৰ কৰাত অসুবিধা নাই।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">আপোনাৰ ফ’নটো আনলক কৰিবলৈ আপোনাৰ মুখাৱয়ব ব্যৱহাৰ কৰাটো এটা সবল আৰ্হি, পিন অথবা পাছৱৰ্ড ব্যৱহাৰ কৰাতকৈ কম সুৰক্ষিত হ’ব পাৰে</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">আপুনি ফ’নটো আনলক কৰিবলৈ ইচ্ছা নকৰিলেও ফ’নটোলৈ চালে ই আনলক হ’ব পাৰে। আপোনাৰ ফ’নটো এনে কোনো লোকেও আনলক কৰিব পাৰে যি দেখাত প্ৰায় আপোনাৰ দৰে হয়, যেনে আপোনাৰ যমজ ভাতৃ-ভগ্নী, অথবা যদি কোনোবাই সেইটো আপোনাৰ মুখাৱয়বৰ সন্মুখত ধৰি ৰাখে।</string>
+    <string name="security_settings_face_enroll_introduction_info_title">মনত ৰাখিব</string>
+    <string name="security_settings_face_enroll_introduction_message">আপোনাৰ ফ’নটো আনলক কৰিবলৈ অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে এইয়া আপুনিয়েই বুলি সত্যাপন কৰিবলৈ নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰক।</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">নিজৰ ফ’ন আনলক কৰা, ক্ৰয়সমূহক স্বীকৃতি দিয়া বা এপসমূহত ছাইন ইন কৰা কাৰ্যৰ বাবে নিজৰ চেহেৰা ব্যৱহাৰ কৰক</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"আপোনাৰ ফ'নটো আনলক কৰিবলৈ বা ক্ৰয়ৰ অনুমোদন জনাবলৈ আপোনাৰ মুখমণ্ডল ব্যৱহাৰ কৰক।
+
+টোকা: আপুনি এই ডিভাইচটো আনলক কৰিবলৈ আপোনাৰ মুখমণ্ডল ব্যৱহাৰ কৰিব নোৱাৰে৷ অধিক তথ্যৰ বাবে আপোনাৰ প্ৰতিষ্ঠানৰ প্ৰশাসকৰ সৈতে যোগাযোগ কৰক।"</string>
+    <string name="security_settings_face_enroll_introduction_more">অধিক</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">নালাগে, ধন্য়বাদ</string>
+    <string name="security_settings_face_enroll_introduction_title">ফেচ আনলক ছেট আপ কৰক</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">প্ৰমাণীকৰণ কৰিবলৈ নিজৰ চেহেৰা ব্যৱহাৰ কৰক</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">সুৰক্ষা আৰু কাৰ্যক্ষমতা উন্নত কৰক</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">ফেচ আনলক আকৌ ছেট আপ কৰক</string>
+    <string name="security_settings_face_enroll_next">পৰৱৰ্তী</string>
+    <string name="security_settings_face_enroll_partial_message">কাৰ্যক্ষমতা উন্নত কৰাৰ বাবে আপুনি ছেটিঙত ফেচ আনলক পুনৰ ছেট আপ কৰিব পাৰে</string>
+    <string name="security_settings_face_enroll_partial_start_over">আকৌ আৰম্ভ কৰক</string>
+    <string name="security_settings_face_enroll_partial_title">"ফেচ আনলকৰ ছেটআপ সম্পূৰ্ণ হ'ল"</string>
+    <string name="security_settings_face_enroll_repeat_title">আপোনাৰ মুখমণ্ডলটো বৃত্তৰ ভিতৰলৈ আনক</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">ফেচ আনলক সুবিধাটো আকৌ ছেট আপ কৰক</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">ফেচ আনলকৰ কাৰ্যদক্ষতা উন্নত কৰক</string>
+    <string name="security_settings_face_enroll_timeout_message">"ইয়াৰ পৰিৱৰ্তে ক্ষিপ্ৰ ছেটআপ ব্যৱহাৰ কৰি চাওক। মনত ৰাখিব, ফেচ আনলক ব্যৱহাৰ কৰোঁতে আপোনাৰ মূৰটো অধিক পোনপটীয়াকৈ ফ’নটোৰ সন্মুখত থকাৰ প্ৰয়োজন হ’ব পাৰে।
+
+কাৰ্যক্ষমতা উন্নত কৰাৰ বাবে আপুনি ছেটিঙত ফেচ আনলক পুনৰ ছেট আপ কৰিব পাৰে।"</string>
+    <string name="security_settings_face_enroll_timeout_title">ছেটআপ অব্যাহত ৰাখিব নোৱাৰি</string>
+    <string name="security_settings_face_enroll_timeout_try_again">আকৌ চেষ্টা কৰক</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ক্ষিপ্ৰ ছেট আপ ব্যৱহাৰ কৰক</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">ছেট আপৰ পৰা বাহিৰ হওক</string>
+    <string name="security_settings_face_enroll_too_hot_message">ফ’নটো বহুত গৰম হোৱাৰ বাবে ফেচ আনলকৰ ছেটআপ সম্পূৰ্ণ কৰিব নোৱাৰি। ফ’নটো ঠাণ্ডা হ’লে পাছত পুনৰ চেষ্টা কৰক।</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ফেচ আনলক এৰি যাওক</string>
+    <string name="security_settings_face_enroll_too_hot_title">ফ’নটো বহুত গৰম</string>
+    <string name="security_settings_face_preference_summary">"চেহেৰা যোগ কৰা হ'ল"</string>
+    <string name="security_settings_face_preference_summary_none">মুখাৱয়ব ছেট আপ কৰিবলৈ টিপক</string>
+    <string name="security_settings_face_preference_title">ফেচ আনলক</string>
+    <string name="security_settings_face_profile_preference_title">"কৰ্মস্থানৰ প্ৰ'ফাইলৰ বাবে ফেচ আনলক"</string>
+    <string name="security_settings_face_settings_context_subtitle">আপোনাৰ ফ’নটো আনলক কৰিবলৈ ফেচ আনলক ব্যৱহাৰ কৰক</string>
+    <string name="security_settings_face_settings_enroll">ফেচ আনলক ছেট আপ কৰক</string>
+    <string name="security_settings_face_settings_footer">"আপোনাৰ ফ’নটো আনলক কৰিবলৈ অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে বিশ্বাসযোগ্যতা প্ৰমাণীকৰণৰ বাবে নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰক।
+
+মনত ৰাখিব:
+আপুনি এবাৰত এটাহে মুখায়ৱৰ ছেট আপ কৰিব পাৰে। নতুন মুখাৱয়ব যোগ দিবলৈ বৰ্তমানৰ মুখাৱয়বখন আঁতৰাওক।
+
+আপুনি নিবিচাৰিলেও ফ’নটোলৈ চোৱাৰ ফলত সেইটো আনলক হ’ব।
+
+আপোনাৰ ফ’নটো আন কোনোবাই আপোনাৰ মুখৰ আগত দাঙি ধৰিও সেইটো আনলক কৰিব পাৰে।
+
+আপোনাৰ ফ’নটো এনে কোনো লোকেও আনলক কৰিব পাৰে যি দেখাত বহুখিনি আপোনাৰ দৰে, যেনে একেই সহোদৰ-সহোদৰা।"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"আপোনাৰ ফ’নটো আনলক কৰিবলৈ অথবা আপুনি এপত ছাইন ইন কৰা অথবা কোনো ক্ৰয়ৰ অনুমোদন জনোৱা আদিৰ দৰে কাৰ্য কৰোঁতে বিশ্বাসযোগ্যতা প্ৰমাণীকৰণৰ বাবে নিজৰ মুখাৱয়ব ব্যৱহাৰ কৰক।
+
+মনত ৰাখিব:
+আপুনি এবাৰত এটাহে মুখায়ৱৰ ছেট আপ কৰিব পাৰে। নতুন মুখাৱয়ব যোগ দিবলৈ বৰ্তমানৰ মুখাৱয়বখন আঁতৰাওক।
+
+আপুনি নিবিচাৰিলেও ফ’নটোলৈ চোৱাৰ ফলত সেইটো আনলক হ’ব।
+
+আপোনাৰ দুচকু বন্ধ থাকিলেও আন কোনোবাই আপোনাৰ ফ’নটো আপোনাৰ মুখৰ আগত দাঙি ধৰিও সেইটো আনলক কৰিব পাৰে।
+
+আপোনাৰ ফ’নটো এনে কোনো লোকেও আনলক কৰিব পাৰে যি দেখাত বহুখিনি আপোনাৰ দৰে, যেনে একেই সহোদৰ-সহোদৰা।"</string>
+    <string name="security_settings_face_settings_preferences_category">ফেচ আনলক সুবিধাটো ব্যৱহাৰ কৰোঁতে</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"আপোনাৰ মুখাৱয়বৰ ম’ডেলটো স্থায়ী তথা সুৰক্ষিতভাৱে মচা হ’ব।
+
+মচাৰ পাছত নিজৰ ফ’নটো আনলক কৰিবলৈ অথবা এপত বিশ্বাসযোগ্যতা প্ৰমাণীকৰণৰ বাবে আপোনাক নিজৰ পিন, আৰ্হি অথবা পাছৱৰ্ডৰ প্ৰয়োজন হ’ব।"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"আপোনাৰ মুখাৱয়বৰ ম'ডেলটো স্থায়ী তথা সুৰক্ষিতভাৱে মচা হ’ব।
+
+মচাৰ পাছত, ফ’নটো আনলক কৰিবলৈ আপোনাক নিজৰ পিন, আৰ্হি অথবা পাছৱৰ্ডৰ প্ৰয়োজন হ’ব।"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">মুখাৱয়বৰ ম’ডেলটো মচিবনে?</string>
+    <string name="security_settings_face_settings_remove_face_model">মুখাৱয়বৰ ম’ডেলটো মচক</string>
+    <string name="security_settings_face_settings_require_attention">দুচকু খোলা থাকিব লাগিব</string>
+    <string name="security_settings_face_settings_require_attention_details">ফ’নটো আনলক কৰিবলৈ আপোনাৰ দুচকু খোলা থাকিবই লাগিব</string>
+    <string name="security_settings_face_settings_require_confirmation">নিশ্চিতকৰণ সদায় বাধ্যতামূলক</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ফেচ আনলকৰ দ্বাৰা এপ্‌ খোলোঁতে প্ৰতিবাৰেই নিশ্চিতকৰণৰ প্ৰয়োজন</string>
+    <string name="security_settings_face_settings_use_face_category">ইয়াৰ বাবে ফেচ আনলক ব্যৱহাৰ কৰক</string>
+</resources>

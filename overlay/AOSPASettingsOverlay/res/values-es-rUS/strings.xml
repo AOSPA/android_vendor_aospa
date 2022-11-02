@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Permitir el uso del desbloqueo facial</string>
+    <string name="security_settings_face_enroll_dialog_ok">Aceptar</string>
+    <string name="security_settings_face_enroll_done">Listo</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Si Desbloqueo facial con accesibilidad está desactivado, es posible que algunos pasos de la configuración no funcionen correctamente con TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Atrás</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Seguir configurando</string>
+    <string name="security_settings_face_enroll_education_message">En la pantalla siguiente, gira la cabeza para que se capturen todos los ángulos de tu rostro</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">En la pantalla siguiente, sostén el teléfono a la altura de los ojos</string>
+    <string name="security_settings_face_enroll_education_start">Iniciar</string>
+    <string name="security_settings_face_enroll_education_title">Cómo configurar Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Configura Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Usa tu rostro para autenticarte</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Omitir</string>
+    <string name="security_settings_face_enroll_error_dialog_title">No se completó la inscripción</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">No funcionó la inscripción del rostro.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Se alcanzó el límite de tiempo para inscribir el rostro. Vuelve a intentarlo.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Tiempo para configurar Desbloqueo facial agotado</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Ahora puedes usar tu rostro para desbloquear el teléfono o verificar tu identidad, como cuando accedes a apps o apruebas compras.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Ahora puedes usar tu rostro para desbloquear el teléfono cuando lo tomes o toques la pantalla.
+
+El Desbloqueo facial funciona mejor cuando hay suficiente luz y no llevas mascarilla ni lentes oscuros."</string>
+    <string name="security_settings_face_enroll_finish_title">¡Muy bien!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Borra tu modelo actual de rostro para volver a configurar Desbloqueo facial.
+
+Se borrará tu modelo de rostro de manera permanente y segura.
+
+Luego, deberás ingresar tu PIN, patrón o contraseña para desbloquear el teléfono o autenticarte en apps."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Borra tu modelo actual de rostro para volver a configurar Desbloqueo facial.
+
+Se borrará tu modelo de rostro de manera permanente y segura.
+
+Luego, deberás ingresar tu huella dactilar, PIN, patrón o contraseña para desbloquear el teléfono o autenticarte en apps."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Configura Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Configurar con visión o movilidad limitadas</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Si utilizas la función Desbloqueo facial, es posible que debas colocar la cabeza enfrente del teléfono de forma más directa.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Es necesario mantener los ojos abiertos</string>
+    <string name="security_settings_face_enroll_introduction_agree">Acepto</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Cancelar</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Usar el desbloqueo facial para que tu hijo acceda a su teléfono puede ser menos seguro que usar un buen patrón o un PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Permite que tu hijo desbloquee su teléfono con el rostro</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Tu hijo y tú pueden borrar el modelo de rostro o desactivar la función Desbloqueo facial en cualquier momento desde Configuración. Los modelos de rostros se almacenan en el teléfono hasta que se borran.
+
+Obtén más información en g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Tanto tú como tu hijo tienen el control</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Puedes borrar el modelo de rostro o desactivar la función Desbloqueo facial en cualquier momento desde Configuración. Los modelos de rostros se almacenan en el teléfono hasta que los borras.
+
+Obtén más información en g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Tú tienes el control</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"La función de Desbloqueo facial crea un modelo único del rostro de tu hijo para verificar su identidad. A fin de crear el modelo durante la configuración, tu hijo deberá tomar fotos de su rostro desde distintos ángulos.
+
+Cuando usa la función de Desbloqueo facial, se utilizan imágenes para actualizar el modelo de su rostro. Las imágenes que se usan para crear el modelo no se almacenan, a diferencia del modelo en sí, que lo hace de manera segura en el teléfono y nunca sale de él. Todo el proceso se lleva a cabo en el teléfono de forma segura."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"La función de Desbloqueo facial crea un modelo único de tu rostro para verificar tu identidad. A fin de crear el modelo de rostro durante la configuración, deberás tomar fotos de tu rostro desde diferentes ángulos.
+
+Cuando usas el Desbloqueo facial, se utilizan imágenes para actualizar el modelo de tu rostro. A diferencia de las imágenes que se usan para crear el modelo, que no se conservan, el modelo de rostro en sí se almacena de manera segura en el teléfono y no sale nunca del dispositivo. Todo el proceso se lleva a cabo en el teléfono de manera segura."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Cómo funciona</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">El Desbloqueo facial podría requerir que tu hijo tenga los ojos abiertos para desbloquear el teléfono o verificar su identidad. Tú y tu hijo pueden activar esta opción en cualquier momento, en Configuración.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Si tu hijo suele usar gafas, puede dejárselas durante la configuración.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Usar el rostro de tu hijo para desbloquear su teléfono puede ser menos seguro que establecer un buen patrón, PIN o contraseña</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Es posible que el teléfono se desbloquee si lo mira aunque no sea su intención. También pueden desbloquearlo personas que se parezcan mucho a él, como un gemelo, o alguien que lo ponga frente a su rostro.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">El Desbloqueo facial podría requerir que tengas los ojos abiertos para desbloquear el teléfono o verificar tu identidad. Puedes activar esta opción en cualquier momento, en Configuración.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Funciona aunque uses lentes o lentes de sol claras.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Es posible que el desbloqueo facial sea menos seguro que un patrón, un PIN o una contraseña complejos.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Es posible que el teléfono se desbloquee si lo miras aunque no sea tu intención. También pueden desbloquearlo personas que se parezcan mucho a ti, como un gemelo, o alguien que lo ponga frente a tu rostro.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Importante</string>
+    <string name="security_settings_face_enroll_introduction_message">Usa tu rostro para desbloquear el teléfono o verificar tu identidad, como cuando accedes a apps o apruebas compras.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Usa tu rostro para desbloquear el teléfono, autorizar compras o acceder a las apps</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Usa tu rostro para desbloquear el teléfono o aprobar compras.
+
+Nota: No puedes usarlo para desbloquear este dispositivo. Si quieres obtener más detalles, comunícate con el administrador de la organización."</string>
+    <string name="security_settings_face_enroll_introduction_more">Más</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">No, gracias</string>
+    <string name="security_settings_face_enroll_introduction_title">Configurar Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Usa tu rostro para autenticarte</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Mejora la seguridad y el rendimiento</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Vuelve a configurar Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_next">Siguiente</string>
+    <string name="security_settings_face_enroll_partial_message">Para mejorar el reconocimiento, vuelve a configurar Desbloqueo facial en Configuración</string>
+    <string name="security_settings_face_enroll_partial_start_over">Volver a empezar</string>
+    <string name="security_settings_face_enroll_partial_title">Finalizó la configuración de Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_repeat_title">Centra el rostro en el círculo</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Vuelve a configurar Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Mejora el rendimiento de Desbloqueo facial</string>
+    <string name="security_settings_face_enroll_timeout_message">"En su lugar, prueba la configuración rápida. Tal vez debas colocar la cabeza frente al teléfono más directamente cuando uses Desbloqueo facial.
+
+Para mejorar el reconocimiento, vuelve a configurar Desbloqueo facial en Configuración."</string>
+    <string name="security_settings_face_enroll_timeout_title">No se puede continuar con la configuración</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Reintentar</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Usar la configuración rápida</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Salir de la configuración</string>
+    <string name="security_settings_face_enroll_too_hot_message">No se puede completar la configuración de Desbloqueo facial porque se sobrecalentó el teléfono. Vuelve a intentarlo más tarde cuando el teléfono se enfríe.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Omitir desbloqueo facial</string>
+    <string name="security_settings_face_enroll_too_hot_title">Se sobrecalentó el teléfono</string>
+    <string name="security_settings_face_preference_summary">Se agregó el rostro</string>
+    <string name="security_settings_face_preference_summary_none">Presiona para configurar Desbloqueo facial</string>
+    <string name="security_settings_face_preference_title">Desbloqueo facial</string>
+    <string name="security_settings_face_profile_preference_title">Desbloqueo facial para el trabajo</string>
+    <string name="security_settings_face_settings_context_subtitle">Usa Desbloqueo facial para desbloquear el teléfono</string>
+    <string name="security_settings_face_settings_enroll">Configura Desbloqueo facial</string>
+    <string name="security_settings_face_settings_footer">"Usa tu rostro para desbloquear el teléfono o autenticarte en apps, como cuando accedes o apruebas compras.
+
+Ten en cuenta lo siguiente:
+Solo puedes configurar un rostro a la vez. Para agregar otro rostro, borra el actual.
+
+Puedes desbloquear el teléfono aunque no lo desees cuando lo miras.
+
+Un tercero puede desbloquear el teléfono si lo sostiene frente a tu rostro.
+
+También puede desbloquearlo cualquier persona que se parezca a ti, como un hermano gemelo."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Usa tu rostro para desbloquear el teléfono o autenticarte en apps, como cuando accedes o apruebas compras.
+
+Ten en cuenta lo siguiente:
+Solo puedes configurar un rostro a la vez. Para agregar otro rostro, borra el actual.
+
+Puedes desbloquear el teléfono aunque no lo desees cuando lo miras.
+
+Un tercero puede desbloquear el teléfono si lo sostiene frente a tu rostro, incluso aunque tengas los ojos cerrados.
+
+También puede desbloquearlo cualquier persona que se parezca a ti, como un hermano gemelo."</string>
+    <string name="security_settings_face_settings_preferences_category">Cuando usas Desbloqueo facial</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Se borrará tu modelo de rostro de forma permanente y segura.
+
+Luego de la eliminación, deberás ingresar tu PIN, patrón o contraseña para desbloquear el teléfono o autenticarte en apps."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Se borrará tu modelo de rostro de forma permanente y segura.
+
+Luego de la eliminación, deberás usar tu PIN, patrón o contraseña para desbloquear el teléfono."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">¿Deseas borrar el modelo de rostro?</string>
+    <string name="security_settings_face_settings_remove_face_model">Borrar modelo de rostro</string>
+    <string name="security_settings_face_settings_require_attention">Los ojos deben estar abiertos</string>
+    <string name="security_settings_face_settings_require_attention_details">Para desbloquear el teléfono, debes abrir los ojos</string>
+    <string name="security_settings_face_settings_require_confirmation">Requerir siempre confirmación</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Solicitar confirmación cuando se use Desbloqueo facial en apps</string>
+    <string name="security_settings_face_settings_use_face_category">Desbloq. facial para</string>
+</resources>

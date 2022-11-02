@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Face unlock -->
+    <string name="security_settings_face_enroll_education_message">On the next screen, hold your phone at eye level</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">How to set up Face Unlock</string>
+    <string name="security_settings_face_enroll_finish_description">Now you can pick up your phone and use your face to unlock it</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">Delete your current face model to set up Face Unlock again.\n\nYour face model will be permanently and securely deleted.\n\nAfter deletion, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">Delete your current face model to set up Face Unlock again.\n\nYour face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">If you normally wear eyeglasses, you can wear them during setup.</string>
+    <string name="security_settings_face_enroll_introduction_message">Use your face to unlock your phone</string>
+    <string name="security_settings_face_settings_footer">Use your face to unlock your phone.\n\nKeep in mind:\nYou can only have one face set up at a time. To add another face, delete the current one.\n\nLooking at the phone can unlock it when you don’t intend to.\n\nYour phone can be unlocked by someone else if it’s held up to your face.\n\nYour phone can be unlocked by someone who looks a lot like you, like an identical sibling.</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">Use your face to unlock your phone.\n\nKeep in mind:\nYou can only have one face set up at a time. To add another face, delete the current one.\n\nLooking at the phone can unlock it when you don’t intend to.\n\nYour phone can be unlocked by someone else if it’s held up to your face, even if your eyes are closed.\n\nYour phone can be unlocked by someone who looks a lot like you, like an identical sibling.</string>
+    <string name="security_settings_face_settings_require_attention_details">To unlock the phone, your eyes must be open. For best results, take off sunglasses when unlocking the phone.</string>
+
+</resources>

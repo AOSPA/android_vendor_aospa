@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Omogočanje odklepanja z obrazom</string>
+    <string name="security_settings_face_enroll_dialog_ok">V redu</string>
+    <string name="security_settings_face_enroll_done">Končano</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Če je odklepanje z obrazom za ljudi s posebnimi potrebami izklopljeno, nekateri koraki nastavitve morda ne bodo dobro delovali s funkcijo TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Nazaj</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Nadaljuj nastavitev</string>
+    <string name="security_settings_face_enroll_education_message">Na naslednjem zaslonu zasukajte glavo, da posnamete obraz z vseh možnih kotov.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Ko bo prikazan naslednji zaslon, držite telefon v višini oči.</string>
+    <string name="security_settings_face_enroll_education_start">Začni</string>
+    <string name="security_settings_face_enroll_education_title">Kako nastaviti odklepanje z obrazom</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Nastavitev odklepanja z obrazom</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Preverjanje pristnosti z obrazom</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Preskoči</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Registracija ni bila dokončana</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Registracija obraza ni uspela.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Dosežena je bila časovna omejitev za registracijo obraza. Poskusite znova.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Čas za nastavitev odklepanja z obrazom je potekel</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Zdaj lahko z obrazom odklenete telefon ali potrdite svojo identiteto, na primer ob prijavi v aplikacije ali odobritvi nakupa.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Zdaj lahko z obrazom odklenete telefon, ko ga primete ali se dotaknete zaslona.
+
+Odklepanje z obrazom najbolje deluje, ko je dovolj svetlo in ne nosite maske ali temnih očal."</string>
+    <string name="security_settings_face_enroll_finish_title">Videti je v redu</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Če želite znova nastaviti odklepanje z obrazom, izbrišite trenutni model obraza.
+
+Model obraza bo trajno in varno izbrisan.
+
+Po izbrisu boste za odklepanje telefona ali preverjanje pristnosti v aplikacijah morali uporabiti kodo PIN, vzorec ali geslo."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Če želite znova nastaviti odklepanje z obrazom, izbrišite trenutni model obraza.
+
+Model obraza bo trajno in varno izbrisan.
+
+Po izbrisu boste za odklepanje telefona ali preverjanje pristnosti v aplikacijah morali uporabiti prstni odtis, kodo PIN, vzorec ali geslo."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Nastavitev odklepanja z obrazom</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Nastavitev za slabovidne ali osebe z omejenim gibanjem glave</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Ko uporabljate odklepanje z obrazom, boste morda morali glavo nastaviti naravnost pred telefon.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Oči morajo biti odprte</string>
+    <string name="security_settings_face_enroll_introduction_agree">Strinjam se</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Prekliči</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Če otrok odklepa telefon z obrazom, je to morda manj varno od zapletenega vzorca ali kode PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Otroku dovolite odklepanje telefona z obrazom.</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Vi in otrok lahko v nastavitvah kadar koli izbrišete model obraza ali izklopite odklepanje z obrazom. Modeli obraza so shranjeni v telefonu, dokler niso izbrisani.
+
+Preberite več o tem na g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Vi in otrok imate nadzor</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"V nastavitvah lahko kadar koli izbrišete model obraza ali izklopite odklepanje z obrazom. Modeli obraza so shranjeni v telefonu, dokler jih ne izbrišete.
+
+Preberite več o tem na g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Vse imate pod nadzorom</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Odklepanje z obrazom ustvari edinstven model otrokovega obraza, s katerim potrdi svojo identiteto. Za ustvarjanje modela obraza med postopkom nastavitve mora otrok posneti svoj obraz iz različnih kotov.
+
+Ko uporablja odklepanje z obrazom, se model obraza posodablja s slikami iz teh interakcij. Slike, iz katerih je ustvarjen model obraza, se ne shranijo, model obraza pa se varno shrani v telefon in ga nikoli ne zapusti. Celotna obdelava je izvedena varno v telefonu."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Odklepanje z obrazom ustvari edinstven model vašega obraza, s katerim potrdite svojo identiteto. Za ustvarjanje modela obraza med postopkom nastavitve morate posneti svoj obraz iz različnih kotov.
+
+Ko uporabljate odklepanje z obrazom, se model obraza posodablja s slikami iz teh interakcij. Slike, iz katerih je ustvarjen model obraza, se ne shranijo, model obraza pa se varno shrani v telefon in ga nikoli ne zapusti. Celotna obdelava je izvedena varno v telefonu."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Delovanje</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odklepanje z obrazom lahko za odklepanje telefona ali potrditev identitete zahteva, da so otrokove oči odprte. Vi in otrok lahko to možnost kadar koli vklopite v nastavitvah.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Če otrok običajno nosi očala, jih lahko nadene med postopkom nastavitve.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Če otrok odklepa telefon z obrazom, je to morda manj varno od zapletenega vzorca, kode PIN ali gesla.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Če pogleda proti telefonu, ga bo morda nenamerno odklenil. Telefon lahko odklene tudi nekdo, ki je otroku zelo podoben, na primer enojajčni dvojček, ali nekdo, ki telefon podrži pred njegovim obrazom.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Odklepanje z obrazom lahko za odklepanje telefona ali potrditev identitete zahteva, da so vaše oči odprte. To možnost lahko kadar koli vklopite v nastavitvah.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Lahko nosite očala ali rahlo zatemnjena sončna očala.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Odklepanje telefona z obrazom je morda manj varno od odklepanja z zapletenim vzorcem, kodo PIN ali geslom.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Če pogledate proti telefonu, ga boste morda nenamerno odklenili. Telefon lahko odklene tudi nekdo, ki vam je zelo podoben, na primer enojajčni dvojček, ali nekdo, ki telefon podrži pred vašim obrazom.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Upoštevajte</string>
+    <string name="security_settings_face_enroll_introduction_message">Z obrazom odklenite telefon ali potrdite svojo identiteto, na primer ob prijavi v aplikacije ali odobritvi nakupa.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Uporabljajte obraz za odklepanje telefona, odobritev nakupov ali prijavo v aplikacije</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Z obrazom odklenite telefon ali odobrite nakupe.
+
+Opomba: obraza ne morete uporabiti za odklepanje te naprave. Za več informacij se obrnite na skrbnika v organizaciji."</string>
+    <string name="security_settings_face_enroll_introduction_more">Več</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Ne, hvala</string>
+    <string name="security_settings_face_enroll_introduction_title">Nastavite odklepanje z obrazom</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Preverjanje pristnosti z obrazom</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Izboljšajte varnost in učinkovitost</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Vnovična nastavitev odklepanja z obrazom</string>
+    <string name="security_settings_face_enroll_next">Naprej</string>
+    <string name="security_settings_face_enroll_partial_message">Če želite izboljšati učinkovitost delovanja, lahko odklepanje z obrazom znova nastavite v nastavitvah.</string>
+    <string name="security_settings_face_enroll_partial_start_over">Začni znova</string>
+    <string name="security_settings_face_enroll_partial_title">Nastavitev odklepanja z obrazom je končana</string>
+    <string name="security_settings_face_enroll_repeat_title">Obraz poravnajte s krogom</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Vnovična nastavitev odklepanja z obrazom</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Izboljšanje učinkovitosti odklepanja z obrazom</string>
+    <string name="security_settings_face_enroll_timeout_message">"Raje poskusite s hitro nastavitvijo. Upoštevajte, da boste pri odklepanju z obrazom morda morali glavo nastaviti naravnost pred telefon.
+
+Če želite izboljšati učinkovitost delovanja, lahko odklepanje z obrazom znova nastavite v nastavitvah."</string>
+    <string name="security_settings_face_enroll_timeout_title">Nastavitve ni mogoče nadaljevati</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Poskusi znova</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Izvedi hitro nastavitev</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Zapri nastavitev</string>
+    <string name="security_settings_face_enroll_too_hot_message">Nastavitve odklepanja z obrazom ni mogoče dokončati, ker je telefon prevroč. Poskusite znova pozneje, ko se bo telefon ohladil.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Preskoči odklepanje z obrazom</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon je prevroč</string>
+    <string name="security_settings_face_preference_summary">Obraz je dodan.</string>
+    <string name="security_settings_face_preference_summary_none">Za nastavitev obraza se dotaknite.</string>
+    <string name="security_settings_face_preference_title">Odklepanje z obrazom</string>
+    <string name="security_settings_face_profile_preference_title">Odklepanje z obrazom za službo</string>
+    <string name="security_settings_face_settings_context_subtitle">Za odklepanje telefona uporabite obraz</string>
+    <string name="security_settings_face_settings_enroll">Nastavite odklepanje z obrazom</string>
+    <string name="security_settings_face_settings_footer">"Z obrazom odklenite telefon ali preverite pristnost, na primer ob prijavi v aplikacije ali za odobritev nakupa.
+
+Upoštevajte:
+Naenkrat je lahko nastavljen le en obraz. Če želite dodati nov obraz, morate obstoječega izbrisati.
+
+Če pogledate proti telefonu, ga boste morda nenamerno odklenili.
+
+Vaš telefon lahko odklene tudi nekdo drug, če ga podrži pred vašim obrazom.
+
+Prav tako lahko telefon odklene nekdo, ki vam je zelo podoben, na primer vaš enojajčni dvojček."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Z obrazom odklenite telefon ali preverite pristnost, na primer ob prijavi v aplikacije ali za odobritev nakupa.
+
+Upoštevajte:
+Naenkrat je lahko nastavljen le en obraz. Če želite dodati nov obraz, morate obstoječega izbrisati.
+
+Če pogledate proti telefonu, ga boste morda nenamerno odklenili.
+
+Telefon lahko odklene tudi nekdo drug, če ga podrži pred vašim obrazom – celo kadar imate oči zaprte.
+
+Prav tako lahko telefon odklene nekdo, ki vam je zelo podoben, na primer vaš enojajčni dvojček."</string>
+    <string name="security_settings_face_settings_preferences_category">Ob uporabi odklepanja z obrazom</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Model obraza bo trajno in varno izbrisan.
+
+Po izbrisu boste za odklepanje telefona ali preverjanje pristnosti v aplikacijah morali uporabiti kodo PIN, vzorec ali geslo."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Model obraza bo trajno in varno izbrisan.
+
+Po izbrisu boste za odklepanje telefona morali uporabiti kodo PIN, vzorec ali geslo."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Želite izbrisati model obraza?</string>
+    <string name="security_settings_face_settings_remove_face_model">Izbriši model obraza</string>
+    <string name="security_settings_face_settings_require_attention">Oči morajo biti odprte</string>
+    <string name="security_settings_face_settings_require_attention_details">Če želite odkleniti telefon, morate imeti odprte oči.</string>
+    <string name="security_settings_face_settings_require_confirmation">Vedno zahtevaj potrditev</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Pri odklepanju z obrazom v aplikacijah vedno zahtevaj potrditev.</string>
+    <string name="security_settings_face_settings_use_face_category">Uporaba odklepanja z obrazom za</string>
+</resources>

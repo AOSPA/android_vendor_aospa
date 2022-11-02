@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Povolit odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Hotovo</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Pokud je vypnuto odemknutí obličejem v režimu přístupnosti, některé kroky nastavení nemusí s aplikací TalkBack fungovat správně.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Zpět</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Pokračovat v nastavení</string>
+    <string name="security_settings_face_enroll_education_message">Na další obrazovce bude potřeba, abyste otáčeli hlavou a obličej nechali zachytit ze všech úhlů</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Na další obrazovce držte telefon v úrovni očí</string>
+    <string name="security_settings_face_enroll_education_start">Začít</string>
+    <string name="security_settings_face_enroll_education_title">Jak nastavit odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Nastavte odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Ověření pomocí obličeje</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Přeskočit</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Registrace nebyla dokončena</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Registrace obličeje nefungovala.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Bylo dosaženo časového limitu registrace obličeje. Zkuste to znovu.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Časový limit vypršel</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Odteď můžete obličejem odemykat telefon nebo ověřovat svoji identitu, například při přihlašování do aplikací nebo schvalování nákupů</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Odteď když zvednete telefon nebo klepnete na obrazovku, můžete ho odemknout obličejem.
+
+Odemknutí obličejem funguje nejlépe v dobře osvětleném prostoru. Nemějte zakrytý obličej ani nasazené tmavé brýle."</string>
+    <string name="security_settings_face_enroll_finish_title">A je to.</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Pokud chcete odemknutí obličejem nastavit znovu, smažte stávající model obličeje.
+
+Model obličeje bude trvale a bezpečně smazán.
+
+Po smazání budete k odemykání telefonu a ověřování v aplikacích používat PIN, gesto nebo heslo."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Pokud chcete odemknutí obličejem nastavit znovu, smažte stávající model obličeje.
+
+Model obličeje bude trvale a bezpečně smazán.
+
+Po smazání budete k odemykání telefonu a ověřování v aplikacích používat otisk prstu, PIN, gesto nebo heslo."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Nastavte odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Nastavení pro špatný zrak nebo hybnost hlavy</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Je možné, že při odemykání obličejem bude muset být vaše hlava příměji před telefonem.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Musíte mít otevřené oči</string>
+    <string name="security_settings_face_enroll_introduction_agree">Souhlasím</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Zrušit</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Odemykání telefonu dítěte obličejem může být méně bezpečné než silné gesto nebo PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Povolte dítěti používat obličej k odemykání telefonu</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"V Nastavení můžete vy nebo vaše dítě model obličeje kdykoli smazat, případně odemknutí obličejem vypnout. Modely obličeje jsou v telefonu uloženy, dokud je nesmažete.
+
+Další informace: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Vy a dítě máte vše pod kontrolou</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"V Nastavení můžete model obličeje kdykoli smazat nebo odemknutí obličejem vypnout. Modely obličeje jsou v telefonu uloženy, dokud je nesmažete.
+
+Další informace: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Vše máte ve svých rukou</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Odemknutí obličejem vytváří jedinečný model obličeje dítěte, podle kterého ho při ověření poznáme. Model obličeje vytvoříme při nastavování na základě snímků obličeje dítěte z různých úhlů.
+
+Když dítě používá odemknutí obličejem, snímky slouží k aktualizaci modelu jeho obličeje. Snímky použité k vytvoření modelu obličeje se neukládají, ale model obličeje je bezpečně uložen v telefonu (a nikdy ho neopouští). Ke zpracování dochází bezpečně v telefonu."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Funkce Odemknutí obličejem vytváří jedinečný model vašeho obličeje k ověření vaší identity. Model obličeje se vytvoří při nastavování na základě snímků vašeho obličeje z různých úhlů.
+
+Když používáte odemknutí obličejem, snímky slouží k aktualizaci modelu vašeho obličeje. Snímky použité k vytvoření modelu obličeje se neukládají, ale model obličeje je bezpečně uložen v telefonu a nikdy ho neopouští. Ke zpracování dochází bezpečně v telefonu."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Princip</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">K odemknutí telefonu nebo ověření identity může funkce odemknutí obličejem vyžadovat, aby dítě mělo otevřené oči. Tuto možnost můžete vy nebo vaše dítě kdykoliv zapnout v Nastavení.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Pokud dítě běžně nosí brýle, může je mít i při nastavování.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odemykání telefonu dítěte obličejem může být méně bezpečné než silné gesto, PIN nebo heslo</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Dítě telefon může odemknout pohledem, i když zrovna nechce. Telefon bude moci odemknout také někdo, kdo je dítěti hodně podobný, například jeho identické dvojče, nebo někdo, kdo mu telefon podrží před obličejem.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">K odemknutí telefonu nebo ověření identity může funkce odemknutí obličejem vyžadovat, abyste měli otevřené oči. Tuto možnost můžete kdykoliv zapnout v Nastavení.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Brýle nebo lehce zabarvené sluneční brýle jsou v pořádku.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Odemykání telefonu obličejem může být méně bezpečné než silné gesto, PIN nebo heslo</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefon je možné odemknout pohledem, i když zrovna nechcete. Telefon bude moci odemknout také někdo, kdo je vám hodně podobný, například vaše jednovaječné dvojče. Telefon se může odemknout i v případě, že vám ho někdo podrží před obličejem.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Upozornění</string>
+    <string name="security_settings_face_enroll_introduction_message">Odemykejte telefon a ověřujte svou identitu v aplikacích (např. při přihlašování nebo schvalování nákupů) pomocí obličeje.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Odemykejte telefon, autorizujte nákupy a přihlašujte se do aplikací.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Odemykejte telefon a schvalujte nákupy pomocí obličeje.
+
+Poznámka: Obličej nelze použít k odemykání tohoto zařízení. Další informace vám poskytne administrátor vaší organizace."</string>
+    <string name="security_settings_face_enroll_introduction_more">Další</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Ne, děkuji</string>
+    <string name="security_settings_face_enroll_introduction_title">Nastavení Odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Ověření pomocí obličeje</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Vylepšení zabezpečení a výkonu</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Nastavte odemknutí obličejem znovu</string>
+    <string name="security_settings_face_enroll_next">Další</string>
+    <string name="security_settings_face_enroll_partial_message">Za účelem zvýšení výkonu můžete odemknutí obličejem nastavit znovu v Nastavení</string>
+    <string name="security_settings_face_enroll_partial_start_over">Začít znovu</string>
+    <string name="security_settings_face_enroll_partial_title">Nastavení odemknutí obličejem bylo dokončeno</string>
+    <string name="security_settings_face_enroll_repeat_title">Umístěte obličej do středu kruhu</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Nastavte odemknutí obličejem znovu</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Vylepšete výkon odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_timeout_message">"Zkuste raději rychlé nastavení. Připomínáme, že hlava musí být při odemykání obličejem příměji před telefonem.
+
+Pokud odemykání obličejem nefunguje, jak má, můžete ho v Nastavení nastavit znovu."</string>
+    <string name="security_settings_face_enroll_timeout_title">V nastavování nelze pokračovat</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Zkusit znovu</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Použít rychlé nastavení</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Ukončit nastavování</string>
+    <string name="security_settings_face_enroll_too_hot_message">Nastavení odemknutí obličejem nelze dokončit, protože je telefon příliš zahřátý. Zkuste to později, až telefon zchladne.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Přeskočit odemknutí obličejem</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon je příliš zahřátý</string>
+    <string name="security_settings_face_preference_summary">Obličej přidán</string>
+    <string name="security_settings_face_preference_summary_none">Klepnutím nastavíte obličej</string>
+    <string name="security_settings_face_preference_title">Odemknutí obličejem</string>
+    <string name="security_settings_face_profile_preference_title">Odemknutí obličejem pro práci</string>
+    <string name="security_settings_face_settings_context_subtitle">Odemykejte telefon pomocí obličeje</string>
+    <string name="security_settings_face_settings_enroll">Nastavit odemknutí obličejem</string>
+    <string name="security_settings_face_settings_footer">"Obličejem můžete odemykat telefon a ověřovat svou identitu v aplikacích, např. při přihlašování nebo schvalování nákupů.
+
+Důležité poznámky:
+V jednu chvíli můžete mít nastavený jen jeden obličej. Pokud chcete přidat jiný obličej, smažte stávající.
+
+Telefon je možné odemknout pohledem, i když zrovna nechcete.
+
+Telefon může odemknout i někdo jiný, když ho na váš obličej namíří.
+
+Váš telefon bude moci odemknout někdo, kdo je vám hodně podobný, například vaše jednovaječné dvojče."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Obličejem můžete odemykat telefon a ověřovat svou identitu v aplikacích, např. při přihlašování nebo schvalování nákupů.
+
+Důležité poznámky:
+V jednu chvíli lze mít nastavený jen jeden obličej. Pokud chcete přidat jiný obličej, smažte stávající.
+
+Telefon můžete odemknout pohledem, i když zrovna nechcete.
+
+Telefon může odemknout i někdo jiný, když ho na váš obličej namíří (i když budete mít zavřené oči).
+
+Váš telefon bude moci odemknout někdo, kdo je vám hodně podobný, například vaše jednovaječné dvojče."</string>
+    <string name="security_settings_face_settings_preferences_category">Při odemykání obličejem</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Model obličeje bude trvale a bezpečně smazán.
+
+Po smazání budete k odemykání telefonu a ověřování v aplikacích používat PIN, gesto nebo heslo."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Model obličeje bude trvale a bezpečně smazán.
+
+Po smazání budete k odemknutí telefonu potřebovat PIN, gesto nebo heslo."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Smazat model obličeje?</string>
+    <string name="security_settings_face_settings_remove_face_model">Smazat model obličeje</string>
+    <string name="security_settings_face_settings_require_attention">Požadovat otevřené oči</string>
+    <string name="security_settings_face_settings_require_attention_details">K odemknutí telefonu musíte mít otevřené oči</string>
+    <string name="security_settings_face_settings_require_confirmation">Vždy vyžadovat potvrzení</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Při použití odemknutí obličejem v aplikacích vždy vyžadovat potvrzení</string>
+    <string name="security_settings_face_settings_use_face_category">Pomocí odemknutí obličejem</string>
+</resources>
