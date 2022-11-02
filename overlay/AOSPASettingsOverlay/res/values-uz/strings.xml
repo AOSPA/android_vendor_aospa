@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Qulfni yuz bilan ochish</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Tayyor</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Yuz bilan ochish funksiyasi faolsizlantirilgan boʻlsa, ayrim sozlash bosqichlari TalkBack bilan yaxshi ishlamasligi mumkin.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Orqaga</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Sozlashda davom etish</string>
+    <string name="security_settings_face_enroll_education_message">Keyingi ekranda yuzingizning barcha burchaklarini suratga olish uchun boshingizni buring</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Keyingi ekranda telefonni koʻz balandligida tuting</string>
+    <string name="security_settings_face_enroll_education_start">Boshlash</string>
+    <string name="security_settings_face_enroll_education_title">Yuz bilan ochish qanday sozlanadi</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Yuz bilan ochishni sozlash</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Qurilma qulfini yuzingiz bilan oching</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Tashlab ketish</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Yuzingiz qayd qilinmadi</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Yuzni qayd qilish funksiyasi ishlamadi.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Yuzni qayd qilish vaqti tugab qoldi. Qayta urining.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Yuz bilan ochishni sozlashda kutish vaqti tugadi</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Endi telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlash kabi hisob tekshiruvida yuzingizdan foydalanishingiz mumkin</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Endi telefonni qoʻlingizga olganingizda yoki ekranga teginganingizda, qulfdan chiqarish uchun yuzingizdan foydalanishingiz mumkin.
+
+Face Unlock funksiyasi yorugʻlik yetarli boʻlganda va maska yoki qora koʻzoynak taqmaganingizda yaxshi ishlaydi."</string>
+    <string name="security_settings_face_enroll_finish_title">Ajoyib!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Joriy yuz modelini oʻchirish va yuz bilan ochishni qayta sozlash.
+
+Yuz modelingiz butunlay va xavfsiz oʻchirib tashlandi.
+
+Oʻchirib tashlangandan keyin telefoningiz qulfini ochish yoki ilovalarda autentifikatsiya uchun PIN kod, grafik kalit yoki parol kiritishingiz lozim."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Joriy yuz modelini oʻchirish va yuz bilan ochishni qayta sozlash.
+
+Yuz modelingiz butunlay va xavfsiz oʻchirib tashlandi.
+
+Oʻchirib tashlangandan keyin telefoningiz qulfini ochish yoki ilovalarda autentifikatsiya uchun barmoq izi, PIN kod, grafik kalit yoki parol kiritishingiz lozim."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Yuz bilan ochishni sozlash</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Maxsus imkoniyatlarni yoqish</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Yuz bilan ochishda telefon ekraniga tikroq qarashingiz kerak boʻladi.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Koʻz yumilmasligi kerak</string>
+    <string name="security_settings_face_enroll_introduction_agree">Roziman</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Bekor qilish</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Telefonini farzandingiz yuzi yordamida ochish murakkab grafik kalit yoki PIN kodga nisbatan kamroq xavfsiz hisoblanadi.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Farzandingiz yuzi bilan telefonni qulfdan chiqarishiga ruxsat bering</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Siz va farzandingiz istalgan vaqt Sozlamalar orqali yuz modelini oʻchirib tashlashingiz yoki yuz bilan ochishni faolsizlantirishingiz mumkin. Yuz modellari telefonda oʻchirilmaguncha saqlanadi.
+
+Batafsil: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Siz va farzandingiz boshqarasiz</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Istalgan vaqt Sozlamalar orqali yuz modelini oʻchirib tashlashingiz yoki yuz bilan ochishni faolsizlantirishingiz mumkin. Yuz modellari telefonda oʻchirilmaguncha saqlanadi.
+
+Batafsil: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Boshqaruv oʻz qoʻlingizda</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Yuz bilan ochish autentifikatsiya paytida shaxsni tanish uchun uning farzandingiz yuzi unikal modelini yaratadi. Sozlash davomida farzandingiz yuzi modelini yaratish uchun uning yuzi turli burchak ostida rasmga olinadi.
+
+Shuningdek, telefon yuz modelini yangilab turish maqsadida farzandingizning yuz bilan ochish harakatlari rasmlaridan ham foydalanadi. Yuz modelini yaratishda ishlatiladigan rasmlar saqlanmaydi, lekin yuz modeli telefonda xavfsiz saqlanadi va hech qachon tashqariga yuklanmaydi. Barcha ishlar telefonda xavfsiz amalga oshiriladi."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Yuz bilan ochish autentifikatsiya paytida sizni tanish uchun yuzingizning unikal modelini yaratadi. Sozlash davomida yuz modelini yaratish uchun yuzingiz turli burchak ostida rasmga olinadi.
+
+Shuningdek, telefon yuz modelini yangilab turish maqsadida yuzingiz rasmlaridan ham foydalanadi. Yuz modelini yaratishda ishlatiladigan rasmlar saqlanmaydi, lekin yuz modeli telefoningizda xavfsiz saqlanadi va hech qachon tashqariga yuklanmaydi. Barcha ishlar telefoningizda xavfsiz amalga oshiriladi."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Ishlash tartibi</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Yuz bilan ochish funksiyasi telefonni ochishi yoki farzandingizni shaxsini tasdiqlashi uchun uning koʻzlari ochiq boʻlishi kerak. Siz yoki farzandingiz istalgan vaqtda bu sozlamani Sozlamalar orqali yoqishi mumkin.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Farzandingiz odatda koʻzoynak taqsa, uni sozlash vaqtida ham taqishi mumkin.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Telefonini farzandingiz yuzi yordamida ochish murakkab grafik kalit, PIN kod yoki parolga nisbatan kamroq xavfsiz hisoblanadi.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefonga tasodifan qaragalganda ham qulfi ochilishi mumkin. Telefon begonalar tomonidan ham qulfdan chiqarilishi mumkin, masalan farzandingizga oʻxshagan yaqinlaringiz tomonidan yoki kimdir yuziga qaratishi orqali.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Yuz bilan ochish funksiyasi telefonni ochishi yoki shaxsingizni tasdiqlashi uchun koʻzlaringiz ochiq boʻlishi kerak. Istalgan vaqtda bu sozlamani Sozlamalar orqali yoqishingiz mumkin.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Koʻzoynakni olish shart emas ( quyoshdan himoya qiluvchi koʻzoynak och rangda boʻlsa ham ruxsat beriladi)</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Telefonni yuzingiz yordamida ochish murakkab grafik kalit, PIN kod yoki parolga nisbatan kamroq xavfsiz hisoblanadi.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefonga tasodifan qaraganingizda ham qulfi ochilishi mumkin. Telefoningiz begonalar tomonidan ham qulfdan chiqarilishi mumkin, masalan sizga oʻxshagan yaqinlaringiz tomonidan yoki kimdir yuzingizga qaratishi orqali.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Yodda tuting</string>
+    <string name="security_settings_face_enroll_introduction_message">Telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlashda shaxsingizni tasdiqlash uchun yuzingizdan foydalaning.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Telefoningizni qulfdan chiqarish, xaridlarni amalga oshirish yoki ilovalarga kirish uchun yuzingizdan foydalaning</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Telefonni qulfdan chiqarish yoki xaridlarni tasdiqlash uchun yuz bilan ochishdan foydalaning.
+
+Eslatma: yuz bilan ochishdan bu qurilmada foydalana olmaysiz. Batafsil axborot olish uchun tashkilot administratoriga murojaat qiling."</string>
+    <string name="security_settings_face_enroll_introduction_more">Yana</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Kerak emas</string>
+    <string name="security_settings_face_enroll_introduction_title">Yuz bilan ochish funksiyasini sozlash</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Qurilma qulfini yuzingiz bilan oching</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Xavfsizlik va unumdorlikni yaxshilash</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Yuz bilan ochishni qayta sozlash</string>
+    <string name="security_settings_face_enroll_next">Keyingisi</string>
+    <string name="security_settings_face_enroll_partial_message">Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qayta sozlashingiz mumkin</string>
+    <string name="security_settings_face_enroll_partial_start_over">Boshidan boshlash</string>
+    <string name="security_settings_face_enroll_partial_title">Yuz bilan ochish funksiyasi sozlandi</string>
+    <string name="security_settings_face_enroll_repeat_title">Yuzingizni aylana markaziga moslang</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Yuz bilan ochishni qayta sozlash</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Yuz bilan ochishni yaxshilash</string>
+    <string name="security_settings_face_enroll_timeout_message">"Oʻrniga tezkor sozlashingiz ham mumkin. Yodda tuting, yuz bilan ochishda telefon ekraniga tikroq qarashingiz kerak boʻladi.
+
+Unumdorlikni yaxshilash uchun Yuz bilan ochish funksiyasini Sozlamalar orqali qayta sozlashingiz mumkin."</string>
+    <string name="security_settings_face_enroll_timeout_title">Sozlashni davom ettirish imkonsiz</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Qayta urinish</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Tezkor sozlashdan foydalaning</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Keyinroq sozlash</string>
+    <string name="security_settings_face_enroll_too_hot_message">Telefon qizib ketdi va ekran qulfi hozir yuz bilan ochilmaydi. Telefon sovigandan keyin qayta urining.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Yuz bilan ochishni keyin sozlash</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon qizib ketdi</string>
+    <string name="security_settings_face_preference_summary">Yuz kiritilgan</string>
+    <string name="security_settings_face_preference_summary_none">Yuz bilan ochishni sozlash uchun bosing</string>
+    <string name="security_settings_face_preference_title">Yuz bilan ochish</string>
+    <string name="security_settings_face_profile_preference_title">Ish uchun yuz bilan ochish</string>
+    <string name="security_settings_face_settings_context_subtitle">Telefon qulfini yuz bilan oching</string>
+    <string name="security_settings_face_settings_enroll">Yuz bilan ochishni sozlash</string>
+    <string name="security_settings_face_settings_footer">"Telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlashda yuzingizdan foydalaning.
+
+Eslatma:
+Bir vaqtda faqat bitta yuz sozlanadi. Boshqa yuz kiritish uchun joriysini oʻchirish lozim.
+
+Telefon qulfi unga tasodifan qaralganda yechilishi mumkin.
+
+Begonalar telefoningizni yumilmagan koʻzlaringizga qaratish orqali ham qulfdan chiqarishi mumkin.
+
+Telefon farzandingiz yoki sizga oʻxshagan yaqinlaringiz tomonidan ham qulfdan chiqarilishi mumkin."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Telefonni qulfdan chiqarish, ilovaga kirish yoki xaridni tasdiqlashda yuzingizdan foydalaning.
+
+Eslatma:
+Bir vaqtda faqat bitta yuz sozlanadi. Boshqa yuz kiritish uchun joriysini oʻchirish lozim.
+
+Telefon qulfi unga tasodifan qaralganda yechilishi mumkin.
+
+Begonalar telefoningizni yumilmagan koʻzlaringizga qaratish orqali ham qulfdan chiqarishi mumkin.
+
+Telefon farzandingiz yoki sizga oʻxshagan yaqinlaringiz tomonidan ham qulfdan chiqarilishi mumkin."</string>
+    <string name="security_settings_face_settings_preferences_category">Yuz bilan ochishdan foydalanilganda</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Yuz modelingiz butunlay va xavfsiz oʻchirib tashlandi.
+
+Oʻchirib tashlangandan keyin telefoningiz qulfini ochish yoki ilovalarda autentifikatsiya uchun PIN kod, grafik kalit yoki parol kiritishingiz lozim."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Yuz modelingiz butunlay va xavfsiz oʻchirib tashlandi.
+
+Oʻchirib tashlangandan keyin telefoningiz qulfini ochish uchun PIN kod, grafik kalit yoki parol kiritishingiz lozim."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Yuz modeli oʻchirib tashlansinmi?</string>
+    <string name="security_settings_face_settings_remove_face_model">Yuz modelini oʻchirib tashlash</string>
+    <string name="security_settings_face_settings_require_attention">Koʻzlar ochiq boʻlishi kerak</string>
+    <string name="security_settings_face_settings_require_attention_details">Telefon qulfini yechish uchun ekranga koʻzlaringizni ochib qarang</string>
+    <string name="security_settings_face_settings_require_confirmation">Doim tasdiqlash talab etilsin</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Ilovalar yuz bilan ochilishida har doim tasdiqlanishi kerak</string>
+    <string name="security_settings_face_settings_use_face_category">Yuz bilan ochish:</string>
+</resources>

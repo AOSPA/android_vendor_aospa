@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">फेस अनलक प्रयोग गर्न दिनुहोस्</string>
+    <string name="security_settings_face_enroll_dialog_ok">ठिक छ</string>
+    <string name="security_settings_face_enroll_done">सम्पन्न भयो</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">"'सर्वसुलभता' मोडमा फेस अनलक अफ गरिएको छ भने TalkBack प्रयोग गरी सेटअपका केही चरणहरू पूरा गर्न नसकिने सम्भावना हुन्छ।"</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">पछाडि जानु</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">सेटअप जारी राख्नु</string>
+    <string name="security_settings_face_enroll_education_message">अब आउने स्क्रिनमा, सबै कोणहरूबाट आफ्नो अनुहार खिच्न टाउको घुमाउनुहोस्</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">यसपछि देखाइने स्क्रिनमा आफ्नो फोन आँखाअघि राखी समात्नुहोस्</string>
+    <string name="security_settings_face_enroll_education_start">सुरु गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_education_title">फेस अनलक सेटअप गर्ने तरिका</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">फेस अनलक सेटअप गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">प्रमाणित गर्न आफ्नो अनुहार प्रयोग गर्नु…</string>
+    <string name="security_settings_face_enroll_enrolling_skip">छाड्नुहोस्</string>
+    <string name="security_settings_face_enroll_error_dialog_title">दर्ता गर्न सकिएन</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">अनुहार दर्ता गर्ने प्रक्रियाले काम गरेन।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">अनुहार दर्ता गर्ने प्रक्रियाको समय सीमा सकियो। फेरि प्रयास गर्नुहोस्।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">फेस अनलक सेटअप गर्ने समय सकियो</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">तपाईं अब फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्न सक्नुहुन्छ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"तपाईंले अब आफ्नो फोन उठाउँदा वा सो फोनको स्क्रिनमा ट्याप गर्दा तपाईं फोन अनलक गर्न आफ्नो अनुहार प्रयोग गर्न सक्नुहुन्छ।
+
+Face Unlock ले पर्याप्त प्रकाश उपलब्ध भएका बेलामा र तपाईंले मास्क वा कालो चस्मा नलगाएका बेलामा सबैभन्दा राम्रोसँग काम गर्छ।"</string>
+    <string name="security_settings_face_enroll_finish_title">ठिकै देखिन्छ!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"फेरि फेस अनलक सेटअप गर्न आफ्नो हालको फेस मोडेल मेटाउनुहोस्।
+
+तपाईंको फेस मोडेल सुरक्षित रूपले सदाका लागि मेटिने छ।
+
+उक्त फेस मोडेल मेटिएपछि फोन अनलक गर्न वा एपहरूमा आफ्नो पहिचान पुष्टि गर्न तपाईंले आफ्नो PIN, प्याटर्न वा पासवर्ड प्रयोग गर्नु पर्ने हुन्छ।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"फेरि फेस अनलक सेटअप गर्न आफ्नो हालको फेस मोडेल मेटाउनुहोस्।
+
+तपाईंको फेस मोडेल सुरक्षित रूपले सदाका लागि मेटिने छ।
+
+उक्त फेस मोडेल मेटिएपछि फोन अनलक गर्न वा एपहरूमा आफ्नो पहिचान पुष्टि गर्न तपाईंले आफ्नो फिंगरप्रिन्ट, PIN, प्याटर्न वा पासवर्ड प्रयोग गर्नु पर्ने हुन्छ।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">फेस अनलक सेटअप गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">दृष्टि क्षमता वा टाउको हलचल गर्ने क्षमता कम भएका व्यक्तिका निम्ति सेटअप गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">फेस अनलक प्रयोग गर्दा तपाईंले आफ्नो टाउको ठ्याक्कै फोनको अगाडि राख्नु पर्ने हुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">आँखा खुला राख्नु पर्छ</string>
+    <string name="security_settings_face_enroll_introduction_agree">म सहमत छु</string>
+    <string name="security_settings_face_enroll_introduction_cancel">रद्द गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">तपाईंका बच्चाको अनुहार प्रयोग गरी उनको फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न वा PIN प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">तपाईंका बच्चालाई उनको अनुहार प्रयोग गरी उनको फोन अनलक गर्न दिनुहोस्</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"तपाईं र तपाईंका बच्चा सेटिङमा गई जुनसुकै बेला उनको फेस मोडेल मेटाउन वा फेस अनलक अफ गर्न सक्नुहुन्छ। फेस मोडेल नमेटाइन्जेल ती मोडेल फोनमा भण्डारण गरिन्छन्।
+
+g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">यी सेटिङ तपाईं र तपाईंका बच्चाको नियन्त्रणमा हुन्छन्</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"तपाईं सेटिङमा गई जुनसुकै बेला आफ्नो फेस मोडेल मेटाउन वा फेस अनलक अफ गर्न सक्नुहुन्छ। तपाईंले फेस मोडेल नमेटाउन्जेल ती मोडेल फोनमा भण्डारण गरिन्छन्।
+
+g.co/pixel/faceunlock मा गई थप जान्नुहोस्।"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">यो सुविधा कसरी नियन्त्रण गर्ने भन्ने कुरा तपाईंको हातमा हुन्छ</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"फेस अनलक सुविधाले तपाईंका बच्चालाई चिन्ने प्रयोजनका लागि उनको अनुहारको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फेस मोडेल बनाउन तपाईंका बच्चाले विभिन्न कोणबाट आफ्नो अनुहारका फोटोहरू खिच्नु पर्ने हुन्छ।
+
+तपाईंका बच्चाले फेस अनलक प्रयोग गर्दा उनको फेस मोडेल अपडेट गर्न ती फोटोहरू प्रयोग गरिन्छन्। तपाईंका बच्चाको फेस मोडेल बनाउन प्रयोग गरिने फोटोहरू भण्डारण गरिँदैनन् तर यो फेस मोडेल यो फोनमा सुरक्षित तरिकाले भण्डारण गरिन्छ र कहिल्यै पनि यो फोनबाहेक अन्यत्र पठाइँदैन। यी सबै कारबाही यो फोनमा सुरक्षित तरिकाले गरिन्छ।"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"फेस अनलक सुविधाले तपाईंलाई चिन्ने प्रयोजनका लागि तपाईंको अनुहारको अद्वितीय मोडेल बनाउँछ। सेटअप गर्ने क्रममा यो फेस मोडेल बनाउन तपाईंले विभिन्न कोणबाट आफ्नो अनुहारका फोटोहरू खिच्नु पर्ने हुन्छ।
+
+तपाईंले फेस अनलक प्रयोग गर्दा तपाईंको फेस मोडेल अपडेट गर्न ती फोटोहरू प्रयोग गरिन्छन्। तपाईंको फेस मोडेल बनाउन प्रयोग गरिने फोटोहरू भण्डारण गरिँदैनन् तर यो फेस मोडेल तपाईंको फोनमा सुरक्षित तरिकाले भण्डारण गरिन्छ र कहिल्यै पनि यो फोनबाहेक अन्यत्र पठाइँदैन। यी सबै कारबाही तपाईंको फोनमा सुरक्षित तरिकाले गरिन्छ।"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">यसले कसरी काम गर्छ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">\"फेस अनलक\" प्रयोग गरी तपाईंका बच्चाको फोन अनलक गर्न वा उनले नै फोन अनलक गर्न खोजेका हुन् भन्ने पुष्टि गर्न उनले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं र तपाईंका बच्चा जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">तपाईंका बच्चाले प्रायः चस्मा लगाउने गर्छ भने उनी चस्मा लगाएरै सेटअप गर्न सक्छन्।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">तपाईंका बच्चाको अनुहार प्रयोग गरी उनको फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">तपाईंका बच्चाले फोनमा हेर्‍यो भने उनले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। उनको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि उनको फोन अनलक गर्न सक्छन्। साथै कसैले उनको अनुहारका अगाडि फोन लगे भने पनि उनको फोन अनलक हुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">\"फेस अनलक\" सुविधा प्रयोग गरी तपाईंको फोन अनलक गर्न वा तपाईंले नै फोन अनलक गर्न खोज्नुभएको हो भन्ने पुष्टि गर्न तपाईंले आँखा खुला राख्नु पर्ने हुन सक्छ। तपाईं जुनसुकै बेला सेटिङमा गई यो विकल्प अन गर्न सक्नुहुन्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">चस्मा वा हल्का रङ भएको सनग्लास प्रयोग गर्दा हुन्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">अनुहार प्रयोग गरी फोन अनलक गर्ने कार्य भरपर्दो प्याटर्न, PIN वा पासवर्ड प्रयोग गरी अनलक गरे जत्तिको सुरक्षित नहुन सक्छ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">तपाईंले फोनमा हेर्नुभयो भने तपाईंले अनलक गर्न नचाहे पनि फोन अनलक हुन सक्छ। तपाईंको अनुहारसँग मिल्दोजुल्दो अनुहार भएका दाजुभाइ/दिदीबहिनी जस्ता मान्छेहरू पनि तपाईंको फोन अनलक गर्न सक्छन्। साथै तपाईंका आँखा खुला भएका बेला कसैले तपाईंको अनुहारका अगाडि फोन लगे भने पनि तपाईंको फोन अनलक हुन सक्छ।</string>
+    <string name="security_settings_face_enroll_introduction_info_title">ख्याल गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_introduction_message">आफ्नो फोन अनलक गर्न वा आफ्नो पहिचान पुष्टि गर्न (जस्तै, एपमा साइन इन गर्दा वा कुनै खरिद स्वीकृत गर्दा) आफ्नो अनुहार प्रयोग गर्नुहोस्।</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">आफ्नो फोन अनलक गर्न, खरिद अधिकार दिन वा एपहरूमा साइन इन गर्न आफ्नो अनुहार प्रयोग गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"तपाईंको फोन अनलक वा खरिदहरूको अनुमोदन गर्न आफ्ना अनुहारको प्रयोग गर्नुहोस्।
+
+टिपोट: तपाईं यो डिभाइस अनलक गर्न आफ्नो अनुहारको प्रयोग गर्न सक्नुहुन्न। थप जानकारीका लागि आफ्नो सङ्गठनको प्रशासकसँग सम्पर्क गर्नुहोस्।"</string>
+    <string name="security_settings_face_enroll_introduction_more">थप</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">पर्दैन, धन्यवाद</string>
+    <string name="security_settings_face_enroll_introduction_title">"'फेस अनलक' सेटअप गर्नुहोस्"</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">प्रमाणीकरण गर्न आफ्नो अनुहार प्रयोग गर्नु…</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">सुरक्षा तथा कार्यसम्पादन सुधार गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">फेरि फेस अनलक सेटअप गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_next">अर्को</string>
+    <string name="security_settings_face_enroll_partial_message">कार्यसम्पादनको गुणस्तर सुधार्न तपाईं सेटिङमा गई फेरि फेस अनलक सेटअप गर्न सक्नुहुन्छ</string>
+    <string name="security_settings_face_enroll_partial_start_over">फेरि सुरु गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_partial_title">फेस अनलक सेटअप गर्ने कार्य पूरा भयो</string>
+    <string name="security_settings_face_enroll_repeat_title">आफ्नो अनुहार वृतको बिचमा पार्नुहोस्</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">फेरि फेस अनलक सेटअप गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">फेस अनलकको कार्यसम्पादन सुधार्नुहोस्</string>
+    <string name="security_settings_face_enroll_timeout_message">"बरु छिटो सेटअप गरी हेर्नुहोस्। याद राख्नुहोस्, फेस अनलक प्रयोग गर्दा तपाईंको टाउको फोनको ठ्याक्कै अगाडि राख्नु पर्ने हुन सक्छ।
+
+कार्यसम्पादनको गुणस्तर सुधार्न तपाईं सेटिङमा गई फेरि फेस अनलक सेटअप गर्न सक्नुहुन्छ।"</string>
+    <string name="security_settings_face_enroll_timeout_title">सेटअप प्रक्रिया जारी राख्न सकिँदैन</string>
+    <string name="security_settings_face_enroll_timeout_try_again">फेरि प्रयास गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">द्रुत सेटअप प्रयोग गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">सेटअपको चरणबाट बाहिरिनुहोस्</string>
+    <string name="security_settings_face_enroll_too_hot_message">फोन निकै तातेकाले फेस अनलक सेटअप गर्ने कार्य पूरा गर्न सकिँदैन। फोन सेलाएपछि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">फेस अनलक सेटअप गर्ने चरण स्किप गर्नुहोस्</string>
+    <string name="security_settings_face_enroll_too_hot_title">फोन निकै तातो छ</string>
+    <string name="security_settings_face_preference_summary">अनुहार थपियो</string>
+    <string name="security_settings_face_preference_summary_none">फेस अनलक सेटअप गर्न ट्याप गर्नुहोस्</string>
+    <string name="security_settings_face_preference_title">फेस अनलक</string>
+    <string name="security_settings_face_profile_preference_title">कार्य प्रोफाइलका लागि फेस अनलक</string>
+    <string name="security_settings_face_settings_context_subtitle">फोन अनलक गर्न फेस अनलक प्रयोग गर्नुहोस्</string>
+    <string name="security_settings_face_settings_enroll">फेस अनलक सेटअप गर्नुहोस्</string>
+    <string name="security_settings_face_settings_footer">"फोन अनलक गर्न वा एपहरूमा साइन इन गर्ने वा खरिद अनुमोदन गर्ने जस्ता कार्य गर्दा आफ्नो पहिचान पुष्टि गर्न आफ्नो अनुहार प्रयोग गर्नुहोस्।
+
+निम्न कुरा ख्याल गर्नुहोस्:
+तपाईं एक पटकमा एउटा अनुहार मात्र सेटअप गर्न सक्नुहुन्छ। अर्को अनुहार हाल्न हालको अनुहार मेटाउनुहोस्।
+
+तपाईंले अनलक गर्न नचाहेका बेला पनि फोनमा हेर्नुभयो भने फोन अनलक हुन सक्छ।
+
+कसैले तपाईंको अनुहारका अगाडि फोन लगे भने तपाईंको फोन अनलक हुन सक्छ।
+
+तपाईंको अनुहारसँग धेरै मिल्दोजुल्दो अनुहार भएका (तपाईंका दाजुभाइ/दिदीबहिनी जस्ता) मान्छेहरूले पनि तपाईंको फोन अनलक गर्न सक्ने सम्भावना हुन्छ।"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"फोन अनलक गर्न वा एपहरूमा साइन इन गर्ने वा खरिद अनुमोदन गर्ने जस्ता कार्य गर्दा आफ्नो पहिचान पुष्टि गर्न आफ्नो अनुहार प्रयोग गर्नुहोस्।
+
+निम्न कुरा ख्याल गर्नुहोस्:
+तपाईं एक पटकमा एउटा अनुहार मात्र सेटअप गर्न सक्नुहुन्छ। अर्को अनुहार हाल्न हालको अनुहार मेटाउनुहोस्।
+
+तपाईंले अनलक गर्न नचाहेका बेला पनि फोनमा हेर्नुभयो भने फोन अनलक हुन सक्छ।
+
+तपाईंका आँखा बन्द भएका बेला कसैले तपाईंको अनुहारका अगाडि फोन लगे भने तपाईंको फोन अनलक हुन सक्छ।
+
+तपाईंको अनुहारसँग धेरै मिल्दोजुल्दो अनुहार भएका (तपाईंका दाजुभाइ/दिदीबहिनी जस्ता) मान्छेहरूले पनि तपाईंको फोन अनलक गर्न सक्ने सम्भावना हुन्छ।"</string>
+    <string name="security_settings_face_settings_preferences_category">फेस अनलक प्रयोग गर्दा</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"तपाईंको फेस मोडेल सुरक्षित रूपले सदाका लागि मेटिने छ।
+
+उक्त फेस मोडेल मेटिएपछि फोन अनलक गर्न वा एपहरूमा आफ्नो पहिचान पुष्टि गर्न तपाईंले आफ्नो PIN, प्याटर्न वा पासवर्ड प्रयोग गर्नु पर्ने हुन्छ।"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"तपाईंको फेस मोडेल सुरक्षित रूपले सदाका लागि मेटिने छ।
+
+उक्त फेस मोडेल मेटिएपछि फोन अनलक गर्न तपाईंले आफ्नो PIN, प्याटर्न वा पासवर्ड प्रयोग गर्नु पर्ने हुन्छ।"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">फेस मोडेल मेटाउने हो?</string>
+    <string name="security_settings_face_settings_remove_face_model">फेस मोडेल मेटाइयोस्</string>
+    <string name="security_settings_face_settings_require_attention">आँखा खुला हुनै पर्छ</string>
+    <string name="security_settings_face_settings_require_attention_details">फोन अनलक गर्न तपाईंका आँखा खुला हुनै पर्छ</string>
+    <string name="security_settings_face_settings_require_confirmation">सधैँ पुष्टि गर्न आवश्यक पर्छ</string>
+    <string name="security_settings_face_settings_require_confirmation_details">एपहरूमा फेस अनलक प्रयोग गर्दा सधैँ पुष्टि गर्नु पर्ने बनाउनुहोस्</string>
+    <string name="security_settings_face_settings_use_face_category">निम्न कार्य गर्न फेस अनलक प्रयोग गर्नुहोस्</string>
+</resources>

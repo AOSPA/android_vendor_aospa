@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">允许使用人脸解锁功能</string>
+    <string name="security_settings_face_enroll_dialog_ok">确定</string>
+    <string name="security_settings_face_enroll_done">完成</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">如果无障碍人脸解锁功能处于关闭状态，某些设置步骤可能无法与 TalkBack 正常搭配运行。</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">返回</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">继续设置</string>
+    <string name="security_settings_face_enroll_education_message">在下一个屏幕上，请转动头部，让系统从各个角度拍摄您的脸部</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">转到下一个屏幕后，请将手机举到与眼睛齐平的位置</string>
+    <string name="security_settings_face_enroll_education_start">开始</string>
+    <string name="security_settings_face_enroll_education_title">如何设置人脸解锁</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">设置人脸解锁</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">使用您的面孔进行身份验证</string>
+    <string name="security_settings_face_enroll_enrolling_skip">跳过</string>
+    <string name="security_settings_face_enroll_error_dialog_title">未完成注册</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">无法注册面孔。</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">面孔注册操作超时。请重试。</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">人脸解锁设置操作已超时</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">现在，您可以通过刷脸来解锁手机或验证自己的身份，例如在登录应用或批准购买交易时</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"现在，当您拿起手机或点按屏幕时，可以通过刷脸来解锁手机。
+
+当光线充足并且您未戴口罩或墨镜时，人脸解锁功能的效果最好。"</string>
+    <string name="security_settings_face_enroll_finish_title">圆满完成！</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"请删除您当前的脸部模型以重新设置人脸解锁。
+
+系统会安全地永久删除您的脸部模型。
+
+脸部模型删除后，如需解锁手机或在应用内进行身份验证，您将需要使用 PIN 码、解锁图案或密码。"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"请删除您当前的脸部模型以重新设置人脸解锁。
+
+系统会安全地永久删除您的脸部模型。
+
+脸部模型删除后，如需解锁手机或在应用内进行身份验证，您将需要使用指纹、PIN 码、解锁图案或密码。"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">设置人脸解锁</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">供视觉不佳或头部无法正常转动者采用的设置</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">使用人脸解锁功能时，您的脸部可能需要尽量位于手机正前方。</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">需要睁眼</string>
+    <string name="security_settings_face_enroll_introduction_agree">我同意</string>
+    <string name="security_settings_face_enroll_introduction_cancel">取消</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">使用孩子的面孔解锁手机在安全性上可能不及使用安全系数高的图案或 PIN 码。</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">允许您的孩子使用脸部解锁手机</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"您和您的孩子可以随时在“设置”部分删除其脸部模型或关闭人脸解锁功能。脸部模型会存储在手机上，直到被删除为止。
+
+如需了解详情，请访问 g.co/pixel/faceunlock。"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">一切由您和您的孩子掌握</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"您可以随时在“设置”部分删除自己的脸部模型或关闭人脸解锁功能。脸部模型会存储在手机上，直到您将其删除为止。
+
+如需了解详情，请访问 g.co/pixel/faceunlock。"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">一切由您掌控</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"人脸解锁功能会为您的孩子创建一个具有唯一性的脸部模型，用于验证其身份。为了在设置过程中创建脸部模型，您的孩子需要拍摄不同角度的脸部图片。
+
+在您的孩子使用人脸解锁功能时，系统会使用图片来更新其脸部模型。系统不会存储创建您孩子的脸部模型时所用的图片，但会将脸部模型安全地存储在手机上，并且绝不会将其传送到手机以外的其他位置。所有处理都是在手机上安全进行。"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"人脸解锁功能会为您创建一个具有唯一性的脸部模型，用于验证您的身份。为了在设置过程中创建脸部模型，您需要拍摄不同角度的脸部图片。
+
+在您使用人脸解锁功能时，系统会使用图片来更新您的脸部模型。系统不会存储创建您的脸部模型时所用的图片，但会将脸部模型安全地存储在手机上，并且绝不会将其传送到手机以外的其他位置。所有处理都是在您的手机上安全进行。"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">运作方式</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">如果使用人脸解锁功能，系统可能会要求您的孩子睁着眼睛以便解锁手机或验证身份。您和孩子可以随时在“设置”中开启此选项。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">如果您的孩子平时戴眼镜，在设置过程中可以不把它摘下来。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">使用孩子的脸部解锁手机在安全性上可能不及使用安全系数高的图案、PIN 码或密码</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">脸部对准手机可能会让手机意外解锁。长相与您的孩子非常相似的人（例如孪生兄弟姐妹）也能够解锁您孩子的手机。此外，有人将您孩子的手机对准您孩子的脸部时，手机也会解锁。</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">人脸解锁功能可以要求您必须睁着眼睛才能解锁手机或验证身份。您可以随时在“设置”中开启此选项。</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">可以戴眼镜或浅色太阳镜。</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">用脸部解锁手机的安全性可能不及安全系数高的图案、PIN 码或密码</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">脸部对准手机可能会让手机意外解锁。长相与您非常相似的人（例如孪生兄弟姐妹）也能够解锁您的手机。此外，有人将手机对准您的脸部时，您的手机也会解锁。</string>
+    <string name="security_settings_face_enroll_introduction_info_title">注意事项</string>
+    <string name="security_settings_face_enroll_introduction_message">您可以通过刷脸来解锁手机或验证自己的身份，例如在登录应用或批准购买交易时。</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">使用您的面孔解锁手机、授权购买交易或登录应用</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"请使用您的面孔解锁手机或批准购买交易。
+
+注意：您无法使用面孔来解锁此设备。要了解详情，请与贵单位的管理员联系。"</string>
+    <string name="security_settings_face_enroll_introduction_more">更多</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">不用了</string>
+    <string name="security_settings_face_enroll_introduction_title">设置人脸解锁</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">使用您的面孔进行身份验证</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">提升该功能的安全性和效果</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">重新设置人脸解锁</string>
+    <string name="security_settings_face_enroll_next">继续</string>
+    <string name="security_settings_face_enroll_partial_message">如要改善识别效果，您可以在“设置”部分重新设置人脸解锁</string>
+    <string name="security_settings_face_enroll_partial_start_over">重新开始</string>
+    <string name="security_settings_face_enroll_partial_title">人脸解锁设置完成</string>
+    <string name="security_settings_face_enroll_repeat_title">让您的面孔位于圆圈的中心位置</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">重新设置人脸解锁</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">提升人脸解锁功能的效果</string>
+    <string name="security_settings_face_enroll_timeout_message">"不妨试试快速设置。请注意，使用人脸解锁时，请尽可能将您的头部正对着手机。
+
+如要改善识别效果，您可以在“设置”部分重新设置人脸解锁。"</string>
+    <string name="security_settings_face_enroll_timeout_title">无法继续设置</string>
+    <string name="security_settings_face_enroll_timeout_try_again">重试</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">使用快速设置</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">退出设置</string>
+    <string name="security_settings_face_enroll_too_hot_message">手机过热，无法完成人脸解锁设置。请先让手机降温，然后再重试。</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">跳过人脸解锁</string>
+    <string name="security_settings_face_enroll_too_hot_title">手机过热</string>
+    <string name="security_settings_face_preference_summary">已添加面孔</string>
+    <string name="security_settings_face_preference_summary_none">点按即可设置人脸解锁</string>
+    <string name="security_settings_face_preference_title">人脸解锁</string>
+    <string name="security_settings_face_profile_preference_title">工作用的人脸解锁</string>
+    <string name="security_settings_face_settings_context_subtitle">使用人脸解锁功能解锁手机</string>
+    <string name="security_settings_face_settings_enroll">设置人脸解锁</string>
+    <string name="security_settings_face_settings_footer">"您可以通过刷脸来解锁手机或在应用内验证自己的身份，例如在登录帐号或批准购买交易时。
+
+注意：
+一次只能设置一张面孔。如需添加另一张面孔，请删除当前的面孔。
+
+目视手机可能会让手机意外解锁。
+
+如果有人将手机对准您的脸，手机可能会解锁。
+
+此外，长相与您相似的人（例如您的同胞兄弟姐妹）可能也能解锁您的手机。"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"您可以通过刷脸来解锁手机或在应用内验证自己的身份，例如在登录帐号或批准购买交易时。
+
+注意：
+一次只能设置一张面孔。如需添加另一张面孔，请删除当前的面孔。
+
+目视手机可能会让手机意外解锁。
+
+如果有人将手机对准您的脸，即使您闭上眼睛，手机可能也会解锁。
+
+此外，长相与您相似的人（例如您的同胞兄弟姐妹）可能也能解锁您的手机。"</string>
+    <string name="security_settings_face_settings_preferences_category">使用人脸解锁时</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"系统会安全地永久删除您的脸部模型。
+
+脸部模型删除后，如需解锁手机或在应用内进行身份验证，您将需要使用 PIN 码、解锁图案或密码。"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"系统会安全地永久删除您的脸部模型。
+
+脸部模型删除后，如需解锁手机，您将需要使用 PIN 码、解锁图案或密码。"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">要删除脸部模型吗？</string>
+    <string name="security_settings_face_settings_remove_face_model">删除脸部模型</string>
+    <string name="security_settings_face_settings_require_attention">需要睁开双眼</string>
+    <string name="security_settings_face_settings_require_attention_details">必须睁开双眼才能解锁手机</string>
+    <string name="security_settings_face_settings_require_confirmation">一律需要确认</string>
+    <string name="security_settings_face_settings_require_confirmation_details">在应用中使用人脸解锁时，一律需确认</string>
+    <string name="security_settings_face_settings_use_face_category">人脸解锁的用途</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">הרשאה לפתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_enroll_dialog_ok">אישור</string>
+    <string name="security_settings_face_enroll_done">סיום</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">‏אם הגדרות נגישות של פתיחה ע\"י זיהוי הפנים מושבתות, ייתכן שחלק משלבי ההגדרה לא יפעלו באופן תקין עם TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">חזרה</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">להמשך הגדרה</string>
+    <string name="security_settings_face_enroll_education_message">במסך הבא, עליך לסובב את הראש כדי לצלם את הפנים מכל הזוויות</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">במסך הבא יש להחזיק את הטלפון בגובה העיניים</string>
+    <string name="security_settings_face_enroll_education_start">התחלה</string>
+    <string name="security_settings_face_enroll_education_title">איך להגדיר פתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">"הגדרת התכונה 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">שימוש באימות פנים</string>
+    <string name="security_settings_face_enroll_enrolling_skip">דילוג</string>
+    <string name="security_settings_face_enroll_error_dialog_title">הסריקה לא הושלמה</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">הסריקה לצורך זיהוי פנים לא פעלה.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">הגעת למגבלת הזמן של סריקה לצורך זיהוי פנים. יש לנסות שוב.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">פג הזמן הקצוב לפתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">עכשיו אפשר להשתמש בזיהוי פנים כדי לבטל את נעילת הטלפון או כדי לאמת את זהותך, למשל בכניסה לחשבון באפליקציות או באישור רכישה</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"עכשיו אפשר להרים את הטלפון או להקיש על המסך ולהשתמש בזיהוי פנים כדי לבטל את הנעילה.
+
+פתיחה ע\"י זיהוי הפנים פועלת בצורה הטובה ביותר כשיש מספיק אור, ללא מסכה וללא משקפיים כהים."</string>
+    <string name="security_settings_face_enroll_finish_title">נראה טוב!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"כדי להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים', עליך למחוק את התבנית הנוכחית לזיהוי הפנים.
+
+התבנית לזיהוי הפנים שלך תימחק באופן סופי ומאובטח.
+
+אחרי המחיקה יהיה צורך בקוד האימות, בקו ביטול הנעילה או בסיסמה כדי לבטל את נעילת הטלפון או כדי לבצע אימות באפליקציות."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"כדי להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים', עליך למחוק את התבנית הנוכחית לזיהוי הפנים.
+
+התבנית לזיהוי הפנים שלך תימחק באופן סופי ומאובטח.
+
+אחרי המחיקה יהיה צורך בטביעת האצבע, בקוד האימות, בקו ביטול הנעילה או בסיסמה כדי לבטל את נעילת הטלפון או כדי לבצע אימות באפליקציות."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">"הגדרת התכונה 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">מגבלה בראייה או בתנועת הראש</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">"לצורך השימוש בתכונה 'פתיחה ע\"י זיהוי הפנים', ייתכן שיהיה עליך לייצב את ראשך ישירות מול הטלפון."</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">העיניים צריכות להיות פתוחות</string>
+    <string name="security_settings_face_enroll_introduction_agree">בסדר</string>
+    <string name="security_settings_face_enroll_introduction_cancel">ביטול</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים של הילדים עלול להיות פחות בטוח משימוש בקו ביטול נעילה או בקוד אימות חזקים.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">הרשאה לילד או לילדה להשתמש בזיהוי פנים כדי לבטל את הנעילה של הטלפון</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"‏האפשרות למחוק את התבנית לזיהוי הפנים, או להשבית את הפיצ'ר 'פתיחה ע\"י זיהוי הפנים', זמינה לך ולילד או לילדה שלך בכל שלב בהגדרות. התבניות לזיהוי פנים נשמרות בטלפון עד שהן נמחקות.
+
+מידע נוסף זמין בכתובת g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">השליטה נמצאת בידיים שלך ושל הילד או הילדה</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"‏בכל שלב אפשר למחוק את התבנית לזיהוי הפנים או להשבית את הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' בהגדרות. התבניות לזיהוי הפנים נשמרות בטלפון עד שהן נמחקות.
+
+מידע נוסף זמין בכתובת g.co/pixel/faceunlock"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">השליטה בידיים שלך</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' יוצר תבנית ייחודית של הפנים של הילד או הילדה כדי לאמת את זהותם. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, יהיה על הילד או הילדה לצלם את פניהם מזוויות שונות.
+
+כשהם משתמשים בפיצ'ר 'פתיחה ע\"י זיהוי הפנים', נעשה שימוש בתמונות כדי לעדכן את התבנית שלהם לזיהוי הפנים. התמונות המשמשות ליצירת התבנית לזיהוי הפנים שלהם לא נשמרות. התבנית לזיהוי הפנים נשמרת באופן מאובטח בטלפון ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"הפיצ'ר 'פתיחה ע\"י זיהוי הפנים' יוצר תבנית ייחודית של הפנים שלך כדי לאמת את זהותך. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, יהיה עליך לצלם את פניך מזוויות שונות.
+
+כשמשתמשים בפיצ'ר 'פתיחה ע\"י זיהוי הפנים', נעשה שימוש בתמונות כדי לעדכן את התבנית לזיהוי הפנים. התמונות המשמשות ליצירת התבנית לזיהוי הפנים שלך לא נשמרות. התבנית לזיהוי הפנים נשמרת באופן מאובטח בטלפון שלך ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">איך זה עובד</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">"במסגרת 'פתיחה ע\"י זיהוי הפנים', אפשר לדרוש שהעיניים של הילד או הילדה יהיו פקוחות כדי לבטל את נעילת הטלפון או לאמת את זהותם. גם ההורה וגם הילד או הילדה יכולים להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">אם הילד או הילדה שלך מרכיבים בדרך כלל משקפיים, הם יכולים להרכיב אותם במהלך ההגדרה.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים של הילדים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">מבט לטלפון עשוי לבטל נעילה גם כשהם לא מתכוונים לכך. כמו כן, נעילת הטלפון שלהם עשויה להתבטל על ידי מישהו שדומה להם מאוד, כמו אח או אחות תאומים, או כשמחזיקים אותו מול הפנים שלהם.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">"במסגרת 'פתיחה ע\"י זיהוי הפנים', אפשר לדרוש שהעיניים שלך יהיו פקוחות כדי לבטל את נעילת הטלפון או לאמת את זהותך. ניתן להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">אפשר להרכיב משקפיים או משקפי שמש בגוון בהיר.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">מבט לטלפון עשוי לבטל נעילה בלי כוונה. כמו כן, נעילת הטלפון עשויה להתבטל על ידי מישהו שדומה לך מאוד, כמו אח או אחות תאומים, או כשמחזיקים אותו מול הפנים שלך.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">חשוב לזכור</string>
+    <string name="security_settings_face_enroll_introduction_message">בעזרת הפנים שלך אפשר לבטל את הנעילה של הטלפון או לאמת את זהותך, למשל בכניסה לאפליקציות או באישור רכישה.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">ניתן להשתמש בפתיחה ע\"י זיהוי הפנים, לאשר רכישות או להיכנס אל אפליקציות</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"אפשר לפתוח את הטלפון או לאשר רכישות על ידי זיהוי הפנים.
+
+הערה: לא ניתן לבטל את נעילת המכשיר באמצעות הפנים. למידע נוסף, אפשר לפנות למנהל המערכת של הארגון."</string>
+    <string name="security_settings_face_enroll_introduction_more">עוד</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">לא, תודה</string>
+    <string name="security_settings_face_enroll_introduction_title">"הגדרת 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">שימוש באימות פנים</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">אבטחה וביצועים משופרים</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">"הגדרה חוזרת של 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_enroll_next">הבא</string>
+    <string name="security_settings_face_enroll_partial_message">"כדי לשפר את הביצועים, ניתן להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים' ב'הגדרות'"</string>
+    <string name="security_settings_face_enroll_partial_start_over">התחלה מחדש</string>
+    <string name="security_settings_face_enroll_partial_title">הסתיימה ההגדרה של פתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_enroll_repeat_title">צריך למקם את הפנים בתוך העיגול</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">"הגדרה חוזרת של 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">שיפור הביצועים של פתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_enroll_timeout_message">"אפשר במקום זאת לנסות לבצע הגדרה מהירה. חשוב לזכור: ייתכן שיהיה עליך לייצב את ראשך ישירות מול הטלפון בזמן השימוש בפתיחה על ידי זיהוי הפנים.
+
+כדי לשפר את הביצועים, ניתן להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים' ב'הגדרות'."</string>
+    <string name="security_settings_face_enroll_timeout_title">לא ניתן להמשיך בהגדרה</string>
+    <string name="security_settings_face_enroll_timeout_try_again">לניסיון חוזר</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">שימוש בהגדרה המהירה</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">יציאה מתהליך ההגדרה</string>
+    <string name="security_settings_face_enroll_too_hot_message">לא ניתן להשלים את ההגדרה של פתיחה ע\"י זיהוי הפנים מפני שהטלפון חם מדי. יש לנסות שוב מאוחר יותר לאחר שהטלפון יתקרר.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">דילוג על פתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_enroll_too_hot_title">הטלפון חם מדי</string>
+    <string name="security_settings_face_preference_summary">הפנים נוספו</string>
+    <string name="security_settings_face_preference_summary_none">יש להקיש כדי להגדיר זיהוי פנים</string>
+    <string name="security_settings_face_preference_title">פתיחה ע\"י זיהוי הפנים</string>
+    <string name="security_settings_face_profile_preference_title">פתיחה ע\"י זיהוי הפנים עבור העבודה</string>
+    <string name="security_settings_face_settings_context_subtitle">שימוש בפתיחה ע\"י זיהוי הפנים לצורך ביטול הנעילה של הטלפון</string>
+    <string name="security_settings_face_settings_enroll">"הגדרת התכונה 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_settings_footer">"בעזרת הפנים אפשר לבטל את הנעילה של הטלפון או לבצע אימות באפליקציות, למשל כדי להיכנס לחשבון או כדי לאשר רכישה.
+
+חשוב לזכור:
+ניתן להגדיר פנים של אדם אחד בלבד בכל פעם. כדי להוסיף פנים אחרות, יש למחוק את הפנים הנוכחיות.
+
+מבט לטלפון עשוי לבטל נעילה בלי כוונה.
+
+נעילת הטלפון עשויה להתבטל על ידי מישהו אחר, אם הטלפון מוחזק אל מול הפנים שלך.
+
+נעילת הטלפון עשויה להתבטל על ידי מישהו שדומה לך מאוד, כמו אח או אחות זהים."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"בעזרת הפנים אפשר לבטל את הנעילה של הטלפון או לבצע אימות באפליקציות, למשל כדי להיכנס לחשבון או כדי לאשר רכישה.
+
+חשוב לזכור:
+ניתן להגדיר פנים של אדם אחד בלבד בכל פעם. כדי להוסיף פנים אחרות, יש למחוק את הפנים הנוכחיות.
+
+מבט לטלפון עשוי לבטל נעילה בלי כוונה.
+
+נעילת הטלפון עשויה להתבטל על ידי מישהו אחר אם הטלפון מוחזק אל מול הפנים שלך, גם אם העיניים שלך עצומות.
+
+נעילת הטלפון עשויה להתבטל על ידי מישהו שדומה לך מאוד, כמו אח או אחות זהים."</string>
+    <string name="security_settings_face_settings_preferences_category">"בעת שימוש בתכונה 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"התבנית לזיהוי הפנים תימחק באופן סופי ומאובטח.
+
+לאחר המחיקה, יהיה צורך בקוד האימות, בקו ביטול הנעילה או בסיסמה שלך כדי לבטל את נעילת הטלפון או כדי לבצע אימות באפליקציות."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"התבנית לזיהוי הפנים שלך תימחק באופן סופי ומאובטח.
+
+לאחר המחיקה, יהיה צורך בקוד האימות, בקו ביטול הנעילה או בסיסמה שלך כדי לבטל את נעילת הטלפון."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">למחוק את התבנית לזיהוי הפנים?</string>
+    <string name="security_settings_face_settings_remove_face_model">מחיקת התבנית לזיהוי הפנים</string>
+    <string name="security_settings_face_settings_require_attention">העיניים חייבות להיות פקוחות</string>
+    <string name="security_settings_face_settings_require_attention_details">העיניים שלך חייבות להיות פקוחות כדי לבטל את נעילת הטלפון</string>
+    <string name="security_settings_face_settings_require_confirmation">תמיד לדרוש אישור</string>
+    <string name="security_settings_face_settings_require_confirmation_details">כשמשתמשים בפתיחה ע\"י זיהוי הפנים באפליקציות, יש לדרוש תמיד שלב אימות</string>
+    <string name="security_settings_face_settings_use_face_category">פתיחה ע\"י זיהוי הפנים:</string>
+</resources>

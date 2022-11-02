@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਇਜਾਜ਼ਤ ਦਿਓ</string>
+    <string name="security_settings_face_enroll_dialog_ok">ਠੀਕ ਹੈ</string>
+    <string name="security_settings_face_enroll_done">ਹੋ ਗਿਆ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">ਜੇ ਪਹੁੰਚਯੋਗਤਾ ਵਾਲੀ ਫ਼ੇਸ ਅਣਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਬੰਦ ਹੈ, ਤਾਂ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਸੈੱਟਅੱਪ ਦੇ ਕੁਝ ਪੜਾਅ TalkBack ਨਾਲ ਸਹੀ ਢੰਗ ਨਾਲ ਕੰਮ ਨਾ ਕਰਨ।</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">ਵਾਪਸ ਜਾਓ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ਸੈੱਟਅੱਪ ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="security_settings_face_enroll_education_message">"ਅਗਲੀ ਸਕ੍ਰੀਨ 'ਤੇ, ਆਪਣੇ ਚਿਹਰੇ ਨੂੰ ਸਾਰੇ ਪਾਸਿਆਂ ਤੋਂ ਕੈਪਚਰ ਕਰਨ ਲਈ ਆਪਣਾ ਸਿਰ ਘੁਮਾਓ"</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">"ਅਗਲੀ ਸਕ੍ਰੀਨ 'ਤੇ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅੱਖਾਂ ਦੀ ਸੀਧ ਵਿੱਚ ਰੱਖੋ"</string>
+    <string name="security_settings_face_enroll_education_start">ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_education_title">ਫ਼ੇਸ ਅਣਲਾਕ ਸੈੱਟਅੱਪ ਕਰਨ ਦਾ ਤਰੀਕਾ</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">ਪ੍ਰਮਾਣਿਤ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_enrolling_skip">ਛੱਡੋ</string>
+    <string name="security_settings_face_enroll_error_dialog_title">ਦਰਜਾਬੰਦੀ ਪੂਰੀ ਨਹੀਂ ਹੋਈ</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">ਚਿਹਰਾ ਐਨਰੋਲਮੈਂਟ ਕੰਮ ਨਹੀਂ ਕਰਦਾ ਹੈ।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">ਚਿਹਰਾ ਐਨਰੋਲਮੈਂਟ ਕਰਨ ਦੀ ਸਮਾਂ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">ਫ਼ੇਸ ਅਣਲਾਕ ਸੈੱਟਅੱਪ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋਇਆ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ਹੁਣ ਤੁਸੀਂ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਆਪਣੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤ ਸਕਦੇ ਹੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਐਪਾਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ਹੁਣ ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਫ਼ੋਨ ਚੁੱਕਦੇ ਹੋ ਜਾਂ ਸਕ੍ਰੀਨ 'ਤੇ ਟੈਪ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤ ਸਕਦੇ ਹੋ।
+
+ਫ਼ੇਸ ਅਣਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਉਦੋਂ ਬਿਹਤਰੀਨ ਢੰਗ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ ਜਦੋਂ ਰੌਸ਼ਨੀ ਪੂਰੀ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਮਾਸਕ ਜਾਂ ਧੁੱਪ ਦੀਆਂ ਐਨਕਾਂ ਨਾ ਲਾਈਆਂ ਹੋਣ।"</string>
+    <string name="security_settings_face_enroll_finish_title">ਸਭ ਠੀਕ ਲੱਗ ਰਿਹਾ ਹੈ!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦਾ ਮੌਜੂਦਾ ਮਾਡਲ ਮਿਟਾਓ।
+
+ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ 'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।
+
+ਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦਾ ਮੌਜੂਦਾ ਮਾਡਲ ਮਿਟਾਓ।
+
+ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ 'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।
+
+ਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ, ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">ਸੀਮਤ ਨਜ਼ਰ ਜਾਂ ਸਿਰ ਹਿੱਲਣ ਦਾ ਸੈੱਟਅੱਪ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤਣ ਵੇਲੇ, ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਸਿਰ ਨੂੰ ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੇ ਸਾਹਮਣੇ ਵਧੇਰੇ ਸਿੱਧਾ ਰੱਖਣ ਦੀ ਲੋੜ ਹੋਵੇ।</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">ਅੱਖਾਂ ਖੁੱਲ੍ਹੀਆਂ ਰੱਖਣ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="security_settings_face_enroll_introduction_agree">ਮੈਂ ਸਹਿਮਤ ਹਾਂ</string>
+    <string name="security_settings_face_enroll_introduction_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">ਤੁਹਾਡੇ ਬੱਚੇ ਦੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਉਸਦੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਕਿਸੇ ਮਜ਼ਬੂਤ ਪੈਟਰਨ ਜਾਂ ਪਿੰਨ ਨਾਲੋਂ ਘੱਟ ਸੁਰੱਖਿਅਤ ਹੋ ਸਕਦਾ ਹੈ।</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">ਆਪਣੇ ਬੱਚੇ ਨੂੰ ਉਸਦਾ ਚਿਹਰਾ ਵਰਤ ਕੇ ਉਸਦੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦਿਓ</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"ਤੁਸੀਂ ਅਤੇ ਤੁਹਾਡਾ ਬੱਚਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕਿਸੇ ਵੇਲੇ ਵੀ ਆਪਣੇ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਮਿਟਾ ਸਕਦੇ ਹਨ ਜਾਂ ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਬੰਦ ਕਰ ਸਕਦੇ ਹਨ। ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਫ਼ੋਨ 'ਤੇ ਉਦੋਂ ਤੱਕ ਸਟੋਰ ਰਹਿੰਦੇ ਹਨ ਜਦੋਂ ਤੱਕ ਉਹਨਾਂ ਨੂੰ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾਂਦਾ।
+
+g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">ਕੰਟਰੋਲ ਤੁਹਾਡੇ ਅਤੇ ਤੁਹਾਡੇ ਬੱਚੇ ਦੇ ਹੱਥ ਵਿੱਚ ਹੈ</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕਿਸੇ ਵੇਲੇ ਵੀ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਮਿਟਾ ਸਕਦੇ ਹੋ ਜਾਂ ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਬੰਦ ਕਰ ਸਕਦੇ ਹੋ। ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਫ਼ੋਨ 'ਤੇ ਉਦੋਂ ਤੱਕ ਸਟੋਰ ਰਹਿੰਦੇ ਹਨ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਨੂੰ ਮਿਟਾਉਂਦੇ ਨਹੀਂ।
+
+g.co/pixel/faceunlock 'ਤੇ ਹੋਰ ਜਾਣੋ।"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">ਕੰਟਰੋਲ ਤੁਹਾਡੇ ਹੱਥ ਹੈ</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"ਫ਼ੇਸ ਅਣਲਾਕ ਤੁਹਾਡੇ ਬੱਚੇ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਉਸਦੇ ਚਿਹਰੇ ਦਾ ਇੱਕ ਵਿਲੱਖਣ ਮਾਡਲ ਬਣਾਉਂਦਾ ਹੈ। ਸੈੱਟਅੱਪ ਦੌਰਾਨ ਇਸ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਬਣਾਉਣ ਲਈ, ਤੁਹਾਡਾ ਬੱਚਾ ਵੱਖ-ਵੱਖ ਕੋਣਾਂ ਤੋਂ ਆਪਣੇ ਚਿਹਰੇ ਦੇ ਚਿੱਤਰ ਲਵੇਗਾ।
+
+ਜਦੋਂ ਉਹ ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤਦਾ ਹੈ, ਤਾਂ ਉਸਦੇ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਚਿੱਤਰ ਵਰਤੇ ਜਾਂਦੇ ਹਨ। ਉਸਦੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਬਣਾਉਣ ਲਈ ਵਰਤੇ ਜਾਂਦੇ ਚਿੱਤਰ ਸਟੋਰ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ, ਪਰ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਫ਼ੋਨ 'ਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਸਟੋਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇਹ ਕਦੇ ਵੀ ਫ਼ੋਨ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾਂਦਾ। ਸਾਰੀ ਪ੍ਰਕਿਰਿਆ ਫ਼ੋਨ 'ਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਵਾਪਰਦੀ ਹੈ।"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"ਫ਼ੇਸ ਅਣਲਾਕ ਤੁਹਾਡੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਇੱਕ ਵਿਲੱਖਣ ਮਾਡਲ ਬਣਾਉਂਦਾ ਹੈ। ਸੈੱਟਅੱਪ ਦੌਰਾਨ ਇਸ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਬਣਾਉਣ ਲਈ, ਤੁਸੀਂ ਵੱਖ-ਵੱਖ ਕੋਣਾਂ ਤੋਂ ਆਪਣੇ ਚਿਹਰੇ ਦੇ ਚਿੱਤਰ ਲਓਗੇ।
+
+ਜਦੋਂ ਤੁਸੀਂ ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਚਿੱਤਰ ਵਰਤੇ ਜਾਂਦੇ ਹਨ। ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਬਣਾਉਣ ਲਈ ਵਰਤੇ ਜਾਂਦੇ ਚਿੱਤਰ ਸਟੋਰ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ, ਪਰ ਚਿਹਰੇ ਦੇ ਮਾਡਲ ਨੂੰ ਤੁਹਾਡੇ ਫ਼ੋਨ 'ਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਸਟੋਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇਹ ਕਦੇ ਵੀ ਫ਼ੋਨ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾਂਦਾ। ਸਾਰੀ ਪ੍ਰਕਿਰਿਆ ਤੁਹਾਡੇ ਫ਼ੋਨ 'ਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਵਾਪਰਦੀ ਹੈ।"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਉਹਨਾਂ ਦੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਾਸਤੇ ਤੁਹਾਡੇ ਬੱਚੇ ਦੀਆਂ ਅੱਖਾਂ ਦਾ ਖੁੱਲ੍ਹਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੋ ਸਕਦਾ ਹੈ। ਤੁਸੀਂ ਅਤੇ ਤੁਹਾਡਾ ਬੱਚਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਜਾ ਕੇ ਕਿਸੇ ਵੇਲੇ ਵੀ ਇਸ ਵਿਕਲਪ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">"ਜੇ ਤੁਹਾਡਾ ਬੱਚਾ ਆਮ ਤੌਰ 'ਤੇ ਐਨਕਾਂ ਪਹਿਨਦਾ ਹੈ, ਤਾਂ ਉਹ ਸੈੱਟਅੱਪ ਦੌਰਾਨ ਇਹਨਾਂ ਨੂੰ ਪਹਿਨ ਸਕਦਾ ਹੈ।"</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ਤੁਹਾਡੇ ਬੱਚੇ ਦੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਉਸਦੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਕਿਸੇ ਮਜ਼ਬੂਤ ਪੈਟਰਨ ਜਾਂ ਪਿੰਨ ਜਾਂ ਪਾਸਵਰਡ ਨਾਲੋਂ ਘੱਟ ਸੁਰੱਖਿਅਤ ਹੋ ਸਕਦਾ ਹੈ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">ਫ਼ੋਨ ਵੱਲ ਦੇਖਦੇ ਸਾਰ ਹੀ ਇਹ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ ਭਾਵੇਂ ਇੰਝ ਕਰਨ ਦਾ ਉਸਦਾ ਇਰਾਦਾ ਵੀ ਨਾ ਹੋਵੇ। ਉਸਦੇ ਨਾਲ ਬਹੁਤ ਜ਼ਿਆਦਾ ਮਿਲਦੇ-ਜੁਲਦੇ ਚਿਹਰੇ ਵਾਲੇ ਕਿਸੇ ਵਿਅਕਤੀ ਵੱਲੋਂ ਵੀ ਉਸਦਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ ਉਸਦੇ ਵਰਗੇ ਦਿਸਣ ਵਾਲੇ ਭੈਣ-ਭਰਾ ਜਾਂ ਜੇ ਕਿਸੇ ਨੇ ਇਸਨੂੰ ਉਸਦੇ ਚਿਹਰੇ ਦੇ ਮੂਹਰੇ ਕੀਤਾ ਹੋਵੇ।</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਤੁਹਾਡੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਾਸਤੇ ਤੁਹਾਡੀਆਂ ਅੱਖਾਂ ਦਾ ਖੁੱਲ੍ਹਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੋ ਸਕਦਾ ਹੈ। ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਜਾ ਕੇ ਕਿਸੇ ਵੇਲੇ ਵੀ ਇਸ ਵਿਕਲਪ ਨੂੰ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">ਐਨਕਾਂ ਜਾਂ ਹਲਕੀ ਜਿਹੀ ਭਾਹ ਦੀਆਂ ਧੁੱਪ ਵਾਲੀਆਂ ਐਨਕਾਂ ਠੀਕ ਰਹਿਣਗੀਆਂ।</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਕਿਸੇ ਮਜ਼ਬੂਤ ਪੈਟਰਨ, ਪਿੰਨ ਜਾਂ ਪਾਸਵਰਡ ਤੋਂ ਘੱਟ ਸੁਰੱਖਿਅਤ ਹੋ ਸਕਦਾ ਹੈ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">ਫ਼ੋਨ ਵੱਲ ਦੇਖਦੇ ਸਾਰ ਹੀ ਇਹ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ ਭਾਵੇਂ ਇੰਝ ਕਰਨ ਦਾ ਤੁਹਾਡਾ ਇਰਾਦਾ ਵੀ ਨਾ ਹੋਵੇ। ਤੁਹਾਡੇ ਨਾਲ ਬਹੁਤ ਜ਼ਿਆਦਾ ਮਿਲਦੇ-ਜੁਲਦੇ ਚਿਹਰੇ ਵਾਲੇ ਕਿਸੇ ਵਿਅਕਤੀ ਵੱਲੋਂ ਵੀ ਤੁਹਾਡਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ ਤੁਹਾਡੇ ਵਰਗੇ ਦਿਸਣ ਵਾਲੇ ਭੈਣ-ਭਰਾ ਜਾਂ ਜੇ ਇਹ ਕਿਸੇ ਨੇ ਤੁਹਾਡੇ ਚਿਹਰੇ ਦੇ ਮੂਹਰੇ ਕੀਤਾ ਹੈ।</string>
+    <string name="security_settings_face_enroll_introduction_info_title">ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ</string>
+    <string name="security_settings_face_enroll_introduction_message">ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਆਪਣੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਆਪਣਾ ਚਿਹਰਾ ਵਰਤੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਐਪਾਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ।</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ, ਖਰੀਦਾਂ ਨੂੰ ਅਧਿਕਾਰਿਤ ਕਰਨ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਖਰੀਦਾਂ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰੋ। 
+
+ਨੋਟ ਕਰੋ: ਤੁਸੀਂ ਇਸ ਡੀਵਾਈਸ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰ ਸਕਦੇ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ, ਆਪਣੇ ਸੰਗਠਨ ਦੇ ਪ੍ਰਸ਼ਾਸਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"</string>
+    <string name="security_settings_face_enroll_introduction_more">ਹੋਰ</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ਨਹੀਂ ਧੰਨਵਾਦ</string>
+    <string name="security_settings_face_enroll_introduction_title">ਫ਼ੇਸ ਅਣਲਾਕ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰਾ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">ਸੁਰੱਖਿਆ ਅਤੇ ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ ਸੁਧਾਰ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">ਫ਼ੇਸ ਅਣਲਾਕ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_next">ਅੱਗੇ</string>
+    <string name="security_settings_face_enroll_partial_message">ਕਾਰਗੁਜ਼ਾਰੀ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ, ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਦੁਬਾਰਾ ਕਰ ਸਕਦੇ ਹੋ</string>
+    <string name="security_settings_face_enroll_partial_start_over">ਮੁੜ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_partial_title">ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਪੂਰਾ ਹੋਇਆ</string>
+    <string name="security_settings_face_enroll_repeat_title">ਚੱਕਰ ਦੇ ਅੰਦਰ ਆਪਣਾ ਚਿਹਰਾ ਕੇਂਦਰਿਤ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">ਫ਼ੇਸ ਅਣਲਾਕ ਦੁਬਾਰਾ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">ਫ਼ੇਸ ਅਣਲਾਕ ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_timeout_message">"ਇਸਦੀ ਬਜਾਏ ਤੇਜ਼ ਸੈੱਟਅੱਪ ਵਰਤ ਕੇ ਦੇਖੋ। ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ, ਸ਼ਾਇਦ ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤਣ ਵੇਲੇ ਚਿਹਰੇ ਨੂੰ ਫ਼ੋਨ ਦੇ ਸਾਹਮਣੇ ਵਧੇਰੇ ਸਿੱਧਾ ਰੱਖਣ ਦੀ ਲੋੜ ਹੋਵੇ।
+
+ਕਾਰਗੁਜ਼ਾਰੀ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ, ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਦੁਬਾਰਾ ਕਰ ਸਕਦੇ ਹੋ।"</string>
+    <string name="security_settings_face_enroll_timeout_title">ਸੈੱਟਅੱਪ ਜਾਰੀ ਨਹੀਂ ਰੱਖਿਆ ਜਾ ਸਕਦਾ</string>
+    <string name="security_settings_face_enroll_timeout_try_again">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ਤੇਜ਼ ਸੈੱਟਅੱਪ ਵਰਤੋ</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">ਸੈੱਟਅੱਪ ਤੋਂ ਬਾਹਰ ਜਾਓ</string>
+    <string name="security_settings_face_enroll_too_hot_message">"ਫ਼ੇਸ ਅਣਲਾਕ ਸੈੱਟਅੱਪ ਨੂੰ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਕਿਉਂਕਿ ਫ਼ੋਨ ਬਹੁਤ ਗਰਮ ਹੈ। ਫ਼ੋਨ ਠੰਡਾ ਹੋਣ 'ਤੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ਫ਼ੇਸ ਅਣਲਾਕ ਨੂੰ ਛੱਡੋ</string>
+    <string name="security_settings_face_enroll_too_hot_title">ਫ਼ੋਨ ਬਹੁਤ ਗਰਮ ਹੈ</string>
+    <string name="security_settings_face_preference_summary">ਚਿਹਰਾ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ</string>
+    <string name="security_settings_face_preference_summary_none">ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="security_settings_face_preference_title">ਫ਼ੇਸ ਅਣਲਾਕ</string>
+    <string name="security_settings_face_profile_preference_title">ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ</string>
+    <string name="security_settings_face_settings_context_subtitle">ਆਪਣਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤੋ</string>
+    <string name="security_settings_face_settings_enroll">ਫ਼ੇਸ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+    <string name="security_settings_face_settings_footer">"ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ।
+
+ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ:
+ਤੁਸੀਂ ਇੱਕ ਸਮੇਂ 'ਤੇ ਇੱਕੋ ਹੀ ਚਿਹਰੇ ਦਾ ਸੈੱਟਅੱਪ ਕਰ ਸਕਦੇ ਹੋ। ਇੱਕ ਹੋਰ ਚਿਹਰਾ ਸ਼ਾਮਲ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਮੌਜੂਦਾ ਚਿਹਰੇ ਨੂੰ ਮਿਟਾਓ।
+
+ਫ਼ੋਨ ਨੂੰ ਦੇਖਣ ਸਾਰ ਹੀ ਫ਼ੋਨ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ, ਭਾਵੇਂ ਇੰਝ ਕਰਨ ਦਾ ਤੁਹਾਡਾ ਇਰਾਦਾ ਨਾ ਹੋਵੇ।
+
+ਕਿਸੇ ਵੱਲੋਂ ਤੁਹਾਡਾ ਫ਼ੋਨ ਤੁਹਾਡੇ ਮੂਹਰੇ ਕਰਨ 'ਤੇ ਫ਼ੋਨ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ।
+
+ਤੁਹਾਡੇ ਵਰਗੇ ਦਿਸਣ ਵਾਲੇ ਕਿਸੇ ਵਿਅਕਤੀ ਵੱਲੋਂ ਵੀ ਤੁਹਾਡਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿਵੇਂ ਇੱਕੋ ਜਿਹੇ ਦਿਸਣ ਵਾਲੇ ਭੈਣ-ਭਰਾ।"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਚਿਹਰੇ ਦੀ ਵਰਤੋਂ ਕਰੋ, ਜਿਵੇਂ ਕਿ ਜਦੋਂ ਤੁਸੀਂ ਸਾਈਨ-ਇਨ ਕਰਦੇ ਹੋ ਜਾਂ ਕਿਸੇ ਖਰੀਦ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿੰਦੇ ਹੋ।
+
+ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ:
+ਤੁਸੀਂ ਇੱਕ ਸਮੇਂ 'ਤੇ ਇੱਕੋ ਹੀ ਚਿਹਰੇ ਦਾ ਸੈੱਟਅੱਪ ਕਰ ਸਕਦੇ ਹੋ। ਇੱਕ ਹੋਰ ਚਿਹਰਾ ਸ਼ਾਮਲ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਮੌਜੂਦਾ ਚਿਹਰੇ ਨੂੰ ਮਿਟਾਓ।
+
+ਫ਼ੋਨ ਨੂੰ ਦੇਖਣ ਸਾਰ ਹੀ ਫ਼ੋਨ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ, ਭਾਵੇਂ ਇੰਝ ਕਰਨ ਦਾ ਤੁਹਾਡਾ ਇਰਾਦਾ ਨਾ ਹੋਵੇ।
+
+ਕਿਸੇ ਵੱਲੋਂ ਤੁਹਾਡਾ ਫ਼ੋਨ ਤੁਹਾਡੇ ਮੂਹਰੇ ਕਰਨ 'ਤੇ ਫ਼ੋਨ ਅਣਲਾਕ ਹੋ ਸਕਦਾ ਹੈ, ਭਾਵੇਂ ਤੁਹਾਡੀਆਂ ਅੱਖਾਂ ਬੰਦ ਹੋਣ।
+
+ਤੁਹਾਡੇ ਵਰਗੇ ਦਿਸਣ ਵਾਲੇ ਕਿਸੇ ਵਿਅਕਤੀ ਵੱਲੋਂ ਵੀ ਤੁਹਾਡਾ ਫ਼ੋਨ ਅਣਲਾਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਜਿਵੇਂ ਇੱਕੋ ਜਿਹੇ ਦਿਸਣ ਵਾਲੇ ਭੈਣ-ਭਰਾ।"</string>
+    <string name="security_settings_face_settings_preferences_category">ਫ਼ੇਸ ਅਣਲਾਕ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਸਮੇਂ</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ 'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।
+
+ਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਜਾਂ ਐਪਾਂ ਵਿੱਚ ਪ੍ਰਮਾਣੀਕਰਨ ਲਈ ਆਪਣੇ ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"ਤੁਹਾਡੇ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਪੱਕੇ ਤੌਰ 'ਤੇ ਅਤੇ ਸੁਰੱਖਿਅਤ ਤਰੀਕੇ ਨਾਲ ਮਿਟਾਇਆ ਜਾਵੇਗਾ।
+
+ਮਿਟਾਉਣ ਤੋਂ ਬਾਅਦ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਲਈ ਆਪਣੇ ਪਿੰਨ, ਪੈਟਰਨ ਜਾਂ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">ਕੀ ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਮਿਟਾਉਣਾ ਹੈ?</string>
+    <string name="security_settings_face_settings_remove_face_model">ਚਿਹਰੇ ਦਾ ਮਾਡਲ ਮਿਟਾਓ</string>
+    <string name="security_settings_face_settings_require_attention">ਅੱਖਾਂ ਖੁੱਲ੍ਹੀਆਂ ਹੋਣ</string>
+    <string name="security_settings_face_settings_require_attention_details">ਫ਼ੋਨ ਅਣਲਾਕ ਕਰਨ ਲਈ, ਤੁਹਾਡੀਆਂ ਅੱਖਾਂ ਦਾ ਖੁੱਲ੍ਹੇ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ</string>
+    <string name="security_settings_face_settings_require_confirmation">ਹਮੇਸ਼ਾਂ ਤਸਦੀਕ ਕਰਨ ਨੂੰ ਲੋੜੀਂਦਾ ਬਣਾਓ</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ਐਪਾਂ ਲਈ ਫ਼ੇਸ ਅਣਲਾਕ ਵਰਤਣ ਵੇਲੇ ਤਸਦੀਕ ਕਰਨ ਸੰਬੰਧੀ ਪੜਾਅ ਹਮੇਸ਼ਾਂ ਲੋੜੀਂਦਾ ਹੈ</string>
+    <string name="security_settings_face_settings_use_face_category">ਫ਼ੇਸ ਅਣਲਾਕ ਇਸ ਲਈ ਵਰਤੋ</string>
+</resources>

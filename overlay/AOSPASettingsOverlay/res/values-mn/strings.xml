@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Царайгаар түгжээ тайлахыг зөвшөөрөх</string>
+    <string name="security_settings_face_enroll_dialog_ok">ОК</string>
+    <string name="security_settings_face_enroll_done">Дууссан</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Хандалтын Царайгаар түгжээ тайлах унтарсан тохиолдолд тохируулгын зарим алхам TalkBack-тай хэвийн ажиллахгүй байж болзошгүй.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Буцах</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Тохируулгыг үргэлжлүүлэх</string>
+    <string name="security_settings_face_enroll_education_message">Дараагийн дэлгэц дээр царайныхаа бүхий л өнцгийн зургийг авахын тулд толгойгоо эргүүлнэ үү</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Дараагийн дэлгэц дээр утсаа нүднийхээ түвшинд барина уу</string>
+    <string name="security_settings_face_enroll_education_start">Эхлэх</string>
+    <string name="security_settings_face_enroll_education_title">Царайгаар түгжээ тайлахыг хэрхэн тохируулах вэ?</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Царайгаар түгжээ тайлахыг тохируулах</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Баталгаажуулахын тулд царайгаа ашиглах</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Алгасах</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Бүртгэлийг гүйцээж чадсангүй</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Царайг бүртгүүлж чадсангүй.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Царай бүртгүүлэх хугацаа дууслаа. Дахин оролдоно уу.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Царайгаар түгжээ тайлах завсарласан</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Одоо та царайгаа утасныхаа түгжээг тайлах эсвэл аппуудад нэвтрэх, худалдан авалт зөвшөөрөх зэргээр өөрийгөө мөн болохыг баталгаажуулахын тулд ашиглах боломжтой</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Одоо та утсаа авах эсвэл дэлгэц дээр товших үедээ царайгаараа түгжээ тайлах боломжтой.
+
+Царайгаар түгжээ тайлах нь хангалттай гэрэлтэй бөгөөд таныг амны хаалт, бараан нүдний шил зүүгээгүй үед хамгийн сайн ажиллана."</string>
+    <string name="security_settings_face_enroll_finish_title">Ямар ч асуудалгүй байна!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Царайгаар түгжээ тайлахыг дахин тохируулах бол одоогийн нүүрний загвараа устгана уу.
+
+Таны нүүрний загварыг аюулгүйгээр бүрмөсөн устгана.
+
+Устгасны дараа та утасныхаа түгжээг тайлах эсвэл аппуудын баталгаажуулалтад ПИН, хээ эсвэл нууц үгээ оруулах шаардлагатай болно."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Царайгаар түгжээ тайлахыг дахин тохируулах бол одоогийн нүүрний загвараа устгана уу.
+
+Таны нүүрний загварыг аюулгүйгээр бүрмөсөн устгана.
+
+Устгасны дараа та утасныхаа түгжээг тайлах эсвэл аппуудын баталгаажуулалтад хурууны хээ, ПИН, хээ эсвэл нууц үгээ оруулах шаардлагатай болно."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Царайгаар түгжээ тайлахыг тохируулна уу</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Харааны бэрхшээлтэй эсвэл толгойгоо хөдөлгөх боломжгүй хэрэглэгчийн тохируулга</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Царайгаар түгжээ тайлахыг ашиглах үед та толгойгоо утасныхаа урд аль болох эгц байлгах шаардлагатай.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Нүд нээлттэй байх шаардлагатай</string>
+    <string name="security_settings_face_enroll_introduction_agree">Би зөвшөөрч байна</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Болих</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Хүүхдийнхээ царайг утасных нь түгжээг тайлахад ашиглах нь сайн хээ эсвэл ПИН-ээс хамгаалалт сул байж магадгүй.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Хүүхдэдээ царайгаа ашиглан утасныхаа түгжээг тайлахыг зөвшөөрнө үү</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Та болон таны хүүхэд хүссэн үедээ Тохиргоо хэсэгт түүний нүүрний загварыг устгах эсвэл Царайгаар түгжээ тайлах онцлогийг унтраах боломжтой. Нүүрний загваруудыг устгах хүртэл утсанд хадгална.
+
+Та g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна уу."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Хяналт танд болон таны хүүхдэд байна</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Та хүссэн үедээ Тохиргоо хэсэгт нүүрний загвараа устгах эсвэл Царайгаар түгжээ тайлах онцлогийг унтраах боломжтой. Нүүрний загваруудыг таныг устгах хүртэл утсанд хадгална.
+
+Tа g.co/pixel/faceunlock дээрээс нэмэлт мэдээлэл авна уу."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Хяналт таны гарт</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Царайгаар түгжээ тайлах онцлог нь таны хүүхдийг мөн болохыг баталгаажуулахын тулд түүний нүүрний өвөрмөц загварыг үүсгэдэг. Тохируулгын үед энэ нүүрний загварыг үүсгэхийн тулд таны хүүхэд нүүрнийхээ зургийг өөр өөр өнцгөөс авна.
+
+Тэд Царайгаар түгжээ тайлах онцлогийг ашиглах үед зургийг тэдний нүүрний загварыг шинэчлэхэд ашиглана. Тэдний нүүрний загварыг үүсгэхэд ашигласан зургийг хадгалдаггүй хэдий ч нүүрний загварыг утсанд аюулгүйгээр бүрмөсөн хадгалдаг. Бүх боловсруулалтыг утсанд аюулгүйгээр хийдэг."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Царайгаар түгжээ тайлах онцлог нь таныг мөн болохыг баталгаажуулахын тулд таны нүүрний өвөрмөц загварыг үүсгэдэг. Тохируулгын үеэр энэ нүүрний загварыг үүсгэхийн тулд та нүүрнийхээ зургийг өөр өөр өнцгөөс авна.
+
+Та Царайгаар түгжээ тайлах онцлогийг ашиглах үед зургийг таны нүүрний загварыг шинэчлэхэд ашиглана. Таны нүүрний загварыг үүсгэхэд ашигласан зургийг хадгалахгүй хэдий ч нүүрний загварыг утсанд аюулгүйгээр бүрмөсөн хадгалдаг. Бүх боловсруулалтыг таны утсанд аюулгүйгээр хийдэг."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Энэ нь хэрхэн ажилладаг вэ?</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Царайгаар түгжээ тайлах онцлог нь утасны түгжээг тайлах эсвэл таны хүүхдийг мөн болохыг баталгаажуулахын тулд таны хүүхдээс нүдээ нээлттэй байлгахыг шаардаж болно. Та болон таны хүүхэд энэ сонголтын хүссэн үедээ Тохиргоо хэсэгт асаах боломжтой.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Хэрэв таны хүүхэд ердийн үед нүдний шил зүүдэг бол тохируулгын үеэр шилээ зүүж болно.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Хүүхдийнхээ царайг утасных нь түгжээг тайлахад ашиглах нь сайн хээ, ПИН эсвэл нууц үгээс хамгаалалт сул байж магадгүй</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Та хүүхэд утас руу санамсаргүй харснаар түгжээг нь тайлах боломжтой. Таны хүүхдийн утасны түгжээг мөн түүний ихэр зэрэг түүнтэй маш адилхан харагддаг хүн эсвэл хэн нэгэн үүнийг түүний нүүрний өмнө барьсан тохиолдолд тайлах боломжтой.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Царайгаар түгжээ тайлах онцлог нь утасны түгжээг тайлах эсвэл таныг мөн болохыг баталгаажуулахын тулд танаас нүдээ нээлттэй байлгахыг шаардаж болно. Та энэ сонголтыг хүссэн үедээ Тохиргоо хэсэгт асаах боломжтой.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Нүдний шил эсвэл үл ялиг өнгө оруулсан нарны шил зүүж болно.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Царайгаа ашиглан утасныхаа түгжээг тайлах нь хүчтэй хээ, ПИН эсвэл нууц үгээс хамгаалалт багатай байж магадгүй</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Та утас руу санамсаргүй харснаар түгжээг нь тайлах боломжтой. Таны утасны түгжээг мөн таны ихэр зэрэг тантай маш адилхан харагддаг хүн эсвэл хэн нэгэн утсыг таны нүүрний өмнө барьсан тохиолдолд тайлах боломжтой.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Санаж яваарай</string>
+    <string name="security_settings_face_enroll_introduction_message">Утасныхаа түгжээг тайлах эсвэл аппуудад нэвтрэх, худалдан авалт зөвшөөрөх зэргээр өөрийгөө мөн болохыг баталгаажуулахын тулд царайгаа ашиглана уу.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Утасныхаа түгжээг тайлах, худалдан авалт хийх эсвэл аппад нэвтрэхдээ царайгаа ашиглана уу</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Утасныхаа түгжээг тайлах эсвэл худалдан авалтыг зөвшөөрөхийн тулд царайгаа ашиглана уу.
+
+Санамж: Та энэ төхөөрөмжийн түгжээг тайлахын тулд царайгаа ашиглах боломжгүй. Дэлгэрэнгүй мэдээлэл авахын тулд байгууллагынхаа админтай холбогдоно уу."</string>
+    <string name="security_settings_face_enroll_introduction_more">Бусад</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Үгүй, баярлалаа</string>
+    <string name="security_settings_face_enroll_introduction_title">Царайгаар түгжээ тайлахыг тохируулах</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Баталгаажуулахын тулд царайгаа ашиглах</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Хамгаалалт болон гүйцэтгэлийг сайжруулах</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Царайгаар түгжээ тайлахыг дахин тохируулна уу</string>
+    <string name="security_settings_face_enroll_next">Дараах</string>
+    <string name="security_settings_face_enroll_partial_message">Гүйцэтгэлийг сайжруулахын тулд та Царайгаар түгжээ тайлахыг Тохиргоонд дахин тохируулж болно</string>
+    <string name="security_settings_face_enroll_partial_start_over">Дахин эхлүүлэх</string>
+    <string name="security_settings_face_enroll_partial_title">Царайгаар түгжээ тайлахыг тохируулж дууслаа</string>
+    <string name="security_settings_face_enroll_repeat_title">Царайгаа дугуй хүрээнд голлуулна уу</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Царайгаар түгжээ тайлахыг дахин тохируулна уу</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Царайгаар түгжээ тайлахын гүйцэтгэлийг сайжруулна уу</string>
+    <string name="security_settings_face_enroll_timeout_message">"Оронд нь хурдан тохируулгыг туршиж үзнэ үү. Та Царайгаар түгжээ тайлахыг ашиглахдаа толгойгоо утасныхаа урд талд аль болох эгц байлгах шаардлагатайг санаарай.
+
+Гүйцэтгэлийг сайжруулахын тулд та Царайгаар түгжээ тайлахыг Тохиргоонд дахин тохируулж болно."</string>
+    <string name="security_settings_face_enroll_timeout_title">Тохируулгыг үргэлжлүүлэх боломжгүй байна</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Дахин оролдох</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Хурдан тохируулгыг ашиглах</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Тохируулгаас гарах</string>
+    <string name="security_settings_face_enroll_too_hot_message">Утас хэт халсан тул Царайгаар түгжээ тайлахын тохируулгыг дуусгах боломжгүй байна. Утас хөрөх үед дараа дахин оролдоно уу.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Царайгаар түгжээ тайлахыг алгасах</string>
+    <string name="security_settings_face_enroll_too_hot_title">Утас хэт халсан байна</string>
+    <string name="security_settings_face_preference_summary">Царай нэмсэн</string>
+    <string name="security_settings_face_preference_summary_none">Царай тохируулахын тулд товшино уу</string>
+    <string name="security_settings_face_preference_title">Царайгаар түгжээ тайлах</string>
+    <string name="security_settings_face_profile_preference_title">Ажлын профайлын Царайгаар түгжээ тайлах</string>
+    <string name="security_settings_face_settings_context_subtitle">Утасныхаа түгжээг тайлахын тулд Царайгаар түгжээ тайлахыг ашиглана уу</string>
+    <string name="security_settings_face_settings_enroll">Царайгаар түгжээ тайлахыг тохируулах</string>
+    <string name="security_settings_face_settings_footer">"Утасныхаа түгжээг тайлах эсвэл нэвтрэх, худалдан авалт зөвшөөрөх зэргээр аппуудын баталгаажуулалтад царайгаа ашиглана уу.
+
+Дараахыг анхаарна уу:
+Та нэг удаад зөвхөн нэг царай тохируулах боломжтой. Өөр царай нэмэхийн тулд одоогийн царайг устгана уу.
+
+Та утас руугаа санаандгүй харснаар түгжээг нь тайлах боломжтой.
+
+Хэрэв хэн нэгэн таны утсыг нүүрний тань урд барьвал таны утасны түгжээг тайлах боломжтой.
+
+Таны төрсөн ах, эгч, дүү зэрэг тантай адилхан царайтай хэн нэгэн таны утасны түгжээг тайлах боломжтой."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Утасныхаа түгжээг тайлах эсвэл нэвтрэх, худалдан авалт зөвшөөрөх зэргээр аппуудын баталгаажуулалтад царайгаа ашиглана уу.
+
+Дараахыг анхаарна уу:
+Та нэг удаад зөвхөн нэг царай тохируулах боломжтой. Өөр царай нэмэхийн тулд одоогийн царайг устгана уу.
+
+Та утас руугаа санаандгүй харснаар түгжээг нь тайлах боломжтой.
+
+Хэрэв хэн нэгэн таны утсыг нүүрний тань урд барьвал та нүдээ аньсан байсан ч таны утасны түгжээг тайлах боломжтой.
+
+Таны төрсөн ах, эгч, дүү зэрэг тантай адилхан царайтай хэн нэгэн таны утасны түгжээг тайлах боломжтой."</string>
+    <string name="security_settings_face_settings_preferences_category">Царайгаар түгжээ тайлахыг ашиглаж буй тохиолдолд</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Таны нүүрний загварыг аюулгүйгээр бүрмөсөн устгана.
+
+Устгасны дараа та утасныхаа түгжээг тайлах эсвэл аппад баталгаажуулахын тулд ПИН, хээ эсвэл нууц үгээ оруулах шаардлагатай болно."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Таны нүүрний загварыг аюулгүйгээр бүрмөсөн устгана.
+
+Устгасны дараа та утасныхаа түгжээг тайлахын тулд ПИН, хээ эсвэл нууц үгээ оруулах шаардлагатай болно."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Нүүрний загварыг устгах уу?</string>
+    <string name="security_settings_face_settings_remove_face_model">Нүүрний загвар устгах</string>
+    <string name="security_settings_face_settings_require_attention">Нүдийг нээлттэй байхыг шаардах</string>
+    <string name="security_settings_face_settings_require_attention_details">Утасны түгжээг тайлахын тулд таны нүд нээлттэй байх шаардлагатай</string>
+    <string name="security_settings_face_settings_require_confirmation">Үргэлж баталгаажуулалт шаардах</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Царайгаар түгжээ тайлахыг аппад ашиглахад баталгаажуулах алхмыг тогтмол шаардах</string>
+    <string name="security_settings_face_settings_use_face_category">Царайгаар түгжээ тайлахыг дараахад ашиглах</string>
+</resources>
