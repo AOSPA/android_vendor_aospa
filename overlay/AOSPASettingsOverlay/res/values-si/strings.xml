@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">මුහුණෙන් අගුලු හැරීම ඉඩ දෙන්න</string>
+    <string name="security_settings_face_enroll_dialog_ok">හරි</string>
+    <string name="security_settings_face_enroll_done">කළා</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">ප්‍රවේශ්‍යතා මුහුණෙන් අගුළු හැරීම ක්‍රියාවිරහිත කර ඇත්නම්, සමහර පිහිටුවීම් පියවර TalkBack සමඟ නිසියාකාරව ක්‍රියා නොකරනු ඇත.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">ආපසු යන්න</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">පිහිටුවීම දිගටම කර.</string>
+    <string name="security_settings_face_enroll_education_message">ඊළඟ තිරයේ, ඔබේ මුහුණේ සියලු කෝණ ග්‍රහණය කිරීමට ඔබේ හිස කරකවන්න</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">ඊළඟ තිරයේ, ඔබගේ දුරකථනය ඇස් මට්ටමේ තබා ගන්න</string>
+    <string name="security_settings_face_enroll_education_start">අරඹන්න</string>
+    <string name="security_settings_face_enroll_education_title">මුහුණෙන් අගුළු හැරීම පිහිටුවන ආකාරය</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">මුහුණෙන් අගුළු හැරීම පිහිටුවන්න</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">සත්‍යාපන කිරීමට ඔබේ මුහුණ භාවිත කරන්න</string>
+    <string name="security_settings_face_enroll_enrolling_skip">මඟ හරින්න</string>
+    <string name="security_settings_face_enroll_error_dialog_title">ලියාපදිංචිය අවසන් නොකළා</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">මුහුණු ලියාපදිංචිය ක්‍රියා කළේ නැත.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">මුහුණු ලියාපදිංචි කාල සීමාව ළඟා විය. නැවත උත්සාහ කරන්න.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">මුහුණෙන් අගුළු හැරීම පිහිටුවීම කාල නිමා විය</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ යෙදුම්වලට පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි අවස්ථාවල, ඒ ඔබ බව තහවුරු කිරීමට ඔබට ඔබගේ මුහුණ භාවිත කළ හැකිය</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"දැන් ඔබ ඔබේ දුරකථනය ගන්නා විට හෝ තිරයට තට්ටු කරන විට අගුලු හැරීමට ඔබ ඔබේ මුහුණ භාවිත කළ හැක.
+
+මුහුණෙන් අගුලු හැරීම හොඳට ම ක්‍රියා කරන්නේ ප්‍රමාණවත් ආලෝකය ඇති අතර ඔබ මුහුණු වැස්මක් හෝ අඳුරු කණ්ණාඩි නොපළඳින විට ය."</string>
+    <string name="security_settings_face_enroll_finish_title">පෙනෙන විදිහට හොඳයි!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"මුහුණෙන් අගුළු හැරීම නැවත පිහිටුවීමට ඔබගේ වත්මන් මුහුණු ආකෘතිය මකන්න.
+
+ඔබගේ මුහුණු ආකෘතිය ස්ථිරව සහ ආරක්ෂිතව මකනු ඇත.
+
+මැකීමෙන් පසුව, ඔබගේ දුරකථනය අගුලු හැරීමට හෝ යෙදුම්වල සත්‍යාපනය සඳහා ඔබට ඔබගේ PIN, රටාව හෝ මුරපදය අවශ්‍ය වනු ඇත."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"මුහුණෙන් අගුළු හැරීම නැවත පිහිටුවීමට ඔබගේ වත්මන් මුහුණු ආකෘතිය මකන්න.
+
+ඔබගේ මුහුණු ආකෘතිය ස්ථිරව සහ ආරක්ෂිතව මකනු ඇත.
+
+මැකීමෙන් පසුව, ඔබගේ දුරකථනය අගුලු හැරීමට හෝ යෙදුම්වල සත්‍යාපනය සඳහා ඔබට ඔබගේ PIN, රටාව හෝ මුරපදය අවශ්‍ය වනු ඇත."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">මුහුණෙන් අගුළු හැරීම පිහිටුවන්න</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">සීමිත දෘෂ්ටිය හෝ හිසේ චලනය සඳහා සකසන්න</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">මුහුණෙන් අගුළු හැරීම භාවිත කරන විට, ඔබගේ හිස ඔබගේ දුරකථනය ඉදිරියේ තවත් ඍජුව තිබීමට අවශ්‍ය විය හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">ඇස් ඇර තබා ගැනීම අවශ්‍ය කරයි</string>
+    <string name="security_settings_face_enroll_introduction_agree">මම එකඟ වෙමි</string>
+    <string name="security_settings_face_enroll_introduction_cancel">අවලංගු කරන්න</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">ඔබේ දරුවාගේ දුරකතනය අගුළු හැරීම සඳහා දරුවාගේ මුහුණ යොදා ගැනීම ප්‍රබල රටාවක් හෝ රහස් අංකයක් යොදා ගැනීමට වඩා ආරක්ෂිත බවින් අඩු විය හැක.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">ඔබේ දරුවාට තම දුරකථනය අගුලු හැරීමට තම මුහුණ යොදා ගැනීමට ඉඩ දෙන්න</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"ඔබට සහ ඔබගේ දරුවාට සැකසීම් තුළ ඕනෑම වේලාවක සිය මුහුණු ආකෘතිය මැකීමට හෝ මුහුණෙන් අගුලු හැරීම ක්‍රියාවිරහිත කිරීමට හැකිය. මුහුණු ආකෘති ඒවා මකන තෙක් දුරකථනයේ ගබඩා කර ඇත.
+
+g.co/pixel/faceunlock හිදී තව දැන ගන්න."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">ඔබ සහ ඔබගේ දරුවා පාලනයේ සිටී</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"ඔබට සැකසීම් තුළ ඕනෑම වේලාවක ඔබගේ මුහුණු ආකෘතිය මැකීමට හෝ මුහුණෙන් අගුලු හැරීම ක්‍රියාවිරහිත කිරීමට හැකිය. මුහුණු ආකෘති ඔබ මකන තෙක් දුරකථනයේ ගබඩා කර ඇත.
+
+g.co/pixel/faceunlock හිදී තව දැන ගන්න"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">ඔබ සිටින්නේ පාලනයේය</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"ඒ ඔවුන් බව සත්‍යාපනය කිරීමට මුහුණෙන් අගුලු හැරීම ඔබගේ දරුවාගේ මුහුණෙහි අනන්‍ය ආකෘතියක් තනයි. පිහිටුවීම අතරතුර මෙම මුහුණු ආකෘතිය තැනීම සඳහා, ඔබගේ දරුවා විවිධ පිහිටීම්වලින් ඔවුන්ගේ මුහුණේ රූප ගනු ඇත.
+
+ඔවුන් මුහුණෙන් අගුලු හැරීම භාවිත කරන විට, ඔවුන්ගේ මුහුණු ආකෘතිය යාවත්කාලීන කිරීමට රූප භාවිත කෙරේ. ඔවුන්ගේ මුහුණු ආකෘතිය තැනීමට භාවිත කරන රූප ගබඩා නොකරනු ඇත, නමුත් මුහුණු ආකෘතිය ඔවුන්ගේ දුරකථනයේ ආරක්ෂිතව ගබඩා කර ඇති අතර කිසි විටක දුරකථනය හැර නොයයි. සියලු සැකසීම් දුරකථනයේ ආරක්ෂිතව සිදු වේ."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"ඒ ඔබ බව සත්‍යාපනය කිරීමට මුහුණෙන් අගුලු හැරීම ඔබගේ මුහුණේ අනන්‍ය ආකෘතියක් තනයි. පිහිටුවීම අතරතුර මෙම මුහුණු ආකෘතිය තැනීම සඳහා, ඔබ විවිධ කෝණවලින් ඔබගේ මුහුණේ රූප ගනු ඇත.
+
+ඔබ මුහුණෙන් අගුලු හැරීම භාවිත කරන විට, ඔබගේ මුහුණු ආකෘතිය යාවත්කාලීන කිරීමට රූප භාවිත කෙරේ. ඔබගේ මුහුණු ආකෘතිය තැනීමට භාවිත කරන රූප ගබඩා නොකරනු ඇත, නමුත් මුහුණු ආකෘතිය ඔබගේ දුරකථනයේ ආරක්ෂිතව ගබඩා කර ඇති අතර කිසි විටක දුරකථනය හැර නොයයි. සියලු සැකසීම් ඔබගේ දුරකථනයේ ආරක්ෂිතව සිදු වේ."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">එය ක්‍රියා කරන ආකාරය</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">මුහුණෙන් අගුළු ඇරීමට දුරකථනය අගුළු ඇරීමට හෝ ඒවා සත්‍යාපනය කිරීමට ඔබගේ දරුවාගේ දෑස් විවෘතව තිබීම අවශ්‍යය. ඔබට සහ ඔබගේ දරුවාට ඕනෑම වේලාවක සැකසීම් තුළ මෙම විකල්පය ක්‍රියාත්මක කළ හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">ඔබගේ දරුවා සාමාන්‍යයෙන් ඇස් කණ්ණාඩි පළඳින්නේ නම්, පිහිටුවීම අතරතුර ඔවුන්ට ඒවා පැළඳිය හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ඔබේ දරුවාගේ දුරකථනය අගුලු හැරීම සඳහා දරුවාගේ මුහුණ යොදා ගැනීම ප්‍රබල රටාවක් හෝ රහස් අංකයක් යොදා ගැනීමට වඩා ආරක්ෂිත බවින් අඩු විය හැක.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">දුරකථනය දෙස බැලීම ඔවුන් අදහස් නොකරන නමුත් අගුලු හැරිය හැකිය. ඔවුන්ගේ දුරකථනය බොහෝ දුරට පෙනුමෙන් ඔවුන්ට සමාන, සර්වසම සහෝදර සහෝදරියක් වැනි යමෙකු විසින්, හෝ එය යම් කෙනෙක් ඔවුන්ගේ මුහුණට අල්ලාගෙන සිටියහොත් අගුලු හැරිය හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">මුහුණෙන් අගුළු ඇරීමට දුරකථනය අගුළු ඇරීමට හෝ ඒ ඔබ බව සත්‍යාපනය කිරීමට ඔබගේ දෑස් විවෘතව තිබීම අවශ්‍යය. ඔබට ඕනෑම වේලාවක සැකසීම් තුළ මෙම විකල්පය ක්‍රියාත්මක කළ හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">කණ්ණාඩි හෝ සුළු වශයෙන් වර්ණ ගැන්වූ අවු කණ්ණාඩි කමක් නැත.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">අගුලු හැරීමට ඔබගේ මුහුණ භාවිත කිරීම ප්‍රබල රටාවකට, PIN අංකයකට හෝ මුරපදයකට වඩා ආරක්ෂාකාරී බව අඩු විය හැකිය</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">දුරකථනය දෙස බැලීම ඔබ අදහස් නොකරන නමුත් අගුලු හැරිය හැකිය. ඔබගේ දුරකථනය බොහෝ දුරට පෙනුමෙන් ඔබට සමාන, සර්වසම සහෝදර සහෝදරියක් වැනි යමෙකු විසින්, හෝ එය යම් කෙනෙක් ඔබගේ මුහුණට අල්ලාගෙන සිටියහොත් අගුලු හැරිය හැකිය.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">මතක තබා ගන්න</string>
+    <string name="security_settings_face_enroll_introduction_message">ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ යෙදුම්වලට පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි අවස්ථාවල, ඒ ඔබ බව තහවුරු කිරීමට ඔබගේ මුහුණ භාවිත කරන්න.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">ඔබේ දුරකථනය අගුලු හැරීමට, මිලදී ගැනීම්වලට අවසර දීමට, හෝ යෙදුම්වලට පිරීමට ඔබේ මුහුණ භාවිත කරන්න.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"ඔබේ දුරකථනය අගුලු හැරීමට, හෝ මිලදී ගැනීම් අනුමත කිරීමට ඔබේ මුහුණ භාවිත කරන්න.
+
+සටහන: ඔබට ඔබේ මුහුණ මෙම උපාංගය අගුලු හැරීමට භාවිත කළ නොහැකිය. තව තොරතුරු සඳහා, ඔබේ සංවිධානයෙහි පරිපාලක අමතන්න."</string>
+    <string name="security_settings_face_enroll_introduction_more">තව</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">එපා ස්තූතියි</string>
+    <string name="security_settings_face_enroll_introduction_title">මුහුණු අගුලු හැරීම සකසන්න</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">සත්‍යාපනය කිරීමට ඔබේ මුහුණ භාවිතා කරන්න</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">ආරක්ෂාව සහ කාර්ය සාධනය වැඩිදියුණු කරන්න</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">මුහුණෙන් අගුළු හැරීම නැවත පිහිටුවන්න</string>
+    <string name="security_settings_face_enroll_next">මිළඟ</string>
+    <string name="security_settings_face_enroll_partial_message">කාර්ය සාධනය වැඩිදියුණු කිරීමට, ඔබට මුහුණෙන් අගුළු හැරීම නැවතත් සැකසීම්වල පිහිටුවිය හැකිය.</string>
+    <string name="security_settings_face_enroll_partial_start_over">යළි මුල සිට අරඹන්න</string>
+    <string name="security_settings_face_enroll_partial_title">මුහුණෙන් අගුළු හැරීම පිහිටුවීම අවසන්ය</string>
+    <string name="security_settings_face_enroll_repeat_title">රවුමේ ඔබේ මුහුණ කේන්ද්‍රගත කරන්න</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">මුහුණෙන් අගුළු හැරීම නැවත පිහිටුවන්න</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">මුහුණෙන් අගුළු ඇරීම් කාර්ය සාධනය වැඩි දියුණු කර.</string>
+    <string name="security_settings_face_enroll_timeout_message">"ඒ වෙනුවට වේගවත් පිහිටුවීම උත්සාහ කරන්න. සිතෙහි තබා ගන්න, මුහුණෙන් අගුළු හැරීම භාවිත කරන විට ඔබගේ හිස ඔබගේ දුරකථනය ඉදිරියේ වඩාත් සෘජුව තිබීමට අවශ්‍ය විය හැකිය.
+
+කාර්ය සාධනය වැඩිදියුණු කිරීමට, ඔබට මුහුණෙන් අගුළු හැරීම නැවත සැකසීම්වල පිහිටුවිය හැකිය."</string>
+    <string name="security_settings_face_enroll_timeout_title">පිහිටුවීම දිගටම කරගෙන යාමට නොහැකිය</string>
+    <string name="security_settings_face_enroll_timeout_try_again">නැවත උත්සාහ කරන්න</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">වේගවත් පිහිටුවීම භාවිතය</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">පිහිටුවීමෙන් පිටවන්න</string>
+    <string name="security_settings_face_enroll_too_hot_message">දුරකථනය උණුසුම් වැඩි නිසා මුහුණෙන් අගුළු හැරීම පිහිටුවීම සම්පූර්ණ කළ නොහැකිය. දුරකථනය සිසිල් වූ විට පසුව නැවත උත්සාහ කරන්න.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">මුහුණෙන් අගුළු හැරීම මග හරින්න</string>
+    <string name="security_settings_face_enroll_too_hot_title">දුරකථනය උණුසුම් වැඩිය</string>
+    <string name="security_settings_face_preference_summary">මුහුණ එකතු කරන ලදි</string>
+    <string name="security_settings_face_preference_summary_none">මුහුණ පිහිටුවීමට තට්ටු කරන්න</string>
+    <string name="security_settings_face_preference_title">මුහුණෙන් අගුළු හැරීම</string>
+    <string name="security_settings_face_profile_preference_title">කාර්යාලය සඳහා මුහුණෙන් අගුළු හැරීම</string>
+    <string name="security_settings_face_settings_context_subtitle">ඔබගේ දුරකථනය අගුලු හැරීමට මුහුණෙන් අගුළු හැරීම භාවිත කරන්න</string>
+    <string name="security_settings_face_settings_enroll">මුහුණෙන් අගුළු හැරීම පිහිටුවන්න</string>
+    <string name="security_settings_face_settings_footer">"ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි, යෙදුම්වල ඔබගේ අනන්‍යතාව තහවුරු කිරීම සඳහා ඔබගේ මුහුණ භාවිත කරන්න.
+
+සිතෙහි තබා ගන්න:
+ඔබට වරකට එක් මුහුණක් පමණක් පිහිටුවිය හැකිය. තවත් මුහුණක් එක් කිරීමට, වත්මන් මුහුණ මකන්න.
+
+දුරකථනය දෙස බැලීම ඔබ එය අගුලු හැරීමට අදහස් නොකරන විට අගුලු හැරිය හැකිය.
+
+ඔබගේ දුරකථනය ඔබගේ මුහුණට ඇල්ලුවහොත් වෙනත් කෙනෙකු විසින් අගුලු හරිනු ලැබිය හැකිය.
+
+ඔබගේ දුරකථනය බොහෝ දුරට ඔබ මෙන් පෙනෙන, එනම් සර්වසම සහෝදර සහෝදරියක් වැනි කෙනෙකු විසින් අගුලු හැරිය හැකිය."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"ඔබගේ දුරකථනය අගුලු හැරීමට හෝ ඔබ පුරන විට හෝ මිලදී ගැනීමක් අනුමත කරන විට වැනි, යෙදුම්වල ඔබගේ අනන්‍යතාව තහවුරු කිරීම සඳහා ඔබගේ මුහුණ භාවිත කරන්න.
+
+සිතෙහි තබා ගන්න:
+ඔබට වරකට එක් මුහුණක් පමණක් පිහිටුවිය හැකිය. තවත් මුහුණක් එක් කිරීමට, වත්මන් මුහුණ මකන්න.
+
+දුරකථනය දෙස බැලීම ඔබ එය අගුලු හැරීමට අදහස් නොකරන විට අගුලු හැරිය හැකිය.
+
+ඔබගේ දුරකථනය ඔබගේ මුහුණට ඇල්ලුවහොත්, ඔබ ඇස් පියාගෙන සිටියදී පවා වෙනත් කෙනෙකු විසින් අගුලු හරිනු ලැබිය හැකිය.
+
+ඔබගේ දුරකථනය බොහෝ දුරට ඔබ මෙන් පෙනෙන, එනම් සර්වසම සහෝදර සහෝදරියක් වැනි කෙනෙකු විසින් අගුලු හැරිය හැකිය."</string>
+    <string name="security_settings_face_settings_preferences_category">මුහුණෙන් අගුළු හැරීම භාවිත කරන විට</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"ඔබගේ මුහුණු ආකෘතිය ස්ථිරව හා ආරක්ෂිතව මකනු ඇත.
+
+මැකීමෙන් පසුව, ඔබගේ දුරකථනය අගුලු හැරීමට හෝ යෙදුම්වල සත්‍යාපනය සඳහා ඔබගේ PIN, රටාව හෝ මුරපදය අවශ්‍ය වේ."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"ඔබගේ මුහුණු ආකෘතිය ස්ථිරව සහ ආරක්ෂිතව මකනු ඇත.
+
+මැකීමෙන් පසුව, ඔබගේ දුරකථනය අගුලු හැරීමට ඔබට ඔබගේ PIN, රටාව හෝ මුරපදය අවශ්‍ය වනු ඇත."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">මුහුණු ආකෘතිය මකන්නද?</string>
+    <string name="security_settings_face_settings_remove_face_model">මුහුණු ආකෘතිය මකන්න</string>
+    <string name="security_settings_face_settings_require_attention">ඇස් විවෘතව තිබීම අවශ්‍යයි</string>
+    <string name="security_settings_face_settings_require_attention_details">දුරකථනය අඟුලු ඇරීමට, ඔබේ ඇස් විවෘත විය යුතුමයි</string>
+    <string name="security_settings_face_settings_require_confirmation">සැම විට තහවුරු කිරීම අවශ්‍යයි</string>
+    <string name="security_settings_face_settings_require_confirmation_details">යෙදුම්වල මුහුණු අගුලු හැ. භාවිතයේදී, සැම විට තහවුරු කි. පියවර අවශ්‍යයි</string>
+    <string name="security_settings_face_settings_use_face_category">මුහුණු අගුළු ඇරීම භාවිතා කරන්න</string>
+</resources>

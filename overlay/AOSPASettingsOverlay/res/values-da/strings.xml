@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Tillad ansigtslås</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Udfør</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Hvis hjælpefunktionen ansigtslås er deaktiveret, fungerer nogle konfigurationstrin muligvis ikke korrekt via TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Gå tilbage</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Fortsæt konfig.</string>
+    <string name="security_settings_face_enroll_education_message">På den næste skærm skal du dreje hovedet, så dit ansigt scannes fra alle vinkler</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Gå til næste skærm, og hold din telefon i øjenhøjde</string>
+    <string name="security_settings_face_enroll_education_start">Start</string>
+    <string name="security_settings_face_enroll_education_title">Sådan konfigurerer du ansigtslås</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Konfigurer ansigtslås</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Brug dit ansigt til godkendelse</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Spring over</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Scanningen kunne ikke gennemføres</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Ansigtsscanningen mislykkedes.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Tidsgrænsen for ansigtsscanning blev overskredet. Prøv igen.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigurationen af ansigtslås fik timeout</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Nu kan du bruge ansigtsgenkendelse til at låse din telefon op eller bekræfte din identitet, f.eks. når du logger ind i apps eller godkender et køb</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Når du tager din telefon i hånden eller trykker på skærmen, kan du nu bruge ansigtsgenkendelse til at låse telefonen op.
+
+Ansigtslås fungerer bedst, hvis du er på et sted med tilstrækkeligt lys, og du ikke dækker dele af dit ansigt, f.eks. med et par briller med mørke glas."</string>
+    <string name="security_settings_face_enroll_finish_title">Det ser fint ud!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Slet din aktuelle ansigtsmodel for at konfigurere ansigtslåsen igen.
+
+Din ansigtsmodel slettes permanent og forsvarligt.
+
+Efter sletningen skal du bruge din pinkode, dit mønster eller din adgangskode til at låse telefonen op eller til godkendelse i apps."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Slet din aktuelle ansigtsmodel for at konfigurere ansigtslåsen igen.
+
+Din ansigtsmodel slettes permanent og forsvarligt.
+
+Efter sletningen skal du bruge dit fingeraftryk, din pinkode, dit mønster eller din adgangskode til at låse telefonen op eller til godkendelse i apps."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Konfigurer ansigtslås</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Syns- og bevægelseshæmmede</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Når du bruger ansigtslås, skal dit hoved muligvis være mere direkte foran telefonen.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Kræver, at du holder øjnene åbne</string>
+    <string name="security_settings_face_enroll_introduction_agree">Acceptér</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Annuller</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">En ansigtslås kan være mindre sikker end et stærkt mønster eller en stærk pinkode.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Tillad, at dit barn bruger ansigtet til at låse sin telefon op</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Du og dit barn kan til enhver tid slette barnets ansigtsmodel eller deaktivere ansigtslås i Indstillinger. Ansigtsmodeller gemmes på telefonen, indtil de slettes.
+
+Få flere oplysninger på g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Du og dit barn har kontrollen</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Du kan til enhver tid slette din ansigtsmodel eller deaktivere ansigtslås i Indstillinger. Ansigtsmodeller gemmes på telefonen, indtil du sletter dem.
+
+Få flere oplysninger på g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Du bestemmer</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Ansigtslåsen opretter en unik model af dit barns ansigt, så dit barns identitet kan bekræftes. For at oprette denne ansigtsmodel under konfigurationen skal dit barn tage billeder af sit ansigt fra forskellige vinkler.
+
+Når dit barn bruger ansigtslås, bruges billederne til at opdatere barnets ansigtsmodel. De billeder, der bruges til at oprette dit barns ansigtsmodel, gemmes aldrig, men ansigtsmodellen gemmes på sikker vis på barnets telefon, og den forlader aldrig telefonen. Al behandling sker på sikker vis på telefonen."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Ansigtslåsen opretter en unik model af dit ansigt, så din identitet kan bekræftes. For at oprette denne ansigtsmodel under konfigurationen skal du tage billeder af dit ansigt fra forskellige vinkler.
+
+Når du bruger ansigtslås, bruges billederne til at opdatere din ansigtsmodel. De billeder, der bruges til at oprette din ansigtsmodel, gemmes aldrig, men ansigtsmodellen gemmes på sikker vis på din telefon, og den forlader aldrig telefonen. Al behandling sker på sikker vis på din telefon."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Sådan fungerer det</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Ansigtslås kan kræve, at dit barns øjne skal være åbne for at låse telefonen op eller bekræfte barnets identitet. Du og dit barn kan til enhver tid aktivere denne valgmulighed i Indstillinger.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Hvis dit barn normalt bruger briller, må barnet gerne have brillerne på under konfigurationen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">En ansigtslås kan være mindre sikker end et stærkt mønster eller en stærk pin- eller adgangskode</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Dit barn kan komme til at låse telefonen op, selv hvis det ikke er meningen. Barnets telefon kan også låses op af andre, der ligner barnet, f.eks. en tvilling. Den kan også låses op, hvis nogen holder telefonen op foran dit barns ansigt.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Ansigtslås kan kræve, at dine øjne skal være åbne for at låse telefonen op eller bekræfte din identitet. Du kan til enhver tid aktivere denne valgmulighed i Indstillinger.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Briller eller solbriller med lyse glas accepteres.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">En ansigtslås kan være mindre sikker end et stærkt mønster eller en stærk pin- eller adgangskode</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Du kan komme til at låse telefonen op, hvis du kigger på den. Din telefon kan låses op af andre, der ligner dig meget, f.eks. en tvilling. Den kan også låses op, hvis nogen holder telefonen op foran dit ansigt.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Husk!</string>
+    <string name="security_settings_face_enroll_introduction_message">Brug dit ansigt til at låse din telefon op eller bekræfte din identitet, f.eks. når du logger ind i apps eller godkender et køb.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Brug dit ansigt til at låse din telefon op, godkende køb og logge ind i apps</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Lås din telefon op eller godkend køb ved hjælp af dit ansigt.
+
+Bemærk! Du kan ikke bruge dit ansigt til at låse denne enhed op. Kontakt administratoren for din organisation for at få flere oplysninger."</string>
+    <string name="security_settings_face_enroll_introduction_more">Mere</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nej tak</string>
+    <string name="security_settings_face_enroll_introduction_title">Konfigurer ansigtslås</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Brug dit ansigt til godkendelse</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Gør sikkerheden og registreringen bedre</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Konfigurer ansigtslås igen</string>
+    <string name="security_settings_face_enroll_next">Næste</string>
+    <string name="security_settings_face_enroll_partial_message">Du kan vælge at konfigurere ansigtslås igen i Indstillinger for at forbedre registreringen.</string>
+    <string name="security_settings_face_enroll_partial_start_over">Start forfra</string>
+    <string name="security_settings_face_enroll_partial_title">Konfigurationen af ansigtslås er afsluttet</string>
+    <string name="security_settings_face_enroll_repeat_title">Centrer dit ansigt i cirklen</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Konfigurer ansigtslås igen</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Gør ansigtslåsens registrering mere effektiv</string>
+    <string name="security_settings_face_enroll_timeout_message">"Prøv hurtig konfiguration i stedet. Vær opmærksom på, at det kan være nødvendigt at holde ansigtet mere direkte foran telefonen, når du bruger ansigtslås.
+
+Du kan vælge at konfigurere ansigtslås igen i Indstillinger for at forbedre registreringen."</string>
+    <string name="security_settings_face_enroll_timeout_title">Konfigurationen kan ikke fortsætte</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Prøv igen</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Brug den hurtige konfiguration</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Luk konfiguration</string>
+    <string name="security_settings_face_enroll_too_hot_message">Konfigurationen af ansigtslås kan ikke gennemføres, da telefonen er for varm. Prøv igen senere, når telefonen er kølet ned.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Udelad ansigtslås</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefonen er for varm</string>
+    <string name="security_settings_face_preference_summary">Ansigt tilføjet</string>
+    <string name="security_settings_face_preference_summary_none">Tryk for at konfigurere ansigtslås</string>
+    <string name="security_settings_face_preference_title">Ansigtslås</string>
+    <string name="security_settings_face_profile_preference_title">Ansigtslås til arbejdet</string>
+    <string name="security_settings_face_settings_context_subtitle">Brug ansigtslås til at låse din telefon op</string>
+    <string name="security_settings_face_settings_enroll">Konfigurer ansigtslås</string>
+    <string name="security_settings_face_settings_footer">"Brug dit ansigt til at låse din telefon op eller til godkendelse i apps, f.eks. ved login eller godkendelse af et køb.
+
+Husk!
+Du kan kun have ét konfigureret ansigt ad gangen. Før du kan tilføje et nyt ansigt, skal du slette det aktuelle ansigt.
+
+Du kan komme til at låse telefonen op, hvis du kigger på den.
+
+Din telefon kan låses op af en anden, hvis den holdes op foran dit ansigt.
+
+Din telefon kan låses op af en anden, der ligner dig meget, f.eks. en bror eller søster."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Brug dit ansigt til at låse din telefon op eller til godkendelse i apps, f.eks. ved login eller godkendelse af et køb.
+
+Husk!
+Du kan kun have ét konfigureret ansigt ad gangen. Før du kan tilføje et nyt ansigt, skal du slette det aktuelle ansigt.
+
+Du kan komme til at låse telefonen op, hvis du kigger på den.
+
+Din telefon kan låses op af en anden, hvis den holdes op foran dit ansigt, også selvom dine øjne er lukkede.
+
+Din telefon kan låses op af en anden, der ligner dig meget, f.eks. en bror eller søster."</string>
+    <string name="security_settings_face_settings_preferences_category">Når du bruger ansigtslås</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Din ansigtsmodel slettes permanent og på sikker vis.
+
+Når den er slettet, skal du bruge dit fingeraftryk, din pinkode, dit mønster eller din adgangskode til at låse din telefon op eller til godkendelse i apps."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Din ansigtsmodel slettes permanent og på sikker vis.
+
+Når den er slettet, skal du bruge dit fingeraftryk, din pinkode, dit mønster eller din adgangskode til at låse din telefon op."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Skal ansigtsmodellen slettes?</string>
+    <string name="security_settings_face_settings_remove_face_model">Slet ansigtsmodel</string>
+    <string name="security_settings_face_settings_require_attention">Kræv, at øjnene skal være åbne</string>
+    <string name="security_settings_face_settings_require_attention_details">Din øjne skal være åbne for at låse telefonen op</string>
+    <string name="security_settings_face_settings_require_confirmation">Bed altid om bekræftelse</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Kræv altid et bekræftelsestrin ved brug af ansigtslås i apps</string>
+    <string name="security_settings_face_settings_use_face_category">Brug ansigtslås til</string>
+</resources>

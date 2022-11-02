@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Lejo \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_enroll_dialog_ok">Në rregull</string>
+    <string name="security_settings_face_enroll_done">U krye</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Nëse \"Shkyçja me fytyrë\" për qasshmëri është e çaktivizuar, disa hapa konfigurimi mund të mos funksionojnë mirë me TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Kthehu pas</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Vazhdo konfigurimin</string>
+    <string name="security_settings_face_enroll_education_message">Në ekranin tjetër, rrotullo kokën për të regjistruar të gjitha këndet e fytyrës sate</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Në ekranin tjetër mbaje telefonin në nivelin e syve</string>
+    <string name="security_settings_face_enroll_education_start">Nis</string>
+    <string name="security_settings_face_enroll_education_title">Si të konfigurosh \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Konfiguro \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Përdor fytyrën për të vërtetuar</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Kapërce</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Regjistrimi nuk përfundoi</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Regjistrimi me fytyrë nuk funksionoi.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">U arrit afati i regjistrimit. Provo sërish.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigurimit të \"Shkyçjes me fytyrë\" i mbaroi koha</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Tani mund të përdorësh fytyrën tënde për të shkyçur telefonin ose për të verifikuar që je ti, p.sh. kur identifikohesh në aplikacione ose kur miraton një blerje</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Tani kur ngre telefonin ose troket ekranin, mund të përdorësh fytyrën tënde për ta shkyçur.
+
+\"Shkyçja me fytyrë\" funksionon më mirë kur ka mjaftueshëm ndriçim dhe nuk ke vënë një maskë ose syze të errëta."</string>
+    <string name="security_settings_face_enroll_finish_title">Duket mirë!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Fshi modelin tënd aktual të fytyrës për të konfiguruar përsëri \"Shkyçjen me fytyrë\".
+
+Modeli yt i fytyrës do të fshihet përfundimisht dhe në mënyrë të sigurt.
+
+Pas fshirjes do të të duhet kodi yt PIN, motivi ose fjalëkalimi për të shkyçur telefonin ose për vërtetim në aplikacione."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Fshi modelin tënd aktual të fytyrës për të konfiguruar përsëri \"Shkyçjen me fytyrë\".
+
+Modeli yt i fytyrës do të fshihet përfundimisht dhe në mënyrë të sigurt.
+
+Pas fshirjes do të të duhet gjurma jote e gishtit, kodi PIN, motivi ose fjalëkalimi për të shkyçur telefonin ose për vërtetim në aplikacione."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Konfiguro \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Konfiguro për kufizime me shikimin ose lëvizjen e kokës</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kur përdor \"Skyçjen me fytyrë\", mund të jetë e nevojshme që koka jote të jetë më direkt përpara telefonit tënd.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Kërko sy të hapur</string>
+    <string name="security_settings_face_enroll_introduction_agree">Pranoj</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Anulo</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Përdorimi i fytyrës së fëmijës për të shkyçur telefonin e tij mund të jetë më pak i sigurt sesa një motiv apo një kod PIN i fortë.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Lejo fëmijën të përdorë fytyrën për të shkyçur telefonin e tij</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Ti dhe fëmija yt mund ta fshini modelin e fytyrës së tij ose ta çaktivizoni \"Shkyçjen me fytyrë\" në çdo kohë te \"Cilësimet\". Modelet e fytyrës ruhen në telefon deri kur të fshihen.
+
+Mëso më shumë te g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Kontrollin e ke ti dhe fëmija yt</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Mund ta fshish modelin e fytyrës sate ose ta çaktivizosh \"Shkyçjen me fytyrë\" në çdo kohë te \"Cilësimet\". Modelet e fytyrës ruhen në telefon derisa t'i fshish.
+
+Mëso më shumë te g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Kontrolli është në duart e tua</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"\"Shkyçja me fytyrë\" krijon një model unik të fytyrës së fëmijës tënd për të verifikuar që është ai. Për ta krijuar këtë model të fytyrës gjatë konfigurimit, fëmija nxjerr imazhe të fytyrës së tij nga kënde të ndryshme.
+
+Kur të përdorë \"Shkyçjen me fytyrë\", imazhet përdoren për të përditësuar modelin e fytyrës së tij. Imazhet e përdorura për të krijuar modelin e fytyrës së tij nuk ruhen, por modeli i fytyrës ruhet në mënyrë të sigurt në telefon dhe nuk largohet asnjëherë nga telefoni. I gjithë përpunimi ndodh në mënyrë të sigurt në telefon."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"\"Shkyçja me fytyrë\" krijon një model unik të fytyrës sate për të verifikuar që je ti. Për ta krijuar këtë model të fytyrës gjatë konfigurimit, do të nxjerrësh imazhe të fytyrës sate nga kënde të ndryshme.
+
+Kur të përdorësh \"Shkyçjen me fytyrë\", imazhet përdoren për të përditësuar modelin e fytyrës sate. Imazhet e përdorura për të krijuar modelin e fytyrës sate nuk ruhen, por modeli i fytyrës sate ruhet në mënyrë të sigurt në telefonin tënd dhe nuk largohet asnjëherë nga telefoni. I gjithë përpunimi ndodh në mënyrë të sigurt në telefonin tënd."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Si funksionon</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">\"Shkyçja me fytyrë\" mund të kërkojë që sytë e fëmijës tënd të jenë të hapur për të shkyçur telefonin ose për të verifikuar që është ai fëmijë. Ti dhe fëmija yt mund ta aktivizoni këtë opsion në çdo kohë te \"Cilësimet\".</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">"Nëse fëmija yt normalisht mban syze, mund t'i mbajë dhe gjatë konfigurimit."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Përdorimi i fytyrës së fëmijës për të shkyçur telefonin e tij mund të jetë më pak i sigurt sesa një motiv, kod PIN apo fjalëkalim i fortë.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Shikimi drejt telefonit mund ta shkyçë këtë edhe nëse fëmija nuk ka për qëllim ta bëjë. Telefoni i tij mund të shkyçet dhe nga dikush që i ngjan shumë, si p.sh. një binjak identik, ose nëse dikush ia mban telefonin në nivelin e fytyrës.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">\"Shkyçja me fytyrë\" mund të kërkojë që sytë e tu të jenë të hapur për të shkyçur telefonin ose për të verifikuar që je ti. Mund ta aktivizosh këtë opsion në çdo kohë te \"Cilësimet\".</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Syzet optike dhe syzet e diellit me nuancë të lehtë janë të pranueshme.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Përdorimi i fytyrës për të shkyçur telefonin mund të jetë më pak i sigurt se një motiv i fortë, kod PIN ose fjalëkalim</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Shikimi te telefoni mund ta shkyçë atë edhe nëse nuk ke për qëllim një gjë të tillë. Telefoni yt mund të shkyçet dhe nga dikush që të ngjan shumë, si p.sh. një binjak identik, ose nëse dikush e mban telefonin në nivelin e fytyrës sate.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Mbaje mend</string>
+    <string name="security_settings_face_enroll_introduction_message">Përdor fytyrën tënde për të shkyçur telefonin tënd ose për të verifikuar që je ti, si p.sh. kur identifikohesh në aplikacione ose kur miraton një blerje.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">"Përdor fytyrën për të shkyçur telefonin, për të autorizuar blerjet ose për t'u identifikuar në aplikacione"</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Përdor fytyrën për të shkyçur telefonin ose për të miratuar blerjet.
+
+Shënim. Nuk mund ta përdorësh fytyrën tënde për të shkyçur këtë pajisje. Për më shumë informacione, kontakto me administratorin e organizatës sate."</string>
+    <string name="security_settings_face_enroll_introduction_more">Më shumë</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Jo, faleminderit</string>
+    <string name="security_settings_face_enroll_introduction_title">Konfiguro \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Përdor fytyrën për të vërtetuar</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Përmirëso sigurinë dhe cilësinë e funksionimit</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Konfiguro \"Shkyçjen me fytyrë\" përsëri</string>
+    <string name="security_settings_face_enroll_next">Para</string>
+    <string name="security_settings_face_enroll_partial_message">Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçjen me fytyrë\" përsëri te \"Cilësimet\"</string>
+    <string name="security_settings_face_enroll_partial_start_over">Fillo nga e para</string>
+    <string name="security_settings_face_enroll_partial_title">Konfigurimi i \"Shkyçjes me fytyrë\" përfundoi</string>
+    <string name="security_settings_face_enroll_repeat_title">Mbaje fytyrën në mes të rrethit</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Konfiguro \"Shkyçjen me fytyrë\" përsëri</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Përmirëso cilësinë e funksionimit të \"Shkyçjes me fytyrë\"</string>
+    <string name="security_settings_face_enroll_timeout_message">"Provo më mirë konfigurimin e shpejtë. Ki parasysh se kur përdor \"Shkyçjen me fytyrë\", mund të jetë e nevojshme që koka jote të jetë më drejtpërdrejt përpara telefonit tënd.
+
+Për të përmirësuar cilësinë e funksionimit, mund ta konfigurosh \"Shkyçjen me fytyrë\" përsëri te \"Cilësimet\"."</string>
+    <string name="security_settings_face_enroll_timeout_title">Konfigurimi nuk mund të vazhdojë</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Provo përsëri</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Përdor konfigurimin e shpejtë</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Dil nga konfigurimi</string>
+    <string name="security_settings_face_enroll_too_hot_message">Konfigurimi i \"Shkyçjes me fytyrë\" nuk mund të kryhet për shkak se telefoni është tepër i nxehtë. Provo përsëri më vonë kur telefoni të ftohet.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Kapërce \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefoni është tepër i nxehtë</string>
+    <string name="security_settings_face_preference_summary">Fytyra u shtua</string>
+    <string name="security_settings_face_preference_summary_none">Trokit për të konfiguruar fytyrën</string>
+    <string name="security_settings_face_preference_title">Shkyçja me fytyrë</string>
+    <string name="security_settings_face_profile_preference_title">\"Shkyçja me fytyrë\" për profilin e punës</string>
+    <string name="security_settings_face_settings_context_subtitle">Përdor \"Shkyçjen me fytyrë\" për të shkyçur telefonin tënd</string>
+    <string name="security_settings_face_settings_enroll">Konfiguro \"Shkyçjen me fytyrë\"</string>
+    <string name="security_settings_face_settings_footer">"Përdor fytyrën tënde për të shkyçur telefonin ose për vërtetim në aplikacione, si p.sh. kur identifikohesh apo miraton një blerje.
+
+Ki parasysh:
+Mund të konfigurosh vetëm një fytyrë për rast. Për të shtuar një fytyrë tjetër, fshi fytyrën aktuale.
+
+Nëse shikon nga telefoni, mund ta shkyçësh pa dashje.
+
+Telefoni yt mund të shkyçet nga dikush tjetër nëse mbahet në nivelin e fytyrës.
+
+Telefoni mund të shkyçet nga dikush që të ngjan shumë, si p.sh. një binjak identik."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Përdor fytyrën tënde për të shkyçur telefonin ose për vërtetim në aplikacione, si p.sh. kur identifikohesh apo miraton një blerje.
+
+Ki parasysh:
+Mund të konfigurosh vetëm një fytyrë për rast. Për të shtuar një fytyrë tjetër, fshi fytyrën aktuale.
+
+Nëse shikon nga telefoni, mund ta shkyçësh pa dashje.
+
+Telefoni yt mund të shkyçet nga dikush tjetër nëse mbahet në nivelin e fytyrës edhe sikur t'i kesh mbyllur sytë.
+
+Telefoni mund të shkyçet nga dikush që të ngjan shumë, si p.sh. një binjak identik."</string>
+    <string name="security_settings_face_settings_preferences_category">Kur përdoret \"Shkyçja me fytyrë\"</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Modeli yt i fytyrës do të fshihet përgjithmonë dhe në mënyrë të sigurt.
+
+Pas fshirjes, do të të duhet kodi yt PIN, motivi ose fjalëkalimi për të shkyçur telefonin ose për vërtetimin në aplikacione."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Modeli yt i fytyrës do të fshihet përgjithmonë dhe në mënyrë të sigurt.
+
+Pas fshirjes, do të të duhet kodi yt PIN, motivi ose fjalëkalimi për të shkyçur telefonin."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Të fshihet modeli i fytyrës?</string>
+    <string name="security_settings_face_settings_remove_face_model">Fshi modelin e fytyrës</string>
+    <string name="security_settings_face_settings_require_attention">Kërkon që sytë të jenë të hapur</string>
+    <string name="security_settings_face_settings_require_attention_details">Për ta shkyçur telefonin, sytë e tu duhet të jenë të hapur</string>
+    <string name="security_settings_face_settings_require_confirmation">Kërko gjithmonë konfirmimin</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Kërko gjithmonë hapin e konfirmimit kur përdor \"Shkyçjen me fytyrë\" në aplikacione</string>
+    <string name="security_settings_face_settings_use_face_category">Përdor \"Shkyçjen me fytyrë\" për</string>
+</resources>

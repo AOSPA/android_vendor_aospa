@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">[Åļļöŵ ƒåçé ûñļöçķ one two three]</string>
+    <string name="security_settings_face_enroll_dialog_ok">[ÖĶ one]</string>
+    <string name="security_settings_face_enroll_done">[Ðöñé one]</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">[Îƒ åççéššîɓîļîţý Fåçé Ûñļöçķ îš ţûŕñéð öƒƒ, šöḿé šéţûþ šţéþš ḿåý ñöţ ŵöŕķ þŕöþéŕļý ŵîţĥ Ţåļķβåçķ. one two three four five six seven eight nine ten eleven]</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">[Ĝö ɓåçķ one two]</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">[Çöñţîñûé šéţûþ one two three]</string>
+    <string name="security_settings_face_enroll_education_message">[]</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">[]</string>
+    <string name="security_settings_face_enroll_education_start">[Šţåŕţ one]</string>
+    <string name="security_settings_face_enroll_education_title">[Ĥöŵ ţö šéţ ûþ Fåçé Ûñļöçķ one two three]</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">[Šéţ ûþ Fåçé Ûñļöçķ one two three]</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">[Ûšé ýöûŕ ƒåçé ţö åûţĥéñţîçåţé one two three four]</string>
+    <string name="security_settings_face_enroll_enrolling_skip">[Šķîþ one]</string>
+    <string name="security_settings_face_enroll_error_dialog_title">[Éñŕöļļḿéñţ ŵåš ñöţ çöḿþļéţéð one two three four]</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">"[Fåçé éñŕöļļḿéñţ ðîðñ'ţ ŵöŕķ. one two three four]"</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">[Fåçé éñŕöļļḿéñţ ţîḿé ļîḿîţ ŕéåçĥéð. Ţŕý åĝåîñ. one two three four five six]</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">[Fåçé Ûñļöçķ šéţûþ ţîḿéð öûţ one two three four]</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">[Ñöŵ ýöû çåñ ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé öŕ Véŕîƒý îţ’š ýöû, ļîķé ŵĥéñ ýöû šîĝñ îñ ţö åþþš öŕ åþþŕöVé å þûŕçĥåšé one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"[Ñöŵ ŵĥéñ ýöû þîçķ ûþ ýöûŕ þĥöñé öŕ ţåþ ţĥé šçŕééñ, ýöû çåñ ûšé ýöûŕ ƒåçé ţö ûñļöçķ.
+
+Fåçé Ûñļöçķ ŵöŕķš ɓéšţ ŵĥéñ ţĥéŕé’š éñöûĝĥ ļîĝĥţ åñð ýöû’ŕé ñöţ ŵéåŕîñĝ å ḿåšķ öŕ ðåŕķ ĝļåššéš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve]"</string>
+    <string name="security_settings_face_enroll_finish_title">[Åļļ šéţ. Ļööķîñĝ ĝööð. one two three]</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"[Ðéļéţé ýöûŕ çûŕŕéñţ ƒåçé ḿöðéļ ţö šéţ ûþ Fåçé Ûñļöçķ åĝåîñ.
+
+Ýöûŕ ƒåçé ḿöðéļ ŵîļļ ɓé þéŕḿåñéñţļý åñð šéçûŕéļý ðéļéţéð.
+
+Åƒţéŕ ðéļéţîöñ, ýöû ŵîļļ ñééð ýöûŕ ÞÎÑ, þåţţéŕñ, öŕ þåššŵöŕð ţö ûñļöçķ ýöûŕ þĥöñé öŕ ƒöŕ åûţĥéñţîçåţîöñ îñ åþþš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"[Ðéļéţé ýöûŕ çûŕŕéñţ ƒåçé ḿöðéļ ţö šéţ ûþ Fåçé Ûñļöçķ åĝåîñ.
+
+Ýöûŕ ƒåçé ḿöðéļ ŵîļļ ɓé þéŕḿåñéñţļý åñð šéçûŕéļý ðéļéţéð.
+
+Åƒţéŕ ðéļéţîöñ, ýöû ŵîļļ ñééð ýöûŕ ƒîñĝéŕþŕîñţ, ÞÎÑ, þåţţéŕñ, öŕ þåššŵöŕð ţö ûñļöçķ ýöûŕ þĥöñé öŕ ƒöŕ åûţĥéñţîçåţîöñ îñ åþþš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twent]"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">[Šéţ ûþ Fåçé Ûñļöçķ one two three]</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">[Ûšé åççéššîɓîļîţý šéţûþ one two three]</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity">[]</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">[]</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">[]</string>
+    <string name="security_settings_face_enroll_introduction_agree">[Î åĝŕéé one two]</string>
+    <string name="security_settings_face_enroll_introduction_cancel">[Çåñçéļ one two]</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">[Ûšîñĝ ýöûŕ çĥîļð’š ƒåçé ţö ûñļöçķ ţĥéîŕ þĥöñé ḿåý ɓé ļéšš šéçûŕé ţĥåñ å šţŕöñĝ þåţţéŕñ öŕ ÞÎÑ. one two three four five six seven eight nine ten eleven]</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">[Åļļöŵ ýöûŕ çĥîļð ţö ûšé ţĥéîŕ ƒåçé ţö ûñļöçķ ţĥéîŕ þĥöñé one two three four five six seven]</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">[]</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">[]</string>
+    <string name="security_settings_face_enroll_introduction_control_message">[]</string>
+    <string name="security_settings_face_enroll_introduction_control_title">[]</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">[]</string>
+    <string name="security_settings_face_enroll_introduction_how_message">[]</string>
+    <string name="security_settings_face_enroll_introduction_how_title">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">[]</string>
+    <string name="security_settings_face_enroll_introduction_info_title">[]</string>
+    <string name="security_settings_face_enroll_introduction_message">[Ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé, åûţĥöŕîžé þûŕçĥåšéš, öŕ šîĝñ îñ ţö åþþš. one two three four five six seven eight]</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">[Ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé, åûţĥöŕîžé þûŕçĥåšéš, öŕ šîĝñ îñ ţö åþþš one two three four five six seven eight]</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"[Ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé öŕ åþþŕöVé þûŕçĥåšéš.
+
+Ñöţé: Ýöû çåñ’ţ ûšé ýöûŕ ƒåçé ţö ûñļöçķ ţĥîš ðéVîçé. Föŕ ḿöŕé îñƒöŕḿåţîöñ, çöñţåçţ ýöûŕ öŕĝåñîžåţîöñ’š åðḿîñ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten]"</string>
+    <string name="security_settings_face_enroll_introduction_more">[Ḿöŕé one]</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">[Ñö ţĥåñķš one two]</string>
+    <string name="security_settings_face_enroll_introduction_title">[Ûñļöçķ ŵîţĥ ýöûŕ ƒåçé one two three]</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">[Ûšé ýöûŕ ƒåçé ţö åûţĥéñţîçåţé one two three four]</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">[ÎḿþŕöVé šéçûŕîţý åñð þéŕƒöŕḿåñçé one two three four]</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">[Šéţ ûþ Fåçé Ûñļöçķ åĝåîñ one two three]</string>
+    <string name="security_settings_face_enroll_next">[Ñéхţ one]</string>
+    <string name="security_settings_face_enroll_partial_message">[Ţö îḿþŕöVé þéŕƒöŕḿåñçé, ýöû çåñ šéţ ûþ Fåçé Ûñļöçķ åĝåîñ îñ Šéţţîñĝš one two three four five six seven eight]</string>
+    <string name="security_settings_face_enroll_partial_start_over">[Šţåŕţ öVéŕ one two]</string>
+    <string name="security_settings_face_enroll_partial_title">[Fåçé Ûñļöçķ šéţûþ ƒîñîšĥéð one two three four]</string>
+    <string name="security_settings_face_enroll_repeat_title">[Çéñţéŕ ýöûŕ ƒåçé îñ ţĥé çîŕçļé one two three four]</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">[Šéţ ûþ Fåçé Ûñļöçķ åĝåîñ one two three]</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">[ÎḿþŕöVé Fåçé Ûñļöçķ þéŕƒöŕḿåñçé one two three four]</string>
+    <string name="security_settings_face_enroll_timeout_message">"[Ţŕý ƒåšţ šéţûþ îñšţéåð. Ķééþ îñ ḿîñð, ýöûŕ ĥéåð ḿåý ñééð ţö ɓé ḿöŕé ðîŕéçţļý îñ ƒŕöñţ öƒ ýöûŕ þĥöñé ŵĥéñ ûšîñĝ Fåçé Ûñļöçķ.
+
+Ţö îḿþŕöVé þéŕƒöŕḿåñçé, ýöû çåñ šéţ ûþ Fåçé Ûñļöçķ åĝåîñ îñ Šéţţîñĝš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen]"</string>
+    <string name="security_settings_face_enroll_timeout_title">[Çåñ’ţ çöñţîñûé šéţûþ one two three]</string>
+    <string name="security_settings_face_enroll_timeout_try_again">[Ţŕý åĝåîñ one two]</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">[Ûšé ƒåšţ šéţûþ one two three]</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">[Éхîţ šéţûþ one two]</string>
+    <string name="security_settings_face_enroll_too_hot_message">[Fåçé Ûñļöçķ šéţûþ çåñ’ţ ɓé çöḿþļéţéð ɓéçåûšé ţĥé þĥöñé îš ţöö ĥöţ. Ţŕý åĝåîñ ļåţéŕ ŵĥéñ ţĥé þĥöñé çööļš ðöŵñ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen]</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">[Šķîþ Fåçé Ûñļöçķ one two three]</string>
+    <string name="security_settings_face_enroll_too_hot_title">[Þĥöñé îš ţöö ĥöţ one two three]</string>
+    <string name="security_settings_face_preference_summary">[Fåçé åððéð one two]</string>
+    <string name="security_settings_face_preference_summary_none">[Ţåþ ţö šéţ ûþ ƒåçé one two three]</string>
+    <string name="security_settings_face_preference_title">[Fåçé Ûñļöçķ one two]</string>
+    <string name="security_settings_face_profile_preference_title">[Fåçé Ûñļöçķ ƒöŕ ŵöŕķ one two three]</string>
+    <string name="security_settings_face_settings_context_subtitle">[Ûšé Fåçé Ûñļöçķ ţö ûñļöçķ ýöûŕ þĥöñé one two three four five]</string>
+    <string name="security_settings_face_settings_enroll">[Šéţ ûþ Fåçé Ûñļöçķ one two three]</string>
+    <string name="security_settings_face_settings_footer">"[Ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé öŕ ƒöŕ åûţĥéñţîçåţîöñ îñ åþþš, ļîķé ŵĥéñ ýöû šîĝñ îñ öŕ åþþŕöVé å þûŕçĥåšé.
+
+Ķééþ îñ ḿîñð:
+Ýöû çåñ öñļý ĥåVé öñé ƒåçé šéţ ûþ åţ å ţîḿé. Ţö åðð åñöţĥéŕ ƒåçé, ðéļéţé ţĥé çûŕŕéñţ öñé.
+
+Ļööķîñĝ åţ ţĥé þĥöñé çåñ ûñļöçķ îţ ŵĥéñ ýöû ðöñ’ţ îñţéñð ţö.
+
+Ýöûŕ þĥöñé çåñ ɓé ûñļöçķéð ɓý šöḿéöñé éļšé îƒ îţ’š ĥéļð ûþ ţö ýöûŕ ƒåçé.
+
+Ýöûŕ þĥöñé çåñ ɓé ûñļöçķéð ɓý šöḿéöñé ŵĥö ļööķš å ļöţ ļîķé ýöû, ļîķé åñ îðéñţîçåļ šîɓļîñĝ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen]"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"[Ûšé ýöûŕ ƒåçé ţö ûñļöçķ ýöûŕ þĥöñé öŕ ƒöŕ åûţĥéñţîçåţîöñ îñ åþþš, ļîķé ŵĥéñ ýöû šîĝñ îñ öŕ åþþŕöVé å þûŕçĥåšé.
+
+Ķééþ îñ ḿîñð:
+Ýöû çåñ öñļý ĥåVé öñé ƒåçé šéţ ûþ åţ å ţîḿé. Ţö åðð åñöţĥéŕ ƒåçé, ðéļéţé ţĥé çûŕŕéñţ öñé.
+
+Ļööķîñĝ åţ ţĥé þĥöñé çåñ ûñļöçķ îţ ŵĥéñ ýöû ðöñ’ţ îñţéñð ţö.
+
+Ýöûŕ þĥöñé çåñ ɓé ûñļöçķéð ɓý šöḿéöñé éļšé îƒ îţ’š ĥéļð ûþ ţö ýöûŕ ƒåçé, éVéñ îƒ ýöûŕ éýéš åŕé çļöšéð.
+
+Ýöûŕ þĥöñé çåñ ɓé ûñļöçķéð ɓý šöḿéöñé ŵĥö ļööķš å ļöţ ļîķé ýöû, ļîķé åñ îðéñţîçåļ šîɓļîñĝ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen]"</string>
+    <string name="security_settings_face_settings_preferences_category">[Ŵĥéñ ûšîñĝ Fåçé Ûñļöçķ one two three]</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"[Ýöûŕ ƒåçé ḿöðéļ ŵîļļ ɓé þéŕḿåñéñţļý åñð šéçûŕéļý ðéļéţéð.
+
+Åƒţéŕ ðéļéţîöñ, ýöû ŵîļļ ñééð ýöûŕ ÞÎÑ, þåţţéŕñ, öŕ þåššŵöŕð ţö ûñļöçķ ýöûŕ þĥöñé öŕ ƒöŕ åûţĥéñţîçåţîöñ îñ åþþš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten]"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"[Ýöûŕ ƒåçé ḿöðéļ ŵîļļ ɓé þéŕḿåñéñţļý åñð šéçûŕéļý ðéļéţéð.
+
+Åƒţéŕ ðéļéţîöñ, ýöû ŵîļļ ñééð ýöûŕ ÞÎÑ, þåţţéŕñ, öŕ þåššŵöŕð ţö ûñļöçķ ýöûŕ þĥöñé. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four]"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">[Ðéļéţé ƒåçé ḿöðéļ¿ one two three]</string>
+    <string name="security_settings_face_settings_remove_face_model">[Ðéļéţé ƒåçé ḿöðéļ one two three]</string>
+    <string name="security_settings_face_settings_require_attention">[ŔéQûîŕé éýéš ţö ɓé öþéñ one two three]</string>
+    <string name="security_settings_face_settings_require_attention_details">[Ţö ûñļöçķ ţĥé þĥöñé, ýöûŕ éýéš ḿûšţ ɓé öþéñ one two three four five]</string>
+    <string name="security_settings_face_settings_require_confirmation">[Åļŵåýš ŕéQûîŕé çöñƒîŕḿåţîöñ one two three four]</string>
+    <string name="security_settings_face_settings_require_confirmation_details">[Ŵĥéñ ûšîñĝ Fåçé Ûñļöçķ îñ åþþš, åļŵåýš ŕéQûîŕé çöñƒîŕḿåţîöñ šţéþ one two three four five six seven]</string>
+    <string name="security_settings_face_settings_use_face_category">[Ûšé Fåçé Ûñļöçķ ƒöŕ one two three]</string>
+</resources>

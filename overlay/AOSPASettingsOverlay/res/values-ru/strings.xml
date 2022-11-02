@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Разрешите фейсконтроль</string>
+    <string name="security_settings_face_enroll_dialog_ok">ОК</string>
+    <string name="security_settings_face_enroll_done">Готово</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Если упрощенная настройка фейсконтроля отключена, некоторые действия при работе с TalkBack могут выполняться некорректно.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Назад</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Продолжить настройку</string>
+    <string name="security_settings_face_enroll_education_message">Когда откроется следующий экран, поверните голову из стороны в сторону, чтобы сделать снимки лица со всех ракурсов.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Когда откроется следующий экран, держите телефон на уровне глаз.</string>
+    <string name="security_settings_face_enroll_education_start">Начать</string>
+    <string name="security_settings_face_enroll_education_title">Как настроить фейсконтроль</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Настройка фейсконтроля</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Используйте распознавание лица для аутентификации</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Пропустить</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Лицо не добавлено</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Не удалось добавить лицо.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Превышено время ожидания. Повторите попытку.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Время настройки фейсконтроля вышло</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Теперь вы можете использовать фейсконтроль, чтобы разблокировать телефон и подтверждать свою личность, например для входа в приложения и одобрения покупок.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Теперь вы можете разблокировать телефон с помощью фейсконтроля.
+
+Лучше всего эта функция работает, когда освещение хорошее и ваше лицо ничем не закрыто."</string>
+    <string name="security_settings_face_enroll_finish_title">Отлично!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Удалите модель лица и настройте фейсконтроль ещё раз.
+
+Модель лица будет удалена навсегда.
+
+После этого для разблокировки телефона и аутентификации в приложениях нужно будет вводить PIN-код, пароль или графический ключ."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Удалите модель лица и настройте фейсконтроль ещё раз.
+
+Модель лица будет удалена навсегда.
+
+После этого для разблокировки телефона и аутентификации в приложениях нужно будет использовать отпечаток пальца, PIN-код, пароль или графический ключ."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Настройка фейсконтроля</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Учесть ограниченные возможности</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Для разблокировки с помощью фейсконтроля ваше лицо должно будет находиться прямо напротив экрана телефона.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Глаза должны быть открыты</string>
+    <string name="security_settings_face_enroll_introduction_agree">Принять</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Отмена</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Распознавание лица на телефоне вашего ребенка может обеспечивать менее надежную защиту, чем графический ключ или PIN-код.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Разрешите ребенку разблокировать его телефон с помощью фейсконтроля.</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Вы и ваш ребенок в любой момент можете удалить модель лица или отключить фейсконтроль в настройках. Модель лица будет храниться на телефоне, пока вы не удалите ее.
+
+Подробная информация приведена на странице g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Теперь доступ есть у вас и вашего ребенка</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Вы можете в любой момент удалить модель лица или отключить фейсконтроль в настройках. Модель лица будет храниться на телефоне, пока вы не удалите ее.
+
+Подробная информация приведена на странице g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Настройки безопасности</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Функция фейсконтроля использует уникальную модель лица ребенка, чтобы узнавать его во время аутентификации. Чтобы создать модель, необходимо сделать снимки лица с разных ракурсов.
+
+Для обновления модели будут использоваться изображения, получаемые во время работы с фейсконтролем. Обработка снимков и модели происходит на телефоне. Сами снимки и модель хранятся только на устройстве вашего ребенка и никуда не отправляются."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Функция фейсконтроля использует уникальную модель вашего лица, чтобы узнавать вас во время аутентификации. Чтобы создать модель, необходимо сделать снимки лица с разных ракурсов.
+
+Для обновления модели лица используются изображения из взаимодействий с фейсконтролем. Обработка снимков и модели происходит на телефоне. Сами снимки и модель хранятся только на вашем устройстве и никуда не отправляются."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Как это работает</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">В любой момент в настройках фейсконтроля вы или ваш ребенок можете запретить разблокировку телефона или подтверждение личности ребенка, если его глаза закрыты.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Если ваш ребенок носит очки, их можно не снимать во время настройки.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Распознавание лица на телефоне ребенка может обеспечивать менее надежную защиту, чем графический ключ, PIN-код или пароль.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Ребенок может случайно разблокировать телефон, посмотрев на него. Устройство также можно будет разблокировать, если им воспользуется кто-то очень похожий, например близнец, или телефон поднесут к лицу ребенка.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Вы можете запретить разблокировку телефона и подтверждение вашей личности, если ваши глаза закрыты. Это можно сделать в настройках фейсконтроля в любой момент.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Очки можно не снимать (в том числе солнцезащитные, если они затемнены не слишком сильно).</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Фейсконтроль может быть менее надежен, чем графический ключ, PIN-код или пароль.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Вы можете случайно разблокировать телефон, посмотрев на него. Ваше устройство можно будет разблокировать, если им воспользуется кто-то очень похожий на вас, например ваш близнец, или телефон поднесут к вашему лицу.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Важно!</string>
+    <string name="security_settings_face_enroll_introduction_message">Используйте фейсконтроль, чтобы разблокировать телефон и подтверждать свою личность, например для входа в приложения и одобрения покупок.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Используйте фейсконтроль для разблокировки телефона, подтверждения покупок и входа в приложения.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Разблокируйте телефон и подтверждайте покупки с помощью фейсконтроля.
+
+Внимание! Для разблокировки этого устройства фейсконтроль использовать нельзя. За подробной информацией обратитесь к администратору."</string>
+    <string name="security_settings_face_enroll_introduction_more">Ещё</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Нет, спасибо</string>
+    <string name="security_settings_face_enroll_introduction_title">Настройка фейсконтроля</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Разблокируйте устройство при помощи распознавания лица</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Улучшите работу функции.</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Повторная настройка фейсконтроля</string>
+    <string name="security_settings_face_enroll_next">Далее</string>
+    <string name="security_settings_face_enroll_partial_message">Вы можете снова запустить настройку фейсконтроля в Настройках.</string>
+    <string name="security_settings_face_enroll_partial_start_over">Начать заново</string>
+    <string name="security_settings_face_enroll_partial_title">Настройка фейсконтроля завершена</string>
+    <string name="security_settings_face_enroll_repeat_title">Поместите лицо в центр круга</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Повторная настройка фейсконтроля</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Улучшение работы фейсконтроля</string>
+    <string name="security_settings_face_enroll_timeout_message">"Попробуйте быструю настройку. Помните, что для разблокировки с помощью фейсконтроля ваше лицо должно находиться прямо напротив экрана телефона.
+
+Вы можете снова запустить настройку фейсконтроля в настройках."</string>
+    <string name="security_settings_face_enroll_timeout_title">Невозможно продолжить настройку</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Повторить попытку</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Использовать быструю настройку</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Выйти</string>
+    <string name="security_settings_face_enroll_too_hot_message">Невозможно завершить настройку фейсконтроля. Повторите попытку, когда устройство остынет.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Пропустить фейсконтроль</string>
+    <string name="security_settings_face_enroll_too_hot_title">Телефон слишком горячий</string>
+    <string name="security_settings_face_preference_summary">Изображение добавлено</string>
+    <string name="security_settings_face_preference_summary_none">Нажмите, чтобы настроить фейсконтроль.</string>
+    <string name="security_settings_face_preference_title">Фейсконтроль</string>
+    <string name="security_settings_face_profile_preference_title">Фейсконтроль для работы</string>
+    <string name="security_settings_face_settings_context_subtitle">Используйте фейсконтроль для разблокировки телефона</string>
+    <string name="security_settings_face_settings_enroll">Настроить фейсконтроль</string>
+    <string name="security_settings_face_settings_footer">"Используйте фейсконтроль для разблокировки телефона и аутентификации в приложениях, например для входа в них и одобрения покупок.
+
+Обратите внимание!
+Вы можете отсканировать только одно лицо. Чтобы добавить другое лицо, нужно удалить текущее.
+
+Посмотрев на телефон, вы можете случайно разблокировать его.
+
+Телефон может быть разблокирован, если кто-то поднесет его к вашему лицу.
+
+Телефон также может разблокировать человек, очень похожий на вас (например, ваш близнец)."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Используйте фейсконтроль для разблокировки телефона и аутентификации в приложениях, например для входа в них и одобрения покупок.
+
+Обратите внимание!
+Вы можете отсканировать только одно лицо. Чтобы добавить другое лицо, нужно удалить текущее.
+
+Посмотрев на телефон, вы можете случайно разблокировать его.
+
+Телефон может быть разблокирован, если кто-то поднесет его к вашему лицу, даже когда у вас закрыты глаза.
+
+Телефон также может разблокировать человек, очень похожий на вас (например, ваш близнец)."</string>
+    <string name="security_settings_face_settings_preferences_category">Если фейсконтроль включен</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Модель вашего лица будет удалена навсегда.
+
+После этого для разблокировки телефона и аутентификации в приложениях будет требоваться PIN-код, пароль или графический ключ."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Модель вашего лица будет удалена навсегда.
+
+ После этого для разблокировки телефона будет требоваться PIN-код, пароль или графический ключ."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Удалить модель лица?</string>
+    <string name="security_settings_face_settings_remove_face_model">Удалить модель лица</string>
+    <string name="security_settings_face_settings_require_attention">Глаза должны быть открыты</string>
+    <string name="security_settings_face_settings_require_attention_details">Для разблокировки нужно, чтобы ваши глаза были открыты</string>
+    <string name="security_settings_face_settings_require_confirmation">Всегда запрашивать подтверждение</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Всегда запрашивать подтверждение фейсконтроля в приложениях</string>
+    <string name="security_settings_face_settings_use_face_category">Функции фейсконтроля</string>
+</resources>

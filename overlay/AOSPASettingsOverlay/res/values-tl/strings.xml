@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Payagan ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Tapos na</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Kung naka-off ang Pag-unlock Gamit ang Mukha sa pagiging accessible, posibleng hindi gumana nang maayos sa TalkBack ang ilang hakbang sa pag-set up.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Bumalik</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Ituloy ang pag-set up</string>
+    <string name="security_settings_face_enroll_education_message">Sa susunod na screen, i-rotate ang iyong ulo para ma-capture ang lahat ng angle ng mukha mo</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Sa susunod na screen, hawakan ang iyong telepono nang kapantay ng mata</string>
+    <string name="security_settings_face_enroll_education_start">Simula</string>
+    <string name="security_settings_face_enroll_education_title">Paano i-set up ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">I-set up ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Gamitin ang mukha mo sa pag-authenticate</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Laktawan</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Hindi nakumpleto ang pag-enroll</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Hindi gumana ang pag-enroll ng mukha.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Naabot na ang limitasyon sa tagal ng pag-enroll ng mukha. Subukang muli.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Nag-time out ang pag-set up ng Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Ngayon, magagamit mo na ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Ngayon, kapag kinuha mo ang iyong telepono o nag-tap ka sa screen, puwede mong gamitin ang iyong mukha para mag-unlock.
+
+Pinakamahusay na gumagana ang Pag-unlock Gamit ang Mukha kapag sapat ang liwanag at wala kang suot na mask o madilim na salamin."</string>
+    <string name="security_settings_face_enroll_finish_title">OK na!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"I-delete ang iyong kasalukuyang face model para ma-set up ulit ang Pag-unlock Gamit ang Mukha.
+
+Permanente at secure na made-delete ang iyong face model.
+
+Pagkatapos mag-delete, kakailanganin mo ang iyong PIN, pattern, o password para i-unlock ang telepono mo o para sa pag-authenticate sa mga app."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"I-delete ang kasalukuyan mong face model para ma-set up ulit ang Pag-unlock Gamit ang Mukha.
+
+Permanente at secure na made-delete ang iyong face model.
+
+Pagkatapos mag-delete, kakailanganin mo ang fingerprint, PIN, pattern, o password mo para i-unlock ang telepono mo o para sa pag-authenticate sa app."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">I-set up ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Para sa problema sa mata/galaw ng ulo</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Kapag gumagamit ng Pag-unlock Gamit ang Mukha, baka kailanganin mong mas direktang humarap sa iyong telepono.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Kailangang nakadilat ang mga mata</string>
+    <string name="security_settings_face_enroll_introduction_agree">Sumasang-ayon ako</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Kanselahin</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Posibleng hindi kasing-secure ng mahirap hulaang pattern o PIN ang paggamit ng mukha ng iyong anak para i-unlock ang kanyang telepono.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Payagan ang iyong anak na gamitin ang kanyang mukha para i-unlock ang telepono niya</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Magagawa mo at ng iyong anak na i-delete ang kanyang face model o i-off ang Pag-unlock Gamit ang Mukha anumang oras sa Mga Setting. Sino-store ang mga face model sa telepono hanggang sa i-delete ang mga ito.
+
+Matuto pa sa g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Ikaw at ang iyong anak ang may kontrol</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Puwede mong i-delete ang iyong face model o i-off ang Pag-unlock Gamit ang Mukha anumang oras sa Mga Setting. Naka-store ang mga face model sa telepono hanggang sa i-delete ang mga ito.
+
+Matuto pa sa g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Ikaw ang may kontrol</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Gumagawa ang Pag-unlock Gamit ang Mukha ng natatanging modelo ng mukha ng iyong anak para i-verify na siya iyon. Para magawa ang face model na ito habang nagse-set up, kukuha ang iyong anak ng mga larawan ng kanyang mukha mula sa iba't ibang anggulo.
+
+Kapag ginamit niya ang Pag-unlock Gamit ang Mukha, gagamitin ang mga larawan para i-update ang kanyang face model. Hindi sino-store ang mga larawang ginamit para gawin ang kanyang face model, pero secure na naka-store ang face model sa telepono at hindi ito kailanman lalabas sa telepono. Sa telepono secure na nangyayari ang lahat ng pagpoproseso."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Gumagawa ang Pag-unlock Gamit ang Mukha ng natatanging modelo ng iyong mukha para i-verify na ikaw ito. Para magawa ang face model na ito habang nagse-set up, kukuha ka ng mga larawan ng iyong mukha mula sa iba't ibang anggulo.
+
+Kapag ginamit mo ang Pag-unlock Gamit ang Mukha, gagamitin ang mga larawan para i-update ang iyong face model. Hindi sino-store ang mga larawang ginamit para gawin ang iyong face model, pero secure na naka-store ang face model sa telepono mo at hindi ito kailanman lalabas sa telepono. Sa iyong telepono secure na nangyayari ang lahat ng pagpoproseso."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Paano ito gumagana</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Posibleng kailanganin ng Pag-unlock Gamit ang Mukha na bukas ang mga mata ng iyong anak para i-unlock ang telepono o i-verify na siya ito. Magagawa mo at ng iyong anak na i-on ang opsyong ito anumang oras sa Mga Setting.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Kung karaniwang nagsusuot ng salamin sa mata ang iyong anak, puwede niya itong isuot habang nagse-set up.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Posibleng hindi kasing-secure ng mahirap hulaang pattern, PIN, o password ang paggamit ng mukha ng iyong anak para i-unlock ang kanyang telepono.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Kapag tumingin siya sa telepono, puwede itong ma-unlock nang hindi sinasadya. Ang kanyang telepono ay puwede ring ma-unlock ng taong kamukha niya, tulad ng kanyang kapatid na kamukhang kamukha niya, o kung may magtatapat nito sa kanyang mukha.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Posibleng kailanganin ng Pag-unlock Gamit ang Mukha na bukas ang iyong mga mata para i-unlock ang telepono o i-verify na ikaw ito. Magagawa mong i-on ang opsyong ito anumang oras sa Mga Setting.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Ayos lang ang salamin o hindi madilim na sunglasses.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Posibleng hindi gaanong secure ang paggamit ng iyong mukha para i-unlock ang telepono mo kumpara sa malakas na pattern, PIN, o password</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Kapag tumingin ka sa telepono, puwede itong ma-unlock nang hindi sinasadya. Ang iyong telepono ay puwede ring ma-unlock ng taong kamukha mo, tulad ng iyong kapatid na kamukhang kamukha mo, o kung may magtatapat nito sa iyong mukha.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Tandaan</string>
+    <string name="security_settings_face_enroll_introduction_message">Gamitin ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Gamitin ang iyong mukha para i-unlock ang telepono mo, awtorisahan ang mga pagbili, o mag-sign in sa mga app</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Gamitin ang iyong mukha para i-unlock ang telepono mo o aprubahan ang mga pagbili.
+
+Tandaan: Hindi mo maaaring gamitin ang iyong mukha para i-unlock ang device na ito. Para sa higit pang impormasyon, makipag-ugnayan sa admin ng iyong organisasyon."</string>
+    <string name="security_settings_face_enroll_introduction_more">Higit pa</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Hindi, salamat</string>
+    <string name="security_settings_face_enroll_introduction_title">I-set up ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Gamitin ang mukha mo sa pag-authenticate</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Paigtingin ang seguridad at performance</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">I-set up ulit ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_next">Susunod</string>
+    <string name="security_settings_face_enroll_partial_message">Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit ang Mukha sa Mga Setting</string>
+    <string name="security_settings_face_enroll_partial_start_over">Magsimula ulit</string>
+    <string name="security_settings_face_enroll_partial_title">Na-set up na ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_repeat_title">Igitna ang iyong mukha sa bilog</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">I-set up ulit ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Pahusayin ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_timeout_message">"Subukan na lang ang mabilis na pag-set up. Tandaan, baka kailangang mas direktang itapat ang iyong mukha sa telepono mo kapag gumagamit ka ng Pag-unlock Gamit ang Mukha.
+
+Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit ang Mukha sa Mga Setting."</string>
+    <string name="security_settings_face_enroll_timeout_title">Hindi maipagpatuloy ang pag-set up</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Subukan ulit</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gamitin ang mabilis na setup</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Lumabas sa pag-set up</string>
+    <string name="security_settings_face_enroll_too_hot_message">Hindi matapos ang pag-set up ng Pag-unlock Gamit ang Mukha dahil masyadong mainit ang telepono. Subukan ulit sa ibang pagkakataon kapag lumamig na ang telepono.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Laktawan ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_enroll_too_hot_title">Masyadong mainit ang telepono</string>
+    <string name="security_settings_face_preference_summary">Naidagdag ang mukha</string>
+    <string name="security_settings_face_preference_summary_none">Mag-tap para i-set up ang mukha</string>
+    <string name="security_settings_face_preference_title">Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_profile_preference_title">Pag-unlock Gamit ang Mukha para sa trabaho</string>
+    <string name="security_settings_face_settings_context_subtitle">Gamitin ang Pag-unlock Gamit ang Mukha para i-unlock ang iyong telepono</string>
+    <string name="security_settings_face_settings_enroll">I-set up ang Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_settings_footer">"Gamitin ang iyong mukha para i-unlock ang telepono mo o para sa pag-authenticate sa mga app, tulad ng kapag nagsa-sign in ka o nag-aapruba ka ng pagbili.
+
+Tandaan:
+Isang mukha lang ang puwedeng naka-set up sa iyo sa bawat pagkakataon. Para magdagdag pa ng mukha, i-delete ang kasalukuyang mukha.
+
+Kapag tumingin ka sa telepono, puwede mong hindi sinasadyang ma-unlock ito.
+
+Puwedeng ma-unlock ng ibang tao ang telepono mo kung itatapat ito sa iyong mukha.
+
+Puwedeng ma-unlock ng isang taong may malaking pagkakahawig sa iyo ang telepono mo, gaya ng kapatid na kamukha mo."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Gamitin ang iyong mukha para i-unlock ang telepono mo o para sa pag-authenticate sa mga app, tulad ng kapag nagsa-sign in ka o nag-aapruba ka ng pagbili.
+
+Tandaan:
+Isang mukha lang ang puwedeng naka-set up sa iyo sa bawat pagkakataon. Para magdagdag pa ng mukha, i-delete ang kasalukuyang mukha.
+
+Kapag tumingin ka sa telepono, puwede mong hindi sinasadyang ma-unlock ito.
+
+Puwedeng ma-unlock ng ibang tao ang telepono mo kung itatapat ito sa iyong mukha, kahit na nakapikit ka.
+
+Puwedeng ma-unlock ng isang taong may malaking pagkakahawig sa iyo ang telepono mo, gaya ng kapatid na kamukha mo."</string>
+    <string name="security_settings_face_settings_preferences_category">Kapag gumagamit ng Pag-unlock Gamit ang Mukha</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Permanente at secure na ide-delete ang iyong face model.
+
+Pagkatapos ng pag-delete, kakailanganin mo ang iyong PIN, pattern, o password para i-unlock ang telepono mo o para sa pag-authenticate sa mga app."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Permanente at secure na ide-delete ang iyong face model.
+
+Pagkatapos ng pag-delete, kakailanganin mo ang iyong PIN, pattern, o password para i-unlock ang telepono mo."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">I-delete ang face model?</string>
+    <string name="security_settings_face_settings_remove_face_model">I-delete ang face model</string>
+    <string name="security_settings_face_settings_require_attention">I-require na nakadilat</string>
+    <string name="security_settings_face_settings_require_attention_details">Para i-unlock ang telepono, dapat ay nakadilat ka</string>
+    <string name="security_settings_face_settings_require_confirmation">Palaging humiling ng kumpirmasyon</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Kapag gumagamit ng Pag-unlock Gamit ang Mukha sa app, laging humiling ng kumpirmasyon</string>
+    <string name="security_settings_face_settings_use_face_category">Gamitin ang Pag-unlock Gamit ang Mukha para sa</string>
+</resources>

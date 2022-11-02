@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Autoriser le déverr. par reconn. faciale</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">OK</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Si le déverrouillage facial avec accessibilité est désactivé, certaines étapes de configuration risquent de ne pas fonctionner avec TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Retour</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Poursuivre configuration</string>
+    <string name="security_settings_face_enroll_education_message">"Sur l'écran suivant, tournez la tête pour enregistrer votre visage sous tous les angles"</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">"Sur l'écran suivant, tenez votre téléphone à hauteur des yeux"</string>
+    <string name="security_settings_face_enroll_education_start">Démarrer</string>
+    <string name="security_settings_face_enroll_education_title">Configurer déver. par reco. faciale</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Configurer le déverr. par reconnaissance faciale</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Vous authentifier avec votre visage</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Passer</string>
+    <string name="security_settings_face_enroll_error_dialog_title">"L'enregistrement n'est pas terminé"</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">"L'enregistrement du visage n'a pas fonctionné."</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">"Délai d'enregistrement du visage expiré. Veuillez réessayer."</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Délai de configuration du déverrouillage dépassé</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone ou valider votre identité, par exemple pour vous connecter à des applis ou approuver un achat</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone lorsque vous le saisissez ou que vous appuyez sur l'écran.
+
+Le déverrouillage par reconnaissance faciale fonctionne de façon optimale lorsqu'il y a assez de lumière et que vous ne portez ni masque ni lunettes sombres."</string>
+    <string name="security_settings_face_enroll_finish_title">Parfait !</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Supprimez votre empreinte faciale actuelle pour reconfigurer le déverrouillage par reconnaissance faciale.
+
+Elle sera supprimée de façon définitive et sécurisée.
+
+Vous devrez ensuite utiliser votre code, schéma ou mot de passe pour déverrouiller votre téléphone ou vous authentifier dans les applis."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Supprimez votre empreinte faciale actuelle pour reconfigurer le déverrouillage facial.
+
+Elle sera supprimée de façon définitive et sécurisée.
+
+Vous devrez ensuite utiliser votre empreinte digitale, code, schéma ou mot de passe pour déverrouiller votre téléphone ou vous authentifier dans les applis."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Configurer le déverrouillage par reconnaissance faciale</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Configuration en cas de vision/mobilité de tête réduite</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Lorsque vous utilisez le déverrouillage par reconnaissance faciale, il se peut que vous deviez placer votre tête plus en face de votre téléphone.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Les yeux doivent rester ouverts</string>
+    <string name="security_settings_face_enroll_introduction_agree">"J'accepte"</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Annuler</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">"Votre enfant peut déverrouiller son téléphone avec son visage, mais cela sera peut-être moins sûr qu'un schéma ou un code sécurisés."</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Autorisez votre enfant à utiliser son visage pour déverrouiller son téléphone</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"À tout moment dans les paramètres, vous et votre enfant pouvez supprimer votre empreinte faciale, ou désactiver le déverrouillage par reconnaissance faciale. Les empreintes faciales sont stockées sur le téléphone jusqu'à ce que vous les supprimiez.
+
+En savoir plus : g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Gardez le contrôle, vous et votre enfant</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"À tout moment dans les paramètres, vous pouvez supprimer votre empreinte faciale ou désactiver le déverrouillage par reconnaissance faciale. Les empreintes faciales sont stockées sur le téléphone jusqu'à ce que vous les supprimiez.
+
+En savoir plus : g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Vous avez le contrôle</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Le déverrouillage par reconnaissance faciale crée une empreinte unique du visage de votre enfant pour valider son identité. Pour générer cette empreinte faciale lors de la configuration, votre enfant prendra des photos de son visage sous différents angles.
+
+Lorsqu'il se servira du déverrouillage par reconnaissance faciale, les images seront utilisées pour mettre à jour son empreinte faciale. Les images permettant de créer son empreinte faciale ne seront pas stockées, contrairement à l'empreinte faciale qui sera enregistrée de façon sécurisée sur son téléphone sans le quitter. Tous les traitements sont sécurisés sur son téléphone."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Le déverrouillage par reconnaissance faciale crée un modèle unique de votre visage pour valider votre identité. Pour générer cette empreinte faciale lors de la configuration, vous prendrez des photos de votre visage sous différents angles.
+
+Lorsque vous vous servirez du déverrouillage par reconnaissance faciale, les images seront utilisées pour mettre à jour votre empreinte faciale. Les images utilisées pour créer votre empreinte faciale ne seront pas stockées, contrairement à l'empreinte faciale qui sera enregistrée de façon sécurisée sur votre téléphone et ne le quittera jamais. Tous les traitements sont sécurisés sur votre téléphone."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Fonctionnement</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Le déverrouillage par reconnaissance faciale peut exiger que votre enfant ait les yeux ouverts pour déverrouiller le téléphone ou valider son identité. Vous et votre enfant pouvez activer cette option à tout moment dans les paramètres.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Si votre enfant porte des lunettes, il peut les mettre lors de la configuration.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">"Votre enfant peut déverrouiller son téléphone avec son visage, mais cela sera peut-être moins sûr qu'un schéma, un code ou un mot de passe sécurisés"</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">"Il peut déverrouiller son téléphone sans le vouloir, simplement en le regardant. Il peut être déverrouillé par toute personne qui lui ressemble beaucoup, comme un jumeau, ou s'il est tenu devant son visage."</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Le déverrouillage par reconnaissance faciale peut exiger que vous ayez les yeux ouverts pour déverrouiller le téléphone ou valider votre identité. Vous pouvez activer cette option à tout moment dans les paramètres.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Le port de lunettes de vue ou de lunettes de soleil légèrement teintées ne pose pas de problème.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">"Déverrouiller votre téléphone avec votre visage peut être plus risqué qu'avec un schéma, un code PIN ou un mot de passe"</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">"Vous pouvez déverrouiller votre téléphone sans le vouloir, simplement en le regardant. Il peut être déverrouillé par toute personne qui vous ressemble beaucoup, comme un jumeau, ou s'il est tenu devant votre visage."</string>
+    <string name="security_settings_face_enroll_introduction_info_title">À noter</string>
+    <string name="security_settings_face_enroll_introduction_message">Utilisez la reconnaissance faciale pour déverrouiller votre téléphone ou valider votre identité, par exemple pour vous connecter à des applis ou approuver un achat.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Utilisez votre visage pour déverrouiller votre téléphone, autoriser des achats ou vous connecter à des applications</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Utilisez votre visage pour déverrouiller votre téléphone ou approuver des achats.
+
+Remarque : Vous ne pouvez pas utiliser votre visage pour déverrouiller cet appareil. Pour en savoir plus, contactez l'administrateur de votre organisation."</string>
+    <string name="security_settings_face_enroll_introduction_more">Plus</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Non, merci</string>
+    <string name="security_settings_face_enroll_introduction_title">Configurer déver. par reco. faciale</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Vous authentifier avec votre visage</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Sécurité et performances améliorées</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Reconfigurer le déverrouillage facial</string>
+    <string name="security_settings_face_enroll_next">Suivant</string>
+    <string name="security_settings_face_enroll_partial_message">Pour de meilleures performances, vous pouvez reconfigurer le déverrouillage par reconnaissance faciale dans les paramètres</string>
+    <string name="security_settings_face_enroll_partial_start_over">Recommencer</string>
+    <string name="security_settings_face_enroll_partial_title">Configuration du déverrouillage facial terminée</string>
+    <string name="security_settings_face_enroll_repeat_title">Centrer votre visage dans le cercle</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Reconfigurez le déverrouillage facial</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Améliorer le déverrouillage facial</string>
+    <string name="security_settings_face_enroll_timeout_message">"Essayez plutôt la configuration rapide. Il se peut que vous deviez placer votre tête plus en face de votre téléphone lorsque vous utilisez le déverrouillage par reconnaissance faciale.
+
+Pour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouillage dans les paramètres."</string>
+    <string name="security_settings_face_enroll_timeout_title">Impossible de poursuivre la configuration</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Réessayer</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Utiliser la config. rapide</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Quitter la configuration</string>
+    <string name="security_settings_face_enroll_too_hot_message">"Impossible de terminer la configuration du déverrouillage par reconnaissance faciale, car le téléphone est trop chaud. Réessayez lorsqu'il aura refroidi."</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Passer déverrouillage facial</string>
+    <string name="security_settings_face_enroll_too_hot_title">Le téléphone est trop chaud</string>
+    <string name="security_settings_face_preference_summary">Visage ajouté</string>
+    <string name="security_settings_face_preference_summary_none">Appuyer pour configurer un visage</string>
+    <string name="security_settings_face_preference_title">Déverrouillage par reco. faciale</string>
+    <string name="security_settings_face_profile_preference_title">Déverrouillage facial pour le travail</string>
+    <string name="security_settings_face_settings_context_subtitle">Déverrouillez votre téléphone par reconnaissance faciale</string>
+    <string name="security_settings_face_settings_enroll">Configurer déverr. par reconn. faciale</string>
+    <string name="security_settings_face_settings_footer">"Utilisez votre visage pour déverrouiller votre téléphone ou valider votre identité dans les applis (pour vous connecter ou approuver un achat, par exemple).
+
+À savoir :
+Vous ne pouvez configurer qu'un seul visage à la fois. Supprimez le visage actuel pour en ajouter un.
+
+Vous pouvez déverrouiller votre téléphone sans le vouloir, en le regardant.
+
+Une autre personne peut le déverrouiller en le tenant devant votre visage.
+
+Quelqu'un qui vous ressemble beaucoup, comme votre jumeau/jumelle, peut aussi déverrouiller votre téléphone."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Utilisez votre visage pour déverrouiller votre téléphone ou valider votre identité dans les applis (pour vous connecter ou approuver un achat, par exemple).
+
+À savoir :
+Vous ne pouvez configurer qu'un seul visage à la fois. Supprimez le visage actuel pour en ajouter un.
+
+Vous pouvez déverrouiller votre téléphone sans le vouloir, en le regardant.
+
+Une autre personne peut le déverrouiller en le tenant devant votre visage, même si vous fermez les yeux.
+
+Quelqu'un qui vous ressemble beaucoup, comme votre jumeau/jumelle, peut aussi déverrouiller votre téléphone."</string>
+    <string name="security_settings_face_settings_preferences_category">Avec déverrouillage par reconnaissance faciale</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Votre empreinte faciale sera supprimée de façon définitive et sécurisée.
+
+Vous devrez ensuite utiliser un code, un schéma ou un mot de passe pour déverrouiller votre téléphone ou pour vous authentifier dans les applis."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Votre empreinte faciale sera supprimée de façon définitive et sécurisée.
+
+Vous devrez ensuite utiliser un code, un schéma ou un mot de passe pour déverrouiller votre téléphone."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">"Supprimer l'empreinte faciale ?"</string>
+    <string name="security_settings_face_settings_remove_face_model">"Supprimer l'empreinte faciale"</string>
+    <string name="security_settings_face_settings_require_attention">Vos yeux doivent être ouverts</string>
+    <string name="security_settings_face_settings_require_attention_details">Vous devez ouvrir les yeux pour déverrouiller le téléphone</string>
+    <string name="security_settings_face_settings_require_confirmation">Toujours demander confirmation</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Toujours confirmer le déverrouillage par reco. faciale dans applis</string>
+    <string name="security_settings_face_settings_use_face_category">Utiliser pour</string>
+</resources>

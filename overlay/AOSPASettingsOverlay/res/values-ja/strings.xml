@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">顔認証の許可</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">完了</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">ユーザー補助の顔認証が OFF に設定されている場合、一部の設定手順は TalkBack を使用して適切に行えないことがあります。</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">戻る</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">設定を続行</string>
+    <string name="security_settings_face_enroll_education_message">次の画面で、首を振ってさまざまな角度から顔を撮影してください</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">次の画面で、スマートフォンを目の高さに合わせて持ってください</string>
+    <string name="security_settings_face_enroll_education_start">開始</string>
+    <string name="security_settings_face_enroll_education_title">顔認証の設定方法</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">顔認証の設定</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">顔で認証</string>
+    <string name="security_settings_face_enroll_enrolling_skip">スキップ</string>
+    <string name="security_settings_face_enroll_error_dialog_title">登録を完了できませんでした</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">顔を登録できませんでした。</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">顔の登録がタイムアウトになりました。もう一度お試しください。</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">顔認証設定のタイムアウト</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行えるようになりました</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"スマートフォンを持ち上げるか画面をタップしたときに、顔認証を使用してロック解除できるようになりました。
+
+顔が十分に照らされていて、マスクやサングラスを着けていない場合は、顔認証が特に便利です。"</string>
+    <string name="security_settings_face_enroll_finish_title">完了です</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"現在の顔モデルを削除して顔認証をもう一度設定してください。
+
+顔モデルは安全かつ完全に削除されます。
+
+削除後に、スマートフォンのロック解除やアプリでの認証を行うには、PIN、パターン、パスワードのいずれかが必要になります。"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"現在の顔モデルを削除して顔認証をもう一度設定してください。
+
+顔モデルは安全かつ完全に削除されます。
+
+削除後に、スマートフォンのロック解除やアプリでの認証を行うには、指紋、PIN、パターン、パスワードのいずれかが必要になります。"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">顔認証を設定してください</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">視覚や頭の動きに制限がある場合の設定</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">顔認証を使用する場合は、顔をスマートフォンの真正面に向けてください。</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">目を開けてください</string>
+    <string name="security_settings_face_enroll_introduction_agree">同意する</string>
+    <string name="security_settings_face_enroll_introduction_cancel">キャンセル</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">お子様の顔認証によるスマートフォンのロック解除は、複雑なパターンや PIN よりも安全面で劣る可能性があります。</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">お子様に、顔認証を使ってスマートフォンのロック解除を行うことを許可します</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"あなたとお子様はいつでも [設定] で顔モデルを削除したり、顔認証を OFF にしたりできます。顔モデルは、削除するまでスマートフォンに保存されたままになります。
+
+詳しくは、g.co/pixel/faceunlock をご覧ください。"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">あなたとお子様が管理できます</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"いつでも [設定] で顔モデルを削除したり、顔認証を OFF にしたりできます。顔モデルは、削除するまでスマートフォンに保存されたままになります。
+
+詳しくは、g.co/pixel/faceunlock をご覧ください。"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">データはデバイス内だけに保存</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"顔認証を設定する際に、本人確認に使うお子様の顔の一意のモデルを作成します。この顔モデルを作成するため、さまざまな角度からお子様の顔の画像を撮影します。
+
+顔認証を使用すると、画像を基に顔モデルが更新されます。顔モデルの作成に使用された画像が保存されることはありませんが、顔モデルはスマートフォンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマートフォン上で安全に行われます。"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"顔認証を設定する際に、本人確認に使う顔の一意のモデルを作成します。この顔モデルを作成するため、さまざまな角度から顔の画像を撮影します。
+
+顔認証を使用すると、画像を基に顔モデルが更新されます。顔モデルの作成に使用された画像が保存されることはありませんが、顔モデルはスマートフォンに安全に保存されます。この情報が外部に送信されることは一切なく、処理はすべてスマートフォン上で安全に行われます。"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">仕組み</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">顔認証を使用するには、スマートフォンのロック解除または本人確認の際にお子様に目を開いていただくことが必要になる場合があります。あなたとお子様はいつでも [設定] でこのオプションを ON にできます。 顔認証の設定により、スマートフォンのロック解除または本人確認の際にお子様が目を開いていることを必須にできます。保護者やお子様はいつでも [設定] でこのオプションを ON にできます。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">お子様が眼鏡を普段かけている場合は、設定の際にかけていても構いません。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">お子様の顔認証によるスマートフォンのロック解除は、複雑なパターンや PIN、安全なパスワードよりも安全面で劣る可能性があります</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、お子様の顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">顔認証の設定により、スマートフォンのロック解除または本人確認の際に目を開いていることを必須にできます。このオプションは [設定] でいつでも ON にできます。</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">メガネやサングラス（薄い色）をかけていても大丈夫です。</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">顔認証によるスマートフォンのロック解除は、複雑なパターン、PIN、パスワードよりも安全面で劣る可能性があります</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">スマートフォンを見る動作を無意識に行うと、ロックが解除されることがあります。よく似た人（双子など）であったり、あなたの顔にスマートフォンを近づけられたりした場合も、ロックが解除されることがあります。</string>
+    <string name="security_settings_face_enroll_introduction_info_title">注意事項</string>
+    <string name="security_settings_face_enroll_introduction_message">顔認証を使用して、スマートフォンのロック解除や本人確認（アプリへのログインや購入の承認など）を行います。</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">顔認証を使用して、スマートフォンのロック解除、購入の許可、アプリへのログインを行うことができます</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"顔を使って、スマートフォンのロック解除や購入の承認を行います。
+
+注: 顔を使ってこのデバイスのロックを解除することはできません。詳しくは、組織の管理者にお問い合わせください。"</string>
+    <string name="security_settings_face_enroll_introduction_more">もっと見る</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">使用しない</string>
+    <string name="security_settings_face_enroll_introduction_title">顔認証の設定</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">顔で認証</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">セキュリティの強化とパフォーマンスの向上</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">顔認証をもう一度設定してください</string>
+    <string name="security_settings_face_enroll_next">次へ</string>
+    <string name="security_settings_face_enroll_partial_message">パフォーマンスを改善するには、[設定] で顔認証を設定し直します。</string>
+    <string name="security_settings_face_enroll_partial_start_over">最初からやり直す</string>
+    <string name="security_settings_face_enroll_partial_title">顔認証の設定完了</string>
+    <string name="security_settings_face_enroll_repeat_title">顔が円の中央にくるようにしてください</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">顔認証をもう一度設定してください</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">顔認証のパフォーマンスを向上させましょう</string>
+    <string name="security_settings_face_enroll_timeout_message">"代わりに簡単セットアップをお試しください。顔認証を使用するときは顔をスマートフォンの真正面に向けてください。
+
+パフォーマンスを改善するには、[設定] で顔認証を設定し直します。"</string>
+    <string name="security_settings_face_enroll_timeout_title">設定を続行できません</string>
+    <string name="security_settings_face_enroll_timeout_try_again">再試行</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">簡単セットアップを使用する</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">設定を終了</string>
+    <string name="security_settings_face_enroll_too_hot_message">スマートフォンが過熱しているため、顔認証の設定を完了できません。スマートフォンの温度が下がってから、もう一度お試しください。</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">顔認証をスキップ</string>
+    <string name="security_settings_face_enroll_too_hot_title">スマートフォンが過熱しています</string>
+    <string name="security_settings_face_preference_summary">顔を登録しました</string>
+    <string name="security_settings_face_preference_summary_none">タップして顔を設定してください</string>
+    <string name="security_settings_face_preference_title">顔認証</string>
+    <string name="security_settings_face_profile_preference_title">仕事用の顔認証</string>
+    <string name="security_settings_face_settings_context_subtitle">顔認証を使用して、スマートフォンのロックを解除します</string>
+    <string name="security_settings_face_settings_enroll">顔認証を設定</string>
+    <string name="security_settings_face_settings_footer">"顔を使って、スマートフォンのロック解除やアプリでの認証（ログインや購入の承認など）を行います。
+
+注意事項:
+一度に設定できる顔は 1 つのみです。別の顔を追加するには、現在の顔を削除してください。
+
+スマートフォンに無意識に顔を向けても、ロックが解除されることがあります。
+
+スマートフォンを顔に近づけられた場合、他のユーザーによってスマートフォンのロックが解除されることがあります。
+
+双子など、あなたによく似た人でもスマートフォンのロックが解除されることがあります。"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"顔を使って、スマートフォンのロック解除やアプリでの認証（ログインや購入の承認など）を行います。
+
+注意事項:
+一度に設定できる顔は 1 つのみです。別の顔を追加するには、現在の顔を削除してください。
+
+スマートフォンに無意識に顔を向けても、ロックが解除されることがあります。
+
+目を閉じているときでもスマートフォンを顔に近づけられた場合、他のユーザーによってスマートフォンのロックが解除されることがあります。
+
+双子など、あなたによく似た人でもスマートフォンのロックを解除されることがあります。"</string>
+    <string name="security_settings_face_settings_preferences_category">顔認証を使用する場合</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"顔モデルは安全かつ完全に削除されます。
+
+削除後に、スマートフォンのロック解除やアプリでの認証を行うには、PIN、パターン、パスワードのいずれかが必要になります。"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"顔モデルは安全かつ完全に削除されます。
+
+削除後に、スマートフォンのロックを解除するには、PIN、パターン、パスワードのいずれかが必要になります。"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">顔モデルを削除しますか？</string>
+    <string name="security_settings_face_settings_remove_face_model">顔モデルを削除</string>
+    <string name="security_settings_face_settings_require_attention">目を開く</string>
+    <string name="security_settings_face_settings_require_attention_details">デバイスのロックを解除する際に、目を開いていることを確認します</string>
+    <string name="security_settings_face_settings_require_confirmation">常に確認が必要</string>
+    <string name="security_settings_face_settings_require_confirmation_details">アプリで顔認証を使用する場合、常に確認手順を要求します</string>
+    <string name="security_settings_face_settings_use_face_category">顔認証の用途</string>
+</resources>

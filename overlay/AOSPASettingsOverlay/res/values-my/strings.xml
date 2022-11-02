@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ ကို ခွင့်ပြုရန်</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">ပြီးပြီ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">အများသုံးနိုင်သည့် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ပိတ်ထားပါက အချို့သော ထည့်သွင်းခြင်းအဆင့်များသည် TalkBack နှင့် အဆင်ပြေစွာအလုပ်မလုပ်နိုင်ပါ။</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">နောက်သို့</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ဆက်၍စနစ်ထည့်သွင်းရန်</string>
+    <string name="security_settings_face_enroll_education_message">နောက်စာမျက်နှာတွင် သင့်မျက်နှာ၏ ရှုထောင့်ပေါင်းစုံကို ရိုက်ယူရန် သင့်ဦးခေါင်းကို လှည့်ပါ</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">နောက်ဖန်သားပြင်တွင် သင့်ဖုန်းကို မျက်လုံးနှင့် တစ်တန်းတည်းထား၍ ကိုင်ပါ</string>
+    <string name="security_settings_face_enroll_education_start">စတင်ရန်</string>
+    <string name="security_settings_face_enroll_education_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထည့်သွင်းနည်း</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထည့်သွင်းပါ</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">အထောက်အထားစိစစ်ရန် သင့်မျက်နှာကို သုံးပါ</string>
+    <string name="security_settings_face_enroll_enrolling_skip">ကျော်ရန်</string>
+    <string name="security_settings_face_enroll_error_dialog_title">စာရင်းသွင်းမှု မပြီးစီးခဲ့ပါ</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">မျက်နှာကို စာရင်းသွင်း၍မရပါ။</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">မျက်နှာစာရင်းသွင်းခြင်း ကန့်သတ်ချိန် ကုန်သွားပါပြီ။ ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းထည့်သွင်းချိန် ကုန်သွားပါပြီ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">အက်ပ်များသို့ လက်မှတ်ထိုးဝင်သောအခါ (သို့) ပစ္စည်းဝယ်ယူသောအခါ သင်ဖြစ်ကြောင်းအတည်ပြုရန် (သို့) သင့်ဖုန်းကိုဖွင့်ရန် သင့်မျက်နှာကို ယခုသုံးနိုင်ပါပြီ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ဖုန်းကိုင်လိုက်ချိန် (သို့) ဖန်သားပြင်တို့လိုက်ချိန်တွင် ဖွင့်ရန် သင့်မျက်နှာကို ယခုသုံးနိုင်ပါပြီ။
+
+အလင်းရောင်အလုံအလောက်ရပြီး နှာခေါင်းစည်း (သို့) မျက်မှန်အနက် တပ်မထားသောအခါ ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ အကောင်းဆုံးအလုပ်လုပ်သည်။"</string>
+    <string name="security_settings_face_enroll_finish_title">အဆင်ပြေပါသည်။</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထပ်မံထည့်သွင်းရန် သင်၏ လက်ရှိမျက်နှာနမူနာကို ဖျက်ပါ။
+
+သင်၏ မျက်နှာနမူနာကို လုံခြုံစွာ အပြီးဖျက်လိုက်ပါမည်။
+
+ဖျက်ပြီးသည့်အခါ သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန် (သို့) အက်ပ်များတွင် အထောက်အထားစိစစ်ခြင်းအတွက် ပင်နံပါတ်၊ ပုံစံ (သို့) စကားဝှက် လိုအပ်ပါမည်။"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထပ်မံထည့်သွင်းရန် သင်၏ လက်ရှိမျက်နှာနမူနာကို ဖျက်ပါ။
+
+သင်၏ မျက်နှာနမူနာကို လုံခြုံစွာ အပြီးဖျက်လိုက်ပါမည်။
+
+ဖျက်ပြီးသည့်အခါ သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန် (သို့) အက်ပ်များတွင် အထောက်အထားစိစစ်ခြင်းအတွက် လက်ဗွေ၊ ပင်နံပါတ်၊ ပုံစံ (သို့) စကားဝှက် လိုအပ်ပါမည်။"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထည့်သွင်းပါ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">မျက်လုံးအားနည်း၊ ခေါင်းသိပ်မလှုပ်နိုင်သူအတွက်</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ အသုံးပြုသည့်အခါ သင့်ခေါင်းကို ဖုန်းရှေ့တွင် တည့်အောင်ထားပေးရမည်။</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">မျက်လုံးများ ဖွင့်ထားရန် လိုအပ်သည်</string>
+    <string name="security_settings_face_enroll_introduction_agree">သဘောတူသည်</string>
+    <string name="security_settings_face_enroll_introduction_cancel">မလုပ်တော့</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">ကလေး၏ဖုန်းကို လော့ခ်ဖွင့်ရန် သူ့မျက်နှာသုံးခြင်းသည် အားကောင်းသည့် ပုံစံ (သို့) ပင်နံပါတ်လောက် မလုံခြုံပါ။</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">သင့်ကလေးက သူ့ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် သူ၏မျက်နှာကို သုံးခွင့်ပြုပါ</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"သင်နှင့် သင့်ကလေးက ဆက်တင်များတွင် မျက်နှာနမူနာကို ဖျက်ခြင်း (သို့) ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ ကို ပိတ်ခြင်းတို့ အချိန်မရွေး လုပ်နိုင်သည်။ မျက်နှာနမူနာများကို မဖျက်မချင်း ဖုန်းတွင် သိမ်းထားသည်။
+
+g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">သင်နှင့် သင့်ကလေး၏ ထိန်းချုပ်မှုအောက်တွင် ရှိပါသည်</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"ဆက်တင်များတွင် သင့်မျက်နှာနမူနာကို ဖျက်ခြင်း (သို့) ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ ကို ပိတ်ခြင်းတို့ အချိန်မရွေး လုပ်နိုင်သည်။ မျက်နှာနမူနာများကို သင်မဖျက်မချင်း ဖုန်းတွင် သိမ်းထားသည်။
+
+g.co/pixel/faceunlock တွင် ပိုမိုလေ့လာပါ။"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">သင့်ထိန်းချုပ်မှုအောက်တွင် ရှိပါသည်</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ က သင့်ကလေးကို သူဖြစ်ကြောင်း အတည်ပြုရန်အတွက် သူ့မျက်နှာ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤမျက်နှာနမူနာကို ပြုလုပ်ရန်အတွက် သင့်ကလေး၏မျက်နှာကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးမည်။
+
+သူက ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သုံးသောအခါ သူ၏မျက်နှာနမူနာကို အပ်ဒိတ်လုပ်ရန် ပုံများကို သုံးသည်။ သူ၏မျက်နှာနမူနာပြုလုပ်ရန် သုံးထားသောပုံများကို မသိမ်းပါ။ သို့သော် မျက်နှာနမူနာကို ဖုန်းတွင် လုံခြုံစွာသိမ်းပြီး ဖုန်းအတွင်း၌သာ ထားပါသည်။ လုပ်ဆောင်ချက်အားလုံး ဖုန်းတွင် လုံခြုံစွာ ဖြစ်ပေါ်သည်။"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ က သင်ဖြစ်ကြောင်း အတည်ပြုရန် သင့်မျက်နှာ၏ သီးခြားနမူနာတစ်ခုကို ပြုလုပ်သည်။ စနစ်ထည့်သွင်းနေစဉ် ဤမျက်နှာနမူနာကို ပြုလုပ်ရန်အတွက် သင့်မျက်နှာကို ရှုထောင့်အမျိုးမျိုးမှ ပုံများရိုက်ကူးရမည်။
+
+‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သုံးသောအခါ သင့်မျက်နှာနမူနာကို အပ်ဒိတ်လုပ်ရန် ယင်းပုံများကို သုံးသည်။ သင်၏မျက်နှာနမူနာပြုလုပ်ရန် သုံးထားသောပုံများကို မသိမ်းပါ။ သို့သော် မျက်နှာနမူနာကို သင့်ဖုန်းတွင် လုံခြုံစွာသိမ်းပြီး ဖုန်းအတွင်း၌သာ ထားပါသည်။ လုပ်ဆောင်ချက်အားလုံး သင့်ဖုန်းတွင် လုံခြုံစွာ ဖြစ်ပေါ်သည်။"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">အလုပ်လုပ်ပုံ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် (သို့) သင့်ကလေးဖြစ်ကြောင်း အတည်ပြုရန်အတွက် ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သည် သူ၏မျက်လုံးများကို ဖွင့်ထားရန်လိုအပ်နိုင်သည်။ သင်နှင့် သင့်ကလေးက ဤနည်းလမ်းကို ဆက်တင်များတွင် အချိန်မရွေး ဖွင့်နိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">သင့်ကလေးသည် မျက်မှန်တပ်လေ့ရှိသူဖြစ်လျှင် စနစ်ထည့်သွင်းစဉ်တွင် မျက်မှန်တပ်ထားနိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">သင့်ကလေး၏ မျက်နှာကိုသုံး၍ ၎င်း၏ဖုန်းကို လော့ခ်ဖွင့်ခြင်းသည် ခိုင်မာသည့်ပုံစံ၊ ပင်နံပါတ် (သို့) စကားဝှက်လောက် လုံခြုံမှုမရှိနိုင်ပါ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">မတော်တဆ သူ ဖုန်းကို ကြည့်မိရုံမျှဖြင့် ဖုန်းပွင့်သွားနိုင်ပါသည်။ အမြွှာကဲ့သို့ သူနှင့်အလွန်တူသူကလည်း သူ့ဖုန်းကို လော့ခ်ဖွင့်နိုင်သည် (သို့) တစ်စုံတစ်ယောက်က ဖုန်းကို သူ့မျက်နှာရှေ့ကိုင်ထားလျှင် ပွင့်နိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် (သို့) သင်ဖြစ်ကြောင်း အတည်ပြုရန်အတွက် ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ သည် သင်၏မျက်လုံးများကို ဖွင့်ထားရန်လိုအပ်နိုင်သည်။ ဤနည်းလမ်းကို ဆက်တင်များတွင် အချိန်မရွေး ဖွင့်နိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">မျက်မှန် (သို့) အရောင်အနည်းငယ်ပါသည့် နေကာမျက်မှန်များ သုံးနိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">သင့်မျက်နှာကိုသုံး၍ ဖုန်းကိုလော့ခ်ဖွင့်ခြင်းသည် ခိုင်မာသည့်ပုံစံ၊ ပင်နံပါတ် (သို့) စကားဝှက်တို့လောက် လုံခြုံမှုမရှိနိုင်ပါ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">မတော်တဆ သင့်ဖုန်းကို ကြည့်မိရုံမျှဖြင့် ဖုန်းပွင့်သွားနိုင်ပါသည်။ အမြွှာကဲ့သို့ သင်နှင့်အလွန်တူသူကလည်း သင့်ဖုန်းကို လော့ခ်ဖွင့်နိုင်သည် (သို့) တစ်စုံတစ်ယောက်က ဖုန်းကို သင့်မျက်နှာရှေ့ကိုင်ထားလျှင် ပွင့်နိုင်သည်။</string>
+    <string name="security_settings_face_enroll_introduction_info_title">သတိပြုရန်</string>
+    <string name="security_settings_face_enroll_introduction_message">အက်ပ်များသို့ လက်မှတ်ထိုးဝင်ချိန် (သို့) ပစ္စည်းဝယ်ယူချိန်များတွင် သင်ဖြစ်ကြောင်း အတည်ပြုရန် (သို့) သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် သင့်မျက်နှာကို သုံးပါ။</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">သင့်ဖုန်းကိုလော့ခ်ဖွင့်ရန်၊ ဝယ်ယူမှုများကို အတည်ပြုရန် သို့မဟုတ် အက်ပ်များသို့ လက်မှတ်ထိုးဝင်ရန် သင့်မျက်နှာကို အသုံးပြုပါ</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန် သို့မဟုတ် ဝယ်ယူမှုများကို ခွင့်ပြုပေးရန် သင့်မျက်နှာကို အသုံးပြုပါ။
+
+မှတ်ချက်- ဤစက်ပစ္စည်းကို လော့ခ်ဖွင့်ရန် သင့်မျက်နှာကို အသုံးပြု၍ မရနိုင်ပါ။ အသေးစိတ်အချက်များအတွက် သင့်အဖွဲ့အစည်း၏ စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"</string>
+    <string name="security_settings_face_enroll_introduction_more">နောက်ထပ်</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">မလိုတော့ပါ</string>
+    <string name="security_settings_face_enroll_introduction_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို စနစ်ထည့်သွင်းခြင်း</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">အထောက်အထားစိစစ်ရန် သင့်မျက်နှာသုံးပါ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">လုံခြုံရေး၊ စွမ်းဆောင်ရည် တိုးမြှင့်ပါ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထပ်မံထည့်သွင်းပါ</string>
+    <string name="security_settings_face_enroll_next">ရှေ့သို့</string>
+    <string name="security_settings_face_enroll_partial_message">စွမ်းဆောင်ရည် ပိုမိုကောင်းမွန်စေရန် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ဆက်တင်များတွင် ထပ်မံထည့်သွင်းနိုင်ပါသည်</string>
+    <string name="security_settings_face_enroll_partial_start_over">အစမှ ပြန်စရန်</string>
+    <string name="security_settings_face_enroll_partial_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း ထည့်သွင်းပြီးပါပြီ</string>
+    <string name="security_settings_face_enroll_repeat_title">သင့်မျက်နှာကို စက်ဝိုင်းအလယ်တွင်ဖြစ်အောင် ချိန်ပါ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထပ်မံထည့်သွင်းပါ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း စွမ်းဆောင်ရည်မြှင့်ပါ</string>
+    <string name="security_settings_face_enroll_timeout_message">"၎င်းအစား အမြန် ထည့်သွင်းခြင်းကို စမ်းကြည့်ပါ။ မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း အသုံးပြုသည့်အခါ သင့်မျက်နှာကို ဖုန်းရှေ့တွင် တည့်အောင်ထားပေးရမည်။
+
+စွမ်းဆောင်ရည် ပိုမိုကောင်းမွန်စေရန် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ဆက်တင်များတွင် ထပ်မံထည့်သွင်းနိုင်ပါသည်။"</string>
+    <string name="security_settings_face_enroll_timeout_title">စနစ်ထည့်သွင်းခြင်း ရှေ့ဆက်၍မရပါ</string>
+    <string name="security_settings_face_enroll_timeout_try_again">ထပ်စမ်းကြည့်ရန်</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">အမြန် ထည့်သွင်းခြင်း သုံးရန်</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">စနစ်ထည့်သွင်းမှုမှ ထွက်ရန်</string>
+    <string name="security_settings_face_enroll_too_hot_message">ဖုန်းအလွန်ပူနေသောကြောင့် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထည့်သွင်း၍မရပါ။ ဖုန်းအေးသွားသည့်အခါ ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ကျော်ရန်</string>
+    <string name="security_settings_face_enroll_too_hot_title">ဖုန်းအလွန်ပူနေသည်</string>
+    <string name="security_settings_face_preference_summary">မျက်နှာ ထည့်သွင်းပြီး</string>
+    <string name="security_settings_face_preference_summary_none">မျက်နှာထည့်သွင်းရန် တို့ပါ</string>
+    <string name="security_settings_face_preference_title">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း</string>
+    <string name="security_settings_face_profile_preference_title">အလုပ်အတွက် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း</string>
+    <string name="security_settings_face_settings_context_subtitle">သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း အသုံးပြုပါ</string>
+    <string name="security_settings_face_settings_enroll">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို ထည့်သွင်းရန်</string>
+    <string name="security_settings_face_settings_footer">"လက်မှတ်ထိုးဝင်သောအခါ (သို့) ဝယ်ယူမှုကို အတည်ပြုသောအခါကဲ့သို့ အက်ပ်များတွင် အထောက်အထားစိစစ်ခြင်းအတွက် (သို့) သင်၏ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် သင့်မျက်နှာကို သုံးပါ။
+
+သတိပြုရန်-
+တစ်ကြိမ်လျှင် မျက်နှာတစ်ခုသာ ထည့်သွင်းနိုင်သည်။ နောက်မျက်နှာတစ်ခု ထည့်ရန် လက်ရှိမျက်နှာကို ဖျက်ပါ။
+
+သင့်ဖုန်းကို မတော်တဆကြည့်မိရုံဖြင့် ဖုန်းပွင့်သွားနိုင်သည်။
+
+တစ်စုံတစ်ယောက်က သင်၏မျက်နှာအနီးတွင် သင့်ဖုန်းကို ကိုင်ထားခြင်းဖြင့် လော့ခ်ဖွင့်နိုင်သည်။
+
+အမြွှာကဲ့သို့ သင်နှင့်အလွန်တူသူက သင့်ဖုန်းကို လော့ခ်ဖွင့်နိုင်သည်။"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"လက်မှတ်ထိုးဝင်သောအခါ (သို့) ဝယ်ယူမှုကို အတည်ပြုသောအခါကဲ့သို့ အက်ပ်များတွင် အထောက်အထားစိစစ်ခြင်းအတွက် (သို့) သင်၏ဖုန်းကို လော့ခ်ဖွင့်ရန်အတွက် သင့်မျက်နှာကို သုံးပါ။
+
+သတိပြုရန်-
+တစ်ကြိမ်လျှင် မျက်နှာတစ်ခုသာ ထည့်သွင်းနိုင်သည်။ နောက်မျက်နှာတစ်ခု ထည့်ရန် လက်ရှိမျက်နှာကို ဖျက်ပါ။
+
+သင့်ဖုန်းကို မတော်တဆကြည့်မိရုံဖြင့် ဖုန်းပွင့်သွားနိုင်သည်။
+
+မျက်လုံးများပိတ်ထားသော်လည်း တစ်စုံတစ်ယောက်က သင်၏မျက်နှာအနီးတွင် သင့်ဖုန်းကို ကိုင်ထားခြင်းဖြင့် လော့ခ်ဖွင့်နိုင်သည်။
+
+အမြွှာကဲ့သို့ သင်နှင့်အလွန်တူသူက သင့်ဖုန်းကို လော့ခ်ဖွင့်နိုင်သည်။"</string>
+    <string name="security_settings_face_settings_preferences_category">မျက်နှာပြ လော့ခ်ဖွင့်ခြင်းကို သုံးလျှင်</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"သင်၏မျက်နှာနမူနာကို လုံခြုံစွာ အပြီးဖျက်လိုက်ပါမည်။ 
+
+ဖျက်ပြီးသည့်အခါ သင့်ဖုန်းကို လော့ခ်ဖွင့်ရန် (သို့) အက်ပ်များတွင် အထောက်အထားစိစစ်ခြင်းအတွက် ပင်နံပါတ်၊ ပုံစံ (သို့) စကားဝှက် လိုအပ်ပါမည်။"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"သင်၏မျက်နှာနမူနာကို လုံခြုံစွာ အပြီးဖျက်လိုက်ပါမည်။
+
+ဖျက်ပြီးသည့်အခါ သင်၏ဖုန်းကိုဖွင့်ရန် လက်ဗွေ၊ ပင်နံပါတ်၊ ပုံစံ (သို့) စကားဝှက် လိုအပ်ပါမည်။"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">မျက်နှာနမူနာကို ဖျက်မလား။</string>
+    <string name="security_settings_face_settings_remove_face_model">မျက်နှာနမူနာကို ဖျက်ရန်</string>
+    <string name="security_settings_face_settings_require_attention">မျက်လုံးများ ဖွင့်ထားရမည်</string>
+    <string name="security_settings_face_settings_require_attention_details">ဖုန်းလော့ခ်ဖွင့်ရန် သင့်မျက်လုံးများ ဖွင့်ထားရမည်</string>
+    <string name="security_settings_face_settings_require_confirmation">အတည်ပြုချက် အမြဲလိုအပ်သည်</string>
+    <string name="security_settings_face_settings_require_confirmation_details">အက်ပ်တွင် မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း သုံးလျှင် အတည်ပြုရန်အမြဲလိုအပ်သည်</string>
+    <string name="security_settings_face_settings_use_face_category">မျက်နှာလော့ခ်သုံးရန်</string>
+</resources>
