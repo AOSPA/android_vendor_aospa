@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Eman aurpegi bidez desblokeatzeko baimena</string>
+    <string name="security_settings_face_enroll_dialog_ok">Ados</string>
+    <string name="security_settings_face_enroll_done">Eginda</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Aurpegi bidez desblokeatzeko eginbidea desaktibatuta badago erabilerraztasun moduan, baliteke konfigurazio-urrats batzuek ongi ez funtzionatzea TalkBack-ekin.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Egin atzera</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Jarraitu konfiguratzen</string>
+    <string name="security_settings_face_enroll_education_message">Hurrengo pantailan, biratu burua aurpegiaren angelu guztiak hauteman daitezen</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Hurrengo pantailan, eutsi telefonoari begien parean</string>
+    <string name="security_settings_face_enroll_education_start">Hasi</string>
+    <string name="security_settings_face_enroll_education_title">Aurpegi bidez desblokeatzeko eginbidea konfiguratzeko argibideak</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Konfiguratu aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Erabili aurpegia autentifikatzeko</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Saltatu</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Ez da erregistratu</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Ezin izan da erregistratu aurpegia.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Aurpegiak erregistratzeko denbora-muga gainditu da. Saiatu berriro.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Gainditu da eginbidea konfiguratzeko denbora-muga</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Orain, aurpegia erabil dezakezu telefonoa desblokeatzeko edo zeu zarela egiaztatzeko, hala nola aplikazioetan saioa hastean edo erosketak onartzean</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Orain, telefonoa hartzen duzunean edo pantaila sakatzen duzunean, aurpegia erabil dezakezu telefonoa desblokeatzeko.
+
+Behar adina argi dagoenean eta maskararik edo betaurreko ilunik ez daramazunean funtzionatzen du hoberen aurpegi bidez desblokeatzeko eginbideak."</string>
+    <string name="security_settings_face_enroll_finish_title">Dena prest duzu!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Aurpegi bidez desblokeatzeko eginbidea berriro konfiguratu nahi baduzu, lehendabizi ezabatu oraingo aurpegi-eredua.
+
+Aurpegi-eredua betiko eta modu seguruan ezabatuko da.
+
+Ezabatu ondoren, PINa, eredua edo pasahitza beharko duzu telefonoa desblokeatzeko edo aplikazioetan autentifikatzeko."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Aurpegi bidez desblokeatzeko eginbidea berriro konfiguratu nahi baduzu, lehendabizi ezabatu oraingo aurpegi-eredua.
+
+Aurpegi-eredua betiko eta modu seguruan ezabatuko da.
+
+Ezabatu ondoren, hatz-marka, PINa, eredua edo pasahitza beharko duzu telefonoa desblokeatzeko edo aplikazioetan autentifikatzeko."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Konfiguratu aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Konfiguratu ikusmena mugatuta edo buruaren mugimendua murriztuta daukatenentzat</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Aurpegi bidez desblokeatzeko, litekeena da telefonoari zuzenago begiratu behar izatea.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Begiak irekita eduki behar dituzu</string>
+    <string name="security_settings_face_enroll_introduction_agree">Ados</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Utzi</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Baliteke haurraren telefonoa haren aurpegiaren bidez desblokeatzea ez izatea eredu edo PIN konplexu bat erabiltzea bezain segurua.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Eman haurrari aurpegia erabilita telefonoa desblokeatzeko baimena</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Haurrak eta zuk haren aurpegi-eredua ezabatu nahi baduzue edo aurpegi bidez desblokeatzeko eginbidea desaktibatu nahi baduzue, joan Ezarpenak atalera. Ezabatzen dituzuen arte, telefonoan gordeko dira aurpegi-ereduak.
+
+Lortu informazio gehiago g.co/pixel/faceunlock helbidean."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Haurrak eta zeuk duzue kontrola</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Aurpegi-eredua ezabatzeko edo aurpegi bidez desblokeatzeko eginbidea desaktibatzeko, joan Ezarpenak atalera. Ezabatzen dituzun arte, telefonoan gordeko dira aurpegi-ereduak.
+
+Lortu informazio gehiago g.co/pixel/faceunlock helbidean."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Zure esku dago</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Aurpegi bidez desblokeatzeko eginbideak haurraren aurpegiaren eredu esklusibo bat sortzen du hura dela egiaztatzeko. Konfigurazio-prozesuan zehar aurpegi-eredu hori sortzeko, aurpegiaren argazkiak aterako ditu haurrak, hainbat ikuspegitatik.
+
+Aurpegi bidez desblokeatzeko eginbidea erabiltzen duenean, haren aurpegi-eredua eguneratzeko erabiltzen dira irudiak. Aurpegi-eredua sortzeko erabilitako irudiak ez dira biltegiratzen, baina aurpegi-eredua telefonoan gordetzen da, modu seguruan, eta ez da inoiz ateratzen telefonotik. Guztia telefonoan prozesatzen da, modu seguruan."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Aurpegi bidez desblokeatzeko eginbideak zure aurpegiaren eredu esklusibo bat sortzen du zeu zarela egiaztatzeko. Konfigurazio prozesuan zehar aurpegi-eredu hori sortzeko, aurpegiaren argazkiak aterako dituzu, hainbat ikuspegitatik.
+
+Aurpegi bidez desblokeatzeko eginbidea erabiltzen duzunean, zure aurpegi-eredua eguneratzeko erabiltzen dira irudiak. Aurpegi-eredua sortzeko erabilitako irudiak ez dira biltegiratzen, baina aurpegi-eredua telefonoan gordetzen da, modu seguruan, eta ez da inoiz ateratzen telefonotik. Guztia telefonoan prozesatzen da, modu seguruan."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Nola funtzionatzen du?</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Baliteke haurrak begiak irekita edukitzeko eskatzea aurpegi bidez desblokeatzeko eginbideak, telefonoa desblokeatze edo hura dela egiaztatze aldera. Ezarpenetan aktiba edo desaktiba dezakezue aukera hori bai zuk, bai haurrak berak.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Haurrak betaurrekoak erabili ohi baditu, konfigurazio-prozesuan jantzita eduki ditzake.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Baliteke haurraren telefonoa desblokeatzeko haren aurpegia erabiltzea ez izatea eredu, PIN edo pasahitz konplexu bat erabiltzea bezain segurua.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefonoari begiratuz gero, baliteke hura desblokeatzea, halako asmorik izan ez arren. Haren antz handia duen norbaitek ere (biki batek, esaterako) desblokea dezake telefonoa, edo telefonoa aurpegiaren parean jartzen badiote.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Baliteke begiak irekita edukitzeko eskatzea aurpegi bidez desblokeatzeko eginbideak, telefonoa desblokeatze edo zeu zarela egiaztatze aldera. Ezarpenetan aktiba edo desaktiba dezakezu aukera hori.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Betaurrekoak jantzita utz daitezke, baita kristalak leunki tindatuta badituzte ere.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Baliteke telefonoa aurpegi bidez desblokeatzea ez izatea eredu, PIN edo pasahitz konplexuak erabiltzea bezain segurua</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefonoari begiratuz gero, baliteke hura desblokeatzea, halako asmorik izan ez arren. Halaber, zure antz handia duen norbaitek (biki batek, esaterako) telefonoa desblokea dezake, bai eta telefonoa aurpegiaren parean jartzen badizute ere.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Gogoan izan</string>
+    <string name="security_settings_face_enroll_introduction_message">Erabili aurpegia telefonoa desblokeatzeko edo zeu zarela egiaztatzeko, hala nola aplikazioetan saioa hastean edo erosketak onartzean.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Erabili aurpegia telefonoa desblokeatzeko, erosketak baimentzeko edo aplikazioetan saioa hasteko</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Erabili aurpegia telefonoa desblokeatzeko eta erosketak onartzeko.
+
+Oharra: ezin duzu aurpegia erabili gailu hau desblokeatzeko. Informazio gehiago lortzeko, jarri zure erakundearen administratzailearekin harremanetan."</string>
+    <string name="security_settings_face_enroll_introduction_more">Gehiago</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Ez, eskerrik asko</string>
+    <string name="security_settings_face_enroll_introduction_title">Konfiguratu aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Erabili aurpegia autentifikatzeko</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Hobetu segurtasuna eta errendimendua</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Konfiguratu berriro aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_next">Hurrengoa</string>
+    <string name="security_settings_face_enroll_partial_message">Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginbidea berriro Ezarpenak atalean</string>
+    <string name="security_settings_face_enroll_partial_start_over">Hasi berriro</string>
+    <string name="security_settings_face_enroll_partial_title">Konfiguratu da aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_repeat_title">Zentratu aurpegia zirkuluan</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Konfiguratu berriro aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Hobetu aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_enroll_timeout_message">"Probatu konfigurazio bizkorra. Kontuan izan: litekeena da gailuari zuzenago begiratu behar izatea aurpegi bidez desblokeatzeko eginbidea erabiltzen duzunean.
+
+Errendimendua hobetu nahi baduzu, konfiguratu aurpegi bidez desblokeatzeko eginbidea berriro Ezarpenak atalean."</string>
+    <string name="security_settings_face_enroll_timeout_title">Ezin da jarraitu konfiguratzen</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Saiatu berriro</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Erabili konfigurazio bizkorra</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Irten konfiguraziotik</string>
+    <string name="security_settings_face_enroll_too_hot_message">Ezin da amaitu aurpegi bidez desblokeatzeko eginbidea konfiguratzen telefonoa gehiegi berotu delako. Saiatu berriro telefonoa hozten denean.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Saltatu konfigurazio-prozesua</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefonoa gehiegi berotu da</string>
+    <string name="security_settings_face_preference_summary">Gehitu da aurpegia</string>
+    <string name="security_settings_face_preference_summary_none">Sakatu aurpegi bidez desblokeatzeko eginbidea konfiguratzeko</string>
+    <string name="security_settings_face_preference_title">Aurpegi bidez desblokeatzea</string>
+    <string name="security_settings_face_profile_preference_title">Aurpegi bidez desblokeatzeko eginbidea lanerako</string>
+    <string name="security_settings_face_settings_context_subtitle">Erabili aurpegi bidez desblokeatzeko eginbidea telefonoa desblokeatzeko</string>
+    <string name="security_settings_face_settings_enroll">Konfiguratu aurpegi bidez desblokeatzeko eginbidea</string>
+    <string name="security_settings_face_settings_footer">"Erabili aurpegia telefonoa desblokeatzeko eta aplikazioetan autentifikatzeko; adibidez, saioa hastean edo erosketak onartzean.
+
+Kontuan izan:
+Aurpegi bakarra konfigura dezakezu aldiko. Beste aurpegi bat gehitzeko, ezabatu une honetan dagoena.
+
+Telefonoari begiratuz gero, baliteke hura desblokeatzea, horretarako asmorik ez baduzu ere.
+
+Beste norbaitek ere desblokea dezake telefonoa, zuri begira jartzen badu.
+
+Zure antz handia dutenek ere desblokea dezakete telefonoa; esate baterako, biki batek."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Erabili aurpegia telefonoa desblokeatzeko eta aplikazioetan autentifikatzeko; adibidez, saioa hastean edo erosketak onartzean.
+
+Kontuan izan:
+Aurpegi bakarra konfigura dezakezu aldiko. Beste aurpegi bat gehitzeko, ezabatu une honetan dagoena.
+
+Telefonoari begiratuz gero, baliteke hura desblokeatzea, horretarako asmorik ez baduzu ere.
+
+Beste norbaitek ere desblokea dezake telefonoa, zuri begira jartzen badu, nahiz eta zure begiak itxita egon.
+
+Zure antz handia dutenek ere desblokea dezakete telefonoa; esate baterako, biki batek."</string>
+    <string name="security_settings_face_settings_preferences_category">Aurpegi bidez desblokeatzeko eginbidea erabiltzean</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Aurpegi-eredua modu seguruan eta betiko ezabatuko da.
+
+Horren ondoren, PINa, eredua edo pasahitza beharko duzu telefonoa desblokeatzeko edo aplikazioetan autentifikatzeko."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Aurpegi-eredua betiko eta modu seguruan ezabatuko da.
+
+Ezabatu ondoren, hatz-marka, PINa, eredua edo pasahitza beharko duzu telefonoa desblokeatzeko."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Aurpegi-eredua ezabatu nahi duzu?</string>
+    <string name="security_settings_face_settings_remove_face_model">Ezabatu aurpegi-eredua</string>
+    <string name="security_settings_face_settings_require_attention">Begiek irekita egon behar dute</string>
+    <string name="security_settings_face_settings_require_attention_details">Begiek irekita egon behar dute telefonoa desblokeatzeko</string>
+    <string name="security_settings_face_settings_require_confirmation">Eskatu beti berresteko</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Aplikazioetan aurpegi bidez desblokeatzeko eginbidea erabiltzean, eskatu beti berresteko</string>
+    <string name="security_settings_face_settings_use_face_category">Erabili hauetarako:</string>
+</resources>

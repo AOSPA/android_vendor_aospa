@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">مجاز کردن «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_dialog_ok">تأیید</string>
+    <string name="security_settings_face_enroll_done">تمام</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">‏اگر «قفل‌گشایی با چهره» درحالت دسترس‌پذیری خاموش باشد، ممکن است برخی مراحل راه‌اندازی به‌خوبی با TalkBack کار نکنند.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">برگشت</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ادامه راه‌اندازی</string>
+    <string name="security_settings_face_enroll_education_message">در صفحه بعد، سرتان را بچرخانید تا همه زوایای صورتتان را ثبت کند</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">در صفحه بعدی، تلفن را هم‌سطح چشمانتان نگه دارید</string>
+    <string name="security_settings_face_enroll_education_start">شروع</string>
+    <string name="security_settings_face_enroll_education_title">نحوه راه‌اندازی «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">راه‌اندازی «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">استفاده از چهره‌تان برای اصالت‌سنجی</string>
+    <string name="security_settings_face_enroll_enrolling_skip">رد شدن</string>
+    <string name="security_settings_face_enroll_error_dialog_title">ثبت انجام نشد</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">ثبت چهره کار نکرد.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">مهلت ثبت چهره به پایان رسید. دوباره امتحان کنید.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">مهلت راه‌اندازی «قفل‌گشایی با چهره» تمام شد</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">اکنون می‌توانید از چهره‌تان برای باز کردن قفل تلفن یا به‌تأیید رساندن هویتتان (مثلاً هنگام ورود به سیستم برنامه‌ها یا تأیید خریدها) استفاده کنید</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"اکنون وقتی تلفنتان را برمی‌دارید یا روی صفحه‌نمایش آن ضربه می‌زنید، می‌توانید از چهره‌تان برای باز کردن قفل آن استفاده کنید.
+
+«قفل‌گشایی با چهره» زمانی بهترین عملکرد را دارد که نور کافی وجود داشته باشد و از ماسک یا عینک‌های تیره استفاده نکنید."</string>
+    <string name="security_settings_face_enroll_finish_title">خوب به نظر می‌رسد!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"برای راه‌اندازی مجدد «قفل‌گشایی با چهره»، مدل چهره فعلی را حذف کنید.
+
+مدل چهره‌تان به‌صورت دائم و ایمن حذف می‌شود.
+
+پس‌از حذف، برای باز کردن قفل تلفن یا اصالت‌سنجی در برنامه‌ها، به پین، الگو، یا گذرواژه نیاز دارید."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"برای راه‌اندازی مجدد «قفل‌گشایی با چهره»، مدل چهره فعلی را حذف کنید.
+
+مدل چهره‌تان به‌صورت دائم و ایمن حذف می‌شود.
+
+پس‌از حذف، برای باز کردن قفل تلفن یا اصالت‌سنجی در برنامه‌ها، به اثر انگشت، پین، الگو، یا گذرواژه نیاز دارید."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">راه‌اندازی «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">راه‌اندازی برای افراد با حرکت سر یا دید محدود</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">هنگام استفاده از «قفل‌گشایی با چهره»، ممکن است لازم شود سرتان را مستقیم روبروی تلفن بگیرید.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">به چشمان باز نیاز دارد</string>
+    <string name="security_settings_face_enroll_introduction_agree">موافقم</string>
+    <string name="security_settings_face_enroll_introduction_cancel">لغو</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">استفاده از چهره فرزندتان برای باز کردن قفل تلفن او ممکن است نسبت به الگو یا پین قوی از امنیت کمتری برخوردار باشد.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">به فرزندتان اجازه دهید از چهره‌اش برای باز کردن قفل تلفن خود استفاده کند</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"‏شما و فرزندتان هرزمان بخواهید می‌توانید مدل چهره را حذف کنید، یا «قفل‌گشایی با چهره» را در «تنظیمات» خاموش کنید. تا وقتی مدل‌های چهره را حذف نکنید، در تلفن ذخیره می‌مانند.
+
+در g.co/pixel/faceunlock بیشتر بدانید."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">کنترل دراختیار شما و فرزندتان است</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"‏هر زمان بخواهید می‌توانید مدل چهره‌تان را حذف کنید، یا «قفل‌گشایی با چهره» را در «تنظیمات» خاموش کنید. تا وقتی مدل‌های چهره را حذف نکنید، در تلفن ذخیره می‌مانند.
+
+در g.co/pixel/faceunlock بیشتر بدانید."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">کنترل در دست شماست</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"«قفل‌گشایی با چهره» مدلی بی‌همتا از چهره فرزندتان ایجاد می‌کند که برای تأیید هویت او استفاده می‌شود. برای ایجاد این مدل چهره درحین راه‌اندازی، فرزندتان چند تصویر از زاویه‌های مختلف از چهره‌اش می‌گیرد.
+
+وقتی فرزندتان از «قفل‌گشایی با چهره» استفاده می‌کند، مدل چهره او به‌کمک تصاویر به‌روزرسانی می‌شود. تصاویر استفاده‌شده برای ایجاد مدل چهره فرزندتان ذخیره نمی‌شوند، اما مدل چهره به‌طور ایمن در تلفن ذخیره می‌شود و هرگز از آن خارج نمی‌شود. همه پردازش‌ها به‌طور ایمن در تلفن انجام می‌شود."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"«قفل‌گشایی با چهره» مدلی بی‌همتا از چهره‌تان ایجاد می‌کند که برای تأیید هویتتان استفاده می‌شود. برای ایجاد این مدلِ چهره درطول راه‌اندازی، چند تصویر از زاویه‌های مختلف از چهره‌تان می‌گیرید.
+
+وقتی از «قفل‌گشایی با چهره» استفاده می‌کنید، مدل چهره‌تان به‌کمک تصاویر به‌روزرسانی می‌شود. تصاویر استفاده‌شده برای ایجاد مدل چهره‌تان ذخیره نمی‌شوند، اما مدل چهره به‌طور ایمن در تلفنتان ذخیره می‌شود و هرگز از آن خارج نمی‌شود. همه پردازش‌ها به‌طور ایمن در تلفنتان انجام می‌شود."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">نحوه کار</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">«قفل‌گشایی با چهره» می‌تواند باز بودن چشم‌های فرزندتان را برای باز کردن قفل تلفن یا تأیید هویت او الزامی کند. شما و فرزندتان هروقت بخواهید می‌توانید این گزینه را در «تنظیمات» روشن کنید.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">اگر فرزندتان معمولاً از عینک استفاده می‌کند، می‌تواند درطول راه‌اندازی آن را به چشم بزند.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">استفاده از چهره فرزندتان برای باز کردن قفل تلفن او ممکن است نسبت به الگو، پین، یا گذرواژه قوی از امنیت کمتری برخوردار باشد</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">نگاه کردن به تلفن می‌تواند قفل آن را باز کند، حتی اگر فرزندتان چنین قصدی نداشته باشد. اگر فرد دیگری تلفن را در جلوی صورت فرزندتان نگه دارد یا شباهت زیادی به او داشته باشد (مثل خواهر یا برادر دوقلو)، می‌تواند قفل تلفن را باز کند.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">«قفل‌گشایی با چهره» می‌تواند باز بودن چشم‌هایتان را برای باز کردن قفل تلفن یا تأیید هویتتان الزامی کند. هروقت بخواهید می‌توانید این گزینه را در «تنظیمات» روشن کنید.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">عینک یا عینک دودی با کمی سایه‌روشن قابل قبول است.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">استفاده از چهره برای باز کردن قفل تلفن می‌تواند ایمنی کمتری نسبت به الگو، پین، یا گذرواژه قوی داشته باشد</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">نگاه کردن به تلفن می‌تواند قفل آن را باز کند، حتی اگر چنین قصدی نداشته باشید. اگر فرد دیگری تلفنتان را جلوی صورتتان نگه دارد یا شباهت زیادی به شما داشته باشد (مثل خواهر یا برادر دوقلو)، می‌تواند قفل تلفنتان را باز کند.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">به‌خاطر داشته باشید</string>
+    <string name="security_settings_face_enroll_introduction_message">از چهره‌تان برای باز کردن قفل تلفن یا به‌تأیید رساندن هویتتان (مثلاً هنگام ورود به سیستم برنامه‌ها یا تأیید خریدها) استفاده کنید.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">برای باز کردن قفل تلفنتان، مجاز کردن خریدها یا ورود به سیستم برنامه‌ها، از چهر‌ه‌تان استفاده کنید</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"از چهره‌تان برای باز کردن قفل تلفن یا تأیید خریدها استفاده کنید.
+
+توجه: نمی‌توانید از چهره‌تان برای باز کردن قفل این دستگاه استفاده کنید. برای اطلاعات بیشتر، با سرپرست سیستم سازمانتان تماس بگیرید."</string>
+    <string name="security_settings_face_enroll_introduction_more">بیشتر</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">نه متشكرم</string>
+    <string name="security_settings_face_enroll_introduction_title">نصب «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">از چهره‌تان برای اصالت‌سنجی استفاده کنید</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">بهبود امنیت و عملکرد</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">راه‌اندازی مجدد «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_next">بعدی</string>
+    <string name="security_settings_face_enroll_partial_message">برای بهبود عملکرد، می‌توانید «قفل‌گشایی با چهره» را در «تنظیمات» دوباره راه‌اندازی کنید</string>
+    <string name="security_settings_face_enroll_partial_start_over">شروع مجدد</string>
+    <string name="security_settings_face_enroll_partial_title">راه‌اندازی «قفل‌گشایی با چهره» به‌پایان رسید</string>
+    <string name="security_settings_face_enroll_repeat_title">صورتتان را در مرکز دایره قرار دهید</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">راه‌اندازی مجدد «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">بهبود عملکرد «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_timeout_message">"به‌جای آن می‌توانید راه‌اندازی سریع را امتحان کنید. به‌خاطر داشته باشید که هنگام استفاده از «قفل‌گشایی با چهره» شاید لازم شود سرتان را مستقیم روبروی تلفن بگیرید.
+
+برای بهبود عملکرد، می‌توانید دوباره «قفل‌گشایی با چهره» را در «تنظیمات» راه‌اندازی کنید."</string>
+    <string name="security_settings_face_enroll_timeout_title">ادامه راه‌اندازی امکان‌پذیر نیست</string>
+    <string name="security_settings_face_enroll_timeout_try_again">دوباره امتحان کنید</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">استفاده از راه‌اندازی سریع</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">خروج از راه‌اندازی</string>
+    <string name="security_settings_face_enroll_too_hot_message">راه‌اندازی «قفل‌گشایی با چهره» تکمیل نشد زیرا تلفن خیلی داغ است. وقتی تلفن خنک شد، بعداً دوباره امتحان کنید.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">رد شدن از «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_enroll_too_hot_title">تلفن خیلی داغ است</string>
+    <string name="security_settings_face_preference_summary">چهره افزوده شده است</string>
+    <string name="security_settings_face_preference_summary_none">برای راه‌اندازی چهره، ضربه بزنید</string>
+    <string name="security_settings_face_preference_title">قفل‌گشایی با چهره</string>
+    <string name="security_settings_face_profile_preference_title">«قفل‌گشایی با چهره» برای کار</string>
+    <string name="security_settings_face_settings_context_subtitle">استفاده از «قفل‌گشایی با چهره» برای باز کردن قفل تلفن</string>
+    <string name="security_settings_face_settings_enroll">راه‌اندازی «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_settings_footer">"برای باز کردن قفل تلفن یا اصالت‌سنجی در برنامه‌ها (برای مثال وقتی به سیستم وارد می‌شوید یا خریدی را تأیید می‌کنید)، از چهره‌تان استفاده کنید.
+
+به‌خاطر داشته باشید:
+هربار فقط یک چهره را می‌توانید راه‌اندازی کنید. برای افزودن چهره‌ای دیگر، چهره فعلی را حذف کنید.
+
+با نگاه کردن به تلفن، اگر هم نخواهید، ممکن است قفل آن باز شود.
+
+افراد دیگر می‌توانند با نگه‌داشتن تلفن جلوی صورتتان، قفلش را باز کنند.
+
+فرد دیگری که شباهت زیادی به شما دارد - مثلاً خواهر و برادر دوقلویتان - بتواند قفل تلفنتان را باز کند."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"برای باز کردن قفل تلفن یا اصالت‌سنجی در برنامه‌ها (برای مثال وقتی به سیستم وارد می‌شوید یا خریدی را تأیید می‌کنید)، از چهره‌تان استفاده کنید.
+
+به‌خاطر داشته باشید:
+هربار فقط یک چهره را می‌توانید راه‌اندازی کنید. برای افزودن چهره‌ای دیگر، چهره فعلی را حذف کنید.
+
+با نگاه کردن به تلفن، اگر هم نخواهید، ممکن است قفل آن باز شود.
+
+افراد دیگر می‌توانند با نگه‌داشتن تلفن جلوی صورتتان(حتی اگر چشم‌هایتان بسته باشد)، قفلش را باز کنند.
+
+فرد دیگری که شباهت زیادی به شما دارد - مثلاً خواهر و برادر دوقلویتان - بتواند قفل تلفنتان را باز کند."</string>
+    <string name="security_settings_face_settings_preferences_category">هنگام استفاده از «قفل‌گشایی با چهره»</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"مدل چهره‌تان به‌طور دائم و ایمن حذف خواهد شد.
+
+پس‌از حذف، برای باز کردن قفل تلفن یا اصالت‌سنجی در برنامه‌ها به پین، الگو، یا گذرواژه نیاز خواهید داشت."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"مدل چهره شما به‌طور دائم و ایمن حذف خواهد شد.
+
+ پس‌از حذف، برای باز کردن قفل تلفن به پین، الگو، یا گذرواژه نیاز خواهید داشت."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">مدل چهره حذف شود؟</string>
+    <string name="security_settings_face_settings_remove_face_model">حذف مدل چهره</string>
+    <string name="security_settings_face_settings_require_attention">چشم‌ها باید باز باشد</string>
+    <string name="security_settings_face_settings_require_attention_details">برای باز کردن قفل تلفن، چشمک‌هایتان باید باز باشد</string>
+    <string name="security_settings_face_settings_require_confirmation">همیشه به تأیید نیاز است</string>
+    <string name="security_settings_face_settings_require_confirmation_details">استفاده از «قفل‌گشایی با چهره» در برنامه‌ها، همیشه به تأیید نیاز دارد</string>
+    <string name="security_settings_face_settings_use_face_category">«قفل‌گشایی با چهره» برای</string>
+</resources>

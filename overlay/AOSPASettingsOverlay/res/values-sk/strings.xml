@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Povoľte odomknutie tvárou</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Hotovo</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Ak je zjednodušené odomknutie tvárou vypnuté, niektoré kroky nastavenia nemusia v aplikácii TalkBack fungovať správne.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Späť</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Pokračovať v nastavení</string>
+    <string name="security_settings_face_enroll_education_message">Na ďalšej obrazovke otáčajte hlavou, aby sa vaša tvár nasnímala z rôznych uhlov.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Na ďalšej obrazovke držte telefón na úrovni očí</string>
+    <string name="security_settings_face_enroll_education_start">Začať</string>
+    <string name="security_settings_face_enroll_education_title">Ako nastaviť odomknutie tvárou</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Nastavenie odomknutia tvárou</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Overenie totožnosti pomocou tváre</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Preskočiť</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Registrácia nebola dokončená</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Registrácia tváre nefungovala.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Časový limit registrácie tváre vypršal. Skúste to znova.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Čas nastavenia odomknutia tvárou vypršal</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Teraz môžete odomykať telefón alebo overovať svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií alebo schvaľovaní nákupov</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Teraz keď zdvihnete telefón alebo klepnete na obrazovku, môžete ho odomknúť tvárou.
+
+Odomknutie tvárou najlepšie funguje pri dobrom osvetlení a keď na sebe nemáte rúško ani tmavé okuliare."</string>
+    <string name="security_settings_face_enroll_finish_title">Vyzerá to dobre!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Ak chcete odomknutie tvárou nastaviť znova, odstráňte aktuálny model tváre.
+
+Model tváre sa bezpečným spôsobom natrvalo odstráni.
+
+Po jeho odstránení budete na odomknutie telefónu alebo overovanie v aplikáciách potrebovať PIN, vzor alebo heslo."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Ak chcete odomknutie tvárou nastaviť znova, odstráňte aktuálny model tváre.
+
+Model tváre sa bezpečným spôsobom natrvalo odstráni.
+
+Po jeho odstránení budete na odomknutie telefónu alebo overovanie v aplikáciách potrebovať odtlačok prsta, PIN, vzor alebo heslo."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Nastavte odomknutie tvárou</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Nastavenie pre obmedzené videnie alebo pohyb hlavou</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Pri používaní odomknutia tvárou môže byť potrebné, aby bola vaša hlava priamejšie pred telefónom.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Vyžadovať otvorené oči</string>
+    <string name="security_settings_face_enroll_introduction_agree">Súhlasím</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Zrušiť</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Odomykanie telefónu dieťaťa pomocou jeho tváre môže byť menej bezpečné ako odomykanie pomocou silného vzoru či kódu PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Povoľte svojmu dieťaťu odomykať telefón tvárou</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Vy a vaše dieťa môžete kedykoľvek v Nastaveniach model tváre odstrániť alebo odomknutie tvárou vypnúť. Modely tváre sú uložené v telefóne, kým ich neodstránite.
+
+Viac sa dozviete na g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Vy a vaše dieťa máte všetko pod kontrolou</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"V Nastaveniach môžete kedykoľvek model tváre odstrániť alebo odomknutie tvárou vypnúť. Modely tváre sú uložené v telefóne, kým ich neodstránite.
+
+Viac sa dozviete na g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Všetko máte pod kontrolou</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Odomknutie tvárou vytvorí jedinečný model tváre vášho dieťaťa, ktorým overí svoju totožnosť. Počas nastavovania musí vaše dieťa nasnímať svoju tvár z rôznych uhlov, aby bolo možné tento model tváre vytvoriť.
+
+Keď použije odomknutie tvárou, model tváre sa aktualizuje pomocou príslušných fotiek. Fotky, pomocou ktorých bol vytvorený model jeho tváre, sa neukladajú, ale model jeho tváre sa bezpečne uloží v telefóne a nikdy ho neopustí. Všetko sa bezpečne spracúva v telefóne."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Odomknutie tvárou vytvorí jedinečný model vašej tváre, ktorým overíte svoju totožnosť. Počas nastavovania nasnímajte svoju tvár z rôznych uhlov, aby bolo možné tento model tváre vytvoriť.
+
+Keď použijete odomknutie tvárou, model tváre sa aktualizuje pomocou príslušných fotiek. Fotky, pomocou ktorých bol vytvorený model vašej tváre, sa neukladajú, ale model vašej tváre sa bezpečne uloží v telefóne a nikdy ho neopustí. Všetko sa bezpečne spracúva v telefóne."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Ako to funguje</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odomknutie tvárou môže vyžadovať, aby malo vaše dieťa pri odomykaní telefónu alebo overovaní jeho totožnosti oči otvorené. Vy a vaše dieťa môžete túto možnosť kedykoľvek vypnúť v Nastaveniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ak vaše dieťa nosí okuliare, môže ich mať aj počas nastavovania.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odomykanie telefónu dieťaťa pomocou jeho tváre môže byť menej bezpečné ako odomykanie pomocou silného vzoru, kódu PIN alebo hesla</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Telefón je možné pohľadom odomknúť aj náhodne. Jeho telefón môže odomknúť aj osoba, ktorá sa na neho podobá (napríklad dvojča) alebo niekto, kto si ho pridrží pred tvárou.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Odomknutie tvárou môže vyžadovať, aby ste mali pri odomykaní telefónu alebo overovaní svojej totožnosti oči otvorené. Túto možnosť môžete kedykoľvek vypnúť v Nastaveniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Okuliare alebo slabo tónované okuliare sú v poriadku.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Odomykanie telefónu tvárou môže byť menej bezpečné než silným vzorom, kódom PIN alebo heslom</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Telefón môžete pohľadom odomknúť aj náhodne. Váš telefón môže odomknúť aj iná osoba tým, že vám ho podrží pred tvárou, alebo niekto, kto sa na vás podobá, napríklad dvojča.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Upozornenie</string>
+    <string name="security_settings_face_enroll_introduction_message">Odomykajte telefón a overujte svoju totožnosť tvárou, napríklad pri prihlasovaní do aplikácií a schvaľovaní nákupov.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Používajte tvár na odomykanie telefónu, schvaľovanie nákupov a prihlasovanie sa do aplikácií</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Odomykajte telefón a schvaľujte nákupy tvárou.
+
+Upozornenie: Toto zariadenie nemôžete odomykať tvárou. Ďalšie informácie vám poskytne správca organizácie."</string>
+    <string name="security_settings_face_enroll_introduction_more">Viac</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nie, vďaka</string>
+    <string name="security_settings_face_enroll_introduction_title">Nastavenie odomknutia tvárou</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Overenie totožnosti pomocou tváre</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Zlepšite zabezpečenie a výkonnosť</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Znova nastavte odomknutie tvárou</string>
+    <string name="security_settings_face_enroll_next">Ďalej</string>
+    <string name="security_settings_face_enroll_partial_message">Ak chcete zlepšiť výkonnosť, môžete znova nastaviť odomknutie tvárou v Nastaveniach</string>
+    <string name="security_settings_face_enroll_partial_start_over">Začať odznova</string>
+    <string name="security_settings_face_enroll_partial_title">Nastavenie odomknutia tvárou bolo dokončené</string>
+    <string name="security_settings_face_enroll_repeat_title">Umiestnite svoju tvár do kruhu</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Znova nastavte odomknutie tvárou</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Zlepšite výkonnosť odomknutia tvárou</string>
+    <string name="security_settings_face_enroll_timeout_message">"Vyskúšajte namiesto toho rýchle nastavenie. Upozorňujeme, že hlava musí byť pri používaní odomknutia tvárou priamejšie pred telefónom.
+
+Ak chcete zlepšiť fungovanie, môžete znova nastaviť odomknutie tvárou v Nastaveniach."</string>
+    <string name="security_settings_face_enroll_timeout_title">V nastavovaní nie je možné pokračovať</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Skúsiť znova</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Použiť rýchle nastavenie</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Ukončiť nastavenie</string>
+    <string name="security_settings_face_enroll_too_hot_message">Nastavenie odomknutia tvárou sa nedá dokončiť, pretože telefón je príliš horúci. Skúste to neskôr, keď sa ochladí.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Preskočiť odomknutie tvárou</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefón je príliš horúci</string>
+    <string name="security_settings_face_preference_summary">Pridaná tvár</string>
+    <string name="security_settings_face_preference_summary_none">Klepnite a nastavte tvár</string>
+    <string name="security_settings_face_preference_title">Odomknutie tvárou</string>
+    <string name="security_settings_face_profile_preference_title">Odomknutie tvárou pre prácu</string>
+    <string name="security_settings_face_settings_context_subtitle">Odomykajte telefón tvárou</string>
+    <string name="security_settings_face_settings_enroll">Nastaviť odomknutie tvárou</string>
+    <string name="security_settings_face_settings_footer">"Pomocou tváre odomykajte telefón alebo overujte svoju totožnosť v aplikáciách, napríklad pri prihlasovaní alebo schvaľovaní nákupu.
+
+Upozorňujeme:
+Naraz môžete mať nastavenú iba jednu tvár. Ak chcete pridať ďalšiu tvár, odstráňte aktuálnu.
+
+Telefón môžete neúmyselne odomknúť pohľadom.
+
+Môže ho odomknúť iná osoba, ak vám ho pridrží pred tvárou.
+
+Môže ho odomknúť aj niekto, kto sa na vás veľmi podobá, napríklad dvojča."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Pomocou tváre odomykajte telefón alebo overujte svoju totožnosť v aplikáciách, napríklad pri prihlasovaní alebo schvaľovaní nákupu.
+
+Upozorňujeme:
+Naraz môžete mať nastavenú iba jednu tvár. Ak chcete pridať ďalšiu tvár, odstráňte aktuálnu.
+
+Telefón môžete neúmyselne odomknúť pohľadom.
+
+Môže ho odomknúť iná osoba, ak vám ho pridrží pred tvárou, a to aj v prípade, že máte zatvorené oči.
+
+Môže ho odomknúť aj niekto, kto sa na vás veľmi podobá, napríklad dvojča."</string>
+    <string name="security_settings_face_settings_preferences_category">Pri používaní odomknutia tvárou</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Model tváre bude bezpečným spôsobom natrvalo odstránený.
+
+Po odstránení budete pri odomykaní telefónu alebo overovaní v aplikáciách potrebovať PIN, vzor alebo heslo."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Model tváre bude bezpečným spôsobom natrvalo odstránený.
+
+Po odstránení budete pri odomykaní telefónu potrebovať PIN, vzor alebo heslo."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Chcete model tváre odstrániť?</string>
+    <string name="security_settings_face_settings_remove_face_model">Odstrániť model tváre</string>
+    <string name="security_settings_face_settings_require_attention">Vyžadovať otvorené oči</string>
+    <string name="security_settings_face_settings_require_attention_details">Pri odomykaní telefónu vyžadovať otvorené oči</string>
+    <string name="security_settings_face_settings_require_confirmation">Vždy vyžadovať potvrdenie</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Pri používaní odomknutia tvárou v aplikáciách vždy vyžad. potvrdenie</string>
+    <string name="security_settings_face_settings_use_face_category">Odomknutím tvárou:</string>
+</resources>

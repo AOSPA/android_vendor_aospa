@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Gesichtsentsperrung zulassen</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Fertig</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Wenn die Gesichtsentsperrung mit Bedienungshilfen deaktiviert ist, funktionieren manche Einrichtungsschritte möglicherweise nicht richtig mit TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Zurück</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Einrichtung fortsetzen</string>
+    <string name="security_settings_face_enroll_education_message">Auf dem nächsten Bildschirm wirst du aufgefordert, deinen Kopf zu drehen, um dein Gesicht aus allen Blickwinkeln aufzunehmen.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Auf dem nächsten Bildschirm musst du dein Gerät auf Augenhöhe halten</string>
+    <string name="security_settings_face_enroll_education_start">Starten</string>
+    <string name="security_settings_face_enroll_education_title">So richtest du die Gesichtsentsperrung ein</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Entsperrung per Gesichtserkennung einrichten</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Per Gesichtserkennung authentifizieren</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Überspringen</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Scan wurde nicht abgeschlossen</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Gesichtsscan ist fehlgeschlagen.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Zeitüberschreitung bei der Anmeldung per Gesichtsscan. Versuch es noch einmal.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Zeitüberschreitung beim Einrichten der Gesichtsentsperrung</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Du kannst jetzt die Entsperrung per Gesichtserkennung verwenden, um dein Smartphone zu entsperren oder deine Identität zu bestätigen, z. B. um dich in Apps anzumelden oder Käufe zu autorisieren</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Wenn du jetzt dein Smartphone zur Hand nimmst oder auf das Display tippst, kannst du die Entsperrung per Gesichtserkennung verwenden.
+
+Die Entsperrung per Gesichtserkennung funktioniert am besten, wenn die Umgebung hell genug ist und du keine Maske oder Brille mit dunklen Gläsern trägst."</string>
+    <string name="security_settings_face_enroll_finish_title">Sieht gut aus!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Lösche dein aktuelles Gesichtsmodell, um die Entsperrung per Gesichtserkennung neu einzurichten.
+
+Dein Gesichtsmodell wird dauerhaft und sicher gelöscht.
+
+Danach benötigst du zum Entsperren deines Smartphones oder zur Authentifizierung in Apps deine PIN, dein Muster oder dein Passwort."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Lösche dein aktuelles Gesichtsmodell, um die Entsperrung per Gesichtserkennung neu einzurichten.
+
+Dein Gesichtsmodell wird dauerhaft und sicher gelöscht.
+
+Danach benötigst du zum Entsperren deines Smartphones oder zur Authentifizierung in Apps deinen Fingerabdruck, deine PIN, dein Muster oder Passwort."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Entsperrung per Gesichtserkennung einrichten</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Einrichtung bei Einschränkung von Sehvermögen oder Kopfbeweglichkeit.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Wenn du die Entsperrung per Gesichtserkennung verwendest, muss sich dein Kopf möglicherweise noch direkter vor dem Smartphone befinden.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Augen müssen geöffnet sein</string>
+    <string name="security_settings_face_enroll_introduction_agree">Ich stimme zu</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Abbrechen</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Das Entsperren des Smartphones deines Kindes mit seinem Gesicht kann weniger sicher sein als ein starkes Muster oder eine starke PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Du kannst deinem Kind erlauben, sein Gesicht zum Entsperren des Smartphones zu verwenden</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Du und dein Kind könnt jederzeit das Gesichtsmodell löschen oder die Funktion „Entsperrung per Gesichtserkennung“ in den Einstellungen deaktivieren. Gesichtsmodelle bleiben auf dem Smartphone gespeichert, bis sie gelöscht werden.
+
+Weitere Informationen findest du unter g.co/pixel/faceunlock"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Du und dein Kind habt die Kontrolle</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Du kannst jederzeit dein Gesichtsmodell löschen oder die Funktion „Entsperrung per Gesichtserkennung“ in den Einstellungen deaktivieren. Gesichtsmodelle bleiben auf dem Smartphone gespeichert, bis du sie löschst.
+
+Weitere Informationen findest du unter g.co/pixel/faceunlock"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Du hast die Kontrolle</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Die Funktion „Entsperrung per Gesichtserkennung“ erstellt ein eindeutiges Modell des Gesichts deines Kindes, mit dem seine Identität bestätigt werden kann. Bei der Einrichtung macht dein Kind aus verschiedenen Blickwinkeln Fotos von seinem Gesicht. Daraus wird das Gesichtsmodell erstellt.
+
+Jedes Mal, wenn dein Kind sein Smartphone per Gesichtserkennung entsperrt, wird das Modell mit neuen Fotos aktualisiert. Die verwendeten Fotos werden niemals gespeichert. Das Modell selbst wird auf dem Smartphone abgelegt. Die Verarbeitung der entsprechenden Daten findet unter Einhaltung aller Sicherheitsvorgaben ausschließlich auf dem Smartphone statt."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Die Funktion „Entsperrung per Gesichtserkennung“ erstellt ein eindeutiges Modell deines Gesichts, mit dem deine Identität bestätigt werden kann. Bei der Einrichtung machst du aus verschiedenen Blickwinkeln Fotos von deinem Gesicht. Daraus wird das Gesichtsmodell erstellt.
+
+Jedes Mal, wenn du dein Smartphone per Gesichtserkennung entsperrst, wird das Modell mit neuen Fotos aktualisiert. Die verwendeten Fotos werden niemals gespeichert. Das Modell selbst wird auf dem Smartphone abgelegt. Die Verarbeitung der entsprechenden Daten findet, unter Einhaltung aller Sicherheitsvorgaben, ausschließlich auf dem Smartphone statt."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">So gehts</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Bei der Entsperrung per Gesichtserkennung kann festgelegt werden, dass die Augen deines Kindes offen sein müssen, damit seine Identität bestätigt bzw. das Smartphone entsperrt werden kann. Du und dein Kind könnt diese Option jederzeit in den Einstellungen aktivieren.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Falls dein Kind eine Brille hat, kann es sie auch bei der Einrichtung tragen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Das Entsperren des Smartphones deines Kindes mit seinem Gesicht kann weniger sicher sein als ein starkes Muster, eine PIN oder ein Passwort</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Wenn dein Kind das Smartphone ansieht, kann es entsperrt werden, selbst wenn das nicht beabsichtigt ist. Das Smartphone kann eventuell auch entsperrt werden, wenn ihm jemand sehr ähnlich sieht, etwa ein eineiiger Zwilling, oder das Gerät vor das Gesicht hält.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Bei der Entsperrung per Gesichtserkennung kannst du festlegen, dass deine Augen offen sein müssen, damit deine Identität bestätigt bzw. das Smartphone entsperrt werden kann. Du kannst diese Option jederzeit in den Einstellungen aktivieren.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Eine Korrekturbrille oder eine leicht getönte Sonnenbrille sind in Ordnung.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Das Entsperren per Gesichtserkennung ist möglicherweise nicht so sicher wie ein komplexes Muster, eine PIN oder ein Passwort</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Wenn du auf das Smartphone blickst, kann es entsperrt werden, selbst wenn du dies nicht möchtest. Dein Smartphone kann eventuell auch von jemandem entsperrt werden, der dir sehr ähnlich sieht, beispielsweise einem eineiigen Zwilling, oder wenn jemand das Gerät vor dein Gesicht hält.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Hinweis</string>
+    <string name="security_settings_face_enroll_introduction_message">Du kannst die Entsperrung per Gesichtserkennung verwenden, um dein Smartphone zu entsperren oder deine Identität zu bestätigen, z. B. um dich in Apps anzumelden oder Käufe zu autorisieren.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Verwende die Entsperrung per Gesichtserkennung, um dein Smartphone zu entsperren, Käufe zu autorisieren oder dich in Apps anzumelden</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Du kannst die Entsperrung per Gesichtserkennung verwenden, um dein Smartphone zu entsperren oder Käufe zu autorisieren.
+
+Hinweis: Dieses Gerät kannst du nicht per Gesichtserkennung entsperren. Weitere Informationen erhältst du vom Administrator deiner Organisation."</string>
+    <string name="security_settings_face_enroll_introduction_more">Mehr</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nein danke</string>
+    <string name="security_settings_face_enroll_introduction_title">Gesichtsentsperrung einrichten</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Per Gesichtserkennung authentifizieren</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Sicherheit und Leistung verbessern</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Entsperrung per Gesichtserkennung neu einrichten</string>
+    <string name="security_settings_face_enroll_next">Weiter</string>
+    <string name="security_settings_face_enroll_partial_message">Damit die Entsperrung per Gesichtserkennung optimal funktioniert, kannst du sie in den Einstellungen neu einrichten</string>
+    <string name="security_settings_face_enroll_partial_start_over">Neu beginnen</string>
+    <string name="security_settings_face_enroll_partial_title">Entsperrung per Gesichtserkennung eingerichtet</string>
+    <string name="security_settings_face_enroll_repeat_title">Gesicht in den Kreis halten</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Gesichtsentsperrung neu einrichten</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Geschwindigkeit der Gesichtsentsperrung verbessern</string>
+    <string name="security_settings_face_enroll_timeout_message">"Probier stattdessen die schnelle Einrichtung aus. Nur zur Erinnerung: Wenn du die schnelle Einrichtung auswählst, muss sich dein Kopf bei der Entsperrung per Gesichtserkennung möglicherweise noch direkter vor dem Smartphone befinden.
+
+Damit die Entsperrung per Gesichtserkennung optimal funktioniert, kannst du sie in den Einstellungen neu einrichten."</string>
+    <string name="security_settings_face_enroll_timeout_title">Die Einrichtung kann nicht fortgesetzt werden</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Noch einmal versuchen</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Schnelle Einrichtung verwenden</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Einrichtung abbrechen</string>
+    <string name="security_settings_face_enroll_too_hot_message">Die Entsperrung per Gesichtserkennung kann nicht fertig eingerichtet werden, weil das Smartphone zu heiß ist. Versuch es später noch einmal, wenn es abgekühlt ist.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Gesichtsentsperrung überspringen</string>
+    <string name="security_settings_face_enroll_too_hot_title">Smartphone ist zu heiß</string>
+    <string name="security_settings_face_preference_summary">Gesicht hinzugefügt</string>
+    <string name="security_settings_face_preference_summary_none">Zum Einrichten der Gesichtsentsperrung tippen</string>
+    <string name="security_settings_face_preference_title">Gesichtsentsperrung</string>
+    <string name="security_settings_face_profile_preference_title">Entsperrung per Gesichtserkennung für die Arbeit</string>
+    <string name="security_settings_face_settings_context_subtitle">Verwende die Entsperrung per Gesichtserkennung, um dein Smartphone zu entsperren</string>
+    <string name="security_settings_face_settings_enroll">Gesichtsentsperrung einrichten</string>
+    <string name="security_settings_face_settings_footer">"Du kannst die Entsperrung per Gesichtserkennung zum Entsperren deines Smartphones oder zur Authentifizierung in Apps verwenden, beispielsweise um dich anzumelden oder um Käufe zu autorisieren.
+
+Hinweis:
+Es kann immer nur jeweils ein Gesicht eingerichtet sein. Wenn du ein anderes hinzufügen möchtest, lösche zuerst das aktuelle.
+
+Es kann passieren, dass das Smartphone unbeabsichtigt entsperrt wird, wenn du auf das Gerät blickst.
+
+Eine andere Person kann dein Smartphone entsperren, indem sie es vor dein Gesicht hält.
+
+Dein Smartphone kann eventuell auch von jemandem entsperrt werden, der dir sehr ähnlich sieht, beispielsweise von einem eineiigen Zwilling."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Du kannst die Entsperrung per Gesichtserkennung zum Entsperren deines Smartphones oder zur Authentifizierung in Apps verwenden, beispielsweise um dich anzumelden oder um Käufe zu autorisieren.
+
+Hinweis:
+Es kann immer nur jeweils ein Gesicht eingerichtet sein. Wenn du ein anderes hinzufügen möchtest, lösche zuerst das aktuelle.
+
+Es kann passieren, dass das Smartphone unbeabsichtigt entsperrt wird, wenn du auf das Gerät blickst.
+
+Eine andere Person kann dein Smartphone dadurch entsperren, dass sie es vor dein Gesicht hält, auch wenn deine Augen geschlossen sind.
+
+Dein Smartphone kann eventuell auch von jemandem entsperrt werden, der dir sehr ähnlich sieht, beispielsweise von einem eineiigen Zwilling."</string>
+    <string name="security_settings_face_settings_preferences_category">Bei Nutzung der Entsperrung per Gesichtserkennung</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Dein Gesichtsmodell wird dauerhaft und sicher gelöscht.
+
+Nach dem Löschen benötigst du deine PIN, dein Muster oder dein Passwort, um dein Smartphone zu entsperren und dich in Apps zu authentifizieren."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Dein Gesichtsmodell wird dauerhaft und sicher gelöscht.
+
+Nach dem Löschen benötigst du deine PIN, dein Muster oder dein Passwort, um dein Smartphone zu entsperren."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Gesichtsmodell löschen?</string>
+    <string name="security_settings_face_settings_remove_face_model">Gesichtsmodell löschen</string>
+    <string name="security_settings_face_settings_require_attention">Augen müssen geöffnet sein</string>
+    <string name="security_settings_face_settings_require_attention_details">Zum Entsperren des Smartphones müssen deine Augen geöffnet sein</string>
+    <string name="security_settings_face_settings_require_confirmation">Bestätigung immer erforderlich</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Bei Gesichtsentsperrung in Apps immer Bestätigung anfordern</string>
+    <string name="security_settings_face_settings_use_face_category">Gesichtsentsperrung für</string>
+</resources>

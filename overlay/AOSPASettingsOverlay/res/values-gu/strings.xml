@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">ફેસ અનલૉક સુવિધાને મંજૂરી આપો</string>
+    <string name="security_settings_face_enroll_dialog_ok">ઓકે</string>
+    <string name="security_settings_face_enroll_done">થઈ ગયું</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">જો ઍક્સેસિબિલિટી ફેસ અનલૉક સુવિધા બંધ કરવામાં આવે, તો TalkBack વડે સેટઅપના અમુક પગલાં યોગ્ય રીતે કામ કરી શકશે નહીં.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">પાછા ફરો</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">સેટઅપ ચાલુ રાખો</string>
+    <string name="security_settings_face_enroll_education_message">આગલી સ્ક્રીનમાં, તમારા ચહેરાને બધા ખૂણેથી કૅપ્ચર કરવા માટે તમારું માથું ફેરવો</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">આગળની સ્ક્રીન પર, તમારા ફોનને તમારી આંખના લેવલ પર પકડી રાખો</string>
+    <string name="security_settings_face_enroll_education_start">શરૂ કરો</string>
+    <string name="security_settings_face_enroll_education_title">ફેસ અનલૉક સુવિધા કેવી રીતે સેટઅપ કરવી</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">ફેસ અનલૉક સુવિધાનું સેટઅપ કરો</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">પ્રમાણિત કરવા તમારા ચહેરાનો ઉપયોગ કરો</string>
+    <string name="security_settings_face_enroll_enrolling_skip">છોડો</string>
+    <string name="security_settings_face_enroll_error_dialog_title">નોંધણી પૂર્ણ થઈ ન હતી</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">ચહેરાની નોંધણી કરી શકાઈ નથી.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">ચહેરાની નોંધણીની સમય મર્યાદાએ પહોંચી ગયા. ફરી પ્રયાસ કરો.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">ફેસ અનલૉક સુવિધાનું સેટઅપ કરવાનો સમય સમાપ્ત થયો</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">તમારા ફોનને અનલૉક કરવા અથવા એ તમે જ છો તેની ચકાસણી કરવા માટે, હવે તમે તમારા ચહેરાનો ઉપયોગ કરી શકો છો, જેમ કે જ્યારે તમે ઍપમાં સાઇન ઇન કરો કે કોઈ ખરીદીને મંજૂરી આપો</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"હવે તમે જ્યારે તમારા ફોનને ઉપાડો અથવા તેની સ્ક્રીન પર ટૅપ કરો, ત્યારે તમે તેને અનલૉક કરવા માટે તમારા ચહેરાનો ઉપયોગ કરી શકો છો.
+
+જ્યારે પર્યાપ્ત પ્રકાશ હોય અને તમે માસ્ક કે કાળા ચશ્માં પહેરેલા ન હોય ત્યારે ફેસ અનલૉક સુવિધા બહેતર રીતે કામ કરે છે."</string>
+    <string name="security_settings_face_enroll_finish_title">સરસ દેખાય છે!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"ફેસ અનલૉક સુવિધાનું ફરી સેટઅપ કરવા માટે, તમારા ચહેરાનું વર્તમાન મૉડલ ડિલીટ કરો.
+
+તમારા ચહેરાનું મૉડલ કાયમ માટે અને સુરક્ષિત રીતે ડિલીટ કરવામાં આવશે.
+
+ડિલીટ કર્યા પછી, તમારો ફોન અનલૉક કરવા કે ઍપમાં પ્રમાણીકરણ માટે તમને તમારા પિન, પૅટર્ન કે પાસવર્ડની જરૂર પડશે."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"ફેસ અનલૉક સુવિધાનું ફરી સેટઅપ કરવા માટે, તમારા ચહેરાનું વર્તમાન મૉડલ ડિલીટ કરો.
+
+તમારા ચહેરાનું મૉડલ કાયમ માટે અને સુરક્ષિત રીતે ડિલીટ કરવામાં આવશે.
+
+ડિલીટ કર્યા પછી, તમારો ફોન અનલૉક કરવા કે ઍપમાં પ્રમાણીકરણ માટે, તમને તમારી ફિંગરપ્રિન્ટ, પિન, પૅટર્ન કે પાસવર્ડની જરૂર પડશે."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">ફેસ અનલૉક સુવિધાનું સેટઅપ કરો</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">મર્યાદિત દૃષ્ટિ કે માથાની હિલચાલનું સેટઅપ કરો</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ફેસ અનલૉક સુવિધાનો ઉપયોગ કરતી વખતે, તમારું માથું સીધું તમારા ફોનની બિલકુલ સામે રાખવાની જરૂર પડી શકે છે.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">આંખો ખુલ્લી હોવી જરૂરી છે</string>
+    <string name="security_settings_face_enroll_introduction_agree">હું સંમત છું</string>
+    <string name="security_settings_face_enroll_introduction_cancel">રદ કરો</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">તમારા બાળકના ફોનને અનલૉક કરવા માટે તેના ચહેરાનો ઉપયોગ કરવો એ મજબૂત પૅટર્ન અથવા પિનનો ઉપયોગ કરવા કરતાં ઓછું સુરક્ષિત હોઈ શકે છે.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">તમારા બાળકને તેમનો ફોન અનલૉક કરવા માટે તેમના ચહેરાનો ઉપયોગ કરવાની મંજૂરી આપો</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"સેટિંગમાં જઈને તમે અને તમારું બાળક કોઈપણ સમયે તેમના ચહેરાનું મૉડલ ડિલીટ કરી શકશો અથવા ફેસ અનલૉક સુવિધા બંધ કરી શકશો. જ્યાં સુધી ચહેરાના મૉડલને ડિલીટ ન કરવામાં આવે, ત્યાં સુધી તેને ફોન પર સ્ટોર કરવામાં આવે છે.
+
+g.co/pixel/faceunlock પર વધુ જાણો."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">તમારા અને તમારા બાળક પાસે નિયંત્રણ છે</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"સેટિંગમાં જઈને તમે કોઈપણ સમયે તમારા ચહેરાનું મૉડલ ડિલીટ કરી શકો છો અથવા ફેસ અનલૉક સુવિધા બંધ કરી શકો છો. જ્યાં સુધી તમે ચહેરાના મૉડલ ડિલીટ ન કરો, ત્યાં સુધી તેને તમારા ફોન પર સ્ટોર કરવામાં આવે છે.
+
+g.co/pixel/faceunlock પર વધુ જાણો."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">તમારા નિયંત્રણમાં છે</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"એ તમારું બાળક જ છે તેની ચકાસણી કરવા માટે, ફેસ અનલૉક સુવિધા તેમના ચહેરાનું વિશેષ મૉડલ બનાવે છે. સેટઅપ દરમિયાન ચહેરાનું આ મૉડલ બનાવવા માટે, તમારું બાળક જુદા-જુદા ખૂણેથી તેમના ચહેરાની છબીઓ લેશે.
+
+જ્યારે તેઓ ફેસ અનલૉક સુવિધાનો ઉપયોગ કરે, ત્યારે તેમના ચહેરાના મૉડલને અપડેટ કરવા માટે છબીઓનો ઉપયોગ કરવામાં આવે છે. તેમના ચહેરાનું મૉડલ બનાવવા માટે ઉપયોગમાં લેવાયેલી છબીઓને સ્ટોર કરવામાં આવતી નથી, પણ ચહેરાના મૉડલને તમારા ફોન પર સુરક્ષિત રીતે સ્ટોર કરવામાં આવે છે અને તે હંમેશાં તમારા ફોનમાં જ રહે છે. બધી પ્રક્રિયાઓ સુરક્ષિત રીતે ફોનમાં જ કરવામાં આવે છે."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"એ તમે જ છો તેની ચકાસણી કરવા માટે, ફેસ અનલૉક સુવિધા તમારા ચહેરાનું વિશેષ મૉડલ બનાવે છે. સેટઅપ દરમિયાન ચહેરાનું આ મૉડલ બનાવવા માટે, તમે જુદા-જુદા ખૂણેથી તમારા ચહેરાની છબીઓ લેશો.
+
+જ્યારે તમે ફેસ અનલૉક સુવિધાનો ઉપયોગ કરો, ત્યારે તમારા ચહેરાના મૉડલને અપડેટ કરવા માટે છબીઓનો ઉપયોગ કરવામાં આવે છે. તમારા ચહેરાનું મૉડલ બનાવવા માટે ઉપયોગમાં લેવાયેલી છબીઓને સ્ટોર કરવામાં આવતી નથી, પણ ચહેરાના મૉડલને તમારા ફોન પર સુરક્ષિત રીતે સ્ટોર કરવામાં આવે છે અને તે હંમેશાં તમારા ફોનમાં જ રહે છે. બધી પ્રક્રિયાઓ સુરક્ષિત રીતે તમારા ફોનમાં જ કરવામાં આવે છે."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">તેની કાર્ય કરવાની રીત</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ફોન અનલૉક કરવા અથવા એ તમારું બાળક જ છે તેની ચકાસણી કરવા માટે, ફેસ અનલૉક સુવિધાને તેમની આંખો ખુલ્લી હોવાની જરૂર પડી શકે છે. તમે અને તમારું બાળક કોઈપણ સમયે સેટિંગમાં જઈને આ વિકલ્પ ચાલુ કરી શકો છો.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">જો તમારું બાળક સામાન્ય રીતે ચશ્માં પહેરતું હોય, તો સેટઅપ દરમિયાન તેઓ તેને પહેરી રાખી શકે છે.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">તમારા બાળકનો ફોન અનલૉક કરવા માટે તેમના ચહેરાનો ઉપયોગ કરવો એ સશક્ત પૅટર્ન, પિન અથવા પાસવર્ડનો ઉપયોગ કરવા કરતાં ઓછું સુરક્ષિત હોઈ શકે છે</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">જ્યારે તેઓ ઇચ્છતા ન હોય, ત્યારે પણ ફોનને જોવાથી તે અનલૉક થઈ શકે છે. તેમના જેવી જ દેખાતી અન્ય વ્યક્તિ જેમ કે જોડિયા ભાઈ-બહેન દ્વારા પણ તમારો ફોન અનલૉક થઈ શકે છે અથવા જો કોઈ ફોનને તેમના ચહેરાની સામે પકડી રાખે તો.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">ફોન અનલૉક કરવા અથવા એ તમે જ છો તેની ચકાસણી કરવા માટે, ફેસ અનલૉક સુવિધાને તમારી આંખો ખુલ્લી હોવાની જરૂર પડી શકે છે. તમે કોઈપણ સમયે સેટિંગમાં જઈને આ વિકલ્પ ચાલુ કરી શકો છો.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">ચશ્માં અથવા હલકા રંગના સનગ્લાસ યોગ્ય છે.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">તમારો ફોન અનલૉક કરવા માટે તમારા ચહેરાનો ઉપયોગ કરવો એ કોઈ સશક્ત પૅટર્ન, પિન કે પાસવર્ડ કરતાં કદાચ ઓછું સુરક્ષિત હોઈ શકે છે</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">જ્યારે તમે ઇચ્છતા ન હો, ત્યારે પણ ફોનને જોવાથી તે અનલૉક થઈ શકે છે. તમારા જેવી જ દેખાતી અન્ય વ્યક્તિ જેમ કે જોડિયા ભાઈ-બહેન દ્વારા પણ તમારો ફોન અનલૉક થઈ શકે છે અથવા જો કોઈ ફોનને તમારા ચહેરાની સામે પકડી રાખે તો.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">ધ્યાનમાં રાખો</string>
+    <string name="security_settings_face_enroll_introduction_message">તમારો ફોન અનલૉક કરવા અથવા એ તમે જ છો તેની ચકાસણી કરવા માટે તમારા ચહેરાનો ઉપયોગ કરો, જેમ કે જ્યારે તમે ઍપમાં સાઇન ઇન કરો કે કોઈ ખરીદીને મંજૂરી આપો.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">તમારા ફોનને અનલૉક કરવા, ખરીદીઓ અધિકૃત કરવા અથવા ઍપમાં સાઇન ઇન કરવા માટે તમારા ચહેરાનો ઉપયોગ કરો</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"તમારા ફોનને અનલૉક કરવા અથવા ખરીદીઓને મંજૂર કરવા માટે તમારા ચહેરાનો ઉપયોગ કરો.
+
+નોંધ: આ ડિવાઇસને અનલૉક કરવા માટે તમે તમારા ચહેરાનો ઉપયોગ નહીં કરી શકો. વધુ માહિતી માટે, તમારી સંસ્થાના વ્યવસ્થાપકનો સંપર્ક કરો."</string>
+    <string name="security_settings_face_enroll_introduction_more">વધુ</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ના, આભાર</string>
+    <string name="security_settings_face_enroll_introduction_title">ફેસ અનલૉક સેટઅપ કરો</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">પ્રમાણિત કરવા તમારા ચહેરાનો ઉપયોગ કરો</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">સુરક્ષા અને કાર્યપ્રદર્શન બહેતર બનાવો</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">ફેસ અનલૉક સુવિધાનું ફરી સેટઅપ કરો</string>
+    <string name="security_settings_face_enroll_next">આગળ</string>
+    <string name="security_settings_face_enroll_partial_message">વધુ સારા કાર્યપ્રદર્શન માટે, તમે સેટિંગમાં જઈને ફેસ અનલૉક સુવિધાનું ફરી સેટઅપ કરી શકો છો</string>
+    <string name="security_settings_face_enroll_partial_start_over">ફરી શરૂ કરો</string>
+    <string name="security_settings_face_enroll_partial_title">ફેસ અનલૉક સુવિધાનું સેટઅપ સમાપ્ત થયું</string>
+    <string name="security_settings_face_enroll_repeat_title">તમારા ચહેરાને વર્તુળના કેન્દ્રમાં રાખો</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">ફેસ અનલૉક સુવિધાનું ફરી સેટઅપ કરો</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">ફેસ અનલૉક સુવિધાનું કાર્યપ્રદર્શન બહેતર બનાવો</string>
+    <string name="security_settings_face_enroll_timeout_message">"તેને બદલે ઝડપી સેટઅપ અજમાવી જુઓ. આ વાત ધ્યાનમાં રાખો કે, ફેસ અનલૉક સુવિધાનો ઉપયોગ કરતી વખતે, તમારું માથું સીધું તમારા ફોનની બિલકુલ સામે રાખવાની જરૂર પડી શકે છે.
+
+વધુ સારા કાર્યપ્રદર્શન માટે, તમે સેટિંગમાં જઈને ફેસ અનલૉક સુવિધાને ફરી સેટઅપ કરી શકો છો."</string>
+    <string name="security_settings_face_enroll_timeout_title">સેટઅપ ચાલુ રાખી શકાતું નથી</string>
+    <string name="security_settings_face_enroll_timeout_try_again">ફરી પ્રયાસ કરો</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ઝડપી સેટઅપનો ઉપયોગ કરો</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">સેટઅપથી બહાર નીકળો</string>
+    <string name="security_settings_face_enroll_too_hot_message">ફોન ખૂબ ગરમ હોવાને કારણે ફેસ અનલૉક સુવિધાનું સેટઅપ પૂર્ણ કરી શકાતું નથી. ફોન ઠંડો પડે ત્યાર પછી ફરીથી પ્રયાસ કરો.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ફેસ અનલૉકનું સેટઅપ છોડી દો</string>
+    <string name="security_settings_face_enroll_too_hot_title">ફોન ખૂબ ગરમ છે</string>
+    <string name="security_settings_face_preference_summary">ચહેરો ઉમેર્યો</string>
+    <string name="security_settings_face_preference_summary_none">ફેસ અનલૉક સુવિધાનું સેટઅપ કરવા ટૅપ કરો</string>
+    <string name="security_settings_face_preference_title">ફેસ અનલૉક</string>
+    <string name="security_settings_face_profile_preference_title">ઑફિસ માટે ફેસ અનલૉક</string>
+    <string name="security_settings_face_settings_context_subtitle">તમારા ફોનને અનલૉક કરવા માટે ફેસ અનલૉક સુવિધાનો ઉપયોગ કરો</string>
+    <string name="security_settings_face_settings_enroll">ફેસ અનલૉક સુવિધાનું સેટઅપ કરો</string>
+    <string name="security_settings_face_settings_footer">"તમારા ચહેરાનો ઉપયોગ તમારો ફોનને અનલૉક કરવા કે ઍપમાં પ્રમાણીકરણ માટે કરો, જેમ કે જ્યારે તમે સાઇન ઇન કરો કે કોઈ ખરીદીને મંજૂરી આપો ત્યારે.
+
+ધ્યાનમાં રાખો:
+તમે એક સમયમાં એક જ ચહેરો સેટઅપ કરી શકો છો. બીજો ચહેરો ઉમેરવો હોય, તો વર્તમાન ચહેરો ડિલીટ કરો.
+
+જ્યારે તમે તમારો ફોન અનલૉક કરવાનો ઇરાદો ન ધરાવતા હો ત્યારે પણ ફોનની સામે જોવાથી તે અનલૉક થઈ શકે છે.
+
+જો તમારા ફોનને તમારા ચહેરાની સામે રાખવામાં આવે, તો અન્ય કોઈ વ્યક્તિ પણ તમારો ફોન અનલૉક કરી શકે છે.
+
+તમારા ફોનને બિલકુલ તમારા જેવી દેખાતી વ્યક્તિ, જેમ કે તમારા જેવા જ દેખાતા તમારા ભાઈ કે બહેન પણ અનલૉક કરી શકે છે."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"તમારા ચહેરાનો ઉપયોગ તમારો ફોનને અનલૉક કરવા કે ઍપમાં પ્રમાણીકરણ માટે કરો, જેમ કે જ્યારે તમે સાઇન ઇન કરો કે કોઈ ખરીદીને મંજૂરી આપો ત્યારે.
+
+ધ્યાનમાં રાખો:
+તમે એક સમયમાં એક જ ચહેરો સેટઅપ કરી શકો છો. બીજો ચહેરો ઉમેરવો હોય, તો વર્તમાન ચહેરો ડિલીટ કરો.
+
+જ્યારે તમે તમારો ફોન અનલૉક કરવાનો ઇરાદો ન ધરાવતા હો ત્યારે પણ ફોનની સામે જોવાથી તે અનલૉક થઈ શકે છે.
+
+તમારી આંખ બંધ હોય તો પણ, જો તમારા ફોનને તમારા ચહેરાની સામે રાખવામાં આવે, તો અન્ય કોઈ વ્યક્તિ પણ તમારો ફોન અનલૉક કરી શકે છે.
+
+તમારા ફોનને બિલકુલ તમારા જેવી દેખાતી વ્યક્તિ, જેમ કે તમારા જેવા જ દેખાતા તમારા ભાઈ કે બહેન પણ અનલૉક કરી શકે છે."</string>
+    <string name="security_settings_face_settings_preferences_category">ફેસ અનલૉક સુવિધાનો ઉપયોગ કરતી વખતે</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"તમારા ચહેરાનું મૉડલ કાયમ માટે અને સુરક્ષિત રીતે ડિલીટ કરવામાં આવશે.
+
+ડિલીટ કર્યા પછી, તમારો ફોન અનલૉક કરવા કે ઍપમાં પ્રમાણીકરણ માટે, તમને તમારા પિન, પૅટર્ન કે પાસવર્ડની જરૂર રહેશે."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"તમારા ચહેરાનું મૉડલ કાયમ માટે અને સુરક્ષિત રીતે ડિલીટ કરવામાં આવશે.
+
+ડિલીટ કર્યા પછી, તમારો ફોન અનલૉક કરવા માટે, તમને તમારા પિન, પૅટર્ન કે પાસવર્ડની જરૂર રહેશે."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">શું ચહેરાનું મૉડલ ડિલીટ કરીએ?</string>
+    <string name="security_settings_face_settings_remove_face_model">ચહેરાનું મૉડલ ડિલીટ કરો</string>
+    <string name="security_settings_face_settings_require_attention">આંખો ખુલ્લી હોવી જોઈએ</string>
+    <string name="security_settings_face_settings_require_attention_details">ફોનને અનલૉક કરવા માટે, તમારી આંખો ખુલ્લી રાખી હોવી જરૂરી છે</string>
+    <string name="security_settings_face_settings_require_confirmation">કન્ફર્મેશન હંમેશાં આવશ્યક છે</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ઍપમાં ફેસ અનલૉકનો ઉપયોગ કરતી વખતે, હંમેશાં કન્ફર્મેશન પગલું જરૂરી છે</string>
+    <string name="security_settings_face_settings_use_face_category">આ માટે ફેસ અનલૉક</string>
+</resources>

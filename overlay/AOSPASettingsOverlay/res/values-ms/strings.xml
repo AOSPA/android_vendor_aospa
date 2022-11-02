@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Benarkan Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Selesai</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Jika Buka Kunci Wajah kebolehaksesan dimatikan, beberapa langkah persediaan mungkin tidak berfungsi dengan baik dengan TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Kembali</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Teruskan persediaan</string>
+    <string name="security_settings_face_enroll_education_message">Pada skrin seterusnya, pusingkan kepala agar semua sudut wajah anda dapat dirakam</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Pada skrin seterusnya, pegang telefon anda pada paras mata</string>
+    <string name="security_settings_face_enroll_education_start">Mula</string>
+    <string name="security_settings_face_enroll_education_title">Cara menyediakan Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Sediakan Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Gunakan wajah untuk membuat pengesahan</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Langkau</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Pendaftaran tidak selesai</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Pendaftaran wajah tidak berfungsi.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Had masa pendaftaran wajah dicapai. Cuba lagi.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Persediaan Buka Kunci Wajah sudah tamat masa</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Kini anda boleh menggunakan wajah anda untuk membuka kunci telefon atau mengesahkan diri anda, misalnya ketika anda log masuk apl atau meluluskan pembelian</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Kini anda boleh menggunakan wajah anda untuk membuka kunci apabila memegang telefon atau mengetik skrin.
+
+Buka Kunci Wajah paling sesuai digunakan apabila terdapat cahaya yang mencukupi dan anda tidak memakai pelitup muka atau cermin mata hitam."</string>
+    <string name="security_settings_face_enroll_finish_title">Nampak bagus!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Padamkan model wajah semasa anda untuk menyediakan semula Buka Kunci Wajah.
+
+Model wajah anda akan dipadamkan secara kekal dan selamat.
+
+Selepas pemadaman, anda akan memerlukan PIN, corak atau kata laluan anda untuk membuka kunci telefon anda atau untuk pengesahan dalam apl."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Padamkan model wajah semasa anda untuk menyediakan semula Buka Kunci Wajah.
+
+Model wajah anda akan dipadamkan secara kekal dan selamat.
+
+Selepas pemadaman, anda akan memerlukan cap jari, PIN, corak atau kata laluan anda untuk membuka kunci telefon anda atau untuk pengesahan dalam apl."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Sediakan Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Persediaan untuk penglihatan/gerakan terhad</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Apabila menggunakan Buka Kunci Wajah, kepala anda mungkin perlu berada betul-betul di hadapan telefon.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Mata perlu dibuka</string>
+    <string name="security_settings_face_enroll_introduction_agree">Saya setuju</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Batal</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Menggunakan wajah anak anda untuk membuka kunci telefon mereka mungkin kurang selamat berbanding dengan corak atau PIN yang kukuh.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Benarkan anak anda menggunakan wajah mereka untuk membuka kunci telefon mereka</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Anda dan anak anda boleh memadamkan model wajah mereka atau mematikan Buka Kunci Wajah pada bila-bila masa dalam Tetapan. Model wajah disimpan pada telefon sehingga ia dipadamkan.
+
+Ketahui lebih lanjut melalui g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Anda dan anak anda berada dalam kawalan</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Anda boleh memadamkan model wajah anda atau mematikan Buka Kunci Wajah pada bila-bila masa dalam Tetapan. Model wajah disimpan pada telefon sehingga anda memadamkan model itu.
+
+Ketahui lebih lanjut melalui g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Kawalan di tangan anda</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Buka Kunci Wajah menghasilkan model unik wajah anak anda untuk mengesahkan identiti anak anda. Untuk menghasilkan model wajah semasa persediaan, anak anda akan mengambil imej wajah mereka daripada sudut yang berbeza.
+
+Apabila mereka menggunakan Buka Kunci Wajah, imej digunakan untuk mengemas kini model wajah mereka. Imej yang digunakan untuk menghasilkan model wajah anak anda tidak disimpan, tetapi model wajah disimpan dengan selamat pada telefon dan tidak akan keluar daripada telefon itu. Semua pemprosesan berlaku dengan selamat pada telefon."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Buka Kunci Wajah menghasilkan model unik wajah anda untuk mengesahkan identiti anda. Untuk menghasilkan model wajah ini semasa persediaan, anda akan mengambil imej wajah anda dari sudut yang berbeza.
+
+Apabila anda menggunakan Buka Kunci Wajah, imej akan digunakan untuk mengemas kini model wajah anda. Imej yang digunakan untuk menghasilkan model wajah anda tidak disimpan, tetapi model wajah disimpan dengan selamat pada telefon anda dan tidak akan keluar daripada telefon itu. Semua pemprosesan berlaku dengan selamat pada telefon anda."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Caranya</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Buka Kunci Wajah memerlukan mata anak anda dibuka untuk membuka kunci telefon atau mengesahkan diri mereka. Anda dan anak anda boleh menghidupkan pilihan ini pada bila-bila masa dalam Tetapan.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jika anak anda biasanya memakai cermin mata, mereka boleh memakai cermin mata semasa persediaan.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Menggunakan wajah anak anda untuk membuka kunci telefon mereka mungkin kurang selamat berbanding dengan corak, PIN atau kata laluan yang kukuh.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Tindakan melihat telefon boleh membuka kunci telefon itu meskipun mereka tidak bermaksud untuk berbuat demikian. Telefon mereka juga boleh dibuka kunci oleh seseorang yang amat mirip dengan mereka, seperti kembar seiras atau jika seseorang menghalakan telefon rapat ke wajah mereka.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Mata anda mesti terbuka untuk membuka kunci telefon atau mengesahkan diri menggunakan Buka Kunci Wajah. Pergi ke Tetapan untuk menghidupkan pilihan ini.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Anda boleh memakai cermin mata atau kaca mata hitam yang tidak begitu gelap.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Menggunakan wajah anda untuk membuka kunci telefon anda mungkin kurang selamat berbanding dengan corak, PIN atau kata laluan yang kukuh</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Dengan memandang telefon, anda boleh membuka kuncinya meskipun bukan niat anda berbuat demikian. Telefon anda juga boleh dibuka kunci oleh seseorang yang sangat mirip dengan anda, seperti kembar seiras, atau jika seseorang mendekatkan telefon ke muka anda.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Jangan lupa</string>
+    <string name="security_settings_face_enroll_introduction_message">Gunakan wajah anda untuk membuka kunci telefon atau mengesahkan diri anda, misalnya semasa log masuk aplikasi atau meluluskan pembelian.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Gunakan wajah anda untuk membuka kunci telefon, membenarkan pembelian atau log masuk ke apl</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Gunakan wajah anda untuk membuka kunci telefon atau membenarkan pembelian.
+
+Perhatian: Anda tidak boleh menggunakan wajah anda untuk membuka kunci peranti ini. Untuk mendapatkan maklumat lanjut, hubungi pentadbir organisasi anda."</string>
+    <string name="security_settings_face_enroll_introduction_more">Lagi</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Tidak, terima kasih</string>
+    <string name="security_settings_face_enroll_introduction_title">Sediakan Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Gunakan wajah untuk membuat pengesahan</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Tingkatkan keselamatan dan prestasi</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Sediakan semula Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_next">Seterusnya</string>
+    <string name="security_settings_face_enroll_partial_message">Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dalam Tetapan</string>
+    <string name="security_settings_face_enroll_partial_start_over">Mulakan semula</string>
+    <string name="security_settings_face_enroll_partial_title">Persediaan Buka Kunci Wajah selesai</string>
+    <string name="security_settings_face_enroll_repeat_title">Tengahkan wajah anda dalam bulatan</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Sediakan semula Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Tingkatkan prestasi Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_timeout_message">"Cuba persediaan pantas. Jangan lupa bahawa kepala anda mungkin perlu berada betul-betul di hadapan telefon anda apabila anda menggunakan Buka Kunci Wajah.
+
+Untuk meningkatkan prestasi, anda boleh menyediakan semula Buka Kunci Wajah dalam Tetapan."</string>
+    <string name="security_settings_face_enroll_timeout_title">Tidak dapat meneruskan persediaan</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Cuba lagi</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gunakan persediaan pantas</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Keluar daripada persediaan</string>
+    <string name="security_settings_face_enroll_too_hot_message">Persediaan Buka Kunci Wajah tidak dapat dilengkapkan kerana telefon terlalu panas. Cuba sebentar lagi apabila telefon menyejuk.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Langkau Buka Kunci Wajah</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon terlalu panas</string>
+    <string name="security_settings_face_preference_summary">Wajah ditambahkan</string>
+    <string name="security_settings_face_preference_summary_none">Ketik untuk menyediakan wajah</string>
+    <string name="security_settings_face_preference_title">Buka Kunci Wajah</string>
+    <string name="security_settings_face_profile_preference_title">Buka Kunci Wajah untuk kerja</string>
+    <string name="security_settings_face_settings_context_subtitle">Gunakan Buka Kunci Wajah untuk membuka kunci telefon anda</string>
+    <string name="security_settings_face_settings_enroll">Sediakan Buka Kunci Wajah</string>
+    <string name="security_settings_face_settings_footer">"Gunakan wajah anda untuk membuka kunci telefon anda atau untuk pengesahan dalam apl, seperti ketika anda log masuk atau meluluskan pembelian.
+
+Jangan lupa:
+Anda hanya boleh menyediakan satu wajah pada satu masa. Untuk menambahkan wajah lain, padamkan wajah semasa.
+
+Tindakan melihat telefon boleh membuka kunci telefon itu walaupun anda tidak bermaksud untuk berbuat sedemikian.
+
+Telefon anda boleh dibuka kunci oleh orang lain jika telefon itu dihalakan rapat ke wajah anda.
+
+Telefon anda boleh dibuka kunci oleh seseorang yang mirip anda, seperti adik-beradik yang berwajah seiras anda."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Gunakan wajah anda untuk membuka kunci telefon anda atau untuk pengesahan dalam apl, seperti ketika anda log masuk atau meluluskan pembelian.
+
+Jangan lupa:
+Anda hanya boleh menyediakan satu wajah pada satu masa. Untuk menambahkan wajah lain, padamkan wajah semasa.
+
+Tindakan melihat telefon boleh membuka kunci telefon itu walaupun anda tidak bermaksud untuk berbuat sedemikian.
+
+Telefon anda boleh dibuka kunci oleh orang lain jika telefon itu dihalakan rapat ke wajah anda meskipun mata anda tertutup.
+
+Telefon anda boleh dibuka kunci oleh seseorang yang mirip anda, seperti adik-beradik yang berwajah seiras anda."</string>
+    <string name="security_settings_face_settings_preferences_category">Semasa menggunakan Buka Kunci Wajah</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Model wajah anda akan dipadamkan secara kekal dan selamat.
+
+Selepas pemadaman, anda akan memerlukan PIN, corak atau kata laluan untuk membuka kunci telefon anda atau untuk pengesahan dalam apl."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Model wajah anda akan dipadamkan secara kekal dan selamat.
+
+Selepas pemadaman, anda akan memerlukan PIN, corak atau kata laluan untuk membuka kunci telefon anda."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Padamkan model wajah?</string>
+    <string name="security_settings_face_settings_remove_face_model">Padamkan model wajah</string>
+    <string name="security_settings_face_settings_require_attention">Mata perlu dibuka</string>
+    <string name="security_settings_face_settings_require_attention_details">Untuk membuka kunci telefon, mata anda mesti dibuka</string>
+    <string name="security_settings_face_settings_require_confirmation">Sentiasa memerlukan pengesahan</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Apabila Buka Kunci Wajah digunakan dalam apl, pengesahan diperlukan</string>
+    <string name="security_settings_face_settings_use_face_category">Guna ciri ini untuk</string>
+</resources>

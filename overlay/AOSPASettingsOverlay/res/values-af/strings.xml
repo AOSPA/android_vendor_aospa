@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Laat Gesigslot toe</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Klaar</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">As toeganklikheid-Gesigslot afgeskakel is, sal sommige opstellingstappe dalk nie behoorlik met TalkBack werk nie.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Gaan terug</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Gaan aan met opstelling</string>
+    <string name="security_settings_face_enroll_education_message">Draai op die volgende skerm jou kop om alle hoeke van jou gesig vas te vang</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Hou jou foon op die volgende skerm op oogvlak</string>
+    <string name="security_settings_face_enroll_education_start">Begin</string>
+    <string name="security_settings_face_enroll_education_title">Hoe om Gesigslot op te stel</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Stel Gesigslot op</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Gebruik jou gesig om te staaf</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Slaan oor</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Inskrywing is nie voltooi nie</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Gesiginskrywing het nie gewerk nie.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Gesiginskrywing-tydlimiet is bereik. Probeer weer.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Opstelling van Gesigslot het uitgetel</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Jy kan nou jou gesig gebruik om jou foon te ontsluit of te verifieer dis jy, soos wanneer jy aanmeld by programme of ’n aankoop goedkeur</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Jy kan nou jou gesig gebruik om jou foon te ontsluit wanneer jy dit optel of op die skerm tik.
+
+Gesigslot werk die beste wanneer dit lig genoeg is en wanneer jy nie ’n masker of donkerbril dra nie."</string>
+    <string name="security_settings_face_enroll_finish_title">Lyk goed!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Vee jou huidige gesigmodel uit om Gesigslot weer op te stel.
+
+Jou gesigmodel sal permanent en veilig uitgevee word.
+
+Nadat dit uitgevee is, sal jy jou PIN, patroon of wagwoord moet hê om jou foon te ontsluit of vir stawing in programme."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Vee jou huidige gesigmodel uit om Gesigslot weer op te stel.
+
+Jou gesigmodel sal permanent en veilig uitgevee word.
+
+Nadat dit uitgevee is, sal jy jou vingerafdruk, PIN, patroon of wagwoord moet hê om jou foon te ontsluit of vir stawing in programme."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Stel Gesigslot op</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Opstelling vir beperkte visie of kopbeweging</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Wanneer jy Gesigslot gebruik, sal jou kop dalk meer direk voor jou foon moet wees.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Vereis oop oë</string>
+    <string name="security_settings_face_enroll_introduction_agree">Ek stem in</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Kanselleer</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Om jou kind se gesig te gebruik om hul foon te ontsluit, kan minder veilig wees as ’n sterk patroon of PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Laat jou kind toe om hul gesig te gebruik om hul foon te ontsluit</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Jy en jou kind kan enige tyd in Instellings sy of haar gesigmodel uitvee of Gesigslot afskakel. Gesigmodelle word op die foon geberg totdat hulle uitgevee word.
+
+Kom meer te wete by g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Jy en jou kind is in beheer</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Jy kan enige tyd in Instellings jou gesigmodel uitvee of Gesigslot afskakel. Gesigmodelle word op die foon geberg totdat jy hulle uitvee.
+
+Kom meer te wete by g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Jy is in beheer</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Gesigslot skep 'n unieke model van jou kind se gesig om te verifieer dis hy of sy. Jou kind sal sy of haar gesig uit verskillende hoeke afneem om hierdie gesigmodel tydens die opstelling te skep.
+
+Wanneer jou kind Gesigslot gebruik, word prente gebruik om sy of haar gesigmodel op te dateer. Prente wat gebruik word om jou kind se gesigmodel te skep, word nie geberg nie. Die gesigmodel word egter veilig op die foon geberg en verlaat nooit die foon nie. Alle verwerking vind veilig op die foon plaas."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Gesigslot skep 'n unieke model van jou gesig om te verifieer dis jy. Jy sal jou gesig uit verskillende hoeke afneem om hierdie gesigmodel tydens die opstelling te skep.
+
+Wanneer jy Gesigslot gebruik, word prente gebruik om jou gesigmodel op te dateer. Prente wat gebruik word om jou gesigmodel te skep, word nie geberg nie. Die gesigmodel word veilig op jou foon geberg en verlaat nooit die foon nie. Alle verwerking vind veilig op jou foon plaas."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Hoe dit werk</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Gesigslot kan vereis dat jou kind se oë oop moet wees om die foon te ontsluit of te verifieer dis hy of sy. Jy en jou kind kan enige tyd hierdie opsie in Instellings afskakel.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">"As jou kind gewoonlik 'n bril dra, kan hy of sy dit gedurende die opstelling dra."</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Om jou kind se gesig te gebruik om hul foon te ontsluit, kan minder veilig wees as ’n sterk patroon, PIN of wagwoord.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">"As jou kind na die foon kyk, kan dit ontsluit selfs al het hulle nie bedoel om dit te doen nie. Jou kind se foon kan ook ontsluit word deur iemand wat baie soos hy of sy lyk, soos 'n identiese broer of suster, of wanneer iemand dit voor jou kind se gesig hou."</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Gesigslot kan vereis dat jou oë oop moet wees om die foon te ontsluit of te verifieer dis jy. Jy kan hierdie opsie enige tyd in Instellings afskakel.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">"'n Bril of sonbril met ligte tint is nie 'n probleem nie."</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">"Om jou gesig te gebruik om jou foon te ontsluit, is dalk minder veilig as 'n sterk patroon, PIN of wagwoord."</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">"As jy na die foon kyk, kan dit ontsluit selfs al het jy nie bedoel om dit te doen nie. Jou foon kan ook ontsluit word deur iemand wat baie soos jy lyk, soos 'n identiese broer of suster, of wanneer iemand dit voor jou gesig hou."</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Hou in gedagte</string>
+    <string name="security_settings_face_enroll_introduction_message">"Gebruik jou gesig om jou foon te ontsluit of te verifieer dis jy, soos wanneer jy by programme aanmeld of 'n aankoop goedkeur."</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Gebruik jou gesig om jou foon te ontsluit, aankope te magtig, of by programme aan te meld</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Gebruik jou gesig om jou foon te ontsluit of aankope goed te keur.
+
+Let wel: Jy kan nie jou gesig gebruik om hierdie toestel te ontsluit nie. Kontak jou organisasie se administrateur vir meer inligting."</string>
+    <string name="security_settings_face_enroll_introduction_more">Meer</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nee, dankie</string>
+    <string name="security_settings_face_enroll_introduction_title">Stel Gesigslot op</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Gebruik jou gesig om te staaf</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Verbeter sekuriteit en werkverrigting</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Stel Gesigslot weer op</string>
+    <string name="security_settings_face_enroll_next">Volgende</string>
+    <string name="security_settings_face_enroll_partial_message">Om die werkverrigting te verbeter, kan jy Gesigslot weer in Instellings opstel</string>
+    <string name="security_settings_face_enroll_partial_start_over">Begin oor</string>
+    <string name="security_settings_face_enroll_partial_title">Gesigslot is klaar opgestel</string>
+    <string name="security_settings_face_enroll_repeat_title">Sentreer jou gesig in die sirkel</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Stel Gesigslot weer op</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Verbeter Gesigslot se werkverrigting</string>
+    <string name="security_settings_face_enroll_timeout_message">"Probeer eerder vinnige opstelling. Hou in gedagte dat jou kop dalk meer direk voor jou foon sal moet wees wanneer jy Gesigslot gebruik.
+
+Om die werkverrigting te verbeter, kan jy Gesigslot weer in Instellings opstel."</string>
+    <string name="security_settings_face_enroll_timeout_title">Kan nie met opstelling voortgaan nie</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Probeer weer</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gebruik vinnige opstelling</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Verlaat opstelling</string>
+    <string name="security_settings_face_enroll_too_hot_message">Gesigslot-opstelling kan nie voltooi word nie omdat die foon te warm is. Probeer later weer wanneer die foon afgekoel het.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Slaan Gesigslot oor</string>
+    <string name="security_settings_face_enroll_too_hot_title">Foon is te warm</string>
+    <string name="security_settings_face_preference_summary">Gesig is bygevoeg</string>
+    <string name="security_settings_face_preference_summary_none">Tik om gesig op te stel</string>
+    <string name="security_settings_face_preference_title">Gesigslot</string>
+    <string name="security_settings_face_profile_preference_title">Gesigslot vir werk</string>
+    <string name="security_settings_face_settings_context_subtitle">Gebruik Gesigslot om jou foon te ontsluit</string>
+    <string name="security_settings_face_settings_enroll">Stel Gesigslot op</string>
+    <string name="security_settings_face_settings_footer">"Gebruik jou gesig om jou foon te ontsluit of vir stawing in programme, soos wanneer jy aanmeld of 'n aankoop goedkeur.
+
+Hou in gedagte:
+Jy kan slegs een gesig op 'n slag gestel hê. Om nog 'n gesig by te voeg, moet jy die huidige een uitvee.
+
+As jy na die foon kyk, kan dit ontsluit word wanneer jy nie bedoel om dit te doen nie.
+
+Iemand anders kan jou foon ontsluit as dit voor jou gesig gehou word.
+
+Iemand anders wat baie soos jy lyk, soos 'n identiese broer of suster, kan jou foon ontsluit."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Gebruik jou gesig om jou foon te ontsluit of vir stawing in programme, soos wanneer jy aanmeld of 'n aankoop goedkeur.
+
+Hou in gedagte:
+Jy kan slegs een gesig op 'n slag gestel hê. Om nog 'n gesig by te voeg, moet jy die huidige een uitvee.
+
+As jy na die foon kyk, kan dit ontsluit word wanneer jy nie bedoel om dit te doen nie.
+
+Iemand anders kan jou foon ontsluit as dit voor jou gesig gehou word, selfs as jou oë toe is.
+
+Iemand ander wat baie soos jy lyk, soos 'n identiese broer of suster, kan jou foon ontsluit."</string>
+    <string name="security_settings_face_settings_preferences_category">Wanneer jy Gesigslot gebruik</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Jou gesigmodel sal permanent en veilig uitgevee word. 
+
+Nadat dit uitgevee is, sal jy jou PIN, patroon of wagwoord nodig hê om jou foon te ontsluit of vir stawing in programme."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Jou gesigmodel sal permanent en veilig uitgevee word. 
+
+Nadat dit uitgevee is, sal jy jou PIN, patroon of wagwoord nodig hê om jou foon te ontsluit."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Vee gesigmodel uit?</string>
+    <string name="security_settings_face_settings_remove_face_model">Vee gesigmodel uit</string>
+    <string name="security_settings_face_settings_require_attention">Vereis dat oë oop moet wees</string>
+    <string name="security_settings_face_settings_require_attention_details">Jou oë moet oop wees om die foon te ontsluit</string>
+    <string name="security_settings_face_settings_require_confirmation">Vereis altyd bevestiging</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Vereis altyd bevestigingstap as Gesigslot in programme gebruik word</string>
+    <string name="security_settings_face_settings_use_face_category">Gebruik Gesigslot:</string>
+</resources>
