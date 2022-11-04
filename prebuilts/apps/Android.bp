@@ -5,8 +5,12 @@
 //
 
 android_app_import {
-    apk: "GoogleCameraGo.apk",
     name: "GoogleCameraGo",
+    arch: {
+        arm64: {
+            apk: "GoogleCameraGo.apk",
+        },
+    },
     overrides: ["Camera2"],
     presigned: true,
     product_specific: true,
@@ -14,8 +18,8 @@ android_app_import {
 }
 
 android_app_import {
-    apk: "Abstruct.apk",
     name: "Abstruct",
+    apk: "Abstruct.apk",
     presigned: true,
     product_specific: true,
 }
