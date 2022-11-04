@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f658eb9f_1fdf93a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-11-04T18:19:36Z",
+      "side": 1,
+      "message": "do we care? I don\u0027t think anyone is building non ARM64.",
+      "revId": "2eca4eeb997de7f2b091bf2cb40b8f9d3c4c7d17",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
