@@ -117,6 +117,9 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService$ActiveReceiver</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService$SecretCodeReceiver</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateServiceReceiver</item>
+        <item>com.android.vending/com.google.android.finsky.systemupdate.SystemUpdateSettingsContentProvider</item>
+        <item>com.android.vending/com.google.android.finsky.systemupdateactivity.SettingsSecurityEntryPoint</item>
+        <item>com.android.vending/com.google.android.finsky.systemupdateactivity.SystemUpdateActivity</item>
     </string-array>
 
     <!-- Force enabling of some services that could have been previously disabled -->
