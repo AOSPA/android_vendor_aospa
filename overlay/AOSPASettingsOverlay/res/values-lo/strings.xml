@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">ອະນຸຍາດໃຫ້ປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_dialog_ok">ຕົກລົງ</string>
+    <string name="security_settings_face_enroll_done">ແລ້ວໆ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">ຫາກປິດການປົດລັອກດ້ວຍໜ້າແບບຊ່ວຍເຂົ້າເຖິງໄວ້, ຂັ້ນຕອນການຕັ້ງຄ່າບາງຢ່າງອາດບໍ່ສາມາດເຮັດວຽກກັບ TalkBack ໄດ້ຕາມປົກກະຕິ.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">ກັບຄືນ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ສືບຕໍ່ການຕັ້ງຄ່າ</string>
+    <string name="security_settings_face_enroll_education_message">ຢູ່ໜ້າຈໍຕໍ່ໄປ, ໃຫ້ປິ່ນຫົວຂອງທ່ານເພື່ອບັນທຶກໃບໜ້າທ່ານທຸກອົງສາ</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">ຢູ່ໜ້າຈໍຕໍ່ໄປ, ໃຫ້ຖືໂທລະສັບຂອງທ່ານໄວ້ໃນລະດັບສາຍຕາ</string>
+    <string name="security_settings_face_enroll_education_start">ເລີ່ມ</string>
+    <string name="security_settings_face_enroll_education_title">ວິທີຕັ້ງການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອພິສູດຢືນຢັນ</string>
+    <string name="security_settings_face_enroll_enrolling_skip">ຂ້າມ</string>
+    <string name="security_settings_face_enroll_error_dialog_title">ການລົງທະບຽນບໍ່ສຳເລັດ</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">ບໍ່ສາມາດໃຊ້ການລົງທະບຽນໃບໜ້າໄດ້.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">ຮອດຂີດຈຳກັດເວລາການລົງທະບຽນໃບໜ້າແລ້ວ ລອງໃໝ່.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">ໝົດເວລາຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ຕອນນີ້ທ່ານສາມາດໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານໄດ້ແລ້ວ, ເຊັ່ນ: ໃນເວລາທີ່ທ່ານເຂົ້າສູ່ລະບົບຫາແອັບ ຫຼື ອະນຸມັດການສັ່ງຊື້</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ຕອນນີ້ເມື່ອທ່ານຈັບໂທລະສັບຂອງທ່ານຂຶ້ນມາ ຫຼື ແຕະໃສ່ໜ້າຈໍຂອງທ່ານ, ທ່ານຈະສາມາດໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໄດ້.
+
+ການປົດລັອກດ້ວຍໜ້າຈະເຮັດວຽກໄດ້ດີທີ່ສຸດເມື່ອມີແສງພຽງພໍ ແລະ ທ່ານບໍ່ໄດ້ໃສ່ຜ້າອັດປາກ ຫຼື ແວ່ນຕາດຳ."</string>
+    <string name="security_settings_face_enroll_finish_title">ດີແລ້ວ!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"ລຶບຮູບແບບໃບໜ້າປັດຈຸບັນຂອງທ່ານເພື່ອຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າຄືນໃໝ່.
+
+ຮູບແບບໃບໜ້າຂອງທ່ານຈະຖືກລຶບອອກຢ່າງຖາວອນ ແລະ ປອດໄພ.
+
+ຫຼັງຈາກການລຶບ, ທ່ານຈະຕ້ອງໃຊ້ PIN, ຮູບແບບ ຫຼື ລະຫັດຜ່ານຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານສຳລັບການພິສູດຢືນຢັນໃນແອັບ."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"ລຶບຮູບແບບໃບໜ້າປັດຈຸບັນຂອງທ່ານເພື່ອຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າຄືນໃໝ່.
+
+ຮູບແບບໃບໜ້າຂອງທ່ານຈະຖືກລຶບອອກຢ່າງຖາວອນ ແລະ ປອດໄພ.
+
+ຫຼັງຈາກການລຶບ, ທ່ານຈະຕ້ອງໃຊ້ລາຍນິ້ວມື, PIN, ຮູບແບບ ຫຼື ລະຫັດຜ່ານຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານສຳລັບການພິສູດຢືນຢັນໃນແອັບ."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">ຕັ້ງຄ່າສຳລັບການເບິ່ງ ຫຼື ການເຄື່ອນໄຫວຫົວທີ່ຈຳກັດ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">ເມື່ອໃຊ້ການປົດລັອກດ້ວຍໜ້າ, ຫົວຂອງທ່ານອາດຕ້ອງຢູ່ໜ້າໂທລະສັບຂອງທ່ານໃຫ້ຊື່ໆຫຼາຍຂຶ້ນ.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">ຕ້ອງເປີດຕາເບິ່ງ</string>
+    <string name="security_settings_face_enroll_introduction_agree">ຂ້ອຍຍອມຮັບ</string>
+    <string name="security_settings_face_enroll_introduction_cancel">ຍົກເລີກ</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">ການໃຊ້ໜ້າຂອງລູກທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງເຂົາເຈົ້າອາດປອດໄພໜ້ອຍກວ່າຮູບແບບ ຫຼື PIN ທີ່ຍາກ.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">ອະນຸຍາດໃຫ້ເດັກນ້ອຍຂອງທ່ານໃຊ້ໜ້າຂອງເຂົາເຈົ້າເພື່ອປົດລັອກໂທລະສັບເຂົາເຈົ້າໄດ້</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"ທ່ານ ແລະ ລູກຂອງທ່ານສາມາດລຶບຮູບແບບໃບໜ້າຂອງເຂົາເຈົ້າ ຫຼື ປິດການປົດລັອກດ້ວຍໜ້າຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບແບບໃບໜ້າແມ່ນຖືກຈັດເກັບໄວ້ຢູ່ໂທລະສັບຈົນກວ່າພວກມັນຈະຖືກລຶບອອກ.
+
+ສຶກສາເພີ່ມເຕີມໄດ້ຢູ່ g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">ທ່ານ ແລະ ລູກຂອງທ່ານຄວບຄຸມໄດ້</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"ທ່ານສາມາດລຶບຮູບແບບໃບໜ້າຂອງທ່ານ ຫຼື ປິດການປົດລັອກດ້ວຍໜ້າຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບແບບໃບໜ້າແມ່ນຖືກຈັດເກັບໄວ້ຢູ່ໂທລະສັບຈົນກວ່າຈະລຶບພວກມັນອອກ.
+
+ສຶກສາເພີ່ມເຕີມໄດ້ຢູ່ g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">ທ່ານຄວບຄຸມໄດ້</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"ການປົດລັອກດ້ວຍໜ້າຈະສ້າງຮູບແບບທີ່ບໍ່ຊ້ຳກັນຂອງໜ້າລູກຂອງທ່ານເພື່ອຢັ້ງຢືນວ່າແມ່ນເຂົາເຈົ້າແທ້. ເພື່ອສ້າງຮູບແບບໃບໜ້ານີ້ໃນລະຫວ່າງການຕັ້ງຄ່າ, ລູກຂອງທ່ານຈະຖ່າຍຮູບໃບໜ້າຂອງເຂົາເຈົ້າຈາກຫຼາຍໆມຸມ.
+
+ເມື່ອເຂົາເຈົ້າປົດລັອກດ້ວຍໜ້າ, ຮູບຈະຖືກໃຊ້ເພື່ອອັບເດດຮູບແບບໃບໜ້າຂອງເຂົາເຈົ້າ. ຮູບທີ່ຖືກໃຊ້ເພື່ອສ້າງຮູບແບບໃບໜ້າຂອງເຂົາເຈົ້າຈະບໍ່ຖືກຈັດເກັບໄວ້, ແຕ່ຮູບແບບໃບໜ້າແມ່ນຖືກຈັດເກັບໄວ້ຢ່າງປອດໄພຢູ່ໂທລະສັບຂອງທ່ານ ແລະ ຈະບໍ່ຖືກສົ່ງອອກຈາກໂທລະສັບເດັດຂາດ. ການປະມວນຜົນທັງໝົດຈະເກີດຂຶ້ນຢ່າງປອດໄພຢູ່ໂທລະສັບ."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"ການປົດລັອກດ້ວຍໜ້າຈະສ້າງຮູບແບບທີ່ບໍ່ຊ້ຳກັນຂອງໜ້າທ່ານເພື່ອຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້. ເພື່ອສ້າງຮູບແບບໃບໜ້າໃນລະຫວ່າງການຕັ້ງຄ່າ, ທ່ານຈະຕ້ອງຖ່າຍຮູບໜ້າຂອງທ່ານຈາກຫຼາຍໆມຸມ.
+
+ເມື່ອທ່ານປົດລັອກດ້ວຍໜ້າ, ຮູບຈະຖືກໃຊ້ເພື່ອອັບເດດຮູບແບບໃບໜ້າຂອງທ່ານ. ຮູບທີ່ຖືກໃຊ້ເພື່ອສ້າງຮູບແບບໃບໜ້າຂອງທ່ານຈະບໍ່ຖືກຈັດເກັບໄວ້, ແຕ່ຮູບແບບໃບໜ້າແມ່ນຖືກຈັດເກັບໄວ້ຢ່າງປອດໄພຢູ່ໂທລະສັບຂອງທ່ານ ແລະ ຈະບໍ່ຖືກສົ່ງອອກຈາກໂທລະສັບເດັດຂາດ. ການປະມວນຜົນທັງໝົດຈະເກີດຂຶ້ນຢ່າງປອດໄພຢູ່ໂທລະສັບຂອງທ່ານ."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">ມັນເຮັດວຽກແນວໃດ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">ການປົດລັອກດ້ວຍໜ້າສາມາດບັງຄັບໃຫ້ລູກຂອງທ່ານມືນຕາເພື່ອປົດລັອກໂທລະສັບ ຫຼື ຢັ້ງຢືນວ່າແມ່ນເຂົາເຈົ້າແທ້. ທ່ານ ແລະ ລູກຂອງທ່ານສາມາດເປີດຕົວເລືອກນີ້ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">ຫາກປົກກະຕິລູກຂອງທ່ານໃສ່ແວ່ນຕາ, ເຂົາເຈົ້າສາມາດໃສ່ໃນຂະນະທີ່ກຳລັງຕັ້ງຄ່າໄດ້.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">ການໃຊ້ໜ້າຂອງລູກທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງເຂົາເຈົ້າອາດປອດໄພໜ້ອຍກວ່າຮູບແບບ, PIN ຫຼື ລະຫັດຜ່ານທີ່ຍາກ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">ການເບິ່ງໂທລະສັບສາມາດປົດລັອກມັນໄດ້ເຖິງແມ່ນວ່າເຂົາເຈົ້າຈະບໍ່ຕັ້ງໃຈກໍຕາມ. ໂທລະສັບຂອງເຂົາເຈົ້າສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນທີ່ໜ້າຕາຄ້າຍເຂົາເຈົ້າຫຼາຍ ເຊັ່ນ: ຝາແຝດ ຫຼື ຫາກມີຄົນຖືມັນໄປໃສ່ໜ້າຂອງເຂົາເຈົ້າ.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">ການປົດລັອກດ້ວຍໜ້າສາມາດບັງຄັບໃຫ້ທ່ານມືນຕາເພື່ອປົດລັອກໂທລະສັບ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້. ທ່ານສາມາດເປີດຕົວເລືອກນີ້ຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">ແວ່ນຕາ ຫຼື ແວ່ນກັນແດດທີ່ມີສີເລັກນ້ອຍແມ່ນໃຊ້ໄດ້.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">ການໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານອາດມີຄວາມປອດໄພໜ້ອຍກວ່າຮູບແບບ, PIN ຫຼື ລະຫັດຜ່ານທີ່ຍາກ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">ການເບິ່ງໂທລະສັບຈະສາມາດປົດລັອກມັນໄດ້ເຖິງແມ່ນວ່າທ່ານຈະບໍ່ຕັ້ງໃຈກໍຕາມ. ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນທີ່ໜ້າຕາຄ້າຍທ່ານຫຼາຍ ເຊັ່ນ: ຝາແຝດ ຫຼື ຫາກມີຄົນຖືມັນໄປໃສ່ໜ້າຂອງທ່ານ.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">ຂໍ້ຄວນຈື່</string>
+    <string name="security_settings_face_enroll_introduction_message">ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບທ່ານ ຫຼື ຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້ ເຊັ່ນ: ໃນເວລາທີ່ທ່ານເຂົ້າສູ່ລະບົບຫາແອັບ ຫຼື ອະນຸມັດການສັ່ງຊື້ໃດໜຶ່ງ.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບ, ອະນຸມັດການສັ່ງຊື້ ຫຼື ເຂົ້າສູ່ລະບົບຫາແອັບຕ່າງໆ</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບ ຫຼື ອະນຸມັດການສັ່ງຊື້.
+
+ໝາຍເຫດ: ທ່ານບໍ່ສາມາດໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກອຸປະກອນນີ້ໄດ້. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບອົງກອນຂອງທ່ານ."</string>
+    <string name="security_settings_face_enroll_introduction_more">ເພີ່ມເຕີມ</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ບໍ່, ຂອບໃຈ</string>
+    <string name="security_settings_face_enroll_introduction_title">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອພິສູດຢືນຢັນ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">ປັບປຸງຄວາມປອດໄພ ແລະ ປະສິດທິພາບ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າຄືນໃໝ່</string>
+    <string name="security_settings_face_enroll_next">ຖັດໄປ</string>
+    <string name="security_settings_face_enroll_partial_message">ເພື່ອປັບປຸງປະສິດທິພາບ, ທ່ານສາມາດຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າຄືນໃໝ່ໄດ້ໃນການຕັ້ງຄ່າ</string>
+    <string name="security_settings_face_enroll_partial_start_over">ເລີ່ມຕົ້ນໃຫມ່</string>
+    <string name="security_settings_face_enroll_partial_title">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າສຳເລັດແລ້ວ</string>
+    <string name="security_settings_face_enroll_repeat_title">ໃຫ້ໜ້າຂອງທ່ານຢູ່ໃນວົງມົນ</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າຄືນໃໝ່</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">ປັບປຸງປະສິດທິພາບການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_timeout_message">"ລອງໃຊ້ການຕັ້ງຄ່າດ່ວນແທນ. ກະລຸນາຮັບຊາບວ່າທ່ານອາດຕ້ອງປິ່ນຫົວໄປໃສ່ໂທລະສັບໃຫ້ຊື່ໆຫຼາຍຂຶ້ນເມື່ອທ່ານໃຊ້ການປົດລັອກດ້ວຍໜ້າ.
+
+ເພື່ອປັບປຸງປະສິດທິພາບ, ທ່ານສາມາດຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າຄືນໃໝ່ໄດ້ໃນການຕັ້ງຄ່າ."</string>
+    <string name="security_settings_face_enroll_timeout_title">ບໍ່ສາມາດສືບຕໍ່ການຕັ້ງຄ່າໄດ້</string>
+    <string name="security_settings_face_enroll_timeout_try_again">ລອງໃໝ່</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ໃຊ້ການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">ອອກຈາກການຕັ້ງຄ່າ</string>
+    <string name="security_settings_face_enroll_too_hot_message">ບໍ່ສາມາດຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າໃຫ້ສຳເລັດໄດ້ເນື່ອງຈາກໂທລະສັບຮ້ອນເກີນໄປ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງເມື່ອໂທລະສັບເຢັນລົງແລ້ວ.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ຂ້າມການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_enroll_too_hot_title">ໂທລະສັບຮ້ອນເກີນໄປ</string>
+    <string name="security_settings_face_preference_summary">ເພີ່ມໜ້າແລ້ວ</string>
+    <string name="security_settings_face_preference_summary_none">ແຕະເພື່ອຕັ້ງຄ່າໜ້າ</string>
+    <string name="security_settings_face_preference_title">ປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_profile_preference_title">ປົດລັອກດ້ວຍໜ້າສຳລັບວຽກ</string>
+    <string name="security_settings_face_settings_context_subtitle">ໃຊ້ການປົດລັອກດ້ວຍໜ້າເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ</string>
+    <string name="security_settings_face_settings_enroll">ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_settings_footer">"ໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ ຫຼື ເພື່ອການພິສູດຢືນຢັນໃນແອັບ ເຊັ່ນ: ເມື່ອທ່ານເຂົ້າສູ່ລະບົບ ຫຼື ອະນຸມັດການສັ່ງຊື້.
+
+ກະລຸນາຮັບຊາບ:
+ທ່ານສາມາດຕັ້ງຄ່າໄດ້ເທື່ອລະໜ້າເທົ່ານັ້ນ. ເພື່ອເພີ່ມໜ້າອື່ນ, ໃຫ້ລຶບໜ້າປັດຈຸບັນອອກກ່ອນ.
+
+ການເບິ່ງໂທລະສັບສາມາດປົດລັອກມັນໄດ້ໂດຍທີ່ທ່ານບໍ່ໄດ້ຕັ້ງໃຈ.
+
+ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນອື່ນຫາກມັນຖືກນຳໄປຍື່ນໃສ່ໜ້າທ່ານ.
+
+ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນທີ່ໜ້າຄ້າຍທ່ານຫຼາຍ ເຊັ່ນ: ອ້າຍນ້ອງ ຫຼື ເອື້ອຍນ້ອງຝາແຝດຂອງທ່ານ."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"ໃຊ້ໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ ຫຼື ເພື່ອການພິສູດຢືນຢັນໃນແອັບ ເຊັ່ນ: ເມື່ອທ່ານເຂົ້າສູ່ລະບົບ ຫຼື ອະນຸມັດການສັ່ງຊື້.
+
+ກະລຸນາຮັບຊາບ:
+ທ່ານສາມາດຕັ້ງຄ່າໄດ້ເທື່ອລະໜ້າເທົ່ານັ້ນ. ເພື່ອເພີ່ມໜ້າອື່ນ, ໃຫ້ລຶບໜ້າປັດຈຸບັນອອກກ່ອນ.
+
+ການເບິ່ງໂທລະສັບສາມາດປົດລັອກມັນໄດ້ໂດຍທີ່ທ່ານບໍ່ໄດ້ຕັ້ງໃຈ.
+
+ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນອື່ນຫາກມັນຖືກນຳໄປຍື່ນໃສ່ໜ້າທ່ານ, ເຖິງແມ່ນວ່າທ່ານຈະຫຼັບຕາຢູ່ກໍຕາມ.
+
+ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ໂດຍຄົນທີ່ໜ້າຄ້າຍທ່ານຫຼາຍ ເຊັ່ນ: ອ້າຍນ້ອງ ຫຼື ເອື້ອຍນ້ອງຝາແຝດຂອງທ່ານ."</string>
+    <string name="security_settings_face_settings_preferences_category">ເມື່ອໃຊ້ການປົດລັອກດ້ວຍໜ້າ</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"ຮູບແບບໃບໜ້າຂອງທ່ານຈະຖືກລຶບອອກຢ່າງຖາວອນ ແລະ ປອດໄພ.
+
+ຫຼັງຈາກການລຶບແລ້ວ, ທ່ານຈະຕ້ອງໃຊ້ PIN, ຮູບແບບ ຫຼື ລະຫັດຜ່ານຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ ຫຼື ສຳລັບການພິສູດຢືນຢັນໃນແອັບຕ່າງໆ."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"ຮູບແບບໃບໜ້າຂອງທ່ານຈະຖືກລຶບອອກຢ່າງຖາວອນ ແລະ ປອດໄພ.
+
+ຫຼັງຈາກການລຶບແລ້ວ, ທ່ານຈະຕ້ອງໃຊ້ PIN, ຮູບແບບ ຫຼື ລະຫັດຜ່ານຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບຂອງທ່ານ."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">ລຶບຮູບແບບໃບໜ້າອອກບໍ?</string>
+    <string name="security_settings_face_settings_remove_face_model">ລຶບຮູບແບບໃບໜ້າ</string>
+    <string name="security_settings_face_settings_require_attention">ຕ້ອງມືນຕາຈຶ່ງຈະໃຊ້ໄດ້</string>
+    <string name="security_settings_face_settings_require_attention_details">ເພື່ອປົດລັອກໂທລະສັບ, ທ່ານຈະຕ້ອງມືນຕາຂອງທ່ານກ່ອນ</string>
+    <string name="security_settings_face_settings_require_confirmation">ຈຳເປັນຕ້ອງມີການຢືນຢັນທຸກເທື່ອ</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ເມື່ອໃຊ້ການປົດລັອກດ້ວຍໜ້າໃນແອັບຕ່າງໆ, ໃຫ້ຢືນຢັນນຳທຸກເທື່ອ</string>
+    <string name="security_settings_face_settings_use_face_category">ໃຊ້ການປົດລັອກດ້ວຍໜ້າສຳລັບ</string>
+    </resources>

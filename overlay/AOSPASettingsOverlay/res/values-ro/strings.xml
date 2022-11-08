@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Permite Deblocarea facială</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">Gata</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Dacă Deblocarea facială pentru accesibilitate este dezactivată, este posibil ca unii pași de configurare să nu funcționeze corect cu TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Înapoi</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Continuă configurarea</string>
+    <string name="security_settings_face_enroll_education_message">În ecranul următor, rotește-ți capul pentru a captura chipul din toate unghiurile</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">În ecranul următor, ține telefonul la nivelul ochilor</string>
+    <string name="security_settings_face_enroll_education_start">Începe</string>
+    <string name="security_settings_face_enroll_education_title">Configurarea Deblocării faciale</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Configurează Deblocarea facială</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Folosește-ți chipul pentru autentificare</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Omite</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Înregistrarea nu a fost finalizată</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Înregistrarea chipului nu a funcționat.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">A expirat timpul pentru înregistrarea chipului. Încearcă din nou.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Configurarea Deblocării faciale a expirat</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Acum îți poți folosi fața pentru a-ți debloca telefonul sau pentru a-ți confirma identitatea, de exemplu, când te conectezi la aplicații sau aprobi o achiziție</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Acum, când ridici telefonul sau atingi ecranul, îți poți folosi fața pentru a debloca.
+
+Deblocarea facială funcționează cel mai bine când există suficientă lumină și nu porți mască sau ochelari de culoare închisă."</string>
+    <string name="security_settings_face_enroll_finish_title">Pare în regulă!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Șterge modelul facial actual pentru a reconfigura Deblocarea facială.
+
+Modelul facial se va șterge definitiv și în siguranță.
+
+După ștergere, vei avea nevoie de codul PIN, de model sau de parolă să îți deblochezi telefonul sau să te autentifici în aplicații."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Șterge modelul facial actual pentru a reconfigura Deblocarea facială.
+
+Modelul facial se va șterge definitiv și în siguranță.
+
+După ștergere, vei avea nevoie de amprentă, de codul PIN, de model sau de parolă să-ți deblochezi telefonul sau să te autentifici în aplicații."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Configurezi Deblocarea facială</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Configurează pentru probleme de vedere sau dificultăți de mișcare a capului</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Când folosești funcția Deblocare facială, capul tău trebuie să fie direct în fața telefonului.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Trebuie să ai ochii deschiși</string>
+    <string name="security_settings_face_enroll_introduction_agree">Accept</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Anulează</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Deblocarea telefonului folosind fața copilului poate fi mai puțin sigură decât un model puternic sau un cod PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Permite-i copilului să-și folosească fața pentru a debloca telefonul</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Tu și copilul tău puteți să ștergeți modelul său facial sau să dezactivați Deblocarea facială oricând din Setări. Modelele faciale sunt stocate pe telefon până când le ștergi.
+
+Află mai multe la g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Tu și copilul tău dețineți controlul</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Poți să ștergi modelul facial sau să dezactivezi Deblocarea facială oricând din Setări. Modelele faciale sunt stocate pe telefon până când le ștergi.
+
+Află mai multe la g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Tu deții controlul</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Deblocarea facială creează un model unic al feței copilului tău pentru a-i confirma identitatea. Pentru a crea acest model facial în timpul configurării, copilul își va fotografia fața din diferite unghiuri.
+
+Când folosește Deblocarea facială, imaginile sunt utilizate pentru a-i actualiza modelul facial. Imaginile folosite pentru a-i crea modelul facial nu sunt stocate, dar modelul facial este stocat în siguranță pe telefon și nu părăsește niciodată dispozitivul. Toată procesarea are loc în siguranță pe telefon."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Deblocarea facială creează un model unic al feței tale pentru a-ți confirma identitatea. Pentru a crea acest model facial în timpul configurării, fotografiază-ți fața din diferite unghiuri.
+
+Când folosești Deblocarea facială, imaginile sunt utilizate pentru a-ți actualiza modelul facial. Imaginile folosite pentru a-ți crea modelul facial nu sunt stocate, dar modelul facial este stocat în siguranță pe telefon și nu părăsește niciodată dispozitivul. Toată procesarea are loc în siguranță pe telefonul tău."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Cum funcționează</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Deblocarea facială poate solicita ca ochii copilului tău să fie deschiși pentru a-i debloca telefonul sau pentru a-i confirma identitatea. Tu și copilul tău puteți activa oricând această opțiune în Setări.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Dacă în mod normal copilul tău poartă ochelari, îi poate purta și în timpul configurării.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Deblocarea telefonului folosind fața copilului poate fi mai puțin sigură decât un model puternic, un cod PIN sau o parolă.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Dacă privește spre telefon, îl poate debloca și când nu dorește. În plus, telefonul poate fi deblocat de cineva care seamănă mult cu copilul tău, cum ar fi un frate sau o soră geamănă, sau dacă cineva îl ține în fața sa.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Deblocarea facială poate solicita să ții ochii deschiși pentru a debloca telefonul sau pentru a-ți confirma identitatea. Poți activa oricând această opțiune în Setări.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Poți folosi ochelari de vedere sau de soare cu lentile ușor nuanțate.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Este posibil ca deblocarea telefonului folosind fața să fie mai puțin sigură decât un model, un cod PIN sau o parolă complexă</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Dacă privești spre telefon, îl poți debloca și când nu dorești. În plus, telefonul poate fi deblocat de cineva care seamănă mult cu tine, cum ar fi un frate sau o soră geamănă, sau dacă cineva îl ține în fața ta.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Reține</string>
+    <string name="security_settings_face_enroll_introduction_message">Folosește-ți fața ca să deblochezi telefonul sau să îți confirmi identitatea, de exemplu, când te conectezi la aplicații sau aprobi o achiziție.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Folosește-ți chipul ca să deblochezi telefonul, să autorizezi achiziții sau să te conectezi la aplicații</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Folosește-ți chipul ca să deblochezi telefonul sau să aprobi achiziții.
+
+Notă: nu îți poți folosi chipul ca să deblochezi acest dispozitiv. Pentru informații suplimentare, contactează administratorul organizației."</string>
+    <string name="security_settings_face_enroll_introduction_more">Mai multe</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nu, mulțumesc</string>
+    <string name="security_settings_face_enroll_introduction_title">Configurează Deblocarea facială</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Folosește-ți chipul pentru autentificare</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Îmbunătățește securitatea și performanța</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Reconfigurează Deblocarea facială</string>
+    <string name="security_settings_face_enroll_next">Înainte</string>
+    <string name="security_settings_face_enroll_partial_message">Pentru a îmbunătăți performanța, poți să configurezi din nou Deblocarea facială în Setări</string>
+    <string name="security_settings_face_enroll_partial_start_over">Începe din nou</string>
+    <string name="security_settings_face_enroll_partial_title">Configurarea Deblocării faciale a fost finalizată</string>
+    <string name="security_settings_face_enroll_repeat_title">Centrează-ți fața în cerc</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Reconfigurează Deblocarea facială</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Îmbunătățește performanța Deblocării faciale</string>
+    <string name="security_settings_face_enroll_timeout_message">"Încearcă configurarea rapidă. Reține că, atunci când folosești Deblocarea facială, capul tău trebuie să fie direct în fața telefonului.
+
+Pentru a îmbunătăți performanța, poți să configurezi din nou Deblocarea facială în Setări."</string>
+    <string name="security_settings_face_enroll_timeout_title">Nu se poate continua configurarea</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Încearcă din nou</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Folosește configurarea rapidă</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Ieși din configurare</string>
+    <string name="security_settings_face_enroll_too_hot_message">Nu se poate finaliza configurarea Deblocării faciale, deoarece telefonul este prea fierbinte. Încearcă din nou când se mai răcește.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Omite Deblocarea facială</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefonul este prea fierbinte</string>
+    <string name="security_settings_face_preference_summary">Chip adăugat</string>
+    <string name="security_settings_face_preference_summary_none">Atinge pentru a configura chipul</string>
+    <string name="security_settings_face_preference_title">Deblocare facială</string>
+    <string name="security_settings_face_profile_preference_title">Deblocare facială pentru serviciu</string>
+    <string name="security_settings_face_settings_context_subtitle">Folosește Deblocarea facială ca să-ți deblochezi telefonul</string>
+    <string name="security_settings_face_settings_enroll">Configurează Deblocarea facială</string>
+    <string name="security_settings_face_settings_footer">"Folosește chipul ca să deblochezi telefonul sau pentru autentificare în aplicații, de exemplu, când te conectezi sau aprobi o achiziție.
+
+Reține:
+poți avea un singur chip configurat odată. Pentru a adăuga un alt chip, șterge-l pe cel actual.
+
+Dacă te uiți la telefon, îl poți debloca și când nu vrei.
+
+Telefonul poate fi deblocat de altcineva dacă este ținut în dreptul feței dvs.
+
+Telefonul poate fi deblocat de cineva care seamănă mult cu tine, cum ar fi un frate sau o soră geamănă."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Folosește chipul ca să deblochezi telefonul sau pentru autentificare în aplicații, de exemplu, când te conectezi sau aprobi o achiziție.
+
+Rețineți:
+poți avea un singur chip configurat odată. Pentru a adăuga un alt chip, șterge-l pe cel actual.
+
+Dacă te uiți la telefon, îl poți debloca și când nu vrei.
+
+Telefonul poate fi deblocat de altcineva dacă este ținut în dreptul feței tale, chiar dacă ai ochii închiși.
+
+Telefonul poate fi deblocat de cineva care seamănă mult cu tine, cum ar fi un frate sau o soră geamănă."</string>
+    <string name="security_settings_face_settings_preferences_category">Când folosești Deblocarea facială</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Modelul facial se va șterge definitiv și în siguranță.
+
+După ștergere, vei avea nevoie de codul PIN, de model sau de parolă ca să-ți deblochezi telefonul sau să te autentifici în aplicații."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Modelul facial se va șterge definitiv și în siguranță.
+
+După ștergere, vei avea nevoie de codul PIN, de model sau de parolă ca să îți deblochezi telefonul."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Ștergi modelul facial?</string>
+    <string name="security_settings_face_settings_remove_face_model">Șterge modelul facial</string>
+    <string name="security_settings_face_settings_require_attention">Ochii trebuie să fie deschiși</string>
+    <string name="security_settings_face_settings_require_attention_details">Pentru a debloca telefonul, trebuie să ai ochii deschiși</string>
+    <string name="security_settings_face_settings_require_confirmation">Se solicită întotdeauna confirmarea</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Când folosești Deblocarea facială în aplicații, solicită întotdeauna confirmarea</string>
+    <string name="security_settings_face_settings_use_face_category">Folosește Deblocarea facială pentru</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Дозволете отклучување со лик</string>
+    <string name="security_settings_face_enroll_dialog_ok">Во ред</string>
+    <string name="security_settings_face_enroll_done">Готово</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Ако функцијата за пристапност „Отклучување со лик“ е исклучена, некои чекори за поставување можеби нема да работат правилно со TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Назад</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Продолжи</string>
+    <string name="security_settings_face_enroll_education_message">На следниот екран, ротирајте ја главата за да се снимат сите агли на вашето лице</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">На следниот екран, држете го телефонот во висина на очите</string>
+    <string name="security_settings_face_enroll_education_start">Започни</string>
+    <string name="security_settings_face_enroll_education_title">Како да поставите „Отклучување со лик“</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Поставете „Отклучување со лик“</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Користење на лицето за проверка</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Прескокни</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Регистрацијата не беше завршена</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">„Регистрацијата на лик“ не успеа.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Достигнато е временското ограничување на „Регистрација на лик“. Обидете се повторно.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Времето за поставување „Отклучување со лик“ истече</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Сега може да го користите вашето лице за да го отклучите телефонот или да потврдите дека сте вие, како кога се најавувате на апликации или одобрувате купување</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Отсега ќе може да го отклучувате телефонот со вашиот лик кога ќе го земете телефонот или ќе допрете на екранот.
+
+„Отклучување со лик“ функционира најдобро кога има доволно светлина и не носите маска или темни очила."</string>
+    <string name="security_settings_face_enroll_finish_title">Добро е!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Избришете го моменталниот модел на лице за да поставите „Отклучување со лик“ повторно.
+
+Вашиот модел на лице ќе биде трајно и безбедно избришан.
+
+По бришењето, ќе ви треба PIN, шема или лозинка за да го отклучите телефонот или за проверка во апликации."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Избришете го моменталниот модел на лице за да поставите „Отклучување со лик“ повторно.
+
+Вашиот модел на лице ќе биде трајно и безбедно избришан.
+
+По бришењето, ќе ви треба отпечаток, PIN, шема или лозинка за да го отклучите телефонот или за проверка во апликации."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Поставете „Отклучување со лик“</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Ограничен вид/движење на главата</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Кога користите „Отклучување со лик“, можеби ќе треба да ја поставите главата директно пред телефонот.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Потребни се отворени очи</string>
+    <string name="security_settings_face_enroll_introduction_agree">Се согласувам</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Откажи</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Користењето на лицето на детето за отклучување на телефонот може да е понесигурно од силна шема или PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Дозволете му на вашето дете да го користи своето лице за да го отклучи својот телефон</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Вие и вашето дете може да го избришете моделот од неговото лице или да го исклучите „Отклучувањето со лик“ во секое време во „Поставки“. Моделите на лицето се складираат во телефонот додека не се избришат.
+
+Дознајте повеќе на g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Вие и вашето дете сте во контрола</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Може да го избришете моделот на лик или да го исклучите „Отклучувањето со лик“ во секое време во „Поставки“. Моделите на лик се складираат во телефонот додека не ги избришете.
+
+Дознајте повеќе на g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Вие сте главни</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"„Отклучувањето со лик“ создава уникатен модел од лицето на вашето дете за да потврди дека е тоа. За да го создаде моделов на лице при поставувањето, детето ќе направи слики од своето лице од различни агли.
+
+Кога го користи „Отклучувањето со лик“, сликите се користат за ажурирање на неговиот модел на лице. Сликите што се користат за создавање на моделот на неговото лице не се складираат, а самиот модел се складира безбедно во телефонот и никогаш не го напушта. Целата обработка се одвива безбедно во телефонот."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"„Отклучувањето со лик“ создава уникатен модел од вашиот лик за да потврди дека сте вие. За да го создадете моделов на лик при поставувањето, ќе направите слики од ликот од различни агли.
+
+Кога го користите „Отклучувањето со лик“, сликите се користат за ажурирање на моделот на вашиот лик. Сликите што се користат за создавање на моделот на вашиот лик не се складираат, а самиот модел се складира безбедно во телефонот и никогаш не го напушта. Целата обработка се одвива безбедно во телефонот."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Како функционира</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">„Отклучување со лик“ може да бара очите на детето да бидат отворени за да се отклучи телефонот или да се потврди дека е тоа. Вие и вашето дете може да ја вклучите опцијава во „Поставки“ во секое време.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ако вашето дете вообичаено носи очила, може да ги носи при поставувањето.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Користењето на лицето на детето за отклучување на телефонот може да е понесигурно од силна шема, PIN или лозинка</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Ако гледа во телефонот, тој може да се отклучи дури и ако нема таква намера. Телефонот може да го отклучи и некој што многу наликува на него, на пример, идентичен близнак или ако некој го држи пред неговото лице.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">„Отклучување со лик“ може да бара очите да ви бидат отворени за да се отклучи телефонот или да се потврди дека сте вие. Може да ја вклучите опцијава во „Поставки“ во секое време.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Очила или малку затемнети очила за сонце се во ред.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Користењето на вашиот лик за отклучување на телефонот може да биде помалку безбедно од силна шема, PIN или лозинка</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Ако гледате во телефонот, тој може да се отклучи дури и ако немате таква намера. Телефонот може да го отклучи и некој што многу наликува на вас, на пример, идентичен близнак или ако некој го држи пред вашиот лик.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Имајте предвид</string>
+    <string name="security_settings_face_enroll_introduction_message">Користете го лицето за да го отклучите телефонот или да потврдите дека сте вие, како кога се најавувате во апликации или одобрувате купување.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Користете го ликот за отклучување на телефонот, за одобрување купувања или за најавување на апликации</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Користете го вашиот лик за да го отклучите телефонот или да ги одобрите купувањата.
+
+Забелешка: не може да го користите ликот за да го отклучите уредов. За повеќе информации, контактирајте со администраторот на вашата организација."</string>
+    <string name="security_settings_face_enroll_introduction_more">Повеќе</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Не, фала</string>
+    <string name="security_settings_face_enroll_introduction_title">Поставете „Отклучување со лик“</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Користење на лицето за проверка</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Подобрете ги сигурноста и перформансите</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Поставете „Отклучување со лик“ повторно</string>
+    <string name="security_settings_face_enroll_next">Следно</string>
+    <string name="security_settings_face_enroll_partial_message">За да ја подобрите изведбата, може повторно да поставите „Отклучување со лик“ во „Поставки“</string>
+    <string name="security_settings_face_enroll_partial_start_over">Почни одново</string>
+    <string name="security_settings_face_enroll_partial_title">Поставувањето на „Отклучување со лик“ заврши</string>
+    <string name="security_settings_face_enroll_repeat_title">Центрирајте го лицето во кругот</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Поставете „Отклучување со лик“ повторно</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Подобрете ја изведбата на „Отклучување со лик“</string>
+    <string name="security_settings_face_enroll_timeout_message">"Наместо тоа, пробајте брзо поставување. Имајте предвид, тогаш можеби ќе треба да ја поставите главата подиректно пред телефонот при користењето „Отклучување со лик“.
+
+За да ја подобрите изведбата, може повторно да поставите „Отклучување со лик“ во „Поставки“."</string>
+    <string name="security_settings_face_enroll_timeout_title">Не може да се продолжи со поставувањето</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Обиди се пак</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Употреби брзо поставување</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Излези од поставувањето</string>
+    <string name="security_settings_face_enroll_too_hot_message">Поставувањето на „Отклучување со лик“ не може да се заврши бидејќи телефонот е премногу топол. Обидете се подоцна кога телефонот ќе се олади.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Прескокни „Отклучување со лик“</string>
+    <string name="security_settings_face_enroll_too_hot_title">Телефонот е премногу топол</string>
+    <string name="security_settings_face_preference_summary">Додаден е лик</string>
+    <string name="security_settings_face_preference_summary_none">Допрете за да поставите лик</string>
+    <string name="security_settings_face_preference_title">Отклучување со лик</string>
+    <string name="security_settings_face_profile_preference_title">„Отклучување со лик“ за работа</string>
+    <string name="security_settings_face_settings_context_subtitle">Користете „Отклучување со лик“ за отклучување на телефонот</string>
+    <string name="security_settings_face_settings_enroll">Поставете „Отклучување со лик“</string>
+    <string name="security_settings_face_settings_footer">"Користете го вашето лице за да го отклучувате телефонот или за проверка во апликации, како на пр., кога се најавувате или одобрувате купување.
+
+Имајте предвид:
+може да имате поставено само еден лик. За да додадете друг лик, избришете го моменталниот.
+
+Поглед кон телефонот може да го отклучи и кога немате таква намера.
+
+Некој друг може да го отклучи вашиот телефон ако го подигне до вашиот лик.
+
+Телефонот може да го отклучи некој што многу наликува на вас, на пример, идентичен близнак."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Користете го вашето лице за да го отклучувате телефонот или за проверка во апликации, како на пр., кога се најавувате или одобрувате купување.
+
+Имајте предвид:
+може да имате поставено само еден лик. За да додадете друг лик, избришете го моменталниот.
+
+Поглед кон телефонот може да го отклучи и кога немате таква намера.
+
+Некој друг може да го отклучи вашиот телефон ако го подигне до вашиот лик, дури и ако очите ви се затворени.
+
+Телефонот може да го отклучи некој што многу наликува на вас, на пример, идентичен близнак."</string>
+    <string name="security_settings_face_settings_preferences_category">При користење „Отклучување со лик“</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Вашиот модел на лице ќе биде трајно и безбедно избришан.
+
+По бришењето, ќе ви треба PIN, шема или лозинка за да го отклучите телефонот или за проверка во апликации."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Вашиот модел на лице ќе биде трајно и безбедно избриша.
+
+По бришењето, ќе ви треба PIN, шема или лозинка за да го отклучите телефонот."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Да се избрише моделот на лице?</string>
+    <string name="security_settings_face_settings_remove_face_model">Избриши го моделот на лик</string>
+    <string name="security_settings_face_settings_require_attention">Очите треба да бидат отворени</string>
+    <string name="security_settings_face_settings_require_attention_details">За да го отклучите телефонот, очите мора да ви бидат отворени</string>
+    <string name="security_settings_face_settings_require_confirmation">Секогаш барај потврда</string>
+    <string name="security_settings_face_settings_require_confirmation_details">При користење „Отклучување со лик“ во апликации, секогаш барај потврда</string>
+    <string name="security_settings_face_settings_use_face_category">Користи „Отклучување со лик“ за</string>
+</resources>

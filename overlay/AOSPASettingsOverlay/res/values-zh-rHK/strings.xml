@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">允許使用「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_dialog_ok">確定</string>
+    <string name="security_settings_face_enroll_done">完成</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">如果關閉「面孔解鎖」無障礙功能，可能無法透過 TalkBack 順利完成部分設定步驟。</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">返回</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">繼續設定</string>
+    <string name="security_settings_face_enroll_education_message">在下一個畫面，請轉動頭部，從所有角度拍攝面孔</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">在下一個畫面中，請將手機舉起到視線水平</string>
+    <string name="security_settings_face_enroll_education_start">開始</string>
+    <string name="security_settings_face_enroll_education_title">如何設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">使用面孔驗證</string>
+    <string name="security_settings_face_enroll_enrolling_skip">略過</string>
+    <string name="security_settings_face_enroll_error_dialog_title">尚未完成註冊</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">無法登記面孔。</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">面孔註冊時限已過，請再試一次。</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">「面孔解鎖」設定已逾時</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">現在可使用面孔解鎖手機或驗證身分，例如用來登入應用程式或核准購買交易</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"現在拿起手機或輕按螢幕，即可使用面孔解鎖。
+
+在光線充足，且您沒有戴著口罩或深色眼鏡的情況下，「面孔解鎖」就能發揮最佳效果。"</string>
+    <string name="security_settings_face_enroll_finish_title">大功告成！</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"請刪除目前的面部模型，以便重新設定「面孔解鎖」。
+
+系統會妥善地將您的面部模型永久刪除。
+
+面部模型刪除後，您便需要使用 PIN、圖案或密碼來解鎖手機或在應用程式內驗證身分。"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"請刪除目前的面部模型，以便重新設定「面孔解鎖」。
+
+系統會妥善地將您的面部模型永久刪除。
+
+面部模型刪除後，您便需要使用指紋、PIN、圖案或密碼來解鎖手機或在應用程式內驗證身分。"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">視力或頭部活動能力受限人士的設定方式</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">使用「面孔解鎖」時，需要將手機對準您的頭部正面。</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">需要睜眼</string>
+    <string name="security_settings_face_enroll_introduction_agree">我同意</string>
+    <string name="security_settings_face_enroll_introduction_cancel">取消</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">使用複雜的上鎖圖案或 PIN，會比使用子女的面孔解鎖手機更安全。</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">允許子女使用面孔解鎖手機</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"您和子女可隨時前往「設定」刪除面部模型或停用「面孔解鎖」功能。面部模型會儲存在手機上，直至其刪除為止。
+
+詳情請參閱 g.co/pixel/faceunlock。"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">一切由您和子女做主</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"您可隨時前往「設定」刪除面部模型或停用「面孔解鎖」功能。面部模型會儲存在手機上，直到您刪除為止。
+
+詳情請瀏覽 g.co/pixel/faceunlock。"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">一切由您掌控</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"「面孔解鎖」功能會為您的子女建立獨一無二的面部模型，以便系統驗證其身分。如要在設定過程中建立此面部模型，您的子女需要從不同角度拍攝面孔。
+
+使用「面孔解鎖」時，系統會使用圖片來更新其面部模型。系統不會儲存子女用來建立面部模型的圖片，只會將面部模型安全地存放在手機上，但絕不會傳送到手機以外的地方。整個處理過程都會安全地在手機上進行。"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"「面孔解鎖」功能會為您建立獨一無二的面部模型，以便系統識別您的身分。如要在設定過程中建立此面部模型，您需要從不同角度拍攝面孔。
+
+使用「面孔解鎖」時，系統會使用圖片來更新您的面部模型。系統不會儲存您用來建立面部模型的圖片，只會將面部模型安全地存放在手機上，但絕不會傳送到手機以外的地方。整個處理過程都會安全地在手機上進行。"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">運作方式</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">如果使用「面孔解鎖」功能，系統可能會要求您的子女睜開雙眼才能解鎖手機或驗證身分。您和子女可隨時在「設定」中開啟此選項。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">如果您的子女平時佩戴眼鏡，可在設定過程中如常佩戴。</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">使用複雜的上鎖圖案、PIN 或密碼，會比使用子女的面孔解鎖手機更安全</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">即使子女不想解鎖手機，但查看手機仍會解鎖。樣貌與子女十分相似的人 (例如孿生兄弟姊妹)，或有人將手機拿到他們面前，都可以解鎖手機。</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">如果使用「面孔解鎖」功能，系統可能會要求您睜開雙眼才能解鎖手機或驗證身分。您可隨時在「設定」中開啟此選項。</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">可佩戴眼鏡或淺色太陽眼鏡。</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">使用複雜的上鎖圖案、PIN 或密碼比使用面孔解鎖更安全。</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">即使您不想解鎖手機，但查看手機仍會解鎖。樣貌與您十分相似的人 (例如孿生兄弟姊妹)，或有人將手機拿到您的面前，都可以解鎖您的手機。</string>
+    <string name="security_settings_face_enroll_introduction_info_title">注意事項</string>
+    <string name="security_settings_face_enroll_introduction_message">使用面孔解鎖手機或驗證身分，例如用來登入應用程式或核准購買交易。</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">使用面孔解鎖手機、授權購物或登入應用程式</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"使用面孔解鎖手機或核准購物交易。
+
+請注意：您無法使用面孔解鎖此裝置。如需瞭解詳情，請聯絡您機構的管理員。"</string>
+    <string name="security_settings_face_enroll_introduction_more">更多</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">不用了，謝謝</string>
+    <string name="security_settings_face_enroll_introduction_title">設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">使用面孔驗證</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">提升安全性和效能</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">重新設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_next">繼續</string>
+    <string name="security_settings_face_enroll_partial_message">如要提升效能，您可以在「設定」中再次設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_partial_start_over">重新開始</string>
+    <string name="security_settings_face_enroll_partial_title">「面孔解鎖」設定完成</string>
+    <string name="security_settings_face_enroll_repeat_title">將您的面孔置於圓圈中心</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">重新設定「面孔解鎖」</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">提升「面孔解鎖」效能</string>
+    <string name="security_settings_face_enroll_timeout_message">"嘗試改用快速設定。請緊記，使用「面孔解鎖」時您需要將手機對準頭部正面。
+
+如要提升效能，您可以在「設定」中再次設定「面孔解鎖」"</string>
+    <string name="security_settings_face_enroll_timeout_title">無法繼續設定</string>
+    <string name="security_settings_face_enroll_timeout_try_again">再試一次</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">使用快速設定</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">結束設定</string>
+    <string name="security_settings_face_enroll_too_hot_message">手機過熱，因此無法完成「面孔解鎖」設定。請待手機降溫後再試一次。</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">略過「面孔解鎖」設定</string>
+    <string name="security_settings_face_enroll_too_hot_title">手機過熱</string>
+    <string name="security_settings_face_preference_summary">已加入面孔</string>
+    <string name="security_settings_face_preference_summary_none">輕按即可設定面孔</string>
+    <string name="security_settings_face_preference_title">面孔解鎖</string>
+    <string name="security_settings_face_profile_preference_title">工作設定檔的「面孔解鎖」</string>
+    <string name="security_settings_face_settings_context_subtitle">使用「面孔解鎖」解鎖手機</string>
+    <string name="security_settings_face_settings_enroll">設定「面孔解鎖」</string>
+    <string name="security_settings_face_settings_footer">"使用面孔解鎖手機或在應用程式中驗證身分，例如登入帳戶或核准購買交易。
+
+注意事項：
+您每次只可設定一張面孔。如要新增其他面孔，請刪除目前設定的面孔。
+
+即使您不想解鎖手機，但查看手機仍會解鎖。
+
+如果其他人將手機舉到您面前，將可解鎖您的手機。
+
+跟您樣貌很相似的人 (例如孿生兄弟姊妹) 或許能夠解鎖您的手機。"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"使用面孔解鎖手機或在應用程式中驗證身分，例如登入帳戶或核准購買交易。
+
+注意事項：
+您每次只可設定一張面孔。如要新增其他面孔，請刪除目前設定的面孔。
+
+即使您不想解鎖手機，但查看手機仍會解鎖。
+
+如果其他人將手機舉到您面前，即使您閉上雙眼，手機亦會解鎖。
+
+跟您樣貌很相似的人 (例如孿生兄弟姊妹) 或許能夠解鎖您的手機。"</string>
+    <string name="security_settings_face_settings_preferences_category">使用「面孔解鎖」時</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"系統會安全地將您的面部模型永久刪除。
+
+面部模型刪除後，您需要使用 PIN、圖案或密碼，才能解鎖手機或在應用程式內驗證身分。"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"系統會妥善地將您的面部模型永久刪除。面部模型刪除後，您便需要使用
+
+面部模型刪除後，您便需要使用 PIN、圖案或密碼來解鎖手機。"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">要刪除面部模型嗎？</string>
+    <string name="security_settings_face_settings_remove_face_model">刪除面部模型</string>
+    <string name="security_settings_face_settings_require_attention">必需張開眼睛</string>
+    <string name="security_settings_face_settings_require_attention_details">如要解鎖手機，您必須張開眼睛</string>
+    <string name="security_settings_face_settings_require_confirmation">每次都要確認</string>
+    <string name="security_settings_face_settings_require_confirmation_details">在應用程式中使用「面孔解鎖」時，一律必須進行確認</string>
+    <string name="security_settings_face_settings_use_face_category">「面孔解鎖」的用法</string>
+</resources>

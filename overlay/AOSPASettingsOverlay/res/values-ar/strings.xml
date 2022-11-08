@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">السماح بـ \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_dialog_ok">حسنًا</string>
+    <string name="security_settings_face_enroll_done">تم</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">‏إذا تم إيقاف ميزة \"فتح الجهاز بالتعرف على الوجه\" السهلة الاستخدام، قد لا تعمل بعض خطوات الإعداد بشكل سليم باستخدام TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">رجوع</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">مواصلة الإعداد</string>
+    <string name="security_settings_face_enroll_education_message">على الشاشة التالية، حرّك رأسك بشكل دائري ليتسنى التقاط جميع زوايا وجهك.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">في الشاشة التالية، عليك مسك هاتفك على مستوى العين.</string>
+    <string name="security_settings_face_enroll_education_start">بدء</string>
+    <string name="security_settings_face_enroll_education_title">كيفية إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">استخدام وجهك للمصادقة</string>
+    <string name="security_settings_face_enroll_enrolling_skip">التخطّي</string>
+    <string name="security_settings_face_enroll_error_dialog_title">لم يكتمل التسجيل</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">تعذّر مسح الوجه.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">تم بلوغ الحد الأقصى لزمن مسح الوجه. يُرجى إعادة المحاولة.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">انتهت مهلة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">يمكنك الآن استخدام وجهك لفتح قفل هاتفك أو إثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"عندما تُمسك هاتفك أو تنقر على شاشته، يمكنك استخدام وجهك لفتح قفله.
+
+تعمل ميزة \"فتح الجهاز بالتعرف على الوجه\" بشكل أفضل عند وجود إضاءة كافية وبدون ارتداء قناع أو نظارة شمسية."</string>
+    <string name="security_settings_face_enroll_finish_title">تم الضبط بنجاح</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"يمكنك حذف نموذج الوجه الحالي لإعادة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\".
+
+سيتم حذف نموذج الوجه نهائيًا وبأمان.
+
+بعد الحذف، ستحتاج إلى رقم التعريف الشخصي أو النقش أو كلمة المرور لفتح قفل الهاتف أو للمصادقة في التطبيقات."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"يمكنك حذف نموذج الوجه الحالي لإعادة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\".
+
+سيتم حذف نموذج الوجه نهائيًا وبأمان.
+
+بعد الحذف، ستحتاج إلى بصمة الإصبع أو رقم التعريف الشخصي أو النقش أو كلمة المرور لفتح قفل الهاتف أو للمصادقة في التطبيقات."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">صعوبة في الرؤية أو تحريك الرأس</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">عندما تستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، قد تضطر إلى تثبيت رأسك أمام الهاتف مباشرةً.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">يتطلب فتح العينين.</string>
+    <string name="security_settings_face_enroll_introduction_agree">أوافق</string>
+    <string name="security_settings_face_enroll_introduction_cancel">إلغاء</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">قد يكون استخدام وجه طفلك لفتح قفل هاتفه أقل أمانًا من استخدام نقش أو رقم تعريف شخصي قوي.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">السماح لطفلك باستخدام وجهه لفتح قفل هاتفه</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"‏يمكنك أنت وطفلك حذف نموذج وجهه أو إيقاف ميزة \"فتح الجهاز بالتعرف على الوجه\" في أي وقت في \"الإعدادات\". يتم تخزين نماذج الوجوه على الهاتف حتى يتم حذفها.
+
+تعرّف على مزيد من المعلومات على الرابط g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">ستتحكّم في هذه الميزة أنت وطفلك</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"‏يمكنك حذف نموذج الوجه أو إيقاف ميزة \"فتح الجهاز بالتعرف على الوجه\" في أي وقت في \"الإعدادات\". يتم تخزين نماذج الوجوه على هاتفك حتى تحذفها.
+
+تعرّف على مزيد من المعلومات على الرابط g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">القرار لك</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"تنشئ ميزة \"فتح الجهاز بالتعرف على الوجه\" نموذجًا فريدًا من وجه طفلك لإثبات هويته. لإنشاء نموذج الوجه هذا أثناء عملية الإعداد، سيلتقط طفلك صورًا لوجهه من زوايا مختلفة.
+
+عندما يستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، سيتم استخدام الصور لتعديل نموذج وجهه. لا يتم تخزين الصور المستخدمة لإنشاء نموذج الوجه، ولكن يتم تخزين نموذج الوجه بأمان على الهاتف ولا يتم نقله خارج الهاتف مطلقًا. تتم كل عمليات المعالجة بأمان على الهاتف."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"تنشئ ميزة \"فتح الجهاز بالتعرف على الوجه\" نموذجًا فريدًا من وجهك لإثبات هويتك. لإنشاء نموذج الوجه هذا أثناء عملية الإعداد، سيتم التقاط صور لوجهك من زوايا مختلفة.
+
+عندما تستخدم ميزة \"فتح الجهاز بالتعرف على الوجه\"، سيتم استخدام الصور لتعديل نموذج الوجه. لا يتم تخزين الصور المستخدمة لإنشاء نموذج الوجه، ولكن يتم تخزين نموذج الوجه بأمان على هاتفك ولا يتم نقله خارج هاتفك مطلقًا. تتم كل عمليات المعالجة بأمان على هاتفك."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">آلية العمل</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">يمكن أن تطلب ميزة \"فتح الجهاز بالتعرف على الوجه\" أن تكون عينا الطفل مفتوحتين لفتح قفل الهاتف أو إثبات هويته. يمكنك أنت وطفلك تفعيل هذا الخيار في أي وقت من \"الإعدادات\".</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">إذا كان طفلك يرتدي نظارات في العادة، يمكنه ارتداؤها أثناء عملية الإعداد.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">قد يكون استخدام وجه طفلك لفتح قفل هاتفه أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور قوية.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">يمكن أن يؤدي النظر للهاتف إلى فتح قفله حتى إذا كان لا يقصد ذلك. يستطيع أيضًا شخص آخر فتح قفل هاتفه إذا كان يشبهه بدرجة كبيرة، مثلاً توأم متماثل أو شقيق شديد الشبه، أو إذا قرَّب شخص الهاتف من وجهه.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">يمكن أن تطلب ميزة \"فتح الجهاز بالتعرف على الوجه\" أن تكون عيناك مفتوحتين لفتح قفل الهاتف أو إثبات هويتك. يمكنك تفعيل هذا الخيار في أي وقت من \"الإعدادات\".</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">مسموح بالنظارات العادية أو النظارات الشمسية الغامقة قليلاً.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">قد يكون استخدام وجهك لفتح قفل الهاتف أقل أمانًا من استخدام نقش أو رقم تعريف شخصي أو كلمة مرور قوية.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">يمكن أن يؤدي النظر للهاتف إلى فتح قفله حتى إذا كنت لا تقصد ذلك. يستطيع أيضًا شخص آخر فتح قفل هاتفك إذا كان يشبهك بدرجة كبيرة، مثلاً توأم متماثل أو شقيق شديد الشبه، أو إذا قرَّب شخص الهاتف من وجهك.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">تنبيه</string>
+    <string name="security_settings_face_enroll_introduction_message">يمكنك استخدام وجهك لفتح قفل الهاتف أو لإثبات هويتك، مثلاً عند تسجيل الدخول إلى التطبيقات أو الموافقة على عملية شراء.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">استخدِم وجهك لفتح هاتفك أو السماح بعمليات الشراء أو تسجيل الدخول إلى التطبيقات.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"يمكنك استخدام وجهك لفتح الهاتف أو الموافقة على عمليات الشراء.
+
+ملاحظة: لا يمكنك استخدام وجهك لفتح هذا الجهاز. للحصول على المزيد من المعلومات، اتصل بمشرف المؤسسة."</string>
+    <string name="security_settings_face_enroll_introduction_more">المزيد</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">لا، شكرًا</string>
+    <string name="security_settings_face_enroll_introduction_title">إعداد \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">استخدام وجهك للمصادقة</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">تحسين الأمان ومستوى الأداء</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">إعادة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_next">التالي</string>
+    <string name="security_settings_face_enroll_partial_message">لتحسين الأداء، يمكنك إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" مرة أخرى من \"الإعدادات\".</string>
+    <string name="security_settings_face_enroll_partial_start_over">البدء من جديد</string>
+    <string name="security_settings_face_enroll_partial_title">اكتمل إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_repeat_title">وضع الوجه في منتصف الدائرة</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">إعادة إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">تحسين أداء ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_timeout_message">"يمكنك تجربة الإعداد السريع بدلاً من ذلك. تجدر الإشارة إلى أنه قد تضطر إلى تثبيت رأسك أمام الهاتف مباشرةً عند استخدام ميزة \"فتح الجهاز بالتعرف على الوجه\".
+
+لتحسين الأداء، يمكنك إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" مرة أخرى من \"الإعدادات\"."</string>
+    <string name="security_settings_face_enroll_timeout_title">تتعذّر متابعة الإعداد</string>
+    <string name="security_settings_face_enroll_timeout_try_again">إعادة المحاولة</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">استخدام الإعداد السريع</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">الخروج من الإعداد</string>
+    <string name="security_settings_face_enroll_too_hot_message">يتعذّر إكمال إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\" لأن درجة حرارة الهاتف مرتفعة جدًا. يُرجى إعادة المحاولة بعد انخفاض درجة حرارة الهاتف.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">تخطّي إعداد \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_enroll_too_hot_title">درجة حرارة الهاتف مرتفعة جدًا</string>
+    <string name="security_settings_face_preference_summary">تمت إضافة الوجه</string>
+    <string name="security_settings_face_preference_summary_none">انقر لإعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_preference_title">فتح الجهاز بالتعرف على الوجه</string>
+    <string name="security_settings_face_profile_preference_title">\"فتح الجهاز بالتعرف على الوجه\" للملف الشخصي للعمل</string>
+    <string name="security_settings_face_settings_context_subtitle">استخدام ميزة \"فتح الجهاز بالتعرف على الوجه\" لفتح قفل هاتفك</string>
+    <string name="security_settings_face_settings_enroll">إعداد ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_settings_footer">"يمكنك استخدام الوجه لفتح قفل هاتفك أو للمصادقة في التطبيقات، مثلاً عند تسجيل الدخول أو الموافقة على عملية شراء.
+ملاحظة:
+
+لا يمكنك إعداد أكثر من وجه واحد في كل مرة. لإضافة وجه آخر، عليك حذف الوجه الحالي.
+
+قد تفتح قفل الهاتف بدون قصد بمجرّد النظر إليه.
+
+ويمكن لشخص آخر فتح قفل هاتفك عند تقريبه من وجهك.
+
+وكذلك، يمكن لشخص يشبهك كثيرًا، مثل شقيقك التوأم، فتح قفل هاتفك."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"يمكنك استخدام الوجه لفتح قفل هاتفك أو للمصادقة في التطبيقات، مثلاً عند تسجيل الدخول أو الموافقة على عملية شراء.
+ملاحظة:
+
+لا يمكنك إعداد أكثر من وجه واحد في كل مرة. لإضافة وجه آخر، عليك حذف الوجه الحالي.
+
+قد تفتح قفل الهاتف بدون قصد بمجرّد النظر إليه.
+
+ويمكن لشخص آخر فتح قفل هاتفك عند تقريبه من وجهك، حتى وأنت مغلق عينيك.
+
+وكذلك، يمكن لشخص يشبهك كثيرًا، مثل شقيقك التوأم، فتح قفل هاتفك."</string>
+    <string name="security_settings_face_settings_preferences_category">عند استخدام ميزة \"فتح الجهاز بالتعرف على الوجه\"</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"سيتم حذف نموذج الوجه نهائيًا وبأمان.
+
+بعد حذفه، ستحتاج إلى رقم التعريف الشخصي أو النقش أو كلمة المرور لفتح قفل هاتفك أو لعمليات المصادقة في التطبيقات."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"سيتم حذف نموذج الوجه نهائيًا وبأمان.
+
+بعد حذفه، ستحتاج إلى رقم التعريف الشخصي أو النقش أو كلمة المرور لفتح قفل الهاتف."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">هل تريد حذف نموذج الوجه؟</string>
+    <string name="security_settings_face_settings_remove_face_model">حذف نموذج الوجه</string>
+    <string name="security_settings_face_settings_require_attention">مطلوب فتح العينين</string>
+    <string name="security_settings_face_settings_require_attention_details">يتطلب فتح قفل الهاتف النظر إليه بعينين مفتوحتين.</string>
+    <string name="security_settings_face_settings_require_confirmation">طلب التأكيد دائمًا</string>
+    <string name="security_settings_face_settings_require_confirmation_details">طلب خطوة تأكيد دائمًا عند استخدام \"فتح الجهاز بالتعرف على الوجه\" في التطبيقات</string>
+    <string name="security_settings_face_settings_use_face_category">استخدام \"فتح الجهاز بالتعرف على الوجه\" من أجل</string>
+</resources>

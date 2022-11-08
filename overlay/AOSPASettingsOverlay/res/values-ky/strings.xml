@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Жүзүнөн таанып ачууга уруксат берүү</string>
+    <string name="security_settings_face_enroll_dialog_ok">ЖАРАЙТ</string>
+    <string name="security_settings_face_enroll_done">Бүттү</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">"Атайын мүмкүнчүлүктөр кызматындагы жүзүнөн таанып ачуу функциясы өчүрүлсө, TalkBack'теги айрым жөндөө кадамдары туура иштебеши мүмкүн."</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Артка</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Жөндөөнү улантуу</string>
+    <string name="security_settings_face_enroll_education_message">Кийинки экран ачылганда башыңызды буруп, жүзүңүздү ар кайсы тараптан тартыңыз</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Кийинки экранда телефонуңузду көзүңүздүн деңгээлинде кармаңыз</string>
+    <string name="security_settings_face_enroll_education_start">Баштадык</string>
+    <string name="security_settings_face_enroll_education_title">Жүзүнөн таанып ачуу функциясын кантип койсо болот</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Жүзүнөн таанып ачууну тууралоо</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Жүзүңүз менен аныктыгыңызды текшертиңиз</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Өткөрүп жиберүү</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Жүз кошулган жок</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Жүз кошулган жок.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Күтүү убакыты узакка созулуп кетти. Кайталап көрүңүз.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Жүзүнөн таанып ачууну тууралоо убактысы бүтүп калды</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Эми манжаңыздын изи менен телефонуңуздун кулпусун ачып же колдонмолорго кирүүдө өзүңүздү ырастайсыз</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Эми телефонуңузду колуңузга алганда же экранына тийгенде анын кулпусун жүзүңүз менен ача аласыз.
+
+Жүзүнөн таанып ачуу жарык жерде жана беткап же кара көз айнек тагынбай турганда иштейт."</string>
+    <string name="security_settings_face_enroll_finish_title">Баары жайында!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Жүзүнөн таанып ачуу функциясын кайра коюу үчүн жүзүңүздүн учурдагы үлгүсүн өчүрүңүз.
+
+Жүзүңүздүн үлгүсү биротоло өчүрүлөт.
+
+Өчүрүлгөндөн кийин телефонуңуздун кулпусун ачуу же колдонмолордо аутентификациядан өтүү үчүн PIN кодуңуз, графикалык ачкычыңыз же сырсөзүңүз керек болот."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Жүзүнөн таанып ачуу функциясын кайра коюу үчүн жүзүңүздүн учурдагы үлгүсүн өчүрүңүз.
+
+Жүзүңүздүн үлгүсү биротоло өчүрүлөт.
+
+Өчүрүлгөндөн кийин телефонуңуздун кулпусун ачуу же колдонмолордо аутентификациядан өтүү үчүн манжаңыздын изи, PIN код, графикалык ачкыч же сырсөз керек болот."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Жүзүнөн таанып ачууну тууралоо</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Атайын мүмкүнчүлүктөрдү иштетүү</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Телефондун кулпусун жүзүңүз менен ачканда, телефонду жүзүңүзгө алып келишиңиз керек.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Көзүңүз ачык болушу керек</string>
+    <string name="security_settings_face_enroll_introduction_agree">Макул</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Баш тартуу</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Балаңыздын телефонунун кулпусун Жүзүнөн таанып ачуу функциясы менен ачуу татаал графикалык ачкыч же PIN код менен ачкандагыдай коопсуз болбошу мүмкүн.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Балаңызга телефонунун кулпусун ачуу үчүн жүзүн колдонууга уруксат бериңиз</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Балаңыз жүзүнүн үлгүсүн же Жүзүнөн таанып ачуу функциясын Жөндөөлөрдөн каалаган убакта өчүрө алат. Жүздүн үлгүлөрү өчүрүлмөйүнчө телефондо сакталат.
+
+Кененирээк малымат: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Баарын өзүңүз жана балаңыз көзөмөлдөйт</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Жүзүңүздүн үлгүсүн же Жүзүнөн таанып ачуу функциясын Жөндөөлөрдөн каалаган убакта өчүрсөңүз болот. Жүздүн үлгүлөрү өчүрүлмөйүнчө телефонуңузда сакталат.
+
+Кененирээк малымат: g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Баары өзүңүздүн колуңузда</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Жүзүнөн таанып ачуу функциясы балаңызды таануу үчүн жүзүнүн өзгөчө үлгүсүн түзөт. Жүзүнүн үлгүсүн түзүү үчүн балаңыз жүзүн ар тараптан сүрөткө тартышы керек.
+
+Ал Жүзүнөн таанып ачуу функциясын колдонгондо, жүзүнүн үлгүсү сүрөттөр аркылуу жаңырат. Анын жүзүнүн үлгүсүн түзүү үчүн колдонулган сүрөттөр сакталбайт, ал эми жүзүнүн үлгүсү телефондо гана сакталат. Сүрөттөр телефондо гана иштетилет."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Жүзүнөн таанып ачуу функциясы сизди ырастоо үчүн жүзүңүздүн үлгүсүн алат. Жүздүн үлгүсүн алуу үчүн жүзүңүздү ар тараптан сүрөткө тартышыңыз керек.
+
+Жүзүңүздүн үлгүсү жүзүнөн таанып ачуу функциясын колдонгондо алынган сүрөттөрдүн негизинде жаңырып турат. Сүрөттөр менен жүзүңүздүн үлгүсү телефонуңузда гана иштелип, сакталат жана эч кимге жөнөтүлбөйт."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Кантип иштейт</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Жүзүнөн таанып ачуу функциясы телефондун кулпусун ачуу үчүн балаңыздан көздөрүн ачып туруусун талап кылышы мүмкүн, же болбосо, аныктыгын ырастоо керек болот. Бул функцияны Жөндөөлөргө өтүп, өзүңүз же балаңыз каалаган убакта өчүрүп коё аласыңар.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Эгер балаңыз көз айнек тагынса, жөндөп жатканда аны тагып алса болот.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Балаңыздын телефонунун кулпусун Жүзүнөн таанып ачуу функциясы менен ачуу татаал графикалык ачкыч, PIN код же сырсөз менен ачкандагыдай коопсуз болбошу мүмкүн</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Ал телефонду карап койсо эле кулпусу ачылат. Анын телефонунун кулпусун ага аябай окшош адам (мисалы, эгизи), ошондой эле кимдир бирөө телефонун анын жүзүнө жакын алып келип ачып алышы мүмкүн.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Көздөрүңүз жабык болгондо жүзүнөн таанып ачуу функциясынын параметрлеринен телефондун кулпусун ачууга же өзүңүздү аныктаганга тыюу салсаңыз болот.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Көз айнегиңизди чечпей эле койсоңуз болот (күндөн коргогон көз айнегиңизди да, эгер өтө капкара болбосо).</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Жүзүнөн таанып ачуу функциясына караганда телефонуңузду графикалык ачкыч, PIN код же сырсөз менен коргоо бир кыйла коопсуз</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Телефонду карап койсоңуз эле кулпусу ачылат. Телефонуңуздун кулпусун сизге аябай окшош адам (мисалы, эгизиңиз), ошондой эле кимдир бирөө телефонуңузду жүзүңүзгө жакын алып келип ачып алышы мүмкүн.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Көңүл буруңуз</string>
+    <string name="security_settings_face_enroll_introduction_message">Манжаңыздын изи менен телефонуңуздун кулпусун ачыңыз же өзүңүздү ырастаңыз (мисалы, колдонмолорго кирүүдө же кандайдыр бир нерсе сатып алып жатканда).</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Телефонуңуздун кулпусун ачып, сатып алууга уруксат берип же колдонмолорго кирүү үчүн жүзүңүздү көрсөтүңүз.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Жүзүнөн таанып ачуу функциясы аркылуу телефонуңуздун кулпусун ачып, ар кандай нерселерди сатып ала аласыз.
+
+Эскертүү: Бул түзмөктүн кулпусун жүзүнөн таануу функциясы менен ачууга болбойт. Кененирээк маалымат алгыңыз келсе, ишканаңыздын администраторуна кайрылыңыз."</string>
+    <string name="security_settings_face_enroll_introduction_more">Дагы</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Жок, рахмат</string>
+    <string name="security_settings_face_enroll_introduction_title">Жүзүнөн таанып ачууну тууралоо</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Жүзүңүз менен аныктыгыңызды текшертиңиз</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Коопсуздукту жана иштин майнаптуулугун жакшыртыңыз</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Жүзүнөн таанып ачуу функциясын кайрадан жөндөңүз</string>
+    <string name="security_settings_face_enroll_next">Кийинки</string>
+    <string name="security_settings_face_enroll_partial_message">Майнаптуулугун жакшыртуу үчүн жүзүнөн таанып ачууну Жөндөөлөрдөн кайра жөндөп алсаңыз болот</string>
+    <string name="security_settings_face_enroll_partial_start_over">Кайра баштоо</string>
+    <string name="security_settings_face_enroll_partial_title">Жүзүнөн таанып ачууну тууралоо аягына чыкты</string>
+    <string name="security_settings_face_enroll_repeat_title">Жүзүңүздү тегеректин борборуна жайгаштырыңыз</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Жүзүнөн таанып ачуу функциясын кайрадан жөндөңүз</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Жүзүнөн таанып ачуу функциясынын майнаптуулугун жакшыртыңыз</string>
+    <string name="security_settings_face_enroll_timeout_message">"Андан көрө ыкчам жол менен кошуп көрүңүз. Жүзүнөн таанып ачуу функциясын колдонгондо, жүзүңүз телефондун так маңдайында болушу керек.
+
+Бул функцияны Жөндөөлөрдөн кайра тууралап алсаңыз болот."</string>
+    <string name="security_settings_face_enroll_timeout_title">Кошулбай жатат</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Кайталоо</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Ыкчам жол менен кошуу</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Жөндөөдөн чыгуу</string>
+    <string name="security_settings_face_enroll_too_hot_message">Жүзүнөн таануу функциясын жөндөп бүтүрүү мүмкүн эмес, себеби телефон ысып кетти. Телефон муздагандан кийин кайра аракет кылыңыз.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Жүзүнөн таанууну өткөрүп жиберүү</string>
+    <string name="security_settings_face_enroll_too_hot_title">Телефон ысып кетти</string>
+    <string name="security_settings_face_preference_summary">Жүз кошулду</string>
+    <string name="security_settings_face_preference_summary_none">Жүзүнөн таанып ачуу функциясын тууралоо үчүн таптаңыз</string>
+    <string name="security_settings_face_preference_title">Жүзүнөн таанып ачуу</string>
+    <string name="security_settings_face_profile_preference_title">Жумуш профили үчүн Жүзүнөн таанып ачуу функциясы</string>
+    <string name="security_settings_face_settings_context_subtitle">Телефонуңузду Жүзүнөн таанып ачуу функциясы менен ачыңыз</string>
+    <string name="security_settings_face_settings_enroll">Жүзүнөн таанып ачууну тууралоо</string>
+    <string name="security_settings_face_settings_footer">"Жүзүңүз менен телефонуңуздун кулпусун ачыңыз же өзүңүздү ырастаңыз (мисалы, колдонмолорго кирүү же кандайдыр бир нерсени сатып алуу үчүн).
+
+Көңүл буруңуз:
+Бир убакта бир гана жүз кошо аласыз. Башка жүз кошуу үчүн учурдагыны өчүрүшүңүз керек.
+
+Экранды карап койсоңуз эле, түзмөгүңүздүн кулпусу ачылып калышы мүмкүн.
+
+Ошондой эле кимдир бирөө телефонуңузду жүзүңүзгө алып келип ачышы мүмкүн.
+
+Телефонуңуздун кулпусун сизге аябай окшош адам (мисалы, эгизиңиз) ачып алышы мүмкүн."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Жүзүңүз менен телефонуңуздун кулпусун ачыңыз же өзүңүздү ырастаңыз (мисалы, колдонмолорго кирүү же кандайдыр бир нерсени сатып алуу үчүн).
+
+Көңүл буруңуз:
+Бир убакта бир гана жүз кошо аласыз. Башка жүз кошуу үчүн учурдагыны өчүрүшүңүз керек.
+
+Экранды карап койсоңуз эле, түзмөгүңүздүн кулпусу ачылып калышы мүмкүн.
+
+Ошондой эле кимдир бирөө көзүңүз жумулуп турганда да, телефонуңузду жүзүңүзгө жакын алып келип ачып алышы ыктымал.
+
+Телефонуңуздун кулпусун сизге аябай окшош адам (мисалы, эгизиңиз) ачып алышы мүмкүн."</string>
+    <string name="security_settings_face_settings_preferences_category">Жүзүнөн таанып ачуу колдонулганда</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Жүзүңүздүн үлгүсү биротоло өчүрүлөт.
+
+Өчүрүлгөндөн кийин телефонуңуздун кулпусун ачуу же колдонмолордо аутентификациядан өтүү үчүн PIN кодуңуз, графикалык ачкычыңыз же сырсөзүңүз керек болот."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Жүзүңүздүн үлгүсү биротоло өчүрүлөт.
+
+Өчүрүлгөндөн кийин телефонуңуздун кулпусун ачуу үчүн манжаңыздын изи, PIN код, графикалык ачкыч же сырсөз керек болот."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Жүздүн үлгүсүн өчүрөсүзбү?</string>
+    <string name="security_settings_face_settings_remove_face_model">Жүздүн үлгүсүн өчүрүү</string>
+    <string name="security_settings_face_settings_require_attention">Көздөр ачык болушу керек</string>
+    <string name="security_settings_face_settings_require_attention_details">Телефондун кулпусун ачуу үчүн көзүңүз ачык болушу керек</string>
+    <string name="security_settings_face_settings_require_confirmation">Ар дайым ырастоо талап кылынсын</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Жүзүнөн таанып ачуу функциясы колдонулганда, ар дайым ырастоо талап кылынат</string>
+    <string name="security_settings_face_settings_use_face_category">Жүзүнөн таанып ачуу:</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">อนุญาตให้ปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_dialog_ok">ตกลง</string>
+    <string name="security_settings_face_enroll_done">เสร็จ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">หากการปลดล็อกด้วยใบหน้าในการช่วยเหลือพิเศษปิดอยู่ ขั้นตอนการตั้งค่าบางอย่างอาจทำงานกับ TalkBack ไม่ถูกต้อง</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">ย้อนกลับ</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">ตั้งค่าต่อ</string>
+    <string name="security_settings_face_enroll_education_message">ในหน้าจอถัดไป ให้หมุนศีรษะเพื่อจับภาพใบหน้าทุกมุม</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">ในหน้าจอถัดไป ให้ถือโทรศัพท์ไว้ที่ระดับสายตา</string>
+    <string name="security_settings_face_enroll_education_start">เริ่ม</string>
+    <string name="security_settings_face_enroll_education_title">วิธีตั้งค่าการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">ตั้งค่าการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">ใช้ใบหน้าในการตรวจสอบสิทธิ์</string>
+    <string name="security_settings_face_enroll_enrolling_skip">ข้าม</string>
+    <string name="security_settings_face_enroll_error_dialog_title">การลงทะเบียนยังไม่เสร็จสมบูรณ์</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">การลงทะเบียนใบหน้าไม่ทำงาน</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">หมดเวลาลงทะเบียนใบหน้า โปรดลองอีกครั้ง</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">การตั้งค่าการปลดล็อกด้วยใบหน้าหมดเวลา</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">ตอนนี้คุณใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือยืนยันตัวตนได้ เช่น เมื่อลงชื่อเข้าใช้แอปหรืออนุมัติการซื้อ</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"ตอนนี้เมื่อหยิบโทรศัพท์ขึ้นมาหรือแตะหน้าจอ คุณก็จะใช้ใบหน้าเพื่อปลดล็อกได้
+
+การปลดล็อกด้วยใบหน้าจะทำงานได้ดีที่สุดเมื่อมีแสงสว่างเพียงพอและไม่สวมหน้ากากหรือแว่นตาดำ"</string>
+    <string name="security_settings_face_enroll_finish_title">เรียบร้อยแล้ว</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"ลบรูปแบบใบหน้าปัจจุบันแล้วตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง
+
+ระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย
+
+หลังจากที่ลบแล้ว คุณจะต้องใช้ PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์ หรือสำหรับการตรวจสอบสิทธิ์ในแอป"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"ลบรูปแบบใบหน้าปัจจุบันแล้วตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง
+
+ระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย
+
+หลังจากที่ลบแล้ว คุณจะต้องใช้ลายนิ้วมือ, PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์ หรือสำหรับการตรวจสอบสิทธิ์ในแอป"</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">ตั้งค่าการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">ตั้งค่าสำหรับการมองหรือการขยับศีรษะที่จำกัด</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">เมื่อใช้การปลดล็อกด้วยใบหน้า คุณอาจต้องหันหน้าให้ตรงกับโทรศัพท์มากขึ้น</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">ต้องลืมตา</string>
+    <string name="security_settings_face_enroll_introduction_agree">ยอมรับ</string>
+    <string name="security_settings_face_enroll_introduction_cancel">ยกเลิก</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">การใช้ใบหน้าของบุตรหลานเพื่อปลดล็อกโทรศัพท์อาจมีความปลอดภัยน้อยกว่ารูปแบบหรือ PIN ที่เดายาก</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">อนุญาตให้บุตรหลานใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"คุณและบุตรหลานลบรูปแบบใบหน้า หรือปิดการปลดล็อกด้วยใบหน้าได้ทุกเมื่อในการตั้งค่า ระบบจะเก็บรูปแบบใบหน้าไว้ในโทรศัพท์จนกว่าจะมีการลบออก
+
+ดูข้อมูลเพิ่มเติมที่ g.co/pixel/faceunlock"</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">คุณและบุตรหลานจะเป็นผู้ควบคุม</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"คุณลบรูปแบบใบหน้าหรือปิดการปลดล็อกด้วยใบหน้าได้ทุกเมื่อในการตั้งค่า ระบบจะเก็บรูปแบบใบหน้าไว้ในโทรศัพท์จนกว่าคุณจะลบออก
+
+ดูข้อมูลเพิ่มเติมที่ g.co/pixel/faceunlock"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">คุณควบคุมได้</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"การปลดล็อกด้วยใบหน้าจะสร้างรูปแบบใบหน้าที่เป็นเอกลักษณ์ของบุตรหลานเพื่อยืนยันว่าเป็นตนเอง ในการสร้างรูปแบบใบหน้านี้ระหว่างการตั้งค่า บุตรหลานจะถ่ายภาพใบหน้าจากมุมต่างๆ ที่ไม่ซ้ำกัน
+
+เมื่อบุตรหลานใช้การปลดล็อกด้วยใบหน้า ระบบจะใช้รูปภาพเพื่ออัปเดตรูปแบบใบหน้า ระบบจะไม่เก็บรูปภาพที่ใช้สร้างรูปแบบใบหน้า แต่จะเก็บรูปแบบใบหน้าไว้อย่างปลอดภัยในโทรศัพท์และจะไม่มีการส่งออกไปไหน การประมวลผลข้อมูลทั้งหมดเกิดขึ้นอย่างปลอดภัยในโทรศัพท์"</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"การปลดล็อกด้วยใบหน้าจะสร้างรูปแบบใบหน้าที่เป็นเอกลักษณ์เพื่อยืนยันว่าเป็นคุณ ในการสร้างรูปแบบใบหน้านี้ระหว่างการตั้งค่า คุณจะถ่ายภาพใบหน้าจากมุมต่างๆ ที่ไม่ซ้ำกัน
+
+เมื่อคุณใช้การปลดล็อกด้วยใบหน้า ระบบจะใช้รูปภาพเพื่ออัปเดตรูปแบบใบหน้า ระบบจะไม่เก็บรูปภาพที่ใช้สร้างรูปแบบใบหน้า แต่จะเก็บรูปแบบใบหน้าไว้อย่างปลอดภัยในโทรศัพท์และจะไม่มีการส่งออกไปไหน การประมวลผลข้อมูลทั้งหมดเกิดขึ้นอย่างปลอดภัยในโทรศัพท์"</string>
+    <string name="security_settings_face_enroll_introduction_how_title">วิธีการทำงาน</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">การปลดล็อกด้วยใบหน้าสามารถกำหนดได้ว่าบุตรหลานต้องลืมตาในการปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นตนเอง คุณและบุตรหลานเปิดตัวเลือกนี้ได้ทุกเมื่อในการตั้งค่า</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">หากบุตรหลานสวมแว่นตาเป็นปกติ ก็สวมไว้ระหว่างการตั้งค่าได้</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">การใช้ใบหน้าของบุตรหลานเพื่อปลดล็อกโทรศัพท์อาจมีความปลอดภัยน้อยกว่ารูปแบบ PIN หรือรหัสผ่านที่เดายาก</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">การมองโทรศัพท์จะปลดล็อกโทรศัพท์ได้แม้ว่าบุตรหลานไม่ได้ตั้งใจก็ตาม หากมีคนที่หน้าคล้ายบุตรหลานมากๆ เช่น ฝาแฝด หรือหากมีผู้ถือโทรศัพท์ไว้ตรงหน้าของบุตรหลานก็อาจปลดล็อกโทรศัพท์ได้เช่นกัน</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">การปลดล็อกด้วยใบหน้าสามารถกำหนดได้ว่าคุณต้องลืมตาในการปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นคุณ คุณเปิดตัวเลือกนี้ได้ทุกเมื่อในการตั้งค่า</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">สวมแว่นตาหรือแว่นกันแดดที่มีเลนส์สีอ่อนได้</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">การใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์อาจไม่ปลอดภัยเท่ารูปแบบ, PIN หรือรหัสผ่านที่เดายาก</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">การมองโทรศัพท์จะปลดล็อกโทรศัพท์ได้แม้ว่าคุณไม่ได้ตั้งใจก็ตาม หากมีคนที่หน้าคล้ายคุณมากๆ เช่น ฝาแฝด หรือหากมีผู้ถือโทรศัพท์ไว้ตรงหน้าของคุณก็อาจปลดล็อกโทรศัพท์ได้เช่นกัน</string>
+    <string name="security_settings_face_enroll_introduction_info_title">โปรดทราบ</string>
+    <string name="security_settings_face_enroll_introduction_message">ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือยืนยันว่าเป็นคุณ เช่น เมื่อลงชื่อเข้าใช้แอปหรืออนุมัติการซื้อ</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์ อนุญาตการซื้อ หรือลงชื่อเข้าใช้แอป</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรืออนุมัติการซื้อ
+
+หมายเหตุ: คุณใช้ใบหน้าเพื่อปลดล็อกอุปกรณ์นี้ไม่ได้ โปรดติดต่อผู้ดูแลระบบขององค์กรสำหรับข้อมูลเพิ่มเติม"</string>
+    <string name="security_settings_face_enroll_introduction_more">เพิ่มเติม</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">ไม่เป็นไร</string>
+    <string name="security_settings_face_enroll_introduction_title">ตั้งค่าการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">ใช้ใบหน้าในการตรวจสอบสิทธิ์</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">ปรับปรุงความปลอดภัยและประสิทธิภาพ</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">ตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง</string>
+    <string name="security_settings_face_enroll_next">ถัดไป</string>
+    <string name="security_settings_face_enroll_partial_message">หากต้องการปรับปรุงประสิทธิภาพ คุณตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้งได้ในการตั้งค่า</string>
+    <string name="security_settings_face_enroll_partial_start_over">เริ่มต้นใหม่</string>
+    <string name="security_settings_face_enroll_partial_title">ตั้งค่าการปลดล็อกด้วยใบหน้าเสร็จแล้ว</string>
+    <string name="security_settings_face_enroll_repeat_title">จัดใบหน้าของคุณให้อยู่กลางวงกลม</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">ตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้ง</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">ปรับปรุงประสิทธิภาพการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_timeout_message">"ลองใช้การตั้งค่าด่วนแทน โปรดทราบว่าคุณอาจต้องหันหน้าให้ตรงกับโทรศัพท์มากขึ้นเมื่อใช้การปลดล็อกด้วยใบหน้า
+
+หากต้องการปรับปรุงประสิทธิภาพ คุณตั้งค่าการปลดล็อกด้วยใบหน้าอีกครั้งได้ในการตั้งค่า"</string>
+    <string name="security_settings_face_enroll_timeout_title">ตั้งค่าต่อไม่ได้</string>
+    <string name="security_settings_face_enroll_timeout_try_again">ลองอีกครั้ง</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ใช้การตั้งค่าด่วน</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">ออกจากการตั้งค่า</string>
+    <string name="security_settings_face_enroll_too_hot_message">ตั้งค่าการปลดล็อกด้วยใบหน้าให้เสร็จสมบูรณ์ไม่ได้เนื่องจากโทรศัพท์ร้อนเกินไป โปรดลองอีกครั้งในภายหลังเมื่อโทรศัพท์เย็นลง</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ข้ามการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_enroll_too_hot_title">โทรศัพท์ร้อนเกินไป</string>
+    <string name="security_settings_face_preference_summary">เพิ่มใบหน้าแล้ว</string>
+    <string name="security_settings_face_preference_summary_none">แตะเพื่อตั้งค่าใบหน้า</string>
+    <string name="security_settings_face_preference_title">การปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_profile_preference_title">การปลดล็อกด้วยใบหน้าสำหรับโปรไฟล์งาน</string>
+    <string name="security_settings_face_settings_context_subtitle">ใช้การปลดล็อกด้วยใบหน้าเพื่อปลดล็อกโทรศัพท์</string>
+    <string name="security_settings_face_settings_enroll">ตั้งค่าการปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_settings_footer">"ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือใช้ในการตรวจสอบสิทธิ์ในแอป เช่น เมื่อคุณลงชื่อเข้าใช้หรืออนุมัติการซื้อ
+
+โปรดทราบ
+คุณตั้งค่าใบหน้าได้ครั้งละ 1 ใบหน้าเท่านั้น หากต้องการเพิ่มใบหน้าอื่น ให้ลบใบหน้าปัจจุบันออก
+
+การดูโทรศัพท์อาจปลดล็อกเครื่องโดยไม่ตั้งใจ
+
+คนอื่นอาจปลดล็อกโทรศัพท์ได้หากถือโทรศัพท์ไว้ตรงหน้าของคุณ
+
+คนที่หน้าคล้ายคุณมากๆ เช่น แฝดของคุณอาจปลดล็อกโทรศัพท์ได้"</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรือใช้ในการตรวจสอบสิทธิ์ในแอป เช่น เมื่อคุณลงชื่อเข้าใช้หรืออนุมัติการซื้อ
+
+โปรดทราบ
+คุณตั้งค่าใบหน้าได้ครั้งละ 1 ใบหน้าเท่านั้น หากต้องการเพิ่มใบหน้าอื่น ให้ลบใบหน้าปัจจุบันออก
+
+การดูโทรศัพท์อาจปลดล็อกเครื่องโดยไม่ตั้งใจ
+
+คนอื่นอาจปลดล็อกโทรศัพท์ได้หากถือโทรศัพท์ไว้ตรงหน้าของคุณ แม้ในขณะที่คุณหลับตาอยู่
+
+คนที่หน้าคล้ายคุณมากๆ เช่น แฝดของคุณอาจปลดล็อกโทรศัพท์ได้"</string>
+    <string name="security_settings_face_settings_preferences_category">เมื่อใช้การปลดล็อกด้วยใบหน้า</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"ระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย
+
+หลังจากที่ลบแล้ว คุณจะต้องใช้ PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์ หรือสำหรับการตรวจสอบสิทธิ์ในแอป"</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"ระบบจะลบรูปแบบใบหน้าออกอย่างถาวรและปลอดภัย
+
+หลังจากที่ลบแล้ว คุณจะต้องใช้ PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกโทรศัพท์"</string>
+    <string name="security_settings_face_settings_remove_dialog_title">ลบรูปแบบใบหน้าใช่ไหม</string>
+    <string name="security_settings_face_settings_remove_face_model">ลบรูปแบบใบหน้า</string>
+    <string name="security_settings_face_settings_require_attention">ต้องลืมตา</string>
+    <string name="security_settings_face_settings_require_attention_details">คุณต้องลืมตาเพื่อปลดล็อกโทรศัพท์</string>
+    <string name="security_settings_face_settings_require_confirmation">ต้องมีการยืนยันเสมอ</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ต้องมีขั้นตอนการยืนยันทุกครั้งเมื่อใช้การปลดล็อกด้วยใบหน้าในแอป</string>
+    <string name="security_settings_face_settings_use_face_category">ใช้การปลดล็อกด้วยใบหน้าเพื่อ</string>
+</resources>

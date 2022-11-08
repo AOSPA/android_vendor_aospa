@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Izinkan Face Unlock</string>
+    <string name="security_settings_face_enroll_dialog_ok">Oke</string>
+    <string name="security_settings_face_enroll_done">Selesai</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Jika Face Unlock aksesibilitas dinonaktifkan, beberapa langkah penyiapan mungkin tidak akan berfungsi baik dengan TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Kembali</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Lanjutkan penyiapan</string>
+    <string name="security_settings_face_enroll_education_message">Di layar berikutnya, putar kepala agar dapat mengambil foto semua sudut wajah Anda</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Di layar berikutnya, pegang ponsel sejajar dengan mata</string>
+    <string name="security_settings_face_enroll_education_start">Mulai</string>
+    <string name="security_settings_face_enroll_education_title">Cara menyiapkan Face Unlock</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Siapkan Face Unlock</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Gunakan wajah Anda untuk mengautentikasi</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Lewati</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Pendaftaran tidak selesai</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Pendaftaran wajah gagal.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Batas waktu pendaftaran wajah tercapai. Coba lagi.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Waktu penyiapan Face Unlock sudah habis</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Kini Anda dapat menggunakan wajah untuk membuka kunci ponsel atau memverifikasi diri Anda, seperti saat login ke aplikasi atau menyetujui pembelian</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Kini saat Anda mengambil ponsel atau mengetuk layar, Anda dapat menggunakan wajah untuk membuka kunci.
+
+Face Unlock berfungsi optimal saat ada cukup cahaya dan Anda tidak sedang memakai masker atau kacamata hitam."</string>
+    <string name="security_settings_face_enroll_finish_title">Sip, selesai!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Hapus model wajah Anda saat ini untuk menyiapkan Face Unlock lagi.
+
+Model wajah Anda akan dihapus secara permanen dan aman.
+
+Setelah dihapus, Anda akan memerlukan PIN, pola, atau sandi untuk membuka kunci ponsel atau untuk autentikasi dalam aplikasi."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Hapus model wajah Anda saat ini untuk menyiapkan Face Unlock lagi.
+
+Model wajah Anda akan dihapus secara permanen dan aman.
+
+Setelah dihapus, Anda akan memerlukan sidik jari, PIN, pola, atau sandi untuk membuka kunci ponsel atau untuk autentikasi dalam aplikasi."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Siapkan Face Unlock</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Penyiapan untuk gerakan kepala atau pandangan yang terbatas</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Saat menggunakan Face Unlock, kepala Anda mungkin harus lebih lurus menghadap ke ponsel.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Mata harus terbuka</string>
+    <string name="security_settings_face_enroll_introduction_agree">Saya setuju</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Batal</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Menggunakan wajah anak Anda untuk membuka kunci ponselnya mungkin kurang aman dibandingkan dengan pola atau PIN yang kuat.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Izinkan anak Anda menggunakan wajah untuk membuka kunci ponselnya</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Anda dan anak Anda dapat menghapus model wajahnya atau menonaktifkan Face Unlock kapan pun di Setelan. Model wajah akan disimpan di ponsel hingga dihapus.
+
+Pelajari lebih lanjut di g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Anda dan anak Anda memegang kendali</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Anda dapat menghapus model wajah atau menonaktifkan Face Unlock kapan saja di Setelan. Model wajah disimpan di ponsel hingga Anda menghapusnya.
+
+Pelajari lebih lanjut di g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Anda memegang kendali</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Face Unlock membuat model unik dari wajah anak Anda untuk memverifikasi dirinya. Untuk membuat model wajah ini selama penyiapan, anak Anda perlu mengambil gambar wajah dari berbagai sudut.
+
+Saat dia menggunakan Face Unlock, gambar digunakan untuk memperbarui model wajahnya. Gambar yang digunakan untuk membuat model wajah tidak disimpan, tetapi model wajahnya disimpan secara aman di ponsel dan tidak pernah dikirim ke luar ponsel. Semua pemrosesan dilakukan secara aman di ponsel."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Face Unlock membuat model unik wajah Anda untuk memverifikasi diri Anda. Untuk membuat model wajah ini selama penyiapan, Anda perlu mengambil gambar wajah dari berbagai sudut.
+
+Saat Anda menggunakan Face Unlock, gambar digunakan untuk memperbarui model wajah Anda. Gambar yang digunakan untuk membuat model wajah tidak disimpan, tetapi model wajah disimpan secara aman di ponsel dan tidak pernah dikirim ke luar ponsel. Semua pemrosesan dilakukan secara aman di ponsel Anda."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Cara kerjanya</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Mata anak Anda harus terbuka agar terdeteksi oleh Face Unlock untuk membuka kunci ponsel atau memverifikasi diri anak. Anda dan anak Anda dapat mengaktifkan opsi ini kapan saja di Setelan.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jika anak Anda biasanya memakai kacamata, dia dapat memakainya selama penyiapan.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Menggunakan wajah anak Anda untuk membuka kunci ponselnya mungkin kurang aman dibandingkan dengan pola, PIN, atau sandi yang kuat</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Dengan melihat ponsel, dia dapat membuka kuncinya meski tidak bermaksud melakukannya. Ponselnya juga dapat dibuka kuncinya oleh seseorang yang sangat mirip dengannya, seperti saudara kembar identik, atau jika seseorang mendekatkan ponsel ke wajah anak Anda.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Mata Anda harus terbuka agar terdeteksi oleh Face Unlock untuk membuka kunci ponsel atau memverifikasi diri Anda. Anda dapat mengaktifkan opsi ini kapan saja di Setelan.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Kacamata atau kacamata berlensa warna transparan dapat digunakan.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Menggunakan wajah Anda untuk membuka kunci ponsel mungkin kurang aman dibandingkan dengan pola, PIN, atau sandi yang rumit</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Dengan melihat ponsel, Anda dapat membuka kuncinya meski tidak bermaksud untuk melakukannya. Ponsel Anda juga dapat dibuka kuncinya oleh seseorang yang sangat mirip dengan Anda, seperti saudara kembar identik, atau jika seseorang mendekatkan ponsel ke wajah Anda.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Ingat</string>
+    <string name="security_settings_face_enroll_introduction_message">Gunakan wajah untuk membuka kunci ponsel atau memverifikasi diri Anda, seperti saat login ke aplikasi atau menyetujui pembelian.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Gunakan wajah Anda untuk membuka kunci ponsel, mengizinkan pembelian, atau login ke aplikasi</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Gunakan sidik jari untuk membuka ponsel atau menyetujui pembelian.
+
+Catatan: Anda tidak dapat menggunakan sidik jari untuk membuka perangkat ini. Untuk informasi selengkapnya, hubungi admin organisasi Anda."</string>
+    <string name="security_settings_face_enroll_introduction_more">Lainnya</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Lain kali</string>
+    <string name="security_settings_face_enroll_introduction_title">Siapkan Face Unlock</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Gunakan wajah Anda untuk mengautentikasi</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Tingkatkan keamanan dan performa</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Siapkan Face Unlock lagi</string>
+    <string name="security_settings_face_enroll_next">Berikutnya</string>
+    <string name="security_settings_face_enroll_partial_message">Untuk meningkatkan performa, Anda dapat menyiapkan Face Unlock lagi di Setelan</string>
+    <string name="security_settings_face_enroll_partial_start_over">Mulai dari awal</string>
+    <string name="security_settings_face_enroll_partial_title">Penyiapan Face Unlock selesai</string>
+    <string name="security_settings_face_enroll_repeat_title">Posisikan wajah Anda di tengah lingkaran</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Siapkan Face Unlock lagi</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Tingkatkan performa Face Unlock</string>
+    <string name="security_settings_face_enroll_timeout_message">"Coba penyiapan cepat. Perlu diperhatikan, kepala Anda mungkin harus lebih lurus menghadap ke ponsel saat menggunakan Face Unlock.
+
+Untuk meningkatkan performa, Anda dapat menyiapkan Face Unlock lagi di Setelan."</string>
+    <string name="security_settings_face_enroll_timeout_title">Tidak dapat melanjutkan penyiapan</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Coba lagi</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gunakan penyiapan cepat</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Keluar dari penyiapan</string>
+    <string name="security_settings_face_enroll_too_hot_message">Penyiapan Face Unlock tidak dapat diselesaikan karena ponsel terlalu panas. Coba lagi nanti saat ponsel sudah dingin.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Lewati Face Unlock</string>
+    <string name="security_settings_face_enroll_too_hot_title">Ponsel terlalu panas</string>
+    <string name="security_settings_face_preference_summary">Wajah ditambahkan</string>
+    <string name="security_settings_face_preference_summary_none">Ketuk untuk menyiapkan wajah</string>
+    <string name="security_settings_face_preference_title">Face Unlock</string>
+    <string name="security_settings_face_profile_preference_title">Face Unlock untuk profil kerja</string>
+    <string name="security_settings_face_settings_context_subtitle">Gunakan Face Unlock untuk membuka kunci ponsel Anda</string>
+    <string name="security_settings_face_settings_enroll">Siapkan Face Unlock</string>
+    <string name="security_settings_face_settings_footer">"Gunakan wajah Anda untuk membuka kunci ponsel atau untuk autentikasi dalam aplikasi, seperti saat login atau menyetujui pembelian.
+
+Perlu diperhatikan:
+Anda hanya dapat menyiapkan satu wajah dalam satu waktu. Untuk menambahkan wajah lain, hapus wajah saat ini.
+
+Dengan melihat ponsel, Anda dapat membuka kuncinya meski tidak bermaksud melakukannya.
+
+Seseorang dapat membuka kunci ponsel Anda jika dia mendekatkan ponsel ke wajah Anda.
+
+Ponsel Anda dapat dibuka kuncinya oleh seseorang yang sangat mirip dengan Anda, seperti saudara kembar identik."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Gunakan wajah Anda untuk membuka kunci ponsel atau untuk autentikasi dalam aplikasi, seperti saat login atau menyetujui pembelian.
+
+Perlu diperhatikan:
+Anda hanya dapat menyiapkan satu wajah dalam satu waktu. Untuk menambahkan wajah lain, hapus wajah saat ini.
+
+Dengan melihat ponsel, Anda dapat membuka kuncinya meski tidak bermaksud melakukannya.
+
+Seseorang dapat membuka kunci ponsel Anda jika dia mendekatkan ponsel ke wajah Anda, bahkan saat mata Anda tertutup.
+
+Ponsel Anda dapat dibuka kuncinya oleh seseorang yang sangat mirip dengan Anda, seperti saudara kembar identik."</string>
+    <string name="security_settings_face_settings_preferences_category">Saat menggunakan Face Unlock</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Model wajah Anda akan dihapus secara permanen dan aman.
+
+Setelah dihapus, Anda akan memerlukan PIN, pola, atau sandi untuk membuka kunci ponsel atau untuk autentikasi dalam aplikasi."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Model wajah Anda akan dihapus secara permanen dan aman.
+
+Setelah dihapus, Anda akan memerlukan PIN, pola, atau sandi untuk membuka kunci ponsel."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Hapus model wajah?</string>
+    <string name="security_settings_face_settings_remove_face_model">Hapus model wajah</string>
+    <string name="security_settings_face_settings_require_attention">Pastikan mata tetap terbuka</string>
+    <string name="security_settings_face_settings_require_attention_details">Untuk membuka kunci ponsel, mata harus terbuka</string>
+    <string name="security_settings_face_settings_require_confirmation">Selalu wajibkan konfirmasi</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Saat memakai Face Unlock di aplikasi, selalu minta langkah konfirmasi</string>
+    <string name="security_settings_face_settings_use_face_category">Gunakan Face Unlock untuk</string>
+</resources>

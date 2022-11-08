@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Дозволите откључавање лицем</string>
+    <string name="security_settings_face_enroll_dialog_ok">У реду</string>
+    <string name="security_settings_face_enroll_done">Готово</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Ако је откључавање лицем са функцијом приступачности искључено, неки кораци за подешавање можда неће исправно радити са TalkBack-ом.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Назад</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Наставите подешавање</string>
+    <string name="security_settings_face_enroll_education_message">На следећем екрану ротирајте главу да бисте снимили све углове лица</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">На следећем екрану држите телефон у висини очију</string>
+    <string name="security_settings_face_enroll_education_start">Започните</string>
+    <string name="security_settings_face_enroll_education_title">Како да подесите откључавање лицем</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Подесите откључавање лицем</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Потврдите идентитет лицем</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Прескочи</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Регистрација није завршена</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Регистровање лица није успело.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Достигнуто је ограничење времена за регистровање лица. Пробајте поново.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Време за подешавање откључавања лицем је истекло</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Сада можете да користите лице за откључавање телефона или потврду идентитета, на пример, кад се пријављујете у апликације или одобравате куповину</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Сада можете да откључате телефон помоћу лица када га узмете или додирнете екран.
+
+Откључавање лицем најбоље ради када има довољно светла и не носите маску или тамне наочаре."</string>
+    <string name="security_settings_face_enroll_finish_title">Одлично!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Избришите актуелни модел лица да бисте поново подесили откључавање лицем.
+
+Модел лица ће бити трајно и безбедно избрисан.
+
+После брисања требаће вам PIN, шаблон или лозинка да бисте откључали телефон или за потврду идентитета у апликацијама."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Избришите актуелни модел лица да бисте поново подесили откључавање лицем.
+
+Модел лица ће бити трајно и безбедно избрисан.
+
+После брисања требаће вам отисак прста, PIN, шаблон или лозинка да бисте откључали телефон или за потврду идентитета у апликацијама."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Подесите откључавање лицем</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Ограничен вид или покрети главом</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Када користите откључавање лицем, глава треба да буде директно испред телефона.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Очи треба да буду отворене</string>
+    <string name="security_settings_face_enroll_introduction_agree">Прихватам</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Откажи</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Коришћење лица детета за откључавање телефона може да буде мање безбедно од јаког шаблона или PIN-а.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Дозволите детету да користи откључавање телефона лицем</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Ви и дете можете да избришете модел лица или да искључите откључавање лицем у било ком тренутку у Подешавањима. Модели лица се чувају на телефону док их не избришете.
+
+Сазнајте више на g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">Ви и дете имате контролу</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"Можете да избришете модел лица или да искључите откључавање лицем у било ком тренутку у Подешавањима. Модели лица се чувају на телефону док их не избришете.
+
+Сазнајте више на g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Ви имате контролу</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Откључавање лицем прави јединствени модел дететовог лица ради потврде идентитета. Да би направило овај модел лица током подешавања, дете треба да слика лице из различитих углова.
+
+Када дете користи откључавање лицем, слике се користе за ажурирање модела лица. Слике које се користе за прављење модела лица се не чувају, али се модел лица безбедно чува на телефону и остаје само на њему. Цео процес обраде се безбедно одвија на телефону."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Откључавање лицем прави јединствени модел вашег лица ради потврде идентитета. Да бисте направили тај модел лица током подешавања, треба да сликате лице из различитих углова.
+
+Када користите откључавање лицем, слике се користе за ажурирање модела лица. Слике које се користе за прављење модела лица се не чувају, али се модел лица безбедно чува на телефону и остаје само на њему. Цео процес обраде се безбедно одвија на телефону."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Принцип рада</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Откључавање лицем ће можда захтевати да очи детета буду отворене да би се телефон откључао или ради потврде дететовог идентитета. Ви и ваше дете у било ком тренутку можете да укључите ову опцију у Подешавањима.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ако дете обично носи наочаре, може да их носи током подешавања.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Коришћење лица детета за откључавање телефона може да буде мање безбедно од јаког шаблона, PIN-а или лозинке</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Ако погледа телефон, може и нехотице да га откључа. Телефон може да откључа и неко ко много личи на дете, попут идентичног близанца, или ако га неко приближи лицу детета.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Откључавање лицем ће можда захтевати да вам очи буду отворене да би се телефон откључао или ради потврде вашег идентитета. У било ком тренутку можете да укључите ову опцију у Подешавањима.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Наочаре за вид или сунце са благом нијансом су у реду.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Коришћење лица за откључавање телефона може да буде мање безбедно него јак шаблон, PIN или лозинка</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Ако погледате телефон, можете и нехотице да га откључате. Телефон може да откључа и неко ко много личи на вас, попут идентичног близанца, или ко га приближи вашем лицу.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Имајте на уму</string>
+    <string name="security_settings_face_enroll_introduction_message">Користите лице да бисте откључавали телефон или потврђивали идентитет, на пример, када се пријављујете у апликације или одобравате куповину.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Откључавајте телефон, одобравајте куповине или се пријављујте у апликације помоћу лица</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Откључавајте телефон или одобравајте куповине помоћу лица.
+
+Напомена: Не можете да откључавате овај уређај помоћу лица. Више информација затражите од администратора организације."</string>
+    <string name="security_settings_face_enroll_introduction_more">Још</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Не, хвала</string>
+    <string name="security_settings_face_enroll_introduction_title">Подесите откључавање лицем</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Потврдите идентитет лицем</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Побољшајте безбедност и учинак</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Поново подесите откључавање лицем</string>
+    <string name="security_settings_face_enroll_next">Даље</string>
+    <string name="security_settings_face_enroll_partial_message">Да бисте побољшали учинак, можете поново да подесите откључавање лицем у Подешавањима</string>
+    <string name="security_settings_face_enroll_partial_start_over">Почни поново</string>
+    <string name="security_settings_face_enroll_partial_title">Подешавање откључавања лицем је завршено</string>
+    <string name="security_settings_face_enroll_repeat_title">Поставите лице у центар круга</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Поново подесите откључавање лицем</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Побољшајте учинак откључавања лицем</string>
+    <string name="security_settings_face_enroll_timeout_message">"Испробајте брзо подешавање. Не заборавите да директно поставите главу испред телефона када користите откључавање лицем.
+
+Да бисте побољшали учинак, можете поново да подесите откључавање лицем у Подешавањима."</string>
+    <string name="security_settings_face_enroll_timeout_title">Подешавање не може да се настави</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Пробај поново</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Користи брзо подешавање</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Затвори подешавање</string>
+    <string name="security_settings_face_enroll_too_hot_message">Подешавање откључавања лицем не може да се доврши јер је телефон превише загрејан. Пробајте поново касније када се телефон охлади.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Прескочи откључавање лицем</string>
+    <string name="security_settings_face_enroll_too_hot_title">Телефон је превише загрејан</string>
+    <string name="security_settings_face_preference_summary">Лице је додато</string>
+    <string name="security_settings_face_preference_summary_none">Додирните да бисте подесили лице</string>
+    <string name="security_settings_face_preference_title">Откључавање лицем</string>
+    <string name="security_settings_face_profile_preference_title">Откључавање лицем за посао</string>
+    <string name="security_settings_face_settings_context_subtitle">Откључајте телефон лицем</string>
+    <string name="security_settings_face_settings_enroll">Подеси откључавање лицем</string>
+    <string name="security_settings_face_settings_footer">"Користите лице за откључавање телефона или потврду идентитета у апликацијама, на пример, кад се пријављујете или одобравате куповину.
+Имајте на уму:
+
+У једном тренутку можете да имате подешено само једно лице. Да бисте додали лице, избришите актуелно.
+
+Ако погледате телефон, можете нехотице да га откључате.
+
+Телефон може да откључа неко други ако га приближи вашем лицу.
+
+Телефон може да откључа неко ко много личи на вас, на пример, идентични близанац."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Користите лице за откључавање телефона или потврду идентитета у апликацијама, на пример, кад се пријављујете или одобравате куповину.
+Имајте на уму:
+
+У једном тренутку можете да имате подешено само једно лице. Да бисте додали лице, избришите актуелно.
+
+Ако погледате телефон, можете нехотице да га откључате.
+
+Телефон може да откључа неко други ако га приближи вашем лицу, чак и ако су вам очи затворене.
+
+Телефон може да откључа неко ко много личи на вас, на пример, идентични близанац."</string>
+    <string name="security_settings_face_settings_preferences_category">Када користите откључавање лицем</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Модел лица ће се трајно и безбедно избрисати.
+
+После брисања вам треба PIN, шаблон или лозинка да бисте откључали телефон или за потврду идентитета у апликацијама."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Модел лица ће бити трајно и безбедно избрисан.
+
+После брисања вам треба PIN, шаблон или лозинка да бисте откључали телефон."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Желите да избришете модел лица?</string>
+    <string name="security_settings_face_settings_remove_face_model">Избриши модел лица</string>
+    <string name="security_settings_face_settings_require_attention">Очи морају да буду отворене</string>
+    <string name="security_settings_face_settings_require_attention_details">Да бисте откључали телефон, очи морају да буду отворене</string>
+    <string name="security_settings_face_settings_require_confirmation">Увек тражи потврду</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Увек захтевај потврду при коришћењу откључавања лицем у апликацијама</string>
+    <string name="security_settings_face_settings_use_face_category">Користи откључавање лицем:</string>
+</resources>

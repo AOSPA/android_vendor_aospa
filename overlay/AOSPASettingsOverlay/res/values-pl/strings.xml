@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">Zezwól na rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_dialog_ok">OK</string>
+    <string name="security_settings_face_enroll_done">OK</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">Jeśli rozpoznawanie twarzy w ułatwieniach dostępu jest wyłączone, niektóre kroki konfiguracji mogą nie działać prawidłowo w przypadku TalkBack.</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">Wstecz</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">Kontynuuj</string>
+    <string name="security_settings_face_enroll_education_message">Na następnym ekranie obracaj głowę tak, by zarejestrować obraz twarzy pod wszystkimi kątami</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">Na następnym ekranie przytrzymaj telefon na wysokości oczu</string>
+    <string name="security_settings_face_enroll_education_start">Rozpocznij</string>
+    <string name="security_settings_face_enroll_education_title">Konfigurowanie rozpoznawania twarzy</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Skonfiguruj rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">Użyj własnej twarzy do uwierzytelniania</string>
+    <string name="security_settings_face_enroll_enrolling_skip">Pomiń</string>
+    <string name="security_settings_face_enroll_error_dialog_title">Nie ukończono rejestracji</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">Nie udało się zarejestrować twarzy.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">Osiągnięto limit czasu rejestracji twarzy. Spróbuj ponownie.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Przekroczono limit czasu konfiguracji rozpoznawania twarzy</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Możesz teraz używać rozpoznawania twarzy do odblokowywania telefonu oraz weryfikacji tożsamości, na przykład podczas logowania się w aplikacjach i zatwierdzania zakupów</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"Możesz teraz odblokować telefon przy użyciu modelu twarzy, gdy go podniesiesz lub klikniesz jego ekran.
+
+Rozpoznawanie twarzy działa najlepiej w dobrze oświetlonych miejscach i gdy nie masz na sobie maseczki ani ciemnych okularów."</string>
+    <string name="security_settings_face_enroll_finish_title">W porządku</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"Usuń bieżący model twarzy, aby ponownie skonfigurować rozpoznawanie twarzy.
+
+Model twarzy zostanie trwale i bezpiecznie usunięty.
+
+Po usunięciu tych danych będziesz potrzebować kodu PIN, wzoru lub hasła do odblokowywania telefonu i uwierzytelniania w aplikacjach."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"Usuń bieżący model twarzy, aby ponownie skonfigurować rozpoznawanie twarzy.
+
+Model twarzy zostanie trwale i bezpiecznie usunięty.
+
+Po usunięciu tych danych będziesz potrzebować odcisku palca, kodu PIN, wzoru lub hasła do odblokowywania telefonu i uwierzytelniania w aplikacjach."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">Skonfiguruj rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">Konfiguracja przy ograniczeniach widzenia lub ruchomości głowy</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Podczas używania funkcji rozpoznawania twarzy może być konieczne ustawienie głowy bardziej na wprost telefonu.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Wymaga otwartych oczu</string>
+    <string name="security_settings_face_enroll_introduction_agree">Zgadzam się</string>
+    <string name="security_settings_face_enroll_introduction_cancel">Anuluj</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">Odblokowywanie telefonu dziecka skanem jego twarzy może być mniej bezpieczne niż trudny wzór czy kod PIN.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">Zezwalaj na odblokowywanie telefonu przez dziecko za pomocą rozpoznawania twarzy</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"Ty i Twoje dziecko w dowolnej chwili możecie usunąć model twarzy i wyłączyć rozpoznawanie twarzy w Ustawieniach. Modele twarzy są przechowywane na telefonie, dopóki nie zostaną usunięte.
+
+Więcej informacji znajdziesz na stronie g.co/pixel/faceunlock."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">To Ty i Twoje dziecko macie nad wszystkim kontrolę</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"W dowolnej chwili możesz usunąć model twarzy i wyłączyć rozpoznawanie twarzy w ustawieniach. Modele twarzy są przechowywane na telefonie, dopóki ich nie usuniesz.
+
+Więcej informacji znajdziesz na stronie g.co/pixel/faceunlock"</string>
+    <string name="security_settings_face_enroll_introduction_control_title">Masz wszystko pod kontrolą</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"Rozpoznawanie twarzy tworzy unikalny model twarzy Twojego dziecka, na podstawie którego rozpoznaje je podczas weryfikacji tożsamości. Aby utworzyć taki model podczas konfiguracji, Twoje dziecko musi zrobić zdjęcia twarzy pod różnymi kątami.
+
+Telefon będzie też wykorzystywać obrazy z jego interakcji z rozpoznawaniem twarzy do aktualizowania modelu. Obrazy użyte do utworzenia modelu twarzy nie są zapisywane, a sam model jest bezpiecznie przechowywany na telefonie i nigdy go nie opuszcza. Przetwarzanie danych odbywa się w całości na telefonie w bezpieczny sposób."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"Rozpoznawanie twarzy tworzy unikalny model Twojej twarzy, na podstawie którego rozpoznaje Cię podczas weryfikacji tożsamości. Aby utworzyć taki model podczas konfiguracji, musisz zrobić zdjęcia twarzy pod różnymi kątami.
+
+Telefon będzie też wykorzystywać obrazy z Twoich interakcji z rozpoznawaniem twarzy do aktualizowania modelu. Obrazy użyte do utworzenia modelu twarzy nie są zapisywane, a sam model jest bezpiecznie przechowywany na telefonie i nigdy go nie opuszcza. Przetwarzanie danych odbywa się w całości na telefonie w bezpieczny sposób."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">Jak to działa</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">Odblokowywanie telefonu dziecka oraz potwierdzanie jego tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. Ty i Twoje dziecko w dowolnej chwili możecie włączyć tę opcję w Ustawieniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">Jeśli Twoje dziecko zwykle nosi okulary, może mieć je na sobie podczas konfiguracji.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">Odblokowywanie telefonu dziecka skanem jego twarzy może być mniej bezpieczne niż trudny wzór, kod PIN czy hasło</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">Patrząc na telefon, dziecko może go niechcący odblokować. Telefon mogą również odblokować osoby podobne do dziecka, np. jego rodzeństwo, a także ktoś, kto zbliży telefon do twarzy dziecka.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">Odblokowywanie telefonu oraz potwierdzanie tożsamości przez rozpoznawanie twarzy może wymagać otwartych oczu. W dowolnej chwili możesz włączyć tę opcję w Ustawieniach.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Możesz mieć okulary, nawet niezbyt ciemne okulary przeciwsłoneczne.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">Korzystanie z rozpoznawania twarzy do odblokowywania telefonu może być mniej bezpieczne niż skomplikowany wzór, mocne hasło lub kod PIN.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">Patrząc na telefon, możesz go niechcący odblokować. Telefon mogą również odblokować osoby podobne do Ciebie, np. Twoje rodzeństwo, jeśli zbliżą go do twarzy.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Pamiętaj</string>
+    <string name="security_settings_face_enroll_introduction_message">Używaj rozpoznawania twarzy do odblokowywania telefonu i potwierdzania tożsamości, na przykład podczas logowania się w aplikacjach lub zatwierdzania zakupów.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">Używaj rozpoznawania twarzy do odblokowywania telefonu, autoryzowania zakupów i logowania się w aplikacjach</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"Odblokowuj telefon i zatwierdzaj zakupy za pomocą funkcji rozpoznawania twarzy.
+
+Uwaga: nie możesz odblokowywać tego urządzenia za pomocą funkcji rozpoznawania twarzy. Więcej informacji uzyskasz od administratora swojej organizacji."</string>
+    <string name="security_settings_face_enroll_introduction_more">Więcej</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">Nie, dziękuję</string>
+    <string name="security_settings_face_enroll_introduction_title">Skonfiguruj rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">Użyj własnej twarzy do uwierzytelniania</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">Popraw bezpieczeństwo i wydajność</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">Skonfiguruj ponownie rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_next">Dalej</string>
+    <string name="security_settings_face_enroll_partial_message">Aby rozpoznawanie twarzy działało lepiej, możesz skonfigurować je jeszcze raz w Ustawieniach</string>
+    <string name="security_settings_face_enroll_partial_start_over">Zacznij od początku</string>
+    <string name="security_settings_face_enroll_partial_title">Ukończono konfigurację rozpoznawania twarzy</string>
+    <string name="security_settings_face_enroll_repeat_title">Ustaw twarz w środku okręgu</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">Skonfiguruj ponownie rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">Popraw działanie rozpoznawania twarzy</string>
+    <string name="security_settings_face_enroll_timeout_message">"Spróbuj użyć szybkiej konfiguracji. Pamiętaj, że podczas rozpoznawania telefon należy trzymać dokładnie przed twarzą.
+
+Aby poprawić szybkość działania, możesz skonfigurować rozpoznawanie twarzy jeszcze raz w Ustawieniach."</string>
+    <string name="security_settings_face_enroll_timeout_title">Nie można kontynuować konfiguracji</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Spróbuj ponownie</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Włącz szybką konfigurację</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Zakończ konfigurację</string>
+    <string name="security_settings_face_enroll_too_hot_message">Nie można dokończyć konfiguracji rozpoznawania twarzy, ponieważ telefon jest zbyt gorący. Spróbuj ponownie później, gdy telefon ostygnie.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Pomiń rozpoznawanie twarzy</string>
+    <string name="security_settings_face_enroll_too_hot_title">Telefon jest zbyt gorący</string>
+    <string name="security_settings_face_preference_summary">Dodano twarz</string>
+    <string name="security_settings_face_preference_summary_none">Kliknij, aby skonfigurować rozpoznawanie twarzy</string>
+    <string name="security_settings_face_preference_title">Rozpoznawanie twarzy</string>
+    <string name="security_settings_face_profile_preference_title">Rozpoznawanie twarzy w profilu służbowym</string>
+    <string name="security_settings_face_settings_context_subtitle">Używaj rozpoznawania twarzy do odblokowywania telefonu</string>
+    <string name="security_settings_face_settings_enroll">Skonfiguruj rozpoznawanie twarzy</string>
+    <string name="security_settings_face_settings_footer">"Używaj rozpoznawania twarzy do odblokowywania telefonu i uwierzytelniania w aplikacjach, na przykład podczas logowania lub zatwierdzania zakupów.
+
+Pamiętaj:
+Nie można mieć kilku skonfigurowanych modeli twarzy jednocześnie. Jeśli chcesz dodać inny model twarzy, usuń bieżący.
+
+Patrząc na telefon, możesz go przypadkowo odblokować.
+
+Inna osoba może odblokować Twój telefon, zbliżając go do Twojej twarzy.
+
+Istnieje możliwość, że ktoś bardzo podobny do Ciebie (np. rodzeństwo), odblokuje Twój telefon."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"Używaj rozpoznawania twarzy do odblokowywania telefonu i uwierzytelniania w aplikacjach, na przykład podczas logowania lub zatwierdzania zakupów.
+
+Pamiętaj:
+Nie można mieć kilku skonfigurowanych modeli twarzy jednocześnie. Jeśli chcesz dodać inny model twarzy, usuń bieżący.
+
+Patrząc na telefon, możesz go przypadkowo odblokować.
+
+Inna osoba może odblokować Twój telefon, zbliżając go do Twojej twarzy (nawet przy zamkniętych oczach).
+
+Istnieje możliwość, że ktoś bardzo podobny do Ciebie (np. rodzeństwo), odblokuje Twój telefon."</string>
+    <string name="security_settings_face_settings_preferences_category">W przypadku rozpoznawania twarzy</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"Model twarzy zostanie trwale i w bezpieczny sposób usunięty.
+
+Po usunięciu tych danych do odblokowywania telefonu i uwierzytelniania się w aplikacjach trzeba będzie używać kodu PIN, wzoru lub hasła."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"Model twarzy zostanie trwale i bezpiecznie usunięty.
+
+Po usunięciu tych danych będziesz potrzebować kodu PIN, wzoru lub hasła do odblokowywania telefonu."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">Usunąć model twarzy?</string>
+    <string name="security_settings_face_settings_remove_face_model">Usuń model twarzy</string>
+    <string name="security_settings_face_settings_require_attention">Wymagaj otwartych oczu</string>
+    <string name="security_settings_face_settings_require_attention_details">Aby odblokować telefon, musisz mieć otwarte oczy</string>
+    <string name="security_settings_face_settings_require_confirmation">Zawsze wymagaj potwierdzenia</string>
+    <string name="security_settings_face_settings_require_confirmation_details">Zawsze wymagaj potwierdzenia, gdy używasz rozpoznawania twarzy w aplikacjach</string>
+    <string name="security_settings_face_settings_use_face_category">Używaj rozpoznawania twarzy do tych celów</string>
+</resources>

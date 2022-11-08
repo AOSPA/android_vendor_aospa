@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_consent_introduction_title">முகம் காட்டித் திறத்தல் அம்சத்தை அனுமதித்தல்</string>
+    <string name="security_settings_face_enroll_dialog_ok">சரி</string>
+    <string name="security_settings_face_enroll_done">முடிந்தது</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_message">"'முகம் காட்டித் திறத்தல்' அணுகல்தன்மை முடக்கப்பட்டிருந்தால், அமைவிற்கான சில படிகள் TalkBackகில் சரியாகச் செயல்படாமல் போகலாம்."</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_negative">பின்செல்</string>
+    <string name="security_settings_face_enroll_education_accessibility_dialog_positive">அமைவைத் தொடர்க</string>
+    <string name="security_settings_face_enroll_education_message">அடுத்த திரையில் உங்கள் முகத்தை அனைத்துக் கோணங்களிலும் படமெடுக்க தலையை மெதுவாகத் திருப்பவும்</string>
+    <string name="security_settings_face_enroll_education_message_accessibility">அடுத்த திரையில், மொபைலைக் கண்களுக்கு நேராகப் பிடிக்கவும்</string>
+    <string name="security_settings_face_enroll_education_start">தொடங்கு</string>
+    <string name="security_settings_face_enroll_education_title">முகம் காட்டித் திறத்தல் அம்சத்தை எப்படி அமைப்பது?</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">"'முகம் காட்டித் திறத்தல்' அம்சத்தை அமைத்தல்"</string>
+    <string name="security_settings_face_enroll_education_title_unlock_disabled">அங்கீகரிக்க, முகத்தைப் பயன்படுத்தலாம்</string>
+    <string name="security_settings_face_enroll_enrolling_skip">தவிர்</string>
+    <string name="security_settings_face_enroll_error_dialog_title">பதிவுசெய்தல் நிறைவடையவில்லை</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message">முகத்தைப் பதிவுசெய்ய இயலவில்லை.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_message">முகத்தைப் பதிவுசெய்தலுக்கான நேர வரம்பை அடைந்துவிட்டீர்கள். மீண்டும் முயல்க.</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">"'முகம் காட்டி திறத்தல்' அமைவுக்கான நேரம் முடிந்தது"</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">மொபைலை அன்லாக் செய்வதற்கும் உள்நுழைவது நீங்கள்தான் என்பதை உறுதிப்படுத்துவதற்கும் (உதாரணமாக, ஆப்ஸில் உள்நுழைதல், பர்ச்சேஸ்களை அங்கீகரித்தல்) இனி உங்கள் முகத்தைப் பயன்படுத்தலாம்</string>
+    <string name="security_settings_face_enroll_finish_description_without_bp">"இப்போது, மொபைலைக் கையில் எடுக்கும்போதோ திரையைத் தட்டும்போதோ முகத்தைக் காட்டி அன்லாக் செய்யலாம்.
+
+மாஸ்க்கோ அடர் நிறக் கண்ணாடியோ அணியாமல் போதுமான வெளிச்சத்தில் இருந்தால் முகம் காட்டித் திறத்தல் அம்சம் சிறப்பாகச் செயல்படும்."</string>
+    <string name="security_settings_face_enroll_finish_title">அற்புதம்!</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">"'முகம் காட்டித் திறத்தல்' அம்சத்தை மீண்டும் அமைக்க, தற்போதைய முகத் தோற்றப் பதிவை நீக்கவும்.
+
+முகத் தோற்றப் பதிவு நிரந்தரமாகவும் பாதுகாப்பாகவும் நீக்கப்படும்.
+
+அவ்வாறு நீக்கப்பட்ட பிறகு, மொபைலை அன்லாக் செய்வதற்கோ ஆப்ஸில் அங்கீகரிக்கப்படுவதற்கோ உங்கள் பின், பேட்டர்ன் அல்லது கடவுச்சொல் தேவைப்படும்."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">"'முகம் காட்டித் திறத்தல்' அம்சத்தை மீண்டும் அமைக்க, தற்போதைய முகத் தோற்றப் பதிவை நீக்கவும்.
+
+முகத் தோற்றப் பதிவு நிரந்தரமாகவும் பாதுகாப்பாகவும் நீக்கப்படும்.
+
+அவ்வாறு நீக்கப்பட்ட பிறகு, மொபைலை அன்லாக் செய்வதற்கோ ஆப்ஸில் அங்கீகரிக்கப்படுவதற்கோ உங்கள் கைரேகை, பின், பேட்டர்ன் அல்லது கடவுச்சொல் தேவைப்படும்."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_title">"'முகம் காட்டித் திறத்தல்' அம்சத்தை அமைத்தல்"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">பார்வைக் குறைபாடு/தலையை அசைக்க இயலாமைக்கு ஏற்ப அமை</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">முகம் காட்டித் திறத்தல் அம்சத்தைப் பயன்படுத்தும்போது உங்கள் முகத்தை மொபைலுக்கு முன் நேராக வைத்திருக்க வேண்டும்.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">கண்கள் திறந்திருக்க வேண்டும்</string>
+    <string name="security_settings_face_enroll_introduction_agree">ஏற்கிறேன்</string>
+    <string name="security_settings_face_enroll_introduction_cancel">ரத்துசெய்</string>
+    <string name="security_settings_face_enroll_introduction_consent_message">உங்கள் பிள்ளையின் முகத்தைப் பயன்படுத்தி அவர்களின் மொபைலை அன்லாக் செய்வது வலுவான பேட்டர்னையோ பின்னையோ பயன்படுத்துவதைவிட பாதுகாப்பு குறைவானதாக இருக்கலாம்.</string>
+    <string name="security_settings_face_enroll_introduction_consent_message_0">உங்கள் பிள்ளை தனது முகத்தைப் பயன்படுத்தி மொபைலை அன்லாக் செய்ய அனுமதிக்கவும்</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message">"அமைப்புகளில் எப்போது வேண்டுமானாலும் நீங்களும் உங்கள் பிள்ளையும் அவரின் முகத் தோற்றப் பதிவுகளை நீக்கலாம், 'முகம் காட்டித் திறத்தல்' அம்சத்தை முடக்கலாம். நீக்கப்படும் வரை முகத் தோற்றப் பதிவுகள் மொபைலிலேயே சேமிக்கப்பட்டிருக்கும்.
+
+மேலும் அறிய g.co/pixel/faceunlock என்ற இணைப்பிற்குச் செல்லுங்கள்."</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title">நீங்களும் உங்கள் பிள்ளையும் கட்டுப்பாட்டைக் கொண்டிருப்பீர்கள்</string>
+    <string name="security_settings_face_enroll_introduction_control_message">"அமைப்புகளில் எப்போது வேண்டுமானாலும் முகத் தோற்றப் பதிவை நீக்கலாம், முகம் காட்டித் திறத்தல் அம்சத்தை முடக்கலாம். முகத் தோற்றப் பதிவுகளை நீக்கும் வரை அவை மொபைலிலேயே சேமிக்கப்பட்டிருக்கும்.
+
+மேலும் அறிய g.co/pixel/faceunlock என்ற இணைப்பிற்குச் செல்லுங்கள்."</string>
+    <string name="security_settings_face_enroll_introduction_control_title">முழுமையான கட்டுப்பாட்டைப் பெற்றுள்ளீர்கள்</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message">"உங்கள் பிள்ளைதான் என்பதை உறுதிப்படுத்த, முகம் காட்டித் திறத்தல் அம்சமானது அவரின் தனித்துவமான முகத் தோற்றப் பதிவை உருவாக்கிடும். அமைவின்போது இந்த முகத் தோற்றப் பதிவை உருவாக்க, அவர் தனது முகத்தை வெவ்வேறு கோணங்களில் படமெடுப்பார்.
+
+முகம் காட்டித் திறத்தல் அம்சத்தைப் பயன்படுத்தும்போது அவரின் முகத் தோற்றப் பதிவைப் புதுப்பிக்க படங்கள் பயன்படுத்தப்படும். முகத் தோற்றப் பதிவை உருவாக்கப் பயன்படுத்தப்படும் படங்கள் சேமிக்கப்படாது. ஆனால் முகத் தோற்றப் பதிவு உங்கள் மொபைலில் பாதுகாப்பாகச் சேமிக்கப்படும், அது யாருடனும் பகிரப்படாது. அனைத்துச் செயலாக்கங்களும் மொபைலில் பாதுகாப்பாக நடைபெறும்."</string>
+    <string name="security_settings_face_enroll_introduction_how_message">"நீங்கள்தான் என்பதை உறுதிப்படுத்த, முகம் காட்டித் திறத்தல் அம்சமானது உங்கள் முகத்தின் தனித்துவமான பதிவை உருவாக்கிடும். அமைவின்போது இந்த முகத் தோற்றப் பதிவை உருவாக்க, பல்வேறு கோணங்களில் உங்கள் முகத்தைப் படமெடுப்பீர்கள்.
+
+முகம் காட்டித் திறத்தல் அம்சத்தைப் பயன்படுத்தும்போது முகத் தோற்றப் பதிவைப் புதுப்பிக்க படங்கள் பயன்படுத்தப்படும். முகத் தோற்றப் பதிவை உருவாக்கப் பயன்படுத்தப்படும் படங்கள் சேமிக்கப்படாது. ஆனால் முகத் தோற்றப் பதிவு உங்கள் மொபைலில் பாதுகாப்பாகச் சேமிக்கப்படும், அது யாருடனும் பகிரப்படாது. அனைத்துச் செயலாக்கங்களும் உங்கள் மொபைலில் பாதுகாப்பாக நடைபெறும்."</string>
+    <string name="security_settings_face_enroll_introduction_how_title">இது எவ்வாறு வேலை செய்கிறது?</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze">முகம் காட்டித் திறத்தல் அம்சம் மூலம் மொபைலை அன்லாக் செய்யவோ உங்கள் பிள்ளையின் அடையாளத்தைச் சரிபார்க்கவோ அவரின் கண்கள் திறந்திருக்க வேண்டியது அவசியம். அமைப்புகளுக்குச் சென்று எப்போது வேண்டுமானாலும் நீங்களும் உங்கள் பிள்ளையும் இந்த விருப்பத்தை இயக்கலாம்.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses">உங்கள் பிள்ளை வழக்கமாகக் கண்ணாடி அணிபவராக இருந்தால் அமைவின்போது அதை அணிந்துகொள்ளலாம்.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure">உங்கள் பிள்ளையின் முகத்தைப் பயன்படுத்தி அவர்களின் மொபைலை அன்லாக் செய்வது வலுவான பேட்டர்ன், பின் (PIN) அல்லது கடவுச்சொல்லைப் பயன்படுத்துவதைவிடப் பாதுகாப்பு குறைவானதாக இருக்கலாம்</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking">தற்செயலாக மொபைலைப் பார்க்கும்போதும் அது அன்லாக் ஆகக்கூடும். உங்கள் பிள்ளையின் சாயலில் இருப்பவரும் மொபைலை அன்லாக் செய்யலாம் (உதாரணமாக, ஒரே தோற்றமுடைய உடன்பிறந்தவர்) அல்லது வேறொருவர் உங்கள் பிள்ளையின் முகத்திற்கு நேராக மொபைலைக் காட்டியும் அன்லாக் செய்யலாம்.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze">முகம் காட்டித் திறத்தல் அம்சம் மூலம் மொபைலை அன்லாக் செய்யவோ உங்கள் அடையாளத்தைச் சரிபார்க்கவோ உங்களின் கண்கள் திறந்திருக்க வேண்டியது அவசியம். அமைப்புகளுக்குச் சென்று எப்போது வேண்டுமானாலும் இந்த விருப்பத்தை நீங்கள் இயக்கலாம்.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">கண்கண்ணாடி/மென்னிறமான சன்கிளாஸ் அணிந்திருப்பது பிரச்சனையில்லை</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure">வலுவான பேட்டர்ன், பின், கடவுச்சொல் போன்றவற்றைப் பயன்படுத்துவதைவிட முகத்தைப் பயன்படுத்தி மொபைலை அன்லாக் செய்வது பாதுகாப்பு குறைவானாதாக இருக்கலாம்</string>
+    <string name="security_settings_face_enroll_introduction_info_looking">நீங்கள் தற்செயலாக மொபைலைப் பார்க்கும்போதும் அது அன்லாக் ஆகக்கூடும். உங்கள் சாயலில் இருப்பவராலும் மொபைலை அன்லாக் செய்ய முடியும் (உதாரணமாக, ஒரே தோற்றமுடைய உடன்பிறந்தவர்) அல்லது வேறொருவர் உங்கள் முகத்திற்கு நேராக மொபைலைக் காட்டியும் அன்லாக் செய்யலாம்.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">கவனத்திற்கு</string>
+    <string name="security_settings_face_enroll_introduction_message">உங்கள் முகத்தைப் பயன்படுத்தி மொபைலை அன்லாக் செய்யலாம், நீங்கள்தான் என்பதை உறுதிப்படுத்தலாம் (உதாரணமாக, ஆப்ஸில் உள்நுழைதல், பர்ச்சேஸ்களை அங்கீகரித்தல்).</string>
+    <string name="security_settings_face_enroll_introduction_message_setup">மொபைலை அன்லாக் செய்ய, வாங்குதல்களை அங்கீகரிக்க &amp; ஆப்ஸில் உள்நுழைய, உங்கள் முகத்தைப் பயன்படுத்தலாம்</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">"மொபைலை அன்லாக் செய்யவும் பொருட்கள் வாங்குவதை அங்கீகரிக்கவும் உங்கள் முகத்தைப் பயன்படுத்தவும். 
+
+கவனத்திற்கு: இந்தச் சாதனத்தை அன்லாக் செய்ய உங்கள் முகத்தைப் பயன்படுத்த இயலாது. மேலும் தகவலுக்கு உங்கள் நிறுவனத்தின் நிர்வாகியைத் தொடர்புகொள்ளவும்."</string>
+    <string name="security_settings_face_enroll_introduction_more">மேலும்</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks">வேண்டாம்</string>
+    <string name="security_settings_face_enroll_introduction_title">‘முகம் காட்டித் திறத்தலை’ அமையுங்கள்</string>
+    <string name="security_settings_face_enroll_introduction_title_unlock_disabled">அங்கீகரிக்க, முகத்தைப் பயன்படுத்தலாம்</string>
+    <string name="security_settings_face_enroll_must_re_enroll_subtitle">பாதுகாப்பு &amp; செயல்திறனை மேம்படுத்துங்கள்</string>
+    <string name="security_settings_face_enroll_must_re_enroll_title">முகம் காட்டித் திறத்தலை மீண்டும் அமையுங்கள்</string>
+    <string name="security_settings_face_enroll_next">அடுத்து</string>
+    <string name="security_settings_face_enroll_partial_message">"செயல்திறனை மேம்படுத்த, அமைப்புகளில் 'முகம் காட்டித் திறத்தல்' அம்சத்தை மீண்டும் அமைக்கலாம்"</string>
+    <string name="security_settings_face_enroll_partial_start_over">மீண்டும் தொடங்கு</string>
+    <string name="security_settings_face_enroll_partial_title">"'முகம் காட்டித் திறத்தல்' அமைவு நிறைவடைந்தது"</string>
+    <string name="security_settings_face_enroll_repeat_title">வட்டத்தின் மையத்தில் முகத்தைக் காட்டவும்</string>
+    <string name="security_settings_face_enroll_should_re_enroll_subtitle">முகம் காட்டித் திறத்தலை மீண்டும் அமையுங்கள்</string>
+    <string name="security_settings_face_enroll_should_re_enroll_title">"'முகம் காட்டித் திறத்தலின்' செயல்திறனை அதிகரித்தல்"</string>
+    <string name="security_settings_face_enroll_timeout_message">"இதற்குப் பதிலாக விரைவான அமைவைப் பயன்படுத்திப் பாருங்கள். 'முகம் காட்டித் திறத்தல்' அம்சத்தைப் பயன்படுத்தும்போது உங்கள் முகம் மொபைலுக்கு முன் மிகவும் நேராக இருக்க வேண்டியிருக்கும் என்பதை நினைவில் கொள்ளுங்கள்.
+
+செயல்திறனை மேம்படுத்த, அமைப்புகளில் 'முகம் காட்டித் திறத்தல்' அம்சத்தை மீண்டும் அமைக்கலாம்."</string>
+    <string name="security_settings_face_enroll_timeout_title">அமைவைத் தொடர முடியவில்லை</string>
+    <string name="security_settings_face_enroll_timeout_try_again">மீண்டும் முயல்க</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">விரைவு அமைவைப் பயன்படுத்து</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">அமைவிலிருந்து வெளியேறு</string>
+    <string name="security_settings_face_enroll_too_hot_message">"மொபைல் மிகவும் சூடாக இருப்பதால் 'முகம் காட்டித் திறத்தல்' அம்சத்தை அமைக்க முடியவில்லை. மொபைலின் சூடு குறைந்த பிறகு மீண்டும் முயலவும்."</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">முகம் காட்டித் திறத்தலை தவிர்</string>
+    <string name="security_settings_face_enroll_too_hot_title">மொபைல் மிகவும் சூடாக உள்ளது</string>
+    <string name="security_settings_face_preference_summary">முகம் சேர்க்கப்பட்டது</string>
+    <string name="security_settings_face_preference_summary_none">முகத்தை அமைக்கத் தட்டவும்</string>
+    <string name="security_settings_face_preference_title">முகம் காட்டித் திறத்தல்</string>
+    <string name="security_settings_face_profile_preference_title">"பணிக் கணக்கிற்கான 'முகம் காட்டித் திறத்தல்'"</string>
+    <string name="security_settings_face_settings_context_subtitle">"உங்கள் மொபைலை அன்லாக் செய்ய, 'முகம் காட்டித் திறத்தல்' அம்சத்தைப் பயன்படுத்தலாம்"</string>
+    <string name="security_settings_face_settings_enroll">"'முகம் காட்டித் திறத்தல்' அம்சத்தை அமை"</string>
+    <string name="security_settings_face_settings_footer">"உங்கள் மொபைலைத் திறப்பதற்கோ ஆப்ஸில் உள்நுழைவது, பர்ச்சேஸை அனுமதிப்பது போன்ற தருணங்களில் ஆப்ஸில் அங்கீகரிக்கப்படுவதற்கோ உங்கள் முகத்தைப் பயன்படுத்தலாம்.
+
+நினைவில் கொள்க:
+ஒரு சமயத்தில் ஒரு முகத்தை மட்டுமே அமைக்க முடியும். மற்றொரு முகத்தைச் சேர்க்க தற்போதைய முகத்தை நீக்கவும்.
+
+நீங்கள் தற்செயலாக மொபைலைப் பார்க்கும்போதும் அது அன்லாக் ஆகலாம்.
+
+உங்கள் முகத்திற்கு முன் மொபைலைக் காட்டி வேறொருவர் அதை அன்லாக் செய்ய முடியும்.
+
+உங்களை ஒத்த முகச் சாயலுடைய உடன்பிறந்தவர் போல, பார்ப்பதற்கு உங்களைப் போலவே இருக்கும் எவராலும் உங்கள் மொபைலை அன்லாக் செய்ய முடியும்."</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">"உங்கள் மொபைலைத் திறப்பதற்கோ ஆப்ஸில் உள்நுழைவது, பர்ச்சேஸை அனுமதிப்பது போன்ற தருணங்களில் ஆப்ஸில் அங்கீகரிக்கப்படுவதற்கோ உங்கள் முகத்தைப் பயன்படுத்தலாம்.
+
+நினைவில் கொள்க:
+ஒரு சமயத்தில் ஒரு முகத்தை மட்டுமே அமைக்க முடியும். மற்றொரு முகத்தைச் சேர்க்க தற்போதைய முகத்தை நீக்கவும்.
+
+நீங்கள் தற்செயலாக மொபைலைப் பார்க்கும்போதும் அது அன்லாக் ஆகக்கூடும்.
+
+உங்கள் கண்கள் மூடியிருந்தாலும்கூட உங்கள் முகத்திற்கு முன் மொபைலைக் காட்டி வேறொருவர் அதை அன்லாக் செய்யலாம்.
+
+உங்களை ஒத்த முகச் சாயலுடைய உடன்பிறந்தவர் போல, பார்ப்பதற்கு உங்களைப் போலவே இருக்கும் எவராலும் உங்கள் மொபைலை அன்லாக் செய்ய முடியும்."</string>
+    <string name="security_settings_face_settings_preferences_category">முகம் காட்டித் திறத்தல் அம்சத்தை உபயோகிக்கும்போது</string>
+    <string name="security_settings_face_settings_remove_dialog_details">"உங்கள் முகத் தோற்றப் பதிவு நிரந்தரமாகவும் பாதுகாப்பாகவும் நீக்கப்படும்.
+
+அவ்வாறு நீக்கப்பட்ட பிறகு மொபைலை அன்லாக் செய்வதற்கோ ஆப்ஸில் அங்கீகரிப்பதற்கோ உங்கள் பின், பேட்டர்ன் அல்லது கடவுச்சொல்லைப் பயன்படுத்த வேண்டும்."</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience">"உங்கள் முகத் தோற்றப் பதிவு நிரந்தரமாகவும் பாதுகாப்பாகவும் நீக்கப்படும்.
+
+அவ்வாறு நீக்கப்பட்ட பிறகு மொபைலை அன்லாக் செய்வதற்கு உங்கள் பின், பேட்டர்ன் அல்லது கடவுச்சொல்லைப் பயன்படுத்த வேண்டும்."</string>
+    <string name="security_settings_face_settings_remove_dialog_title">முகத் தோற்றப் பதிவை நீக்கவா?</string>
+    <string name="security_settings_face_settings_remove_face_model">முகத் தோற்றப் பதிவை நீக்கு</string>
+    <string name="security_settings_face_settings_require_attention">கண்கள் திறந்திருக்க வேண்டும்</string>
+    <string name="security_settings_face_settings_require_attention_details">மொபைலை அன்லாக் செய்ய கண்களைத் திறந்த நிலையில் வைத்திருக்கவும்</string>
+    <string name="security_settings_face_settings_require_confirmation">உறுதிப்படுத்தல் எப்போதும் தேவை</string>
+    <string name="security_settings_face_settings_require_confirmation_details">ஆப்ஸை முகம் காட்டித் திறக்கும்போதெல்லாம் உறுதிப்படுத்துதலும் தேவை</string>
+    <string name="security_settings_face_settings_use_face_category">முகம் காட்டித் திறத்தலின் உபயோகம்</string>
+</resources>
