@@ -52,6 +52,24 @@
       "parentUuid": "f5fcfe94_112197ee",
       "revId": "97f147ce4e760ccef3e4d6e6a7578c9527cc5766",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1b7e566_a39646f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-11-09T02:49:00Z",
+      "side": 1,
+      "message": "it\u0027s a jar not an app, ~20KiB at best",
+      "parentUuid": "e3f2f784_3a4c891e",
+      "revId": "97f147ce4e760ccef3e4d6e6a7578c9527cc5766",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
