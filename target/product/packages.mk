@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
 
 # Paranoid Packages
 PRODUCT_PACKAGES += \
-    ParanoidPapers
+    ParanoidPapers \
+    ParanoidThemePicker
 
 # Paranoid Packages (OTA)
 ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
@@ -51,10 +52,6 @@ endif
 
 PRODUCT_PACKAGES += \
     init.aospa-hub.rc
-
-# Paranoid ThemePicker
-PRODUCT_PACKAGES += \
-    ParanoidThemePicker
 
 # Gestures
 PRODUCT_PACKAGES += \
