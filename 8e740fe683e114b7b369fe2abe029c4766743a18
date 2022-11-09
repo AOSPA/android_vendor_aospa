@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e56c23b8_60d8e46a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-11-09T08:40:11Z",
+      "side": 1,
+      "message": "that was my patch for alioth \u003e:(",
+      "revId": "8e740fe683e114b7b369fe2abe029c4766743a18",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
