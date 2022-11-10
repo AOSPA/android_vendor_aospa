@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbecb996_8cc01b4e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-11-10T23:13:22Z",
+      "side": 1,
+      "message": "fixes device integrity in play integrity and Netflix appears now",
+      "revId": "6453da7dff193683dc3ecdc58878a6c4bf9d0ede",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
