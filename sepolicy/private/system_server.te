@@ -7,6 +7,10 @@ allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
 allow system_server pocket_service:service_manager { add find };
 
+# Reset Signatures
+get_prop(system_server, reset_signatures_prop)
+set_prop(system_server, reset_signatures_prop)
+
 # Set tethering properties
 set_prop(system_server, device_config_tethering_prop)
 
