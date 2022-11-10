@@ -1,0 +1,2 @@
+# Reset Signatures
+ro.persist.sys.signatures.reset             u:object_r:reset_signatures_prop:s0
