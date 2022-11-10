@@ -33,6 +33,24 @@
       "message": "if you\u0027re free, check SN (and PI) since itll be a bit before i can",
       "revId": "f1bc6fc96baaea30101c0e5984b90886b2a8023b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f1581c3_789f978a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2022-11-10T01:40:13Z",
+      "side": 1,
+      "message": "Tested on Lmi, SafetyNet Pass.",
+      "parentUuid": "ff599103_fae86e73",
+      "revId": "f1bc6fc96baaea30101c0e5984b90886b2a8023b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
