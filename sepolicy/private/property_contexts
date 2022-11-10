@@ -1,2 +1,5 @@
+# Reset Signatures
+ro.persist.sys.signatures.reset         u:object_r:reset_signatures_prop:s0
+
 # Tethering
 persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
