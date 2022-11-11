@@ -1,2 +1,5 @@
 # AOSPA app_overrides
 apps/*
+
+# AOSPA Prebuilts
+prebuilt/
