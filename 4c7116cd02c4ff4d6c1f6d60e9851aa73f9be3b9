@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e7c5086_a4788957",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-11-11T08:06:41Z",
+      "side": 1,
+      "message": "Abstruct does not appear in app drawer without this.",
+      "revId": "4c7116cd02c4ff4d6c1f6d60e9851aa73f9be3b9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
