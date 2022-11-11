@@ -1,2 +1,5 @@
+# Hub
+type hub_app_data_file, file_type, data_file_type;
+
 # Pocket Judge
 type pocket_judge_sysfs, fs_type, sysfs_type;
