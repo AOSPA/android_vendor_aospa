@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40c9692b_9d5cf664",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-11-13T00:47:56Z",
+      "side": 1,
+      "message": "+2 but not verified on Qualcomm.  do not merge until someone with 845 or newer tests.",
+      "revId": "abc4c01c52651db5cb1a8c8093fea5679c212e97",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
