@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb60d7a7_b2221f7c",
+        "filename": "sepolicy/private/file.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2022-11-13T02:19:38Z",
+      "side": 1,
+      "message": "add app_data_file_type",
+      "revId": "332f7ce1c0853da35914d0f9342005f1fb59b454",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
