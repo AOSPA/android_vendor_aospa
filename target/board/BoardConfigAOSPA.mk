@@ -16,8 +16,10 @@
 # and breaks WPA Supplicant compilation.
 DISABLE_EAP_PROXY := true
 
+ifeq ($(call is-board-platform-in-list,$(QCOM_BOARD_PLATFORMS)),true)
 # Include our Qualcomm Board configuration.
 include device/qcom/common/BoardConfigQcom.mk
+endif
 
 # Kernel configuration.
 include vendor/aospa/target/board/BoardConfigKernel.mk
