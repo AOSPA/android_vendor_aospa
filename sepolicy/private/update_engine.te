@@ -1,9 +1,13 @@
-# Allow update_engine to call the callback function provided by updater_app
+allow update_engine self:capability { dac_override dac_read_search sys_rawio };
+
+# Allow update_engine to call the callback function provided by hub_app
 binder_call(update_engine, hub_app)
 
 # Read updates from storage data
 r_dir_file(update_engine, mnt_user_file)
 r_dir_file(update_engine, storage_file)
+
+allow update_engine self:capability { chown fsetid sys_rawio };
 
 # Allow mount and unmount of system partition
 allow update_engine labeledfs:filesystem { mount unmount };
