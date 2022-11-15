@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
