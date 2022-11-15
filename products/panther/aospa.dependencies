@@ -100,5 +100,11 @@
         "repository":   "platform/hardware/broadcom/wlan",
         "target_path":  "hardware/broadcom/wlan",
         "revision":     "refs/tags/android-13.0.0_r13"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_dummy_kernel_headers",
+        "target_path":  "vendor/google/dummy-kernel-headers",
+        "revision":     "topaz"
     }
 ]
