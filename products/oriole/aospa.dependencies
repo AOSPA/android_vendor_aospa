@@ -76,5 +76,17 @@
         "repository":   "platform/hardware/broadcom/wlan",
         "target_path":  "hardware/broadcom/wlan",
         "revision":     "refs/tags/android-13.0.0_r12"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/data-ipa-cfg-mgr_dummy",
+        "target_path":  "vendor/qcom/opensource/data-ipa-cfg-mgr",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/data-ipa-cfg-mgr_legacy_dummy",
+        "target_path":  "vendor/qcom/opensource/data-ipa-cfg-mgr-legacy",
+        "revision":     "topaz-legacy"
     }
 ]
