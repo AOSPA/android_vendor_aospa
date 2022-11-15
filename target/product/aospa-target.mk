@@ -94,6 +94,12 @@ endif
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
      vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml
 
+DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
+     vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml
+
+DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
+     vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
+
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
