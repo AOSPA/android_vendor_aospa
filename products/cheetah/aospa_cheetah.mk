@@ -28,6 +28,9 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 # Resolution for bootanimation
 TARGET_BOOT_ANIMATION_RES := 1440
 
+# Exclude qcom common sepolicy
+TARGET_EXCLUDE_QCOM_SEPOLICY_COMMON_ONLY := true
+
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := cheetah
 PRODUCT_MANUFACTURER := Google
