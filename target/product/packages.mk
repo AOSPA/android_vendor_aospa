@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
     ParanoidSense
 
 # Paranoid Packages (OTA)
-ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
+ifneq ($(filter RELEASE BETA ALPHA,$(AOSPA_BUILDTYPE)),)
 PRODUCT_PACKAGES += ParanoidHub
 endif
 
