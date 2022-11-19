@@ -45,7 +45,7 @@
         "remote":       "aosp",
         "repository":   "platform/external/wpa_supplicant_8",
         "target_path":  "external/wpa_supplicant_8",
-        "revision":     "refs/tags/android-13.0.0_r13"
+        "revision":     "refs/tags/android-13.0.0_r12"
     },
     {
         "remote":       "aosp",
