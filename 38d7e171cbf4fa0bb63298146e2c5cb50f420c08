@@ -16,6 +16,23 @@
       "message": "Device: https://github.com/Aospa-Beryllium/android_device_xiaomi_beryllium\nVendor: https://github.com/Aospa-Beryllium/proprietary_vendor_xiaomi_beryllium\nKernel: https://github.com/Aospa-Beryllium/android_kernel_xiaomi_sdm845",
       "revId": "38d7e171cbf4fa0bb63298146e2c5cb50f420c08",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "854ebaa2_b3cc1e9a",
+        "filename": "products/beryllium/aospa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2022-11-23T18:27:02Z",
+      "side": 1,
+      "message": "AOSPA",
+      "revId": "38d7e171cbf4fa0bb63298146e2c5cb50f420c08",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
