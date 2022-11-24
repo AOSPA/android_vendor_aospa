@@ -33,6 +33,24 @@
       "message": "AOSPA",
       "revId": "38d7e171cbf4fa0bb63298146e2c5cb50f420c08",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99bfe14f_d2d0df4f",
+        "filename": "products/beryllium/aospa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000795
+      },
+      "writtenOn": "2022-11-24T09:47:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "854ebaa2_b3cc1e9a",
+      "revId": "38d7e171cbf4fa0bb63298146e2c5cb50f420c08",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
