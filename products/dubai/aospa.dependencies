@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "aospa-dubai/android_device_motorola_dubai",
+        "target_path":  "device/motorola/dubai",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-dubai/android_kernel_motorola_sm7325",
+        "target_path":  "kernel/msm-5.4",
+        "revision":     "MMI-S1RD32.55-33"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "topaz-SN100X-legacy"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "topaz-SN100X-legacy"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-dubai/proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "topaz"
+    },
+]
