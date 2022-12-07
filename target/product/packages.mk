@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ParanoidThemePicker
 
+# Paranoid SystemUI
+PRODUCT_PACKAGES += \
+    ParanoidSystemUI
+
 # Gestures
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
