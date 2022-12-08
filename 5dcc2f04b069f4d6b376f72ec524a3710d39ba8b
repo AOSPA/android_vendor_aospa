@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "012f8741_aedc6550",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-12-08T02:02:53Z",
+      "side": 1,
+      "message": "close but you need to add to the pinnerservice overlay also.",
+      "revId": "5dcc2f04b069f4d6b376f72ec524a3710d39ba8b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
