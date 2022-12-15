@@ -76,11 +76,5 @@
         "repository":   "proprietary_vendor_oneplus_firmware",
         "target_path":  "vendor/oneplus/firmware",
         "revision":     "topaz"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_oplus_camera",
-        "target_path":  "vendor/oplus/camera",
-        "revision":     "topaz-op9"
     }
 ]
