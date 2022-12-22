@@ -24587,7 +24587,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       profile_id="2"
-      modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
   />
@@ -24676,7 +24675,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       profile_id="2"
-      modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
   />
@@ -24798,7 +24796,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       profile_id="2"
-      modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
   />
@@ -24865,7 +24862,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       profile_id="2"
-      modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
   />
@@ -24923,7 +24919,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       profile_id="2"
-      modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
   />
