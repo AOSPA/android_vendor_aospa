@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebedb7cf_94ebe7e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2022-12-25T01:37:09Z",
+      "side": 1,
+      "message": "https://github.com/realme-sm8250-devs/android_device_realme_sm8250-common/tree/topaz\nhttps://github.com/realme-sm8250-devs/android_device_realme_bladerunner/tree/topaz\nhttps://github.com/realme-sm8250-devs/android_hardware_oplus/tree/topaz\nhttps://github.com/realme-sm8250-devs/android_kernel_realme_sm8250/tree/topaz\nhttps://github.com/realme-sm8250-devs/proprietary_vendor_realme/tree/topaz",
+      "revId": "42f07503dc574a953ca87640d846ccf1a7b6371c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
