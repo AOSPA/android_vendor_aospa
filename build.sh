@@ -19,8 +19,8 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 BUILD_TYPE="userdebug"
 
 function checkExit () {
-    if [ $? -ne 0 ]; then
-        EXIT_CODE=$?
+    EXIT_CODE=$?
+    if [ $EXIT_CODE -ne 0 ]; then
         echo "${CLR_BLD_RED}Build failed!${CLR_RST}"
         echo -e ""
         exit $EXIT_CODE
