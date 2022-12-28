@@ -16,6 +16,24 @@
       "message": "https://github.com/realme-sm8250-devs/android_device_realme_sm8250-common/tree/topaz\nhttps://github.com/realme-sm8250-devs/android_device_realme_bitra/tree/topaz\nhttps://github.com/realme-sm8250-devs/android_hardware_oplus/tree/topaz\nhttps://github.com/realme-sm8250-devs/android_kernel_realme_sm8250/tree/topaz\nhttps://github.com/realme-sm8250-devs/proprietary_vendor_realme/tree/topaz",
       "revId": "c0ec60fad70f42b9ee6ad9347d1e3fe76ed3461e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c697d91_0c7e6721",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2022-12-28T08:45:27Z",
+      "side": 1,
+      "message": "\u003e https://github.com/realme-sm8250-devs/android_device_realme_sm8250-common/tree/topaz\n\u003e https://github.com/realme-sm8250-devs/android_device_realme_bitra/tree/topaz\n\u003e https://github.com/realme-sm8250-devs/android_hardware_oplus/tree/topaz\n\u003e https://github.com/realme-sm8250-devs/android_kernel_realme_sm8250/tree/topaz\n\u003e https://github.com/realme-sm8250-devs/proprietary_vendor_realme/tree/topaz\n\nEverything works fine for now",
+      "parentUuid": "4e004b79_d4f14a90",
+      "revId": "c0ec60fad70f42b9ee6ad9347d1e3fe76ed3461e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
