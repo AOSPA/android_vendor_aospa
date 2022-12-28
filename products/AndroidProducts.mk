@@ -24,6 +24,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
+    $(LOCAL_DIR)/jasmine_sprout/aospa_jasmine_sprout.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
@@ -62,6 +63,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
     aospa_juice-userdebug \
+    aospa_jasmine_sprout-userdebug \
     aospa_lisa-userdebug \
     aospa_lmi-userdebug \
     aospa_lunaa-userdebug \
