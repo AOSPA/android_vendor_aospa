@@ -140,8 +140,6 @@
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
     <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.android.launcher3:co.aospa.glyph</string>
 
-    <!-- Model from a certified device -->
-    <string name="config_certifiedModel" translatable="false">Pixel 6 Pro</string>
 
     <!-- Name of the font family to use in the default lockscreen clock -->
     <string name="config_clockFontFamily" translatable="false">google-sans-clock</string>
