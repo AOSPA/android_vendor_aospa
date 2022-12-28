@@ -22,10 +22,14 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bladerunner_48m/aospa_bladerunner_48m.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
+<<<<<<< PATCH SET (a95118 Let the topaz in jasmine_sprout shine)
+    $(LOCAL_DIR)/jasmine_sprout/aospa_jasmine_sprout.mk \
+=======
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
+>>>>>>> BASE      (226863 products: Add POCO F4/Redmi K40S(munch))
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/mi439/aospa_mi439.mk \
     $(LOCAL_DIR)/miatoll/aospa_miatoll.mk \
@@ -57,10 +61,14 @@ COMMON_LUNCH_CHOICES += \
     aospa_bladerunner_48m-userdebug \
     aospa_bluejay-userdebug \
     aospa_cheetah-userdebug \
+<<<<<<< PATCH SET (a95118 Let the topaz in jasmine_sprout shine)
+    aospa_jasmine_sprout-userdebug \
+=======
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
     aospa_juice-userdebug \
     aospa_lisa-userdebug \
+>>>>>>> BASE      (226863 products: Add POCO F4/Redmi K40S(munch))
     aospa_lmi-userdebug \
     aospa_mi439-userdebug \
     aospa_miatoll-userdebug \
