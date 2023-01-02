@@ -1,2 +1,5 @@
-# lmkd properties
-ro.vendor.lmk.             u:object_r:vendor_lmkd_prop:s0
+# Camera
+ro.com.google.lens.oem_camera_package          u:object_r:camera_config_prop:s0
+
+# LMKD
+ro.vendor.lmk.                                 u:object_r:vendor_lmkd_prop:s0
