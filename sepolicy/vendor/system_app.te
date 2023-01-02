@@ -1,0 +1,3 @@
+dontaudit system_app proc_pagetypeinfo:file r_file_perms
+dontaudit system_app sysfs_zram:dir search;
+dontaudit system_app sysfs_zram:file r_file_perms;
