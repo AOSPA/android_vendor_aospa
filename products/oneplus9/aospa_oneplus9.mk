@@ -39,7 +39,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Display density
-TARGET_SCREEN_DENSITY := 420
-
 endif
