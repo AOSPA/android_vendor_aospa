@@ -63,12 +63,14 @@
         "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "topaz"
+        "revision":     "topaz",
+        "clone-depth":  "1"
     },
     {
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_oneplus_firmware",
         "target_path":  "vendor/oneplus/firmware",
-        "revision":     "topaz"
+        "revision":     "topaz",
+        "clone-depth":  "1"
     }
 ]
