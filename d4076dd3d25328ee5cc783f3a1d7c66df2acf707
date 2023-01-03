@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcdce736_7845e681",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-01-03T22:37:53Z",
+      "side": 1,
+      "message": "vendor/aospa/sepolicy/vendor/system_app.te:3:ERROR \u0027syntax error\u0027 at token \u0027dontaudit\u0027 on line 87330:\ndontaudit system_app sysfs_zram:dir search;\ndontaudit system_app proc_pagetypeinfo:file { getattr open read ioctl lock map watch watch_reads }",
+      "revId": "d4076dd3d25328ee5cc783f3a1d7c66df2acf707",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
