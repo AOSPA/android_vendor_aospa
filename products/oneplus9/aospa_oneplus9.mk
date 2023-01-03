@@ -27,14 +27,17 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 PRODUCT_BRAND := OnePlus
 PRODUCT_DEVICE := oneplus9
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := OnePlus 9
+PRODUCT_MODEL := LE2115
 PRODUCT_NAME := aospa_oneplus9
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_SYSTEM_NAME := OnePlus9
+PRODUCT_SYSTEM_DEVICE := OnePlus9
 
-# Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus9
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080

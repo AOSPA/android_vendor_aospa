@@ -27,12 +27,15 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 PRODUCT_BRAND := OnePlus
 PRODUCT_DEVICE := oneplus9pro
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := OnePlus 9 Pro
+PRODUCT_MODEL := LE2125
 PRODUCT_NAME := aospa_oneplus9pro
 
-# Override device name for Play Store.
+PRODUCT_SYSTEM_NAME := OnePlus9Pro
+PRODUCT_SYSTEM_DEVICE := OnePlus9Pro
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus9Pro
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
