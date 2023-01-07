@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0398342_4da94680",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000481
+      },
+      "writtenOn": "2023-01-07T10:20:13Z",
+      "side": 1,
+      "message": "works, i don\u0027t know if MMS APNs are needed",
+      "revId": "287f853649c1fd4f7b709574c1faea790200fb5a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
