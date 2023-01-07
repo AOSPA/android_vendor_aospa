@@ -4790,19 +4790,8 @@
       password="internet"
       authtype="1"
       type="default,supl,ia*"
-      protocol="IPV6"
+      protocol="IPV4"
       roaming_protocol="IP"
-  />
-  <apn carrier="Orange WAP"
-      mcc="260"
-      mnc="03"
-      apn="wap"
-      user="wap"
-      password="wap"
-      proxy="192.168.006.102"
-      port="8080"
-      type="default,supl,fota,dun"
-      user_editable="0"
   />
   <apn carrier="MMS Orange"
       mcc="260"
@@ -4814,7 +4803,6 @@
       mmsproxy="192.168.006.104"
       mmsport="8080"
       type="mms"
-      user_editable="0"
   />
   <apn carrier="Play Internet"
       mcc="260"
