@@ -1576,7 +1576,30 @@
       apn="truphone.com"
       type="default,supl"
   />
-
+  <apn carrier="Vodafone AL"
+      mcc="276"
+      mnc="02"
+      apn="vodafoneweb"
+      type="default,supl"
+  />
+  <apn carrier="Vodafone AL (2)"
+      mcc="276"
+      mnc="02"
+      apn="Twa"
+      type="default,supl"
+  />
+  <apn carrier="One AL"
+      mcc="276"
+      mnc="01"
+      apn="internet.t"
+      type="default,supl"
+  />
+  <apn carrier="ALBtelecom"
+      mcc="276"
+      mnc="03"
+      apn="internet"
+      type="default,supl"
+  />
   <apn carrier="Telenor MMS"
       mcc="216"
       mnc="01"
