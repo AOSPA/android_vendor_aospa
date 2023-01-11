@@ -1,9 +1,9 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_nothing_phone1",
+        "remote":       "github-ssh",
+        "repository":   "xboxfanj/android_device_nothing_phone1",
         "target_path":  "device/nothing/phone1",
-        "revision":     "topaz"
+        "revision":     "topaz-fabian"
     },
     {
         "remote":       "aospa",
@@ -30,16 +30,16 @@
         "revision":     "topaz-888"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_nothing_sm7325",
+        "remote":       "github-ssh",
+        "repository":   "xboxfanj/android_kernel_nothing_sm7325",
         "target_path":  "kernel/msm-5.4",
-        "revision":     "topaz"
+        "revision":     "topaz-fabian"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_nothing",
+        "remote":       "github-ssh",
+        "repository":   "xboxfanj/proprietary_vendor_nothing",
         "target_path":  "vendor/nothing",
-        "revision":     "topaz",
+        "revision":     "topaz-fabian",
         "clone-depth":  "1"
     },
     {
@@ -57,8 +57,8 @@
         "clone-depth":  "1"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_packages_apps_ParanoidGlyph",
+        "remote":       "github-ssh",
+        "repository":   "33bca/android_packages_apps_ParanoidGlyph",
         "target_path":  "packages/apps/ParanoidGlyph",
         "revision":     "topaz"
     }
