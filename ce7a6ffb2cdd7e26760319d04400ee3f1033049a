@@ -34,6 +34,23 @@
       "parentUuid": "886d638c_c0e97430",
       "revId": "ce7a6ffb2cdd7e26760319d04400ee3f1033049a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee1a0d7d_c927d587",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-01-11T07:14:44Z",
+      "side": 1,
+      "message": "I think our best bet would be to locally commit the QC apns from the previous tag, then commit the new ones, then pick that commit over ours. either way we\u0027re touching existing apns so moving new ones to the bottom probably doesn\u0027t solve that much. it could mean more conflicts.",
+      "revId": "ce7a6ffb2cdd7e26760319d04400ee3f1033049a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
