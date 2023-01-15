@@ -1,13 +1,14 @@
 [
     {
-        "remote":       "github",
+        "remote":       "aospa",
         "repository":   "AOSPA/android_device_xiaomi_miatoll",
         "target_path":  "device/xiaomi/miatoll",
         "revision":     "topaz"
     },
-    {   "remote":       "github",
-        "repository":.  "AOSPA/android_kernel_xiaomi_miatoll",
-        "target_path":  "kernel/msm-4.14",
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_xiaomi_miatoll",
+        "target_path":  "kernel/xiaomi/miatoll",
         "revision":     "topaz"
     },
     {
@@ -41,16 +42,16 @@
         "revision":     "topaz-pn5xx"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "topaz-pn5xx"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "revision":     "topaz"
+        "revision":     "topaz",
         "clone-depth":  "1"
-    },
-    {
-        "remote":       "clo_vendor",
-        "repository":   "platform/vendor/nxp/opensource/hidlimpl",
-        "target_path":  "vendor/nxp/opensource/hidlimpl",
-        "revision":     "caf_migration/nfc.vendor.lnx.2.1.r5-rel"
     }
 ]
