@@ -7,7 +7,7 @@
     },
     {   "remote":       "github",
         "repository":.  "AOSPA/android_kernel_xiaomi_miatoll",
-        "target_path":  "kernel/msm-4.14",
+        "target_path":  "kernel/xiaomi/miatoll",
         "revision":     "topaz"
     },
     {
@@ -45,7 +45,6 @@
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
         "revision":     "topaz"
-        "clone-depth":  "1"
     },
     {
         "remote":       "clo_vendor",
