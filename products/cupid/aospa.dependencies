@@ -1,0 +1,254 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "YukoStudioROM/android_device_xiaomi_cupid",
+        "target_path":  "device/xiaomi/cupid",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_kernel_platform_build",
+        "target_path":  "kernel_platform/build",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel/common",
+        "target_path":  "kernel_platform/common",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/external/dtc",
+        "target_path":  "kernel_platform/external/dtc",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "clone-depth":  "1",
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/kernel/prebuilts/mainline/arm64",
+        "target_path":  "kernel_platform/kernel/prebuilts/mainline/arm64",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YukoStudioROM/android_kernel_xiaomi_cupid",
+        "target_path":  "kernel_platform/msm-kernel",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_devicetree",
+        "target_path":  "kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor",
+        "revision":     "lineage-20"
+    },
+    {
+        "clone-depth":  "1",
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/prebuilts/build-tools",
+        "target_path":  "kernel_platform/prebuilts/build-tools",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "clone-depth":  "1",
+        "remote":       "clo-la",
+        "repository":   "kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8",
+        "target_path":  "kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "clone-depth":  "1",
+        "remote":       "clo-la",
+        "repository":   "kernel/prebuilts/build-tools",
+        "target_path":  "kernel_platform/prebuilts/kernel-build-tools",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "clone-depth":  "1",
+        "remote":       "clo-la",
+        "repository":   "kernelplatform/prebuilts-master/clang/host/linux-x86",
+        "target_path":  "kernel_platform/prebuilts-master/clang/host/linux-x86",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "clone-depth":  "1",
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/system/tools/mkbootimg",
+        "target_path":  "kernel_platform/tools/mkbootimg",
+        "revision":     "refs/tags/KERNEL.PLATFORM.1.0.r1-10700-kernel.0"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_opensource_audio-kernel",
+        "target_path":  "vendor/qcom/opensource/audio-kernel",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_opensource_camera-kernel",
+        "target_path":  "vendor/qcom/opensource/camera-kernel",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/cvp-kernel",
+        "target_path":  "vendor/qcom/opensource/cvp-kernel",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/dataipa",
+        "target_path":  "vendor/qcom/opensource/dataipa",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom/opensource/datarmnet",
+        "target_path":  "vendor/qcom/opensource/datarmnet",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom/opensource/datarmnet-ext",
+        "target_path":  "vendor/qcom/opensource/datarmnet-ext",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_opensource_display-drivers",
+        "target_path":  "vendor/qcom/opensource/display-drivers",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/eva-kernel",
+        "target_path":  "vendor/qcom/opensource/eva-kernel",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/mmrm-driver",
+        "target_path":  "vendor/qcom/opensource/mmrm-driver",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-05100-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/mmrm-driver-test",
+        "target_path":  "vendor/qcom/opensource/mmrm-driver/test",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-05100-WAIPIO.0"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/touch-drivers",
+        "target_path":  "vendor/qcom/opensource/touch-drivers",
+        "revision":     "refs/tags/LA.VENDOR.1.0.r1-15600-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/video-driver",
+        "target_path":  "vendor/qcom/opensource/video-driver",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-05100-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/video-driver-test",
+        "target_path":  "vendor/qcom/opensource/video-driver/test",
+        "revision":     "refs/tags/VIDEO.LA.2.0.r1-05100-WAIPIO.0"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/fw-api",
+        "target_path":  "vendor/qcom/opensource/wlan/fw-api",
+        "revision":     "9aecb64df17a3e7a71abdfbc874a5faed92cdc96"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn",
+        "target_path":  "vendor/qcom/opensource/wlan/qca-wifi-host-cmn",
+        "revision":     "404365098110d0eeea595e7b87ff32006dd7dc4a"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/qcacld-3.0",
+        "target_path":  "vendor/qcom/opensource/wlan/qcacld-3.0",
+        "revision":     "739d63a8b4e20dd7285dbe5f758f2ad41f331aa6"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_audio-devicetree",
+        "target_path":  "vendor/qcom/proprietary/audio-devicetree",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_camera-devicetree",
+        "target_path":  "vendor/qcom/proprietary/camera-devicetree",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_cvp-devicetree",
+        "target_path":  "vendor/qcom/proprietary/cvp-devicetree",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_display-devicetree",
+        "target_path":  "vendor/qcom/proprietary/display-devicetree",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_mmrm-devicetree",
+        "target_path":  "vendor/qcom/proprietary/mmrm-devicetree",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xiaomi-sm8450-kernel/android_vendor_qcom_proprietary_video-devicetree",
+        "target_path":  "vendor/qcom/proprietary/video-devicetree",
+        "revision":     "lineage-20"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "YukoStudioROM/proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "topaz"
+    }
+]
