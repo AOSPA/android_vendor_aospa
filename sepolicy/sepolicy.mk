@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PRIVATE_SEPOLICY_DIRS += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     vendor/aospa/sepolicy/private
 
-PRODUCT_PUBLIC_SEPOLICY_DIRS += \
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     vendor/aospa/sepolicy/public
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
