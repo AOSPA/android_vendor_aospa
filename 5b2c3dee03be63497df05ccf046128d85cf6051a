@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51279ffc_a6ac4606",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-01-20T16:41:13Z",
+      "side": 1,
+      "message": "Would it be better to use a flag like TARGET_CAMERA_CLIENT_PACKAGE_NAME_VENDOR_TAG :\u003d com.nothing.device.package_name or com.oplus.packageName etc",
+      "revId": "5b2c3dee03be63497df05ccf046128d85cf6051a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
