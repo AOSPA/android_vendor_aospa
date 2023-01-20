@@ -39,48 +39,48 @@
         "remote":       "aosp",
         "repository":   "device/google/gs-common",
         "target_path":  "device/google/gs-common",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/external/wpa_supplicant_8",
         "target_path":  "external/wpa_supplicant_8",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/pixel-sepolicy",
         "target_path":  "hardware/google/pixel-sepolicy",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/gchips",
         "target_path":  "hardware/google/gchips",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/common",
         "target_path":  "hardware/google/graphics/common",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/gs101",
         "target_path":  "hardware/google/graphics/gs101",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/interfaces",
         "target_path":  "hardware/google/interfaces",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/broadcom/wlan",
         "target_path":  "hardware/broadcom/wlan",
-        "revision":     "refs/tags/android-13.0.0_r12"
+        "revision":     "refs/tags/android-13.0.0_r24"
     }
 ]
