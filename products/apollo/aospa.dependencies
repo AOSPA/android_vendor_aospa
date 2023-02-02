@@ -42,12 +42,6 @@
         "revision":     "sapphire-865"
     },
     {
-        "remote":       "github",
-        "repository":   "LineageOS/android_packages_resources_devicesettings",
-        "target_path":  "packages/resources/devicesettings",
-        "revision":     "lineage-19.1"
-    },
-    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",

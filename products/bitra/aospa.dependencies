@@ -48,12 +48,6 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_packages_resources_devicesettings",
-        "target_path":  "packages/resources/devicesettings",
-        "revision":     "topaz"
-    },
-    {
         "remote":       "clo_system",
         "repository":   "platform/hardware/nxp/nfc",
         "target_path":  "hardware/nxp/nfc",
