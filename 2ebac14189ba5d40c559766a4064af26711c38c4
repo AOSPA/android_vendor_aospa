@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d0d330f_930ffe0d",
+        "filename": "products/oneplus5/aospa.dependencies",
+        "patchSetId": 10
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-02-03T20:15:13Z",
+      "side": 1,
+      "message": "switch to spaces",
+      "revId": "2ebac14189ba5d40c559766a4064af26711c38c4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
