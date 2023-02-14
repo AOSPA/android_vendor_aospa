@@ -1,4 +1,4 @@
-# Copyright (C) 2022 Paranoid Android
+# Copyright (C) 2023 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,14 +12,59 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# AOSPA Versioning.
+# Abstruct
+PRODUCT_PACKAGES += \
+    Abstruct
+
+# AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
-# Bootanimation
+# APNs
+PRODUCT_COPY_FILES += \
+    vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
+    vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
+
+# Audio
+# Increase volume level steps
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.config.media_vol_steps=30
+
+# Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
+PRODUCT_COPY_FILES += \
+    vendor/aospa/target/config/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
+# curl
+PRODUCT_PACKAGES += \
+    curl
+
+# Dex2oat
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    dalvik.vm.dex2oat64.enabled=true
+
+# Dexpreopt
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    ParanoidSystemUI
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
+# Display
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.launcher.blur.appLaunch=0
+
+# Exfat FS
+PRODUCT_PACKAGES += \
+    fsck.exfat \
+    mkfs.exfat
 
 # Fonts
 PRODUCT_COPY_FILES += \
@@ -28,67 +73,151 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, external/google-fonts/lato/fonts.mk)
 
+# Gestures
+PRODUCT_PACKAGES += \
+    vendor.aospa.power-service
+
+# GMS and Pixel Features
+$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/pixel/config.mk)
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
      vendor/aospa/target/config/aospa_vendor_framework_compatibility_matrix.xml
 
-# Include Common Qualcomm Device Tree.
-$(call inherit-product, device/qcom/common/common.mk)
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.manager@1.0.vendor
 
-# Include definitions for Snapdragon Clang
-$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
+# Java Optimizations
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
 
-# Include Overlay makefile.
-$(call inherit-product, vendor/aospa/overlay/overlays.mk)
-
-# Include Packages makefile.
-$(call inherit-product, vendor/aospa/target/product/packages.mk)
-
-# Include Properties makefile.
-$(call inherit-product, vendor/aospa/target/product/properties.mk)
-
-# Include SEPolicy makefile.
-$(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
-
-# Include GMS, Modules, and Pixel features.
-$(call inherit-product, vendor/google/gms/config.mk)
-$(call inherit-product, vendor/google/pixel/config.mk)
-
+# Mainline Modules
 ifneq ($(TARGET_FLATTEN_APEX), true)
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
 else
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_flatten_apex.mk)
 endif
 
-# Move Wi-Fi modules to vendor.
-PRODUCT_VENDOR_MOVE_ENABLED := true
+# MTE
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    arm64.memtag.process.system_server=off
+
+# Navigation
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
+# Neural Network
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-rtti
+
+# One Handed Mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
+
+# Overlays
+$(call inherit-product, vendor/aospa/overlay/overlays.mk)
+
+# Paranoid Packages
+PRODUCT_PACKAGES += \
+    ParanoidPapers \
+    ParanoidSystemUI \
+    ParanoidThemePicker
+
+# Paranoid Hub (OTA)
+ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
+PRODUCT_PACKAGES += ParanoidHub
+endif
+
+PRODUCT_PACKAGES += \
+    init.aospa-hub.rc
+
+# Paranoid Sense
+PRODUCT_PACKAGES += \
+    ParanoidSense
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
+
+# Enable Sense service for 64-bit only
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.face.sense_service=$(TARGET_SUPPORTS_64_BIT_APPS)
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml \
     vendor/aospa/target/config/permissions/default_permissions_com.google.android.deskclock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default_permissions_com.google.android.deskclock.xml \
-    vendor/aospa/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
-    vendor/aospa/target/config/permissions/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+    vendor/aospa/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
-# Pre-optimization
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    ParanoidSystemUI
+# Privapp-permissions
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.control_privapp_permissions=enforce
 
-# Compile SystemUI on device with `speed`.
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.systemuicompilerfilter=speed
+# QTI VNDK Framework Detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect_system \
+    libqti_vndfwk_detect_vendor \
+    libvndfwk_detect_jni.qti_system \
+    libvndfwk_detect_jni.qti_vendor \
+    libvndfwk_detect_jni.qti.vendor \
+    libqti_vndfwk_detect.vendor
 
-# Sensitive phone numbers and APN configurations
+# Qualcomm Common
+$(call inherit-product, device/qcom/common/common.mk)
+
+# Repainter (kdrag0n)
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
+# Rescue Party
+# Disable RescueParty due to high risk of data loss
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.disable_rescue=true
+
+# Sensitive Phone Numbers
 PRODUCT_COPY_FILES += \
-    vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
 
-# Strip the local variable table and the local variable type table to reduce
-# the size of the system image. This has no bearing on stack traces, but will
-# leave less information available via JDWP.
-PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+# SEPolicy
+$(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
-# Enable whole-program R8 Java optimizations for SystemUI and system_server,
-# but also allow explicit overriding for testing and development.
-SYSTEM_OPTIMIZE_JAVA ?= true
-SYSTEMUI_OPTIMIZE_JAVA ?= true
+# Snapdragon Clang
+$(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
+
+# Telephony - AOSP
+PRODUCT_PACKAGES += \
+    Stk
+
+# Telephony - CLO
+PRODUCT_PACKAGES += \
+    extphonelib \
+    extphonelib-product \
+    extphonelib.xml \
+    extphonelib_product.xml \
+    ims-ext-common \
+    ims_ext_common.xml \
+    tcmiface \
+    telephony-ext \
+    qti-telephony-hidl-wrapper \
+    qti-telephony-hidl-wrapper-prd \
+    qti_telephony_hidl_wrapper.xml \
+    qti_telephony_hidl_wrapper_prd.xml \
+    qti-telephony-utils \
+    qti-telephony-utils-prd \
+    qti_telephony_utils.xml \
+    qti_telephony_utils_prd.xml
+
+PRODUCT_BOOT_JARS += \
+    tcmiface \
+    telephony-ext
+
+# WiFi
+PRODUCT_PACKAGES += \
+    libwpa_client
+
+PRODUCT_VENDOR_MOVE_ENABLED := true
