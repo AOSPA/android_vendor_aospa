@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33a77dd2_f91f22f5",
+        "filename": "products/raven/aospa_raven.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2023-02-16T04:28:57Z",
+      "side": 1,
+      "message": "002",
+      "range": {
+        "startLine": 43,
+        "startChar": 50,
+        "endLine": 43,
+        "endChar": 53
+      },
+      "revId": "3b080a45b0e4696fab74e14db89d4b2e050b0cc1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
