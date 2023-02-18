@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8ab376c_7df9e62c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-02-18T20:37:05Z",
+      "side": 1,
+      "message": "firmware pending: https://gitlab.com/ThankYouMario/proprietary_vendor_oneplus_firmware/-/merge_requests/1",
+      "revId": "e9754342d8b647919fcfb6d08a6cec51fea24e90",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
