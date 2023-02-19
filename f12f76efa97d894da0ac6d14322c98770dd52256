@@ -101,6 +101,23 @@
       "message": "https://github.com/aospa-mido/android_device_xiaomi_mido/blob/topaz/device.mk#L250\n\ndrop the ones present in vendor/aospa",
       "revId": "f12f76efa97d894da0ac6d14322c98770dd52256",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da293ada_e37b5ea7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-02-19T17:47:07Z",
+      "side": 1,
+      "message": "https://github.com/aospa-mido/android_device_xiaomi_mido/blob/topaz/device.mk#L250\n\nagain, already there in vendor",
+      "revId": "f12f76efa97d894da0ac6d14322c98770dd52256",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
