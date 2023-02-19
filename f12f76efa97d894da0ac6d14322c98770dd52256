@@ -272,6 +272,23 @@
       "parentUuid": "51de56d0_6f0f0c54",
       "revId": "f12f76efa97d894da0ac6d14322c98770dd52256",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0c2ed40_84508976",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-02-19T17:54:15Z",
+      "side": 1,
+      "message": "https://github.com/aospa-mido/android_device_xiaomi_mido/blob/topaz/device.mk#L250\n\nnopeeee",
+      "revId": "f12f76efa97d894da0ac6d14322c98770dd52256",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
