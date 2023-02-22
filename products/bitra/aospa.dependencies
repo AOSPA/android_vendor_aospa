@@ -48,13 +48,13 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "clo_system",
+        "remote":       "clo",
         "repository":   "platform/hardware/nxp/nfc",
         "target_path":  "hardware/nxp/nfc",
         "revision":     "refs/tags/LA.QSSI.13.0.r1-08200-qssi.0"
     },
     {
-        "remote":       "clo_system",
+        "remote":       "clo",
         "repository":   "platform/hardware/nxp/secure_element",
         "target_path":  "hardware/nxp/secure_element",
         "revision":     "refs/tags/LA.QSSI.13.0.r1-08200-qssi.0"
