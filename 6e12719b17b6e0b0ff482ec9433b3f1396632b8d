@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32d35b7b_2edd7e31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-02-22T01:54:47Z",
+      "side": 1,
+      "message": "same reason goes for this one.. squashing would be a great.",
+      "revId": "6e12719b17b6e0b0ff482ec9433b3f1396632b8d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
