@@ -16,6 +16,23 @@
       "message": "same reason goes for this one.. squashing would be a great.",
       "revId": "6e12719b17b6e0b0ff482ec9433b3f1396632b8d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ee5dcac_8e6dea4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000687
+      },
+      "writtenOn": "2023-02-22T14:51:04Z",
+      "side": 1,
+      "message": "Agreed, I\u0027ve squashed into one commit.\nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/27937",
+      "revId": "6e12719b17b6e0b0ff482ec9433b3f1396632b8d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
