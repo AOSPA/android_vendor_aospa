@@ -164,9 +164,6 @@ def merge_manifest(is_system, branch):
             lst = root.findall("remote")
             remote = None
             for elem in lst:
-                if elem.attrib["name"] == "clo_vendor":
-                    remote = elem
-                    break
             remote.set("revision", branch)
         tree.write("{0}/.repo/manifests/default.xml".format(WORKING_DIR))
         cpu_count = str(os.cpu_count())
