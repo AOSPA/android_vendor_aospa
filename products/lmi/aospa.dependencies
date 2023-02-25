@@ -59,5 +59,11 @@
         "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "topaz-SN100X-legacy"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_audio-hal_st-hal",
+        "target_path":  "vendor/qcom/opensource/audio-hal/st-hal",
+        "revision":     "topaz"
     }
 ]
