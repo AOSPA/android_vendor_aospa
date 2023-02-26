@@ -5,18 +5,6 @@
 //
 
 android_app_import {
-    apk: "GoogleCameraGo.apk",
-    name: "GoogleCameraGo",
-    overrides: ["Camera2"],
-    presigned: true,
-    dex_preopt: {
-            enabled: false,
-    },
-    product_specific: true,
-    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"]
-}
-
-android_app_import {
     apk: "Abstruct.apk",
     name: "Abstruct",
     presigned: true,
