@@ -27,6 +27,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
+    $(LOCAL_DIR)/lunaa/aospa_lunaa.mk \
     $(LOCAL_DIR)/mi439/aospa_mi439.mk \
     $(LOCAL_DIR)/miatoll/aospa_miatoll.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
@@ -62,6 +63,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_juice-userdebug \
     aospa_lisa-userdebug \
     aospa_lmi-userdebug \
+    aospa_lunaa-userdebug \
     aospa_mi439-userdebug \
     aospa_miatoll-userdebug \
     aospa_mini5g-userdebug \
