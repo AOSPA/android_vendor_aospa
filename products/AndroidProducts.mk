@@ -23,6 +23,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
+    $(LOCAL_DIR)/lunaa/aospa_lunaa.mk \
     $(LOCAL_DIR)/mi439/aospa_mi439.mk \
     $(LOCAL_DIR)/miatoll/aospa_miatoll.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
@@ -49,6 +50,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_cheetah-userdebug \
     aospa_dubai-userdebug \
     aospa_lmi-userdebug \
+    aospa_lunaa-userdebug \
     aospa_mi439-userdebug \
     aospa_miatoll-userdebug \
     aospa_mini5g-userdebug \
