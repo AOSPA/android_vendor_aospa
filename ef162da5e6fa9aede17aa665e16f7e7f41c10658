@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e38035b4_9e269ac5",
+        "filename": "products/davinci/aospa_davinci.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-02-27T03:07:29Z",
+      "side": 1,
+      "message": "you sure WW_AI2202 is right? https://storage.googleapis.com/play_public/supported_devices.html doesn\u0027t have this",
+      "revId": "ef162da5e6fa9aede17aa665e16f7e7f41c10658",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "522ba5ee_84f6262a",
+        "filename": "products/davinci/aospa_davinci.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-02-27T03:07:29Z",
+      "side": 1,
+      "message": "preferably do not override build fingerprint as that will break upgrade detection, unless there\u0027s something specific that needs it",
+      "revId": "ef162da5e6fa9aede17aa665e16f7e7f41c10658",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
