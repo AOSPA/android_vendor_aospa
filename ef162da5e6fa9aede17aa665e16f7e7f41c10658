@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c0493c6d_9686c0b4",
+        "filename": "products/davinci/aospa_davinci.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2023-02-27T13:47:21Z",
+      "side": 1,
+      "message": "vendor/build.prop\n9:ro.product.vendor.name\u003dWW_AI2202",
+      "parentUuid": "e38035b4_9e269ac5",
+      "revId": "ef162da5e6fa9aede17aa665e16f7e7f41c10658",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "522ba5ee_84f6262a",
         "filename": "products/davinci/aospa_davinci.mk",
         "patchSetId": 11
@@ -31,6 +49,24 @@
       "writtenOn": "2023-02-27T03:07:29Z",
       "side": 1,
       "message": "preferably do not override build fingerprint as that will break upgrade detection, unless there\u0027s something specific that needs it",
+      "revId": "ef162da5e6fa9aede17aa665e16f7e7f41c10658",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7dbed91_c8655a5f",
+        "filename": "products/davinci/aospa_davinci.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2023-02-27T13:47:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "522ba5ee_84f6262a",
       "revId": "ef162da5e6fa9aede17aa665e16f7e7f41c10658",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
