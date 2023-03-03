@@ -12,3 +12,6 @@ set_prop(system_server, device_config_tethering_prop)
 
 # Powershare
 hal_client_domain(system_server, hal_aospa_powershare)
+
+# Lineage
+hal_client_domain(system_server, hal_lineage_health)

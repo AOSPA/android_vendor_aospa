@@ -6,3 +6,6 @@
 
 # Usb
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.basic   u:object_r:hal_usb_default_exec:s0
+
+# Health HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.default     u:object_r:hal_lineage_health_default_exec:s0
