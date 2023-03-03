@@ -6,3 +6,7 @@ type sysfs_fastcharge, sysfs_type, fs_type;
 
 # PowerShare
 type sysfs_powershare, sysfs_type, fs_type;
+
+# LineageHealth
+type vendor_sysfs_battery_supply, sysfs_type, fs_type;
+type vendor_sysfs_usb_supply, sysfs_type, fs_type;
