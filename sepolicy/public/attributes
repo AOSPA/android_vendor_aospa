@@ -5,3 +5,10 @@ attribute hal_aospa_powershare_client;
 expandattribute hal_aospa_powershare_client true;
 attribute hal_aospa_powershare_server;
 expandattribute hal_aospa_powershare_server false;
+attribute hal_lineage_health;
+expandattribute hal_lineage_health true;
+attribute hal_lineage_health_client;
+expandattribute hal_lineage_health_client true;
+attribute hal_lineage_health_server;
+expandattribute hal_lineage_health_server false;
+
