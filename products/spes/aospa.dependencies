@@ -21,7 +21,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-        "revision":     "topaz-888"
+        "revision":     "topaz-bengal"
     },
     {
         "remote":       "aospa",
