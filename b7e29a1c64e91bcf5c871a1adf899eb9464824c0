@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33e2d5e1_9bc31155",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000448
+      },
+      "writtenOn": "2023-03-22T07:06:53Z",
+      "side": 1,
+      "message": "Wait these commit merge\nhttps://gerrit.aospa.co/c/AOSPA/android_hardware_st_nfc/+/28689\nhttps://gerrit.aospa.co/q/topic:lz4-compressed-kernel\nhttps://gerrit.aospa.co/q/topic:topaz-floral",
+      "revId": "b7e29a1c64e91bcf5c871a1adf899eb9464824c0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
