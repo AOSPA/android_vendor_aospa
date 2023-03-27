@@ -36,7 +36,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk \
-    $(LOCAL_DIR)/spes/aospa_spes.mk
+    $(LOCAL_DIR)/spes/aospa_spes.mk \
+    $(LOCAL_DIR)/juice/aospa_juice.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -62,4 +63,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_phoenix-userdebug \
     aospa_phone1-userdebug \
     aospa_raven-userdebug \
-    aospa_spes-userdebug
+    aospa_spes-userdebug \
+    aospa_juice-userdebug
