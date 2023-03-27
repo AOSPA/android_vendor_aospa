@@ -43,6 +43,18 @@
         "revision":     "topaz-89xx"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "topaz-taro-backup"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom-opensource_usb",
+        "target_path":  "vendor/qcom/opensource/usb",
+        "revision":     "topaz-taro-backup"
+    },
+    {
         "remote":       "blobs-gitlab",
         "repository":   "android_prebuilts_clang-standalone",
         "target_path":  "prebuilts/clang-standalone",
