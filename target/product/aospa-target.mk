@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
 # Audio
+ifeq ($(TARGET_DISABLES_GMS), true)
+$(call inherit-product, frameworks/base/data/sounds/AllAudio.mk)
+endif
+
 # Increase volume level steps
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
@@ -36,6 +40,10 @@ PRODUCT_PACKAGES += \
     GoogleCameraGo
 
 # Charger
+ifeq ($(TARGET_DISABLES_GMS), true)
+PRODUCT_PACKAGES += \
+    product_charger_res_images
+endif
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
 
@@ -82,6 +90,7 @@ PRODUCT_PACKAGES += \
 
 # Google - GMS, Pixel, and Mainline Modules
 ifneq ($(TARGET_DISABLES_GMS), true)
+$(warning Building With GMS)
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 ifneq ($(TARGET_FLATTEN_APEX), true)
@@ -89,6 +98,8 @@ $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.m
 else
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_flatten_apex.mk)
 endif
+else
+$(warning Building Without GMS)
 endif
 
 # HIDL
