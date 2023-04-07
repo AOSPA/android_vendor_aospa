@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
 
 # Audio
+ifeq ($(TARGET_DISABLES_GMS), true)
+$(call inherit-product, frameworks/base/data/sounds/AllAudio.mk)
+endif
 # Increase volume level steps
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
