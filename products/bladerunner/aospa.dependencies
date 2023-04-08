@@ -48,16 +48,16 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "clo",
+        "remote":       "clo-la",
         "repository":   "platform/hardware/nxp/nfc",
         "target_path":  "hardware/nxp/nfc",
-        "revision":     "refs/tags/LA.QSSI.13.0.r1-08200-qssi.0"
+        "revision":     "refs/tags/LA.QSSI.13.0.r1-09400-qssi.0"
     },
     {
-        "remote":       "clo",
+        "remote":       "clo-la",
         "repository":   "platform/hardware/nxp/secure_element",
         "target_path":  "hardware/nxp/secure_element",
-        "revision":     "refs/tags/LA.QSSI.13.0.r1-08200-qssi.0"
+        "revision":     "refs/tags/LA.QSSI.13.0.r1-09400-qssi.0"
     },
     {
         "remote":       "blobs",
