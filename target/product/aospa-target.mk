@@ -21,8 +21,7 @@ $(call inherit-product, vendor/aospa/target/product/version.mk)
 
 # APNs
 PRODUCT_COPY_FILES += \
-    vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
-    vendor/aospa/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
+    vendor/aospa/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
 # Audio
 # Increase volume level steps
