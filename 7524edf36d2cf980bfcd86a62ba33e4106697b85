@@ -16,6 +16,23 @@
       "message": "Gets copied on L186, LGTM",
       "revId": "7524edf36d2cf980bfcd86a62ba33e4106697b85",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c18e857_65a7f98d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-10T18:20:59Z",
+      "side": 1,
+      "message": "I thought I moved but I copied",
+      "revId": "7524edf36d2cf980bfcd86a62ba33e4106697b85",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
