@@ -46,5 +46,12 @@
         "repository":   "proprietary_vendor_motorola",
         "target_path":  "vendor/motorola",
         "revision":     "topaz"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "android_prebuilts_clang-standalone",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "17",
+        "clone-depth":  "1"
     }
 ]
