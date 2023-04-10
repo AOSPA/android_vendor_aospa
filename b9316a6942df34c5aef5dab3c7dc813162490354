@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f07aa05_58832c5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-10T21:18:12Z",
+      "side": 1,
+      "message": "this will rebuild all apps on every build as discussed on Slack.  We are probably better off renaming the zip from the build script if a --time flag is passed.",
+      "revId": "b9316a6942df34c5aef5dab3c7dc813162490354",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
