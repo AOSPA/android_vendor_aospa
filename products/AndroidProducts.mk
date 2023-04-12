@@ -19,6 +19,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/beryllium/aospa_beryllium.mk \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
+    $(LOCAL_DIR)/bladerunner_48m/aospa_bladerunner_48m.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
@@ -50,6 +51,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_beryllium-userdebug \
     aospa_bitra-userdebug \
     aospa_bladerunner-userdebug \
+    aospa_bladerunner_48m-userdebug \
     aospa_bluejay-userdebug \
     aospa_cheetah-userdebug \
     aospa_dubai-userdebug \
