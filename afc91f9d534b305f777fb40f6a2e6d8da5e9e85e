@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b717b8b_4f11f7a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-14T06:38:05Z",
+      "side": 1,
+      "message": "I\u0027ll create the repos later today and give you rights to them. Great job and thanks for contributing!\n\nIs your committer email address good for a slack invite or is there another I should use?",
+      "revId": "afc91f9d534b305f777fb40f6a2e6d8da5e9e85e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
