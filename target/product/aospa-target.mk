@@ -130,8 +130,10 @@ PRODUCT_PACKAGES += \
     ParanoidThemePicker
 
 # Paranoid Hub (OTA)
-ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
-PRODUCT_PACKAGES += ParanoidHub
+ifeq ($(AB_OTA_UPDATER),true)
+    ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
+        PRODUCT_PACKAGES += ParanoidHub
+    endif
 endif
 
 PRODUCT_PACKAGES += \
