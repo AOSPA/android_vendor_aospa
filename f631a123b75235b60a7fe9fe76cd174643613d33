@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49d5eb51_95730b3c",
+        "filename": "products/lisa/aospa_lisa.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-22T20:19:37Z",
+      "side": 1,
+      "message": "2k23",
+      "revId": "f631a123b75235b60a7fe9fe76cd174643613d33",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
