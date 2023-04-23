@@ -16,6 +16,24 @@
       "message": "2k23",
       "revId": "f631a123b75235b60a7fe9fe76cd174643613d33",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3d9135f_6b9b2d62",
+        "filename": "products/lisa/aospa_lisa.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-04-23T04:35:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49d5eb51_95730b3c",
+      "revId": "f631a123b75235b60a7fe9fe76cd174643613d33",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
