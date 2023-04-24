@@ -12,6 +12,12 @@
         "revision":     "topaz"
     },
     {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_asus_firmware",
+        "target_path":  "vendor/firmware/davinci",
+        "revision":     "topaz"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
