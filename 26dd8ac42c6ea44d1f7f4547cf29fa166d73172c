@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2362c81_bb013849",
+        "filename": "products/lunaa/aospa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-25T22:29:11Z",
+      "side": 1,
+      "message": "can we put this somewhere in our namespace like ThankYouMario on gitlab?",
+      "revId": "26dd8ac42c6ea44d1f7f4547cf29fa166d73172c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
