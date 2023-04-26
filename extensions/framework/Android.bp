@@ -15,7 +15,9 @@
 android_library {
     name: "co.aospa.framework",
     srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
     static_libs: [
+        "androidx.core_core",
         "androidx.preference_preference",
     ],
 }
