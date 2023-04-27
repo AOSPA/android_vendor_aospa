@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 #
-# Copyright (C) 2022 Paranoid Android
+# Copyright (C) 2023 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -123,8 +123,7 @@ def force_sync(repo_lst):
         "-c",
         "--force-sync",
         "-f",
-        "--no-clone-bundle",
-        "--no-tag",
+        "--no-tags",
         "-j",
         cpu_count,
         "-q",
@@ -158,16 +157,8 @@ def merge_manifest(is_system, branch):
     with open("{0}/.repo/manifests/default.xml".format(WORKING_DIR)) as manifestxml:
         tree = Et.parse(manifestxml)
         root = tree.getroot()
-        if is_system:
-            root.findall("default")[0].set("revision", branch)
-        else:
-            lst = root.findall("remote")
-            remote = None
-            for elem in lst:
-                if elem.attrib["name"] == "clo_vendor":
-                    remote = elem
-                    break
-            remote.set("revision", branch)
+        root.findall("default")[0].set("revision", branch)
+        remote.set("revision", branch)
         tree.write("{0}/.repo/manifests/default.xml".format(WORKING_DIR))
         cpu_count = str(os.cpu_count())
         subprocess.run(
@@ -177,8 +168,7 @@ def merge_manifest(is_system, branch):
                 "-c",
                 "--force-sync",
                 "-f",
-                "--no-clone-bundle",
-                "--no-tag",
+                "--no-tags",
                 "-j",
                 cpu_count,
                 "-q",
