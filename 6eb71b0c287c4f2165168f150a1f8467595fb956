@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ab56cf4_7a9d4b14",
+        "filename": "products/jasmine_sprout/aospa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-28T21:34:32Z",
+      "side": 1,
+      "message": "need this to be filled in",
+      "revId": "6eb71b0c287c4f2165168f150a1f8467595fb956",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf7c1cd2_b69546ef",
+        "filename": "products/jasmine_sprout/aospa_jasmine_sprout.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-04-28T21:34:32Z",
+      "side": 1,
+      "message": "Happy New Year!",
+      "revId": "6eb71b0c287c4f2165168f150a1f8467595fb956",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
