@@ -43,6 +43,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus9r/aospa_oneplus9r.mk \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
     $(LOCAL_DIR)/panther/aospa_panther.mk \
+    $(LOCAL_DIR)/pdx214/aospa_pdx214.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk \

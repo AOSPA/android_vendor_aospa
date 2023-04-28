@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/device_sony_pdx214",
+        "target_path":  "device/sony/pdx214",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/kernel_sony_sagami",
+        "target_path":  "kernel/sony/sagami",
+        "revision":     "rebase"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/vendor_sony_pdx214",
+        "target_path":  "vendor/sony/pdx214",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-888"
+    }
+]
