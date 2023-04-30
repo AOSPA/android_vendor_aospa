@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46b69fca_7061daef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-04-30T06:08:24Z",
+      "side": 1,
+      "message": "having problem on aperture while gcam works fine. so better not to change it at all. also we only ship \"gms build\" only so gcam go makes sense to be default.",
+      "revId": "30a448efff7afb400e3f8560250952b182d2434a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
