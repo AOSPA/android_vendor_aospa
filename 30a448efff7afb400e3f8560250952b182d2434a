@@ -16,6 +16,24 @@
       "message": "having problem on aperture while gcam works fine. so better not to change it at all. also we only ship \"gms build\" only so gcam go makes sense to be default.",
       "revId": "30a448efff7afb400e3f8560250952b182d2434a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d4f77f3_51f0ca74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-04-30T09:28:54Z",
+      "side": 1,
+      "message": "what problem? why does gcam go make more sense? can\u0027t access aux cameras, can\u0027t seem higher video frame rate than 30..",
+      "parentUuid": "46b69fca_7061daef",
+      "revId": "30a448efff7afb400e3f8560250952b182d2434a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
