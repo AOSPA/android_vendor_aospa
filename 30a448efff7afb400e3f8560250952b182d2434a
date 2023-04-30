@@ -34,6 +34,24 @@
       "parentUuid": "46b69fca_7061daef",
       "revId": "30a448efff7afb400e3f8560250952b182d2434a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9be2931_3c8c5fc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-04-30T09:34:02Z",
+      "side": 1,
+      "message": "we have resolution problems with it. and gcam fits since we only ship gms builds and it works for all . so what im suggesting is just stick to gcam go. if not satisfied just add aperture to those who needs it. or another way is just make it conditional.",
+      "parentUuid": "0d4f77f3_51f0ca74",
+      "revId": "30a448efff7afb400e3f8560250952b182d2434a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
