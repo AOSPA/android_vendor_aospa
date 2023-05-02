@@ -16,7 +16,7 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="co.aospa.overlay.systemui.immnav.gestural"
+        package="co.aospa.overlay.immnav.gestural"
         android:versionCode="1"
         android:versionName="1.0">
     <overlay android:targetPackage="android"

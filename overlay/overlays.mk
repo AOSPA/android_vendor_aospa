@@ -15,7 +15,8 @@
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAFrameworksOverlay \
-    AOSPAImmersiveNavigationOverlay \
+    AOSPAImmersiveNavigationFrameworksOverlay \
+    AOSPAImmersiveNavigationSystemUIOverlay \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
