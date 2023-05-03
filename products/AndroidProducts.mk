@@ -48,6 +48,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/raven/aospa_raven.mk \
     $(LOCAL_DIR)/spes/aospa_spes.mk \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
+    $(LOCAL_DIR)/surya/aospa_surya.mk \
     $(LOCAL_DIR)/vayu/aospa_vayu.mk
 
 # Lunch targets
@@ -86,4 +87,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_raven-userdebug \
     aospa_spes-userdebug \
     aospa_sunny-userdebug \
+    aospa_surya-userdebug \
     aospa_vayu-userdebug
