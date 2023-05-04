@@ -16,6 +16,24 @@
       "message": "AOSPA/android_kernel_xiaomi_vayu",
       "revId": "6757a904901e528a6d7a16a3e6d288c48227fe26",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8efdb826_7e514d75",
+        "filename": "products/vayu/aospa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000597
+      },
+      "writtenOn": "2023-05-04T18:08:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a0ec566a_bafa7c54",
+      "revId": "6757a904901e528a6d7a16a3e6d288c48227fe26",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
