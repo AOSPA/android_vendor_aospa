@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdea1cc5_45ac3a24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000865
+      },
+      "writtenOn": "2023-05-05T14:00:05Z",
+      "side": 1,
+      "message": "I have pushed the change without stock build fingerprint/description",
+      "revId": "af97768be962d0b9e6fa858d75d343263937e92f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
