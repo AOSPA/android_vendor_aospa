@@ -16,6 +16,24 @@
       "message": "unless you have something that absolutely needs build fingerprint/description from stock, dont do it",
       "revId": "fd9c14a116648408fb332ec325edb51580511352",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "634a1a2a_671cec34",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000865
+      },
+      "writtenOn": "2023-05-05T10:47:10Z",
+      "side": 1,
+      "message": "well i didnt try without the stock fingerprint, i will try without stock fingerprint and check if it affects anything, if not required then i will drop it",
+      "parentUuid": "0a33ccdb_ff7b314d",
+      "revId": "fd9c14a116648408fb332ec325edb51580511352",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
