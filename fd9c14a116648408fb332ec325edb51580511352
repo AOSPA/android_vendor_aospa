@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a33ccdb_ff7b314d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-05-05T10:43:08Z",
+      "side": 1,
+      "message": "unless you have something that absolutely needs build fingerprint/description from stock, dont do it",
+      "revId": "fd9c14a116648408fb332ec325edb51580511352",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
