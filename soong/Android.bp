@@ -121,3 +121,20 @@ uses_nothing_camera {
         },
     },
 }
+
+soong_config_module_type {
+    name: "uses_legacy_gbnconstructormap",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",,
+    bool_variables: ["uses_legacy_gbnconstructormap"],
+    properties: ["cppflags"],
+}
+
+uses_legacy_gbnconstructormap {
+    name: "uses_legacy_gbnconstructormap_defaults",
+    soong_config_variables: {
+        uses_legacy_gbnconstructormap: {
+            cppflags: ["-DUSES_LEGACY_GBNCONSTRUCTORMAP"],
+         },
+    },
+}
