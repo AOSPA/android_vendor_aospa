@@ -19,8 +19,12 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 
-# Enable LLVM Support.
-KERNEL_LLVM_SUPPORT := true
+# Enable LLVM Support if GCC is not used.
+KERNEL_LLVM_SUPPORT ?= true
+
+ifeq ($(KERNEL_NEW_GCC_SUPPORT),true)
+    KERNEL_LLVM_SUPPORT := false
+endif
 
 # Enable SDLLVM Support.
 ifneq (,$(filter 3.18 4.4 4.9, $(TARGET_KERNEL_VERSION)))
