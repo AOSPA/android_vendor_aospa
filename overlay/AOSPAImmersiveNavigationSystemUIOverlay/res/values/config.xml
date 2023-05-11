@@ -18,4 +18,7 @@
 -->
 <resources>
      <string name="config_navBarLayoutHandle" translatable="false">back[70AC];;ime_switcher[70AC]</string>
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_handle_radius">0px</dimen>
+    <dimen name="navigation_home_handle_width">0px</dimen>
 </resources>
