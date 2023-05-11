@@ -69,6 +69,24 @@
       "message": "now i support it.",
       "revId": "30a448efff7afb400e3f8560250952b182d2434a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3261b77_b9ed82e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-05-11T02:03:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9be2931_3c8c5fc8",
+      "revId": "30a448efff7afb400e3f8560250952b182d2434a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
