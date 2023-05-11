@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4812fdea_8431e37d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-05-11T06:59:31Z",
+      "side": 1,
+      "message": "I\u0027m fine with the substantive changes here, but can we move prebuilts to the separate repo we have on gitlab?\n\nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/25172",
+      "revId": "f3f10a9f0645d5135ddee195981fbb8b96960906",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
