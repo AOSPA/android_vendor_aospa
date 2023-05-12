@@ -33,6 +33,23 @@
       "message": "his device tree looks good, i reviewed",
       "revId": "7bbcb0464dd3ed06d84734783f3325218facaa54",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "663e5f9f_5c776692",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-05-12T10:47:25Z",
+      "side": 1,
+      "message": "dt seems goood enough.",
+      "revId": "7bbcb0464dd3ed06d84734783f3325218facaa54",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
