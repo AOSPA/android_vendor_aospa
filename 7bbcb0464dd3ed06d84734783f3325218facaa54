@@ -16,6 +16,23 @@
       "message": "https://github.com/aospa-sunny/android_device_xiaomi_sunny\nhttps://github.com/aospa-sunny/android_kernel_xiaomi_sunny\nhttps://github.com/aospa-sunny/proprietary_vendor_xiaomi\nhttps://github.com/aospa-sunny/android_hardware_xiaomi\nhttps://github.com/aospa-sunny/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf\nhttps://github.com/aospa-sunny/android_prebuilts_gcc_linux-x86_arm_arm-eabi\nhttps://github.com/aospa-sunny/android_packages_apps_Kprofiles",
       "revId": "7bbcb0464dd3ed06d84734783f3325218facaa54",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71c0f601_57e3884b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-05-12T05:06:10Z",
+      "side": 1,
+      "message": "his device tree looks good, i reviewed",
+      "revId": "7bbcb0464dd3ed06d84734783f3325218facaa54",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
