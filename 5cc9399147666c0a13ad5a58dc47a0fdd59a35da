@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83f6d800_972b12a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2023-05-12T17:15:15Z",
+      "side": 1,
+      "message": "maybe check https://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/29696 as well",
+      "revId": "5cc9399147666c0a13ad5a58dc47a0fdd59a35da",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
