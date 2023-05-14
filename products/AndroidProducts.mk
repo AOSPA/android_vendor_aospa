@@ -85,5 +85,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_phone1-userdebug \
     aospa_raven-userdebug \
     aospa_spes-userdebug \
-    aospa-sunny-userdebug \
+    aospa_sunny-userdebug \
     aospa_vayu-userdebug
