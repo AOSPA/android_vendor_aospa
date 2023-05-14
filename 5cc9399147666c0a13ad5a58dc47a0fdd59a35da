@@ -16,6 +16,24 @@
       "message": "maybe check https://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/29696 as well",
       "revId": "5cc9399147666c0a13ad5a58dc47a0fdd59a35da",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83caab99_d2cbf64b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-05-14T03:22:48Z",
+      "side": 1,
+      "message": "previous patch led to keyboard being visible in some places for fabian",
+      "parentUuid": "83f6d800_972b12a3",
+      "revId": "5cc9399147666c0a13ad5a58dc47a0fdd59a35da",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
