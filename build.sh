@@ -200,7 +200,11 @@ echo -e ""
 
 # If we aren't in Jenkins, use the engineering tag
 if [ -z "${BUILD_NUMBER}" ]; then
+if [ -z "${BUILD_USERNAME}" ]; then
     export FILE_NAME_TAG=eng.$USER
+else
+    export FILE_NAME_TAG=eng.$BUILD_USERNAME
+fi
 else
     export FILE_NAME_TAG=$BUILD_NUMBER
 fi
