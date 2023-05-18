@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "265c2f9e_90fc4664",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-18T07:38:53Z",
+      "side": 1,
+      "message": "Maybe this is userdebug-specific, but I\u0027m getting this:\n\n[ 87% 530/604] build out/target/product/oneplus9pro/obj/FAKE/treble_sepolicy_tests_31.0_intermediates/treble_sepolicy_tests_31.0\nFAILED: out/target/product/oneplus9pro/obj/FAKE/treble_sepolicy_tests_31.0_intermediates/treble_sepolicy_tests_31.0\nSELinux: The following public types were found added to the policy without an entry into the compatibility mapping file(s) found in private/compat/V.v/V.v[.ignore].cil, where V.v is the latest API level.\nvendor_sysfs_dc_dim\n\nSee examples of how to fix this:\nhttps://android-review.googlesource.com/c/platform/system/sepolicy/+/781036\nhttps://android-review.googlesource.com/c/platform/system/sepolicy/+/852612\n\n[ 87% 531/604] build out/target/product/oneplus9pro/obj/FAKE/treble_sepolicy_tests_32.0_intermediates/treble_sepolicy_tests_32.0\nFAILED: out/target/product/oneplus9pro/obj/FAKE/treble_sepolicy_tests_32.0_intermediates/treble_sepolicy_tests_32.0\nSELinux: The following public types were found added to the policy without an entry into the compatibility mapping file(s) found in private/compat/V.v/V.v[.ignore].cil, where V.v is the latest API level.\nvendor_sysfs_dc_dim\n\nSee examples of how to fix this:\nhttps://android-review.googlesource.com/c/platform/system/sepolicy/+/781036\nhttps://android-review.googlesource.com/c/platform/system/sepolicy/+/852612\n\n[ 88% 533/604] build out/target/product/oneplus9pro/obj/FAKE/treble_sepolicy_tests_30.0_intermediates/treble_sepolicy_tests_30.0\nFAILED: out/target/product/oneplus9pro/obj/FAKE/treble_sepolicy_tests_30.0_intermediates/treble_sepolicy_tests_30.0\nSELinux: The following public types were found added to the policy without an entry into the compatibility mapping file(s) found in private/compat/V.v/V.v[.ignore].cil, where V.v is the latest API level.\nvendor_sysfs_dc_dim\n\nSee examples of how to fix this:\nhttps://android-review.googlesource.com/c/platform/system/sepolicy/+/781036\nhttps://android-review.googlesource.com/c/platform/system/sepolicy/+/852612",
+      "revId": "8f579db561fb45dabaa413755972b8af5f5f53fb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ],
   "submitRequirementResults": []
 }
