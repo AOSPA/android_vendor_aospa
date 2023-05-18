@@ -57,7 +57,7 @@
         "remote":       "blobs-gitlab",
         "repository":   "android_prebuilts_clang-standalone",
         "target_path":  "prebuilts/clang-standalone",
-        "revision":     "14",
+        "revision":     "slim-16",
         "clone-depth":  "1"
     },
     {
