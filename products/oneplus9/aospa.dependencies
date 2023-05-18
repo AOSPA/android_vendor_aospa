@@ -7,12 +7,6 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_oplus",
-        "target_path":  "hardware/oplus",
-        "revision":     "topaz"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision":     "topaz-888"
@@ -37,7 +31,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_oneplus_sm8350",
+        "repository":   "arter97/android_kernel_oneplus_sm8350",
         "target_path":  "kernel/msm-5.4",
         "revision":     "topaz"
     },
@@ -54,16 +48,16 @@
         "revision":     "topaz-SN100X-legacy"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_oneplus",
-        "target_path":  "vendor/oneplus",
-        "revision":     "topaz",
+        "remote":       "blobs-gitlab",
+        "repository":   "android_prebuilts_clang-standalone",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "14",
         "clone-depth":  "1"
     },
     {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_oneplus_firmware",
-        "target_path":  "vendor/oneplus/firmware",
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
         "revision":     "topaz",
         "clone-depth":  "1"
     }
