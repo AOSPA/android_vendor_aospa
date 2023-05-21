@@ -79,6 +79,12 @@
     },
     {
         "remote":       "aosp",
+        "repository":   "platform/hardware/google/camera",
+        "target_path":  "hardware/google/camera",
+        "revision":     "refs/tags/android-13.0.0_r49"
+    },
+    {
+        "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/common",
         "target_path":  "hardware/google/graphics/common",
         "revision":     "refs/tags/android-13.0.0_r49"
@@ -103,8 +109,8 @@
     },
     {
         "remote":       "aosp",
-        "repository":   "platform/hardware/broadcom/wlan",
-        "target_path":  "hardware/broadcom/wlan",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
         "revision":     "refs/tags/android-13.0.0_r49"
     }
 ]
