@@ -112,5 +112,11 @@
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
         "revision":     "refs/tags/android-13.0.0_r49"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/st/nfc",
+        "target_path":  "hardware/st/nfc",
+        "revision":     "refs/tags/android-13.0.0_r49"
     }
 ]
