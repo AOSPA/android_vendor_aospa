@@ -22,7 +22,9 @@
         android:priority="600"
         android:targetPackage="android" />
 
-    <application android:label="@string/font_urbanist_overlay">
+    <application
+        android:hasCode="false"
+        android:label="@string/font_urbanist_overlay"/>
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="urbanist,urbanist-medium" />

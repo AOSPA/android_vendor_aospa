@@ -22,7 +22,9 @@
         android:priority="600"
         android:targetPackage="android" />
 
-    <application android:label="@string/font_manrope_overlay">
+    <application
+        android:hasCode="false" 
+        android:label="@string/font_manrope_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="manrope,manrope-medium" />
