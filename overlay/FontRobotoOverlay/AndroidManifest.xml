@@ -22,7 +22,8 @@
         android:targetPackage="android" />
 
     <application
-        android:label="@string/font_roboto_overlay">
+        android:hasCode="false"
+        android:label="@string/font_roboto_overlay"/>
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="sans-serif,sans-serif-medium" />
