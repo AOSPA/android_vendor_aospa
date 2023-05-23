@@ -59,4 +59,9 @@
 
     <!-- If true, attach the navigation bar to the app during app transition -->
     <bool name="config_attachNavBarToAppDuringTransition">true</bool>
+
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_handle_radius">0px</dimen>
+    <dimen name="navigation_home_handle_width">0px</dimen>
+
 </resources>

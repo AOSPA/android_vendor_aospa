@@ -24,7 +24,7 @@
     <!-- Width of the navigation bar when it is placed vertically on the screen -->
     <dimen name="navigation_bar_width">24dp</dimen>
     <!-- Height of the bottom navigation / system bar. -->
-    <dimen name="navigation_bar_frame_height">48dp</dimen>
+    <dimen name="navigation_bar_frame_height">149px</dimen>
     <!-- The height of the bottom navigation gesture area. -->
-    <dimen name="navigation_bar_gesture_height">32dp</dimen>
+    <dimen name="navigation_bar_gesture_height">144px</dimen>
 </resources>
