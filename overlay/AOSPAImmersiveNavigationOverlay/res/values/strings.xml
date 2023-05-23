@@ -18,5 +18,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Name of overlay [CHAR LIMIT=64] -->
-    <string name="immersive_navigation_mode_title" translatable="false">Immersive Navigation</string>
+    <string name="navigation_bar_mode_title" translatable="false">Immersive Navigation</string>
 </resources>
