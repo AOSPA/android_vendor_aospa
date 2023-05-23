@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1047ad88_9198e6bb",
+        "filename": "products/lynx/aospa_lynx.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-05-23T21:08:48Z",
+      "side": 1,
+      "message": "2k23",
+      "revId": "3c4f503bc42e35301fb92909a30031049752a21a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da6e6fa1_100d9b48",
+        "filename": "products/lynx/aospa_lynx.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-05-23T21:08:48Z",
+      "side": 1,
+      "message": "do these both need to be inherited or can we just inherit aospa and aospa inherits aosp?",
+      "revId": "3c4f503bc42e35301fb92909a30031049752a21a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
