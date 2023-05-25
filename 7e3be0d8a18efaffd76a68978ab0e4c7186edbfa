@@ -16,6 +16,23 @@
       "message": "works on phone1, oneplus7t",
       "revId": "7e3be0d8a18efaffd76a68978ab0e4c7186edbfa",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cb81114_42c658a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-05-25T11:33:30Z",
+      "side": 1,
+      "message": "works",
+      "revId": "7e3be0d8a18efaffd76a68978ab0e4c7186edbfa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
