@@ -37,7 +37,17 @@ endif
 
 # Audio
 ifeq ($(TARGET_DISABLES_GMS), true)
-$(call inherit-product, frameworks/base/data/sounds/AllAudio.mk)
+# Include AOSP audio files
+include vendor/aospa/prebuilts/media/audio/aosp_audio.mk
+
+# Include PA audio files
+include vendor/aospa/prebuilts/media/audio/pa_audio.mk
+
+# Default notification/alarm sounds
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.ringtone=Orion.ogg \
+    ro.config.notification_sound=Argon.ogg \
+    ro.config.alarm_alert=Hassium.ogg
 endif
 
 # Increase volume level steps
