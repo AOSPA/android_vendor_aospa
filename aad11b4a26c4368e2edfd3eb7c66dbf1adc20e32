@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3bc305f_7345bae5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-05-26T01:58:06Z",
+      "side": 1,
+      "message": "import only for a only since it\u0027s impossible for it to work on ab with user builds without resorting to ignoring neverallows",
+      "revId": "aad11b4a26c4368e2edfd3eb7c66dbf1adc20e32",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
