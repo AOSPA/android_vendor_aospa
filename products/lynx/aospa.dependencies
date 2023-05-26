@@ -36,6 +36,12 @@
         "revision":     "topaz"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_google_lynx-sepolicy",
+        "target_path":  "device/google/lynx-sepolicy",
+        "revision":     "topaz"
+    },
+    {
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_google",
         "target_path":  "vendor/google_devices",
@@ -51,12 +57,6 @@
         "remote":       "aosp",
         "repository":   "device/google/lynx-kernel",
         "target_path":  "device/google/lynx-kernel",
-        "revision":     "refs/tags/android-13.0.0_r49"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "device/google/lynx-sepolicy",
-        "target_path":  "device/google/lynx-sepolicy",
         "revision":     "refs/tags/android-13.0.0_r49"
     },
     {
