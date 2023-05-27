@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f68f444_4fe158ec",
+        "filename": "products/marsche/aospa_marsche.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000730
+      },
+      "writtenOn": "2023-05-27T18:28:18Z",
+      "side": 1,
+      "message": "*2023",
+      "revId": "fded11a4e931edc2d5c255587250ece08d55916a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
