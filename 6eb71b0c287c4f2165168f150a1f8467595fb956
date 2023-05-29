@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59172b0f_02782482",
+        "filename": "products/jasmine_sprout/aospa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000838
+      },
+      "writtenOn": "2023-05-29T05:06:15Z",
+      "side": 1,
+      "message": "Yes, I am not fully done yet. Will do and submit asap when i am done",
+      "parentUuid": "2ab56cf4_7a9d4b14",
+      "revId": "6eb71b0c287c4f2165168f150a1f8467595fb956",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bf7c1cd2_b69546ef",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-04-28T21:34:32Z",
       "side": 1,
       "message": "Happy New Year!",
+      "revId": "6eb71b0c287c4f2165168f150a1f8467595fb956",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65bc06a7_5149177f",
+        "filename": "products/jasmine_sprout/aospa_jasmine_sprout.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000838
+      },
+      "writtenOn": "2023-05-29T05:06:15Z",
+      "side": 1,
+      "message": "Thank you",
+      "parentUuid": "bf7c1cd2_b69546ef",
       "revId": "6eb71b0c287c4f2165168f150a1f8467595fb956",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
