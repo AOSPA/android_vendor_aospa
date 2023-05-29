@@ -16,6 +16,24 @@
       "message": "do this from device tree",
       "revId": "4f3aa2eb9050ae6bb59e48c087986f61542aa533",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ff021d7_1b39ffb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000838
+      },
+      "writtenOn": "2023-05-29T06:25:59Z",
+      "side": 1,
+      "message": "Adding it here is wrong? \n\nI just wanted to make it look clean by adding all $(SRC_TARGET_DIR)/product* in one place",
+      "parentUuid": "77d6c577_682a2e3c",
+      "revId": "4f3aa2eb9050ae6bb59e48c087986f61542aa533",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
