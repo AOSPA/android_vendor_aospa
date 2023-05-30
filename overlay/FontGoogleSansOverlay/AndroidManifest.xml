@@ -23,7 +23,7 @@
 
     <application
         android:hasCode="false"
-        android:label="@string/font_google_sans_lato_overlay"/>
+        android:label="@string/font_google_sans_lato_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="google-sans,google-sans-medium" />

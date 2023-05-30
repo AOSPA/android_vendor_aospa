@@ -24,7 +24,7 @@
 
     <application
         android:hasCode="false" 
-        android:label="@string/font_inter_overlay"/>
+        android:label="@string/font_inter_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="inter,inter-medium" />
