@@ -31,7 +31,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_realme_sm7325",
+        "repository":   "AOSPA/android_kernel_oplus_lahaina",
         "target_path":  "kernel/msm-5.4",
         "revision":     "topaz"
     },
