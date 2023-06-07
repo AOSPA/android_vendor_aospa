@@ -135,6 +135,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
 
+# Opt out of 16K alignment changes
+PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 4096
+
 # One Handed Mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
