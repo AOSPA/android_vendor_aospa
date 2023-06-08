@@ -48,6 +48,12 @@
         "revision":     "topaz"
     },
     {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_nothing_firmware",
+        "target_path":  "vendor/nothing/firmware",
+        "revision":     "topaz"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_packages_apps_ParanoidGlyph",
         "target_path":  "packages/apps/ParanoidGlyph",
