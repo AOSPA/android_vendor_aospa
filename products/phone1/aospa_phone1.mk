@@ -27,7 +27,7 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := phone1
 PRODUCT_MANUFACTURER := Nothing
-PRODUCT_MODEL := Nothing phone (1)
+PRODUCT_MODEL := A063
 PRODUCT_NAME := aospa_phone1
 
 # Bootanimation resolution
