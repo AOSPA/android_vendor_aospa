@@ -16,6 +16,24 @@
       "message": "I\u0027m fine with the substantive changes here, but can we move prebuilts to the separate repo we have on gitlab?\n\nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/25172",
       "revId": "f3f10a9f0645d5135ddee195981fbb8b96960906",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c987b53_3c2de982",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-06-11T05:17:02Z",
+      "side": 1,
+      "message": "can we merge this first for those who dont ship gcamgo, we can move all prebuilts to gitlab at a later date",
+      "parentUuid": "4812fdea_8431e37d",
+      "revId": "f3f10a9f0645d5135ddee195981fbb8b96960906",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
