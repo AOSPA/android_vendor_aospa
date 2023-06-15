@@ -17,6 +17,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Interfejs glifów</string>
+    <string name="glyph_settings_enable">Światła glifów</string>
+    <string name="glyph_settings_title">Interfejs glifów</string>
+    <string name="glyph_settings_summary">Opcje dla świateł glifów</string>
+    <string name="glyph_settings_flip_toggle_title">Odwróć, aby aktywować glif</string>
     <string name="glyph_settings_flip_toggle_summary">Wycisz i pokaż glify, jeśli telefon jest skierowany w dół</string>
     <string name="glyph_settings_brightness">Jasność</string>
     <string name="glyph_settings_charging_title">Animacja ładowania</string>

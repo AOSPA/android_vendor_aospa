@@ -8,4 +8,47 @@
     <string name="system_update_update_available">Atualização do sistema disponível</string>
     <string name="system_update_update_available_security_update">Atualização de segurança disponível</string>
     <string name="system_update_update_available_desc">%1$s Tamanho da atualização: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Atualizações importantes&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Tamanho da atualização: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Esta atualização adiciona melhorias de estabilidade, além de corrigir erros críticos. Saiba mais em &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid. o&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;importante atualiza&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Tamanho: %5$s</string>
+    <string name="system_update_update_available_button">Baixar e instalar</string>
+    <string name="system_update_update_download_install">Instalando atualização do sistema…</string>
+    <string name="system_update_update_download_install_security_update">Instalando atualização de segurança…</string>
+    <string name="system_update_update_download_install_step">Baixando e instalando a atualização</string>
+    <string name="system_update_update_download_install_verify">Verificando atualização de sistema…</string>
+    <string name="system_update_update_download_install_complete">Atualização do sistema concluída</string>
+    <string name="system_update_update_download_install_complete_desc">Toque no botão reiniciar para reiniciar seu dispositivo e aplicar a atualização</string>
+    <string name="system_update_update_download_install_complete_restart_button">Reiniciar</string>
+    <string name="system_update_update_download_install_paused">Download pausado.</string>
+    <string name="system_update_update_download_install_pause_button">Pausar</string>
+    <string name="system_update_update_download_install_resume_button">Continuar</string>
+    <string name="system_update_update_download_install_cancel_button">Cancelar</string>
+    <string name="system_update_update_download_install_error">Não foi possível atualizar. </string>
+    <string name="system_update_update_download_install_step_download">Baixando atualização...</string>
+    <string name="system_update_update_download_install_step_download_verify">Verificando download...</string>
+    <string name="system_update_update_download_install_step_install">Instalando atualização...</string>
+    <string name="system_update_update_download_install_step_finalize">Otimizando aplicativos, isso pode demorar um pouco</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Problema no download</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Problemas com a verificação</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Problema na instalação</string>
+    <string name="system_update_update_download_install_error_button">Tentar novamente</string>
+    <string name="system_update_notification_channel">Atualização de sistema</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Atualizações Paranoid Android</string>
+    <string name="system_update_notification_update_available_desc">Toque para saber mais sobre esta atualização</string>
+    <string name="system_update_notification_update_finished_reboot">Reinicie seu dispositivo</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Toque para finalizar a aplicação da atualização</string>
+    <string name="system_update_notification_update_completed">Atualização do sistema concluída</string>
+    <string name="system_update_notification_update_completed_desc">Você já está atualizado! Você pode continuar usando seu dispositivo</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 segundo restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> segundos restantes</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minuto restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos restantes</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hora restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
+    </plurals>
 </resources>
