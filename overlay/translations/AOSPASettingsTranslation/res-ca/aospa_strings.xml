@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2023 Paranoid Android
+<!-- Copyright 2016-2022 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,5 +14,30 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+    <!-- Paranoid Android version -->
+    <!-- Gestures Settings -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Screenshot shutter -->
+    <!-- Fingerprint wake-and-unlock -->
+    <!-- Adaptive Playback -->
+    <!-- Volume button music control -->
+    <!-- Torch Power button gestures -->
+    <!-- Status bar Icon Manager -->
+    <!-- Notch: Full screen apps -->
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- DC Dimming -->
+    <!-- Black theme -->
+    <!-- Ambient wake toggles -->
+    <!-- Doze enablement -->
+    <!-- Navbar options -->
+    <!-- Vibration patterns -->
 </resources>
