@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Paranoid Android Version</string>
+    <string name="offscreen_gesture_title">Gesten bei ausgeschaltetem Bildschirm</string>
+    <string name="offscreen_gesture_summary">Muster zeichnen oder auf den Bildschirm tippen, um Aktionen auszuführen</string>
+    <string name="keywords_gestures">Bildschirm Touchscreen zeichnen Wischen Finger</string>
+    <string name="gestures_master">Gesten bei ausgeschaltetem Bildschirm verwenden</string>
+    <string name="gestures_disabled">Deaktiviert</string>
+    <string name="gestures_wake_device">Gerät aufwecken</string>
+    <string name="gestures_pulse_ambient_display">Puls zum \"Ambient Display\"</string>
+    <string name="gestures_toggle_flashlight">Taschenlampe ein-/ausschalten</string>
+    <string name="gestures_toggle_airplane_mode">Flugmodus ein- und ausschalten</string>
+    <string name="gestures_play_pause_music">Musik abspielen/pausieren</string>
+    <string name="gestures_next_music">Nächster Titel</string>
+    <string name="gestures_previous_music">Vorheriger Titel</string>
+    <string name="gestures_open_camera">Kamera öffnen</string>
+    <string name="gestures_open_dialer">Telefon-App öffnen</string>
+    <string name="gestures_double_tap">Doppeltes Tippen</string>
+    <string name="gestures_single_tap">Einfaches Tippen</string>
+    <string name="gestures_draw_v">Zeichne \'V\'</string>
+    <string name="gestures_draw_inverse_v">Zeichne ein invertiertes V</string>
+    <string name="gestures_draw_o">Zeichne \'O\'</string>
+    <string name="gestures_draw_m">Zeichne \'M\'</string>
+    <string name="gestures_draw_w">Zeichne \'W\'</string>
+    <string name="gestures_draw_s">Zeichne \'S\'</string>
+    <string name="gestures_draw_arrow_left">Zeichne ein &lt;</string>
+    <string name="gestures_draw_arrow_right">Zeichne ein &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Mit einem Finger nach oben wischen</string>
+    <string name="gestures_one_finger_swipe_right">Mit einem Finger nach rechts wischen</string>
+    <string name="gestures_one_finger_swipe_down">Mit einem Finger nach unten wischen</string>
+    <string name="gestures_one_finger_swipe_left">Mit einem Finger nach links wischen</string>
+    <string name="gestures_two_finger_swipe">Zwei-Finger-Wischen</string>
+    <string name="three_finger_gesture">Wischen um Bildschirmfoto zu erstellen</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen um einen Screenshot aufzunehmen</string>
+    <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
+    <string name="prevent_ringing_option_cycle">Zwischen den Modi wechseln</string>
+    <string name="prevent_ringing_option_cycle_summary">An (Zwischen den Modi wechseln)</string>
+    <string name="ambient_display_screen_off_udfps_title">Always-On Fingerabdruck</string>
+    <string name="ambient_display_screen_off_udfps_summary">Ermöglicht das Entsperren bei ausgeschaltetem Bildschirm.\nDie Aktivierung kann zu einem unbeabsichtigten Aufwecken führen.</string>
+    <string name="screenshot_shutter_sound_title">Bildschirmfoto-Ton</string>
+    <string name="fingerprint_wake_unlock_title">Zum Entsperren Fingerabdrucksensor berühren</string>
+    <string name="fingerprint_wake_unlock_touch">Hört auf Ereignisse, während der Bildschirm aus ist</string>
+    <string name="fingerprint_wake_unlock_press">Hört nur auf Ereignisse, wenn der Bildschirm an ist</string>
+    <string name="adaptive_playback_screen_title">Intelligente Pause</string>
+    <string name="adaptive_playback_enabled">Smart Pause verwenden</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_intro_text">Medien werden bei Stummschaltung automatisch pausiert und bei Aufhebung der Stummschaltung innerhalb des Zeitlimits wieder fortgesetzt</string>
+    <string name="adaptive_playback_timeout_title">Timeout verwenden von</string>
+    <string name="adaptive_playback_timeout_none">kein Zeitlimit</string>
+    <string name="adaptive_playback_timeout_none_summary">An (kein Timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
+    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
+    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
+    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketaste der Musiktitel gewechselt</string>
+    <string name="power_button_torch_title">Schnelle Taschenlampe</string>
+    <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird durch langes Drücken der Ein-/Aus-Taste die Taschenlampe aktiviert</string>
+    <string name="icon_manager_title">Icon-Manager</string>
+    <string name="icon_manager_summary">Sichtbarkeit der Statusleistensymbole</string>
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Apps zwingen, die Notch zu ignorieren</string>
+    <string name="search">Suchen</string>
+    <string name="search_apps">Apps suchen</string>
+    <string name="category_name_refresh_rate_controls">Bildwiederholrate</string>
+    <string name="color_mode_balance_category">Farbausgleich</string>
+    <string name="color_mode_balance_red">Rot (Stärke)</string>
+    <string name="color_mode_balance_green">Grün (Stärke)</string>
+    <string name="color_mode_balance_blue">Blau (Stärke)</string>
+    <string name="keywords_color_balance">Farbe, Farbausgleich, Farbkorrektur, rot, grün, blau</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduziert die Belastung bei geringen Lichtverhältnissen durch die Minimierung des Bildschirmflimmerns. Kann zu einer geringeren Bildqualität und einer schlechten Farbproduktion oder einem höheren Stromverbrauch führen.</string>
+    <string name="dc_dimming_main_switch_title">DC-Dimming verwenden</string>
+    <string name="keywords_display_dc_dimming">DC Dimming, Anti, Flackern, Auge, Belastung</string>
+    <string name="system_black_theme_title">Schwarzes Design verwenden</string>
+    <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
+    <string name="doze_gesture_ambient_title">Inaktiv anzeigen</string>
+    <string name="gesture_wake">Volles Wecken</string>
+    <string name="navbar_invert_layout_title">Navigationsleistenlayout umkehren</string>
+    <string name="navbar_invert_info">Tausche die \"Zurück\" und \"Zuletzt geöffnet\" Tasten in der Navigationsleiste</string>
+    <string name="notification_vibration_pattern_title">Benachrichtigungs-Vibrationsmuster</string>
+    <string name="ring_vibration_pattern_title">Rufton-Vibrationsmuster</string>
+    <string name="pattern_default">Gerätestandard</string>
+</resources>
