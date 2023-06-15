@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Wersja Paranoid Android</string>
+    <string name="offscreen_gesture_title">Gesty przy wyłączonym ekranie</string>
+    <string name="offscreen_gesture_summary">Narysuj wzory lub dotknij ekranu, aby wykonać akcje</string>
+    <string name="keywords_gestures">ekran ekran dotykowy narysuj przesuń palec dotknij</string>
+    <string name="gestures_master">Używaj gestów przy wyłączonym ekranie</string>
+    <string name="gestures_disabled">Wyłączono</string>
+    <string name="gestures_wake_device">Wybudź urządzenie</string>
+    <string name="gestures_pulse_ambient_display">Puls do ekranu dostosowanego do otoczenia</string>
+    <string name="gestures_toggle_flashlight">Włącz/wyłącz latarkę</string>
+    <string name="gestures_toggle_airplane_mode">Włącz/wyłącz tryb samolotowy</string>
+    <string name="gestures_play_pause_music">Odtwórz/Zatrzymaj muzykę</string>
+    <string name="gestures_next_music">Następny utwór</string>
+    <string name="gestures_previous_music">Poprzedni utwór</string>
+    <string name="gestures_open_camera">Uruchom aparat</string>
+    <string name="gestures_open_dialer">Otwórz wybieranie numerów</string>
+    <string name="gestures_double_tap">Podwójne dotknięcie</string>
+    <string name="gestures_single_tap">Pojedyncze dotknięcie</string>
+    <string name="gestures_draw_v">Narysuj V</string>
+    <string name="gestures_draw_inverse_v">Narysuj odwrócone V</string>
+    <string name="gestures_draw_o">Narysuj O</string>
+    <string name="gestures_draw_m">Narysuj M</string>
+    <string name="gestures_draw_w">Narysuj W</string>
+    <string name="gestures_draw_s">Narysuj S</string>
+    <string name="gestures_draw_arrow_left">Narysuj &lt;</string>
+    <string name="gestures_draw_arrow_right">Narysuj &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Przesunięcie jednym palcem w górę</string>
+    <string name="gestures_one_finger_swipe_right">Przesunięcie jednym palcem w prawo</string>
+    <string name="gestures_one_finger_swipe_down">Przesunięcie jednym palcem w dół</string>
+    <string name="gestures_one_finger_swipe_left">Przesunięcie jednym palcem w lewo</string>
+    <string name="gestures_two_finger_swipe">Przesunięcie dwoma palcami</string>
+    <string name="three_finger_gesture">Przesuń, aby zrobić zrzut ekranu</string>
+    <string name="three_finger_gesture_summary">Przesuń trzema palcami w dół, aby wykonać zrzut ekranu</string>
+    <string name="duration_less_than_one_minute">Poniżej minuty</string>
+    <string name="screen_time_summary_usage_today">%1$s dzisiaj</string>
+    <string name="prevent_ringing_option_cycle">Przełączaj między trybami</string>
+    <string name="prevent_ringing_option_cycle_summary">Włączony (przechodzenie między trybami)</string>
+    <string name="ambient_display_screen_off_udfps_summary">Pozwala na odblokowanie przy wyłączonym ekranie.\nWłączenie może spowodować przypadkowe wybudzenia.</string>
+    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <string name="fingerprint_wake_unlock_title">Dotknij czytnika linii papilarnych, aby odblokować</string>
+    <string name="fingerprint_wake_unlock_touch">Nasłuchuj wydarzeń, gdy ekran jest wyłączony</string>
+    <string name="fingerprint_wake_unlock_press">Nasłuchuj wydarzeń tylko wtedy, gdy ekran jest włączony</string>
+    <string name="navbar_invert_info">Spowoduje to zamianę przycisków \"Wstecz\" z \"Ostatnie\" na pasku nawigacji</string>
+    <string name="notification_vibration_pattern_title">Wzór wibracji powiadomień</string>
+    <string name="ring_vibration_pattern_title">Wzór wibracji dzwonka</string>
+    <string name="pattern_default">Domyślnie dla urządzenia</string>
+</resources>
