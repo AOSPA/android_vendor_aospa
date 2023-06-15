@@ -15,5 +15,5 @@
      limitations under the License.
 -->
 <resources>
-    <string name="volume_dialog_ringer_guidance_normal">Chamadas e notificações irão tocar</string>
+    <string name="volume_dialog_ringer_guidance_normal">Anrufe und Benachrichtigungen werden klingeln</string>
 </resources>
