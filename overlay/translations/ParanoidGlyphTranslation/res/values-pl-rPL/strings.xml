@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Interfejs glifów</string>
+    <string name="glyph_settings_enable">Światła glifów</string>
+    <string name="glyph_settings_title">Interfejs glifów</string>
+    <string name="glyph_settings_summary">Opcje dla świateł glifów</string>
+    <string name="glyph_settings_flip_toggle_title">Odwróć, aby aktywować glif</string>
+    <string name="glyph_settings_flip_toggle_summary">Wycisz i pokaż glify, jeśli telefon jest skierowany w dół</string>
+    <string name="glyph_settings_brightness">Jasność</string>
+    <string name="glyph_settings_charging_title">Animacja ładowania</string>
+    <string name="glyph_settings_charging_level_title">Poziom naładowania baterii</string>
+    <string name="glyph_settings_charging_level_summary">Pokaż poziom naładowania baterii przy podłączaniu</string>
+    <string name="glyph_settings_charging_powershare_title">Bezprzewodowe ładowanie zwrotne</string>
+    <string name="glyph_settings_charging_powershare_summary">Pokaż animację po wykryciu zwrotnego ładowania bezprzewodowego</string>
+    <string name="glyph_settings_call_title">Połączenia</string>
+    <string name="glyph_settings_call_toggle_title">Animacja połączenia</string>
+    <string name="glyph_settings_call_toggle_summary">Migaj diodą przy połączeniach przychodzących</string>
+    <string name="glyph_settings_call_sub_toggle_title">Włącz animację połączeń</string>
+    <string name="glyph_settings_call_sub_animations_title">Wzór</string>
+    <string name="glyph_settings_notifs_title">Powiadomienia</string>
+    <string name="glyph_settings_notifs_toggle_title">Animacja powiadomień</string>
+    <string name="glyph_settings_notifs_toggle_summary">Migaj diodą przy nowych powiadomieniach</string>
+    <string name="glyph_settings_notifs_sub_title">Aplikacje do zezwolenia</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Włącz animację powiadomień</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Wzór</string>
+    <string name="glyph_settings_misc_title">Różne</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Wizualizer muzyki</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">ŚWIATŁA DISCO!\nto wyłączy wszystkie inne funkcje glifów, jeśli włączone</string>
+    <string name="glyph_accessibility_quick_settings">Glif</string>
+    <string name="glyph_accessibility_quick_settings_torch">Latarka glifowa</string>
+    <string name="glyph_accessibility_quick_settings_off">Wyłącz</string>
+    <string name="glyph_accessibility_quick_settings_on">Włącz</string>
+</resources>
