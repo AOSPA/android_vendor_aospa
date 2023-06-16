@@ -4,6 +4,7 @@
     <string name="face_enroll_title">请将你的面部正对手机</string>
     <string name="face_enroll_description">保持静止，并确保您处于光线充足的环境中</string>
     <string name="face_try_again_title">无法捕捉到您的面部</string>
+    <string name="face_try_again_description">点击下面的按钮重试。 下次，请确保您处于光线充足的环境中并且没有任何东西遮挡您的脸。</string>
     <string name="btn_try_again">重试</string>
     <string name="attr_light_dark">面部需要更多光线</string>
     <string name="attr_light_high">面部光线太强</string>

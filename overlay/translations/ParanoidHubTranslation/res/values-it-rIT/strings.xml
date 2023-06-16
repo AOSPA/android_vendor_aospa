@@ -28,4 +28,11 @@
     <string name="system_update_update_download_install_step_download_verify">Verifica del download</string>
     <string name="system_update_update_download_install_step_install">Installazione aggiornamento</string>
     <string name="system_update_update_download_install_step_finalize">Ottimizzazione applicazioni, questo potrebbe richiedere del tempo</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Problema di download</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Problema con la verifica</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Problema d\'installazione</string>
+    <string name="system_update_update_download_install_error_button">Riprova</string>
+    <string name="system_update_notification_channel">Aggiornamenti di sistema</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Aggiornamento di sistema Paranoid Android</string>
 </resources>
