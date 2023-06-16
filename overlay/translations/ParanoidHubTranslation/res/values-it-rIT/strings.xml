@@ -25,4 +25,7 @@
     <string name="system_update_update_download_install_cancel_button">Annulla</string>
     <string name="system_update_update_download_install_error">Impossibile aggiornare</string>
     <string name="system_update_update_download_install_step_download">Scaricamento aggiornamento</string>
+    <string name="system_update_update_download_install_step_download_verify">Verifica del download</string>
+    <string name="system_update_update_download_install_step_install">Installazione aggiornamento</string>
+    <string name="system_update_update_download_install_step_finalize">Ottimizzazione applicazioni, questo potrebbe richiedere del tempo</string>
 </resources>
