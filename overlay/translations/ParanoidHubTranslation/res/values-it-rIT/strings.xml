@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aggiornamento Sistema</string>
+    <string name="system_update_update_to_date">Il tuo sistema è aggiornato</string>
+    <string name="system_update_update_to_date_desc">Versione di Paranoid Android: %1$s %2$s &lt;br&gt;Aggiornamento di sicurezza Android: %3$s&lt;br&gt;&lt;br&gt;Ultimo controllo aggiornamenti completato con successo: %4$s</string>
+    <string name="system_update_update_to_date_button">Verifica la presenza di aggiornamenti</string>
+    <string name="system_update_checking_for_update">Ricerca aggiornamenti…</string>
+    <string name="system_update_update_available">Aggiornamento di sistema disponibile</string>
+    <string name="system_update_update_available_security_update">Aggiornamento di sicurezza disponibile</string>
+    <string name="system_update_update_available_desc">%1$s Dimensione aggiornamento: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Aggiornamenti importanti&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Dimensione aggiornamento: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Questo aggiornamento aggiunge miglioramenti di stabilità, oltre a correggere i bug critici. Scopri di più su &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid. co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Aggiornamenti importanti&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Dimensione aggiornamento: %5$s</string>
+    <string name="system_update_update_available_button">Scarica e installa</string>
+    <string name="system_update_update_download_install">Installazione aggiornamento di sistema…</string>
+    <string name="system_update_update_download_install_security_update">Installazione aggiornamento di sicurezza…</string>
+    <string name="system_update_update_download_install_desc">@string/system_update_update_available_desc</string>
+    <string name="system_update_update_download_install_step">Scaricamento e installazione aggiornamento</string>
+    <string name="system_update_update_download_install_verify">Verificando l\'aggiornamento di sistema...</string>
+    <string name="system_update_update_download_install_complete">L\'aggiornamento del sistema è terminato</string>
+</resources>

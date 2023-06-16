@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">Google फ़ीड देखने के लिए स्वाइप करे </string>
+    <string name="msg_minus_one_on_left">होम स्क्रीन से Google फ़ीड देखेने के लिए बाइए से स्वाइप करे </string>
+    <string name="msg_minus_one_on_right">होम स्क्रीन से Google फ़ीड देखेने के लिए दाहिने ओर से स्वाइप करे </string>
+    <string name="pref_dt_gesture_title">स्लीप के लिए दो बार दबाए</string>
+    <string name="pref_dt_gesture_summary">स्क्रीन ऑफ करे ने लिए खाली जगह पर दो बार दबाए</string>
+    <string name="suggestion_pref_screen_title">सुझाव</string>
+    <string name="suggestion_pref_screen_desc">सभी ऐप्स और होम स्क्रीन सुझावों के लिए</string>
+    <string name="settings_lock_layout_title">लेआउट लॉक करें</string>
+    <string name="settings_lock_layout_summary_on">आइकंस और विजेट्स को होमस्क्रीन पर जोड़ा, हटाया और हिलाया नहीं जा सकता है</string>
+    <string name="settings_lock_layout_summary_off">आइकंस और विजेट्स को होमस्क्रीन पर जोड़ा, हटाया और हिलाया जा सकता है</string>
+    <string name="settings_edit_widgets_error">होमस्क्रीन पर विजेट्स जोड़ना संभव नहीं है</string>
+    <string name="desktop_show_labels">होम स्क्रीन पर आइकन के लेबल दिखाएं</string>
+    <string name="drawer_show_labels">ड्रॉअर में आइकन के लेबल दिखाएं</string>
+</resources>
