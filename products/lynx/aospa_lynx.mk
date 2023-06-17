@@ -40,8 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=Pixel7 \
     PRIVATE_BUILD_DESC="lynx-user 13 TQ2B.230505.005.A1 9808202 release-keys"
 
-BUILD_FINGERPRINT := google/lynx/lynx:13/TQ2B.230505.005.A1/9808202:user/release-keys
-
-$(call inherit-product, vendor/google_devices/lynx/lynx-vendor.mk)
+BUILD_FINGERPRINT := google/lynx/lynx:13/TQ3A.230605.012/10204971:user/release-keys
 
 endif
