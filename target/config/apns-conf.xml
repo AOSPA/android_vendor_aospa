@@ -15387,6 +15387,15 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
   />
+  <apn carrier="Liberty Internet"
+      mcc="313"
+      mnc="790"
+      apn="internet"
+      type="default,supl,fota,xcap"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="FFFF"
+  />
   <apn carrier="Sprint APN"
       mcc="316"
       mnc="010"
