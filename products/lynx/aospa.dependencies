@@ -51,72 +51,78 @@
         "remote":       "aosp",
         "repository":   "device/google/gs-common",
         "target_path":  "device/google/gs-common",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "device/google/lynx-kernel",
         "target_path":  "device/google/lynx-kernel",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/external/wpa_supplicant_8",
         "target_path":  "external/wpa_supplicant_8",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/pixel-sepolicy",
         "target_path":  "hardware/google/pixel-sepolicy",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/gchips",
         "target_path":  "hardware/google/gchips",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/camera",
         "target_path":  "hardware/google/camera",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/common",
         "target_path":  "hardware/google/graphics/common",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/gs101",
         "target_path":  "hardware/google/graphics/gs101",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/gs201",
         "target_path":  "hardware/google/graphics/gs201",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/google/interfaces",
         "target_path":  "hardware/google/interfaces",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/st/nfc",
         "target_path":  "hardware/st/nfc",
-        "revision":     "refs/tags/android-13.0.0_r49"
+        "revision":     "refs/tags/android-13.0.0_r52"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/system/chre",
+        "target_path":  "system/chre",
+        "revision":     "refs/tags/android-13.0.0_r52"
     }
 ]
