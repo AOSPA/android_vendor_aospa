@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_settings_caffeine_label">Koffein</string>
+    <string name="accessibility_quick_settings_caffeine_off">Koffein aus</string>
+    <string name="accessibility_quick_settings_caffeine_on">Koffein an</string>
+    <string name="qs_data_switch_label">Daten-SIM wechseln</string>
+    <string name="qs_data_switch_toast_0">Derzeit ist keine SIM-Karte eingelegt</string>
+    <string name="qs_data_switch_toast_1">Derzeit ist nur eine SIM-Karte eingelegt</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Datenkarte auf SIM 1 gewechselt.</string>
+    <string name="qs_data_switch_changed_2">Datenkarte wurde auf SIM 2 gewechselt.</string>
+    <string name="quick_settings_heads_up_label">Pop-up-Benachrichtigungen</string>
+    <string name="accessibility_quick_settings_heads_up_off">Pop-up-Benachrichtigungen aus.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Pop-up-Benachrichtigungen an.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Pop-Up-Benachrichtigungen ausgeschaltet.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Pop-Up Benachrichtigungen eingeschaltet.</string>
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_aod_label">Always-on-Display</string>
+    <string name="quick_settings_powershare_label">Akku teilen</string>
+    <string name="quick_settings_powershare_off_powersave_label">Akktu teilen aus\nEnergiesparmodus</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Akktu teilen aus\nAkku zu schwach</string>
+    <string name="quick_settings_powershare_enabled_label">Akku teilen ist aktiviert</string>
+</resources>

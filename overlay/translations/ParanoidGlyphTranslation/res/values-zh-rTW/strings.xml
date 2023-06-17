@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph interface</string>
+    <string name="glyph_settings_enable">Glyph 燈效</string>
+    <string name="glyph_settings_title">Glyph interface</string>
+    <string name="glyph_settings_summary">自訂 Glyph 燈效</string>
+    <string name="glyph_settings_flip_toggle_title">翻轉裝置來開關 Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">螢幕朝下時靜音並顯示 Glyph 燈效</string>
+    <string name="glyph_settings_brightness">亮度</string>
+    <string name="glyph_settings_charging_title">充電動畫</string>
+    <string name="glyph_settings_charging_level_title">電量</string>
+    <string name="glyph_settings_charging_level_summary">充電時顯示電量</string>
+    <string name="glyph_settings_charging_powershare_title">反向無線充電</string>
+    <string name="glyph_settings_charging_powershare_summary">在使用反向無線充電時顯示動畫</string>
+    <string name="glyph_settings_call_title">來電</string>
+    <string name="glyph_settings_call_toggle_title">來電動畫</string>
+    <string name="glyph_settings_call_toggle_summary">有來電時閃爍燈光</string>
+    <string name="glyph_settings_call_sub_toggle_title">啟用來電動畫</string>
+    <string name="glyph_settings_call_sub_animations_title">樣式</string>
+    <string name="glyph_settings_notifs_title">通知</string>
+    <string name="glyph_settings_notifs_toggle_title">通知動畫</string>
+    <string name="glyph_settings_notifs_toggle_summary">有通知時顯示動畫</string>
+    <string name="glyph_settings_notifs_sub_title">篩選應用程式</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">啟用通知動畫</string>
+    <string name="glyph_settings_notifs_sub_animations_title">樣式</string>
+    <string name="glyph_settings_misc_title">雜項</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">音樂視覺化效果</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">迪斯可模式！\n啟用後將停用其他 Glyph 燈光效果動畫</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Glyph 手電筒</string>
+    <string name="glyph_accessibility_quick_settings_off">關閉</string>
+    <string name="glyph_accessibility_quick_settings_on">開啟</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Paranoid Android sürümü</string>
+    <string name="offscreen_gesture_title">Kapalı ekran hareketleri</string>
+    <string name="offscreen_gesture_summary">Eylemleri gerçekleştirmek için desenler çizin veya ekrana dokunun</string>
+    <string name="keywords_gestures">ekranda parmağınızı kaydırarak çizin</string>
+    <string name="gestures_master">Kapalı ekran hareketlerini etkinleştir</string>
+    <string name="gestures_disabled">Devre dışı</string>
+    <string name="gestures_wake_device">Cihazı uyandır</string>
+    <string name="gestures_toggle_flashlight">El fenerini aç-kapat</string>
+    <string name="gestures_toggle_airplane_mode">Uçak modunu aç-kapat</string>
+    <string name="gestures_play_pause_music">Müziği Oynat/Durdur</string>
+    <string name="gestures_next_music">Sonraki şarkı</string>
+    <string name="gestures_previous_music">Önceki şarkı</string>
+    <string name="gestures_open_camera">Kamerayı aç</string>
+    <string name="gestures_open_dialer">Telefonu aç</string>
+    <string name="gestures_double_tap">Çift dokunma</string>
+    <string name="gestures_single_tap">Tek dokunma</string>
+    <string name="gestures_draw_v">V çizin</string>
+    <string name="gestures_draw_inverse_v">Ters V çizin</string>
+    <string name="gestures_draw_o">O çizin</string>
+    <string name="gestures_draw_m">M çizin</string>
+    <string name="gestures_draw_w">W çizin</string>
+    <string name="gestures_draw_s">S harfi çizin</string>
+    <string name="gestures_draw_arrow_left">&lt; çizin</string>
+    <string name="gestures_draw_arrow_right">&gt; çizin</string>
+    <string name="gestures_one_finger_swipe_up">Bir parmağınızı yukarı kaydırın</string>
+    <string name="gestures_one_finger_swipe_right">Bir parmağınızı sağa kaydırın</string>
+    <string name="gestures_one_finger_swipe_down">Bir parmağınızı aşağı kaydırın</string>
+    <string name="gestures_one_finger_swipe_left">Bir parmağınızı sola kaydırın</string>
+    <string name="gestures_two_finger_swipe">İki parmak kaydırın</string>
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
+    <string name="duration_less_than_one_minute">1 dakikadan az</string>
+    <string name="screen_time_summary_usage_today">Bugün %1$s</string>
+    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
+    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
+    <string name="ambient_display_screen_off_udfps_title">Her zaman açık parmak izi okuyucu</string>
+    <string name="ambient_display_screen_off_udfps_summary">Ekran kapalıyken kilidin açılmasına izin verir.\nEtkinleştirme, yanlışlıkla uyanmalara neden olabilir.</string>
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü alındı sesi</string>
+    <string name="adaptive_playback_screen_title">Akıllı duraklatma</string>
+    <string name="adaptive_playback_enabled">Akıllı duraklatmayı kullan</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_intro_text">Ses kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses geri yüklendiğinde otomatik olarak devam eder.</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
+    <string name="power_button_torch_title">Hızlı el feneri</string>
+    <string name="power_button_torch_summary">Ekran kapalıyken güç tuşuna uzun süreli basıldığında el feneri etkinleştirilir</string>
+    <string name="icon_manager_title">Simge yöneticisi</string>
+    <string name="icon_manager_summary">Durum çubuğu simgelerinin görünürlüğünü kontrol edin</string>
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik boşluğunu yoksaymaya zorla</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulamaları ara</string>
+    <string name="category_name_refresh_rate_controls">Yenileme hızı</string>
+    <string name="color_mode_balance_category">Renk dengesi</string>
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
+    <string name="dc_dimming_title">DC Karartma</string>
+    <string name="dc_dimming_info">Düşük ışık koşullarında ekran titremesini en aza indirerek göz yorgunluğunu azaltır. Görüntü kalitesinin düşmesine, düşük renk üretimine veya daha yüksek güç tüketimine neden olabilir.</string>
+    <string name="dc_dimming_main_switch_title">DC Karartma kullan</string>
+    <string name="keywords_display_dc_dimming">dc karartma, anti titreşim, göz, zorlanma</string>
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
+    <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
+    <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
+    <string name="gesture_wake_ambient">Ortam ekranını göster</string>
+    <string name="gesture_wake">Tamamen uyan</string>
+    <string name="doze_enabled_title">Ortam ekranı</string>
+    <string name="doze_enabled_summary">Doze paketi işlevselliğinin etkinleştirilip etkinleştirilmeyeceği</string>
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
+    <string name="navbar_invert_info">Gezinme çubuğunda \"Geri\" ve \"Son uygulamalar\" tuşlarının yerini değiştirin</string>
+    <string name="notification_vibration_pattern_title">Bildirim titreşim modeli</string>
+    <string name="ring_vibration_pattern_title">Zil sesi titreşim modeli</string>
+    <string name="pattern_default">Cihaz varsayılanı</string>
+</resources>

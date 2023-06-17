@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine vyp.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine zap.</string>
+    <string name="qs_data_switch_label">Přepnout datovou SIM kartu</string>
+    <string name="qs_data_switch_toast_0">Momentálně není vložena žádná SIM karta</string>
+    <string name="qs_data_switch_toast_1">Momentálně je vložena pouze jedna SIM karta</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Přepnuta datová karta na SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Přepnuta datová karta na SIM 2.</string>
+    <string name="quick_settings_heads_up_label">Plovoucí oznámení</string>
+    <string name="accessibility_quick_settings_heads_up_off">Plovoucí oznámení vyp.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Plovoucí oznámení zap.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Plovoucí oznámení byla vypnuta.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Plovoucí oznámení bylo zapnuto.</string>
+    <string name="quick_settings_dc_dimming_label">DC tlumení</string>
+    <string name="quick_settings_aod_label">Aktivní displej</string>
+    <string name="quick_settings_powershare_label">Reverzní nabíjení</string>
+    <string name="quick_settings_powershare_off_powersave_label">Reverzní nabíjení\nSpořič baterie</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Reverzní nabíjení\nNízký stav baterie</string>
+    <string name="quick_settings_powershare_enabled_label">Reverzní nabíjení je povoleno</string>
+</resources>

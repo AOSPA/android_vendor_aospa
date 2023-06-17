@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine uitgeschakeld</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine aan</string>
+    <string name="qs_data_switch_label">Gegevenskaart wijzigen</string>
+    <string name="qs_data_switch_toast_0">Momenteel is er geen SIM-kaart geplaatst</string>
+    <string name="qs_data_switch_toast_1">Momenteel is er slechts één SIM-kaart geplaatst</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Gegevenskaart overgezet naar SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Gegevenskaart overgezet naar SIM 2.</string>
+    <string name="quick_settings_heads_up_label">Heads-up</string>
+    <string name="accessibility_quick_settings_heads_up_off">Heads-up uit.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads-up aan.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Heads-up uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Heads-up ingeschakeld.</string>
+    <string name="quick_settings_dc_dimming_label">DC Dimmen</string>
+    <string name="quick_settings_aod_label">Altijd-aan-display</string>
+    <string name="quick_settings_powershare_label">Batterij delen</string>
+    <string name="quick_settings_powershare_off_powersave_label">Batterij delen uit\nBatterijbesparingsmodus</string>
+</resources>
