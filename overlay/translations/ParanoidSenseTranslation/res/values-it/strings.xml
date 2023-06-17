@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <string name="face_enroll_title">Centra il tuo viso nella fotocamera</string>
+    <string name="face_enroll_description">Rimani così, e assicurati di trovarti in un ambiente ben illuminato</string>
+    <string name="face_try_again_title">Impossibile catturare il tuo viso</string>
+    <string name="face_try_again_description">Tocca qui sotto per riprovare. La prossima volta, assicurati di essere in un ambiente ben illuminato e che niente stia oscurando il tuo viso</string>
+    <string name="btn_try_again">Riprova</string>
+    <string name="attr_light_dark">Il tuo viso ha bisogno di più luce</string>
+    <string name="attr_light_high">Il tuo viso è troppo illuminato</string>
+    <string name="attr_light_shadow">Il tuo viso ha troppe ombre</string>
+    <string name="unlock_failed_face_blur">Il tuo viso è troppo sfocato</string>
+    <string name="unlock_failed_face_large">Il tuo viso è troppo vicino</string>
+    <string name="unlock_failed_face_multi">Troppi visi rilevati</string>
+    <string name="unlock_failed_face_not_complete">Rilevata solo una parte del viso</string>
+    <string name="unlock_failed_face_small">Il tuo viso è troppo lontano</string>
+</resources>

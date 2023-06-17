@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <string name="face_enroll_title">Отцентрируйте свое лицо в камере</string>
+    <string name="face_enroll_description">Не двигайтесь и убедитесь, что вы находитесь в хорошо освещенном месте</string>
+    <string name="face_try_again_title">Не удалось отсканировать ваше лицо</string>
+    <string name="btn_try_again">Попробовать ещё раз</string>
+    <string name="attr_light_dark">Недостаточная освещённость лица</string>
+    <string name="attr_light_high">Лицо слишком сильно освещено</string>
+    <string name="attr_light_shadow">Слишком много теней на лице</string>
+    <string name="unlock_failed_face_blur">Лицо слишком размытое</string>
+    <string name="unlock_failed_face_large">Лицо находится слишком близко</string>
+    <string name="unlock_failed_face_multi">Обнаружено слишком много лиц</string>
+    <string name="unlock_failed_face_not_complete">Обнаружена лишь часть лица</string>
+    <string name="unlock_failed_face_small">Лицо находится слишком далеко</string>
+</resources>

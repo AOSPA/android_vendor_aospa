@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_settings_caffeine_label">Кофеин</string>
+    <string name="accessibility_quick_settings_caffeine_off">Кофеин выкл.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Кофеин вкл.</string>
+    <string name="qs_data_switch_label">Переключить SIM для передачи данных</string>
+    <string name="qs_data_switch_toast_0">Нет SIM-карты</string>
+    <string name="qs_data_switch_toast_1">Сейчас вставлена только одна SIM-карта</string>
+    <string name="qs_data_switch_changed_1">Выбрана SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Выбрана SIM 2.</string>
+    <string name="quick_settings_heads_up_label">Всплывающее окно</string>
+    <string name="accessibility_quick_settings_heads_up_off">Всплывающее окно выкл.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Всплывающее окно вкл.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающее окно выключено.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающее окно включено.</string>
+    <string name="quick_settings_powershare_label">Реверсивная зарядка</string>
+    <string name="quick_settings_powershare_off_powersave_label">Реверсивная зарядка выключена\nЭкономия заряда батареи</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Реверсивная зарядка выключена\nСлишком низкий заряд батареи</string>
+    <string name="quick_settings_powershare_enabled_label">Реверсивная зарядка включена</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">系統更新</string>
+    <string name="system_update_update_to_date">您的系統已處於最新狀態</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android 版本：%1$s %2$s &lt;br&gt;Android 安全性更新：%3$s&lt;br&gt;&lt;br&gt;上次檢查更新時間：%4$s</string>
+    <string name="system_update_update_to_date_button">檢查更新</string>
+    <string name="system_update_checking_for_update">正在檢查更新...</string>
+    <string name="system_update_update_available">有可用的系統更新</string>
+    <string name="system_update_update_available_security_update">有可用的安全性更新</string>
+    <string name="system_update_update_available_desc">%1$s 更新檔大小：%2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;重大更新&lt;/b&gt;：&lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;更新檔大小：%3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;此次更新帶來了更佳的穩定性並修復了較為嚴重的錯誤，前往&lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;以瞭解更多資訊。&lt;br&gt;&lt;br&gt;&lt;b&gt;重大更新&lt;/b&gt;：&lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;更新檔大小：%5$s</string>
+    <string name="system_update_update_available_button">下載並安裝</string>
+    <string name="system_update_update_download_install">正在安裝系統更新...</string>
+    <string name="system_update_update_download_install_security_update">正在安裝安全性更新...</string>
+    <string name="system_update_update_download_install_step">正在下載並安裝更新...</string>
+    <string name="system_update_update_download_install_verify">正在驗證系統更新檔...</string>
+    <string name="system_update_update_download_install_complete">更新完成</string>
+    <string name="system_update_update_download_install_complete_desc">重新啟動您的裝置以套用更新</string>
+    <string name="system_update_update_download_install_complete_restart_button">重新啟動</string>
+    <string name="system_update_update_download_install_paused">下載已暫停</string>
+    <string name="system_update_update_download_install_pause_button">暫停</string>
+    <string name="system_update_update_download_install_resume_button">繼續下載</string>
+    <string name="system_update_update_download_install_cancel_button">取消</string>
+    <string name="system_update_update_download_install_error">無法更新</string>
+    <string name="system_update_update_download_install_step_download">正在下載更新</string>
+    <string name="system_update_update_download_install_step_download_verify">正在驗證檔案</string>
+    <string name="system_update_update_download_install_step_install">正在安裝更新</string>
+    <string name="system_update_update_download_install_step_finalize">正在最佳化應用程式，可能需要一段時間</string>
+    <string name="system_update_update_download_install_error_step_download_issue">下載錯誤</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">驗證失敗</string>
+    <string name="system_update_update_download_install_error_step_install_issue">安裝錯誤</string>
+    <string name="system_update_update_download_install_error_button">重試</string>
+    <string name="system_update_notification_channel">系統更新</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android 更新</string>
+    <string name="system_update_notification_update_available_desc">輕觸即可進一步瞭解本次更新</string>
+    <string name="system_update_notification_update_finished_reboot">重新啟動您的裝置</string>
+    <string name="system_update_notification_update_finished_reboot_desc">輕觸來套用更新</string>
+    <string name="system_update_notification_update_completed">系统更新完成</string>
+    <string name="system_update_notification_update_completed_desc">您的裝置已更新到最新狀態！您可以繼續使用您的裝置了</string>
+    <plurals name="eta_seconds">
+        <item quantity="other">剩餘 <xliff:g id="count">%d</xliff:g> 秒</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="other">剩餘 <xliff:g id="count">%d</xliff:g> 分鐘</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="other">剩餘 <xliff:g id="count">%d</xliff:g> 小時</item>
+    </plurals>
+</resources>

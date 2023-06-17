@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Versione Paranoid Android</string>
+    <string name="offscreen_gesture_title">Gesti a schermo spento</string>
+    <string name="offscreen_gesture_summary">Disegna motivi o tocca sullo schermo per eseguire azioni</string>
+    <string name="keywords_gestures">schermo touchscreen disegna scorri dito tocco</string>
+    <string name="gestures_master">Utilizza gesti a schermo spento</string>
+    <string name="gestures_disabled">Disabilitato</string>
+    <string name="gestures_wake_device">Risveglia il dispositivo</string>
+    <string name="gestures_pulse_ambient_display">Pulsa nell\'ambient display</string>
+    <string name="gestures_toggle_flashlight">Attiva/Disattiva torcia</string>
+    <string name="gestures_toggle_airplane_mode">Attiva/Disattiva modalità aereo</string>
+    <string name="gestures_play_pause_music">Riproduci/Pausa musica</string>
+    <string name="gestures_next_music">Brano successivo</string>
+    <string name="gestures_previous_music">Brano precedente</string>
+    <string name="gestures_open_camera">Apri fotocamera</string>
+    <string name="gestures_open_dialer">Apri dialer</string>
+    <string name="gestures_double_tap">Doppio tocco</string>
+    <string name="gestures_single_tap">Tocco singolo</string>
+    <string name="gestures_draw_v">Disegna una V</string>
+    <string name="gestures_draw_inverse_v">Disegna una V inversa</string>
+    <string name="gestures_draw_o">Disegna una O</string>
+    <string name="gestures_draw_m">Disegna una M</string>
+    <string name="gestures_draw_w">Disegna una W</string>
+    <string name="gestures_draw_s">Disegna una S</string>
+    <string name="gestures_draw_arrow_left">Disegna &lt;</string>
+    <string name="gestures_draw_arrow_right">Disegna &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Scorri su con un dito</string>
+    <string name="gestures_one_finger_swipe_right">Scorri a destra con un dito</string>
+    <string name="gestures_one_finger_swipe_down">Scorri giù con un dito</string>
+    <string name="gestures_one_finger_swipe_left">Scorri a sinistra con un dito</string>
+    <string name="gestures_two_finger_swipe">Scorri con due dita</string>
+    <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
+    <string name="three_finger_gesture_summary">Scorri giù con tre dita per scattare uno screenshot</string>
+    <string name="duration_less_than_one_minute">meno di un minuto</string>
+    <string name="screen_time_summary_usage_today">%1$s oggi</string>
+    <string name="prevent_ringing_option_cycle">Scorri tra le modalità</string>
+    <string name="prevent_ringing_option_cycle_summary">On (Scorre tra le modalità)</string>
+    <string name="ambient_display_screen_off_udfps_title">Sensore impronte sempre attivo</string>
+    <string name="ambient_display_screen_off_udfps_summary">Permette lo sblocco con lo schermo spento.\nL\'abilitazione può causare risvegli accidentali.</string>
+    <string name="screenshot_shutter_sound_title">Suono screenshot</string>
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Utilizza smart pause</string>
+    <string name="adaptive_playback_disabled_summary">Disattivato</string>
+    <string name="adaptive_playback_intro_text">Mette in pausa automaticamente i media quando il volume è silenziato e lo riprende automaticamente quando il volume viene ripristinato entro il periodo di tempo definito.</string>
+    <string name="adaptive_playback_timeout_title">Usa un tempo limite di</string>
+    <string name="adaptive_playback_timeout_none">Nessun tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Attivo (nessun tempo limite)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Attivo (30 secondi)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Attivo (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuti</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Attivo (2 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuti</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuti</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
+    <string name="volume_button_music_control_title">Controllo riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, premere a lungo i tasti volume salterà le tracce musicali</string>
+    <string name="power_button_torch_title">Torcia rapida</string>
+    <string name="power_button_torch_summary">Quando lo schermo è spento, la pressione prolungata del pulsante di accensione attiverà la torcia</string>
+    <string name="icon_manager_title">Gestore icone</string>
+    <string name="icon_manager_summary">Controlla la visibilità delle icone della barra di stato</string>
+    <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
+    <string name="display_cutout_force_fullscreen_summary">Forza le applicazioni a ignorare lo spazio del notch</string>
+    <string name="search">Cerca</string>
+    <string name="search_apps">Cerca app</string>
+    <string name="category_name_refresh_rate_controls">Frequenza di Aggiornamento</string>
+    <string name="color_mode_balance_category">Bilanciamento colore</string>
+    <string name="color_mode_balance_red">Intensità rosso</string>
+    <string name="color_mode_balance_green">Intensità verde</string>
+    <string name="color_mode_balance_blue">Intensità blu</string>
+    <string name="keywords_color_balance">colore, bilanciamento colore, correzione colore, rosso, verde, blu, LiveDisplay</string>
+    <string name="dc_dimming_title">Attenuazione DC</string>
+    <string name="dc_dimming_info">Riduce l\'affaticamento degli occhi in condizioni di scarsa illuminazione minimizzando lo sfarfallio dello schermo. Può comportare una riduzione della qualità dell\'immagine e una scarsa riproduzione dei colori, o un maggiore consumo energetico.</string>
+    <string name="dc_dimming_main_switch_title">Usa Attenuazione DC</string>
+    <string name="keywords_display_dc_dimming">attenuazione dc, anti, sfarfallio, occhio, affaticamento</string>
+    <string name="system_black_theme_title">Usa tema nero</string>
+    <string name="system_black_theme_summary">Forza colori neri di sfondo</string>
+    <string name="doze_gesture_ambient_title">Mostra l\'Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Mostra l\'Ambient Display invece di accendere completamente lo schermo</string>
+    <string name="gesture_wake_ambient">Mostra l\'Ambient Display</string>
+    <string name="gesture_wake">Acceso completamente</string>
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Indica se abilitare le funzionalità del pacchetto doze</string>
+    <string name="navbar_invert_layout_title">Inverte la disposizione della barra di navigazione</string>
+    <string name="navbar_invert_info">Scambia i pulsanti \"Indietro\" e \"Recenti\" sulla barra di navigazione</string>
+    <string name="notification_vibration_pattern_title">Pattern vibrazione notifiche</string>
+    <string name="ring_vibration_pattern_title">Pattern vibrazione suoneria</string>
+    <string name="pattern_default">Predefinito del dispositivo</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sistem Güncellemesi</string>
+    <string name="system_update_update_to_date">Sisteminiz güncel</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android versiyonu: %1$s %2$s &lt;br&gt;Android güvenlik güncellemesi: %3$s&lt;br&gt;&lt;br&gt;Son başarılı güncelleme kontrolü: %4$s</string>
+    <string name="system_update_update_to_date_button">Güncellemeleri kontrol et</string>
+    <string name="system_update_checking_for_update">Güncellemeler kontrol ediliyor...</string>
+    <string name="system_update_update_available">Sistem güncellemesi mevcut</string>
+    <string name="system_update_update_available_security_update">Güvenlik güncellemesi mevcut</string>
+    <string name="system_update_update_available_desc">%1$s Güncelleme boyutu: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Önemli güncellemeler&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Güncelleme boyutu: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Bu güncelleme stabilite geliştirmeleri ve kritik hata düzeltmeler içerir. Daha fazlası için &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Önemli güncellemeler&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Güncelleme boyutu: %5$s</string>
+    <string name="system_update_update_available_button">İndir ve yükle</string>
+    <string name="system_update_update_download_install">Sistem güncellemesini yükleniyor</string>
+    <string name="system_update_update_download_install_security_update">Güvenlik güncellemesi yükleniyor</string>
+    <string name="system_update_update_download_install_step">Güncelleştirme indiriliyor ve yükleniyor…</string>
+    <string name="system_update_update_download_install_verify">Sistem güncellemesi doğrulanıyor...</string>
+    <string name="system_update_update_download_install_complete">Sistem güncellemesi tamamlandı.</string>
+    <string name="system_update_update_download_install_complete_desc">Cihazı yeniden başlatmak ve güncelleştirmeyi uygulamak için yeniden başlat butonuna tıklayın.</string>
+    <string name="system_update_update_download_install_complete_restart_button">Yeniden Başlat</string>
+    <string name="system_update_update_download_install_paused">İndirme duraklatıldı</string>
+    <string name="system_update_update_download_install_pause_button">Duraklat</string>
+    <string name="system_update_update_download_install_resume_button">Devam et</string>
+    <string name="system_update_update_download_install_cancel_button">İptal Et</string>
+    <string name="system_update_update_download_install_error">Güncelleme yapılamadı</string>
+    <string name="system_update_update_download_install_step_download">Güncelleme indiriliyor</string>
+    <string name="system_update_update_download_install_step_download_verify">İndirmeyi Doğrulanıyor</string>
+    <string name="system_update_update_download_install_step_install">Güncelleme yükleniyor</string>
+    <string name="system_update_update_download_install_step_finalize">Uygulamalar optimize ediliyor, bu biraz zaman alabilir</string>
+    <string name="system_update_update_download_install_error_step_download_issue">İndirme problemi</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Doğrulama sorunu</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Kurulum sorunu</string>
+    <string name="system_update_update_download_install_error_button">Tekrar deneyin</string>
+    <string name="system_update_notification_channel">Sistem güncellemeleri</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android Sistem Güncellemeleri</string>
+    <string name="system_update_notification_update_available_desc">Bu güncelleme hakkında daha fazlası için tıklayın</string>
+    <string name="system_update_notification_update_finished_reboot">Cihazınızı yeniden başlatın</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Güncellemeyi bitirmek için tıklayın</string>
+    <string name="system_update_notification_update_completed">Sistem güncellemesi tamamlandı</string>
+    <string name="system_update_notification_update_completed_desc">Artık güncelsin! Cihazını kullanmaya devam edebilirsin</string>
+</resources>
