@@ -30,7 +30,7 @@
     <string name="accessibility_quick_settings_heads_up_on">Heads up ativado</string>
     <string name="accessibility_quick_settings_heads_up_changed_off">Heads up foi desativado</string>
     <string name="accessibility_quick_settings_heads_up_changed_on">Heads up foi ativado</string>
-    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_dc_dimming_label">Anti-oscilação</string>
     <string name="quick_settings_aod_label">Tela sempre ativa</string>
     <string name="quick_settings_powershare_label">PowerShare</string>
     <string name="quick_settings_powershare_off_powersave_label">PowerShare desativado\nEconomia de bateria</string>

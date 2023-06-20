@@ -2,30 +2,30 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Systemaktualisierung</string>
     <string name="system_update_update_to_date">Das System ist auf dem neuesten Stand</string>
-    <string name="system_update_update_to_date_desc">Paranoid Android Version: %1$s %2$s &lt;br&gt;Android Sicherheitsaktualisierung: %3$s&lt;br&gt;&lt;br&gt;Letzte erfolgreiche Überprüfung auf Update: %4$s</string>
-    <string name="system_update_update_to_date_button">Nach Updates suchen</string>
-    <string name="system_update_checking_for_update">Suche nach Updates…</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android Version: %1$s %2$s &lt;br&gt;Android Sicherheitsaktualisierung: %3$s&lt;br&gt;&lt;br&gt;Letzte erfolgreiche Überprüfung auf Aktualisierungen: %4$s</string>
+    <string name="system_update_update_to_date_button">Nach Aktualisierungen suchen</string>
+    <string name="system_update_checking_for_update">Suche nach Aktualisierungen…</string>
     <string name="system_update_update_available">Systemaktualisierung verfügbar</string>
     <string name="system_update_update_available_security_update">Sicherheitsupdate verfügbar</string>
     <string name="system_update_update_available_desc">%1$s Update-Größe: %2$s</string>
-    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Wichtige Updates&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Updategröße: %3$s</string>
-    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Dieses Update verbessert die Stabilität und behebt kritische Fehler. Erfahren Sie mehr unter &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Wichtige Updates&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Updategröße: %5$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Wichtige Updates&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Update-Größe: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Dieses Update verbessert die Stabilität und behebt kritische Fehler. Erfahren Sie mehr unter &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Wichtige Updates&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Update-Größe: %5$s</string>
     <string name="system_update_update_available_button">Herunterladen und installieren</string>
     <string name="system_update_update_download_install">Systemupdate wird installiert…</string>
-    <string name="system_update_update_download_install_security_update">Sicherheitsupdate wird installiert...</string>
-    <string name="system_update_update_download_install_step">Update wird heruntergeladen und installiert</string>
-    <string name="system_update_update_download_install_verify">Systemupdate wird verifiziert…</string>
-    <string name="system_update_update_download_install_complete">Systemupdate ist abgeschlossen</string>
-    <string name="system_update_update_download_install_complete_desc">Tippen Sie auf Neustart, um Ihr Gerät neu zu starten und das Update anzuwenden</string>
+    <string name="system_update_update_download_install_security_update">Sicherheitsaktualisierung wird installiert...</string>
+    <string name="system_update_update_download_install_step">Aktualisierung wird heruntergeladen und installiert</string>
+    <string name="system_update_update_download_install_verify">Systemaktualisierung wird verifiziert…</string>
+    <string name="system_update_update_download_install_complete">Systemaktualisierung ist abgeschlossen</string>
+    <string name="system_update_update_download_install_complete_desc">Tippen Sie auf Neustart, um Ihr Gerät neu zu starten und die Aktualisierung anzuwenden</string>
     <string name="system_update_update_download_install_complete_restart_button">Neu starten</string>
     <string name="system_update_update_download_install_paused">Download angehalten</string>
     <string name="system_update_update_download_install_pause_button">Pausieren</string>
     <string name="system_update_update_download_install_resume_button">Fortfahren</string>
     <string name="system_update_update_download_install_cancel_button">Abbrechen</string>
     <string name="system_update_update_download_install_error">Aktualisierung fehlgeschlagen</string>
-    <string name="system_update_update_download_install_step_download">Update wird heruntergeladen</string>
+    <string name="system_update_update_download_install_step_download">Aktualisierung wird heruntergeladen</string>
     <string name="system_update_update_download_install_step_download_verify">Verifiziere Download...</string>
-    <string name="system_update_update_download_install_step_install">Update wird installiert</string>
+    <string name="system_update_update_download_install_step_install">Aktualisierung wird installiert</string>
     <string name="system_update_update_download_install_step_finalize">Optimiere Apps, dies kann einige Zeit dauern</string>
     <string name="system_update_update_download_install_error_step_download_issue">Download fehlgeschlagen</string>
     <string name="system_update_update_download_install_error_step_verify_issue">Verifikation fehlgeschlagen</string>
@@ -33,22 +33,22 @@
     <string name="system_update_update_download_install_error_button">Erneut versuchen</string>
     <string name="system_update_notification_channel">Systemaktualisierungen</string>
     <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
-    <string name="system_update_notification_update_available_default">Paranoid Android Systemupdate</string>
-    <string name="system_update_notification_update_available_desc">Tippen, um mehr über dieses Update zu erfahren</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android Systemaktualisierung</string>
+    <string name="system_update_notification_update_available_desc">Tippen, um mehr über diese Aktualisierung zu erfahren</string>
     <string name="system_update_notification_update_finished_reboot">Gerät neu starten</string>
-    <string name="system_update_notification_update_finished_reboot_desc">Tippen, um das Update anzuwenden</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Tippen, um die Aktualisierung anzuwenden</string>
     <string name="system_update_notification_update_completed">Systemaktualisierung abgeschlossen</string>
-    <string name="system_update_notification_update_completed_desc">Du bist bereits auf dem neuesten Stand! Du kannst dein Gerät weiter verwenden</string>
+    <string name="system_update_notification_update_completed_desc">Sie sind bereits auf dem neuesten Stand! Sie können ihr Gerät weiter verwenden</string>
     <plurals name="eta_seconds">
-        <item quantity="one">1 Sekunde übrig</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> Sekunden übrig</item>
+        <item quantity="one">1 Sekunde verbleibend</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Sekunden verbleibend</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 Minute übrig</item>
+        <item quantity="one">1 Minute verbleibend</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> Minuten verbleibend</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">noch 1 Stunde übrig</item>
-        <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Stunden übrig</item>
+        <item quantity="one">noch 1 Stunde verbleibend</item>
+        <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Stunden verbleibend</item>
     </plurals>
 </resources>

@@ -16,7 +16,7 @@
     <string name="system_update_update_download_install_step">正在下载并安装更新</string>
     <string name="system_update_update_download_install_verify">验证系统更新…</string>
     <string name="system_update_update_download_install_complete">系统更新已完成</string>
-    <string name="system_update_update_download_install_complete_desc">重新启动您的设备以应用更新</string>
+    <string name="system_update_update_download_install_complete_desc">点击重新启动按钮以重启您的设备并应用更新</string>
     <string name="system_update_update_download_install_complete_restart_button">重新启动</string>
     <string name="system_update_update_download_install_paused">下载已暂停</string>
     <string name="system_update_update_download_install_pause_button">暂停</string>

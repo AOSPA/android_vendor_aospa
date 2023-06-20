@@ -20,7 +20,7 @@
     <string name="glyph_settings_app_name">Glif Arayüzü</string>
     <string name="glyph_settings_enable">Glif ışıkları</string>
     <string name="glyph_settings_title">Glif Arayüzü</string>
-    <string name="glyph_settings_summary">Glif ışıkları için ayarlar</string>
+    <string name="glyph_settings_summary">Glif ışıkları için seçenekler</string>
     <string name="glyph_settings_flip_toggle_title">Glif için çevir</string>
     <string name="glyph_settings_flip_toggle_summary">Telefon ters dururken sessize al ve glif göster</string>
     <string name="glyph_settings_brightness">Parlaklık</string>
@@ -41,7 +41,7 @@
     <string name="glyph_settings_notifs_sub_toggle_title">Bildirim animasyonunu etkinleştir</string>
     <string name="glyph_settings_notifs_sub_animations_title">Desen</string>
     <string name="glyph_settings_misc_title">Çeşitli</string>
-    <string name="glyph_settings_music_visualizer_toggle_title">Müzik görselleştirici</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Müzik Görselleştirici</string>
     <string name="glyph_settings_music_visualizer_toggle_summary">DİSKO IŞIKLARI!\nBu etkinken diğer glif fonksiyonları devre dışı kalacaktır</string>
     <string name="glyph_accessibility_quick_settings">Glif</string>
     <string name="glyph_accessibility_quick_settings_torch">Glif feneri</string>
