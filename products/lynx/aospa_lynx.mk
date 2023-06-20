@@ -38,8 +38,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=Pixel7 \
-    PRIVATE_BUILD_DESC="lynx-user 13 TQ2B.230505.005.A1 9808202 release-keys"
+    PRIVATE_BUILD_DESC="lynx-user 13 TQ3A.230705.001 10216780 release-keys"
 
-BUILD_FINGERPRINT := google/lynx/lynx:13/TQ3A.230605.012/10204971:user/release-keys
+BUILD_FINGERPRINT := google/lynx/lynx:13/TQ3A.230705.001/10216780:user/release-keys
 
 endif
