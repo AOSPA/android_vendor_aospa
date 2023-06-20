@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">Проведите для доступа к ленте Google</string>
+    <string name="msg_minus_one_on_left">На главном экране проведите пальцем влево для доступа к ленте Google</string>
+    <string name="msg_minus_one_on_right">На главном экране проведите пальцем вправо для доступа к ленте Google</string>
+    <string name="pref_dt_gesture_title">Двойное нажатие для отключения экрана</string>
+    <string name="pref_dt_gesture_summary">Дважды нажмите на пустом месте для отключения экрана</string>
+    <string name="suggestion_pref_screen_title">Рекомендации</string>
+    <string name="suggestion_pref_screen_desc">Для рекомендаций на главном экране и в списке \"Все приложения\"</string>
+    <string name="settings_lock_layout_title">Отключить редактирование</string>
+    <string name="settings_lock_layout_summary_on">Иконки и виджеты не могут быть добавлены, удалены или перемещены на главном экране</string>
+    <string name="settings_lock_layout_summary_off">Иконки и виджеты могут быть добавлены, удалены или перемещены на главном экране</string>
+    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
+    <string name="desktop_show_labels">Отображать названия приложений на главном экране</string>
+    <string name="drawer_show_labels">Отображать названия в меню приложений</string>
+    <string name="category_icon">Значки</string>
+    <string name="category_misc">Прочие</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">Lens</string>
+    <string name="label_search">Поиск</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Голосовой поиск</string>
+    <string name="dock_search_title">Панель поиска Google</string>
+    <string name="dock_search_summary">Отображать строку поиска в нижней части главного экрана</string>
+    <string name="smartspace_pref_title">Виджет \"At a Glance\"</string>
+    <string name="smartspace_pref_summary">Отображать актуальную информацию в верхней части главного экрана</string>
+    <string name="show_top_shadow">Отображать тень сверху</string>
+</resources>

@@ -15,5 +15,5 @@
      limitations under the License.
 -->
 <resources>
-    <string name="volume_dialog_ringer_guidance_normal">Çağrılar ve bildirimlerde çalacak</string>
+    <string name="volume_dialog_ringer_guidance_normal">Sonnerie activée pour les notifications et les appels</string>
 </resources>

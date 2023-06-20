@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_settings_caffeine_label">Caféine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caféine désactivée</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caféine activée</string>
+    <string name="qs_data_switch_label">Changer les données de carte SIM</string>
+    <string name="qs_data_switch_toast_0">Aucune carte SIM n\'est actuellement insérée</string>
+    <string name="qs_data_switch_toast_1">Une seule carte SIM est actuellement insérée</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Basculer les données sur la carte SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Basculer les données sur la carte SIM 2.</string>
+    <string name="quick_settings_heads_up_label">Notifications flottantes</string>
+    <string name="accessibility_quick_settings_heads_up_off">Notifications flottantes désactivées</string>
+    <string name="accessibility_quick_settings_heads_up_on">Notifications flottantes activées.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Les notifications flottantes ont été désactivées.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Les notifications flottantes ont été activées.</string>
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_powershare_label">Partage de batterie</string>
+    <string name="quick_settings_powershare_off_powersave_label">Partage de batterie désactivée\nBatterie trop faible</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Partage de batterie désactivée\nBatterie trop faible</string>
+    <string name="quick_settings_powershare_enabled_label">Partage de batterie activé</string>
+</resources>

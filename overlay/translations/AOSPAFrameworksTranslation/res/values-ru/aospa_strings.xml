@@ -15,5 +15,5 @@
      limitations under the License.
 -->
 <resources>
-    <string name="volume_dialog_ringer_guidance_normal">Çağrılar ve bildirimlerde çalacak</string>
+    <string name="volume_dialog_ringer_guidance_normal">Сигнал для звонков и уведомлений будет активен</string>
 </resources>

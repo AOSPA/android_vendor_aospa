@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 StatiXOS
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,13 +17,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Tapeta a styl</string>
-    <string name="icon_pack_title">Balíček systémových ikon</string>
-    <string name="icon_preview_card_content_description">Náhled ikon</string>
-    <string name="font_title">Písmo systému</string>
-    <string name="font_preview_card_content_description">Náhled písma</string>
-    <string name="wallpaper_color_tab">Barvy tapety</string>
-    <string name="wallpaper_color_title">Barva tapety</string>
-    <string name="preset_color_tab">Základní barvy</string>
-    <string name="color_changed">Barva změněna</string>
+    <string name="doze_settings_app_name">Paranoid Doze</string>
 </resources>
