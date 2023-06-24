@@ -39,7 +39,7 @@
         "remote":      "aospa",
         "repository":  "AOSPA/android_hardware_qcom_gps",
         "target_path": "hardware/qcom/gps",
-        "revision":    "sapphire-855"
+        "revision":    "topaz-legacy-component"
     },
     {
         "remote":      "blobs",

@@ -34,7 +34,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
-        "revision":     "topaz-89xx"
+        "revision":     "topaz-legacy-component"
     },
     {
         "remote":       "aospa",
