@@ -162,4 +162,7 @@
     -->
     <integer name="config_defaultNightMode">2</integer>
 
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
+
 </resources>
