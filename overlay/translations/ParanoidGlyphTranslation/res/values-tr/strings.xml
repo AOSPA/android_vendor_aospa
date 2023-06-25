@@ -17,12 +17,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="glyph_settings_app_name">Glif Arayüzü</string>
-    <string name="glyph_settings_enable">Glif ışıkları</string>
-    <string name="glyph_settings_title">Glif Arayüzü</string>
-    <string name="glyph_settings_summary">Glif ışıkları için ayarlar</string>
-    <string name="glyph_settings_flip_toggle_title">Glif için çevir</string>
-    <string name="glyph_settings_flip_toggle_summary">Telefon ters dururken sessize al ve glif göster</string>
+    <string name="glyph_settings_app_name">Glyph Arayüzü</string>
+    <string name="glyph_settings_enable">Glyph ışıkları</string>
+    <string name="glyph_settings_title">Glyph Arayüzü</string>
+    <string name="glyph_settings_summary">Glyph ışıkları için ayarlar</string>
+    <string name="glyph_settings_flip_toggle_title">Glyph için çevir</string>
+    <string name="glyph_settings_flip_toggle_summary">Telefon ters dururken sessize al ve glyph göster</string>
     <string name="glyph_settings_brightness">Parlaklık</string>
     <string name="glyph_settings_charging_title">Şarj animasyonu</string>
     <string name="glyph_settings_charging_level_title">Pil seviyesi</string>
@@ -41,10 +41,10 @@
     <string name="glyph_settings_notifs_sub_toggle_title">Bildirim animasyonunu etkinleştir</string>
     <string name="glyph_settings_notifs_sub_animations_title">Desen</string>
     <string name="glyph_settings_misc_title">Çeşitli</string>
-    <string name="glyph_settings_music_visualizer_toggle_title">Müzik görselleştirici</string>
-    <string name="glyph_settings_music_visualizer_toggle_summary">DİSKO IŞIKLARI!\nBu etkinken diğer glif fonksiyonları devre dışı kalacaktır</string>
-    <string name="glyph_accessibility_quick_settings">Glif</string>
-    <string name="glyph_accessibility_quick_settings_torch">Glif feneri</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Müzik Görselleştirici</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">DİSKO IŞIKLARI!\nBu etkinken diğer glyph fonksiyonları devre dışı kalacaktır</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Glyph feneri</string>
     <string name="glyph_accessibility_quick_settings_off">Kapalı</string>
     <string name="glyph_accessibility_quick_settings_on">Açık</string>
 </resources>

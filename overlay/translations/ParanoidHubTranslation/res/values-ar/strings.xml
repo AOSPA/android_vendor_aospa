@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">تحديث النظام</string>
+    <string name="system_update_update_to_date">لا توجد تحديثات جديدة</string>
+    <string name="system_update_update_to_date_desc">إصدار Paranoid Android: %1$s %2$s &lt;br&gt;تحديث أمان الأندرويد: %3$s&lt;br&gt;&lt;br&gt;التحقق بنجاح من آخر تحديث: %4$s</string>
+    <string name="system_update_update_to_date_button">البحث عن التحديثات</string>
+    <string name="system_update_checking_for_update">البحث عن التحديثات</string>
+    <string name="system_update_update_available">يتوفر تحديث للنظام</string>
+    <string name="system_update_update_available_security_update">تحديث الأمان متوفر</string>
+    <string name="system_update_update_available_desc">%1$s حجم التحديث: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;تحديثات مهمة&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;حجم التحديث: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;هذا التحديث يضيف تحسينات للاستقرار، بالإضافة إلى إصلاح الأخطاء الحرجة. تعرف على المزيد في &lt;a href=\"https://paranoidandroid.co/\"&gt;Paranoidandroid. o&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;تحديثات مهمة&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;حجم التحديث: %5$s</string>
+    <string name="system_update_update_available_button">تحميل وتثبيت</string>
+    <string name="system_update_update_download_install">تثبيت تحديث النظام…</string>
+    <string name="system_update_update_download_install_security_update">جارٍ تثبيت تحديث الأمن…</string>
+    <string name="system_update_update_download_install_step">تحميل وتثبيت التحديث</string>
+    <string name="system_update_update_download_install_verify">التحقق من تحديث النظام…</string>
+    <string name="system_update_update_download_install_complete">تم الانتهاء من تحديث النظام</string>
+    <string name="system_update_update_download_install_complete_desc">اضغط على زر إعادة التشغيل لإعادة تشغيل جهازك وتطبيق التحديث</string>
+    <string name="system_update_update_download_install_complete_restart_button">إعادة تشغيل</string>
+    <string name="system_update_update_download_install_paused">توقف التنزيل</string>
+    <string name="system_update_update_download_install_pause_button">وقفة</string>
+    <string name="system_update_update_download_install_resume_button">استكمال</string>
+    <string name="system_update_update_download_install_cancel_button">إلغاء</string>
+    <string name="system_update_update_download_install_error">تعذر التحديث</string>
+    <string name="system_update_update_download_install_step_download">جاري تنزيل التحديث...</string>
+    <string name="system_update_update_download_install_step_download_verify">التحقق من التحميل</string>
+    <string name="system_update_update_download_install_step_install">تثبيت التحديث</string>
+    <string name="system_update_update_download_install_step_finalize">تحسين التطبيقات، قد يستغرق هذا وقتا طويلا</string>
+    <string name="system_update_update_download_install_error_step_download_issue">مشكلة في التحميل</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">مشكلة تحقق!</string>
+    <string name="system_update_update_download_install_error_step_install_issue">مشكلة في التثبيت</string>
+    <string name="system_update_update_download_install_error_button">حاول مرة أخرى</string>
+    <string name="system_update_notification_channel">تحديثات النظام</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android تحديثات</string>
+    <string name="system_update_notification_update_available_desc">انقر لمعرفة المزيد عن هذا التحديث</string>
+    <string name="system_update_notification_update_finished_reboot">إعادة تشغيل جهازك</string>
+    <string name="system_update_notification_update_finished_reboot_desc">انقر لإنهاء تطبيق التحديث</string>
+    <string name="system_update_notification_update_completed">اكتمل تحديث النظام</string>
+    <string name="system_update_notification_update_completed_desc">أنت على وشك التحديث! يمكنك الاستمرار في استخدام جهازك</string>
+</resources>

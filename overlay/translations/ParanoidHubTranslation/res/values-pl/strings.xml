@@ -16,7 +16,7 @@
     <string name="system_update_update_download_install_step">Pobieranie i instalowanie aktualizacji</string>
     <string name="system_update_update_download_install_verify">Weryfikacja aktualizacji systemu…</string>
     <string name="system_update_update_download_install_complete">Aktualizacja systemu została zakończona</string>
-    <string name="system_update_update_download_install_complete_desc">Dotknij przycisku \"uruchom ponownie\", aby zrestartować urządzenie i zastosować aktualizację</string>
+    <string name="system_update_update_download_install_complete_desc">Dotknij przycisku restartu, aby zrestartować urządzenie i zastosować aktualizację</string>
     <string name="system_update_update_download_install_complete_restart_button">Uruchom ponownie</string>
     <string name="system_update_update_download_install_paused">Pobieranie wstrzymane</string>
     <string name="system_update_update_download_install_pause_button">Wstrzymaj</string>
@@ -37,7 +37,7 @@
     <string name="system_update_notification_update_available_desc">Dotknij, aby dowiedzieć się więcej o tej aktualizacji</string>
     <string name="system_update_notification_update_finished_reboot">Uruchom ponownie urządzenie</string>
     <string name="system_update_notification_update_finished_reboot_desc">Dotknij, aby zakończyć aktualizację</string>
-    <string name="system_update_notification_update_completed">Zakończono aktualizację systemu</string>
+    <string name="system_update_notification_update_completed">Aktualizacja systemu zakończona</string>
     <string name="system_update_notification_update_completed_desc">Wszystko gotowe go aktualizacji! Możesz nadal używać swojego urządzenia</string>
     <plurals name="eta_seconds">
         <item quantity="one">Pozostała 1 sekunda</item>

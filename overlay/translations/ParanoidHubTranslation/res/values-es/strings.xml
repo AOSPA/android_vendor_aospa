@@ -2,14 +2,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Actualización del sistema</string>
     <string name="system_update_update_to_date">Tu sistema está actualizado </string>
-    <string name="system_update_update_to_date_desc">Versión de Paranoid Android: %1$s %2$s &lt;br&gt;Actualización de seguridad de Android: %3$s&lt;br&gt;&lt;br&gt;Última comprobación exitosa de actualización: %4$s</string>
+    <string name="system_update_update_to_date_desc">Versión de Paranoid Android: %1$s %2$s &amp;lt;br&amp;gt;Actualización de seguridad de Android: %3$s&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Última comprobación exitosa de actualización: %4$s</string>
     <string name="system_update_update_to_date_button">Buscar actualizaciones</string>
     <string name="system_update_checking_for_update">Buscando actualizaciones...</string>
     <string name="system_update_update_available">Actualización de sistema disponible </string>
     <string name="system_update_update_available_security_update">Actualización de seguridad disponible </string>
     <string name="system_update_update_available_desc">%1$s Tamaño de actualización: %2$s</string>
-    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Actualizaciones importantes&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Tamaño de actualización: %3$s</string>
-    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Esta actualización añade mejoras de estabilidad, además de arreglar errores críticos. Aprende más en &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid. o&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;actualizaciones importantes&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Tamaño de actualización: %5$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;Actualizaciones importantes&amp;lt;/b&amp;gt;: &amp;lt;br&amp;gt;- %2$s &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Tamaño de actualización: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&amp;lt;b&amp;gt;%1$s %2$s %3$s&amp;lt;/b&amp;gt; &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Esta actualización añade mejoras de estabilidad, además de arreglar errores críticos. Aprende más en &amp;lt;a href="https://paranoidandroid.co/"&amp;gt;paranoidandroid. o&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;actualizaciones importantes&amp;lt;/b&amp;gt;: &amp;lt;br&amp;gt;- %4$s &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Tamaño de actualización: %5$s</string>
     <string name="system_update_update_available_button">Descargar e instalar</string>
     <string name="system_update_update_download_install">Instalando actualización de sistema...</string>
     <string name="system_update_update_download_install_security_update">Instalando actualización de seguridad…</string>
@@ -35,4 +35,20 @@
     <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
     <string name="system_update_notification_update_available_default">Actualización de sistema de Paranoid Android</string>
     <string name="system_update_notification_update_available_desc">Presiona para aprender más sobre esta actualización </string>
+    <string name="system_update_notification_update_finished_reboot">Reinicie su dispositivo</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Toque para terminar de aplicar la actualización</string>
+    <string name="system_update_notification_update_completed">Actualización del sistema completada</string>
+    <string name="system_update_notification_update_completed_desc">¡Está todo listo para actualizarse! Puede continuar usando su dispositivo</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 segundo restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> segundos restantes</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minuto restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos restantes</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hora restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
+    </plurals>
 </resources>

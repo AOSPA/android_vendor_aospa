@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Interface de Glyph</string>
+    <string name="glyph_settings_enable">Lumières de Glyph</string>
+    <string name="glyph_settings_title">Interface de Glyph</string>
+    <string name="glyph_settings_summary">Options pour les lumières de Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Flip to Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Couper le son et afficher les Glyphs si le téléphone est retourné</string>
+    <string name="glyph_settings_brightness">Luminosité</string>
+    <string name="glyph_settings_charging_title">Animation de charge</string>
+    <string name="glyph_settings_charging_level_title">Niveau de la batterie</string>
+    <string name="glyph_settings_charging_level_summary">Afficher le niveau de la batterie lors de la connexion</string>
+    <string name="glyph_settings_charging_powershare_title">Recharge sans fil inversée</string>
+    <string name="glyph_settings_charging_powershare_summary">Afficher une animation lorsque la charge sans fil inversée est détectée</string>
+    <string name="glyph_settings_call_title">Appels</string>
+    <string name="glyph_settings_call_toggle_title">Animation d\'appel</string>
+    <string name="glyph_settings_call_toggle_summary">Clignoter les LED sur les appels entrants</string>
+    <string name="glyph_settings_call_sub_toggle_title">Activer l\'animation d\'appel</string>
+    <string name="glyph_settings_call_sub_animations_title">Motif</string>
+    <string name="glyph_settings_notifs_title">Notifications</string>
+    <string name="glyph_settings_notifs_toggle_title">Animation de notification</string>
+    <string name="glyph_settings_notifs_toggle_summary">Clignoter les LED lors de nouvelles notifications</string>
+    <string name="glyph_settings_notifs_sub_title">Applications à autoriser</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Activer l\'animation de notification</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Motif</string>
+    <string name="glyph_settings_misc_title">Divers</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Visualiseur de musique</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">LUMIÈRE DISCO !\nCeci désactivera toutes les autres fonctions Glyph tant qu\'activées</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Torche de Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">Désactivé</string>
+    <string name="glyph_accessibility_quick_settings_on">Activé</string>
+</resources>

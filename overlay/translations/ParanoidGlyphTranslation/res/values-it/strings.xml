@@ -33,13 +33,13 @@
     <string name="glyph_settings_call_toggle_title">Animazione chiamata</string>
     <string name="glyph_settings_call_toggle_summary">Fai lampeggiare i LED quando ci sono chiamate in arrivo</string>
     <string name="glyph_settings_call_sub_toggle_title">Abilita animazione chiamata</string>
-    <string name="glyph_settings_call_sub_animations_title">Schema</string>
+    <string name="glyph_settings_call_sub_animations_title">Pattern</string>
     <string name="glyph_settings_notifs_title">Notifiche</string>
     <string name="glyph_settings_notifs_toggle_title">Animazione notifica</string>
     <string name="glyph_settings_notifs_toggle_summary">Fai lampeggiare i LED quando ci sono nuove notifiche</string>
     <string name="glyph_settings_notifs_sub_title">App da consentire</string>
     <string name="glyph_settings_notifs_sub_toggle_title">Abilita animazione notifica</string>
-    <string name="glyph_settings_notifs_sub_animations_title">Schema</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Pattern</string>
     <string name="glyph_settings_misc_title">Varie</string>
     <string name="glyph_settings_music_visualizer_toggle_title">Visualizzatore musicale</string>
     <string name="glyph_settings_music_visualizer_toggle_summary">DISCO LIGHTS!\nquesto disabiliterà tutte le altre funzioni glyph mentre abilitato</string>

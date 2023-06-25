@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Paranoid Android संस्करण</string>
+    <string name="offscreen_gesture_title">स्क्रिन अफ इशाराहरू</string>
+    <string name="offscreen_gesture_summary">ढाँचाहरू कोर्नुहोस् वा कार्यहरू गर्न स्क्रिनमा ट्याप गर्नुहोस्</string>
+    <string name="keywords_gestures">स्क्रिन टचस्क्रिन ड्र स्वाइप औंला ट्याप</string>
+    <string name="gestures_master">स्क्रिन अफ इशाराहरू प्रयोग गर्नुहोस्</string>
+    <string name="gestures_disabled">अक्षम</string>
+    <string name="gestures_wake_device">जागो उपकरण</string>
+    <string name="gestures_pulse_ambient_display">एम्बियन्ट डिस्प्लेमा पल्स</string>
+    <string name="gestures_toggle_flashlight">टर्चलाइट टगल गर्नुहोस्</string>
+    <string name="gestures_toggle_airplane_mode">हवाइजहाज मोड टगल गर्नुहोस्</string>
+    <string name="gestures_play_pause_music">गित बजाउने/रोक्ने</string>
+    <string name="gestures_next_music">अर्को संगीत</string>
+    <string name="gestures_previous_music">अघिल्लो संगीत</string>
+    <string name="gestures_open_camera">क्यामेरा खोल्नुहोस्</string>
+    <string name="gestures_open_dialer">डायलर खोल्नुहोस्</string>
+    <string name="gestures_double_tap">दुईपटक ट्याप गर्नुहोस्</string>
+    <string name="gestures_single_tap">एकल ट्याप</string>
+    <string name="gestures_draw_v">कोर V</string>
+    <string name="gestures_draw_inverse_v">उल्टो V कोर्नुहोस्</string>
+    <string name="gestures_draw_o">कोर O</string>
+    <string name="gestures_draw_m">कोर M</string>
+    <string name="gestures_draw_w">कोर W</string>
+    <string name="gestures_draw_s">कोर S</string>
+    <string name="gestures_draw_arrow_left">कोर &lt;</string>
+    <string name="gestures_draw_arrow_right">कोर &gt;</string>
+    <string name="gestures_one_finger_swipe_up">एक-औँलाले माथि स्वाइप गर्नुहोस्</string>
+    <string name="gestures_one_finger_swipe_right">एक औंलाले दायाँ स्वाइप गर्नुहोस्</string>
+    <string name="gestures_one_finger_swipe_down">एक-औँला तल स्वाइप गर्नुहोस्</string>
+    <string name="gestures_one_finger_swipe_left">एक औंलाले बायाँ स्वाइप गर्नुहोस्</string>
+    <string name="gestures_two_finger_swipe">दुई औंला स्वाइप</string>
+    <string name="three_finger_gesture">स्क्रिनसटमा स्वाइप गर्नुहोस्</string>
+    <string name="three_finger_gesture_summary">सक्रिनसट लिनको लागि तीन औंलाले तलतिर स्वाइप गर्ने?</string>
+    <string name="duration_less_than_one_minute">१ मिनेटभन्दा कम</string>
+    <string name="screen_time_summary_usage_today">आज %1$s</string>
+    <string name="prevent_ringing_option_cycle">मोडहरू मार्फत चक्र</string>
+    <string name="prevent_ringing_option_cycle_summary">सक्रिय (मोड मार्फत चक्र)</string>
+    <string name="ambient_display_screen_off_udfps_title">सधैं फिंगरप्रिन्टमा</string>
+    <string name="ambient_display_screen_off_udfps_summary">स्क्रिन बन्द गरेर अनलक गर्न अनुमति दिन्छ।\nसक्षम पार्नाले आकस्मिक वेक-अप हुन सक्छ।</string>
+    <string name="screenshot_shutter_sound_title">सक्रिनसट ध्वनि</string>
+    <string name="adaptive_playback_screen_title">स्मार्ट पज</string>
+    <string name="adaptive_playback_enabled">स्मार्ट पज प्रयोग गर्नुहोस्</string>
+    <string name="adaptive_playback_disabled_summary">बन्द</string>
+    <string name="adaptive_playback_intro_text">भोल्युम म्युट हुँदा स्वचालित रूपमा मिडियालाई पज गर्छ र सेट समय भित्र भोल्युम पुनर्स्थापित हुँदा स्वचालित रूपमा पुन: सुरु हुनेछ।</string>
+    <string name="adaptive_playback_timeout_title"> को टाइमआउट प्रयोग गर्नुहोस्</string>
+    <string name="adaptive_playback_timeout_none">टाइमआउट छैन</string>
+    <string name="adaptive_playback_timeout_none_summary">सक्रिय (टाइमआउट छैन)</string>
+    <string name="adaptive_playback_timeout_30_secs">३० सेकेन्ड</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">सक्रिय (३० सेकेन्ड)</string>
+    <string name="adaptive_playback_timeout_1_min">१ मिनेट</string>
+    <string name="adaptive_playback_timeout_1_min_summary">सक्रिय (१ मिनेट)</string>
+    <string name="adaptive_playback_timeout_2_min">२ मिनेट</string>
+    <string name="adaptive_playback_timeout_2_min_summary">अन (२ मिनेट)</string>
+    <string name="adaptive_playback_timeout_5_min">५ मिनेट</string>
+    <string name="adaptive_playback_timeout_5_min_summary">अन (५ मिनेट)</string>
+    <string name="adaptive_playback_timeout_10_min">१० मिनेट</string>
+    <string name="adaptive_playback_timeout_10_min_summary">सक्रिय (१० मिनेट)</string>
+    <string name="volume_button_music_control_title">प्लेब्याक नियन्त्रण</string>
+    <string name="volume_button_music_control_summary">जब स्क्रिन बन्द हुन्छ, लामो-थिच्ने भोल्युम कुञ्जीहरूले संगीत ट्र्याकहरू छोड्नेछन्</string>
+    <string name="power_button_torch_title">द्रुत टर्च</string>
+    <string name="power_button_torch_summary">जब स्क्रिन बन्द हुन्छ, लामो समयसम्म थिच्ने पावर बटनले टर्च सक्षम पार्छ</string>
+    <string name="icon_manager_title">आइकन प्रबन्धक</string>
+    <string name="icon_manager_summary">स्थिति पट्टी आइकनहरूको दृश्यता नियन्त्रण गर्नुहोस्</string>
+    <string name="display_cutout_force_fullscreen_title">पूर्ण स्क्रिन अनुप्रयोगहरू</string>
+    <string name="display_cutout_force_fullscreen_summary">एपहरूलाई नोच स्पेस बेवास्ता गर्न बाध्य पार्नुहोस्</string>
+    <string name="search">खोज्नुहोस्</string>
+    <string name="search_apps">एप्स खोज्नुहोस्</string>
+    <string name="category_name_refresh_rate_controls">ताजा दर</string>
+    <string name="color_mode_balance_category">रंग सन्तुलन</string>
+    <string name="color_mode_balance_red">रातो बल</string>
+    <string name="color_mode_balance_green">हरियो शक्ति</string>
+    <string name="color_mode_balance_blue">नीलो बल</string>
+    <string name="keywords_color_balance">रंग, रंग सन्तुलन, रंग सुधार, रातो, हरियो, नीलो, LiveDisplay</string>
+    <string name="dc_dimming_title">डीसी डिमिङ</string>
+    <string name="dc_dimming_info">स्क्रिन फ्लिकर कम गरेर कम प्रकाश अवस्थामा आँखा तनाव कम गर्दछ। छवि गुणस्तर कम र खराब रंग उत्पादन, वा उच्च शक्ति खपत परिणाम हुन सक्छ।</string>
+    <string name="dc_dimming_main_switch_title">डीसी डिमिङ प्रयोग गर्नुहोस्</string>
+    <string name="keywords_display_dc_dimming">डीसी डिमिङ, एन्टि, फ्लिकर, आँखा, तनाव</string>
+    <string name="system_black_theme_title">कालो विषयवस्तु प्रयोग गर्नुहोस्</string>
+    <string name="system_black_theme_summary">बलियो कालो पृष्ठभूमि रंगहरू</string>
+    <string name="doze_gesture_ambient_title">एम्बियन्ट देखाउनुहोस्</string>
+    <string name="doze_gesture_ambient_summary">स्क्रिनलाई पूर्ण रूपमा सक्रिय गर्नुको सट्टा एम्बियन्ट डिस्प्ले देखाउनुहोस्</string>
+    <string name="gesture_wake_ambient">एम्बियन्ट देखाउनुहोस्</string>
+    <string name="gesture_wake">पुरै ब्यूँझियो</string>
+    <string name="doze_enabled_title">एम्बियन्ट प्रदर्शन</string>
+    <string name="doze_enabled_summary">डोज प्याकेज कार्यक्षमता सक्षम गर्ने कि नगर्ने</string>
+    <string name="navbar_invert_layout_title">नेभिगेसन बार लेआउट उल्टाउनुहोस्</string>
+    <string name="navbar_invert_info">नेभिगेसन पट्टीमा \"पछाडि\" र \"हालैका\" बटनहरू स्वैप गर्नुहोस्</string>
+    <string name="notification_vibration_pattern_title">सूचना कम्पन ढाँचा</string>
+    <string name="ring_vibration_pattern_title">घण्टी कम्पन ढाँचा</string>
+    <string name="pattern_default">डिभाइस डिफल्ट</string>
+</resources>

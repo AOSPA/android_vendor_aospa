@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rendszerfrissítés</string>
+    <string name="system_update_update_to_date">A rendszer naprakész.</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android verzió: %1$s %2$s &lt;br&gt;Android biztonsági frissítés szintje: %3$s&lt;br&gt;&lt;br&gt;Legutóbbi sikeres rendszerfrissítés keresés: %4$s</string>
+    <string name="system_update_update_to_date_button">Frissítések keresése</string>
+    <string name="system_update_checking_for_update">Frissítések keresése...</string>
+    <string name="system_update_update_available">Rendszerfrissítés érhető el</string>
+    <string name="system_update_update_available_security_update">Biztonsági frissítés érhető el</string>
+    <string name="system_update_update_available_desc">%1$s Frissítés mérete: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Fontos frissítések&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Frissítés mérete: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Ez a frissítés stabilitási fejlesztéseket és kritikus hibák javítását tartalmazza. Tudj meg többet: &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Fontos frissítések&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Frissítés mérete: %5$s</string>
+    <string name="system_update_update_available_button">Letöltés és telepítés</string>
+    <string name="system_update_update_download_install">Rendszerfrissítés telepítése...</string>
+    <string name="system_update_update_download_install_security_update">Biztonsági frissítés telepítése...</string>
+    <string name="system_update_update_download_install_step">Frissítés letöltése és telepítése</string>
+    <string name="system_update_update_download_install_verify">Rendszerfrissítés ellenőrzése...</string>
+    <string name="system_update_update_download_install_complete">A frissítés befejeződött.</string>
+    <string name="system_update_update_download_install_complete_desc">Nyomj az újraindítás gombra az eszköz újraindításához és a frissítés alkalmazásához</string>
+    <string name="system_update_update_download_install_complete_restart_button">Újraindítás</string>
+    <string name="system_update_update_download_install_paused">Letöltés szüneteltetve</string>
+    <string name="system_update_update_download_install_pause_button">Szüneteltetés</string>
+    <string name="system_update_update_download_install_resume_button">Folytatás</string>
+    <string name="system_update_update_download_install_cancel_button">Mégse</string>
+    <string name="system_update_update_download_install_error">Frissítés sikertelen</string>
+    <string name="system_update_update_download_install_step_download">Frissítés letöltése</string>
+    <string name="system_update_update_download_install_step_download_verify">Letöltés ellenőrzése</string>
+    <string name="system_update_update_download_install_step_install">Frissítés telepítése</string>
+    <string name="system_update_update_download_install_step_finalize">Alkalmazások optimalizálása, ez eltarthat egy ideig</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Letöltési probléma</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Ellenőrzési hiba</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Telepítési probléma</string>
+    <string name="system_update_update_download_install_error_button">Próbálja újra</string>
+    <string name="system_update_notification_channel">Rendszerfrissítések</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android rendszerfrissítés</string>
+    <string name="system_update_notification_update_available_desc">Koppintson, ha többet szeretne megtudni erről a frissítésről</string>
+    <string name="system_update_notification_update_finished_reboot">Eszköz újraindítása</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Érintsd meg frissítés alkalmazásához</string>
+    <string name="system_update_notification_update_completed">A rendszerfrissítés befejeződött</string>
+    <string name="system_update_notification_update_completed_desc">Az eszköz naprakész! Folytathatod az eszköz használatát</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 másodperc van még hátra</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> másodperc van még hátra</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 perc van még hátra</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> perc van még hátra</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 óra van még hátra</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> óra van még hátra</item>
+    </plurals>
+</resources>

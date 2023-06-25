@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">સિસ્ટમ અપડેટ</string>
+    <string name="system_update_update_to_date">તમારું સિસ્ટમ અપ ટુ ડેટ છે</string>
+    <string name="system_update_update_to_date_desc">પેરનોઇડ એન્ડ્રોઇડ વર્ઝન: %$s %$s &lt;br&gt;એન્ડ્રોઇડ સિક્યોરિટી અપડેટ: %3$s&lt;br&gt;&lt;br&gt;છેલ્લે %4$s પર તપાસ કરી હતી</string>
+    <string name="system_update_update_to_date_button">અપડેટ માટે તપાસો</string>
+    <string name="system_update_checking_for_update">અપડેટ માટે તપાસ ચાલુ છે</string>
+    <string name="system_update_update_available">સિસ્ટમ અપડેટ ઉપલબ્ધ છે</string>
+    <string name="system_update_update_available_security_update">સેકુરિટી અપડેટ ઉપલબ્ધ </string>
+    <string name="system_update_update_available_desc">%$s અપડેટ સાઇઝ: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;જરૂરી અપડેટ્સ&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;અપડેટ સાઇઝ:%3$s</string>
+</resources>

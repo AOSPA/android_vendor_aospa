@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Systeemupdate</string>
+    <string name="system_update_update_to_date">Uw systeem is up to date</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android versie: %1$s %2$s &lt;br&gt;Android beveiligingsupdate: %3$s&lt;br&gt;&lt;br&gt;Laatste succesvolle controle op update: %4$s</string>
+    <string name="system_update_update_to_date_button">Controleer op update</string>
+    <string name="system_update_checking_for_update">Controleren op update...</string>
+    <string name="system_update_update_available">Systeemupdate beschikbaar</string>
+    <string name="system_update_update_available_security_update">Beveiligingsupdate beschikbaar</string>
+    <string name="system_update_update_available_desc">%1$s Omvang update: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Belangrijke updates&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Omvang update: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Deze update voegt stabiliteitsverbeteringen toe, lost eveneens kritieke bugs op. Lees meer op &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Belangrijke updates&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Omvang update: %5$s</string>
+    <string name="system_update_update_available_button">Downloaden en installeren</string>
+    <string name="system_update_update_download_install">Systeemupdate installeren…</string>
+    <string name="system_update_update_download_install_security_update">Beveiligingsupdate installeren…</string>
+    <string name="system_update_update_download_install_step">Downloaden en installeren van update</string>
+    <string name="system_update_update_download_install_verify">Systeemupdate verifiëren…</string>
+    <string name="system_update_update_download_install_complete">Systeemupdate is voltooid</string>
+    <string name="system_update_update_download_install_complete_desc">Druk op de herstart knop om uw apparaat opnieuw op te starten en de update toe te passen</string>
+    <string name="system_update_update_download_install_complete_restart_button">Herstarten</string>
+    <string name="system_update_update_download_install_paused">Download gepauzeerd</string>
+    <string name="system_update_update_download_install_pause_button">Pauzeren</string>
+    <string name="system_update_update_download_install_resume_button">Hervatten</string>
+    <string name="system_update_update_download_install_cancel_button">Annuleren</string>
+    <string name="system_update_update_download_install_error">Kon niet bijwerken</string>
+    <string name="system_update_update_download_install_step_download">Update downloaden</string>
+    <string name="system_update_update_download_install_step_download_verify">Download verifiëren</string>
+    <string name="system_update_update_download_install_step_install">Update installeren</string>
+    <string name="system_update_update_download_install_step_finalize">Apps optimaliseren, dit kan even duren</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Download probleem</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Verificatie probleem</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Installatie probleem</string>
+    <string name="system_update_update_download_install_error_button">Opnieuw proberen</string>
+    <string name="system_update_notification_channel">Systeemupdates</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoïde Android systeemupdate</string>
+    <string name="system_update_notification_update_available_desc">Tik voor meer informatie over deze update</string>
+    <string name="system_update_notification_update_finished_reboot">Herstart je apparaat</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Tik om de update toe te passen</string>
+    <string name="system_update_notification_update_completed">Systeemupdate voltooid</string>
+    <string name="system_update_notification_update_completed_desc">U bent helemaal up to date! U kunt doorgaan met het gebruiken van uw apparaat</string>
+</resources>
