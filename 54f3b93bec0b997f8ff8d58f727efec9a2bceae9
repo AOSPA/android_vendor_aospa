@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a93040a5_60964489",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-06-25T10:46:33Z",
+      "side": 1,
+      "message": "works as intended, enables shutter sound control in NTCamera (Probably other camera apps as well)",
+      "revId": "54f3b93bec0b997f8ff8d58f727efec9a2bceae9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
