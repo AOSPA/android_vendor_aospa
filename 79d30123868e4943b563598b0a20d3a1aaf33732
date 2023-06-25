@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8d9afb5_03ff3634",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000625
+      },
+      "writtenOn": "2023-06-25T19:30:11Z",
+      "side": 1,
+      "message": "Fixes the issue on Zenfone 9.",
+      "revId": "79d30123868e4943b563598b0a20d3a1aaf33732",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
