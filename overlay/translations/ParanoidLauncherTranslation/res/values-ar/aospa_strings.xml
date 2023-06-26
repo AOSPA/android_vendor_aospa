@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">اسحب للوصول إلى تغذية جوجل</string>
+    <string name="msg_minus_one_on_left">من الشاشة الرئيسية، اسحب لليسار لفتح تغذية Google</string>
+    <string name="msg_minus_one_on_right">من الشاشة الرئيسية، اسحب لليمين لفتح تغذية Google</string>
+    <string name="pref_dt_gesture_title">انقر نقراً مزدوجاً للنوم</string>
+    <string name="pref_dt_gesture_summary">اضغط مرّتين على مكانٍ فارغ لإطفاء الشاشة</string>
+    <string name="suggestion_pref_screen_title">الاقتراحات</string>
+    <string name="suggestion_pref_screen_desc">لجميع التطبيقات &amp; اقتراحات الشاشة الرئيسية</string>
+    <string name="settings_lock_layout_title">تخطيط القفل</string>
+    <string name="settings_lock_layout_summary_on">لا يمكن إضافة, حذف و نقل الأيقونات و الويدجتس على الشاشة الرئيسية</string>
+    <string name="settings_lock_layout_summary_off">يمكن إضافة, حذف و نقل الأيقونات و الويدجتس على الشاشة الرئيسية</string>
+    <string name="settings_edit_widgets_error">لا يمكن إضافة الويدجتس إلى الشاشة الرئيسية</string>
+    <string name="desktop_show_labels">إظهار أسماء الأيقونات على الشاشة الرئيسية</string>
+    <string name="drawer_show_labels">إظهار أسماء التطبيقات في درج التطبيقات</string>
+    <string name="category_icon">الأيقونات</string>
+    <string name="category_misc">اخرى</string>
+    <string name="category_google">جوجل</string>
+    <string name="action_lens">العدسة</string>
+    <string name="label_search">بحث</string>
+    <string name="label_lens">عدسة جوجل</string>
+    <string name="label_voice_search">البحث الصوتي</string>
+    <string name="dock_search_title">شريط بحث جوجل</string>
+    <string name="dock_search_summary">إظهار شريط البحث في القائمة السفلية</string>
+    <string name="smartspace_pref_title">في لمحة</string>
+    <string name="smartspace_pref_summary">إظهار المساحة الذكية في الجزء العلوي من الشاشة الرئيسية</string>
+    <string name="show_top_shadow">إظهار الظل العلوي</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Обновление системы</string>
+    <string name="system_update_update_to_date">У вас уже установлена последняя версия ПО</string>
+    <string name="system_update_update_to_date_desc">Версия Paranoid Android: %1$s %2$s &lt;br&gt;Обновление безопасности Android: %3$s&lt;br&gt;&lt;br&gt;Дата последней проверки обновлений: %4$s</string>
+    <string name="system_update_update_to_date_button">Проверить наличие обновлений</string>
+    <string name="system_update_checking_for_update">Проверка наличия обновлений...</string>
+    <string name="system_update_update_available">Доступно обновление системы</string>
+    <string name="system_update_update_available_security_update">Доступно обновление безопасности</string>
+    <string name="system_update_update_available_desc">%1$s Размер обновления: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Критические обновления&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Размер обновления: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Это обновление улучшает стабильность, исправляя критические ошибки. Узнайте больше на &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Критические обновления&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Размер обновления: %5$s</string>
+    <string name="system_update_update_available_button">Загрузить и установить</string>
+    <string name="system_update_update_download_install">Установка обновления системы…</string>
+    <string name="system_update_update_download_install_security_update">Установка обновления безопасности…</string>
+    <string name="system_update_update_download_install_step">Загрузка и установка обновления</string>
+    <string name="system_update_update_download_install_verify">Проверка обновления системы…</string>
+    <string name="system_update_update_download_install_complete">Обновление системы завершено</string>
+    <string name="system_update_update_download_install_complete_desc">Нажмите на кнопку перезагрузки для установки обновления</string>
+    <string name="system_update_update_download_install_complete_restart_button">Перезагрузить</string>
+    <string name="system_update_update_download_install_paused">Загрузка приостановлена</string>
+    <string name="system_update_update_download_install_pause_button">Приостановить</string>
+    <string name="system_update_update_download_install_resume_button">Возобновить</string>
+    <string name="system_update_update_download_install_cancel_button">Отменить</string>
+    <string name="system_update_update_download_install_error">Ошибка обновления</string>
+    <string name="system_update_update_download_install_step_download">Загрузка обновления</string>
+    <string name="system_update_update_download_install_step_download_verify">Проверка целостности обновления</string>
+    <string name="system_update_update_download_install_step_install">Установка обновления</string>
+    <string name="system_update_update_download_install_step_finalize">Оптимизация приложений, это может занять некоторое время</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Ошибка загрузки обновления</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Ошибка проверки целостности обновления</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Ошибка при установке обновления</string>
+    <string name="system_update_update_download_install_error_button">Попробовать ещё раз</string>
+    <string name="system_update_notification_channel">Обновления системы</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Обновление Paranoid Android</string>
+    <string name="system_update_notification_update_available_desc">Нажмите, чтобы узнать подробнее</string>
+    <string name="system_update_notification_update_finished_reboot">Перезагрузите устройство</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Нажмите, чтобы завершить установку обновления</string>
+    <string name="system_update_notification_update_completed">Обновление системы завершено</string>
+    <string name="system_update_notification_update_completed_desc">Теперь вы можете продолжить использовать ваше устройство</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">Осталась 1 секунда</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> секунды</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> секунд(ы)</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">Осталась 1 минута</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> минуты</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> минут(ы)</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Остался 1 час</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> часа</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+    </plurals>
+</resources>

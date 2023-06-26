@@ -21,6 +21,7 @@
     <string name="gestures_master">Kapalı ekran hareketlerini etkinleştir</string>
     <string name="gestures_disabled">Devre dışı</string>
     <string name="gestures_wake_device">Cihazı uyandır</string>
+    <string name="gestures_pulse_ambient_display">Ortam ekranını göster</string>
     <string name="gestures_toggle_flashlight">El fenerini aç-kapat</string>
     <string name="gestures_toggle_airplane_mode">Uçak modunu aç-kapat</string>
     <string name="gestures_play_pause_music">Müziği Oynat/Durdur</string>

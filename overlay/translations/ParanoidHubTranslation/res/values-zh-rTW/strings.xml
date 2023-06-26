@@ -36,7 +36,7 @@
     <string name="system_update_notification_update_available_default">Paranoid Android 更新</string>
     <string name="system_update_notification_update_available_desc">輕觸即可進一步瞭解本次更新</string>
     <string name="system_update_notification_update_finished_reboot">重新啟動您的裝置</string>
-    <string name="system_update_notification_update_finished_reboot_desc">輕觸來套用更新</string>
+    <string name="system_update_notification_update_finished_reboot_desc">輕觸以套用更新</string>
     <string name="system_update_notification_update_completed">系统更新完成</string>
     <string name="system_update_notification_update_completed_desc">您的裝置已更新到最新狀態！您可以繼續使用您的裝置了</string>
     <plurals name="eta_seconds">

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">واجهة Glyph</string>
+    <string name="glyph_settings_enable">أضواء Glyph</string>
+    <string name="glyph_settings_title">واجهة Glyph</string>
+    <string name="glyph_settings_summary">خيارات مصابيح Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">قلب إلى Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">كتم وعرض Glyphs إذا كان الهاتف يواجه للأسفل</string>
+    <string name="glyph_settings_brightness">الإضاءة</string>
+    <string name="glyph_settings_charging_title">الرسوم المتحركة للشحن</string>
+    <string name="glyph_settings_charging_level_title">مستوى البطارية</string>
+    <string name="glyph_settings_charging_level_summary">إظهار مستوى البطارية عند التوصيل</string>
+    <string name="glyph_settings_charging_powershare_title">الشحن اللاسلكي العكسي</string>
+    <string name="glyph_settings_charging_powershare_summary">إظهار الرسوم المتحركة عند اكتشاف الشحن اللاسلكي العكسي</string>
+    <string name="glyph_settings_call_title">المكالمات</string>
+    <string name="glyph_settings_call_toggle_title">حركة المكالمات</string>
+    <string name="glyph_settings_call_toggle_summary">مصابيح فلاش عند المكالمات الواردة</string>
+    <string name="glyph_settings_call_sub_toggle_title">تمكين حركة المكالمات</string>
+    <string name="glyph_settings_call_sub_animations_title">النمط</string>
+    <string name="glyph_settings_notifs_title">التنبيهات</string>
+    <string name="glyph_settings_notifs_toggle_title">حركة التنبيهات</string>
+    <string name="glyph_settings_notifs_toggle_summary">مصابيح فلاش على الإشعارات الجديدة</string>
+    <string name="glyph_settings_notifs_sub_title">تطبيقات للسماح</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">تمكين حركة التنبيهات</string>
+    <string name="glyph_settings_notifs_sub_animations_title">النمط</string>
+    <string name="glyph_settings_misc_title">متنوعات</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">مرئيات الموسيقى</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">DISCO LIGHTS!\nسيؤدي هذا إلى تعطيل جميع وظائف الغشاء الأخرى أثناء التمكين</string>
+    <string name="glyph_accessibility_quick_settings">الرسم</string>
+    <string name="glyph_accessibility_quick_settings_torch">شعلة الرسم</string>
+    <string name="glyph_accessibility_quick_settings_off">مغلق</string>
+    <string name="glyph_accessibility_quick_settings_on">مفعل</string>
+</resources>

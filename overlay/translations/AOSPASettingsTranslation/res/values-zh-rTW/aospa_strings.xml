@@ -54,7 +54,7 @@
     <string name="ambient_display_screen_off_udfps_summary">允許在螢幕關閉時使用指紋解鎖。\n啟用後可能會導致意外喚醒。</string>
     <string name="screenshot_shutter_sound_title">擷取螢幕畫面音效</string>
     <string name="adaptive_playback_screen_title">智慧暫停</string>
-    <string name="adaptive_playback_enabled">智慧暫停</string>
+    <string name="adaptive_playback_enabled">啟用智慧暫停</string>
     <string name="adaptive_playback_disabled_summary">關閉</string>
     <string name="adaptive_playback_intro_text">靜音後自動停止播放媒體，並在取消靜音後繼續播放</string>
     <string name="adaptive_playback_timeout_title">逾時</string>
@@ -92,8 +92,8 @@
     <string name="keywords_display_dc_dimming">DC 調光, 閃爍, 眼睛, 疲勞</string>
     <string name="system_black_theme_title">純黑背景</string>
     <string name="system_black_theme_summary">強制使用純黑色背景</string>
-    <string name="doze_gesture_ambient_title">環境顯示</string>
-    <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而不是完全喚醒屏幕</string>
+    <string name="doze_gesture_ambient_title">顯示微光螢幕</string>
+    <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而不是完全喚醒螢幕</string>
     <string name="gesture_wake_ambient">環境顯示</string>
     <string name="gesture_wake">完全喚醒</string>
     <string name="doze_enabled_title">環境顯示</string>

@@ -17,10 +17,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="glyph_settings_app_name">Glyph Интерфейс</string>
+    <string name="glyph_settings_app_name">Glyph интерфейс</string>
     <string name="glyph_settings_enable">Glyph огни</string>
-    <string name="glyph_settings_title">Glyph Интерфейс</string>
-    <string name="glyph_settings_summary">Настройки для Glyph огней</string>
+    <string name="glyph_settings_title">Glyph интерфейс</string>
+    <string name="glyph_settings_summary">Настройки для Glyph уведомлений</string>
     <string name="glyph_settings_flip_toggle_title">Flip to Glyph</string>
     <string name="glyph_settings_flip_toggle_summary">Уведомления Glyph без звука, лёжа экраном вниз</string>
     <string name="glyph_settings_brightness">Яркость</string>
@@ -31,18 +31,18 @@
     <string name="glyph_settings_charging_powershare_summary">Показывать анимацию при реверсивной зарядке</string>
     <string name="glyph_settings_call_title">Звонки</string>
     <string name="glyph_settings_call_toggle_title">Анимация звонков</string>
-    <string name="glyph_settings_call_toggle_summary">Выбор моргания для звонков</string>
+    <string name="glyph_settings_call_toggle_summary">Мигать светодиодом при входящих звонках</string>
     <string name="glyph_settings_call_sub_toggle_title">Включить анимацию звонков</string>
-    <string name="glyph_settings_call_sub_animations_title">Варианты</string>
+    <string name="glyph_settings_call_sub_animations_title">Паттерн</string>
     <string name="glyph_settings_notifs_title">Уведомления</string>
     <string name="glyph_settings_notifs_toggle_title">Анимация уведомлений</string>
-    <string name="glyph_settings_notifs_toggle_summary">Выбор моргания для уведомлений</string>
-    <string name="glyph_settings_notifs_sub_title">Активные приожения</string>
+    <string name="glyph_settings_notifs_toggle_summary">Мигать светодиодом для новых уведомлений</string>
+    <string name="glyph_settings_notifs_sub_title">Разрешенные приложения</string>
     <string name="glyph_settings_notifs_sub_toggle_title">Включить анимацию уведомлений</string>
     <string name="glyph_settings_notifs_sub_animations_title">Варианты</string>
     <string name="glyph_settings_misc_title">Дополнительно</string>
     <string name="glyph_settings_music_visualizer_toggle_title">Визуализация музыки</string>
-    <string name="glyph_settings_music_visualizer_toggle_summary">Дискотека!\nПри использовании отключаются все настройки Glyph</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">Дискотека!\nПри включении все остальные функции Glyph работать не будут</string>
     <string name="glyph_accessibility_quick_settings">Glyph</string>
     <string name="glyph_accessibility_quick_settings_torch">Glyph фонарик</string>
     <string name="glyph_accessibility_quick_settings_off">Выкл.</string>

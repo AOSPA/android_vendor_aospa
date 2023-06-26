@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph interfész</string>
+    <string name="glyph_settings_enable">Glyph fények</string>
+    <string name="glyph_settings_title">Glyph interfész</string>
+    <string name="glyph_settings_summary">A Glyph fények beállításai</string>
+    <string name="glyph_settings_flip_toggle_title">Glyph a telefon megfordításakor</string>
+    <string name="glyph_settings_flip_toggle_summary">Glyph némítása és mutatása ha a telefon lefelé néz</string>
+    <string name="glyph_settings_brightness">Fényerő</string>
+    <string name="glyph_settings_charging_title">Töltési animáció</string>
+    <string name="glyph_settings_charging_level_title">Akkumulátorszint</string>
+    <string name="glyph_settings_charging_level_summary">Akkumulátorszint mutatása töltés közben</string>
+    <string name="glyph_settings_charging_powershare_title">Fordított vezeték nélküli töltés</string>
+    <string name="glyph_settings_charging_powershare_summary">Animáció mutatása fordított vezeték nélküli töltés észlelésekor</string>
+    <string name="glyph_settings_call_title">Hívások</string>
+    <string name="glyph_settings_call_toggle_title">Hívás animáció</string>
+    <string name="glyph_settings_call_toggle_summary">Bejövő hívások villogó jelzése</string>
+    <string name="glyph_settings_call_sub_toggle_title">Hívó animáció engedélyezése</string>
+    <string name="glyph_settings_call_sub_animations_title">Minta</string>
+    <string name="glyph_settings_notifs_title">Értesítések</string>
+    <string name="glyph_settings_notifs_toggle_title">Értesítési animáció</string>
+    <string name="glyph_settings_notifs_toggle_summary">Villogás új értesítések esetén</string>
+    <string name="glyph_settings_notifs_sub_title">Engedélyezett alkalmazások</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Értesítési animáció bekapcsolása</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Minta</string>
+    <string name="glyph_settings_misc_title">Egyéb</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Zene vizualizáció</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">DISZKÓ!\nEnnek bekapcsolása kikapcsolja az összes egyéb Glyph funkciót</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Glyph lámpa</string>
+    <string name="glyph_accessibility_quick_settings_off">Ki</string>
+    <string name="glyph_accessibility_quick_settings_on">Be</string>
+</resources>

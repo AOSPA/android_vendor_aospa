@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">सिस्टम अपडेट</string>
+    <string name="system_update_update_to_date">तपाईंँको प्रणाली अप टु डेट छ</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android संस्करण: %1$s %2$s &lt;br&gt;Android सुरक्षा अद्यावधिक: %3$s&lt;br&gt;&lt;br&gt;अद्यावधिकको अन्तिम सफल जाँच: %4$s</string>
+    <string name="system_update_update_to_date_button">अपडेटहरूको लागि जाँच्नुहोस्</string>
+    <string name="system_update_checking_for_update">अपडेटको लागि जाँच गर्दै...</string>
+    <string name="system_update_update_available">प्रणाली अद्यावधिक उपलब्ध छ</string>
+    <string name="system_update_update_available_security_update">सुरक्षा अपडेट उपलब्ध छ</string>
+    <string name="system_update_update_available_desc">%1$s अद्यावधिक आकार: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;महत्वपूर्ण अपडेटहरू&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;अपडेट साइज: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;यो अद्यावधिकले स्थिरता सुधारहरू थप्छ, साथै महत्त्वपूर्ण बगहरू समाधान गर्दछ। &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;महत्त्वपूर्ण अद्यावधिकहरू&lt;/b&gt; मा थप जान्नुहोस्: &lt;br&gt;- %4$ s &lt;br&gt;&lt;br&gt;अपडेट साइज: %5$s</string>
+    <string name="system_update_update_available_button">डाउनलोड र स्थापना गर्नुहोस्</string>
+    <string name="system_update_update_download_install">प्रणाली अद्यावधिक स्थापना गर्दै...</string>
+    <string name="system_update_update_download_install_security_update">सुरक्षा अद्यावधिक स्थापना गर्दै...</string>
+    <string name="system_update_update_download_install_step">अपडेट डाउनलोड र स्थापना गर्दै</string>
+    <string name="system_update_update_download_install_verify">प्रणाली अद्यावधिक प्रमाणीकरण गर्दै...</string>
+    <string name="system_update_update_download_install_complete">प्रणाली अद्यावधिक समाप्त भयो</string>
+    <string name="system_update_update_download_install_complete_desc">आफ्नो उपकरण पुन: सुरु गर्न र अद्यावधिक लागू गर्न पुनः सुरु बटन ट्याप गर्नुहोस्</string>
+    <string name="system_update_update_download_install_complete_restart_button">रिस्टार्ट गर्नुहोस्</string>
+    <string name="system_update_update_download_install_paused">डाउनलोड रोकियो</string>
+    <string name="system_update_update_download_install_pause_button">रोक्नुहोस्</string>
+    <string name="system_update_update_download_install_resume_button">चालू गर्नुहोस्</string>
+    <string name="system_update_update_download_install_cancel_button">रद्द गर्नुहोस्</string>
+    <string name="system_update_update_download_install_error">अपडेट गर्न सकिएन</string>
+    <string name="system_update_update_download_install_step_download">अपडेटहरु डाउनलोड हुँदैछ…</string>
+    <string name="system_update_update_download_install_step_download_verify">डाउनलोड पुष्टि गर्दै</string>
+    <string name="system_update_update_download_install_step_install">अद्यावधिक स्थापना गर्दै</string>
+    <string name="system_update_update_download_install_step_finalize">एपहरू अप्टिमाइज गर्दै, यसले केही समय लिन सक्छ</string>
+    <string name="system_update_update_download_install_error_step_download_issue">डाउनलोड समस्या</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">प्रमाणीकरण समस्या</string>
+    <string name="system_update_update_download_install_error_step_install_issue">स्थापना समस्या</string>
+    <string name="system_update_update_download_install_error_button">पुन: प्रयास गर्नुहोस्</string>
+    <string name="system_update_notification_channel">सिस्टम अपडेट</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android प्रणाली अपडेट</string>
+    <string name="system_update_notification_update_available_desc">यस अपडेटको बारेमा थप जान्न ट्याप गर्नुहोस्</string>
+    <string name="system_update_notification_update_finished_reboot">आफ्नो यन्त्र पुन: सुरु गर्नुहोस्</string>
+    <string name="system_update_notification_update_finished_reboot_desc">अद्यावधिक लागू गर्न समाप्त गर्न ट्याप गर्नुहोस्</string>
+    <string name="system_update_notification_update_completed">प्रणाली अद्यावधिक पूरा भयो</string>
+    <string name="system_update_notification_update_completed_desc">तपाईं सबै अद्यावधिक गर्न तयार हुनुहुन्छ! तपाईं आफ्नो उपकरण प्रयोग जारी राख्न सक्नुहुन्छ</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">१ सेकेन्ड बाँकी</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> सेकेन्ड बाँकी</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">१ मिनेट बाँकी</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> मिनेट बाँकी</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">१ घण्टा बाँकी</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> घण्टा बाँकी</item>
+    </plurals>
+</resources>

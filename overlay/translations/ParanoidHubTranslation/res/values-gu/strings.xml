@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">સિસ્ટમ અપડેટ</string>
+    <string name="system_update_update_to_date">તમારું સિસ્ટમ અપ ટુ ડેટ છે</string>
+    <string name="system_update_update_to_date_desc">પેરનોઇડ એન્ડ્રોઇડ વર્ઝન: %1$s %2$s &lt;br&gt;એન્ડ્રોઇડ સિક્યોરિટી અપડેટ: %3$s&lt;br&gt;&lt;br&gt;છેલ્લે %4$s પર તપાસ કરી હતી</string>
+    <string name="system_update_update_to_date_button">અપડેટ માટે તપાસો</string>
+    <string name="system_update_checking_for_update">અપડેટ માટે તપાસ ચાલુ છે</string>
+    <string name="system_update_update_available">સિસ્ટમ અપડેટ ઉપલબ્ધ છે</string>
+    <string name="system_update_update_available_security_update">સેકુરિટી અપડેટ ઉપલબ્ધ </string>
+    <string name="system_update_update_available_desc">%$s અપડેટ સાઇઝ: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;જરૂરી અપડેટ્સ&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;અપડેટ સાઇઝ:%3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;આ અપડેટ માં સ્થિરતા સુધારણાઓ ઉમેરેલ છે, તેમજ ગંભીર ભૂલોને સુધારે છે.  વધુ જાણવા:&lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;જરૂરી અપડેટ્સ&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;અપડેટ સાઇઝ: %5$s</string>
+    <string name="system_update_update_available_button">અપડેટ ડાઉનલોડ કરો અને ઇન્સ્ટોલ કરો</string>
+    <string name="system_update_update_download_install">સિસ્ટમ અપડેટ ચાલું છે...</string>
+    <string name="system_update_update_download_install_security_update">સિકયોરિટી અપડેટ ચાલું છે...</string>
+    <string name="system_update_update_download_install_step">અપડેટ ડાઉનલોડ થઇ અને ઇન્સ્ટોલ થાય છે</string>
+    <string name="system_update_update_download_install_verify">સિસ્ટમ અપડેટ ચકાસણી પ્રક્રિયા માં છે </string>
+    <string name="system_update_update_download_install_complete">સિસ્ટમ અપડેટ પૂરું થયું </string>
+    <string name="system_update_update_download_install_complete_desc">અપડેટ ને સ્થાયી કરવાં માટે તમારું ડિવાઈઝ પુનઃપ્રારંભ બટન દબાવો</string>
+    <string name="system_update_update_download_install_complete_restart_button">પુનઃપ્રારંભ કરો</string>
+    <string name="system_update_update_download_install_paused">ડાઉનલોડ થોભાવ્યું છે</string>
+    <string name="system_update_update_download_install_pause_button">વિરામ</string>
+    <string name="system_update_update_download_install_resume_button">ફરી શરૂ કરો</string>
+    <string name="system_update_update_download_install_cancel_button">રદ્દ કરો</string>
+    <string name="system_update_update_download_install_error">અપડેટ કરી શકાયું નથી</string>
+    <string name="system_update_update_download_install_step_download">અપડેટ ડાઉનલોડ થઈ રહ્યું છે…</string>
+    <string name="system_update_update_download_install_step_download_verify">અપડેટ ચકાસી રહ્યું છે</string>
+    <string name="system_update_update_download_install_step_install">અપડેટ સ્થાયી થઈ રહ્યું છે...</string>
+    <string name="system_update_update_download_install_step_finalize">ઓપ્તિમિઝિંગ એપ્સ, આ થતાં થોડી વાર લાગી શકે છે</string>
+    <string name="system_update_update_download_install_error_step_download_issue">ડાઉનલોડ માં સમસ્યા</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">ચકાસણી માં સમસ્યા </string>
+    <string name="system_update_update_download_install_error_step_install_issue">ઇન્સ્ટોલેશન માં સમસ્યા </string>
+    <string name="system_update_update_download_install_error_button">ફરી પ્રયત્ન કરો </string>
+    <string name="system_update_notification_channel">સિસ્ટમ અપડેટસ </string>
+    <string name="system_update_notification_update_available">પેરનોઈડ એન્ડ્રોઇડ %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">પેરનોડ એન્ડ્રોઇડ સિસ્ટમ અપડેટ</string>
+    <string name="system_update_notification_update_available_desc">આ અપડેટ વિશે વધુ જાણવા માટે ટૅપ કરો</string>
+    <string name="system_update_notification_update_finished_reboot">તમારું ડિવાઈસ પૂનઃપ્રારંભ કરો</string>
+    <string name="system_update_notification_update_finished_reboot_desc">અપડેટ ને સ્થાયી કરવાં ખાતર ટેપ કરો</string>
+    <string name="system_update_notification_update_completed">સિસ્ટમ અપડેટ પૂર્ણ થયું </string>
+    <string name="system_update_notification_update_completed_desc">તમે અપ ટુ ડેટ છો, તમે તમારું ડિવાઇસ વાપરવું ચાલુ રાખી શકો છો </string>
+    <plurals name="eta_minutes">
+        <item quantity="one">%d મિનિટ બાકી</item>
+        <item quantity="other">1 મિનિટ બાકી </item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 કલાક બાકી </item>
+        <item quantity="other">1 કલાક બાકી </item>
+    </plurals>
+</resources>

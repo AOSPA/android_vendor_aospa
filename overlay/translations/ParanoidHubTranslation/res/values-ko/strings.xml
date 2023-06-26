@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">시스템 업데이트</string>
+    <string name="system_update_update_to_date">시스템이 최신 상태입니다</string>
+    <string name="system_update_update_to_date_desc">Paranoid Android 버전: %1$s %2$s &lt;br&gt;Android 보안 업데이트: %3$s&lt;br&gt;&lt;br&gt;마지막 업데이트 확인 성공: %4$s</string>
+    <string name="system_update_update_to_date_button">업데이트 확인</string>
+    <string name="system_update_checking_for_update">업데이트 확인 중…</string>
+    <string name="system_update_update_available">시스템 업데이트 가능</string>
+    <string name="system_update_update_available_security_update">보안 업데이트 가능</string>
+    <string name="system_update_update_available_desc">%1$s 업데이트 크기: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;중요 업데이트&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;업데이트 크기: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;이 업데이트는 안정성을 개선하고, 치명적인 버그를 수정합니다. This update adds stability improvements, as well as fixes critical bugs. &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;에서 더 많은 내용을 알아보세요.&lt;br&gt;&lt;br&gt;&lt;b&gt;중요 업데이트&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;업데이트 크기: %5$s</string>
+    <string name="system_update_update_available_button">다운로드 및 설치</string>
+    <string name="system_update_update_download_install">시스템 업데이트 설치 중…</string>
+    <string name="system_update_update_download_install_security_update">보안 업데이트 설치 중…</string>
+    <string name="system_update_update_download_install_step">업데이트 다운로드 및 설치 중</string>
+    <string name="system_update_update_download_install_verify">시스템 업데이트 검증 중…</string>
+    <string name="system_update_update_download_install_complete">시스템 업데이트가 완료되었습니다</string>
+    <string name="system_update_update_download_install_complete_desc">장치를 다시 시작하고 업데이트를 적용하려면 다시 시작 버튼을 누르세요</string>
+    <string name="system_update_update_download_install_complete_restart_button">다시 시작</string>
+    <string name="system_update_update_download_install_paused">다운로드 일시정지됨</string>
+    <string name="system_update_update_download_install_pause_button">일시정지</string>
+    <string name="system_update_update_download_install_resume_button">재개</string>
+    <string name="system_update_update_download_install_cancel_button">취소</string>
+    <string name="system_update_update_download_install_error">업데이트할 수 없음</string>
+    <string name="system_update_update_download_install_step_download">업데이트 다운로드 중</string>
+    <string name="system_update_update_download_install_step_download_verify">다운로드 확인 중</string>
+    <string name="system_update_update_download_install_step_install">업데이트 설치 중</string>
+    <string name="system_update_update_download_install_step_finalize">앱 최적화 중, 시간이 걸릴 수 있습니다</string>
+    <string name="system_update_update_download_install_error_step_download_issue">다운로드 오류</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">검증 오류</string>
+    <string name="system_update_update_download_install_error_step_install_issue">설치 오류</string>
+    <string name="system_update_update_download_install_error_button">다시 시도</string>
+    <string name="system_update_notification_channel">시스템 업데이트</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Paranoid Android 시스템 업데이트</string>
+    <string name="system_update_notification_update_available_desc">탭하여 이 업데이트에 관해 자세히 알아보기</string>
+    <string name="system_update_notification_update_finished_reboot">장치를 다시 시작하세요</string>
+    <string name="system_update_notification_update_finished_reboot_desc">탭하여 업데이트 적용하기</string>
+    <string name="system_update_notification_update_completed">시스템 업데이트 완료됨</string>
+    <string name="system_update_notification_update_completed_desc">업데이트가 완료되었습니다! 장치를 계속해서 사용할 수 있습니다</string>
+    <plurals name="eta_seconds">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>초 남음</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>분 남음</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>시간 남음</item>
+    </plurals>
+</resources>
