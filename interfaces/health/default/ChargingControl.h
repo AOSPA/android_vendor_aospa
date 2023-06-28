@@ -34,13 +34,8 @@ struct ChargingControl : public BnChargingControl {
     binder_status_t dump(int fd, const char** args, uint32_t numArgs) override;
 
   private:
-#ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE
-    const ChargingEnabledNode* mChargingEnabledNode;
-#endif
-
-#ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE
-    const std::string* mChargingDeadlineNode;
-#endif
+    [[maybe_unused]] const ChargingEnabledNode* mChargingEnabledNode;
+    [[maybe_unused]] const std::string* mChargingDeadlineNode;
 };
 
 }  // namespace health
