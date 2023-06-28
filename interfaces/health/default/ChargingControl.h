@@ -31,11 +31,15 @@ struct ChargingControl : public BnChargingControl {
     ndk::ScopedAStatus setChargingEnabled(bool enabled) override;
     ndk::ScopedAStatus setChargingDeadline(int64_t deadline) override;
     ndk::ScopedAStatus getSupportedMode(int* _aidl_return) override;
+    ndk::ScopedAStatus getChargingDeadline(int64_t* _aidl_return) override;
+    ndk::ScopedAStatus setChargingLimit(const ::aidl::vendor::lineage::health::ChargingLimitInfo& in_limit) override;
+    ndk::ScopedAStatus getChargingLimit(::aidl::vendor::lineage::health::ChargingLimitInfo* _aidl_return) override;
     binder_status_t dump(int fd, const char** args, uint32_t numArgs) override;
 
   private:
     [[maybe_unused]] const ChargingEnabledNode* mChargingEnabledNode;
     [[maybe_unused]] const std::string* mChargingDeadlineNode;
+    [[maybe_unused]] const std::string* mChargingLimitNode;
 };
 
 }  // namespace health
