@@ -16,6 +16,24 @@
       "message": "why not use prebuilts repo?",
       "revId": "3067cb12b34265692e02a7b76b8ed53cbcfacabc",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e86dc134_98162b38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-06-28T05:38:59Z",
+      "side": 1,
+      "message": "i don\u0027t think this will be merged anyways and we can\u0027t do gerrit on prebuilts repo.",
+      "parentUuid": "8b9b3ca7_1953734b",
+      "revId": "3067cb12b34265692e02a7b76b8ed53cbcfacabc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
