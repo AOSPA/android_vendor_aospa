@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <string name="face_enroll_title">얼굴을 카메라 중앙에 맞춰주세요</string>
+    <string name="face_enroll_description">가만히 있는 상태에서, 조명이 잘 들어오는 환경에 있는지 확인하세요</string>
+    <string name="face_try_again_title">얼굴을 인식할 수 없습니다</string>
+    <string name="face_try_again_description">아래 버튼을 눌러 다시 시도하세요. 다음 시도에는 조명이 잘 들어오는 환경에 있는지, 얼굴을 가리는 것이 없는지 확인하세요.</string>
+    <string name="btn_try_again">다시 시도</string>
+    <string name="attr_light_dark">얼굴에 조명이 더 필요합니다</string>
+    <string name="attr_light_high">얼굴에 조명이 너무 밝습니다</string>
+    <string name="attr_light_shadow">얼굴에 그림자가 너무 많습니다</string>
+    <string name="unlock_failed_face_blur">얼굴이 너무 흐릿합니다</string>
+    <string name="unlock_failed_face_large">얼굴이 너무 가까이 있습니다</string>
+    <string name="unlock_failed_face_multi">너무 많은 얼굴이 인식되었습니다</string>
+    <string name="unlock_failed_face_not_complete">얼굴의 일부만 인식되었습니다</string>
+    <string name="unlock_failed_face_small">얼굴이 너무 멀리 있습니다</string>
+</resources>

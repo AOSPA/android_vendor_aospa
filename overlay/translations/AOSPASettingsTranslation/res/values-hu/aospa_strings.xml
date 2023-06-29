@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Paranoid Android verzió</string>
+    <string name="offscreen_gesture_title">Gesztusok kikapcsolt képernyőnél</string>
+    <string name="offscreen_gesture_summary">Minták rajzolásával vagy koppintással végezhető műveletek</string>
+    <string name="keywords_gestures">képernyő érintőképernyő rajz csúsztatás ujj érintés</string>
+    <string name="gestures_master">Kikapcsolt képernyő gesztusok használata</string>
+    <string name="gestures_disabled">Letiltva</string>
+    <string name="gestures_wake_device">Eszköz felébresztése</string>
+    <string name="gestures_pulse_ambient_display">Pulzálás a környezeti kijelzőn</string>
+    <string name="gestures_toggle_flashlight">Zseblámpa kapcsolása</string>
+    <string name="gestures_toggle_airplane_mode">Repülőgépes üzemmód kapcsolása</string>
+    <string name="gestures_play_pause_music">Zene indítás/megállítás</string>
+    <string name="gestures_next_music">Következő zeneszám</string>
+    <string name="gestures_previous_music">Előző zeneszám</string>
+    <string name="gestures_open_camera">Kamera megnyitása</string>
+    <string name="gestures_open_dialer">Tárcsázó megnyitása</string>
+    <string name="gestures_double_tap">Dupla koppintás</string>
+    <string name="gestures_single_tap">Egyszeri érintés</string>
+    <string name="gestures_draw_v">V rajzolás</string>
+    <string name="gestures_draw_inverse_v">Fordított V rajz</string>
+    <string name="gestures_draw_o">O rajzolás</string>
+    <string name="gestures_draw_m">M rajzolás</string>
+    <string name="gestures_draw_w">W rajzolás</string>
+    <string name="gestures_draw_s">S rajzolás</string>
+    <string name="gestures_draw_arrow_left">&lt; rajzolás</string>
+    <string name="gestures_draw_arrow_right">&gt; rajzolás</string>
+    <string name="gestures_one_finger_swipe_up">Egyujjas csúsztatás felfelé</string>
+    <string name="gestures_one_finger_swipe_right">Egyujjas csúsztatás jobbra</string>
+    <string name="gestures_one_finger_swipe_down">Egyujjas csúsztatás lefelé</string>
+    <string name="gestures_one_finger_swipe_left">Egyujjas csúsztatás balra</string>
+    <string name="gestures_two_finger_swipe">Két ujjas csúsztatás</string>
+    <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
+    <string name="three_finger_gesture_summary">Húzza le három ujját a képernyőkép készítéséhez</string>
+    <string name="duration_less_than_one_minute">Kevesebb mint 1 perc</string>
+    <string name="screen_time_summary_usage_today">Ma: %1$s</string>
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
+    <string name="ambient_display_screen_off_udfps_title">Állandóan bekapcsolt Ujjlenyomat</string>
+    <string name="ambient_display_screen_off_udfps_summary">Lehetővé teszi a feloldást kikapcsolt képernyő esetén.\nEngedélyezése kéretlen képernyő ébresztést okozhat.</string>
+    <string name="screenshot_shutter_sound_title">Képernyőmentés hangja</string>
+    <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
+    <string name="adaptive_playback_enabled">Az \'Okos szüneteltetés\' használata</string>
+    <string name="adaptive_playback_disabled_summary">Ki</string>
+    <string name="adaptive_playback_intro_text">A hangerő elnémítása esetén automatikusan szünetelteti a médiát, és folytatja ha az adott időn belül a némítás megszűnik</string>
+    <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
+    <string name="adaptive_playback_timeout_none">Nincs időkorlát</string>
+    <string name="adaptive_playback_timeout_none_summary">Be (nincs időkorlát)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
+    <string name="volume_button_music_control_title">Lejátszásvezérlés</string>
+    <string name="volume_button_music_control_summary">Kikapcsolt képernyőnél a hangerő gombok hosszannyomásával léptetheti a zeneszámokat</string>
+    <string name="power_button_torch_title">Zseblámpa gyorskapcsolás</string>
+    <string name="power_button_torch_summary">Kikapcsolt képernyőnél a bekapcsológomb hosszan nyomására a zseblámpa bekapcsol</string>
+    <string name="icon_manager_title">Ikon kezelő</string>
+    <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
+    <string name="display_cutout_force_fullscreen_title">Teljesképernyős alkalmazások</string>
+    <string name="display_cutout_force_fullscreen_summary">Alkalmazások kényszerítése, hogy mellőzzék a képernyőkivágást</string>
+    <string name="search">Keresés</string>
+    <string name="search_apps">Alkalmazások keresése</string>
+    <string name="category_name_refresh_rate_controls">Képfrissítés gyakorisága</string>
+    <string name="color_mode_balance_category">Színegyensúly</string>
+    <string name="color_mode_balance_red">Vörös erősség</string>
+    <string name="color_mode_balance_green">Zöld erősség</string>
+    <string name="color_mode_balance_blue">Kék erősség</string>
+    <string name="keywords_color_balance">szín, színegyensúly, színkorrekció, vörös, zöld, kék, LiveDisplay</string>
+    <string name="dc_dimming_title">DC villogáscsökkenés</string>
+    <string name="dc_dimming_info">Csökkenti a szem megerőltetését gyenge fényviszonyok mellett a képernyővillogás csökkentésével. Rossz képminőséget és gyenge színeket vagy magasabb akkufogyasztást okozhat.</string>
+    <string name="dc_dimming_main_switch_title">DC villogáscsökkenés használata</string>
+    <string name="keywords_display_dc_dimming">DC villogáscsökkenés, vibrálás, szem, szemterhelés</string>
+    <string name="system_black_theme_title">Fekete téma használata</string>
+    <string name="system_black_theme_summary">Fekete háttérszín kényszerítése</string>
+    <string name="doze_gesture_ambient_title">Környezeti kijelző</string>
+    <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
+    <string name="gesture_wake_ambient">Környezeti kijelző mutatása</string>
+    <string name="gesture_wake">Teljes képernyőébresztés</string>
+    <string name="doze_enabled_title">Környezeti kijelző</string>
+    <string name="doze_enabled_summary">A Doze-csomagfunkciók engedélyezése</string>
+    <string name="navbar_invert_layout_title">Fordított navigációs sáv elrendezés</string>
+    <string name="navbar_invert_info">A \'Vissza\' és az \'Előzmények\' gomb cseréje a navigációs sávon</string>
+    <string name="notification_vibration_pattern_title">Vibrációs minta az értesítéshez</string>
+    <string name="ring_vibration_pattern_title">Rezgő csengési minták</string>
+    <string name="pattern_default">Eszköz alapértelmezett</string>
+</resources>

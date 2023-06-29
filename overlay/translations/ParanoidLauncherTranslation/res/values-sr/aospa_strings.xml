@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="pref_dt_gesture_title">Искључи екран при двоструком додиру</string>
+    <string name="pref_dt_gesture_summary">Двапут додирните празан простор за искључивање екрана</string>
+    <string name="suggestion_pref_screen_title">Предлози</string>
+    <string name="suggestion_pref_screen_desc">За све апликације &amp; Предлози за почетни екран</string>
+</resources>
