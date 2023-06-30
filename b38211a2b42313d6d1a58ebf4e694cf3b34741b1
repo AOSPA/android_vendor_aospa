@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbc089f8_ff16d726",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-06-30T09:25:33Z",
+      "side": 1,
+      "message": "we may also need https://github.com/ArrowOS/android_frameworks_base/commit/1ed6c3560d1a3f0004da56dd310b7460e6a8184d",
+      "revId": "b38211a2b42313d6d1a58ebf4e694cf3b34741b1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
