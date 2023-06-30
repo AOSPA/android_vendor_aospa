@@ -1,0 +1,62 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/device_sony_pdx214",
+        "target_path":  "device/sony/pdx214",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/kernel_sony_sagami",
+        "target_path":  "kernel/sony/sagami",
+        "revision":     "tmp"
+    },
+    {
+        "remote":       "github",
+        "repository":   "BladeRunner-A2C/vendor_sony_pdx214",
+        "target_path":  "vendor/sony/pdx214",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "uvite-SN100X-legacy"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "uvite-SN100X-legacy"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA-overlook/android_hardware_sony",
+        "target_path":  "hardware/sony",
+        "revision":     "uvite"
+    }
+]
