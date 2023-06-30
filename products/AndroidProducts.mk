@@ -35,6 +35,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus7t/aospa_oneplus7t.mk \
     $(LOCAL_DIR)/oneplus7tpro/aospa_oneplus7tpro.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
+    $(LOCAL_DIR)/pdx214/aospa_pdx214.mk \
+    $(LOCAL_DIR)/pdx215/aospa_pdx215.mk \
     $(LOCAL_DIR)/pdx234/aospa_pdx234.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/lahaina.xml" />
+
+  <project path="device/sony/pdx215" name="BladeRunner-A2C/device_sony_pdx215" remote="github" revision="vauxite" />
+  <project path="kernel/sony/sagami" name="BladeRunner-A2C/kernel_sony_sagami" remote="github" revision="vauxite" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/sony/pdx215" name="BladeRunner-A2C/vendor_sony_pdx215" remote="github" revision="vauxite" />
+</manifest>
