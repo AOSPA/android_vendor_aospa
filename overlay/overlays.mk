@@ -59,18 +59,5 @@ PRODUCT_PACKAGES += \
     IconPackRoundedThemePickerOverlay \
     ParanoidLauncherOverlay
 
-# Translation Overlays
-PRODUCT_PACKAGES += \
-    AOSPAFrameworksTranslation \
-    AOSPASettingsTranslation \
-    ParanoidDozeTranslation \
-    ParanoidGlyphTranslation \
-    ParanoidHubTranslation \
-    ParanoidLauncherTranslation \
-    ParanoidPapersTranslation \
-    ParanoidSenseTranslation \
-    ParanoidSystemUITranslation \
-    ParanoidThemePickerTranslation
-
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aospa/overlay/static
 PRODUCT_PACKAGE_OVERLAYS += vendor/aospa/overlay/static

@@ -3,3 +3,6 @@ apps/*
 
 # AOSPA Prebuilts
 prebuilt/
+
+# AOSPA translations
+translations/
