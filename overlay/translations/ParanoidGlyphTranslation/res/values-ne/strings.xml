@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph इन्टरफेस</string>
+    <string name="glyph_settings_enable">ग्लिफ बत्तीहरू</string>
+    <string name="glyph_settings_title">ग्लिफ इन्टरफेस</string>
+    <string name="glyph_settings_summary">ग्लिफ रोशनी लागि विकल्प</string>
+    <string name="glyph_settings_flip_toggle_title">ग्लिफमा फ्लिप गर्नुहोस्</string>
+    <string name="glyph_settings_flip_toggle_summary">यदि फोन डाउन फेस गरिएको छ भने म्युट गर्नुहोस् र ग्लिफहरू देखाउनुहोस्</string>
+    <string name="glyph_settings_brightness">उज्यालोपन</string>
+    <string name="glyph_settings_charging_title">चार्जिङ एनिमेसन</string>
+    <string name="glyph_settings_charging_level_title">ब्याट्री स्तर</string>
+    <string name="glyph_settings_charging_level_summary">प्लग इन गर्दा ब्याट्री स्तर देखाउनुहोस्</string>
+    <string name="glyph_settings_charging_powershare_title">रिभर्स वायरलेस चार्जिङ</string>
+    <string name="glyph_settings_charging_powershare_summary">रिभर्स वायरलेस चार्जिङ पत्ता लाग्दा एनिमेसन देखाउनुहोस्</string>
+    <string name="glyph_settings_call_title">कल</string>
+    <string name="glyph_settings_call_toggle_title">कल एनिमेसन</string>
+    <string name="glyph_settings_call_toggle_summary">आगमन कलहरूमा फ्ल्यास एलईडीहरू</string>
+    <string name="glyph_settings_call_sub_toggle_title">कल एनिमेसन सक्षम गर्नुहोस्</string>
+    <string name="glyph_settings_call_sub_animations_title">प्याटर्न</string>
+    <string name="glyph_settings_notifs_title">सूचना</string>
+    <string name="glyph_settings_notifs_toggle_title">सूचना एनिमेसन</string>
+    <string name="glyph_settings_notifs_toggle_summary">नयाँ सूचनाहरूमा फ्ल्यास एलईडीहरू</string>
+    <string name="glyph_settings_notifs_sub_title">अनुमति दिन अनुप्रयोगहरू</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">सूचना एनिमेसन सक्षम गर्नुहोस्</string>
+    <string name="glyph_settings_notifs_sub_animations_title">प्याटर्न</string>
+    <string name="glyph_settings_misc_title">विविध</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">संगीत भिजुअलाइजर</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">डिस्को लाइटहरू!\nयसले अन्य सबै ग्लाइफ प्रकार्यहरूलाई सक्षम पार्दा असक्षम पार्नेछ</string>
+    <string name="glyph_accessibility_quick_settings">ग्लिफ</string>
+    <string name="glyph_accessibility_quick_settings_torch">ग्लिफ टर्च</string>
+    <string name="glyph_accessibility_quick_settings_off">बन्द</string>
+    <string name="glyph_accessibility_quick_settings_on">अन</string>
+</resources>

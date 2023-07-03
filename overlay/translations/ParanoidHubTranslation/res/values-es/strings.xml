@@ -35,4 +35,20 @@
     <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
     <string name="system_update_notification_update_available_default">Actualización de sistema de Paranoid Android</string>
     <string name="system_update_notification_update_available_desc">Presiona para aprender más sobre esta actualización </string>
+    <string name="system_update_notification_update_finished_reboot">Reinicie su dispositivo</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Toque para terminar de aplicar la actualización</string>
+    <string name="system_update_notification_update_completed">Actualización del sistema completada</string>
+    <string name="system_update_notification_update_completed_desc">¡Está todo listo para actualizarse! Puede continuar usando su dispositivo</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 segundo restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> segundos restantes</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minuto restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos restantes</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hora restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
+    </plurals>
 </resources>

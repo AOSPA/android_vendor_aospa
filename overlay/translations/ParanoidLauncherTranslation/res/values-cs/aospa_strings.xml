@@ -39,7 +39,7 @@
     <string name="label_voice_search">Hlasové vyhledávání</string>
     <string name="dock_search_title">Vyhledávací panel Google</string>
     <string name="dock_search_summary">Zobrazit vyhledávací panel ve spodním doku</string>
-    <string name="smartspace_pref_title">At a Glance</string>
+    <string name="smartspace_pref_title">Přehled událostí</string>
     <string name="smartspace_pref_summary">Zobrazení inteligentního prostoru v horní části domovské obrazovky</string>
     <string name="show_top_shadow">Zobrazit horní stíny</string>
 </resources>

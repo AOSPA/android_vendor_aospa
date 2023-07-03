@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Paranoid Android 버전</string>
+    <string name="offscreen_gesture_title">화면 끄기 제스처</string>
+    <string name="offscreen_gesture_summary">동작을 수행하려면 패턴을 그리거나 화면을 탭하세요</string>
+    <string name="keywords_gestures">화면 터치스크린 그리기 스와이프 손가락 탭 두드리기</string>
+    <string name="gestures_master">화면 끄기 제스쳐 사용</string>
+    <string name="gestures_disabled">사용 안 함</string>
+    <string name="gestures_wake_device">기기 깨우기</string>
+    <string name="gestures_play_pause_music">음악 재생/일시정지</string>
+    <string name="gestures_next_music">다음 곡</string>
+    <string name="gestures_previous_music">이전 곡</string>
+    <string name="gestures_open_camera">카메라 열기</string>
+    <string name="gestures_open_dialer">다이얼 열기</string>
+    <string name="gestures_double_tap">두 번 탭하기</string>
+    <string name="gestures_single_tap">한 번 탭하기</string>
+    <string name="gestures_draw_v">V 그리기</string>
+    <string name="gestures_draw_inverse_v">V 역으로 그리기</string>
+    <string name="gestures_draw_o">O 그리기</string>
+    <string name="gestures_draw_m">M 그리기</string>
+    <string name="gestures_draw_w">W 그리기</string>
+    <string name="gestures_draw_s">S 그리기</string>
+    <string name="gestures_draw_arrow_left">&lt; 그리기</string>
+    <string name="gestures_draw_arrow_right">&gt; 그리기</string>
+    <string name="ambient_display_screen_off_udfps_summary">화면이 꺼진 상태에서 잠금 해제를 허용합니다.\n활성화하면 의도치 않게 화면이 켜질 수 있습니다.</string>
+    <string name="screenshot_shutter_sound_title">스크린샷 소리</string>
+</resources>

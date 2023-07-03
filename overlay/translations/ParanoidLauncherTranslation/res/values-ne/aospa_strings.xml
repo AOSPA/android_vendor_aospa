@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">गुगल फिड पहुँच गर्न स्वाइप गर्नुहोस्</string>
+    <string name="msg_minus_one_on_left">गृह स्क्रिनबाट, गूगल फिड खोल्न बायाँ स्वाइप गर्नुहोस्</string>
+    <string name="msg_minus_one_on_right">गृह स्क्रिनबाट, गूगल फिड खोल्न दायाँ स्वाइप गर्नुहोस्</string>
+    <string name="pref_dt_gesture_title">सुत्नको लागि डबल ट्याप गर्नुहोस्</string>
+    <string name="pref_dt_gesture_summary">स्क्रिन बन्द गर्न खाली ठाउँमा डबल ट्याप गर्नुहोस्</string>
+    <string name="suggestion_pref_screen_title">सुझावहरू</string>
+    <string name="suggestion_pref_screen_desc">सबै अनुप्रयोगहरूको लागि र; गृह स्क्रिन सुझावहरू</string>
+    <string name="settings_lock_layout_title">लक लेआउट</string>
+    <string name="settings_lock_layout_summary_on">आईकन र विजेटहरू होमस्क्रिनमा थप्न, हटाउन र सार्न सकिँदैन</string>
+    <string name="settings_lock_layout_summary_off">आइकनहरू र विजेटहरू थप्न, हटाउन र होमस्क्रिनमा सार्न सकिन्छ</string>
+    <string name="settings_edit_widgets_error">गृह स्क्रिनमा विजेटहरू थप्न सम्भव छैन</string>
+    <string name="desktop_show_labels">डेस्कटपमा आइकन लेबलहरू देखाउनुहोस्</string>
+    <string name="drawer_show_labels">दराजमा आइकन लेबलहरू देखाउनुहोस्</string>
+    <string name="category_icon">आइकनहरू</string>
+    <string name="category_misc">विविध</string>
+    <string name="category_google">गुगल</string>
+    <string name="action_lens">लेन्स</string>
+    <string name="label_search">खोज्नुहोस्</string>
+    <string name="label_lens">गुगल लेन्स</string>
+    <string name="label_voice_search">आवाज खोज</string>
+    <string name="dock_search_title">गुगल खोज पट्टी</string>
+    <string name="dock_search_summary">तलको डकमा खोज पट्टी देखाउनुहोस्</string>
+    <string name="smartspace_pref_title">एकै नजरमा</string>
+    <string name="smartspace_pref_summary">गृह स्क्रिनको शीर्षमा स्मार्टस्पेस देखाउनुहोस्</string>
+    <string name="show_top_shadow">शीर्ष छाया देखाउनुहोस्</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2022 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aospa_version">Verze Paranoid Android</string>
+    <string name="offscreen_gesture_title">Gesta při vypnuté obrazovce</string>
+    <string name="offscreen_gesture_summary">Pro provedení akcí nakreslete vzory nebo klepněte na obrazovku</string>
+    <string name="keywords_gestures">kreslení prstem a klepnutí na dotykovou obrazovku</string>
+    <string name="gestures_master">Použití gest vypnutí obrazovky</string>
+    <string name="gestures_disabled">Vypnuto</string>
+    <string name="gestures_wake_device">Probudit zařízení</string>
+    <string name="gestures_pulse_ambient_display">Pulzování při Ambientním displeji</string>
+    <string name="gestures_toggle_flashlight">Zapnout/vypnout svítilnu</string>
+    <string name="gestures_toggle_airplane_mode">Zapnout/vypnout režim letadlo</string>
+    <string name="gestures_play_pause_music">Přehrát/pozastavit hudbu</string>
+    <string name="gestures_next_music">Další skladba</string>
+    <string name="gestures_previous_music">Předchozí skladba</string>
+    <string name="gestures_open_camera">Otevřít fotoaparát</string>
+    <string name="gestures_open_dialer">Spustit vytáčení</string>
+    <string name="gestures_double_tap">Dvojí poklepání</string>
+    <string name="gestures_single_tap">Jedno klepnutí</string>
+    <string name="gestures_draw_v">Nakreslit V</string>
+    <string name="gestures_draw_inverse_v">Nakreslit převrácené V</string>
+    <string name="gestures_draw_o">Nakreslit O</string>
+    <string name="gestures_draw_m">Nakreslit M</string>
+    <string name="gestures_draw_w">Nakreslit W</string>
+    <string name="gestures_draw_s">Nakreslit S</string>
+    <string name="gestures_draw_arrow_left">Nakreslit &lt;</string>
+    <string name="gestures_draw_arrow_right">Nakreslit &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Přejetí jedním prstem nahoru</string>
+    <string name="gestures_one_finger_swipe_right">Přejetí jedním prstem doprava</string>
+    <string name="gestures_one_finger_swipe_down">Přejetí jedním prstem dolů</string>
+    <string name="gestures_one_finger_swipe_left">Přejetí jedním prstem doleva</string>
+    <string name="gestures_two_finger_swipe">Přejetí dvěma prsty</string>
+    <string name="three_finger_gesture">Gesto třemi prsty</string>
+    <string name="three_finger_gesture_summary">Přejetím dolů třemi prsty pořídit snímek obrazovky</string>
+    <string name="duration_less_than_one_minute">Méně než 1 min.</string>
+    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
+    <string name="prevent_ringing_option_cycle">Přepínání mezi režimy</string>
+    <string name="prevent_ringing_option_cycle_summary">Zap. (přepínání mezi režimy)</string>
+    <string name="ambient_display_screen_off_udfps_title">Otisku prstu při AOD</string>
+    <string name="ambient_display_screen_off_udfps_summary">Umožňuje odemknout při vypnuté obrazovce.\nZapnutí může způsobit náhodné probuzení.</string>
+    <string name="screenshot_shutter_sound_title">Zvuk při snímku obrazovky</string>
+    <string name="adaptive_playback_screen_title">Chytré pozastavení</string>
+    <string name="adaptive_playback_enabled">Použít chytré pozastavení</string>
+    <string name="adaptive_playback_disabled_summary">Vyp.</string>
+    <string name="adaptive_playback_intro_text">Adaptivní přehrávání automaticky pozastaví média, když je hlasitost ztlumena a automaticky se obnoví při obnově hlasitosti v daném čase.</string>
+    <string name="adaptive_playback_timeout_title">Použít tento časový limit</string>
+    <string name="adaptive_playback_timeout_none">Bez časového limitu</string>
+    <string name="adaptive_playback_timeout_none_summary">Zap. (bez časového limitu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Zap. (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Zap. (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Zap. (2 minuty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Zap. (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Zap. (10 minut)</string>
+    <string name="volume_button_music_control_title">Ovládání přehrávání</string>
+    <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhím stisknutí tlačítek hlasitosti přeskočíte skladby</string>
+    <string name="power_button_torch_title">Rychlá svítilna</string>
+    <string name="power_button_torch_summary">Když je obrazovka vypnutá, dlouhým stiskem tlačítka napájení zapnete svítilnu</string>
+    <string name="icon_manager_title">Správce ikon</string>
+    <string name="icon_manager_summary">Ovládejte viditelnost ikon stavového řádku</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikace přes celou obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
+    <string name="search">Vyhledat</string>
+    <string name="search_apps">Hledat v aplikacích</string>
+    <string name="category_name_refresh_rate_controls">Obnovovací frekvence</string>
+    <string name="color_mode_balance_category">Vyvážení barev</string>
+    <string name="color_mode_balance_red">Červená</string>
+    <string name="color_mode_balance_green">Zelená</string>
+    <string name="color_mode_balance_blue">Modrá</string>
+    <string name="keywords_color_balance">barvy, vyvážení barev, korekce barev, červená, zelená, modrá, LiveDisplay</string>
+    <string name="dc_dimming_title">DC tlumení</string>
+    <string name="dc_dimming_info">Snižuje namáhání očí při slabém osvětlení tím, že minimalizuje blikání obrazovky. Může to mít za následek sníženou kvalitu obrazu a špatnou produkci barev nebo vyšší spotřebu energie.</string>
+    <string name="dc_dimming_main_switch_title">Použít DC tlumení</string>
+    <string name="keywords_display_dc_dimming">dc tlumení, proti, blikání, oči, namáhání</string>
+    <string name="system_black_theme_title">Použít černý motiv</string>
+    <string name="system_black_theme_summary">Vynutit černou barvu pozadí</string>
+    <string name="doze_gesture_ambient_title">Zobrazit ambientní displej</string>
+    <string name="doze_gesture_ambient_summary">Zobrazit Ambientní displej namísto úplného probuzení obrazovky</string>
+    <string name="gesture_wake_ambient">Zobrazit ambientní displej</string>
+    <string name="gesture_wake">Zcela probudit</string>
+    <string name="doze_enabled_title">Ambientní displej</string>
+    <string name="doze_enabled_summary">Zda má být povolena funkce balíčku doze</string>
+    <string name="navbar_invert_layout_title">Převrátit rozložení navigačního panelu</string>
+    <string name="navbar_invert_info">Prohodit tlačítka \"Zpět\" a \"Nedávné\" na navigačním panelu</string>
+    <string name="notification_vibration_pattern_title">Vzor vibrací oznámení</string>
+    <string name="ring_vibration_pattern_title">Vzor vibrací vyzvánění</string>
+    <string name="pattern_default">Výchozí nastavení zařízení</string>
+</resources>

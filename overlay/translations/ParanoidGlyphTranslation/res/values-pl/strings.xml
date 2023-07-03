@@ -17,12 +17,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="glyph_settings_app_name">Interfejs glifów</string>
-    <string name="glyph_settings_enable">Światła glifów</string>
-    <string name="glyph_settings_title">Interfejs glifów</string>
-    <string name="glyph_settings_summary">Opcje dla świateł glifów</string>
-    <string name="glyph_settings_flip_toggle_title">Odwróć, aby aktywować glif</string>
-    <string name="glyph_settings_flip_toggle_summary">Wycisz i pokaż glify, jeśli telefon jest skierowany w dół</string>
+    <string name="glyph_settings_app_name">Interfejs Glyph</string>
+    <string name="glyph_settings_enable">Światła Glyph</string>
+    <string name="glyph_settings_title">Interfejs Glyph</string>
+    <string name="glyph_settings_summary">Opcje dla świateł Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Odwróć, aby aktywować Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Wycisz i pokaż Glyph, jeśli telefon jest skierowany w dół</string>
     <string name="glyph_settings_brightness">Jasność</string>
     <string name="glyph_settings_charging_title">Animacja ładowania</string>
     <string name="glyph_settings_charging_level_title">Poziom naładowania baterii</string>
@@ -42,9 +42,9 @@
     <string name="glyph_settings_notifs_sub_animations_title">Wzór</string>
     <string name="glyph_settings_misc_title">Różne</string>
     <string name="glyph_settings_music_visualizer_toggle_title">Wizualizer muzyki</string>
-    <string name="glyph_settings_music_visualizer_toggle_summary">ŚWIATŁA DISCO!\nto wyłączy wszystkie inne funkcje glifów, jeśli włączone</string>
-    <string name="glyph_accessibility_quick_settings">Glif</string>
-    <string name="glyph_accessibility_quick_settings_torch">Latarka glifowa</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">ŚWIATŁA DISCO!\nto wyłączy wszystkie inne funkcje Glyph, jeśli włączone</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Latarka Glyph</string>
     <string name="glyph_accessibility_quick_settings_off">Wyłącz</string>
     <string name="glyph_accessibility_quick_settings_on">Włącz</string>
 </resources>

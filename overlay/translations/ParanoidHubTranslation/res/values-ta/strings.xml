@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">அமைப்பு மென்பொருள் மேம்படுத்தல்</string>
+    <string name="system_update_update_to_date">அமைப்பு மென்பொருள் புதுப்பிக்கபட்ட நிலையில் உள்ளது</string>
+    <string name="system_update_update_to_date_desc">பேரணாய்ட் அண்ட்ராய்டு பதிப்பு: அண்ட்ராய்டு பாதுகாப்பு புதுப்பித்தல்%3$s&lt;br&gt;&lt;br&gt;புதுப்பித்தலுக்கான கடைசி வெற்றிகரமான சோதனை:%4$s</string>
+    <string name="system_update_update_to_date_button">மேம்படுத்தலுக்கு சோதிக்கவும்</string>
+    <string name="system_update_checking_for_update">புதுப்பித்தல்களுக்கு தேடுகிறது...</string>
+    <string name="system_update_update_available">மென்பொருள் மேம்படுத்தல் கிடைக்க உள்ளது</string>
+    <string name="system_update_update_available_security_update">பாதுகாப்பு மேம்படுத்தல் கிடைக்க உள்ளது</string>
+    <string name="system_update_update_available_desc">%1$s புதுப்பித்தல் அளவு: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;முக்கியமான புதுப்பிப்புகள்&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;புதுப்பித்தல் அளவு: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;இந்தப் புதுப்பிப்பு நிலைத்தன்மை மேம்பாடுகளைச் சேர்க்கிறது, மேலும் முக்கியமான பிழைகளைச் சரிசெய்கிறது. மேலும் அறிந்துகொள்ள &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;முக்கியமான புதுப்பிப்புகள்&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;புதுப்பித்தல் அளவு: %5$s</string>
+    <string name="system_update_update_available_button">பதிவிறக்கி நிறுவவும்</string>
+    <string name="system_update_update_download_install">அமைப்பு புதுப்பிப்பை நிறுவுகிறது…</string>
+    <string name="system_update_update_download_install_security_update">பாதுகாப்பு புதுப்பிப்பை நிறுவுகிறது…</string>
+    <string name="system_update_update_download_install_step">புதுப்பிப்பைப் பதிவிறக்கி நிறுவுகிறது</string>
+    <string name="system_update_update_download_install_verify">அமைப்பு புதுப்பிப்பை நிறுவுகிறது…</string>
+    <string name="system_update_update_download_install_complete">அமைப்பு புதுப்பிப்பு முடிவடைந்தது</string>
+    <string name="system_update_update_download_install_complete_desc">உங்கள் சாதனத்தை மறுதொடக்கம் செய்ய மறுதொடக்கம் பொத்தானைத் தட்டி புதுப்பிப்பைப் நிறைவு செய்யவும்</string>
+    <string name="system_update_update_download_install_complete_restart_button">மறுதொடக்கம்</string>
+    <string name="system_update_update_download_install_paused">பதிவிறக்கம் இடைநிறுத்தப்பட்டுள்ளது</string>
+    <string name="system_update_update_download_install_pause_button">இடைநிறுத்து</string>
+    <string name="system_update_update_download_install_resume_button">தொடரவும்</string>
+    <string name="system_update_update_download_install_cancel_button">ரத்துசெய்</string>
+    <string name="system_update_update_download_install_error">புதுப்பிக்க இயலவில்லை</string>
+    <string name="system_update_update_download_install_step_download">புதுப்பிப்பு பதிவிறக்கப்படுகிறது…</string>
+    <string name="system_update_update_download_install_step_download_verify">பதிவிறக்கம் சரிபார்க்கப்படுகிறது</string>
+    <string name="system_update_update_download_install_step_install">புதுப்பிப்பை நிறுவுகிறது</string>
+    <string name="system_update_update_download_install_step_finalize">ஆப்ஸை மேம்படுத்தப்படுகிறது, இதற்குச் சிறிது நேரம் ஆகலாம்</string>
+    <string name="system_update_update_download_install_error_step_download_issue">பதிவிறக்கத்தில் சிக்கல் </string>
+    <string name="system_update_update_download_install_error_step_verify_issue">சரிபார்த்தலில் சிக்கல் </string>
+    <string name="system_update_update_download_install_error_step_install_issue">நிறுவலில் சிக்கல்</string>
+    <string name="system_update_update_download_install_error_button">மீண்டும் முயற்சி செய்யவும்</string>
+    <string name="system_update_notification_channel">அமைப்பு புதுப்பிகள்</string>
+    <string name="system_update_notification_update_available">பேரணாய்டு ஆண்ட்ராய்டு %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">பேரணாய்ட் ஆண்ட்ராய்டு முறைமை புதுப்பிப்பு</string>
+    <string name="system_update_notification_update_available_desc">இந்தப் மேம்படுத்தல்பற்றி மேலும் அறியத் தட்டவும்</string>
+    <string name="system_update_notification_update_finished_reboot">சாதனத்தை மறுதொடக்கம் செய்யவும்</string>
+    <string name="system_update_notification_update_finished_reboot_desc">புதுப்பிப்பைப் முழுமையாக முடிக்கத் தட்டவும்</string>
+    <string name="system_update_notification_update_completed">அமைப்பு புதுப்பிப்பு முடிந்தது</string>
+    <string name="system_update_notification_update_completed_desc">மெண்பொருள் புதுப்பிக்கப்பட்ட நிலையில் உள்ளது! உங்கள் சாதன பயன்பாட்டைத் தொடரலாம்</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 வினாடி மீதம் உள்ளது</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> வினாடிகள் மீதம் உள்ளன</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">மணிநேரம் உள்ளது</item>
+        <item quantity="other">மணிநேரம் உள்ளன</item>
+    </plurals>
+</resources>

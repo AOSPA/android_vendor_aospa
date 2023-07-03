@@ -23,7 +23,7 @@
     <string name="pref_dt_gesture_title">Uyutmak için çift dokunun</string>
     <string name="pref_dt_gesture_summary">Ekranı kapatmak için boş bir yere çift dokunun</string>
     <string name="suggestion_pref_screen_title">Öneriler</string>
-    <string name="suggestion_pref_screen_desc">Tüm uygulamalar ve Ana ekran önerileri için</string>
+    <string name="suggestion_pref_screen_desc">Tüm uygulamalar &amp; Ana ekran önerileri için</string>
     <string name="settings_lock_layout_title">Düzeni kilitle</string>
     <string name="settings_lock_layout_summary_on">Simgeler ve widget\'lar ana ekrana eklenemez, kaldırılamaz ve taşınamaz</string>
     <string name="settings_lock_layout_summary_off">Simgeler ve widget\'lar ana ekrana eklenebilir, kaldırılabilir ve taşınabilir</string>

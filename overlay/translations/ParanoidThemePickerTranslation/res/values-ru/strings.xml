@@ -21,7 +21,7 @@
     <string name="font_title">Системный шрифт</string>
     <string name="font_preview_card_content_description">Просмотр шрифта</string>
     <string name="wallpaper_color_tab">Цвета обоев</string>
-    <string name="wallpaper_color_title">Цвета обоев</string>
+    <string name="wallpaper_color_title">Цвет обоев</string>
     <string name="preset_color_tab">Основные цвета</string>
-    <string name="color_changed">Изменить цвет</string>
+    <string name="color_changed">Цвет изменён</string>
 </resources>
