@@ -2,13 +2,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">સિસ્ટમ અપડેટ</string>
     <string name="system_update_update_to_date">તમારું સિસ્ટમ અપ ટુ ડેટ છે</string>
-    <string name="system_update_update_to_date_desc">પેરનોઇડ એન્ડ્રોઇડ વર્ઝન: %1$s %2$s &lt;br&gt;એન્ડ્રોઇડ સિક્યોરિટી અપડેટ: %3$s&lt;br&gt;&lt;br&gt;છેલ્લે %4$s પર તપાસ કરી હતી</string>
     <string name="system_update_update_to_date_button">અપડેટ માટે તપાસો</string>
     <string name="system_update_checking_for_update">અપડેટ માટે તપાસ ચાલુ છે</string>
     <string name="system_update_update_available">સિસ્ટમ અપડેટ ઉપલબ્ધ છે</string>
     <string name="system_update_update_available_security_update">સેકુરિટી અપડેટ ઉપલબ્ધ </string>
     <string name="system_update_update_available_desc">%$s અપડેટ સાઇઝ: %2$s</string>
-    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;જરૂરી અપડેટ્સ&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;અપડેટ સાઇઝ:%3$s</string>
     <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;આ અપડેટ માં સ્થિરતા સુધારણાઓ ઉમેરેલ છે, તેમજ ગંભીર ભૂલોને સુધારે છે.  વધુ જાણવા:&lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;જરૂરી અપડેટ્સ&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;અપડેટ સાઇઝ: %5$s</string>
     <string name="system_update_update_available_button">અપડેટ ડાઉનલોડ કરો અને ઇન્સ્ટોલ કરો</string>
     <string name="system_update_update_download_install">સિસ્ટમ અપડેટ ચાલું છે...</string>
