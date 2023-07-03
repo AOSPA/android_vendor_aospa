@@ -13,8 +13,8 @@
     <string name="system_update_update_available_button">Scarica e installa</string>
     <string name="system_update_update_download_install">Installazione aggiornamento di sistema…</string>
     <string name="system_update_update_download_install_security_update">Installazione aggiornamento di sicurezza…</string>
-    <string name="system_update_update_download_install_step">Download e installazione aggiornamento</string>
-    <string name="system_update_update_download_install_verify">Verifica dell\'aggiornamento di sistema...</string>
+    <string name="system_update_update_download_install_step">Scaricamento e installazione aggiornamento</string>
+    <string name="system_update_update_download_install_verify">Verificando l\'aggiornamento di sistema...</string>
     <string name="system_update_update_download_install_complete">L\'aggiornamento del sistema è terminato</string>
     <string name="system_update_update_download_install_complete_desc">Tocca il pulsante Riavvia per riavviare il dispositivo e applicare l\'aggiornamento</string>
     <string name="system_update_update_download_install_complete_restart_button">Riavvia</string>
@@ -23,8 +23,8 @@
     <string name="system_update_update_download_install_resume_button">Riprendi</string>
     <string name="system_update_update_download_install_cancel_button">Annulla</string>
     <string name="system_update_update_download_install_error">Impossibile aggiornare</string>
-    <string name="system_update_update_download_install_step_download">Download aggiornamento</string>
-    <string name="system_update_update_download_install_step_download_verify">Verifica del download</string>
+    <string name="system_update_update_download_install_step_download">Scaricamento aggiornamento</string>
+    <string name="system_update_update_download_install_step_download_verify">Verificando il download</string>
     <string name="system_update_update_download_install_step_install">Installazione aggiornamento</string>
     <string name="system_update_update_download_install_step_finalize">Ottimizzazione applicazioni, questo potrebbe richiedere del tempo</string>
     <string name="system_update_update_download_install_error_step_download_issue">Problema di download</string>

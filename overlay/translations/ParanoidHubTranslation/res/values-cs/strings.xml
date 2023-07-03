@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aktualizace systému</string>
+    <string name="system_update_update_to_date">Váš systém je aktuální</string>
+    <string name="system_update_update_to_date_desc">Verze Paranoid Android: %1$s %2$s &lt;br&gt;Aktualizace zabezpečení systému Android: %3$s&lt;br&gt;&lt;br&gt;Poslední úspěšná kontrola aktualizace: %4$s</string>
+    <string name="system_update_update_to_date_button">Zkontrolovat aktualizace</string>
+    <string name="system_update_checking_for_update">Kontroluje aktualizace ...</string>
+    <string name="system_update_update_available">Je dostupná aktualizace systému</string>
+    <string name="system_update_update_available_security_update">Je dostupná aktualizace zabezpečení</string>
+    <string name="system_update_update_available_desc">%1$s Velikost aktualizace: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Důležité aktualizace&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Velikost aktualizace: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Tato aktualizace přidává vylepšení stability a opravuje kritické chyby. Další informace na &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Důležité aktualizace&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Velikost aktualizace: %5$s</string>
+    <string name="system_update_update_available_button">Stáhnout a nainstalovat</string>
+    <string name="system_update_update_download_install">Instalace aktualizací systému…</string>
+    <string name="system_update_update_download_install_security_update">Instalace aktualizací zabezpečení…</string>
+    <string name="system_update_update_download_install_step">Stahování a instalace aktualizace</string>
+    <string name="system_update_update_download_install_verify">Ověřování aktualizace systému…</string>
+    <string name="system_update_update_download_install_complete">Aktualizace systému je dokončena</string>
+    <string name="system_update_update_download_install_complete_desc">Klepnutím na tlačítko restartovat restartujete zařízení a použijete aktualizaci</string>
+    <string name="system_update_update_download_install_complete_restart_button">Restartovat</string>
+    <string name="system_update_update_download_install_paused">Stahování pozastaveno</string>
+    <string name="system_update_update_download_install_pause_button">Pozastavit</string>
+    <string name="system_update_update_download_install_resume_button">Pokračovat</string>
+    <string name="system_update_update_download_install_cancel_button">Zrušit</string>
+    <string name="system_update_update_download_install_error">Aktualizace se nezdařila</string>
+    <string name="system_update_update_download_install_step_download">Stahování aktualizace</string>
+    <string name="system_update_update_download_install_step_download_verify">Ověřování aktualizace</string>
+    <string name="system_update_update_download_install_step_install">Instalace aktualizace</string>
+    <string name="system_update_update_download_install_step_finalize">Optimalizace aplikací, může to chvíli trvat</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Chyba při stahování</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Chyba s ověřením</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Chyba při instalaci</string>
+    <string name="system_update_update_download_install_error_button">Zkusit znovu</string>
+    <string name="system_update_notification_channel">Aktualizace systému</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Aktualizace systému Paranoid Android</string>
+    <string name="system_update_notification_update_available_desc">Klepnutím zobrazíte další informace o této aktualizaci</string>
+    <string name="system_update_notification_update_finished_reboot">Restartujte zařízení</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Klepnutím dokončit použití aktualizace</string>
+    <string name="system_update_notification_update_completed">Aktualizace systému byla dokončena</string>
+    <string name="system_update_notification_update_completed_desc">Všechno je v aktuální! Můžete pokračovat v používání vašeho zařízení</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">Zbývá 1 sekunda</item>
+        <item quantity="few">Zbývají <xliff:g id="count">%d</xliff:g> sekundy</item>
+        <item quantity="many">Zbývá <xliff:g id="count">%d</xliff:g> sekund</item>
+        <item quantity="other">Zbývá <xliff:g id="count">%d</xliff:g> sekund</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">Zbývá 1 minuta</item>
+        <item quantity="few">Zbývají <xliff:g id="count">%d</xliff:g> minuty</item>
+        <item quantity="many">Zbývá <xliff:g id="count">%d</xliff:g> minut</item>
+        <item quantity="other">Zbývá <xliff:g id="count">%d</xliff:g> minut</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Zbývá 1 hodina</item>
+        <item quantity="few">Zbývají <xliff:g id="count">%d</xliff:g> hodiny</item>
+        <item quantity="many">Zbývá <xliff:g id="count">%d</xliff:g> hodin</item>
+        <item quantity="other">Zbývá <xliff:g id="count">%d</xliff:g> hodin</item>
+    </plurals>
+</resources>

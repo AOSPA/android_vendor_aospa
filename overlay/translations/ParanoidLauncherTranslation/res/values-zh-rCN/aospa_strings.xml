@@ -20,14 +20,14 @@
     <string name="title_show_google_feed">滑动即可访问 Google 新闻</string>
     <string name="msg_minus_one_on_left">从主屏幕上向左滑动即可打开 Google 新闻</string>
     <string name="msg_minus_one_on_right">从主屏幕上向右滑动即可打开 Google 应用</string>
-    <string name="pref_dt_gesture_title">点按休眠</string>
+    <string name="pref_dt_gesture_title">双击息屏</string>
     <string name="pref_dt_gesture_summary">在主屏幕上的空白处点按两次即可关闭屏幕</string>
     <string name="suggestion_pref_screen_title">建议</string>
     <string name="suggestion_pref_screen_desc">适用于所有应用和主屏幕的建议</string>
     <string name="settings_lock_layout_title">锁定布局</string>
     <string name="settings_lock_layout_summary_on">不能在主屏幕上添加、删除和移动图标及小部件</string>
     <string name="settings_lock_layout_summary_off">可以在主屏幕上添加、删除和移动图标及小部件</string>
-    <string name="settings_edit_widgets_error">无法向主屏幕添加微件</string>
+    <string name="settings_edit_widgets_error">无法向主屏幕添加小部件</string>
     <string name="desktop_show_labels">在主屏幕上显示图标标签</string>
     <string name="drawer_show_labels">在“所有应用”列表中显示图标标签</string>
     <string name="category_icon">图标</string>

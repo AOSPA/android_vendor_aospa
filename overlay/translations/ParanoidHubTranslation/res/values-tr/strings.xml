@@ -24,7 +24,7 @@
     <string name="system_update_update_download_install_cancel_button">İptal Et</string>
     <string name="system_update_update_download_install_error">Güncelleme yapılamadı</string>
     <string name="system_update_update_download_install_step_download">Güncelleme indiriliyor</string>
-    <string name="system_update_update_download_install_step_download_verify">İndirmeyi Doğrulanıyor</string>
+    <string name="system_update_update_download_install_step_download_verify">İndirme Doğrulanıyor</string>
     <string name="system_update_update_download_install_step_install">Güncelleme yükleniyor</string>
     <string name="system_update_update_download_install_step_finalize">Uygulamalar optimize ediliyor, bu biraz zaman alabilir</string>
     <string name="system_update_update_download_install_error_step_download_issue">İndirme problemi</string>
@@ -39,4 +39,16 @@
     <string name="system_update_notification_update_finished_reboot_desc">Güncellemeyi bitirmek için tıklayın</string>
     <string name="system_update_notification_update_completed">Sistem güncellemesi tamamlandı</string>
     <string name="system_update_notification_update_completed_desc">Artık güncelsin! Cihazını kullanmaya devam edebilirsin</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 saniye kaldı</item>
+        <item quantity="other">1 saniye kaldı</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 dakika kaldı</item>
+        <item quantity="other">1 dakika kaldı</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 saat kaldı</item>
+        <item quantity="other">1 saat kaldı</item>
+    </plurals>
 </resources>

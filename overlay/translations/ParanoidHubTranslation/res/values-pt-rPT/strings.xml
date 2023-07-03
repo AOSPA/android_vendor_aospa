@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Actualização do Sistema</string>
+    <string name="system_update_update_to_date">O seu sistema está actualizado</string>
+    <string name="system_update_update_to_date_desc">Versão Paranoid do Android: %1$s %2$s &lt;br&gt;Actualização da segurança do Android: %3$s&lt;br&gt;&lt;br&gt;Última actualização com êxito: %4$s</string>
+    <string name="system_update_update_to_date_button">Procurar actualizações</string>
+    <string name="system_update_checking_for_update">A procurar por actualizações …</string>
+    <string name="system_update_update_available">Actualização disponível</string>
+    <string name="system_update_update_available_security_update">Actualização de segurança disponível</string>
+    <string name="system_update_update_available_desc">%1$s Tamanho da actualização: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Actualizações importantes&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Tamanho da actualização: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Esta actualização adiciona melhorias de estabilidade, além de corrigir erros críticos. Saiba mais em &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Actualizações importantes&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Tamanho: %5$s</string>
+    <string name="system_update_update_available_button">Transferir e instalar</string>
+    <string name="system_update_update_download_install">A instalar actualização do sistema…</string>
+    <string name="system_update_update_download_install_security_update">A instalar actualização de segurança…</string>
+    <string name="system_update_update_download_install_step">Transferir e instalar actualização </string>
+    <string name="system_update_update_download_install_verify">A verificar actualização de sistema…</string>
+    <string name="system_update_update_download_install_complete">Actualização do sistema concluída</string>
+    <string name="system_update_update_download_install_complete_desc">Toque no botão reiniciar para reiniciar o seu dispositivo e aplicar a actualização </string>
+    <string name="system_update_update_download_install_complete_restart_button">Reiniciar</string>
+    <string name="system_update_update_download_install_paused">Transferência em pausa</string>
+    <string name="system_update_update_download_install_pause_button">Pausar</string>
+    <string name="system_update_update_download_install_resume_button">Retomar</string>
+    <string name="system_update_update_download_install_cancel_button">Cancelar</string>
+    <string name="system_update_update_download_install_error">Não foi possível actualizar</string>
+    <string name="system_update_update_download_install_step_download">A transferir actualização</string>
+    <string name="system_update_update_download_install_step_download_verify">A verificar a transferência</string>
+    <string name="system_update_update_download_install_step_install">A instalar actualização</string>
+    <string name="system_update_update_download_install_step_finalize">A optimizar aplicações, pode demorar um pouco</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Problema ao transferir</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Problema de verificação</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Problema de instalação</string>
+    <string name="system_update_update_download_install_error_button">Tente novamente</string>
+    <string name="system_update_notification_channel">Actualizações do sistema</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Actualização do sistema Paranoid Android</string>
+    <string name="system_update_notification_update_available_desc">Toque para saber mais acerca desta actualização</string>
+    <string name="system_update_notification_update_finished_reboot">Reinicie o seu dispositivo</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Toque para finalizar a instalação da actualização</string>
+    <string name="system_update_notification_update_completed">Actualização do sistema concluída</string>
+    <string name="system_update_notification_update_completed_desc">Possui as actualizações mais recentes! Pode continuar a utilizar o seu dispositivo</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 segundo restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> segundos restantes</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minuto restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos restantes</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hora restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
+    </plurals>
+</resources>

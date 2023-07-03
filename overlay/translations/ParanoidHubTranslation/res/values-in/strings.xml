@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Pembaruan sistem</string>
+    <string name="system_update_update_to_date">Sistem anda sudah terbaru</string>
+    <string name="system_update_update_to_date_desc">Versi Paranoid Android: %1$s %2$s &lt;br&gt;Pembaruan Keamanan Android: %3$s&lt;br&gt;&lt;br&gt;Terakhir kali pembaruan berhasil diperiksa: %4$s</string>
+    <string name="system_update_update_to_date_button">Periksa pembaruan</string>
+    <string name="system_update_checking_for_update">Memeriksa pembaruan…</string>
+    <string name="system_update_update_available">Pembaruan sistem tersedia</string>
+    <string name="system_update_update_available_security_update">Pembaruan keamanan telah tersedia</string>
+    <string name="system_update_update_available_desc">%1$s Ukuran pembaruan: %2$s</string>
+    <string name="system_update_update_available_with_device_desc">%1$s &lt;br&gt;&lt;br&gt;&lt;b&gt;Pembaruan penting&lt;/b&gt;: &lt;br&gt;- %2$s &lt;br&gt;&lt;br&gt;Ukuran pembaruan: %3$s</string>
+    <string name="system_update_update_available_device_incremental_desc">&lt;b&gt;%1$s %2$s %3$s&lt;/b&gt; &lt;br&gt;&lt;br&gt;Pembaruan ini menambahkan improvisasi kestabilan, secara baik seperti memperbaiki critical bugs. Pelajari lebih lanjut &lt;a href=\"https://paranoidandroid.co/\"&gt;paranoidandroid.co&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Pembaruan penting&lt;/b&gt;: &lt;br&gt;- %4$s &lt;br&gt;&lt;br&gt;Ukuran pembaruan: %5$s</string>
+    <string name="system_update_update_available_button">Unduh dan instal</string>
+    <string name="system_update_update_download_install">Menginstal pembaruan sistem...</string>
+    <string name="system_update_update_download_install_security_update">Menginstal pembaruan keamanan...</string>
+    <string name="system_update_update_download_install_step">Mengunduh dan menginstal pembaruan</string>
+    <string name="system_update_update_download_install_verify">Memverifikasi pembaruan sistem...</string>
+    <string name="system_update_update_download_install_complete">Pembaruan sistem selesai</string>
+    <string name="system_update_update_download_install_complete_desc">Ketuk tombol restart untuk memulai perangkat dan menerapkan pembaruan</string>
+    <string name="system_update_update_download_install_complete_restart_button">Memulai Ulang</string>
+    <string name="system_update_update_download_install_paused">Unduhan dijeda</string>
+    <string name="system_update_update_download_install_pause_button">Jeda</string>
+    <string name="system_update_update_download_install_resume_button">Lanjutkan</string>
+    <string name="system_update_update_download_install_cancel_button">Batalkan</string>
+    <string name="system_update_update_download_install_error">Tidak dapat memperbarui</string>
+    <string name="system_update_update_download_install_step_download">Mengunduh pembaruan</string>
+    <string name="system_update_update_download_install_step_download_verify">Memverifikasi unduhan</string>
+    <string name="system_update_update_download_install_step_install">Memasang pembaruan</string>
+    <string name="system_update_update_download_install_step_finalize">Optimisasi aplikasi, ini mungkin butuh beberapa saat</string>
+    <string name="system_update_update_download_install_error_step_download_issue">Unduhan bermasalah</string>
+    <string name="system_update_update_download_install_error_step_verify_issue">Masalah verifikasi</string>
+    <string name="system_update_update_download_install_error_step_install_issue">Masalah instalasi</string>
+    <string name="system_update_update_download_install_error_button">Coba lagi</string>
+    <string name="system_update_notification_channel">Pembaruan sistem</string>
+    <string name="system_update_notification_update_available">Paranoid Android %1$s %2$s</string>
+    <string name="system_update_notification_update_available_default">Pembaruan sistem Paranoid Android</string>
+    <string name="system_update_notification_update_available_desc">Ketuk untuk mempelajari lebih lanjut mengenai pembaruan ini</string>
+    <string name="system_update_notification_update_finished_reboot">Mulai ulang perangkat Anda</string>
+    <string name="system_update_notification_update_finished_reboot_desc">Ketuk untuk menyelesaikan penerapan pembaruan</string>
+    <string name="system_update_notification_update_completed">Pembaruan sistem selesai</string>
+    <string name="system_update_notification_update_completed_desc">Anda telah siap! Anda dapat melanjutkan untuk menggunakan perangkat anda</string>
+    <plurals name="eta_seconds">
+        <item quantity="other">1 detik tersisa</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="other">1 menit tersisa</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="other">1 jam tersisa</item>
+    </plurals>
+</resources>

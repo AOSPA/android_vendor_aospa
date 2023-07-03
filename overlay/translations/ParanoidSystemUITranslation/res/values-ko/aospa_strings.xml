@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="quick_settings_caffeine_label">카페인</string>
+    <string name="accessibility_quick_settings_caffeine_off">카페인 꺼짐</string>
+    <string name="accessibility_quick_settings_caffeine_on">카페인 켜짐</string>
+    <string name="qs_data_switch_label">데이터 SIM 카드 전환</string>
+    <string name="qs_data_switch_toast_0">현재 SIM 카드가 삽입되어 있지 않습니다</string>
+    <string name="qs_data_switch_toast_1">현재 한 개의 SIM 카드만 삽입되었습니다</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">데이터 SIM 카드를 SIM 1로 전환했습니다.</string>
+    <string name="qs_data_switch_changed_2">데이터 SIM 카드를 SIM 2로 전환했습니다.</string>
+    <string name="quick_settings_heads_up_label">팝업 알림</string>
+    <string name="accessibility_quick_settings_heads_up_off">팝업 알림 꺼짐.</string>
+    <string name="accessibility_quick_settings_heads_up_on">팝업 알림 켜짐.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">팝업 알림이 꺼졌습니다.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">팝업 알림이 켜졌습니다.</string>
+    <string name="quick_settings_dc_dimming_label">DC 디밍</string>
+    <string name="quick_settings_aod_label">Always-on display</string>
+    <string name="quick_settings_powershare_label">배터리 공유</string>
+    <string name="quick_settings_powershare_off_powersave_label">배터리 공유 꺼짐\n절전 모드</string>
+    <string name="quick_settings_powershare_off_low_battery_label">배터리 공유 꺼짐\n배터리 부족</string>
+    <string name="quick_settings_powershare_enabled_label">배터리 공유 켜짐</string>
+    <string name="turn_on_bluetooth">블루투스</string>
+    <string name="bluetooth_is_off">블루투스가 꺼짐</string>
+    <string name="tap_a_device_to_connect">장치를 탭해 연결/연결 해제</string>
+</resources>

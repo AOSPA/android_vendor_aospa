@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">Balayer pour accéder au flux Google</string>
+    <string name="msg_minus_one_on_left">À partir de l\'écran d\'accueil, balayer à gauche pour ouvrir le flux Google</string>
+    <string name="msg_minus_one_on_right">À partir de l\'écran d\'accueil, balayer à droite pour ouvrir le flux Google</string>
+    <string name="pref_dt_gesture_title">Double appui pour mettre en veille</string>
+    <string name="pref_dt_gesture_summary">Double appui sur un espace vide pour éteindre l\'écran</string>
+    <string name="suggestion_pref_screen_title">Suggestions</string>
+    <string name="suggestion_pref_screen_desc">Pour toutes les applications &amp; suggestions d\'écran d\'accueil</string>
+    <string name="settings_lock_layout_title">Verrouiller la disposition</string>
+    <string name="settings_lock_layout_summary_on">Les icônes et widgets ne peuvent pas être ajoutés, supprimés ou déplacés de l\'écran d\'accueil</string>
+    <string name="settings_lock_layout_summary_off">Les icônes et widgets peuvent être ajoutés, supprimés ou déplacés de l\'écran d\'accueil</string>
+    <string name="settings_edit_widgets_error">Il n\'est pas possible d\'ajouter des widgets à l\'écran d\'accueil</string>
+    <string name="desktop_show_labels">Afficher les libellés des icônes sur le bureau</string>
+    <string name="drawer_show_labels">Afficher les libellés des icônes dans le tiroir d\'applications</string>
+    <string name="category_icon">Icônes</string>
+    <string name="category_misc">Autres</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">Lens</string>
+    <string name="label_search">Rechercher</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Recherche vocale</string>
+    <string name="dock_search_title">Barre de recherche Google</string>
+    <string name="dock_search_summary">Afficher la barre de recherche dans le dock en bas</string>
+    <string name="smartspace_pref_title">En bref</string>
+    <string name="smartspace_pref_summary">Afficher l\'espace intelligent en haut de l\'écran d\'accueil</string>
+    <string name="show_top_shadow">Afficher l\'ombre du haut</string>
+</resources>
