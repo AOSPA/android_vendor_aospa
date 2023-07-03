@@ -133,6 +133,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Overlays
 $(call inherit-product, vendor/aospa/overlay/overlays.mk)
 
+# Overlays (Translations)
+$(call inherit-product-if-exists, vendor/aospa/translations/translations.mk)
+
 # Paranoid Packages
 PRODUCT_PACKAGES += \
     ParanoidPapers \
