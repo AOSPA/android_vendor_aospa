@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid डोज</string>
+    <string name="face_enroll_title">आफ्नो अनुहार वृतको बिचमा पार्नुहोस्</string>
+    <string name="face_enroll_description">स्थिर होल्ड गर्नुहोस्, र निश्चित गर्नुहोस् कि तपाईं राम्रोसँग उज्यालो वातावरणमा हुनुहुन्छ</string>
+    <string name="face_try_again_title">तपाईंको अनुहार खिच्न सकिएन</string>
+    <string name="face_try_again_description">फेरि प्रयास गर्न तल ट्याप गर्नुहोस्। अर्को पटक, सुनिश्चित गर्नुहोस् कि तपाईं राम्रोसँग उज्यालो वातावरणमा हुनुहुन्छ र कुनै पनि कुराले तपाईंको अनुहार अस्पष्ट गरिरहेको छैन</string>
+    <string name="btn_try_again">पुन: प्रयास गर्नुहोस्</string>
+    <string name="attr_light_dark">अनुहारमा अझै धेरै प्रकाश चाहिन्छ </string>
+    <string name="attr_light_high">अनुहारमा धेरै प्रकाश भयो </string>
+    <string name="attr_light_shadow">अनुहारमा धेरै छाया भयो</string>
+    <string name="unlock_failed_face_blur">अनुहार धेरै धमिलो छ</string>
+    <string name="unlock_failed_face_large">अनुहार धेरै नजिक भयो</string>
+    <string name="unlock_failed_face_multi">धेरै अनुहारहरु पत्ता लाग्यो</string>
+    <string name="unlock_failed_face_not_complete">पूरा अनुहार पत्ता लागेन</string>
+    <string name="unlock_failed_face_small">अनुहार धेरै टाढा भयो</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Interfaz Glyph</string>
+    <string name="glyph_settings_enable">Luces Glyph</string>
+    <string name="glyph_settings_title">Interfaz Glyph</string>
+    <string name="glyph_settings_summary">Opciones para luces Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Girar para Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Silenciar y mostrar Glyphs si el teléfono está boca abajo</string>
+    <string name="glyph_settings_brightness">Brillo</string>
+    <string name="glyph_settings_charging_title">Animación de carga</string>
+    <string name="glyph_settings_charging_level_title">Nivel de bateria</string>
+    <string name="glyph_settings_charging_level_summary">Mostrar nivel de batería al conectar</string>
+    <string name="glyph_settings_charging_powershare_title">Compartir batería</string>
+    <string name="glyph_settings_charging_powershare_summary">Mostrar una animación cuando se comparte batería</string>
+    <string name="glyph_settings_call_title">Llamadas</string>
+    <string name="glyph_settings_call_toggle_title">Animación de llamada</string>
+    <string name="glyph_settings_call_toggle_summary">Iluminar LEDs para llamadas entrantes</string>
+    <string name="glyph_settings_call_sub_toggle_title">Activar animación de llamada</string>
+    <string name="glyph_settings_call_sub_animations_title">Patrón</string>
+    <string name="glyph_settings_notifs_title">Notificaciones</string>
+    <string name="glyph_settings_notifs_toggle_title">Animación de notificaciones</string>
+    <string name="glyph_settings_notifs_toggle_summary">Iluminar LEDs para nuevas notificaciones</string>
+    <string name="glyph_settings_notifs_sub_title">Aplicaciones a permitir</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Activar animación de notificaciones</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Patrón</string>
+    <string name="glyph_settings_misc_title">Varios</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Visualizador de música</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">¡LUCES DE DISCO!\nesto deshabilitará todas las demás funciones de Glyph mientras está habilitado</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Linterna Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">Apagado</string>
+    <string name="glyph_accessibility_quick_settings_on">Encendido</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2023 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph Interface </string>
+    <string name="glyph_settings_enable">Lampu Glyph</string>
+    <string name="glyph_settings_title">Glyph Interface </string>
+    <string name="glyph_settings_summary">Opsi untuk lampu Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Balik untuk mengaktifkan Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Bisukan dan tampilkan Glyphs jika ponsel dibalik</string>
+    <string name="glyph_settings_brightness">Kecerahan</string>
+    <string name="glyph_settings_charging_title">Animasi pengisian daya</string>
+    <string name="glyph_settings_charging_level_title">Level baterai</string>
+    <string name="glyph_settings_charging_level_summary">Tampilkan level baterai ketika pengisian daya</string>
+    <string name="glyph_settings_charging_powershare_title">Pengisian daya Reverse wireless charging</string>
+    <string name="glyph_settings_charging_powershare_summary">Tampilkan animasi ketika pengisian daya Reverse wireless charging terdeteksi</string>
+    <string name="glyph_settings_call_title">Panggilan</string>
+    <string name="glyph_settings_call_toggle_title">Animasi panggilan</string>
+    <string name="glyph_settings_call_toggle_summary">Kedipkan LED saat panggilan masuk</string>
+    <string name="glyph_settings_call_sub_toggle_title">Aktifkan animasi panggilan</string>
+    <string name="glyph_settings_call_sub_animations_title">Pola</string>
+    <string name="glyph_settings_notifs_title">Notifikasi</string>
+    <string name="glyph_settings_notifs_toggle_title">Animasi notifikasi</string>
+    <string name="glyph_settings_notifs_toggle_summary">Kedipkan LED ketika ada notifikasi baru</string>
+    <string name="glyph_settings_notifs_sub_title">Aplikasi yang diizinkan</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Aktifkan animasi notifikasi</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Pola</string>
+    <string name="glyph_settings_misc_title">Lain-lain</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Visualisasi Musik</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">LAMPU DISKO!\nini akan menonaktifkan semua fungsi Glyph</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Senter Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">Nonaktif</string>
+    <string name="glyph_accessibility_quick_settings_on">Aktif</string>
+</resources>

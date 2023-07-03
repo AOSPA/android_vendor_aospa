@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">Проведіть для доступу до стрічки Google</string>
+    <string name="msg_minus_one_on_right">На головному екрані проведіть праворуч, щоб відкрити стрічку Google</string>
+    <string name="pref_dt_gesture_title">Подвійне натискання для вимкнення екрану</string>
+    <string name="pref_dt_gesture_summary">Двічі торкніться порожнього місця для вимкнення екрану</string>
+    <string name="suggestion_pref_screen_title">Пропозиції</string>
+    <string name="suggestion_pref_screen_desc">Пропозиції в меню додатків та на головному екрані</string>
+    <string name="settings_lock_layout_title">Закріпити іконки та віджети</string>
+    <string name="settings_lock_layout_summary_on">Редагування розміщених іконок та віджетів на головному екрані заборонено</string>
+    <string name="settings_lock_layout_summary_off">Редагування розміщених іконок та віджетів на головному екрані дозволено</string>
+    <string name="settings_edit_widgets_error">Неможливо додати віджети на головний екран</string>
+    <string name="desktop_show_labels">Відображати назви додатків на робочому столі</string>
+    <string name="drawer_show_labels">Відображати назви додатків в меню програм</string>
+    <string name="category_icon">Іконки</string>
+</resources>

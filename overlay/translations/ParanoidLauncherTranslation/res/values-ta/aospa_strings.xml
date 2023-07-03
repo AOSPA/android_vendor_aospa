@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">கூகுள் ஊட்டத்தை அணுக ஸ்வைப் செய்யவும்</string>
+    <string name="msg_minus_one_on_left">முகப்புத் திரையிலிருந்து, கூகுள் ஊட்டத்தைத் திறக்க இடதுபுறமாக ஸ்வைப் செய்யவும்</string>
+    <string name="msg_minus_one_on_right">முகப்புத் திரையில் இருந்து, Google ஊட்டத்தைத் திறக்க இடதுபுறமாக ஸ்வைப் செய்யவும்</string>
+    <string name="pref_dt_gesture_title">தூங்குவதற்கு இருமுறை தட்டவும்</string>
+    <string name="pref_dt_gesture_summary">உறங்குவதற்கு தொடுதிரையை இருமுறை தட்டவும்</string>
+    <string name="suggestion_pref_screen_title">பரிந்துரைகள்</string>
+    <string name="suggestion_pref_screen_desc">எல்லா செயலிகள் &amp; முகப்புத் திரை பரிந்துரைகளுக்கும்</string>
+    <string name="settings_lock_layout_title">தளவமைப்பைப் பூட்டு</string>
+    <string name="settings_lock_layout_summary_on">முகப்புத் திரையில் படவுருக்கள் &amp; விட்ஜெட்கள் சேர்க்க, அகற்ற &amp; நகர்த்த இயலாது</string>
+    <string name="settings_lock_layout_summary_off">முகப்புத் திரையில் படவுருக்கள் &amp; விட்ஜெட்கள் சேர்க்க, அகற்ற &amp; நகர்த்த முடியும்</string>
+    <string name="settings_edit_widgets_error">முகப்புத் திரையில் விட்ஜெட்களைச் சேர்த்தல் சாத்தியமில்லை</string>
+    <string name="desktop_show_labels">அலமாரியில் படவுரு லேபல்களை காண்பி</string>
+    <string name="drawer_show_labels">அலமாரியில் படவுரு முத்திரைகளை காட்டு</string>
+    <string name="category_icon">ஐகான்கள்</string>
+    <string name="category_misc">மற்றவை </string>
+    <string name="category_google">கூகுள்</string>
+    <string name="action_lens">லென்ஸ் </string>
+    <string name="label_search">தேடு</string>
+    <string name="label_lens">கூகுள் லென்ஸ்</string>
+    <string name="label_voice_search">குரல் தேடல்</string>
+    <string name="dock_search_title">கூகுள் தேடல் </string>
+    <string name="dock_search_summary">கீழே தேடல் பட்டையைக் காண்பி</string>
+    <string name="smartspace_pref_title">முகப்புத் தகவல்</string>
+    <string name="smartspace_pref_summary">ஸ்மார்ட் ஸ்பேஸ் முகப்புத் திரையில் காண்பி</string>
+    <string name="show_top_shadow">மேல் நிழலை காண்பி</string>
+</resources>

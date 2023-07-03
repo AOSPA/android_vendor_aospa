@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <string name="face_enroll_title">Umístěte obličej do středu kruhu</string>
+    <string name="face_enroll_description">Nehýbejte se a ujistěte se, že jste v dobře osvětleném prostředí</string>
+    <string name="face_try_again_title">Obličej nelze zachytit</string>
+    <string name="face_try_again_description">Klepněte na níže a zkuste to znovu. Příště se ujistěte, že jste v dobře osvětleném prostředí a nic vám nezakrývá obličej</string>
+    <string name="btn_try_again">Zkusit znovu</string>
+    <string name="attr_light_dark">Obličej vyžaduje více světla</string>
+    <string name="attr_light_high">Obličej je přesvícený</string>
+    <string name="attr_light_shadow">Na obličeji je příliš mnoho stínů</string>
+    <string name="unlock_failed_face_blur">Obličej je příliš rozmazaný</string>
+    <string name="unlock_failed_face_large">Obličej je příliš blízko</string>
+    <string name="unlock_failed_face_multi">Nalezeno příliš mnoho obličejů</string>
+    <string name="unlock_failed_face_not_complete">Zachycena jen část obličeje</string>
+    <string name="unlock_failed_face_small">Obličej je příliš daleko</string>
+</resources>

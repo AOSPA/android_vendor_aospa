@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2022 Paranoid Android
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <string name="title_show_google_feed">Geser untuk mengakses aplikasi Google feed</string>
+    <string name="msg_minus_one_on_left">Dari layar utama, geser ke kiri untuk membuka Google feed</string>
+    <string name="msg_minus_one_on_right">Dari layar utama, geser ke kanan untuk membuka Google feed</string>
+    <string name="pref_dt_gesture_title">Ketuk dua kali untuk tidur</string>
+    <string name="pref_dt_gesture_summary">Ketuk dua kali pada ruang kosong untuk mematikan layar</string>
+    <string name="suggestion_pref_screen_title">Saran</string>
+    <string name="suggestion_pref_screen_desc">Untuk Semua Aplikasi &amp; saran Layar Utama</string>
+    <string name="settings_lock_layout_title">Kunci tata letak</string>
+    <string name="settings_lock_layout_summary_on">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar utama</string>
+    <string name="settings_lock_layout_summary_off">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada layar utama</string>
+    <string name="settings_edit_widgets_error">Hal ini tidak mungkin untuk menambahkan widget ke layar utama</string>
+    <string name="desktop_show_labels">Tampilkan label ikon pada desktop</string>
+    <string name="drawer_show_labels">Tampilkan label ikon pada \" semua apl \"</string>
+    <string name="category_icon">Ikon</string>
+    <string name="category_misc">Lainnya</string>
+    <string name="category_google">Google</string>
+    <string name="action_lens">Lensa</string>
+    <string name="label_search">Cari</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Penelusuran suara</string>
+    <string name="dock_search_title">Bar Pencarian Google</string>
+    <string name="dock_search_summary">Tampilkan bilah pencarian di dock bawah</string>
+    <string name="smartspace_pref_title">At a Glance</string>
+    <string name="smartspace_pref_summary">Tampilkan smartspace di bagian atas layar utama</string>
+    <string name="show_top_shadow">Tampilkan bayangan atas</string>
+</resources>
