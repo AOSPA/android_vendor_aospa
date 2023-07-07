@@ -152,10 +152,6 @@
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
     <string name="config_displayLightSensorType" translatable="false">android.sensor.light</string>
 
-    <!-- Flag indicating whether notification and ringtone volumes
-         are controlled together (aliasing is true) or not. -->
-    <bool name="config_alias_ring_notif_stream_types">false</bool>
-
     <!-- Control the default night mode to use when there is no other mode override set.
          One of the following values (see UiModeManager.java):
              0 - MODE_NIGHT_AUTO
