@@ -13,6 +13,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sm6225-common-miuicamera",
+        "target_path":  "device/xiaomi/sm6225-common-miuicamera",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_device_xiaomi_spes-kernel",
         "target_path":  "device/xiaomi/spes-kernel",
         "revision":     "topaz"
@@ -22,6 +28,13 @@
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
         "revision":     "topaz"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "android_vendor_xiaomi_sm6225-commmon-miuicamera",
+        "target_path":  "vendor/xiaomi/sm6225-common-miuicamera",
+        "revision":     "topaz",
+        "clone-depth":  "1"
     },
     {
         "remote":       "aospa",
