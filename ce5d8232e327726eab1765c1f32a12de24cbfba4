@@ -16,6 +16,23 @@
       "message": "why repush",
       "revId": "ce5d8232e327726eab1765c1f32a12de24cbfba4",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9659977_537b9b43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-07-10T16:25:05Z",
+      "side": 1,
+      "message": "https://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/24402",
+      "revId": "ce5d8232e327726eab1765c1f32a12de24cbfba4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
