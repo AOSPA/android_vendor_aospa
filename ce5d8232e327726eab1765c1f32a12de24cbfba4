@@ -33,6 +33,24 @@
       "message": "https://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/24402",
       "revId": "ce5d8232e327726eab1765c1f32a12de24cbfba4",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c0aaa34_d1b5800c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-07-10T16:35:22Z",
+      "side": 1,
+      "message": "wrong changeid/author",
+      "parentUuid": "a9659977_537b9b43",
+      "revId": "ce5d8232e327726eab1765c1f32a12de24cbfba4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
