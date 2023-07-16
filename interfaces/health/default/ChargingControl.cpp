@@ -166,12 +166,12 @@ ndk::ScopedAStatus ChargingControl::getSupportedMode(int* _aidl_return) {
 }
 
 binder_status_t ChargingControl::dump(int fd, const char** /* args */, uint32_t /* numArgs */) {
-    bool isChargingEnabled;
     int supportedMode;
-    getChargingEnabled(&isChargingEnabled);
     getSupportedMode(&supportedMode);
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE
+    bool isChargingEnabled;
+    getChargingEnabled(&isChargingEnabled);
     dprintf(fd, "Charging control node selected: %s\n", mChargingEnabledNode->path.c_str());
     dprintf(fd, "Charging enabled: %s\n", isChargingEnabled ? "true" : "false");
 #endif
