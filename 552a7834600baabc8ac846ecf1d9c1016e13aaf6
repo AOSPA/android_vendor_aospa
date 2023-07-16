@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00db91d1_647e8593",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2023-07-16T09:05:36Z",
+      "side": 1,
+      "message": "if it works, revert the native commit as well.",
+      "revId": "552a7834600baabc8ac846ecf1d9c1016e13aaf6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
