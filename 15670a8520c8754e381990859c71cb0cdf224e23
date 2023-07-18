@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8797423_5572cc68",
+        "filename": "products/phone1/aospa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-07-18T21:31:40Z",
+      "side": 1,
+      "message": "out of scope",
+      "revId": "15670a8520c8754e381990859c71cb0cdf224e23",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
