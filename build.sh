@@ -119,11 +119,11 @@ fi
 
 # Setup AOSPA version if specified
 if [ $AOSPA_USER_VERSION ]; then
-    # Check is it a number
-    if [ ! -z "${AOSPA_USER_VERSION##*[!0-9]*}" ]; then
-        export AOSPA_BUILDVERSION=${AOSPA_USER_VERSION}
+    # Check if it is a number
+    if [[ $AOSPA_USER_VERSION =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
+        export AOSPA_BUILDVERSION=$AOSPA_USER_VERSION
     else
-        echo -e "${CLR_BLD_RED} Invalid AOSPA minor version - use any non-negative integer${CLR_RST}"
+        echo -e "${CLR_BLD_RED}Invalid AOSPA version - use any non-negative number${CLR_RST}"
         exit 1
     fi
 fi
