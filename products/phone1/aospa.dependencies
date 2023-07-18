@@ -36,8 +36,8 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_nothing",
+        "remote":       "aospa",
+        "repository":   "gotenksIN/proprietary_vendor_nothing",
         "target_path":  "vendor/nothing",
         "revision":     "topaz",
         "clone-depth":  "1"
