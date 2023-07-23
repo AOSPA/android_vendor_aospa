@@ -17,6 +17,7 @@ $(foreach v,$(EXPORT_TO_SOONG),$(eval $(call addVar,$(v))))
 
 SOONG_CONFIG_NAMESPACES += aospaGlobalVars
 SOONG_CONFIG_aospaGlobalVars += \
+    aapt_version_code \
     needs_camera_boottime \
     powershare_node \
     target_init_vendor_lib \
@@ -31,6 +32,7 @@ TARGET_INIT_VENDOR_LIB ?= vendor_init
 TARGET_SURFACEFLINGER_UDFPS_LIB ?= surfaceflinger_udfps_lib
 
 # Soong value variables
+SOONG_CONFIG_arrowGlobalVars_aapt_version_code := $(shell date -u +%Y%m%d)
 SOONG_CONFIG_aospaGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_aospaGlobalVars_powershare_node := $(TARGET_POWERSHARE_NODE)
 SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
