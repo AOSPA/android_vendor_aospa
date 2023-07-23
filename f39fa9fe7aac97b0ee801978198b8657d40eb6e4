@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1549952_8371ec00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-07-23T20:56:15Z",
+      "side": 1,
+      "message": "does this impact devices that don\u0027t have side fps",
+      "revId": "f39fa9fe7aac97b0ee801978198b8657d40eb6e4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
