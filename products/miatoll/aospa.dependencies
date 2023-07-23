@@ -53,5 +53,12 @@
         "target_path":  "vendor/xiaomi",
         "revision":     "topaz",
         "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_xiaomi_camera",
+        "target_path":  "vendor/xiaomi/camera",
+        "revision":     "topaz-miatoll",
+        "clone-depth":  "1"
     }
 ]
