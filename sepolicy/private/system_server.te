@@ -2,6 +2,9 @@
 allow system_server vendor_sysfs_dc_dim:file rw_file_perms;
 add_service(system_server, dc_dimming_service);
 
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
+
 # Pocket Judge
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
