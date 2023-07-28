@@ -31,6 +31,13 @@ ifneq (,$(filter 3.18 4.4 4.9, $(TARGET_KERNEL_VERSION)))
 KERNEL_SD_LLVM_SUPPORT ?= true
 endif
 
+# Enable full LLVM support.
+ifeq ($(KERNEL_LLVM_SUPPORT),true)
+ifneq (,$(filter 5.10 5.15, $(TARGET_KERNEL_VERSION)))
+KERNEL_FULL_LLVM ?= true
+endif
+endif
+
 # Qualcomm kernel.
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 TARGET_COMPILE_WITH_MSM_KERNEL := true
