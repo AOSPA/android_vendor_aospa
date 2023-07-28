@@ -55,7 +55,7 @@
         "clone-depth":  "1"
     },
     {
-        "remote":       "blobs",
+        "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
         "revision":     "topaz-miatoll",
