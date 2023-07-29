@@ -52,6 +52,24 @@
       "parentUuid": "673c20fe_a368f406",
       "revId": "b411da3f92e85af219adaa23fd0e1976cdc7fc98",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bba8400e_beb68ebb",
+        "filename": "target/board/BoardConfigKernel.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-07-29T18:39:18Z",
+      "side": 1,
+      "message": "Probably not, as kernel_platform purely rely on Google bazel scripts to build kernel iirc, so device/qcom/kernelscripts is irrelevant to GKIv2 devices who use kernel_platform",
+      "parentUuid": "ec82ccf6_683be83f",
+      "revId": "b411da3f92e85af219adaa23fd0e1976cdc7fc98",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
