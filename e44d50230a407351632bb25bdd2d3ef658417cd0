@@ -16,6 +16,24 @@
       "message": "can you link the repos",
       "revId": "e44d50230a407351632bb25bdd2d3ef658417cd0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "179ae2d9_44b564e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-08-06T03:17:32Z",
+      "side": 1,
+      "message": "https://github.com/aosparsche/android_device_realme_porsche\n\nthere you go jake, the kernel will be ready in a day. so this is all i got for ya.",
+      "parentUuid": "c5221963_6399261e",
+      "revId": "e44d50230a407351632bb25bdd2d3ef658417cd0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
