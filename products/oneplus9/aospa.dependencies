@@ -60,5 +60,11 @@
         "target_path":  "vendor/oneplus",
         "revision":     "topaz",
         "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_oplus_camera",
+        "target_path":  "vendor/oplus/camera",
+        "revision":     "topaz-op9"
     }
 ]
