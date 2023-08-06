@@ -151,6 +151,12 @@
         drawable="@drawable/themed_icon_camera"
         package="com.google.android.apps.lens.example.release" />
     <icon
+        drawable="@drawable/themed_icon_camera"
+        package="com.oplus.camera" />
+    <icon
+        drawable="@drawable/themed_icon_camera"
+        package="com.oppo.camera" />
+    <icon
         drawable="@drawable/themed_icon_miuicamera"
         package="com.android.camera" />
     <icon
