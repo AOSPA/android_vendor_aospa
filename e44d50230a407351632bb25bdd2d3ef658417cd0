@@ -34,6 +34,24 @@
       "parentUuid": "c5221963_6399261e",
       "revId": "e44d50230a407351632bb25bdd2d3ef658417cd0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e4ae16a_1f9fa718",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000910
+      },
+      "writtenOn": "2023-08-06T03:17:57Z",
+      "side": 1,
+      "message": "\u003e can you link the repos\n\nhttps://github.com/aosparsche/android_device_realme_porsche",
+      "parentUuid": "c5221963_6399261e",
+      "revId": "e44d50230a407351632bb25bdd2d3ef658417cd0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
