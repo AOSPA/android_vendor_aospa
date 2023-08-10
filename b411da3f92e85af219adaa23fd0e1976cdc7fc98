@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b001c2f_145ee644",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2023-08-10T13:52:45Z",
+      "side": 1,
+      "message": "Won\u0027t be merged until our current device/qcom/kernelscripts fully support 5.10 and newer ig",
+      "revId": "b411da3f92e85af219adaa23fd0e1976cdc7fc98",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1cf5edae_8aedf66e",
