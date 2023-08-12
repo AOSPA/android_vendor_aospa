@@ -16,6 +16,23 @@
       "message": "Tested on OnePlus 9 Pro.",
       "revId": "1e88a331d8c6a2abadde309aa4d8c54c6dae8d4b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e517a014_005e2e35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-08-12T13:09:06Z",
+      "side": 1,
+      "message": "seems to work fine.",
+      "revId": "1e88a331d8c6a2abadde309aa4d8c54c6dae8d4b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
