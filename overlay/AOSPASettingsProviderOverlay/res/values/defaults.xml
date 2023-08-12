@@ -21,4 +21,7 @@
     <!-- Disable UI touch sounds by default -->
     <bool name="def_sound_effects_enabled">false</bool>
 
+    <!-- Whether vibrate icon is shown in the status bar by default. -->
+    <integer name="def_statusBarVibrateIconEnabled">1</integer>
+
 </resources>
