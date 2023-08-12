@@ -24,4 +24,7 @@
     <!-- Whether vibrate icon is shown in the status bar by default. -->
     <integer name="def_statusBarVibrateIconEnabled">1</integer>
 
+    <!-- Default setting for Settings.Global.MOBILE_DATA_ALWAYS_ON -->
+    <bool name="def_mobile_data_always_on">false</bool>
+
 </resources>
