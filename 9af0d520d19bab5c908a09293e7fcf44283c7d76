@@ -16,6 +16,24 @@
       "message": "why????",
       "revId": "9af0d520d19bab5c908a09293e7fcf44283c7d76",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "775d7b98_b54a40f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-08-15T15:15:17Z",
+      "side": 1,
+      "message": "it drains battery, is there a benefit of keeping it always on?",
+      "parentUuid": "f8d173b8_1c37ff60",
+      "revId": "9af0d520d19bab5c908a09293e7fcf44283c7d76",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
