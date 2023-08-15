@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbd08726_528bd62a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2023-08-15T09:06:27Z",
+      "side": 1,
+      "message": "I actually like this. Let\u0027s see what others have to say.",
+      "revId": "c653cc66fd135dece162dc913c9f14fa15d08a29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
