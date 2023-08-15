@@ -60,4 +60,11 @@
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "topaz-SN100X-legacy"
     }
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_xiaomi_camera",
+        "target_path":  "vendor/xiaomi/camera",
+        "revision":     "topaz-alioth",
+        "clone-depth":  "1"
+    }
 ]
