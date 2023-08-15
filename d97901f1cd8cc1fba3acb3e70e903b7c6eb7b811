@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "014778c1_d5b3c5b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2023-08-15T09:04:48Z",
+      "side": 1,
+      "message": "Screenshots of before and after? 😊",
+      "revId": "d97901f1cd8cc1fba3acb3e70e903b7c6eb7b811",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
