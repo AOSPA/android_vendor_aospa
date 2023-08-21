@@ -59,7 +59,7 @@
         "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "topaz-SN100X-legacy"
-    }
+    },
     {
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_xiaomi_camera",
