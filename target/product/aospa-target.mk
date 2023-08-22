@@ -100,6 +100,14 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0.vendor \
     android.hidl.manager@1.0.vendor
 
+# Properties for the Unspecialized App Process Pool
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.usap_pool_enabled=true \
+    dalvik.vm.usap_refill_threshold=5 \
+    dalvik.vm.usap_pool_size_max=10 \
+    dalvik.vm.usap_pool_size_min=1 \
+    dalvik.vm.usap_pool_refill_delay_ms=3000
+
 # Include fs tools for dedicated recovery and ramdisk partitions.
 PRODUCT_PACKAGES += \
     e2fsck_ramdisk \
