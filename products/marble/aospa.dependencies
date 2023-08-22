@@ -1,0 +1,76 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/device_xiaomi_marble",
+        "target_path":  "device/xiaomi/marble",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_device_xiaomi_marble-kernel",
+        "target_path":  "device/xiaomi/marble-kernel",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-8450-new"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/vendor_xiaomi_marble",
+        "target_path":  "vendor/xiaomi/marble",
+        "revision":     "topaz",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "ghostrider-reborn/proprietary_vendor_xiaomi_camera",
+        "target_path":  "vendor/xiaomi/camera",
+        "revision":     "topaz-leica",
+        "clone-depth":  "1"
+    }
+]
