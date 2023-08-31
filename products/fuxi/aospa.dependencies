@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_device_xiaomi_fuxi",
+        "target_path":  "device/xiaomi/fuxi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_device_xiaomi_fuxi-kernel",
+        "target_path":  "device/xiaomi/fuxi-kernel",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_vendor_xiaomi_fuxi",
+        "target_path":  "vendor/xiaomi/fuxi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-8550"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "topaz-8550"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-8550"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-8550"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "xiaomi-8550/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-8550"
+    }
+]
