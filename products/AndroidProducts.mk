@@ -25,6 +25,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/fuxi/aospa_fuxi.mk \
+    $(LOCAL_DIR)/ishtar/aospa_ishtar.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
