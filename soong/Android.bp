@@ -158,6 +158,23 @@ soong_config_module_type {
     ],
 }
 
+soong_config_module_type {
+    name: "camera_override_format_from_reserved",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    bool_variables: ["camera_override_format_from_reserved"],
+    properties: ["cppflags"],
+}
+
+camera_override_format_from_reserved {
+    name: "camera_override_format_from_reserved_defaults",
+    soong_config_variables: {
+        camera_override_format_from_reserved: {
+            cppflags: ["-DTARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED"],
+        },
+    },
+}
+
 surfaceflinger_udfps_lib {
     name: "surfaceflinger_udfps_lib_defaults",
     soong_config_variables: {
