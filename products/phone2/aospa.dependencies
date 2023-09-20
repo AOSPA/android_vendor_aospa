@@ -1,0 +1,70 @@
+[
+    {
+        "remote":       "github-ssh",
+        "repository":   "Herna1994/android_device_nothing_phone1",
+        "target_path":  "device/nothing/phone2",
+        "revision":     "main"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "Herna1994/android_kernel_nothing_phone2-kernel",
+        "target_path":  "device/nothing/phone2-kernel",
+        "revision":     "main"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "Herna1994/android_vendor_nothing_phone2",
+        "target_path":  "vendor/nothing/phone2",
+        "revision":     "main"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_nothing_camera",
+        "target_path":  "vendor/nothing/camera",
+        "revision":     "topaz",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_nothing_firmware",
+        "target_path":  "vendor/nothing/firmware",
+        "revision":     "topaz",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_apps_ParanoidGlyph",
+        "target_path":  "packages/apps/ParanoidGlyph",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "topaz-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-8450"
+    }
+]
