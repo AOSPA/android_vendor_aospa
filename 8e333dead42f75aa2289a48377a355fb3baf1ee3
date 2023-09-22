@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ef9b792_f98c272c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2023-09-22T10:59:45Z",
+      "side": 1,
+      "message": "still requires topaz-ccmrs and topaz-crc-8550",
+      "revId": "8e333dead42f75aa2289a48377a355fb3baf1ee3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
