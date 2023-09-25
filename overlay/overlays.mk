@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
+    FontMiLanProOverlay \
     FontManropeOverlay \
     FontUrbanistOverlay \
     IconPackCircularAndroidOverlay \
