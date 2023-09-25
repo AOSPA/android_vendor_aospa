@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="config_bodyFontFamily">milanpro</string>
+    <string name="config_bodyFontFamilyMedium">milanpro-medium</string>
+    <string name="config_headlineFontFamily">milanpro</string>
+    <string name="config_headlineFontFamilyMedium">milanpro-medium</string>
+
+</resources>
