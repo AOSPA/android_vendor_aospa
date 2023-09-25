@@ -202,6 +202,11 @@
   </family>
   <alias name="manrope-medium" to="manrope" weight="600" />
 
+  <family customizationType="new-named-family" name="milanpro">
+    <font weight="400" style="normal">MiLanPro-VF.ttf</font>
+  </family>
+  <alias name="milanpro-medium" to="milanpro" weight="500"/>
+
   <family customizationType="new-named-family" name="urbanist">
     <font weight="500" style="normal">Urbanist-VF.ttf
         <axis tag="wght" stylevalue="500"/>
