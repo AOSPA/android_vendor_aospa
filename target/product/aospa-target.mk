@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
 # Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
+# PRODUCT_PACKAGES += \
+#     Abstruct
 
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
