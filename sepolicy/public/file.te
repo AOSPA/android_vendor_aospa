@@ -1,5 +1,8 @@
 # DC Dimming
 type vendor_sysfs_dc_dim, fs_type, sysfs_type;
 
+# Fastcharge
+type sysfs_fastcharge, sysfs_type, fs_type;
+
 # PowerShare
 type sysfs_powershare, sysfs_type, fs_type;
