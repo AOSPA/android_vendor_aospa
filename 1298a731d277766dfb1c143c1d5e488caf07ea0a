@@ -16,6 +16,24 @@
       "message": "This should probably be in qcom common not here.  This could break pixels.",
       "revId": "1298a731d277766dfb1c143c1d5e488caf07ea0a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f55cdea_8dcade28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-10-06T21:54:34Z",
+      "side": 1,
+      "message": "Done: https://gerrit.aospa.co/c/AOSPA/android_device_qcom_common/+/34983",
+      "parentUuid": "9012a085_3fb39d7f",
+      "revId": "1298a731d277766dfb1c143c1d5e488caf07ea0a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
