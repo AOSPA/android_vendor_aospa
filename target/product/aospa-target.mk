@@ -68,11 +68,6 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.launcher.blur.appLaunch=0 \
     ro.sf.use_latest_hwc_vsync_period=0
 
-# Exfat FS
-PRODUCT_PACKAGES += \
-    fsck.exfat \
-    mkfs.exfat
-
 # Fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
