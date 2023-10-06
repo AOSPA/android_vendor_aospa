@@ -1,10 +1,19 @@
 function __print_aospa_functions_help() {
 cat <<EOF
 Additional Paranoid Android functions:
+- clodiff:         Utility to diff CLO history to AOSPA.
 - clomerge:        Utility to merge CLO tags.
 - repopick:        Utility to fetch changes from Gerrit.
 - sort-blobs-list: Sort proprietary-files.txt sections with LC_ALL=C.
 EOF
+}
+
+function clodiff()
+{
+    target_branch=$1
+    set_stuff_for_environment
+    T=$(gettop)
+    python3 $T/vendor/aospa/build/tools/diff-clo.py $target_branch
 }
 
 function clomerge()
