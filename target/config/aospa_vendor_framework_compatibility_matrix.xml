@@ -21,12 +21,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <!-- Powershare -->
-    <hal format="aidl" optional="true">
-        <name>vendor.aospa.powershare</name>
-        <interface>
-            <name>IPowerShare</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>
