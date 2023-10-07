@@ -19,6 +19,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sepolicy",
+        "target_path":  "device/xiaomi/sepolicy",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_xiaomi_sm6225",
         "target_path":  "kernel/xiaomi/sm6225",
         "revision":     "topaz"
