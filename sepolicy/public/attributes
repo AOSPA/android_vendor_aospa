@@ -1,7 +1,0 @@
-# HALs
-attribute hal_aospa_powershare;
-expandattribute hal_aospa_powershare true;
-attribute hal_aospa_powershare_client;
-expandattribute hal_aospa_powershare_client true;
-attribute hal_aospa_powershare_server;
-expandattribute hal_aospa_powershare_server false;
