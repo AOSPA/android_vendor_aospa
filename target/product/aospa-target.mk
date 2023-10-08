@@ -53,8 +53,8 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
 
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    ParanoidSystemUI
+#PRODUCT_DEXPREOPT_SPEED_APPS += \
+#    ParanoidSystemUI
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
@@ -141,8 +141,8 @@ $(call inherit-product-if-exists, vendor/aospa/translations/translations.mk)
 # Paranoid Packages
 PRODUCT_PACKAGES += \
     ParanoidPapers \
-    ParanoidSystemUI \
     ParanoidThemePicker
+#   ParanoidSystemUI \
 
 # Paranoid Hub (OTA)
 ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
