@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
@@ -33,10 +29,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # Charger
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
@@ -52,9 +44,6 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Dexpreopt
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
-
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    ParanoidSystemUI
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
@@ -80,15 +69,6 @@ $(call inherit-product, external/google-fonts/lato/fonts.mk)
 # Gestures
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
-
-# Google - GMS, Pixel, and Mainline Modules
-$(call inherit-product, vendor/google/gms/config.mk)
-$(call inherit-product, vendor/google/pixel/config.mk)
-ifneq ($(TARGET_FLATTEN_APEX), true)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
-else
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_flatten_apex.mk)
-endif
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
@@ -134,12 +114,6 @@ $(call inherit-product, vendor/aospa/overlay/overlays.mk)
 # Overlays (Translations)
 $(call inherit-product-if-exists, vendor/aospa/translations/translations.mk)
 
-# Paranoid Packages
-PRODUCT_PACKAGES += \
-    ParanoidPapers \
-    ParanoidSystemUI \
-    ParanoidThemePicker
-
 # Paranoid Hub (OTA)
 ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
 PRODUCT_PACKAGES += ParanoidHub
@@ -147,10 +121,6 @@ endif
 
 PRODUCT_PACKAGES += \
     init.aospa-hub.rc
-
-# Paranoid Sense
-PRODUCT_PACKAGES += \
-    ParanoidSense
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
@@ -185,10 +155,6 @@ PRODUCT_PACKAGES += \
 
 # Qualcomm Common
 $(call inherit-product, device/qcom/common/common.mk)
-
-# Repainter (kdrag0n)
-PRODUCT_PACKAGES += \
-    RepainterServicePriv
 
 # Rescue Party
 # Disable RescueParty due to high risk of data loss
