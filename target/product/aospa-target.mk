@@ -153,11 +153,11 @@ PRODUCT_PACKAGES += \
     init.aospa-hub.rc
 
 # Paranoid Sense
-PRODUCT_PACKAGES += \
-    ParanoidSense
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
+#PRODUCT_PACKAGES += \
+#    ParanoidSense
+#
+#PRODUCT_COPY_FILES += \
+#    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 
 # Enable Sense service for 64-bit only
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
