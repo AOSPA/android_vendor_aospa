@@ -13,6 +13,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sepolicy",
+        "target_path":  "device/xiaomi/sepolicy",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision":     "topaz-855"
