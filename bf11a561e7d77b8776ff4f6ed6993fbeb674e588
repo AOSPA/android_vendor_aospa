@@ -16,6 +16,23 @@
       "message": "good enough for now",
       "revId": "bf11a561e7d77b8776ff4f6ed6993fbeb674e588",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7266678_9a9e94e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2023-10-09T21:27:34Z",
+      "side": 1,
+      "message": "Do we really need to add the gtest libs?",
+      "revId": "bf11a561e7d77b8776ff4f6ed6993fbeb674e588",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
