@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbd6772f_99c6e01d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-10-09T00:08:44Z",
+      "side": 1,
+      "message": "probably better to follow https://android-git.linaro.org/device/google/redbull-sepolicy.git/commit/?h\u003dmain\u0026id\u003d2809202831d938e3867c3afb889594c8da90d3e3",
+      "revId": "bdad86e9056b215947e6b76c83820e30359bdeac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
