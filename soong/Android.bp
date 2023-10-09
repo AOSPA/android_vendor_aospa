@@ -154,3 +154,23 @@ uses_miui_camera {
         },
     },
 }
+
+cc_defaults {
+    name: "aospa_aidl_defaults",
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    target: {
+        host: {
+            cflags: [
+                "-O0",
+                "-g",
+            ],
+        },
+    },
+}
