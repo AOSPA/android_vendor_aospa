@@ -154,3 +154,38 @@ uses_miui_camera {
         },
     },
 }
+
+cc_defaults {
+    name: "aospa_aidl_defaults",
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+    ],
+    header_libs: ["libgtest_prod_headers"],
+    static_libs: [
+        "libbase",
+        "libgtest",
+    ],
+    // TODO(b/174366536): basic_stringbuf::overflow causes "ubsan: implicit-conversion"
+    // sanitize: {
+    //     integer_overflow: true,
+    //     misc_undefined: ["integer"],
+    // },
+    target: {
+        windows: {
+            enabled: true,
+        },
+        host: {
+            cflags: [
+                "-O0",
+                "-g",
+            ],
+        },
+    },
+    product_variables: {
+        platform_sdk_version: {
+            cflags: ["-DPLATFORM_SDK_VERSION=%d"],
+        },
+    },
+}

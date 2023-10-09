@@ -1,7 +1,7 @@
 cc_binary {
     name: "vendor.aospa.powershare-service",
     defaults: [
-        "aidl_defaults",
+        "aospa_aidl_defaults",
         "powershare_node_defaults",
     ],
     init_rc: ["vendor.aospa.powershare-service.rc"],
