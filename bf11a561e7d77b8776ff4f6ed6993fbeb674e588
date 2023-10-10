@@ -51,6 +51,24 @@
       "parentUuid": "a7266678_9a9e94e5",
       "revId": "bf11a561e7d77b8776ff4f6ed6993fbeb674e588",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "088f300e_114a6c2c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2023-10-10T18:08:18Z",
+      "side": 1,
+      "message": "What else than vendor.aospa.powershare-service depends on aidl_defaults? Cause if its just that I think we could nuke it at all and just keep cflags and PLATFORM_SDK_VERSION depending on whats the default/is actually used",
+      "parentUuid": "eafa990c_ebf2aaea",
+      "revId": "bf11a561e7d77b8776ff4f6ed6993fbeb674e588",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
