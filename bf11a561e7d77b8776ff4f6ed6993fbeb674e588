@@ -33,6 +33,24 @@
       "message": "Do we really need to add the gtest libs?",
       "revId": "bf11a561e7d77b8776ff4f6ed6993fbeb674e588",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eafa990c_ebf2aaea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-10-10T08:44:10Z",
+      "side": 1,
+      "message": "I copy pasted aidl_defaults and renamed, I am sure we don\u0027t need most of it but I wanted to get through build first",
+      "parentUuid": "a7266678_9a9e94e5",
+      "revId": "bf11a561e7d77b8776ff4f6ed6993fbeb674e588",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
