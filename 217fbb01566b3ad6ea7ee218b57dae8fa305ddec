@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ab9cdc5_bc8a687a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-10-10T21:00:01Z",
+      "side": 1,
+      "message": "no point of this unless we build remoteprovisioning",
+      "revId": "217fbb01566b3ad6ea7ee218b57dae8fa305ddec",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
