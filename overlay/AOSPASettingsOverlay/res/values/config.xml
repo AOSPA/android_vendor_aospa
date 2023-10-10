@@ -56,4 +56,7 @@
         <item>3</item>
     </integer-array>
 
+    <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
+    <bool name="config_cloned_apps_page_enabled">true</bool>
+
 </resources>
