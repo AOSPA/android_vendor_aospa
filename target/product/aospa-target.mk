@@ -262,6 +262,9 @@ PRODUCT_PACKAGES += \
     libtextclassifier_actions_suggestions_universal_model \
     libtextclassifier_lang_id_model
 
+# Utils
+include vendor/aospa/build/utils.mk
+
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client
