@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0707ceaf_dd79aa72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000656
+      },
+      "writtenOn": "2023-10-16T09:53:56Z",
+      "side": 1,
+      "message": "Pretty sure almost all devices need these?",
+      "revId": "812650b5754bf195f6cb14b386fbe3ef0b15b322",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
