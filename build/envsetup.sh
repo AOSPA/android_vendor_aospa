@@ -36,3 +36,6 @@ function sort-blobs-list() {
 }
 
 export SKIP_ABI_CHECKS="true"
+# Likely deprecated with Android 15, see:
+# https://android-review.googlesource.com/c/platform/build/soong/+/2778667
+export GLOBAL_THINLTO="true"
