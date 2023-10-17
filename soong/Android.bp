@@ -35,6 +35,23 @@ powershare_node {
 }
 
 soong_config_module_type {
+    name: "target_camera_package_name",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    value_variables: ["target_camera_package_name"],
+    properties: ["cppflags"],
+}
+
+target_camera_package_name {
+    name: "camera_package_name_defaults",
+    soong_config_variables: {
+        target_camera_package_name: {
+            cppflags: ["-DCAMERA_PACKAGE_NAME=\"%s\""],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "target_process_sdk_version_overrides",
     module_type: "cc_defaults",
     config_namespace: "aospaGlobalVars",
@@ -102,55 +119,6 @@ surfaceflinger_udfps_lib {
         target_surfaceflinger_udfps_lib: {
             cppflags: ["-DTARGET_PROVIDES_UDFPS_LIB"],
             whole_static_libs: ["%s"],
-        },
-    },
-}
-
-soong_config_module_type {
-    name: "uses_oplus_camera",
-    module_type: "cc_defaults",
-    config_namespace: "aospaGlobalVars",
-    bool_variables: ["uses_oplus_camera"],
-    properties: ["cppflags"],
-}
-uses_oplus_camera {
-    name: "uses_oplus_camera_defaults",
-    soong_config_variables: {
-        uses_oplus_camera: {
-            cppflags: ["-DUSES_OPLUS_CAMERA"],
-        },
-    },
-}
-
-soong_config_module_type {
-    name: "uses_nothing_camera",
-    module_type: "cc_defaults",
-    config_namespace: "aospaGlobalVars",
-    bool_variables: ["uses_nothing_camera"],
-    properties: ["cppflags"],
-}
-
-uses_nothing_camera {
-    name: "uses_nothing_camera_defaults",
-    soong_config_variables: {
-        uses_nothing_camera: {
-            cppflags: ["-DUSES_NOTHING_CAMERA"],
-        },
-    },
-}
-
-soong_config_module_type {
-    name: "uses_miui_camera",
-    module_type: "cc_defaults",
-    config_namespace: "aospaGlobalVars",
-    bool_variables: ["uses_miui_camera"],
-    properties: ["cppflags"],
-}
-uses_miui_camera {
-    name: "uses_miui_camera_defaults",
-    soong_config_variables: {
-        uses_miui_camera: {
-            cppflags: ["-DUSES_MIUI_CAMERA"],
         },
     },
 }

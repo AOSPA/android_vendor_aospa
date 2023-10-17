@@ -19,13 +19,11 @@ SOONG_CONFIG_NAMESPACES += aospaGlobalVars
 SOONG_CONFIG_aospaGlobalVars += \
     needs_camera_boottime \
     powershare_node \
+    target_camera_package_name \
     target_init_vendor_lib \
     target_ld_shim_libs \
     target_process_sdk_version_override \
-    target_surfaceflinger_udfps_lib \
-    uses_oplus_camera \
-    uses_nothing_camera \
-    uses_miui_camera
+    target_surfaceflinger_udfps_lib
 
 # Set default values
 TARGET_INIT_VENDOR_LIB ?= vendor_init
@@ -34,13 +32,11 @@ TARGET_SURFACEFLINGER_UDFPS_LIB ?= surfaceflinger_udfps_lib
 # Soong value variables
 SOONG_CONFIG_aospaGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_aospaGlobalVars_powershare_node := $(TARGET_POWERSHARE_NODE)
+SOONG_CONFIG_aospaGlobalVars_target_camera_package_name := $(TARGET_CAMERA_PACKAGE_NAME)
 SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
 SOONG_CONFIG_aospaGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET_LD_SHIM_LIBS))
 SOONG_CONFIG_aospaGlobalVars_target_process_sdk_version_override := $(TARGET_PROCESS_SDK_VERSION_OVERRIDE)
 SOONG_CONFIG_aospaGlobalVars_target_surfaceflinger_udfps_lib := $(TARGET_SURFACEFLINGER_UDFPS_LIB)
-SOONG_CONFIG_aospaGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
-SOONG_CONFIG_aospaGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
-SOONG_CONFIG_aospaGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 
 # Gestures
 define add-gesturevar-if-exist
