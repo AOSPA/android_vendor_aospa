@@ -21,6 +21,7 @@
 import json
 import os
 import sys
+from xml.dom import minidom
 from xml.etree import ElementTree as ET
 
 extra_manifests_dir = '.repo/manifests/'
@@ -29,21 +30,11 @@ local_manifests_dir = '.repo/local_manifests'
 roomservice_manifest_path = local_manifests_dir + '/roomservice.xml'
 dependencies_json_path = 'vendor/aospa/products/%s/aospa.dependencies'
 
-# Indenting code from https://stackoverflow.com/a/4590052
-def indent(elem, level=0):
-    i = "\n" + level * "  "
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = i + "  "
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-        for elem in elem:
-            indent(elem, level + 1)
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-    else:
-        if level and (not elem.tail or not elem.tail.strip()):
-            elem.tail = i
+def indent(elem):
+    """Return a pretty-printed XML string for the Element."""
+    rough_string = ET.tostring(elem, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ", encoding='utf-8').decode()
 
 def recurse_include(manifest):
     includes = manifest.findall('include')
@@ -224,12 +215,8 @@ if __name__ == '__main__':
             syncable_projects.append(path)
 
     # Output our manifest.
-    indent(roomservice_manifest)
-    open(roomservice_manifest_path, 'w').write('\n'.join([
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<!-- You should probably let Roomservice deal with this unless you know what you are doing. -->',
-        ET.tostring(roomservice_manifest).decode()
-    ]))
+    with open(roomservice_manifest_path, 'w') as f:
+        f.write(indent(roomservice_manifest))
 
     #  If roomservice manifest is perfectly fine, check if there are missing repos to be resynced.
     if len(syncable_projects) == 0:
