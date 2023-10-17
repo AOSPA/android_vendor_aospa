@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ec96e23_4114e41f",
+        "filename": "overlay/AOSPASystemUIOverlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2023-10-17T04:54:01Z",
+      "side": 1,
+      "message": "false xD",
+      "revId": "8e5a574682fb38b0d4ebe4fc73b929401b342ed9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
