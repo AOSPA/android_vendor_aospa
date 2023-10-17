@@ -118,7 +118,7 @@ SYSTEMUI_OPTIMIZE_JAVA := true
 
 # MTE
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    arm64.memtag.process.system_server=off
+    persist.arm64.memtag.system_server=off
 
 # Navigation
 PRODUCT_PRODUCT_PROPERTIES += \
