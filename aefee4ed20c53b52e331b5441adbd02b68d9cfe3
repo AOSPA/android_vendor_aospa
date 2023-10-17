@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92094fa3_c67c3339",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000656
+      },
+      "writtenOn": "2023-10-17T05:58:24Z",
+      "side": 1,
+      "message": "Works tested on phone1",
+      "revId": "aefee4ed20c53b52e331b5441adbd02b68d9cfe3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
