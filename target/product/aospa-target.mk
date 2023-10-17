@@ -19,6 +19,8 @@ PRODUCT_PACKAGES += \
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
+$(call inherit-product, vendor/SystemUIClocks/product.mk)
+
 # APNs
 ifneq ($(TARGET_NO_TELEPHONY), true)
 PRODUCT_COPY_FILES += \
@@ -166,7 +168,7 @@ PRODUCT_COPY_FILES += \
 
 # Privapp-permissions
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.control_privapp_permissions?=enforce
+    ro.control_privapp_permissions=log
 
 # Protobuf - Workaround for prebuilt Qualcomm HAL
 PRODUCT_PACKAGES += \
