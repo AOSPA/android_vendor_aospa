@@ -16,6 +16,24 @@
       "message": "Don\u0027t break legacy 32bit apps 😞",
       "revId": "d715d84ef6cf24aecf680fc4704490fdf8ceb5a1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbed1418_037a86b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-10-18T06:41:55Z",
+      "side": 1,
+      "message": "why not - we\u0027re soon gonna hit the time of SoCs dont support 32 bit",
+      "parentUuid": "b2afb1f9_259af5ca",
+      "revId": "d715d84ef6cf24aecf680fc4704490fdf8ceb5a1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
