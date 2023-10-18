@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 
 # Fonts
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    $(call find-copy-subdir-files,*,vendor/aospa/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 $(call inherit-product, external/google-fonts/lato/fonts.mk)
@@ -144,9 +144,6 @@ PRODUCT_PACKAGES += \
 ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
 PRODUCT_PACKAGES += ParanoidHub
 endif
-
-PRODUCT_PACKAGES += \
-    init.aospa-hub.rc
 
 # Paranoid Sense
 PRODUCT_PACKAGES += \
