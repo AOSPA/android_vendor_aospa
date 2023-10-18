@@ -52,6 +52,24 @@
       "parentUuid": "dbed1418_037a86b8",
       "revId": "d715d84ef6cf24aecf680fc4704490fdf8ceb5a1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b368045_ab96764d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-18T07:25:32Z",
+      "side": 1,
+      "message": "\u003e Then keep it specific to ones that don\u0027t support it anymore? I dont see why would you want to disable for devices that can still do it. I bet a lot of random old emulators that haven\u0027t been updated are still 32bit\n\nWe\u0027re not disabling it just cause. Removing Zygote32 brings performance benefits and 32-only apps are niche enough that we can do this now.\n\nWe\u0027ve internally decided to enforce this with Uvite in the early stage and avoid people confused mid-release.",
+      "parentUuid": "bad2ab8a_76c6ecb4",
+      "revId": "d715d84ef6cf24aecf680fc4704490fdf8ceb5a1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
