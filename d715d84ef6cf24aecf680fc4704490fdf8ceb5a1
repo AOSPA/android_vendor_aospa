@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2afb1f9_259af5ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000656
+      },
+      "writtenOn": "2023-10-18T06:09:04Z",
+      "side": 1,
+      "message": "Don\u0027t break legacy 32bit apps 😞",
+      "revId": "d715d84ef6cf24aecf680fc4704490fdf8ceb5a1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
