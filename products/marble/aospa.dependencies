@@ -1,16 +1,15 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_marble",
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/device_xiaomi_marble",
         "target_path":  "device/xiaomi/marble",
         "revision":     "uvite"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_marble-kernel",
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/device_xiaomi_marble-kernel",
         "target_path":  "device/xiaomi/marble-kernel",
-        "revision":     "uvite",
-        "clone-depth":  "1"
+        "revision":     "uvite-melt"
     },
     {
         "remote":       "aospa",
@@ -61,17 +60,15 @@
         "revision":     "uvite-8450"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "uvite",
-        "clone-depth":  "1"
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/vendor_xiaomi_marble",
+        "target_path":  "vendor/xiaomi/marble",
+        "revision":     "uvite"
     },
     {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_xiaomi_camera",
+        "remote":       "gitlab",
+        "repository":   "ghostrider-reborn/proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
-        "revision":     "uvite-marble",
-        "clone-depth":  "1"
+        "revision":     "uvite-marble"
     }
 ]
