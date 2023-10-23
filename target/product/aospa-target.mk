@@ -63,6 +63,10 @@ DONT_DEXPREOPT_PREBUILTS := true
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := everything
 
+# Disable broken OtaDexoptService
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    config.disable_otadexopt=true
+
 # Display
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     debug.sf.frame_rate_multiple_threshold=60 \
