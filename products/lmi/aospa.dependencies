@@ -59,12 +59,5 @@
         "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "uvite-SN100X-legacy"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_xiaomi_lmi-miuicamera",
-        "target_path":  "vendor/xiaomi/lmi-miuicamera",
-        "revision":     "uvite",
-        "clone-depth":  "1"
     }
 ]
