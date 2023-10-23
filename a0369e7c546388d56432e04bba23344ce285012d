@@ -16,6 +16,23 @@
       "message": "this kills the lottie entirely now",
       "revId": "a0369e7c546388d56432e04bba23344ce285012d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddeee3e7_f8997beb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000845
+      },
+      "writtenOn": "2023-10-23T11:00:03Z",
+      "side": 1,
+      "message": "can repro, as omkar said this does break the lottie.\nan example is while enrolling fingerprint during setup, the fingerprint will enroll but the icon does not come up.",
+      "revId": "a0369e7c546388d56432e04bba23344ce285012d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
