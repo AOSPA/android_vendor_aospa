@@ -23,6 +23,7 @@ SOONG_CONFIG_aospaGlobalVars += \
     target_ld_shim_libs \
     target_process_sdk_version_override \
     target_surfaceflinger_udfps_lib \
+    target_uses_ar_audio \
     uses_oplus_camera \
     uses_nothing_camera \
     uses_miui_camera
@@ -38,6 +39,7 @@ SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
 SOONG_CONFIG_aospaGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET_LD_SHIM_LIBS))
 SOONG_CONFIG_aospaGlobalVars_target_process_sdk_version_override := $(TARGET_PROCESS_SDK_VERSION_OVERRIDE)
 SOONG_CONFIG_aospaGlobalVars_target_surfaceflinger_udfps_lib := $(TARGET_SURFACEFLINGER_UDFPS_LIB)
+SOONG_CONFIG_aospaGlobalVars_target_uses_ar_audio := $(TARGET_USES_AR_AUDIO)
 SOONG_CONFIG_aospaGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 SOONG_CONFIG_aospaGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
 SOONG_CONFIG_aospaGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)

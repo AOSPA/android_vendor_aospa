@@ -174,3 +174,19 @@ cc_defaults {
         },
     },
 }
+
+soong_config_module_type {
+    name: "target_uses_ar_audio",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    bool_variables: ["target_uses_ar_audio"],
+    properties: ["cppflags"],
+}
+target_uses_ar_audio {
+    name: "target_uses_ar_audio_defaults",
+    soong_config_variables: {
+        target_uses_ar_audio: {
+            cppflags: ["-DTARGET_USES_AR_AUDIO"],
+        },
+    },
+}
