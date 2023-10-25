@@ -16,6 +16,24 @@
       "message": "spaces instead of tab, same for below (assuming you care about it getting merged eventually)",
       "revId": "9823c71bf09850fbac2f55fd7ca376c402ef7d78",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5488ee37_83c628df",
+        "filename": "target/product/aospa-target.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000845
+      },
+      "writtenOn": "2023-10-25T20:11:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "85340d10_f571e0ea",
+      "revId": "9823c71bf09850fbac2f55fd7ca376c402ef7d78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
