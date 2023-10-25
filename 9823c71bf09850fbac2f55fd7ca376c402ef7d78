@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85340d10_f571e0ea",
+        "filename": "target/product/aospa-target.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-10-25T19:13:16Z",
+      "side": 1,
+      "message": "spaces instead of tab, same for below (assuming you care about it getting merged eventually)",
+      "revId": "9823c71bf09850fbac2f55fd7ca376c402ef7d78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
