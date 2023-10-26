@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bf34255_0d62ea4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-10-26T09:32:25Z",
+      "side": 1,
+      "message": "i hope the viewfinder gets fixed",
+      "revId": "a0a946bfc8514dd617faec2b6d54b6ca19243044",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
