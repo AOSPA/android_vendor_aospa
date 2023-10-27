@@ -29,24 +29,24 @@ AOSPA_MAJOR_VERSION := uvite
 # The version code is the upgradable portion during the cycle of
 # every major Android release. Each version code upgrade indicates
 # our own major release during each lifecycle.
+# It is based in three parts
+# X for SPL changes, Y for week, and Z for hotfix.
 ifdef AOSPA_BUILDVERSION
     AOSPA_MINOR_VERSION := $(AOSPA_BUILDVERSION)
-else
-    AOSPA_MINOR_VERSION := 1
 endif
 
 # Build Variants
 #
 # Alpha: Development / Test releases
 # Beta: Public releases with CI
-# Release: Final Product | No Tagging
+# Stable: Final Product | No Tagging
 ifdef AOSPA_BUILDTYPE
   ifeq ($(AOSPA_BUILDTYPE), ALPHA)
       AOSPA_BUILD_VARIANT := alpha
   else ifeq ($(AOSPA_BUILDTYPE), BETA)
       AOSPA_BUILD_VARIANT := beta
-  else ifeq ($(AOSPA_BUILDTYPE), RELEASE)
-      AOSPA_BUILD_VARIANT := release
+  else ifeq ($(AOSPA_BUILDTYPE), STABLE)
+      AOSPA_BUILD_VARIANT := stable
   endif
 else
   AOSPA_BUILD_VARIANT := unofficial
@@ -57,10 +57,9 @@ BUILD_DATE := $(shell date -u +%Y%m%d)
 
 # AOSPA Version
 TMP_AOSPA_VERSION := $(AOSPA_MAJOR_VERSION)-
-ifeq ($(filter release,$(AOSPA_BUILD_VARIANT)),)
+ifeq ($(filter stable,$(AOSPA_BUILD_VARIANT)),)
     TMP_AOSPA_VERSION += $(AOSPA_BUILD_VARIANT)-
-endif
-ifeq ($(filter unofficial,$(AOSPA_BUILD_VARIANT)),)
+else
     TMP_AOSPA_VERSION += $(AOSPA_MINOR_VERSION)-
 endif
 TMP_AOSPA_VERSION += $(AOSPA_BUILD)-$(BUILD_DATE)
