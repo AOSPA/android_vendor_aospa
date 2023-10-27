@@ -29,24 +29,24 @@ AOSPA_MAJOR_VERSION := uvite
 # The version code is the upgradable portion during the cycle of
 # every major Android release. Each version code upgrade indicates
 # our own major release during each lifecycle.
+# It is based in three parts
+# X for SPL changes, Y for week, and Z for hotfix.
 ifdef AOSPA_BUILDVERSION
     AOSPA_MINOR_VERSION := $(AOSPA_BUILDVERSION)
-else
-    AOSPA_MINOR_VERSION := 1
 endif
 
 # Build Variants
 #
 # Alpha: Development / Test releases
 # Beta: Public releases with CI
-# Release: Final Product | No Tagging
+# Stable: Final Product | No Tagging
 ifdef AOSPA_BUILDTYPE
   ifeq ($(AOSPA_BUILDTYPE), ALPHA)
       AOSPA_BUILD_VARIANT := alpha
   else ifeq ($(AOSPA_BUILDTYPE), BETA)
       AOSPA_BUILD_VARIANT := beta
-  else ifeq ($(AOSPA_BUILDTYPE), RELEASE)
-      AOSPA_BUILD_VARIANT := release
+  else ifeq ($(AOSPA_BUILDTYPE), STABLE)
+      AOSPA_BUILD_VARIANT := stable
   endif
 else
   AOSPA_BUILD_VARIANT := unofficial
@@ -57,20 +57,23 @@ BUILD_DATE := $(shell date -u +%Y%m%d)
 
 # AOSPA Version
 TMP_AOSPA_VERSION := $(AOSPA_MAJOR_VERSION)-
-ifeq ($(filter release,$(AOSPA_BUILD_VARIANT)),)
+RO_AOSPA_VERSION := $(shell V1=$(AOSPA_MAJOR_VERSION); echo $${V1^})
+
+ifeq ($(filter stable,$(AOSPA_BUILD_VARIANT)),)
     TMP_AOSPA_VERSION += $(AOSPA_BUILD_VARIANT)-
-endif
-ifeq ($(filter unofficial,$(AOSPA_BUILD_VARIANT)),)
+    RO_AOSPA_VERSION += $(shell V1=$(AOSPA_BUILD_VARIANT); echo $${V1^})
+else
     TMP_AOSPA_VERSION += $(AOSPA_MINOR_VERSION)-
+    RO_AOSPA_VERSION += $(AOSPA_MINOR_VERSION)
 endif
+
+# Add BUILD_DATE for zip naming
 TMP_AOSPA_VERSION += $(AOSPA_BUILD)-$(BUILD_DATE)
 AOSPA_VERSION := $(shell echo $(TMP_AOSPA_VERSION) | tr -d '[:space:]')
 
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.aospa.version=$(AOSPA_VERSION)
-
 # The properties will be uppercase for parse by Settings, etc.
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.aospa.version.major=$(shell V1=$(AOSPA_MAJOR_VERSION); echo $${V1^}) \
+    ro.aospa.version=$(RO_AOSPA_VERSION) \
+    ro.aospa.version.major=$(AOSPA_MAJOR_VERSION) \
     ro.aospa.version.minor=$(AOSPA_MINOR_VERSION) \
-    ro.aospa.build.variant=$(shell V2=$(AOSPA_BUILD_VARIANT); echo $${V2^})
+    ro.aospa.build.variant=$(AOSPA_BUILD_VARIANT)
