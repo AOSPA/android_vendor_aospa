@@ -36,7 +36,7 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -c, --clean           Wipe the tree before building${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -i, --installclean    Dirty build - Use 'installclean'${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -r, --repo-sync       Sync before building${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}  -v, --variant         AOSPA variant - Can be alpha, beta or release${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -v, --variant         AOSPA variant - Can be alpha, beta or stable${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -t, --build-type      Specify build type${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -j, --jobs            Specify jobs/threads to use${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -m, --module          Build a specific module${CLR_RST}"
@@ -105,14 +105,14 @@ fi
 # Setup AOSPA variant if specified
 if [ $AOSPA_VARIANT ]; then
     AOSPA_VARIANT=`echo $AOSPA_VARIANT |  tr "[:upper:]" "[:lower:]"`
-    if [ "${AOSPA_VARIANT}" = "release" ]; then
-        export AOSPA_BUILDTYPE=RELEASE
+    if [ "${AOSPA_VARIANT}" = "stable" ]; then
+        export AOSPA_BUILDTYPE=STABLE
     elif [ "${AOSPA_VARIANT}" = "beta" ]; then
         export AOSPA_BUILDTYPE=BETA
     elif [ "${AOSPA_VARIANT}" = "alpha" ]; then
         export AOSPA_BUILDTYPE=ALPHA
     else
-        echo -e "${CLR_BLD_RED} Unknown AOSPA variant - use beta or release${CLR_RST}"
+        echo -e "${CLR_BLD_RED} Unknown AOSPA variant - use alpha, beta or stable${CLR_RST}"
         exit 1
     fi
 fi
@@ -120,7 +120,7 @@ fi
 # Setup AOSPA version if specified
 if [ $AOSPA_USER_VERSION ]; then
     # Check if it is a number
-    if [[ $AOSPA_USER_VERSION =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
+    if [[ $AOSPA_USER_VERSION =~ ^[0-9]{1,3}(\.[0-9]{1,2})?(\.[0-9]{1,2})?$ ]]; then
         export AOSPA_BUILDVERSION=$AOSPA_USER_VERSION
     else
         echo -e "${CLR_BLD_RED}Invalid AOSPA version - use any non-negative number${CLR_RST}"
@@ -153,8 +153,6 @@ fi
 AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //') "
 if [ $AOSPA_BUILDVERSION ]; then
     AOSPA_DISPLAY_VERSION+="$AOSPA_BUILDVERSION"
-else
-    AOSPA_DISPLAY_VERSION+="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSION := *' | tail -n 1 | sed 's/.*= //')"
 fi
 
 # Prep for a clean build, if requested so
