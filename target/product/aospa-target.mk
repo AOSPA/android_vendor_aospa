@@ -149,7 +149,7 @@ PRODUCT_PACKAGES += \
     ParanoidThemePicker
 
 # Paranoid Hub (OTA)
-ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
+ifneq ($(filter STABLE BETA,$(AOSPA_BUILDTYPE)),)
 PRODUCT_PACKAGES += ParanoidHub
 endif
 
