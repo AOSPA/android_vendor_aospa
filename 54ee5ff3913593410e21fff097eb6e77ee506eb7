@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e95a835e_21917f23",
+        "filename": "target/product/version.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2023-10-27T11:00:23Z",
+      "side": 1,
+      "message": "this should be written in the simple present I guess.",
+      "revId": "54ee5ff3913593410e21fff097eb6e77ee506eb7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
