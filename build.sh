@@ -45,7 +45,6 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -b, --backup-unsigned Store a copy of unsigned package along with signed${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -d, --delta           Generate a delta ota from the specified target_files zip${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -z, --imgzip          Generate fastboot flashable image zip from signed target_files${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}  -n, --version         Specify build minor version (number)${CLR_RST}"
         exit 1
 }
 
@@ -72,7 +71,6 @@ while true; do
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
         -d|--delta|d|delta) DELTA_TARGET_FILES="$2"; shift;;
         -z|--imgzip|img|imgzip) FLAG_IMG_ZIP=y;;
-        -n|--version|n|version) AOSPA_USER_VERSION="$2"; shift;;
         --) shift; break;;
     esac
     shift
@@ -117,17 +115,6 @@ if [ $AOSPA_VARIANT ]; then
     fi
 fi
 
-# Setup AOSPA version if specified
-if [ $AOSPA_USER_VERSION ]; then
-    # Check if it is a number
-    if [[ $AOSPA_USER_VERSION =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
-        export AOSPA_BUILDVERSION=$AOSPA_USER_VERSION
-    else
-        echo -e "${CLR_BLD_RED}Invalid AOSPA version - use any non-negative number${CLR_RST}"
-        exit 1
-    fi
-fi
-
 # Initializationizing!
 echo -e "${CLR_BLD_BLU}Setting up the environment${CLR_RST}"
 echo -e ""
@@ -151,11 +138,7 @@ fi
 
 # Grab the build version
 AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //') "
-if [ $AOSPA_BUILDVERSION ]; then
-    AOSPA_DISPLAY_VERSION+="$AOSPA_BUILDVERSION"
-else
-    AOSPA_DISPLAY_VERSION+="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSION := *' | tail -n 1 | sed 's/.*= //')"
-fi
+AOSPA_DISPLAY_VERSION+="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MINOR_VERSION := *' | tail -n 1 | sed 's/.*= //')"
 
 # Prep for a clean build, if requested so
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
