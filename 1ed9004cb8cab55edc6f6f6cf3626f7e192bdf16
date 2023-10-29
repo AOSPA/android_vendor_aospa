@@ -33,6 +33,24 @@
       "message": "Don\u0027t drop the condition here otherwise stable builds will not include minor version (which I assume is desired?)",
       "revId": "1ed9004cb8cab55edc6f6f6cf3626f7e192bdf16",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c0181db_46bde046",
+        "filename": "target/product/version.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2023-10-29T22:42:09Z",
+      "side": 1,
+      "message": "No, this is actually otherwise. If AOSPA_BUILD_VARIANT is not stable, then add build variant to it.\n\nWe are not adding minor version anymore to releases except if stable, that\u0027s why the else is there.",
+      "parentUuid": "fed53118_c5ba9536",
+      "revId": "1ed9004cb8cab55edc6f6f6cf3626f7e192bdf16",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }

@@ -16,6 +16,24 @@
       "message": "can we not drop this?  I really don\u0027t want weekly code changes when we could just define it via the script.",
       "revId": "1b2368f3594e97a3d26292b028eb17b3f335b78f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8dbc7834_72871c52",
+        "filename": "build.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2023-10-29T22:42:09Z",
+      "side": 0,
+      "message": "\u003e can we not drop this?  I really don\u0027t want weekly code changes when we could just define it via the script.\n\nThe idea is that we don\u0027t need to set it anymore, the number will get updated each Friday, so there is no need for a manual input anymore,",
+      "parentUuid": "1f158a42_ef6e88d8",
+      "revId": "1b2368f3594e97a3d26292b028eb17b3f335b78f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
