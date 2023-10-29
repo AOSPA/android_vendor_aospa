@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f158a42_ef6e88d8",
+        "filename": "build.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-10-29T22:26:41Z",
+      "side": 0,
+      "message": "can we not drop this?  I really don\u0027t want weekly code changes when we could just define it via the script.",
+      "revId": "1b2368f3594e97a3d26292b028eb17b3f335b78f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
