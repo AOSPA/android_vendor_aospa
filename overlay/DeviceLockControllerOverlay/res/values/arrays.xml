@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lock_task_allowlist">
+        <item>com.google.android.devicelockcontroller</item>
+        <item>com.google.android.gms</item>
+    </string-array>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_in_server_host_name" translatable="false">devicelockcheckin-pa.googleapis.com</string>
+</resources>

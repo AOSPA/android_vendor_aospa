@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
     AOSPAWifiOverlay \
+    DeviceLockControllerOverlay \
     FontGoogleSansLatoOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
