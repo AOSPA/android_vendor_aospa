@@ -36,5 +36,7 @@
     <!-- Whether to show the "require eyes" info section on the face enroll intro screen -->
     <bool name="config_face_intro_show_require_eyes">false</bool>
 
+    <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
+    <bool name="config_cloned_apps_page_enabled">true</bool>
 
 </resources>
