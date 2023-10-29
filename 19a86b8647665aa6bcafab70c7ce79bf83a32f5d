@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed75f68a_44b325a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000945
+      },
+      "writtenOn": "2023-10-29T15:17:53Z",
+      "side": 1,
+      "message": "https://github.com/sm4450-development/device_xiaomi_sky\n\nhttps://github.com/sm4450-development/device_xiaomi_sky-kernel/commits/uvite\n\nhttps://github.com/sm4450-development/android_hardware_qcom_gps\n\nhttps://github.com/sm4450-development/vendor_qcom_opensource_agm\n\nhttps://github.com/sm4450-development/vendor_qcom_opensource_arpal-lx\n\nhttps://github.com/sm4450-development/hardware_qcom_audio",
+      "revId": "19a86b8647665aa6bcafab70c7ce79bf83a32f5d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
