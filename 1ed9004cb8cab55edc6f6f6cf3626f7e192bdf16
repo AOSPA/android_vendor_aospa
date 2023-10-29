@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd644584_f7fea802",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-10-29T14:31:47Z",
+      "side": 1,
+      "message": "In addition to the comment, please explain the versioning scheme in the commit message. Also, a more meaningful short description in the commit would be helpful.",
+      "revId": "1ed9004cb8cab55edc6f6f6cf3626f7e192bdf16",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fed53118_c5ba9536",
+        "filename": "target/product/version.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-10-29T14:31:47Z",
+      "side": 1,
+      "message": "Don\u0027t drop the condition here otherwise stable builds will not include minor version (which I assume is desired?)",
+      "revId": "1ed9004cb8cab55edc6f6f6cf3626f7e192bdf16",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
