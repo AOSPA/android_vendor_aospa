@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "859a34ed_28dcb2c8",
+        "filename": "target/config/fonts_customization.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-10-30T03:49:30Z",
+      "side": 1,
+      "message": "add this below",
+      "revId": "b13992c13705b3e746cc4ff5fb8d3f987e0d2dc7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
