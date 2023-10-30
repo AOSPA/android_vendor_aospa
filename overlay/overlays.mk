@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     AOSPASystemUIOverlay \
     AOSPAWifiOverlay \
     FontGoogleSansLatoOverlay \
+    FontGeistOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
     FontManropeOverlay \
