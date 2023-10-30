@@ -16,6 +16,24 @@
       "message": "add this below",
       "revId": "b13992c13705b3e746cc4ff5fb8d3f987e0d2dc7",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1057b563_03c68be0",
+        "filename": "target/config/fonts_customization.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-10-30T05:07:25Z",
+      "side": 1,
+      "message": "with below, do you mean below harmonyos-sans?",
+      "parentUuid": "859a34ed_28dcb2c8",
+      "revId": "b13992c13705b3e746cc4ff5fb8d3f987e0d2dc7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
