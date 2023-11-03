@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e82bbf3_68a96d32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-11-03T03:38:27Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/android_build/blob/uvite/target/product/updatable_apex.mk has overrides already, so we\u0027re ok",
+      "revId": "a1e1d3f940767196a14bdbd1a2f71c0045130b37",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
