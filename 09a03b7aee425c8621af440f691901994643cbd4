@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8cb79f44_63d9f5bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-11-03T10:39:19Z",
+      "side": 1,
+      "message": "This interface is being required in frameworks/base blueprint, but when compiling the package, the interface simply does not exist, LMAO",
+      "revId": "09a03b7aee425c8621af440f691901994643cbd4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
