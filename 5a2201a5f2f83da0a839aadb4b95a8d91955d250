@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be630fea_604027ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-11-05T14:24:51Z",
+      "side": 1,
+      "message": "seemingly rejected by Andrew and Arz.  I\u0027ll keep an eye on the chat and change review if they say something different",
+      "revId": "5a2201a5f2f83da0a839aadb4b95a8d91955d250",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
