@@ -16,6 +16,23 @@
       "message": "seemingly rejected by Andrew and Arz.  I\u0027ll keep an eye on the chat and change review if they say something different",
       "revId": "5a2201a5f2f83da0a839aadb4b95a8d91955d250",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f979f255_a75e1cda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-11-07T04:57:13Z",
+      "side": 1,
+      "message": "This font isn\u0027t a variable font, the name VF is misleading. (checked using https://www.axis-praxis.org, and as a bonus the font name is also incorrectly labeled Roboto smh). That means the medium and regular font stays the same, which it shouldn\u0027t be. Also this font is seemingly succeeded by Mi Sans, which is a proper variable font: https://dumps.tadiphone.dev/dumps/redmi/marble/-/blob/missi_phone_cn-user-13-TKQ1.221114.001-V14.0.25.0.TMRCNXM-release-keys/system/system/fonts/MiSansVF.ttf?ref_type\u003dheads",
+      "revId": "5a2201a5f2f83da0a839aadb4b95a8d91955d250",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
