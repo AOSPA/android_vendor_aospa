@@ -5,8 +5,8 @@
 //
 
 runtime_resource_overlay {
-    name: "FontOnePlusOverlay",
+    name: "FontOnePlusSansOverlay",
     product_specific: true,
     sdk_version: "current",
-    theme: "FontOnePlus",
+    theme: "FontOnePlusSans",
 }
