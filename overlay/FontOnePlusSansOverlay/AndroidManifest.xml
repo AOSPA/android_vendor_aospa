@@ -19,6 +19,6 @@
     <application android:label="OnePlus Sans" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="op-sans" />
+            android:value="op-sans,op-sans-medium" />
     </application>
 </manifest>
