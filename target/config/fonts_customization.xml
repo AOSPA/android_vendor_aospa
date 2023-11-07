@@ -300,115 +300,44 @@
   <alias name="harmonyos-sans-medium" to="harmonyos-sans" weight="500"/>
 
   <family customizationType="new-named-family" name="op-sans">
-    <font weight="100" style="normal">OnePlusSans-Thin.ttf</font>
-    <font weight="100" style="italic">OnePlusSans-ThinItalic.ttf</font>
-    <font weight="300" style="normal">OnePlusSans-Light.ttf</font>
-    <font weight="300" style="italic">OnePlusSans-LightItalic.ttf</font>
-    <font weight="400" style="normal">OnePlusSans-Regular.ttf</font>
-    <font weight="400" style="italic">OnePlusSans-Italic.ttf</font>
-    <font weight="500" style="normal">OnePlusSans-Medium.ttf</font>
-    <font weight="500" style="italic">OnePlusSans-MediumItalic.ttf</font>
-    <font weight="900" style="normal">OnePlusSans-Black.ttf</font>
-    <font weight="900" style="italic">OnePlusSans-BlackItalic.ttf</font>
-    <font weight="700" style="normal">OnePlusSans-Bold.ttf</font>
-    <font weight="700" style="italic">OnePlusSans-BoldItalic.ttf</font>
+    <font weight="100" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="100" />
+    </font>
+    <font weight="300" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="250" />
+    </font>
+    <font weight="400" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="400" />
+    </font>
+    <font weight="500" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="550" />
+    </font>
+    <font weight="700" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="750" />
+    </font>
+    <font weight="900" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="900" />
+    </font>
   </family>
-  <alias name="op-sans-thin" to="op-sans" weight="100" />
-  <alias name="op-sans-light" to="op-sans" weight="300" />
-  <alias name="op-sans-book" to="op-sans" weight="400" />
-  <alias name="op-sans-regular" to="op-sans" weight="400" />
   <alias name="op-sans-medium" to="op-sans" weight="500" />
-  <alias name="op-sans-bold" to="op-sans" weight="700" />
 
   <family customizationType="new-named-family" name="opposans">
     <font weight="100" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="250" />
-    </font>
-    <font weight="200" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="350" />
+      <axis tag="wght" stylevalue="200" />
     </font>
     <font weight="300" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="450" />
+      <axis tag="wght" stylevalue="350" />
     </font>
     <font weight="400" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
       <axis tag="wght" stylevalue="550" />
     </font>
     <font weight="500" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="620" />
-    </font>
-    <font weight="600" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="690" />
+      <axis tag="wght" stylevalue="650" />
     </font>
     <font weight="700" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="760" />
-    </font>
-    <font weight="800" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="830" />
+      <axis tag="wght" stylevalue="800" />
     </font>
     <font weight="900" style="normal">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="0" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="900" />
-    </font>
-    <font weight="100" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="250" />
-    </font>
-    <font weight="200" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="350" />
-    </font>
-    <font weight="300" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="450" />
-    </font>
-    <font weight="400" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="550" />
-    </font>
-    <font weight="500" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="620" />
-    </font>
-    <font weight="600" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="690" />
-    </font>
-    <font weight="700" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="760" />
-    </font>
-    <font weight="800" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
-      <axis tag="wght" stylevalue="830" />
-    </font>
-    <font weight="900" style="italic">OppoSans-En-Regular.ttf
-      <axis tag="ital" stylevalue="1" />
-      <axis tag="wdth" stylevalue="100" />
       <axis tag="wght" stylevalue="900" />
     </font>
   </family>
