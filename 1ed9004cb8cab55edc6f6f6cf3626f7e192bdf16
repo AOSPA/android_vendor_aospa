@@ -51,6 +51,24 @@
       "parentUuid": "fed53118_c5ba9536",
       "revId": "1ed9004cb8cab55edc6f6f6cf3626f7e192bdf16",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a6007e4_65c9bd8f",
+        "filename": "target/product/version.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-09T04:39:54Z",
+      "side": 1,
+      "message": "Hm woops I think I misread the diff. LGTM",
+      "parentUuid": "5c0181db_46bde046",
+      "revId": "1ed9004cb8cab55edc6f6f6cf3626f7e192bdf16",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
