@@ -16,6 +16,23 @@
       "message": "looks nice",
       "revId": "e401e8625f7a3e6f51372a3d9e78d8d08f9c77e8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bbc4818_c2480321",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000895
+      },
+      "writtenOn": "2023-11-10T04:53:51Z",
+      "side": 1,
+      "message": "for now its having bootloop issue, maybe i did something wrong",
+      "revId": "e401e8625f7a3e6f51372a3d9e78d8d08f9c77e8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
