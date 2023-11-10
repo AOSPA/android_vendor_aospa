@@ -52,6 +52,24 @@
       "parentUuid": "1057b563_03c68be0",
       "revId": "b13992c13705b3e746cc4ff5fb8d3f987e0d2dc7",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9da4b3a1_cff3b265",
+        "filename": "target/config/fonts_customization.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-11-10T17:51:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46a1022f_90ed0c60",
+      "revId": "b13992c13705b3e746cc4ff5fb8d3f987e0d2dc7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
