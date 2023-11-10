@@ -33,6 +33,24 @@
       "message": "for now its having bootloop issue, maybe i did something wrong",
       "revId": "e401e8625f7a3e6f51372a3d9e78d8d08f9c77e8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "668f129e_521f96cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-11-10T07:41:06Z",
+      "side": 1,
+      "message": "sepolicy since permissive boots fine",
+      "parentUuid": "6bbc4818_c2480321",
+      "revId": "e401e8625f7a3e6f51372a3d9e78d8d08f9c77e8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
