@@ -191,45 +191,51 @@
   <family customizationType="new-named-family" name="inter">
     <font weight="100" style="normal">Inter-VF.ttf
         <axis tag="wght" stylevalue="100"/>
+        <axis tag="slnt" stylevalue="0"/>
     </font>
     <font weight="100" style="italic">Inter-VF.ttf
         <axis tag="wght" stylevalue="100"/>
-    </font>
-    <font weight="200" style="normal">Inter-VF.ttf
-        <axis tag="wght" stylevalue="200"/>
-    </font>
-    <font weight="200" style="italic">Inter-VF.ttf
-        <axis tag="wght" stylevalue="200"/>
+        <axis tag="slnt" stylevalue="-10"/>
     </font>
     <font weight="300" style="normal">Inter-VF.ttf
         <axis tag="wght" stylevalue="300"/>
+        <axis tag="slnt" stylevalue="0"/>
     </font>
     <font weight="300" style="italic">Inter-VF.ttf
         <axis tag="wght" stylevalue="300"/>
+        <axis tag="slnt" stylevalue="-10"/>
     </font>
     <font weight="400" style="normal">Inter-VF.ttf
         <axis tag="wght" stylevalue="400"/>
+        <axis tag="slnt" stylevalue="0"/>
     </font>
     <font weight="400" style="italic">Inter-VF.ttf
         <axis tag="wght" stylevalue="400"/>
+        <axis tag="slnt" stylevalue="-10"/>
     </font>
     <font weight="500" style="normal">Inter-VF.ttf
         <axis tag="wght" stylevalue="500"/>
+        <axis tag="slnt" stylevalue="0"/>
     </font>
     <font weight="500" style="italic">Inter-VF.ttf
         <axis tag="wght" stylevalue="500"/>
+        <axis tag="slnt" stylevalue="-10"/>
     </font>
     <font weight="700" style="normal">Inter-VF.ttf
         <axis tag="wght" stylevalue="700"/>
+        <axis tag="slnt" stylevalue="0"/>
     </font>
     <font weight="700" style="italic">Inter-VF.ttf
         <axis tag="wght" stylevalue="700"/>
+        <axis tag="slnt" stylevalue="-10"/>
     </font>
     <font weight="900" style="normal">Inter-VF.ttf
         <axis tag="wght" stylevalue="900"/>
+        <axis tag="slnt" stylevalue="0"/>
     </font>
     <font weight="900" style="italic">Inter-VF.ttf
         <axis tag="wght" stylevalue="900"/>
+        <axis tag="slnt" stylevalue="-10"/>
     </font>
   </family>
   <alias name="inter-medium" to="inter" weight="500" />
