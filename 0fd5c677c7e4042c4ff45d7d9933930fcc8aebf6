@@ -16,6 +16,24 @@
       "message": "any specific reason behind https://github.com/moto-common/android_device_motorola_targets/commit/7d7bd823bc682a88064ae6cc0c8432178ad1c630 ??",
       "revId": "0fd5c677c7e4042c4ff45d7d9933930fcc8aebf6",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d54c6e49_e6b5f968",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000548
+      },
+      "writtenOn": "2023-11-13T23:29:13Z",
+      "side": 1,
+      "message": "specific reason behind what? a commit?",
+      "parentUuid": "4233b0a7_1f2ab5c7",
+      "revId": "0fd5c677c7e4042c4ff45d7d9933930fcc8aebf6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
