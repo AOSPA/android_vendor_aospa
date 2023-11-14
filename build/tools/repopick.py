@@ -226,7 +226,7 @@ if __name__ == '__main__':
         for pline in plist.splitlines():
             matchObj = re.match(r'Local Branches.*\[(.*)\]', pline)
             if matchObj:
-                local_branches = re.split('\s*,\s*', matchObj.group(1))
+                local_branches = re.split(r'\s*,\s*', matchObj.group(1))
                 if any(args.start_branch[0] in s for s in local_branches):
                     needs_abandon = True
 
