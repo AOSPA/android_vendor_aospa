@@ -134,15 +134,17 @@
 
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>sailfish</item>   <!-- Build.DEVICE -->
-        <item>sailfish</item>   <!-- Build.PRODUCT -->
-        <item>Pixel</item>      <!-- Build.MODEL -->
-        <item>google/sailfish/sailfish:8.1.0/OPM2.171019.029/4657601:user/release-keys</item> <!-- Build.FINGERPRINT -->
+        <item>PRODUCT:sailfish</item>
+        <item>DEVICE:sailfish</item>
+        <item>MANUFACTURER:Google</item>
+        <item>BRAND:google</item>
+        <item>MODEL:Pixel</item>
+        <item>FINGERPRINT:google/sailfish/sailfish:8.1.0/OPM2.171019.029/4657601:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2018-04-05</item>
     </string-array>
 
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
     <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.android.launcher3:co.aospa.glyph</string>
-
 
     <!-- Name of the font family to use in the default lockscreen clock -->
     <string name="config_clockFontFamily" translatable="false">google-sans-clock</string>
