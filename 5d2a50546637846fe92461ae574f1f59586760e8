@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fe68d51_0cdc477e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2023-11-18T04:45:08Z",
+      "side": 1,
+      "message": "legacy sepolicy does not use vendor_sysfs_usb_supply and vendor_sysfs_battery_supply",
+      "revId": "5d2a50546637846fe92461ae574f1f59586760e8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
