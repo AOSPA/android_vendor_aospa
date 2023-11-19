@@ -46,6 +46,30 @@
       },
       "revId": "4178e2f2418fdb644a75d57d1dd8adf9deb4093e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c45e9bd2_a781d4d5",
+        "filename": "target/product/aospa-target.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-11-19T18:13:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "420c82ba_43656e22",
+      "range": {
+        "startLine": 167,
+        "startChar": 135,
+        "endLine": 167,
+        "endChar": 137
+      },
+      "revId": "4178e2f2418fdb644a75d57d1dd8adf9deb4093e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
