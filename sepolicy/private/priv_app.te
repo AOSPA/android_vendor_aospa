@@ -1,0 +1,2 @@
+allow priv_app update_engine_service:service_manager find;
+allow priv_app update_engine:binder call;

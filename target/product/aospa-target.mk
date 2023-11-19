@@ -42,7 +42,8 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GoogleCameraGo \
+    OpenDelta
 
 # curl
 PRODUCT_PACKAGES += \
@@ -152,9 +153,9 @@ PRODUCT_PACKAGES += \
     ParanoidThemePicker
 
 # Paranoid Hub (OTA)
-ifneq ($(filter STABLE BETA,$(AOSPA_BUILDTYPE)),)
-PRODUCT_PACKAGES += ParanoidHub
-endif
+#ifneq ($(filter STABLE BETA,$(AOSPA_BUILDTYPE)),)
+#PRODUCT_PACKAGES += ParanoidHub
+#endif
 
 # Paranoid Sense
 PRODUCT_PACKAGES += \
@@ -171,6 +172,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/default_permissions_com.google.android.deskclock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default_permissions_com.google.android.deskclock.xml \
     vendor/aospa/target/config/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
+    vendor/aospa/target/config/permissions/aospa-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/aospa-power-whitelist.xml \
     vendor/aospa/target/config/permissions/org.lineageos.health.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.health.xml
 
 # Privapp-permissions

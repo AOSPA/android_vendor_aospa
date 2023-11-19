@@ -1,1 +1,1 @@
-user=_app isPrivApp=true seinfo=platform name=co.aospa.hub domain=hub_app type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=platform name=eu.chainfire.opendelta domain=updater_app type=app_data_file levelFrom=user
