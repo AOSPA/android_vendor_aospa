@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "838b12a5_012c84ed",
+        "filename": "overlay/AOSPAFrameworksOverlay/res/values-mcc460/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2023-11-21T10:10:37Z",
+      "side": 1,
+      "message": "need ntp:// prefix",
+      "revId": "87b5aefafd2ca1a9bdcc37d6d3d3eeeebda48063",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
