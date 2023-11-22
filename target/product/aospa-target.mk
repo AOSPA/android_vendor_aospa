@@ -92,11 +92,7 @@ PRODUCT_PACKAGES += \
 # Google - GMS, Pixel, and Mainline Modules
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
-ifneq ($(TARGET_FLATTEN_APEX), true)
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
-else
-$(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_flatten_apex.mk)
-endif
+$(call inherit-product, vendor/partner_modules/build/mainline_modules.mk)
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
