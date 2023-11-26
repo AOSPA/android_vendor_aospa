@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de15debc_b7217adb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000600
+      },
+      "writtenOn": "2023-11-26T03:51:52Z",
+      "side": 1,
+      "message": "Need overhaul some config ig, bcs slnt doesn\u0027t work under 4.0 (or Rasmus removed: need confirm)",
+      "revId": "025698f031bc72d636dbd751d5c8de8f3584b10d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
