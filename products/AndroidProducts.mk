@@ -26,6 +26,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
+    $(LOCAL_DIR)/lito/aospa_lito.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
     $(LOCAL_DIR)/lunaa/aospa_lunaa.mk \
     $(LOCAL_DIR)/lynx/aospa_lynx.mk \
@@ -68,6 +69,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_dubai-userdebug \
     aospa_juice-userdebug \
     aospa_lisa-userdebug \
+    aospa_lito-userdebug \
     aospa_lmi-userdebug \
     aospa_lunaa-userdebug \
     aospa_lynx-userdebug \
