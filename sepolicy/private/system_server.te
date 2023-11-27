@@ -15,3 +15,6 @@ hal_client_domain(system_server, hal_aospa_powershare)
 
 # Lineage
 hal_client_domain(system_server, hal_lineage_health)
+
+# CachedAppOptimizer
+allow system_server zygote_tmpfs:file rw_file_perms;
