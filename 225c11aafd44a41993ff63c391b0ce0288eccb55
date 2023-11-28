@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "368e7354_3014e112",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2023-11-28T21:58:34Z",
+      "side": 1,
+      "message": "\"APTG\" will merge into \"Far EasTone\" in next month too.\nWhen they merge, than I\u0027ll update again.",
+      "revId": "225c11aafd44a41993ff63c391b0ce0288eccb55",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
