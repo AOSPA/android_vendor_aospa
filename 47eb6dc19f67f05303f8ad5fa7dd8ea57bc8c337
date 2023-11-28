@@ -34,6 +34,24 @@
       "parentUuid": "dcb6f2e5_7c33ab47",
       "revId": "47eb6dc19f67f05303f8ad5fa7dd8ea57bc8c337",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c94ed539_d7c18732",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2023-11-28T21:55:12Z",
+      "side": 1,
+      "message": "typo: And also \"T Star\" will be merge to TWM in next month.",
+      "parentUuid": "e569ba04_fe3fc1c8",
+      "revId": "47eb6dc19f67f05303f8ad5fa7dd8ea57bc8c337",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
