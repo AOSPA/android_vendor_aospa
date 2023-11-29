@@ -2391,8 +2391,6 @@
       mcc="228"
       mnc="01"
       apn="gprs.swisscom.ch"
-      proxy="192.168.210.1"
-      port="8080"
       type="default,supl"
   />
   <apn carrier="Sunrise live"
