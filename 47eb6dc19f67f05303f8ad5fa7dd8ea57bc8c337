@@ -122,6 +122,24 @@
       "message": "to me, these bullets make no sense if we\u0027re just removing APNs here:\n\nI got from Xiaomi stock ROM https://imgur.com/a/Fo1Oj6j .\n\n- Seperate Internet and MMS due to some stock ROM came with seperated APN.",
       "revId": "47eb6dc19f67f05303f8ad5fa7dd8ea57bc8c337",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80acc4c1_ee991756",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2023-11-29T06:12:02Z",
+      "side": 1,
+      "message": "I picked this commit from others and adapt our sources, but I didn\u0027t edit commit comment.\nIf you feel comment has something wrong, you can direct edit it.",
+      "parentUuid": "b168fe41_b2148708",
+      "revId": "47eb6dc19f67f05303f8ad5fa7dd8ea57bc8c337",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
