@@ -87,6 +87,24 @@
       "message": "hmm ok, in that case, let me know when this is all ready to merge.  we can probably squash them.",
       "revId": "47eb6dc19f67f05303f8ad5fa7dd8ea57bc8c337",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0877724f_9b0a76a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2023-11-29T01:12:56Z",
+      "side": 1,
+      "message": "I think we can merge right now, because we don\u0027t know how long it will take to complete.",
+      "parentUuid": "f466a863_42428d46",
+      "revId": "47eb6dc19f67f05303f8ad5fa7dd8ea57bc8c337",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
