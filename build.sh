@@ -229,7 +229,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
 
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
     ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-        --block ${INCREMENTAL} \
+        --block ${INCREMENTAL} --enable_lz4diff \
         aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
         aospa-$AOSPA_VERSION.zip
 
