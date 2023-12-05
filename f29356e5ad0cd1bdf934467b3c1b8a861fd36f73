@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a153839f_f63faa26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2023-12-05T09:20:09Z",
+      "side": 1,
+      "message": "Someone with Swisscom please test",
+      "revId": "f29356e5ad0cd1bdf934467b3c1b8a861fd36f73",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
