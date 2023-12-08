@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9eb4f7ba_dfcac2fa",
+        "filename": "products/lahaina/aospa_lahaina.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000957
+      },
+      "writtenOn": "2023-12-08T08:15:00Z",
+      "side": 1,
+      "message": "While this seems to improve general system performance, it breaks some legacy APPs such as zhixue APP used by many students.",
+      "revId": "c9224faab8c49df373c2a4053f0404f5eee88ba4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "23f97da4_ed2be361",
