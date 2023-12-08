@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23f97da4_ed2be361",
+        "filename": "products/lahaina/aospa_lahaina.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000957
+      },
+      "writtenOn": "2023-12-08T08:05:31Z",
+      "side": 1,
+      "message": "PRODUCT_MODEL should be \"Lahaina for arm64\", as per https://git.codelinaro.org/clo/la/platform/vendor/qcom/lahaina/-/blob/LA.UM.9.14.r1-23400-LAHAINA.QSSI13.0/lahaina.mk?ref_type\u003dtags#L149\n\nAnd overriding PRODUCT_NAME is likely to be unnecessary.",
+      "revId": "c9224faab8c49df373c2a4053f0404f5eee88ba4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
