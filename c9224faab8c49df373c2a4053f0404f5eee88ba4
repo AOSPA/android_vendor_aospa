@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "b578b41e_0feb2aed",
+        "filename": "products/lahaina/aospa_lahaina.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2023-12-08T14:53:43Z",
+      "side": 1,
+      "message": "https://gerrit.aospa.co/c/AOSPA/android_vendor_aospa/+/35847\nhttps://gerrit.aospa.co/c/AOSPA/android_device_qcom_common/+/33078\n\nAOSPA has removed 32-bit blobs from all pre-built blobs and has completely ceased shipping 32-bit zygote to official devices. Building a 32-bit zygote in this situation will cause bootloop.\n\nThe shift towards 64-bit is now an irreversible trend, and 32-bit should be consigned to the dustbin of history. I strongly recommend seeking assistance from app developers to build 64-bit applications.",
+      "parentUuid": "9eb4f7ba_dfcac2fa",
+      "revId": "c9224faab8c49df373c2a4053f0404f5eee88ba4",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "23f97da4_ed2be361",
         "filename": "products/lahaina/aospa_lahaina.mk",
         "patchSetId": 4
