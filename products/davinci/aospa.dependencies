@@ -3,13 +3,13 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_asus_davinci",
         "target_path":  "device/asus/davinci",
-        "revision":     "topaz"
+        "revision":     "uvite"
     },
     {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_asus",
         "target_path":  "vendor/asus",
-        "revision":     "topaz"
+        "revision":     "uvite"
     },
     {
         "remote":       "blobs-gitlab",
@@ -51,7 +51,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_asus_sm8475",
         "target_path":  "kernel_platform/msm-kernel",
-        "revision":     "topaz"
+        "revision":     "uvite"
     },
     {
         "remote":       "aospa",
@@ -111,13 +111,13 @@
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/cvp-kernel",
         "target_path":  "vendor/qcom/opensource/cvp-kernel",
-        "revision":     "refs/tags/LA.VENDOR.1.0.r1-21900-WAIPIO.0"
+        "revision":     "dcf120f6617fbf3335ffdcb1894b8ffc62e8bd6b"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/dataipa",
         "target_path":  "vendor/qcom/opensource/dataipa",
-        "revision":     "refs/tags/LA.VENDOR.1.0.r1-21900-WAIPIO.0"
+        "revision":     "0a518c5590f36a44f9f9806cb1fb7628297a434a"
     },
     {
         "remote":       "aospa",
@@ -129,54 +129,54 @@
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/mmrm-driver",
         "target_path":  "vendor/qcom/opensource/mmrm-driver",
-        "revision":     "refs/tags/VIDEO.LA.2.0.r1-08400-WAIPIO.0"
+        "revision":     "ce5c3a5859c1edea355144a7749e8b3ebe982abe"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/mmrm-driver-test",
         "target_path":  "vendor/qcom/opensource/mmrm-driver/test",
-        "revision":     "refs/tags/VIDEO.LA.2.0.r1-08400-WAIPIO.0"
+        "revision":     "5e5e099689db214795b00771e7715b7dbdc71b3c"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/eva-kernel",
         "target_path":  "vendor/qcom/opensource/eva-kernel",
-        "revision":     "refs/tags/LA.VENDOR.1.0.r1-21900-WAIPIO.0"
+        "revision":     "8fee9b929fabf46ef975a03d55aa9262e059725e"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/video-driver",
         "target_path":  "vendor/qcom/opensource/video-driver",
-        "revision":     "refs/tags/VIDEO.LA.2.0.r1-08400-WAIPIO.0"
+        "revision":     "75b8785a49f3226158ae9115a15583b2de3a3b18"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/qcom-opensource/wlan/fw-api",
         "target_path":  "vendor/qcom/opensource/wlan/fw-api",
-        "revision":     "0e1dfc4ac109e2f23354d9600c53620f50d6c746"
+        "revision":     "d1bed67b9224c6062bd3616b502059340e7d6022"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn",
         "target_path":  "vendor/qcom/opensource/wlan/qca-wifi-host-cmn",
-        "revision":     "7daec77a49b12ab290383302f6e81ae7905724f0"
+        "revision":     "292c364f971a6ee4a850100e0e51259e964f98f4"
     },
     {
         "remote":       "gitlab",
         "repository":   "StatiXOS/davinci-kernel/kernel_msm-modules_wlan_qcacld-3.0",
         "target_path":  "vendor/qcom/opensource/wlan/qcacld-3.0",
-        "revision":     "5328e3ada29d7531f6af76bb69ecef0537d171c4"
+        "revision":     "e4d17eb26d900e26db4b430b944be430fca56e40"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/qcom/opensource/datarmnet",
         "target_path":  "vendor/qcom/opensource/datarmnet",
-        "revision":     "refs/tags/LA.VENDOR.1.0.r1-21900-WAIPIO.0"
+        "revision":     "65d036a97d6bb1bc4f7719001a864ee8d77cb3dc"
     },
     {
         "remote":       "clo-la",
         "repository":   "platform/vendor/qcom/opensource/datarmnet-ext",
         "target_path":  "vendor/qcom/opensource/datarmnet-ext",
-        "revision":     "refs/tags/LA.VENDOR.1.0.r1-21900-WAIPIO.0"
+        "revision":     "5af7a138ef1fb33deb711216b793100322826539"
     }
 ]
