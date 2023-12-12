@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66e88d8a_d8510a6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2023-12-12T12:36:15Z",
+      "side": 1,
+      "message": "Wouldn\u0027t this break any device currently using powershare?\nCant you just override the service in dt?",
+      "revId": "b14b1f6b3ea0f98f0985b72d918fd52642c25e42",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
