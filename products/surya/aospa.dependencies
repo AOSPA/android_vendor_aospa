@@ -54,5 +54,5 @@
         "target_path":  "vendor/xiaomi",
         "revision":     "uvite",
         "clone-depth":  "1"
-    },
+    }
 ]
