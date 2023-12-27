@@ -175,7 +175,7 @@ PRODUCT_COPY_FILES += \
 
 # Privapp-permissions
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.control_privapp_permissions?=enforce
+    ro.control_privapp_permissions?=log
 
 # Protobuf - Workaround for prebuilt Qualcomm HAL
 PRODUCT_PACKAGES += \
