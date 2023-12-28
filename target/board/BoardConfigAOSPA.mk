@@ -16,6 +16,11 @@
 # and breaks WPA Supplicant compilation.
 DISABLE_EAP_PROXY := true
 
+# Dex2oat
+ifeq ($(TARGET_CPU_VARIANT),cortex-a510)
+    DEX2OAT_TARGET_CPU_VARIANT := cortex-a76
+endif
+
 ifeq ($(call is-board-platform-in-list,$(QCOM_BOARD_PLATFORMS)),true)
 # Include our Qualcomm Board configuration.
 include device/qcom/common/BoardConfigQcom.mk
