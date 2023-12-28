@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     curl
 
 # Dex2oat
+ifeq ($(TARGET_CPU_VARIANT),cortex-a510)
+    DEX2OAT_TARGET_CPU_VARIANT := cortex-a76
+endif
+
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
