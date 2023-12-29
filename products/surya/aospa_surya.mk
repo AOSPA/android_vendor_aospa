@@ -5,7 +5,7 @@
 ifeq (aospa_surya, $(TARGET_PRODUCT))
 
 # Inherit from framework first
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from surya device configuration
