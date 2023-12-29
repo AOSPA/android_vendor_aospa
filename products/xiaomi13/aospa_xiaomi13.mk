@@ -4,26 +4,26 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifeq (aospa_fuxi,$(TARGET_PRODUCT))
+ifeq (aospa_xiaomi13,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from the device configuration.
-$(call inherit-product, device/xiaomi/fuxi/device.mk)
+$(call inherit-product, device/xiaomi/xiaomi13/device.mk)
 
 # Inherit from the AOSPA configuration.
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := fuxi
+PRODUCT_DEVICE := xiaomi13
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 2211133G
-PRODUCT_NAME := aospa_fuxi
+PRODUCT_MODEL := xiaomi13
+PRODUCT_NAME := aospa_xiaomi13
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=fuxi
+    TARGET_PRODUCT=xiaomi13
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

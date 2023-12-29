@@ -1,14 +1,14 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_fuxi",
-        "target_path":  "device/xiaomi/fuxi",
+        "repository":   "AOSPA/android_device_xiaomi_xiaomi13",
+        "target_path":  "device/xiaomi/xiaomi13",
         "revision":     "uvite"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_fuxi-kernel",
-        "target_path":  "device/xiaomi/fuxi-kernel",
+        "repository":   "AOSPA/android_device_xiaomi_xiaomi13-kernel",
+        "target_path":  "device/xiaomi/xiaomi13-kernel",
         "revision":     "uvite"
     },
     {
@@ -64,7 +64,7 @@
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
-        "revision":     "uvite-fuxi",
+        "revision":     "uvite-xiaomi13",
         "clone-depth":  "1"
     }
 ]
