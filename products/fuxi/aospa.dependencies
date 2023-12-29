@@ -1,20 +1,19 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_fuxi",
+        "repository":   "xiaomi-8550/android_device_xiaomi_fuxi",
         "target_path":  "device/xiaomi/fuxi",
         "revision":     "uvite"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_fuxi-kernel",
+        "repository":   "xiaomi-8550/android_device_xiaomi_fuxi-kernel",
         "target_path":  "device/xiaomi/fuxi-kernel",
-        "revision":     "uvite",
-        "clone-depth":  "1"
+        "revision":     "uvite"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_sm8550-common",
+        "repository":   "xiaomi-8550/android_device_xiaomi_sm8550-common",
         "target_path":  "device/xiaomi/sm8550-common",
         "revision":     "uvite"
     },
@@ -61,17 +60,15 @@
         "revision":     "uvite-8550"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550/proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "revision":     "uvite",
-        "clone-depth":  "1"
+        "revision":     "uvite"
     },
     {
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
-        "revision":     "uvite-sm8550",
-        "clone-depth":  "1"
+        "revision":     "uvite-sm8550"
     }
 ]
