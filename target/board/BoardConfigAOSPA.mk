@@ -21,6 +21,9 @@ ifeq ($(call is-board-platform-in-list,$(QCOM_BOARD_PLATFORMS)),true)
 include device/qcom/common/BoardConfigQcom.mk
 endif
 
+# Include our private configuration - optional.
+-include vendor/aospa-priv/target/board/BoardConfigAOSPAPriv.mk
+
 # Kernel configuration.
 include vendor/aospa/target/board/BoardConfigKernel.mk
 
