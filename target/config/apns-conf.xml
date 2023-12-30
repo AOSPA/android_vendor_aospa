@@ -31420,4 +31420,41 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
+
+<!-- PA Additions -->
+  <apn carrier="Smartfren4G"
+      mcc="510"
+      mnc="28"
+      apn="Smartfren4G"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Dito Internet"
+      mcc="515"
+      mnc="66"
+      apn="internet.dito.ph"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+    <apn carrier="Dito MMS"
+      mcc="515"
+      mnc="66"
+      apn="mms.dito.ph"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+  <apn carrier="Dito IMS"
+      mcc="515"
+      mnc="66"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+<!-- End PA Additions -->
 </apns>
