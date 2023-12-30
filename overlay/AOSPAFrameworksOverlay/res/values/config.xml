@@ -23,12 +23,15 @@
         <item>"/system/framework/QPerformance.jar"</item>
         <item>"/system/framework/QXPerformance.jar"</item>
         <item>"/system/framework/UxPerformance.jar"</item>
+        <item>"/system/lib64/libEGL.so"</item>
         <item>"/system/lib64/libGLESv2.so"</item>
         <item>"/system/lib64/libhwui.so"</item>
         <item>"/system/system_ext/priv-app/ParanoidSystemUI/ParanoidSystemUI.apk"</item>
         <item>"/vendor/lib64/libcamxexternalformatutils.so"</item>
         <item>"/vendor/lib64/libipebpsstriping170.so"</item>
         <item>"/vendor/lib64/libipebpsstriping.so"</item>
+        <item>"/vendor/lib64/egl/libEGL_adreno.so"</item>
+        <item>"/vendor/lib64/egl/libGLESv2_adreno.so"</item>
         <item>"/vendor/lib64/libCB.so"</item>
         <item>"/vendor/lib64/libgsl.so"</item>
         <item>"/vendor/lib64/libllvm-glnext.so"</item>
