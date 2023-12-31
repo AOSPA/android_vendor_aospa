@@ -154,11 +154,6 @@ PRODUCT_PACKAGES += \
     ParanoidSystemUI \
     ParanoidThemePicker
 
-# Paranoid Hub (OTA)
-ifneq ($(filter STABLE BETA,$(AOSPA_BUILDTYPE)),)
-PRODUCT_PACKAGES += ParanoidHub
-endif
-
 # Paranoid Sense
 PRODUCT_PACKAGES += \
     ParanoidSense
