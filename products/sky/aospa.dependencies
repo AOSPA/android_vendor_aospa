@@ -1,20 +1,20 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/device_xiaomi_sky",
+        "repository":   "AOSPA/android_device_xiaomi_sky",
         "target_path":  "device/xiaomi/sky",
         "revision":     "uvite"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/device_xiaomi_sky-kernel",
+        "repository":   "AOSPA/android_device_xiaomi_sky-kernel",
         "target_path":  "device/xiaomi/sky-kernel",
         "revision":     "uvite",
         "clone-depth":  "1"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/hardware_qcom_audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision":     "uvite-8450"
     },
@@ -56,13 +56,13 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/vendor_qcom_opensource_arpal-lx",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
         "target_path":  "vendor/qcom/opensource/pal",
         "revision":     "uvite-8450"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/vendor_qcom_opensource_agm",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_agm",
         "target_path":  "vendor/qcom/opensource/agm",
         "revision":     "uvite-8450"
     },
@@ -70,6 +70,13 @@
         "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_xiaomi_firmware",
+        "target_path":  "vendor/xiaomi/firmware",
         "revision":     "uvite",
         "clone-depth":  "1"
     }
