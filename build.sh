@@ -52,8 +52,8 @@ function showHelpAndExit {
 # Setup getopt.
 long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,imgzip,version:"
 getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:bd:zn: --long "$long_opts" \
-            -n $(basename $0) -- "$@") || \
-            { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; exit 1;}
+            -n "$(basename "$0")" -- "$@") || \
+            { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; }
 
 eval set -- "$getopt_cmd"
 
@@ -66,7 +66,7 @@ while true; do
         -v|--variant|v|variant) AOSPA_VARIANT="$2"; shift;;
         -t|--build-type|t|build-type) BUILD_TYPE="$2"; shift;;
         -j|--jobs|j|jobs) JOBS="$2"; shift;;
-        -m|--module|m|module) MODULES+=("$2"); echo $2; shift;;
+        -m|--module|m|module) MODULES+=("$2"); echo "$2"; shift;;
         -s|--sign-keys|s|sign-keys) KEY_MAPPINGS="$2"; shift;;
         -p|--pwfile|p|pwfile) PWFILE="$2"; shift;;
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
@@ -93,7 +93,7 @@ if [ "$ARCH" != "64" ]; then
 fi
 
 # Set up paths
-cd $(dirname $0)
+cd "$(dirname "$0")" || { echo "Failed to change directory to $(dirname "$0")"; exit 1; }
 DIR_ROOT=$(pwd)
 
 # Make sure everything looks sane so far
@@ -103,8 +103,8 @@ if [ ! -d "$DIR_ROOT/vendor/aospa" ]; then
 fi
 
 # Setup AOSPA variant if specified
-if [ $AOSPA_VARIANT ]; then
-    AOSPA_VARIANT=`echo $AOSPA_VARIANT |  tr "[:upper:]" "[:lower:]"`
+if [ "$AOSPA_VARIANT" ]; then
+    AOSPA_VARIANT=$(echo "$AOSPA_VARIANT" |  tr "[:upper:]" "[:lower:]")
     if [ "${AOSPA_VARIANT}" = "stable" ]; then
         export AOSPA_BUILDTYPE=STABLE
     elif [ "${AOSPA_VARIANT}" = "beta" ]; then
@@ -118,7 +118,7 @@ if [ $AOSPA_VARIANT ]; then
 fi
 
 # Setup AOSPA version if specified
-if [ $AOSPA_USER_VERSION ]; then
+if [ "$AOSPA_USER_VERSION" ]; then
     # Check if it is a number
     if [[ $AOSPA_USER_VERSION =~ ^[0-9]{1,3}(\.[0-9]{1,2})?(\.[0-9]{1,2})?$ ]]; then
         export AOSPA_BUILDVERSION=$AOSPA_USER_VERSION
@@ -136,7 +136,7 @@ echo -e ""
 
 # Use the thread count specified by user
 CMD=""
-if [ $JOBS ]; then
+if [ "$JOBS" ]; then
   CMD+="-j$JOBS"
 fi
 
@@ -150,8 +150,8 @@ if [ -z "$JOBS" ]; then
 fi
 
 # Grab the build version
-AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //')"
-if [ $AOSPA_BUILDVERSION ]; then
+AOSPA_DISPLAY_VERSION="$(cat "$DIR_ROOT"/vendor/aospa/target/product/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //')"
+if [ "$AOSPA_BUILDVERSION" ]; then
     AOSPA_DISPLAY_VERSION+="$AOSPA_BUILDVERSION"
 fi
 
@@ -221,17 +221,17 @@ elif [ "${KEY_MAPPINGS}" ]; then
     checkExit
 
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
-    sign_target_files_apks -o -d $KEY_MAPPINGS \
-        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
-        aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip
+    sign_target_files_apks -o -d "$KEY_MAPPINGS" \
+        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_"$DEVICE"-target_files-"$FILE_NAME_TAG".zip \
+        aospa-"$AOSPA_VERSION"-signed-target_files-"$FILE_NAME_TAG".zip
 
     checkExit
 
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
-    ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-        --block ${INCREMENTAL} \
-        aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-        aospa-$AOSPA_VERSION.zip
+    ota_from_target_files -k "$KEY_MAPPINGS"/releasekey \
+        --block "${INCREMENTAL}" \
+        aospa-"$AOSPA_VERSION"-signed-target_files-"$FILE_NAME_TAG".zip \
+        aospa-"$AOSPA_VERSION".zip
 
     checkExit
 
@@ -241,18 +241,18 @@ elif [ "${KEY_MAPPINGS}" ]; then
                 echo -e "${CLR_BLD_RED}Delta error: base target files don't exist ($DELTA_TARGET_FILES)${CLR_RST}"
                 exit 1
         fi
-        ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-            --block --incremental_from $DELTA_TARGET_FILES \
-            aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-            aospa-$AOSPA_VERSION-delta.zip
+        ota_from_target_files -k "$KEY_MAPPINGS"/releasekey \
+            --block --incremental_from "$DELTA_TARGET_FILES" \
+            aospa-"$AOSPA_VERSION"-signed-target_files-"$FILE_NAME_TAG".zip \
+            aospa-"$AOSPA_VERSION"-delta.zip
         checkExit
     fi
 
     if [ "$FLAG_IMG_ZIP" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Generating signed fastboot package${CLR_RST}"
         img_from_target_files \
-            aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-            aospa-$AOSPA_VERSION-image.zip
+            aospa-"$AOSPA_VERSION"-signed-target_files-"$FILE_NAME_TAG".zip \
+            aospa-"$AOSPA_VERSION"-image.zip
         checkExit
     fi
 # Build rom package
@@ -263,15 +263,15 @@ elif [ "$FLAG_IMG_ZIP" = 'y' ]; then
 
     echo -e "${CLR_BLD_BLU}Generating install package${CLR_RST}"
     ota_from_target_files \
-        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
-        aospa-$AOSPA_VERSION.zip
+        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_"$DEVICE"-target_files-"$FILE_NAME_TAG".zip \
+        aospa-"$AOSPA_VERSION".zip
 
     checkExit
 
     echo -e "${CLR_BLD_BLU}Generating fastboot package${CLR_RST}"
     img_from_target_files \
-        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
-        aospa-$AOSPA_VERSION-image.zip
+        "$OUT"/obj/PACKAGING/target_files_intermediates/aospa_"$DEVICE"-target_files-"$FILE_NAME_TAG".zip \
+        aospa-"$AOSPA_VERSION"-image.zip
 
     checkExit
 
@@ -280,7 +280,7 @@ else
 
     checkExit
 
-    cp -f $OUT/aospa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION.zip
+    cp -f "$OUT"/aospa_"$DEVICE"-ota-"$FILE_NAME_TAG".zip "$OUT"/aospa-"$AOSPA_VERSION".zip
     echo "Package Complete: $OUT/aospa-$AOSPA_VERSION.zip"
 fi
 echo -e ""
