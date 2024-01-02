@@ -226,6 +226,10 @@ $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 # Snapdragon Clang
 $(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
 
+# SystemUIDialog volume panel
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    sys.fflag.override.settings_volume_panel_in_systemui=true
+
 # Telephony - CLO
 PRODUCT_PACKAGES += \
     extphonelib \
