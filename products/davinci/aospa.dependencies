@@ -15,19 +15,19 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-        "revision":     "topaz-8450"
+        "revision":     "uvite-8450"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
         "target_path":  "vendor/qcom/opensource/pal",
-        "revision":     "topaz-8450"
+        "revision":     "uvite-8450"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "topaz-8450"
+        "revision":     "uvite-8450"
     },
     {
         "remote":       "aospa",
@@ -39,7 +39,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "topaz-8450"
+        "revision":     "uvite-8450"
     },
     {
         "remote":       "aospa",
@@ -93,7 +93,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/vendor_qcom_opensource_audio-kernel-ar",
         "target_path":  "vendor/qcom/opensource/audio-kernel",
-        "revision":     "topaz-asus-davinci"
+        "revision":     "uvite-asus-davinci"
     },
     {
         "remote":       "aospa",
@@ -117,7 +117,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/vendor_qcom_opensource_display-drivers",
         "target_path":  "vendor/qcom/opensource/display-drivers",
-        "revision":     "topaz-asus-davinci"
+        "revision":     "uvite-asus-davinci"
     },
     {
         "remote":       "clo-la",
