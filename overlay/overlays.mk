@@ -15,6 +15,7 @@
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPABlackThemeOverlay \
+    AOSPABluetoothOverlay \
     AOSPAFrameworksOverlay \
     AOSPAImmersiveNavigationOverlay \
     AOSPASettingsOverlay \
