@@ -194,10 +194,6 @@ PRODUCT_PACKAGES += \
 # Qualcomm Common
 $(call inherit-product, device/qcom/common/common.mk)
 
-# Repainter (kdrag0n)
-PRODUCT_PACKAGES += \
-    RepainterServicePriv
-
 # Rescue Party
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
