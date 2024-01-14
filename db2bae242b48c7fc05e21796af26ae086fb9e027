@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdf9b28d_c6a8b8de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2024-01-14T18:56:59Z",
+      "side": 1,
+      "message": "Maybe making SDLLVM off by default should be better",
+      "revId": "db2bae242b48c7fc05e21796af26ae086fb9e027",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
