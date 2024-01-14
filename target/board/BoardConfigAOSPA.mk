@@ -31,7 +31,7 @@ endif
 -include vendor/aospa-priv/target/board/BoardConfigAOSPAPriv.mk
 
 # Kernel configuration.
-include vendor/aospa/target/board/BoardConfigKernel.mk
+include vendor/aospa/target/board/BoardConfigKernelLineage.mk
 
 # Soong
 include vendor/aospa/target/board/BoardConfigSoong.mk
