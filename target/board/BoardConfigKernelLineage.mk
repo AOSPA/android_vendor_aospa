@@ -22,9 +22,9 @@
 #                                          to kernel/$(TARGET_DEVICE_DIR)
 #   TARGET_KERNEL_ARCH                 = Kernel Arch
 #   TARGET_KERNEL_CROSS_COMPILE_PREFIX = Compiler prefix (e.g. arm-eabi-)
-#                                          defaults to arm-linux-androidkernel- for arm
-#                                                      aarch64-linux-android- for arm64
-#                                                      x86_64-linux-android- for x86
+#                                          defaults to arm-linux-gnueabi- for arm
+#                                                      aarch64-linux-gnu- for arm64
+#                                                      x86_64-linux-gnu- for x86
 #
 #   TARGET_KERNEL_CLANG_COMPILE        = Compile kernel with clang, defaults to true
 #   TARGET_KERNEL_CLANG_VERSION        = Clang prebuilts version, optional, defaults to clang-stable
@@ -122,7 +122,6 @@ KERNEL_MAKE_FLAGS :=
 KERNEL_MAKE_FLAGS += -j$(shell getconf _NPROCESSORS_ONLN)
 
 ifneq ($(KERNEL_NO_GCC), true)
-    GCC_PREBUILTS := $(BUILD_TOP)/prebuilts/gcc/$(HOST_PREBUILT_TAG)
     ifeq ($(TARGET_KERNEL_NEW_GCC_COMPILE),true)
         ifeq ($(TARGET_KERNEL_CLANG_COMPILE),true)
             $(error TARGET_KERNEL_NEW_GCC_COMPILE cannot be used with TARGET_KERNEL_CLANG_COMPILE!)
@@ -130,6 +129,7 @@ ifneq ($(KERNEL_NO_GCC), true)
         ifeq ($(TARGET_KERNEL_SDCLANG_COMPILE),true)
             $(error TARGET_KERNEL_NEW_GCC_COMPILE cannot be used with TARGET_KERNEL_SDCLANG_COMPILE!)
         endif
+        GCC_PREBUILTS := $(BUILD_TOP)/prebuilts/gcc/$(HOST_PREBUILT_TAG)
         # arm64 toolchain
         KERNEL_TOOLCHAIN_arm64 := $(GCC_PREBUILTS)/aarch64/aarch64-elf/bin
         KERNEL_TOOLCHAIN_PREFIX_arm64 := aarch64-elf-
@@ -138,33 +138,27 @@ ifneq ($(KERNEL_NO_GCC), true)
         KERNEL_TOOLCHAIN_PREFIX_arm := arm-eabi-
     else
         # arm64 toolchain
-        KERNEL_TOOLCHAIN_arm64 := $(GCC_PREBUILTS)/aarch64/aarch64-linux-android-4.9/bin
-        KERNEL_TOOLCHAIN_PREFIX_arm64 := aarch64-linux-android-
+        KERNEL_TOOLCHAIN_PREFIX_arm64 := aarch64-linux-gnu-
         # arm toolchain
-        KERNEL_TOOLCHAIN_arm := $(GCC_PREBUILTS)/arm/arm-linux-androideabi-4.9/bin
-        KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-androidkernel-
+        KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-gnueabi-
     endif
     # x86 toolchain
-    KERNEL_TOOLCHAIN_x86 := $(GCC_PREBUILTS)/x86/x86_64-linux-android-4.9/bin
-    KERNEL_TOOLCHAIN_PREFIX_x86 := x86_64-linux-android-
+    KERNEL_TOOLCHAIN_PREFIX_x86 := x86_64-linux-gnu-
 
     TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(strip $(TARGET_KERNEL_CROSS_COMPILE_PREFIX))
     ifneq ($(TARGET_KERNEL_CROSS_COMPILE_PREFIX),)
         KERNEL_TOOLCHAIN_PREFIX ?= $(TARGET_KERNEL_CROSS_COMPILE_PREFIX)
     else
-        KERNEL_TOOLCHAIN ?= $(KERNEL_TOOLCHAIN_$(KERNEL_ARCH))
         KERNEL_TOOLCHAIN_PREFIX ?= $(KERNEL_TOOLCHAIN_PREFIX_$(KERNEL_ARCH))
     endif
 
-    ifeq ($(KERNEL_TOOLCHAIN),)
-        KERNEL_TOOLCHAIN_PATH := $(KERNEL_TOOLCHAIN_PREFIX)
-    else
-        KERNEL_TOOLCHAIN_PATH := $(KERNEL_TOOLCHAIN)/$(KERNEL_TOOLCHAIN_PREFIX)
-    endif
+    KERNEL_TOOLCHAIN_PATH := $(KERNEL_TOOLCHAIN_PREFIX)
 
-    # We need to add GCC toolchain to the path no matter what
+    # We need to add GCC toolchain to the path when new GCC is used
     # for tools like `as`
-    KERNEL_TOOLCHAIN_PATH_gcc := $(KERNEL_TOOLCHAIN_$(KERNEL_ARCH))
+    ifeq ($(TARGET_KERNEL_NEW_GCC_COMPILE), true)
+        KERNEL_TOOLCHAIN_PATH_gcc := $(KERNEL_TOOLCHAIN_$(KERNEL_ARCH))
+    endif
 
     ifneq ($(TARGET_KERNEL_CLANG_COMPILE),false)
         KERNEL_CROSS_COMPILE := CROSS_COMPILE="$(KERNEL_TOOLCHAIN_PATH)"
