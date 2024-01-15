@@ -59,5 +59,12 @@
         "target_path":  "vendor/xiaomi",
         "revision":     "uvite",
         "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_xiaomi_camera",
+        "target_path":  "vendor/xiaomi/camera",
+        "revision":     "uvite-miatoll",
+        "clone-depth":  "1"
     }
 ]
