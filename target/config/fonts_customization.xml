@@ -401,4 +401,14 @@
   <alias name="linotte-semi-bold" to="linotte" weight="600" />
   <alias name="linotte-bold" to="linotte" weight="700" />
 
+  <family customizationType="new-named-family" name="albertsans">
+    <font weight="400" style="normal">AlbertSans-Regular.ttf</font>
+    <font weight="400" style="italic">AlbertSans-Italic.ttf</font>
+    <font weight="500" style="normal">AlbertSans-Medium.ttf</font>
+    <font weight="500" style="italic">AlbertSans-MediumItalic.ttf</font>
+    <font weight="700" style="normal">AlbertSans-Bold.ttf</font>
+    <font weight="700" style="italic">AlbertSans-BoldItalic.ttf</font>
+  </family>
+  <alias name="albertsans-medium" to="albertsans" weight="500" />
+
 </fonts-modification>
