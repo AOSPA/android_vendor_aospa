@@ -264,7 +264,9 @@ ifneq ($(TARGET_KERNEL_CLANG_COMPILE),false)
 endif
 
 ifneq ($(KERNEL_NO_GCC), true)
+ifeq ($(TARGET_KERNEL_NEW_GCC_COMPILE), true)
     PATH_OVERRIDE += PATH=$(KERNEL_TOOLCHAIN_PATH_gcc):$$PATH
+endif
 endif
 
 # System tools are no longer allowed on 10+
