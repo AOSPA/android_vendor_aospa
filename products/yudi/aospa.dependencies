@@ -1,0 +1,68 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-sm8475/android_device_xiaomi_liuqin",
+        "target_path":  "device/xiaomi/liuqin",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-sm8475/android_device_xiaomi_yudi",
+        "target_path":  "device/xiaomi/yudi",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-sm8475/android_device_xiaomi_yudi-kernel",
+        "target_path":  "device/xiaomi/yudi-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sepolicy",
+        "target_path":  "device/xiaomi/sepolicy",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-sm8475/android_vendor_xiaomi_liuqin",
+        "target_path":  "vendor/xiaomi/liuqin",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-sm8475/android_vendor_xiaomi_yudi",
+        "target_path":  "vendor/xiaomi/yudi",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-8450"
+    }
+]
