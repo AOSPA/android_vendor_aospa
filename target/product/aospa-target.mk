@@ -192,7 +192,9 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 # Qualcomm Common
+ifneq ($(TARGET_NO_QCOM_COMMON), true)
 $(call inherit-product, device/qcom/common/common.mk)
+endif
 
 # Rescue Party
 # Disable RescueParty due to high risk of data loss
