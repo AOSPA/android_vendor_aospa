@@ -33,6 +33,24 @@
       "message": "I\u0027d rather just make the error a warning.  adding a flag to every non Qualcomm device sounds like a chore.",
       "revId": "199830dc7eda2728988af4257e66d19c774b7327",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "048c2a91_5cb186c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2024-01-20T01:09:58Z",
+      "side": 1,
+      "message": "Well yeah but dqc include a lot of stuff that conflicts and is useless to non-qcom devices (soc property, C2 seccomp, fs config gen, qti compatibility matrix, qti power hal, qti permissions and public library)",
+      "parentUuid": "bf8060ac_937c8c7c",
+      "revId": "199830dc7eda2728988af4257e66d19c774b7327",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
