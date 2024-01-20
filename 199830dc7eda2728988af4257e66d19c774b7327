@@ -51,6 +51,24 @@
       "parentUuid": "bf8060ac_937c8c7c",
       "revId": "199830dc7eda2728988af4257e66d19c774b7327",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f28f8d5d_8ac23345",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2024-01-20T01:14:41Z",
+      "side": 1,
+      "message": "\u003e Well yeah but dqc include a lot of stuff that conflicts and is useless to non-qcom devices (soc property, C2 seccomp, fs config gen, qti compatibility matrix, qti power hal, qti permissions and public library)\n\nmaybe moving qcom board configuration to aospa vendor and using is-board-platform-in-list in aospa-target.mk would be better alternative ?",
+      "parentUuid": "048c2a91_5cb186c2",
+      "revId": "199830dc7eda2728988af4257e66d19c774b7327",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
