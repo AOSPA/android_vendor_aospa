@@ -69,6 +69,23 @@
       "parentUuid": "048c2a91_5cb186c2",
       "revId": "199830dc7eda2728988af4257e66d19c774b7327",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d772ae31_b115184e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2024-01-20T02:13:14Z",
+      "side": 1,
+      "message": "All of this is guarded: https://github.com/AOSPA/android_device_qcom_common/blob/uvite/common.mk#L148-L203\n\nAs long as you have a TARGET_BOARD_PLATFORM in BoardConfig, this should work fine as is.  Pixels built fine with this.  They move the flag there also.",
+      "revId": "199830dc7eda2728988af4257e66d19c774b7327",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
