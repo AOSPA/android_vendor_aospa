@@ -47,6 +47,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/panther/aospa_panther.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \
+    $(LOCAL_DIR)/phone2/aospa_phone2.mk \
     $(LOCAL_DIR)/porsche/aospa_porsche.mk \
     $(LOCAL_DIR)/psyche/aospa_psyche.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk \
@@ -92,6 +93,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_panther-userdebug \
     aospa_phoenix-userdebug \
     aospa_phone1-userdebug \
+    aospa_phone2-userdebug \
     aospa_porsche-userdebug \
     aospa_psyche-userdebug \
     aospa_raven-userdebug \
