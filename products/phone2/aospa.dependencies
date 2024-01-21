@@ -1,0 +1,63 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "aospa-pong/android_device_nothing_phone2",
+        "target_path":  "device/nothing/phone2",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-pong/android_device_nothing_phone2-kernel",
+        "target_path":  "device/nothing/phone2-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "aospa-pong/proprietary_vendor_nothing",
+        "target_path":  "vendor/nothing",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_nothing_firmware",
+        "target_path":  "vendor/nothing/firmware",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_apps_ParanoidGlyph",
+        "target_path":  "packages/apps/ParanoidGlyph",
+        "revision":     "uvite"
+    }
+]
