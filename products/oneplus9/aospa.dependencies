@@ -62,6 +62,13 @@
     },
     {
         "remote":       "blobs-gitlab",
+        "repository":   "android_prebuilts_clang-standalone",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "17",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_oplus_camera",
         "target_path":  "vendor/oplus/camera",
         "revision":     "uvite-op9",
