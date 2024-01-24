@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98452348_c21a7656",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2024-01-24T17:55:11Z",
+      "side": 1,
+      "message": "if you\u0027re already just gonna use clang 17, why not the already tracked aosp clang 17?",
+      "revId": "0751d8c21f0fa151c305b5af9dd4d4e7f54fc07a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
