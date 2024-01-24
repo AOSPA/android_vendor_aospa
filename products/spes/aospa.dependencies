@@ -58,12 +58,5 @@
         "repository":   "AOSPA/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
         "revision":     "uvite"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "android_prebuilts_clang-standalone",
-        "target_path":  "prebuilts/clang-standalone",
-        "revision":     "14",
-        "clone-depth":  "1"
     }
 ]

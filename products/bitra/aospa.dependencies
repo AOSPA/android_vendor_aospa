@@ -64,12 +64,5 @@
         "repository":   "proprietary_vendor_realme",
         "target_path":  "vendor/realme",
         "revision":     "topaz"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "android_prebuilts_clang-standalone",
-        "target_path":  "prebuilts/clang-standalone",
-        "revision":     "17",
-        "clone-depth":  "1"
     }
 ]

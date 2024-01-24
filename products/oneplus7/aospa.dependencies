@@ -24,13 +24,6 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "blobs-gitlab",
-        "repository":   "android_prebuilts_clang-standalone",
-        "target_path":  "prebuilts/clang-standalone",
-        "revision":     "17",
-        "clone-depth":  "1"
-    },
-    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",

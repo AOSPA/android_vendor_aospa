@@ -53,12 +53,5 @@
         "target_path":  "vendor/oplus/camera",
         "revision":     "topaz-lunaa",
         "clone-depth":  "1"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "android_prebuilts_clang-standalone",
-        "target_path":  "prebuilts/clang-standalone",
-        "revision":     "17",
-        "clone-depth":  "1"
     }
 ]

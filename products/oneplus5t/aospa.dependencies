@@ -59,12 +59,5 @@
         "repository":   "platform/hardware/nxp/secure_element",
         "target_path":  "hardware/nxp/secure_element",
         "revision":     "refs/tags/android-13.0.0_r3"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "android_prebuilts_clang-standalone",
-        "target_path":  "prebuilts/clang-standalone",
-        "revision":     "14",
-        "clone-depth":  "1"
     }
 ]
