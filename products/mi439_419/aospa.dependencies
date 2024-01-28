@@ -2,13 +2,13 @@
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_xiaomi_mi439",
-        "target_path":  "device/xiaomi/mi439",
+        "target_path":  "device/xiaomi/mi439_419",
         "revision":     "uvite"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_xiaomi_sdm439",
-        "target_path":  "kernel/msm-4.9",
+        "target_path":  "kernel/msm-4.19",
         "revision":     "uvite"
     },
     {
@@ -22,7 +22,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-        "revision":     "uvite-89xx"
+        "revision":     "uvite-89xx-4.19"
     },
     {
         "remote":       "aospa",
@@ -40,7 +40,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "uvite-89xx"
+        "revision":     "uvite-89xx-4.19"
     },
     {
         "remote":       "aospa",
