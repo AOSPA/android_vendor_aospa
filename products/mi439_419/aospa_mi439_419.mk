@@ -1,4 +1,4 @@
-# Copyright (C) 2023 Paranoid Android
+# Copyright (C) 2024 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq (aospa_mi439, $(TARGET_PRODUCT))
+ifeq (aospa_mi439_419, $(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, device/xiaomi/mi439/device.mk)
 # Inherit from common AOSPA configuration
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
-PRODUCT_NAME := aospa_mi439
+PRODUCT_NAME := aospa_mi439_419
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
