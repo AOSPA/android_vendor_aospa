@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b155d99a_70e3ada8",
+        "filename": "products/lahaina/aospa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2024-01-28T19:15:14Z",
+      "side": 1,
+      "message": "blobs",
+      "revId": "1f115c7753bb0718419126a2e8f27f1bcea9cef5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
