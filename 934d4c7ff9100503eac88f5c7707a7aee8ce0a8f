@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f21f91c_9bf2e017",
+        "filename": "products/lito/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2024-01-28T19:05:44Z",
+      "side": 1,
+      "message": "should be blobs",
+      "revId": "934d4c7ff9100503eac88f5c7707a7aee8ce0a8f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
