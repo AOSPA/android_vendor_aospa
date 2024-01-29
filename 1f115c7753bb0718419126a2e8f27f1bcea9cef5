@@ -16,6 +16,24 @@
       "message": "blobs",
       "revId": "1f115c7753bb0718419126a2e8f27f1bcea9cef5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2647e55_4ea234b9",
+        "filename": "products/lahaina/aospa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2024-01-29T03:52:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b155d99a_70e3ada8",
+      "revId": "1f115c7753bb0718419126a2e8f27f1bcea9cef5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
