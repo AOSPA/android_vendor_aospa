@@ -16,6 +16,24 @@
       "message": "should be blobs",
       "revId": "934d4c7ff9100503eac88f5c7707a7aee8ce0a8f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af597faa_c18af46a",
+        "filename": "products/lito/aospa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000941
+      },
+      "writtenOn": "2024-01-29T03:49:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f21f91c_9bf2e017",
+      "revId": "934d4c7ff9100503eac88f5c7707a7aee8ce0a8f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
