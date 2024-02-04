@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2024 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,6 +21,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
+    $(LOCAL_DIR)/cupid/aospa_cupid.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/fuxi/aospa_fuxi.mk \
@@ -69,6 +70,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_bladerunner-userdebug \
     aospa_bluejay-userdebug \
     aospa_cheetah-userdebug \
+    aospa_cupid-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
     aospa_fuxi-userdebug \
