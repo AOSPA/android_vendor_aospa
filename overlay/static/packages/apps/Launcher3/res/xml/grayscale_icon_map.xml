@@ -1710,6 +1710,9 @@
         drawable="@drawable/themed_icon_nest"
         package="com.nest.android" />
     <icon
+        drawable="@drawable/themed_icon_android_find_my_device"
+        package="com.google.android.apps.adm" />
+    <icon
         drawable="@drawable/themed_icon_classroom"
         package="com.google.android.apps.classroom" />
     <icon
