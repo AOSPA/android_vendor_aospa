@@ -33,6 +33,23 @@
       "message": "update: it works but only searchable in settings now, the preference is still invisible",
       "revId": "dfa6615f061e36a754f6d7c629ac1c1d9003c8e2",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f012a5c_001646d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000972
+      },
+      "writtenOn": "2024-02-06T17:55:54Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/android_packages_apps_Settings/commit/742e506d13e4f28e4334d1344816f1df45c0c772",
+      "revId": "dfa6615f061e36a754f6d7c629ac1c1d9003c8e2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
