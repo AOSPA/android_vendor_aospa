@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "931b3fb2_3a46c2c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-07T20:24:05Z",
+      "side": 1,
+      "message": "https://github.com/Paranoid-Xperia/device_sony_pdx234\nhttps://github.com/Paranoid-Xperia/vendor_sony_pdx234\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234-kernel",
+      "revId": "dde4faecac75a27c93f9a2860ee6b15bfc591cbb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
