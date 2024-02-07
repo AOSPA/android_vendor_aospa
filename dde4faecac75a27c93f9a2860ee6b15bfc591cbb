@@ -16,6 +16,23 @@
       "message": "https://github.com/Paranoid-Xperia/device_sony_pdx234\nhttps://github.com/Paranoid-Xperia/vendor_sony_pdx234\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234-kernel",
       "revId": "dde4faecac75a27c93f9a2860ee6b15bfc591cbb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4f4423a_ef242914",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-07T20:59:30Z",
+      "side": 1,
+      "message": "https://github.com/Paranoid-Xperia/hardware_sony",
+      "revId": "dde4faecac75a27c93f9a2860ee6b15bfc591cbb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
