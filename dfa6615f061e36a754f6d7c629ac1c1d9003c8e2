@@ -50,6 +50,23 @@
       "message": "https://github.com/AOSPA/android_packages_apps_Settings/commit/742e506d13e4f28e4334d1344816f1df45c0c772",
       "revId": "dfa6615f061e36a754f6d7c629ac1c1d9003c8e2",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7d5bd1b_46c577d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-02-08T13:15:12Z",
+      "side": 1,
+      "message": "overlay is still needed to enable it",
+      "revId": "dfa6615f061e36a754f6d7c629ac1c1d9003c8e2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
