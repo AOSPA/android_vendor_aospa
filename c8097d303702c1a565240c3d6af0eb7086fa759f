@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7052d31_0051dc57",
+        "filename": "products/pdx234/aospa_pdx234.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000825
+      },
+      "writtenOn": "2024-02-08T04:18:38Z",
+      "side": 1,
+      "message": "2024?",
+      "revId": "c8097d303702c1a565240c3d6af0eb7086fa759f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
