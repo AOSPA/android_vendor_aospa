@@ -65,5 +65,12 @@
         "target_path":  "prebuilts/clang-standalone",
         "revision":     "14",
         "clone-depth":  "1"
+    },
+    {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_xiaomi_camera",
+        "target_path":  "vendor/xiaomi/camera",
+        "revision":     "uvite-sm6225",
+        "clone-depth":  "1"
     }
 ]
