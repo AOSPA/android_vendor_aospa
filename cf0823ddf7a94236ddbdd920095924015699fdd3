@@ -16,6 +16,24 @@
       "message": "duplicate",
       "revId": "cf0823ddf7a94236ddbdd920095924015699fdd3",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "942e6569_2663f643",
+        "filename": "overlay/static/packages/apps/Launcher3/res/xml/grayscale_icon_map.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 1000972
+      },
+      "writtenOn": "2024-02-08T07:37:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5f278c5_6d493004",
+      "revId": "cf0823ddf7a94236ddbdd920095924015699fdd3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
