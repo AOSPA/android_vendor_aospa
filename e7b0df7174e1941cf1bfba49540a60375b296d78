@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e982a38d_8a138d27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-02-09T22:37:13Z",
+      "side": 1,
+      "message": "https://github.com/Paranoid-Xperia/device_sony_pdx234/commit/a84e3d98145f91e301ed8e9a3bd518b70d7d6a8a why was peak rfr changed to 60?\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/device.mk#L82 redundant it’s qti health aidl by default\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/device.mk#L180 built by default in charging component\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/BoardConfig.mk#L123 memcg is for low-ram devices\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/BoardConfig.mk#L147 we ship with GMS and we don’t have that flag\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/BoardConfig.mk#L185 redundant\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/properties.mk#L84 should be in product",
+      "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
