@@ -16,6 +16,24 @@
       "message": "https://github.com/Paranoid-Xperia/device_sony_pdx234/commit/a84e3d98145f91e301ed8e9a3bd518b70d7d6a8a why was peak rfr changed to 60?\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/device.mk#L82 redundant it’s qti health aidl by default\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/device.mk#L180 built by default in charging component\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/BoardConfig.mk#L123 memcg is for low-ram devices\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/BoardConfig.mk#L147 we ship with GMS and we don’t have that flag\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/BoardConfig.mk#L185 redundant\n\nhttps://github.com/Paranoid-Xperia/device_sony_pdx234/blob/main/properties.mk#L84 should be in product",
       "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3b90c30_14879c0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-10T08:48:43Z",
+      "side": 1,
+      "message": "the GMS flag is to expand the partition for when using GMS since the default partition is too small to fit the ROM, so it\u0027s expanded with that flag, I changed the peak refresh rate to 60 out of the box as the current AOSPA implementation of VRR causes the devices screen to keep flicking between a purple tint and its normal color when you touch it, so VRR would need to be guarded so that we can disable it for some devices, this device does not have an LTPO display so no real need for it to be there",
+      "parentUuid": "e982a38d_8a138d27",
+      "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
