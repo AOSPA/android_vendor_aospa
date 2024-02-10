@@ -52,6 +52,23 @@
       "parentUuid": "d3b90c30_14879c0b",
       "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb92711d_5293373b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000890
+      },
+      "writtenOn": "2024-02-10T10:56:43Z",
+      "side": 1,
+      "message": "https://github.com/Paranoid-Xperia/device_sony_pdx234/commit/97c5df6a416537661a74f1d604fd0bda689bd42f#diff-247ee86229a709a6e2eedfc1d3c4a557825aee073e20b0112ab76f4ca8e4bc4eR178 this ain’t needed aswell, as it’s built in charging comp",
+      "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
