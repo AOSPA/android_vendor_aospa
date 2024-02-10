@@ -33,6 +33,42 @@
       "message": "https://github.com/Paranoid-Xperia/hardware_sony",
       "revId": "dde4faecac75a27c93f9a2860ee6b15bfc591cbb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffd33cb7_7f19a5ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-10T11:55:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4f4423a_ef242914",
+      "revId": "dde4faecac75a27c93f9a2860ee6b15bfc591cbb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9ee5c26_51eb043c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-10T11:55:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "931b3fb2_3a46c2c1",
+      "revId": "dde4faecac75a27c93f9a2860ee6b15bfc591cbb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
