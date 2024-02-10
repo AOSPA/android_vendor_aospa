@@ -34,6 +34,24 @@
       "parentUuid": "e982a38d_8a138d27",
       "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "778bffa3_83c83dc9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-10T08:50:16Z",
+      "side": 1,
+      "message": "All changes have been made, the GMS flag has been removed since the GMS used is small enough to fit in the standard partition",
+      "parentUuid": "d3b90c30_14879c0b",
+      "revId": "e7b0df7174e1941cf1bfba49540a60375b296d78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
