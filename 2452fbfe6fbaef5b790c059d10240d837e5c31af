@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc270704_c16637ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2024-02-11T13:12:14Z",
+      "side": 1,
+      "message": "dont think we generally override the fingerprint - is there a reason you want to?",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
