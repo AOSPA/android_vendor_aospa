@@ -16,6 +16,24 @@
       "message": "dont think we generally override the fingerprint - is there a reason you want to?",
       "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0688b7b_57e57f25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-11T13:13:55Z",
+      "side": 1,
+      "message": "Yeah, the stock Sony camera apps require the stock fingerprint",
+      "parentUuid": "bc270704_c16637ab",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
