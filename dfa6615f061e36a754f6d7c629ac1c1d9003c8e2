@@ -67,6 +67,24 @@
       "message": "overlay is still needed to enable it",
       "revId": "dfa6615f061e36a754f6d7c629ac1c1d9003c8e2",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43795988_d97152da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-02-12T02:57:31Z",
+      "side": 1,
+      "message": "yeah already found that, upstream doesn\u0027t seem to care much about allowing users to disable it.",
+      "parentUuid": "2f012a5c_001646d2",
+      "revId": "dfa6615f061e36a754f6d7c629ac1c1d9003c8e2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
