@@ -34,6 +34,24 @@
       "parentUuid": "bc270704_c16637ab",
       "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff29cb3f_efe95743",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-02-14T04:50:05Z",
+      "side": 1,
+      "message": "this would break upgrade detection though, not sure if i like this",
+      "parentUuid": "e0688b7b_57e57f25",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
