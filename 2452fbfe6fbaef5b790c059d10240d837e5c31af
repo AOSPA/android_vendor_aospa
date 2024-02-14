@@ -88,6 +88,24 @@
       "parentUuid": "606e4138_5b06a7a8",
       "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e96c3190_c74cd0e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-14T20:49:16Z",
+      "side": 1,
+      "message": "fuxi seems to be overriding Build Fingerprint through overlays so ill try that way",
+      "parentUuid": "9b717332_c36f69af",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
