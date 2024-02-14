@@ -52,6 +52,24 @@
       "parentUuid": "e0688b7b_57e57f25",
       "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "606e4138_5b06a7a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-14T06:32:34Z",
+      "side": 1,
+      "message": "it\u0027s been done on other Sony devices with official Los, where upgrading still works, but anyways it doesn\u0027t seem to be overriding the fingerprint since it still can\u0027t find the fingerprint it\u0027s looking for",
+      "parentUuid": "ff29cb3f_efe95743",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
