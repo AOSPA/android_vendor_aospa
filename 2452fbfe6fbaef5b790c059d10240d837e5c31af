@@ -70,6 +70,24 @@
       "parentUuid": "ff29cb3f_efe95743",
       "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b717332_c36f69af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-14T06:54:04Z",
+      "side": 1,
+      "message": "still keeps adding eng.spectr for some reason Sony/XQ-DQ72/XQ-DQ72:14/ UKQ1.240116.001/eng.spectr.2 0240212.220329:userdebug/ test-keys",
+      "parentUuid": "606e4138_5b06a7a8",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
