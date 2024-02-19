@@ -16,6 +16,24 @@
       "message": "need ntp:// prefix",
       "revId": "87b5aefafd2ca1a9bdcc37d6d3d3eeeebda48063",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c81d643a_7d1a2f20",
+        "filename": "overlay/AOSPAFrameworksOverlay/res/values-mcc460/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-02-19T21:01:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "838b12a5_012c84ed",
+      "revId": "87b5aefafd2ca1a9bdcc37d6d3d3eeeebda48063",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
