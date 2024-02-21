@@ -16,6 +16,23 @@
       "message": "we are good to g, ready to merge",
       "revId": "5edae40b461b43198ff1483d7536d679c5eeb6e9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d62ab6f8_1ddc656e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000498
+      },
+      "writtenOn": "2024-02-21T21:31:30Z",
+      "side": 1,
+      "message": "Do something about hardware/sony, it still have los leftovers and history is incredibly messy compared to the original one present on los at 21 branch",
+      "revId": "5edae40b461b43198ff1483d7536d679c5eeb6e9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
