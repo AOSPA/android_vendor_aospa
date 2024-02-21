@@ -124,6 +124,24 @@
       "parentUuid": "e96c3190_c74cd0e9",
       "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a506d22e_2bdd2402",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000956
+      },
+      "writtenOn": "2024-02-21T23:04:12Z",
+      "side": 1,
+      "message": "No overriding FP needed, all overriding has been removed",
+      "parentUuid": "25a2ee5e_3380d94d",
+      "revId": "2452fbfe6fbaef5b790c059d10240d837e5c31af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
