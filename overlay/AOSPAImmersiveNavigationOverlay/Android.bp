@@ -15,5 +15,5 @@
 runtime_resource_overlay {
     name: "AOSPAImmersiveNavigationOverlay",
     resource_dirs: ["res"],
-    product_specific: true,
+    system_ext_specific: true,
 }

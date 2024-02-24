@@ -1,7 +1,7 @@
 runtime_resource_overlay {
     name: "AOSPANetworkStackOverlay",
     certificate: "platform",
-    product_specific: true
+    system_ext_specific: true
 }
 
 
@@ -9,5 +9,5 @@ runtime_resource_overlay {
     name: "AOSPANetworkStackMainlineOverlay",
     manifest: "AndroidGoogleManifest.xml",
     certificate: "platform",
-    product_specific: true
+    system_ext_specific: true
 }

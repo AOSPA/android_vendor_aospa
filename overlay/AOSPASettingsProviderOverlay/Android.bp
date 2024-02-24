@@ -14,6 +14,6 @@
 
 runtime_resource_overlay {
     name: "AOSPASettingsProviderOverlay",
-    product_specific: true,
+    system_ext_specific: true,
     sdk_version: "current",
 }
