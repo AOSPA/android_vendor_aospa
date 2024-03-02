@@ -16,6 +16,24 @@
       "message": "in which case $USER will be empty?",
       "revId": "0be5cc6914bd9ecd5155772ce7afa6560c9c1484",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b275dcfc_5e50f1e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000972
+      },
+      "writtenOn": "2024-03-02T14:24:56Z",
+      "side": 1,
+      "message": "Most of the CI servers. Because it\u0027s common for containerized builds to run as a root user inside the container.",
+      "parentUuid": "f41f3217_aafb689b",
+      "revId": "0be5cc6914bd9ecd5155772ce7afa6560c9c1484",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
