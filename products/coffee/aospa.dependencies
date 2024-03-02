@@ -1,0 +1,64 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_realme_coffee",
+        "target_path":  "device/realme/coffee",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_realme_coffee-kernel",
+        "target_path":  "device/realme/coffee-kernel",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-8450-new"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_oplus",
+        "target_path":  "hardware/oplus",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_agm",
+        "target_path":  "vendor/qcom/opensource/agm",
+        "revision":     "uvite-8450"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_realme",
+        "target_path":  "vendor/realme",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    }
+]

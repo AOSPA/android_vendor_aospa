@@ -22,6 +22,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bladerunner_48m/aospa_bladerunner_48m.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
+    $(LOCAL_DIR)/coffee/aospa_coffee.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
@@ -68,6 +69,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_bladerunner_48m-userdebug \
     aospa_bluejay-userdebug \
     aospa_cheetah-userdebug \
+    aospa_coffee-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
     aospa_juice-userdebug \
