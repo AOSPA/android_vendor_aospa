@@ -1,0 +1,12 @@
+//
+//  SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+//  SPDX-License-Identifier: Apache-2.0
+//
+
+aconfig_values {
+    name: "aconfig-values-ap3a-com.android.systemui.flags-all",
+    package: "com.android.systemui",
+    srcs: [
+        "*.textproto",
+    ],
+}
