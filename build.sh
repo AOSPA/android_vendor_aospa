@@ -84,6 +84,7 @@ if [ $# -eq 0 ]; then
     showHelpAndExit
 fi
 export DEVICE="$1"; shift
+export FILE_NAME_TAG=eng.nobody
 
 # Make sure we are running on 64-bit before carrying on with anything
 ARCH=$(uname -m | sed 's/x86_//;s/i[3-6]86/32/')
@@ -195,13 +196,6 @@ fi
 # Build away!
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
-
-# If we aren't in Jenkins, use the engineering tag
-if [ -z "${BUILD_NUMBER}" ]; then
-    export FILE_NAME_TAG=eng.$USER
-else
-    export FILE_NAME_TAG=$BUILD_NUMBER
-fi
 
 # Build a specific module(s)
 if [ "${MODULES}" ]; then
