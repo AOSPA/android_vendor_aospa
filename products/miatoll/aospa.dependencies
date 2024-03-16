@@ -43,6 +43,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_audio-hal_st-hal",
+        "target_path":  "vendor/qcom/opensource/audio-hal/st-hal",
+        "revision":     "uvite-855"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
         "target_path":  "vendor/nxp/opensource/halimpl",
         "revision":     "uvite-pn5xx"
