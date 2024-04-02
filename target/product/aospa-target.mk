@@ -56,15 +56,12 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
 
 # Dexpreopt
-# Don't dexpreopt prebuilts. (For GMS).
+# Don't dexpreopt prebuilts (For GMS)
 DONT_DEXPREOPT_PREBUILTS := true
 
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3QuickStep \
-    ParanoidSystemUI
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.systemuicompilerfilter=speed
+# Default filter
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := everything
 
 # Display
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
