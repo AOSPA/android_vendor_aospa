@@ -17,6 +17,6 @@
 <resources>
 
     <!-- Google Sans font overlay -->
-    <string name="font_google_sans_lato_overlay" translatable="false">Google Sans</string>
+    <string name="font_google_sans_overlay" translatable="false">Google Sans</string>
 
 </resources>

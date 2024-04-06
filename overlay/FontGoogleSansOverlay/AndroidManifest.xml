@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.theme.font.googlesanslato">
+    package="co.aospa.theme.font.googlesans">
 
     <overlay
         android:category="android.theme.customization.font"
@@ -23,7 +23,7 @@
 
     <application
         android:hasCode="false"
-        android:label="@string/font_google_sans_lato_overlay">
+        android:label="@string/font_google_sans_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="google-sans,google-sans-medium" />
