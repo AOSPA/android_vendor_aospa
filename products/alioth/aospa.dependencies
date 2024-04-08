@@ -7,6 +7,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sepolicy",
+        "target_path":  "device/xiaomi/sepolicy",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_xiaomi_sm8250",
         "target_path":  "kernel/msm-4.19",
         "revision":     "uvite"
