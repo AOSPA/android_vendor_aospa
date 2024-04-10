@@ -16,6 +16,24 @@
       "message": "Broke boot images on cupid (SM8450). After flashing an older image that was compiled from source that did not have Global ThinLTO enabled, the build booted.",
       "revId": "c74b1c613ca91980bed1176534d927e6d9932290",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e2d20a2_dec35902",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2024-04-10T05:40:01Z",
+      "side": 1,
+      "message": "thanks for letting me know rahul. Check for pstore if its there.",
+      "parentUuid": "00c5ef9e_9517c9cb",
+      "revId": "c74b1c613ca91980bed1176534d927e6d9932290",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
