@@ -141,7 +141,7 @@
         "remote":       "clo-la",
         "repository":   "platform/vendor/opensource/video-driver",
         "target_path":  "vendor/qcom/opensource/video-driver",
-        "revision":     "75b8785a49f3226158ae9115a15583b2de3a3b18"
+        "revision":     "66a651e08ae8263c1bc1244a32b4f47d738e91b4"
     },
     {
         "remote":       "clo-la",
