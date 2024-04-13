@@ -52,6 +52,24 @@
       "parentUuid": "37ade368_b7cb7f2d",
       "revId": "9df2e6437c73a469b0d8497976a289cdc2f6213a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "224f4fc3_30354c5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000895
+      },
+      "writtenOn": "2024-04-13T11:23:01Z",
+      "side": 1,
+      "message": "expired, use katbin instead",
+      "parentUuid": "ec073aaa_ba8e291b",
+      "revId": "9df2e6437c73a469b0d8497976a289cdc2f6213a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
