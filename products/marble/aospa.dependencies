@@ -14,6 +14,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sm8450-common",
+        "target_path":  "device/xiaomi/sm8450-common",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision":     "uvite-8450"
