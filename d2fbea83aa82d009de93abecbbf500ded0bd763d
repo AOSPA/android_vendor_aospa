@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9080681_4255ccdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T17:48:40Z",
+      "side": 1,
+      "message": "We don\u0027t intend to use this for delta style updates. AOSP release tooling already provides similar functionality.",
+      "revId": "d2fbea83aa82d009de93abecbbf500ded0bd763d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
