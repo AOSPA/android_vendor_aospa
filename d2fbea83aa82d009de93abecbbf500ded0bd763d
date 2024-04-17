@@ -34,6 +34,24 @@
       "parentUuid": "d9080681_4255ccdc",
       "revId": "d2fbea83aa82d009de93abecbbf500ded0bd763d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8695fe26_2d936d49",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-17T06:09:31Z",
+      "side": 1,
+      "message": "You are welcome to use this on your personal builds, of course, but we won\u0027t be integrating it in the main tree.",
+      "parentUuid": "c7f7fae2_92919111",
+      "revId": "d2fbea83aa82d009de93abecbbf500ded0bd763d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
