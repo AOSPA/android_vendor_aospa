@@ -1,0 +1,2 @@
+# Allow init to bind mount media_codecs for media swcodec
+allow init system_file:file mounton;

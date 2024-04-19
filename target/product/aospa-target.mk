@@ -125,6 +125,11 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 
+# Media
+PRODUCT_COPY_FILES += \
+    vendor/aospa/target/config/init.aospa.media.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.aospa.media.rc \
+    vendor/aospa/target/config/media_codecs.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/media_codecs.xml
+
 # Microsoft
 $(call inherit-product, vendor/aospa/prebuilt/microsoft/packages.mk)
 

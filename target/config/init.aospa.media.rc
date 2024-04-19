@@ -1,0 +1,2 @@
+on property:apexd.status=ready
+    mount none /system/system_ext/etc/media_codecs.xml /apex/com.android.media.swcodec/etc/media_codecs.xml
