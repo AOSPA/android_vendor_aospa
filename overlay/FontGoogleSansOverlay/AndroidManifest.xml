@@ -26,6 +26,6 @@
         android:label="@string/font_google_sans_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="google-sans,google-sans-medium" />
+            android:value="google-sans-text,google-sans-text-medium,google-sans,google-sans-medium" />
     </application>
 </manifest>
