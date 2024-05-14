@@ -23,6 +23,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
+    $(LOCAL_DIR)/fuxi/aospa_fuxi.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lahaina/aospa_lahaina.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
@@ -34,6 +35,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/miatoll/aospa_miatoll.mk \
     $(LOCAL_DIR)/mini5g/aospa_mini5g.mk \
     $(LOCAL_DIR)/munch/aospa_munch.mk \
+    $(LOCAL_DIR)/nuwa/aospa_nuwa.mk \
     $(LOCAL_DIR)/oneplus5/aospa_oneplus5.mk \
     $(LOCAL_DIR)/oneplus5t/aospa_oneplus5t.mk \
     $(LOCAL_DIR)/oneplus7/aospa_oneplus7.mk \
@@ -55,8 +57,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/spes/aospa_spes.mk \
     $(LOCAL_DIR)/sunny/aospa_sunny.mk \
     $(LOCAL_DIR)/surya/aospa_surya.mk \
-    $(LOCAL_DIR)/vayu/aospa_vayu.mk \
-    $(LOCAL_DIR)/xiaomi13/aospa_xiaomi13.mk
+    $(LOCAL_DIR)/vayu/aospa_vayu.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -69,6 +70,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_cheetah-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
+    aospa_fuxi-userdebug \
     aospa_juice-userdebug \
     aospa_lahaina-userdebug \
     aospa_lisa-userdebug \
@@ -80,6 +82,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_miatoll-userdebug \
     aospa_mini5g-userdebug \
     aospa_munch-userdebug \
+    aospa_nuwa-userdebug \
     aospa_oneplus5-userdebug \
     aospa_oneplus5t-userdebug \
     aospa_oneplus7-userdebug \
@@ -101,5 +104,4 @@ COMMON_LUNCH_CHOICES += \
     aospa_spes-userdebug \
     aospa_sunny-userdebug \
     aospa_surya-userdebug \
-    aospa_vayu-userdebug \
-    aospa_xiaomi13-userdebug
+    aospa_vayu-userdebug

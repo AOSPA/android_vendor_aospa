@@ -1,14 +1,21 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_xiaomi13",
-        "target_path":  "device/xiaomi/xiaomi13",
+        "repository":   "AOSPA/android_device_xiaomi_nuwa",
+        "target_path":  "device/xiaomi/nuwa",
         "revision":     "uvite"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_xiaomi13-kernel",
-        "target_path":  "device/xiaomi/xiaomi13-kernel",
+        "repository":   "AOSPA/android_device_xiaomi_nuwa-kernel",
+        "target_path":  "device/xiaomi/nuwa-kernel",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_sm8550-common",
+        "target_path":  "device/xiaomi/sm8550-common",
         "revision":     "uvite"
     },
     {
@@ -64,7 +71,7 @@
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
-        "revision":     "uvite-xiaomi13",
+        "revision":     "uvite-sm8550",
         "clone-depth":  "1"
     }
 ]
