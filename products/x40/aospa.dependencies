@@ -1,0 +1,57 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "aospa-x40/android_device_motorola_x40",
+        "target_path":  "device/motorola/x40",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "aospa-x40/android_device_motorola_x40-kernel",
+        "target_path":  "device/motorola/x40-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_motorola",
+        "target_path":  "hardware/motorola",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-8550"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    }
+]
