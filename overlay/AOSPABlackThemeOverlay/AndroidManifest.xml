@@ -19,7 +19,7 @@
     package="com.android.system.theme.black">
 
     <overlay
-        android:category="android.theme.customization.theme_style"
+        android:category="android.theme.customization.system_palette"
         android:priority="2"
         android:targetPackage="android" />
 
