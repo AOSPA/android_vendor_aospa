@@ -6,3 +6,7 @@ prebuilt/
 
 # AOSPA translations
 translations/
+
+# SIGNATURES
+private-signatures/
+signatures/
