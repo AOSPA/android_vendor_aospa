@@ -71,7 +71,7 @@
         "remote":       "blobs-gitlab",
         "repository":   "proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
-        "revision":     "uvite-sm8550",
+        "revision":     "uvite-sm8550-leica",
         "clone-depth":  "1"
     }
 ]
