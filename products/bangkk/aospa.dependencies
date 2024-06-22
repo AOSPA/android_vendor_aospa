@@ -1,0 +1,62 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_device_motorola_bangkk",
+        "target_path":  "device/motorola/bangkk",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_device_motorola_bangkk-kernel",
+        "target_path":  "device/motorola/bangkk-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-legacy-component"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-888"
+    },
+    {
+        "remote":       "github",
+        "repository":   "gotenksIN/android_prebuilts_extract-utils",
+        "target_path":  "prebuilts/extract-utils",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "gotenksIN/android_tools_extract-utils"
+        "target_path":  "tools/extract-utils",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "moto-common/platform_vendor_egistec_interfaces",
+        "target_path":  "vendor/egistec/interfaces",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPAnda/android_vendor_motorola_bangkk",
+        "target_path":  "vendor/motorola/bangkk",
+        "revision":     "uvite"
+    }
+]
