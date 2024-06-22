@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../../platforms/holi.xml" />
+
+  <project path="build/make" name="AOSPAnda/android_build" remote="github" revision="uvite">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="AOSPAnda/android_build_soong" remote="github" revision="uvite">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/motorola/bangkk" name="AOSPAnda/android_device_motorola_bangkk" remote="github" revision="uvite" />
+  <project path="device/motorola/bangkk-kernel" name="AOSPAnda/android_device_motorola_bangkk-kernel" remote="github" revision="uvite" />
+  <project path="device/qcom/common" name="AOSPAnda/android_device_qcom_common" remote="github" revision="uvite">
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
+  </project>
+  <project path="hardware/qcom/bootctrl" name="AOSPAnda/android_hardware_qcom_bootctrl" remote="github" revision="uvite" />
+  <project path="prebuilts/extract-tools" name="gotenksIN/android_prebuilts_extract-tools" remote="github" revision="uvite" />
+  <project path="tools/extract-utils" name="gotenksIN/android_tools_extract-utils" remote="github" revision="uvite" />
+  <project path="vendor/egistec/interfaces" name="moto-common/platform_vendor_egistec_interfaces" remote="github" revision="master" />
+  <project path="vendor/motorola/bangkk" name="AOSPAnda/android_vendor_motorola_bangkk" remote="github" revision="uvite" />
+  <project path="vendor/qcom/common" name="AOSPAnda/proprietary_vendor_qcom_common" remote="github" revision="uvite" />
+  <project path="vendor/qcom/opensource/recovery-ext" name="AOSPAnda/android_vendor_qcom_opensource_recovery-ext" remote="github" revision="uvite" />
+</manifest>
