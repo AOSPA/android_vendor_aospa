@@ -56,6 +56,13 @@
         "revision":     "uvite-8450"
     },
     {
+        "remote":       "blobs-gitlab",
+        "repository":   "proprietary_vendor_nothing_camera",
+        "target_path":  "vendor/nothing/camera",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_packages_apps_ParanoidGlyph",
         "target_path":  "packages/apps/ParanoidGlyph",
