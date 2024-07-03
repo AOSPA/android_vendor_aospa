@@ -16,6 +16,23 @@
       "message": "juice partially ready, for now need push new kernel.",
       "revId": "2c4df1831dda25d3b89a00d45baf3ef808f5a7d5",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d85e20c7_31bbfea1",
+        "filename": "products/juice/aospa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-07-03T08:50:17Z",
+      "side": 1,
+      "message": "why?\naosp already ships 17\n17.0.4\nbased on r498229b",
+      "revId": "2c4df1831dda25d3b89a00d45baf3ef808f5a7d5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
