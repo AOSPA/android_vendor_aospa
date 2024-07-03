@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "716ead46_c6725ced",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000825
+      },
+      "writtenOn": "2024-07-03T08:31:01Z",
+      "side": 1,
+      "message": "juice partially ready, for now need push new kernel.",
+      "revId": "2c4df1831dda25d3b89a00d45baf3ef808f5a7d5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
