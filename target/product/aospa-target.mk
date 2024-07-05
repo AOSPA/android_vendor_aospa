@@ -12,16 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ifneq ($(TARGET_IS_AUTOMOTIVE), true)
 # Enable support for APEX updates
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+endif
 
 # Enable allowlist for some aosp packages that should not be scanned in a "stopped" state
 # Some CTS test case failed after enabling feature config_stopSystemPackagesByDefault
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
+ifneq ($(TARGET_IS_AUTOMOTIVE), true)
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
+endif
 
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
@@ -92,11 +96,14 @@ $(call inherit-product, external/google-fonts/lato/fonts.mk)
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
+ifneq ($(TARGET_IS_AUTOMOTIVE), true)
+$(warning "Enabling GMS.")
 # Google - GMS, Pixel, and Mainline Modules
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 ifneq ($(TARGET_EXCLUDE_GMODULES), true)
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
+endif
 endif
 
 # HIDL
@@ -146,6 +153,7 @@ $(call inherit-product, vendor/aospa/overlay/overlays.mk)
 # Overlays (Translations)
 $(call inherit-product-if-exists, vendor/aospa/translations/translations.mk)
 
+ifneq ($(TARGET_IS_AUTOMOTIVE), true)
 # Paranoid Packages
 PRODUCT_PACKAGES += \
     ParanoidPapers \
@@ -162,6 +170,7 @@ PRODUCT_COPY_FILES += \
 # Enable Sense service for 64-bit only
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.face.sense_service=$(TARGET_SUPPORTS_64_BIT_APPS)
+endif
 
 # Permissions
 PRODUCT_COPY_FILES += \

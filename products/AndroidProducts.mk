@@ -49,6 +49,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/panther/aospa_panther.mk \
     $(LOCAL_DIR)/pdx234/aospa_pdx234.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
+    $(LOCAL_DIR)/phoenix/aospa_phoenix_car.mk \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \
     $(LOCAL_DIR)/phone2/aospa_phone2.mk \
     $(LOCAL_DIR)/porsche/aospa_porsche.mk \
