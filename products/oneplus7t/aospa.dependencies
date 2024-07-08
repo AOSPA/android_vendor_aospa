@@ -38,13 +38,6 @@
         "clone-depth":  "1"
     },
     {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_oneplus_firmware",
-        "target_path":  "vendor/oneplus/firmware",
-        "revision":     "topaz",
-        "clone-depth":  "1"
-    },
-    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
