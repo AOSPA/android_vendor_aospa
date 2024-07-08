@@ -53,12 +53,5 @@
         "repository":   "AOSPA/android_vendor_qcom-opensource_usb",
         "target_path":  "vendor/qcom/opensource/usb",
         "revision":     "topaz-taro-backup"
-    },
-    {
-        "remote":       "blobs-gitlab",
-        "repository":   "android_prebuilts_clang-standalone",
-        "target_path":  "prebuilts/clang-standalone",
-        "revision":     "17",
-        "clone-depth":  "1"
     }
 ]
