@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39b036a3_3c85ffe4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000845
+      },
+      "writtenOn": "2024-07-17T16:51:19Z",
+      "side": 1,
+      "message": "Common-tree: https://github.com/rk134/android_device_xiaomi_sm8450-common/tree/uvite\nDevice-tree: https://github.com/rk134/android_device_xiaomi_sm8450-common/tree/cupid\nKernel-tree: https://github.com/rk134/android_device_xiaomi_sm8450-common/tree/cupid-kernel\nvendor-tree: https://github.com/aospa-cupid/proprietary_vendor_xiaomi",
+      "revId": "1fd98e9bd7890fb1479e880b7df9d510db443872",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
