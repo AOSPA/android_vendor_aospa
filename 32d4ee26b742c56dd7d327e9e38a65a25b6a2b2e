@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b6c2afe_bcaaf648",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-07-25T06:13:17Z",
+      "side": 1,
+      "message": "https://github.com/gotenksIN/android_vendor_google_pixel/commit/7d6a68b56b3b515b748279dced8b93e11c372715",
+      "revId": "32d4ee26b742c56dd7d327e9e38a65a25b6a2b2e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
