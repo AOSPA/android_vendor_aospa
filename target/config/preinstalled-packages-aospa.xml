@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- System packages to preinstall on AOSPA, per user type.
+     Documentation at frameworks/base/data/etc/preinstalled-packages-platform.xml
+-->
+<config>
+    <!--  Abstruct  -->
+    <install-in-user-type package="com.hampusolsson.abstruct">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!--  GcamGO  -->
+    <install-in-user-type package="com.google.android.apps.cameralite">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!--  LinkToWindows  -->
+    <install-in-user-type package="com.microsoft.appmanager">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!--  Nothing Camera  -->
+    <install-in-user-type package="com.nothing.camera">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!--  Xiaomi Camera  -->
+    <install-in-user-type package="com.android.camera">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+</config>
