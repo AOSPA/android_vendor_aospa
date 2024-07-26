@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "shelby-stuffs/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "uvite-bengal-5.15"
+    },
+    {
+        "remote":       "github",
+        "repository":   "shelby-stuffs/android_vendor_qcom_opensource_arpal-lx",
+        "target_path":  "vendor/qcom/opensource/pal",
+        "revision":     "uvite-bengal-5.15"
+    },
+    {
+        "remote":       "github",
+        "repository":   "shelby-stuffs/android_vendor_qcom_opensource_agm",
+        "target_path":  "vendor/qcom/opensource/agm",
+        "revision":     "uvite-bengal-5.15"
+    },
+    {
+        "remote":       "github",
+        "repository":   "shelby-stuffs/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "uvite-bengal-5.15"
+    },
+    {
+        "remote":       "github",
+        "repository":   "shelby-stuffs/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "uvite-bengal-5.15"
+    },
+    {
+        "remote":       "github",
+        "repository":   "shelby-stuffs/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "uvite-bengal-5.15"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "uvite"
+    }
+]
