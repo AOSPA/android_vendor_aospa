@@ -22,6 +22,9 @@
         drawable="@array/grayscale_clock_icons"
         package="com.google.android.deskclock" />
     <icon
+        drawable="@drawable/themed_icon_abstruct"
+        package="com.hampusolsson.abstruct" />
+    <icon
         drawable="@drawable/themed_icon_accubattery"
         package="com.digibites.accubattery" />
     <icon
