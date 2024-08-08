@@ -9,3 +9,6 @@
 
 # Health HAL
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.default     u:object_r:hal_lineage_health_default_exec:s0
+
+# Widevine
+/(vendor|system/vendor)/bin/wvmkiller                                       u:object_r:vendor_wvmkiller_exec:s0

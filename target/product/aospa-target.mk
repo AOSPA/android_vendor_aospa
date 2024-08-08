@@ -47,6 +47,10 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Widevine
+PRODUCT_PACKAGES += \
+    wvmkiller
+
 # curl
 PRODUCT_PACKAGES += \
     curl
