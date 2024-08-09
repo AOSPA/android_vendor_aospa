@@ -7,13 +7,6 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_nuwa-kernel",
-        "target_path":  "device/xiaomi/nuwa-kernel",
-        "revision":     "uvite",
-        "clone-depth":  "1"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_device_xiaomi_sm8550-common",
         "target_path":  "device/xiaomi/sm8550-common",
         "revision":     "uvite"
@@ -73,5 +66,341 @@
         "target_path":  "vendor/xiaomi/camera",
         "revision":     "uvite-sm8550-leica",
         "clone-depth":  "1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/kernel_platform_common",
+        "target_path":  "kernel_platform/common",
+        "revision":     "uvite",
+        "linkfiles": [
+            {"src": ".", "dest": ".source_date_epoch_dir"}
+        ]
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/kernel_platform_msm-kernel",
+        "target_path":  "kernel_platform/msm-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_devicetree",
+        "target_path":  "kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_audio-devicetree",
+        "target_path":  "vendor/qcom/proprietary/audio-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_bt-devicetree",
+        "target_path":  "vendor/qcom/proprietary/bt-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_camera-devicetree",
+        "target_path":  "vendor/qcom/proprietary/camera-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_data-devicetree",
+        "target_path":  "vendor/qcom/proprietary/data-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_display-devicetree",
+        "target_path":  "vendor/qcom/proprietary/display-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_eSE-devicetree",
+        "target_path":  "vendor/qcom/proprietary/ese-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_eva-devicetree",
+        "target_path":  "vendor/qcom/proprietary/eva-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_graphics-devicetree",
+        "target_path":  "vendor/qcom/proprietary/graphics-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_mm-devicetree",
+        "target_path":  "vendor/qcom/proprietary/mm-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_mmrm-devicetree",
+        "target_path":  "vendor/qcom/proprietary/mmrm-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_video-devicetree",
+        "target_path":  "vendor/qcom/proprietary/video-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_proprietary_wlan-devicetree",
+        "target_path":  "vendor/qcom/proprietary/wlan-devicetree",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/nxp/opensource/driver",
+        "target_path":  "vendor/nxp/opensource/driver",
+        "revision":     "0fa6e331b8d5b0360eec46ee014a46543bb17c1a"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_opensource_nfc-st-driver",
+        "target_path":  "vendor/st/opensource/driver",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_opensource_audio-kernel-ar",
+        "target_path":  "vendor/qcom/opensource/audio-kernel",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/bt-kernel",
+        "target_path":  "vendor/qcom/opensource/bt-kernel",
+        "revision":     "8c53ad7d717c02f5adee072376ec737475a7be57"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_opensource_camera-kernel",
+        "target_path":  "vendor/qcom/opensource/camera-kernel",
+        "revision":     "uvite-fuxi"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/data-ipa-cfg-mgr",
+        "target_path":  "vendor/qcom/opensource/data-ipa-cfg-mgr",
+        "revision":     "e23c2ed81939f918da85c22922355733ddbce299"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/dataipa",
+        "target_path":  "vendor/qcom/opensource/dataipa",
+        "revision":     "c195420d026615311884076feef7b1e0d219c2a6"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom/opensource/datarmnet",
+        "target_path":  "vendor/qcom/opensource/datarmnet",
+        "revision":     "67432597b0101b6a9a39e36f11dec3a53717b018"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom/opensource/datarmnet-ext",
+        "target_path":  "vendor/qcom/opensource/datarmnet-ext",
+        "revision":     "90cb701257cc3c6dc983a339088b4ae549c8ad4b"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_opensource_display-drivers",
+        "target_path":  "vendor/qcom/opensource/display-drivers",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/eva-kernel",
+        "target_path":  "vendor/qcom/opensource/eva-kernel",
+        "revision":     "08b40bf987c0e6fab3afceb23177f56fb43c6ebe"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom/opensource/graphics-kernel",
+        "target_path":  "vendor/qcom/opensource/graphics-kernel",
+        "revision":     "1756da63eb3c173ff5c764faf13d9d7ffaa116df"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/mm-drivers",
+        "target_path":  "vendor/qcom/opensource/mm-driver",
+        "revision":     "d6609fc7a26f01fd8579309e24bb10b72243a150"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/mmrm-driver",
+        "target_path":  "vendor/qcom/opensource/mmrm-driver",
+        "revision":     "307f2bdaba6ecbaca8316bd4b585c997a19648c6"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/opensource/mmrm-driver-test",
+        "target_path":  "vendor/qcom/opensource/mmrm-driver/test",
+        "revision":     "e6e34bf83681bad071d05ef6baf8d8db2f7edd7d"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom/opensource/securemsm-kernel",
+        "target_path":  "vendor/qcom/opensource/securemsm-kernel",
+        "revision":     "7ba93afad258ea932e6e2ff72108e44d53da9d89"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_opensource_touch-drivers",
+        "target_path":  "vendor/qcom/opensource/touch-drivers",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/vendor_qcom_opensource_video-driver",
+        "target_path":  "vendor/qcom/opensource/video-driver",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/fw-api",
+        "target_path":  "vendor/qcom/opensource/wlan/fw-api",
+        "revision":     "451f456799216a6332a7b3b71e5bec25e6bef8c8"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/platform",
+        "target_path":  "vendor/qcom/opensource/wlan/platform",
+        "revision":     "ee24eb10ff4f0e7940d3d8997c0de70c70e3da3a"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn",
+        "target_path":  "vendor/qcom/opensource/wlan/qca-wifi-host-cmn",
+        "revision":     "a07f68f35fcbb119382f90656f7e30824d6440e2"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "platform/vendor/qcom-opensource/wlan/qcacld-3.0",
+        "target_path":  "vendor/qcom/opensource/wlan/qcacld-3.0",
+        "revision":     "b1211c9431bc275ef0f5919af6163eeabf52fb4f"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "abl/tianocore/edk2",
+        "target_path":  "kernel_platform/bootable/bootloader/edk2",
+        "revision":     "9120cf33afbb3c498013cf9c67516e6cc0576e63"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "xiaomi-8550-kernel/kernel_platform_build",
+        "target_path":  "kernel_platform/build/kernel",
+        "revision":     "uvite",
+        "linkfiles": [
+            {"src": "build.sh", "dest": "kernel_platform/build/build.sh"},
+            {"src": "build_abi.sh", "dest": "kernel_platform/build/build_abi.sh"},
+            {"src": "build_test.sh", "dest": "kernel_platform/build/build_test.sh"},
+            {"src": "build_utils.sh", "dest": "kernel_platform/build/build_utils.sh"},
+            {"src": "build_abl.sh", "dest": "kernel_platform/build/build_abl.sh"},
+            {"src": "build_module.sh", "dest": "kernel_platform/build/build_module.sh"},
+            {"src": "all-variants.sh", "dest": "kernel_platform/build/all-variants.sh"},
+            {"src": "brunch", "dest": "kernel_platform/build/brunch"},
+            {"src": "_wrapper_common.sh", "dest": "kernel_platform/build/_wrapper_common.sh"},
+            {"src": "android", "dest": "kernel_platform/build/android"},
+            {"src": "build-tools/path", "dest": "kernel_platform/build/build-tools/path"},
+            {"src": "config.sh", "dest": "kernel_platform/build/config.sh"},
+            {"src": "envsetup.sh", "dest": "kernel_platform/build/envsetup.sh"},
+            {"src": "_setup_env.sh", "dest": "kernel_platform/build/_setup_env.sh"},
+            {"src": "multi-switcher.sh", "dest": "kernel_platform/build/multi-switcher.sh"},
+            {"src": "kleaf/bazel.sh", "dest": "kernel_platform/tools/bazel"},
+            {"src": "kleaf/bazel.WORKSPACE", "dest": "kernel_platform/WORKSPACE"},
+            {"src": "abi", "dest": "kernel_platform/build/abi"},
+            {"src": "static_analysis", "dest": "kernel_platform/build/static_analysis"}
+        ]
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel/prebuilts/build-tools",
+        "target_path":  "kernel_platform/prebuilts/kernel-build-tools",
+        "revision":     "a27755ba41db8a1487c7d2ac7d0da22ec5e593c7"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/build/bazel_common_rules",
+        "target_path":  "kernel_platform/build/bazel_common_rules",
+        "revision":     "2158c0cec82374e92e9599e3a8fd9ec5c10ba7ad"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/external/bazel-skylib",
+        "target_path":  "kernel_platform/external/bazel-skylib",
+        "revision":     "8908ad2471f44bf192a869189c35fb74ff8aa307"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/external/dtc",
+        "target_path":  "kernel_platform/external/dtc",
+        "revision":     "7d93a906f90ff0613866b167871a5bbba47ed320"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/external/python/absl-py",
+        "target_path":  "kernel_platform/external/python/absl-py",
+        "revision":     "2e47753264acc4dfb16031e1156201dc5498ef65"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/external/stardoc",
+        "target_path":  "kernel_platform/external/stardoc",
+        "revision":     "d8a0631cb67f57ab54c7939e9c052bca8a78fc2a"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/prebuilts/bazel/linux-x86_64",
+        "target_path":  "kernel_platform/prebuilts/bazel/linux-x86_64",
+        "revision":     "c0955edda06e82a14b37a23b68d0811d7cd16bb8"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/prebuilts/build-tools",
+        "target_path":  "kernel_platform/prebuilts/build-tools",
+        "revision":     "fe528f8d0a32bde2ae487801cbab4e05de91f218"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/prebuilts/jdk/jdk11",
+        "target_path":  "kernel_platform/prebuilts/jdk/jdk11",
+        "revision":     "30b304c89fb78d9d77ed2c016df44acea2232363"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/system/tools/mkbootimg",
+        "target_path":  "kernel_platform/tools/mkbootimg",
+        "revision":     "db9f3716c72d7612fc507b89d1fc3876f061350e"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernel_platform/toolchain/prebuilts/ndk/r23",
+        "target_path":  "kernel_platform/prebuilts/ndk-r23",
+        "revision":     "93532f3052c14fbb337ff57d5732128dc7481ee6"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernelplatform/prebuilts-master/clang/host/linux-x86",
+        "target_path":  "kernel_platform/prebuilts/clang/host/linux-x86",
+        "revision":     "c420e3ab93e51a2f2ab4f8e8b517463c34a7e8bd"
+    },
+    {
+        "remote":       "clo-la",
+        "repository":   "kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8",
+        "target_path":  "kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8",
+        "revision":     "58f2f7c11b5309aa4d15079b398852670b5baf7b"
     }
 ]
