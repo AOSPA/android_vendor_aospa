@@ -118,6 +118,7 @@ if __name__ == '__main__':
         remote = dependency.get('remote')
         revision = dependency.get('revision')
         clone_depth = dependency.get('clone-depth')
+        linkfiles = dependency.get('linkfiles', [])
 
         # Store path of every repositories mentioned in dependencies.
         mentioned_projects.append(path)
@@ -162,6 +163,18 @@ if __name__ == '__main__':
                         modified_project = True
                         project.set('name', name)
                         msg += f'--> Repository  : Updated {project.get("name")} to {name}\n'
+
+                    existing_linkfiles = project.findall('linkfile')
+                    for linkfile in existing_linkfiles:
+                        project.remove(linkfile)
+
+                    for linkfile in linkfiles:
+                        modified_project = True
+                        new_linkfile = ET.SubElement(project, 'linkfile')
+                        new_linkfile.set('src', linkfile['src'])
+                        new_linkfile.set('dest', linkfile['dest'])
+                        msg += f"--> Linkfile    : Added {linkfile['src']} -> {linkfile['dest']}\n"
+
                     if modified_project:
                         print(f'{name} changed:\n{msg}\n')
 
@@ -185,11 +198,17 @@ if __name__ == '__main__':
                 attributes['clone-depth'] = clone_depth
                 print(f'--> Clone depth : {clone_depth}')
 
+            new_project = ET.Element('project', attrib=attributes)
+
+            for linkfile in linkfiles:
+                new_linkfile = ET.SubElement(new_project, 'linkfile')
+                new_linkfile.set('src', linkfile['src'])
+                new_linkfile.set('dest', linkfile['dest'])
+                print(f"--> Linkfile    : {linkfile['src']} -> {linkfile['dest']}")
+
             print('\n')
 
-            roomservice_manifest.append(
-                ET.Element('project', attrib=attributes)
-            )
+            roomservice_manifest.append(new_project)
 
         # In case the project also exists in the main manifest, instruct Repo to ignore that one.
         for project in upstream_manifest.findall('project'):
