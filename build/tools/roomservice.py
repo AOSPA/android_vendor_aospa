@@ -34,7 +34,8 @@ def indent(elem):
     """Return a pretty-printed XML string for the Element."""
     rough_string = ET.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent="  ", encoding='utf-8').decode()
+    pretty_str = reparsed.toprettyxml(indent="  ", encoding='utf-8').decode()
+    return '\n'.join(filter(str.strip, pretty_str.splitlines()))
 
 def recurse_include(manifest):
     includes = manifest.findall('include')
@@ -118,6 +119,7 @@ if __name__ == '__main__':
         remote = dependency.get('remote')
         revision = dependency.get('revision')
         clone_depth = dependency.get('clone-depth')
+        linkfiles = dependency.get('linkfiles', [])
 
         # Store path of every repositories mentioned in dependencies.
         mentioned_projects.append(path)
@@ -162,8 +164,19 @@ if __name__ == '__main__':
                         modified_project = True
                         project.set('name', name)
                         msg += f'--> Repository  : Updated {project.get("name")} to {name}\n'
+
+                    new_linkfiles = {(lf['src'], lf['dest']) for lf in linkfiles}
+                    prev_linkfiles = {(lf.get('src'), lf.get('dest')) for lf in project.findall('linkfile')}
+                    if new_linkfiles != prev_linkfiles:
+                        modified_project = True
+                        for lf in project.findall('linkfile'):
+                            project.remove(lf)
+                        for src, dest in new_linkfiles:
+                            ET.SubElement(project, 'linkfile', {'src': src, 'dest': dest})
+                        msg += f'--> Linkfiles   : Updated\n'
+
                     if modified_project:
-                        print(f'{name} changed:\n{msg}\n')
+                        print(f'\n{name} changed:\n{msg}')
 
         # In case the project was not already added, create it.
         if not found_in_roomservice:
@@ -185,11 +198,15 @@ if __name__ == '__main__':
                 attributes['clone-depth'] = clone_depth
                 print(f'--> Clone depth : {clone_depth}')
 
+            new_project = ET.Element('project', attrib=attributes)
+
+            for linkfile in linkfiles:
+                ET.SubElement(new_project, 'linkfile', {'src': linkfile['src'], 'dest': linkfile['dest']})
+                print(f"--> Linkfile    : {linkfile['src']} -> {linkfile['dest']}")
+
             print('\n')
 
-            roomservice_manifest.append(
-                ET.Element('project', attrib=attributes)
-            )
+            roomservice_manifest.append(new_project)
 
         # In case the project also exists in the main manifest, instruct Repo to ignore that one.
         for project in upstream_manifest.findall('project'):
