@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Build Broken
+BUILD_BROKEN_DUP_RULES := true
+
 # Dex2oat
 ifeq ($(TARGET_CPU_VARIANT),cortex-a510)
     DEX2OAT_TARGET_CPU_VARIANT := cortex-a76
