@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Disable EAP Proxy because it depends on proprietary headers
-# and breaks WPA Supplicant compilation.
-DISABLE_EAP_PROXY := true
-
 # Dex2oat
 ifeq ($(TARGET_CPU_VARIANT),cortex-a510)
     DEX2OAT_TARGET_CPU_VARIANT := cortex-a76
