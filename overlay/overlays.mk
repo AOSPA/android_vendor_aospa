@@ -55,6 +55,11 @@ PRODUCT_PACKAGES += \
     IconPackFilledSettingsOverlay \
     IconPackFilledSystemUIOverlay \
     IconPackFilledThemePickerOverlay \
+    IconPackNostalgicAndroidOverlay \
+    IconPackNostalgicLauncherOverlay \
+    IconPackNostalgicSettingsOverlay \
+    IconPackNostalgicSystemUIOverlay \
+    IconPackNostalgicThemePickerOverlay \
     IconPackRoundedAndroidOverlay \
     IconPackRoundedLauncherOverlay \
     IconPackRoundedSettingsOverlay \
