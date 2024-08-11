@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ef8a9a9_f7af7e75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000910
+      },
+      "writtenOn": "2024-08-11T04:21:15Z",
+      "side": 1,
+      "message": "Device tree : https://github.com/aospa-x3pro/android_device_xiaomi_vayu\nVendor tree : https://github.com/aospa-x3pro/proprietary_vendor_xiaomi\nKernel tree : https://github.com/aospa-x3pro/kernel_msm-4.14",
+      "revId": "0a04a7e4edaf73fc2d4f979b8feb8fc3fb7cb9fe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
