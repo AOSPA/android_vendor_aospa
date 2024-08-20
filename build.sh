@@ -197,6 +197,14 @@ fi
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
 
+if [ -d "$DIR_ROOT/kernel_platform/" ]; then
+    EXTRA_FLAGS=""
+    if [ "${BUILD_VARIANT}" != "user" ]; then
+        EXTRA_FLAGS='LZ4_RAMDISK_COMPRESS_ARGS="--fast" LTO="thin"'
+    fi
+    eval "${EXTRA_FLAGS}" KERNEL_VARIANT=gki RECOMPILE_KERNEL=1 ./kernel_platform/build/android/prepare_vendor.sh
+fi
+
 # Build a specific module(s)
 if [ "${MODULES}" ]; then
     m ${MODULES[@]} "$CMD"
@@ -277,6 +285,15 @@ else
     cp -f $OUT/aospa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION.zip
     echo "Package Complete: $OUT/aospa-$AOSPA_VERSION.zip"
 fi
+
+if [ -d "$DIR_ROOT/kernel_platform/" ]; then
+    if [ -d "${ANDROID_KERNEL_OUT}" ]; then
+        rm -r "${ANDROID_KERNEL_OUT}"
+    elif [ -d "${ANDROID_BUILD_TOP}/device/qcom/${TARGET_BOARD_PLATFORM}-kernel" ]; then
+        rm -r "${ANDROID_BUILD_TOP}/device/qcom/${TARGET_BOARD_PLATFORM}-kernel"
+    fi
+fi
+
 echo -e ""
 
 # Check the finishing time
