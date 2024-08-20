@@ -161,6 +161,7 @@ if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Cleaning output files left from old builds${CLR_RST}"
         echo -e ""
         m clobber "$CMD"
+        [ -d "$DIR_ROOT/kernel_platform/out/" ] && rm -r "$DIR_ROOT/kernel_platform/out/"
 fi
 
 # Sync up, if asked to
@@ -183,6 +184,8 @@ echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependenc
 echo -e ""
 lunch "aospa_$DEVICE-$BUILD_TYPE"
 AOSPA_VERSION="$(get_build_var AOSPA_VERSION)"
+TARGET_KERNEL_OUT="$DIR_ROOT/$(get_build_var KERNEL_PREBUILT_DIR)"
+TARGET_KERNEL_VERSION="$(get_build_var TARGET_KERNEL_VERSION)"
 checkExit
 echo -e ""
 
@@ -196,6 +199,19 @@ fi
 # Build away!
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
+
+# Build kernel platform if it exists and the kernel version is supported
+if [ -d "$DIR_ROOT/kernel_platform/" ] && ( [ "${TARGET_KERNEL_VERSION}" = "5.10" ] || [ "${TARGET_KERNEL_VERSION}" = "5.15" ] ); then
+    EXTRA_KERNEL_FLAGS=""
+    if [ "${BUILD_VARIANT}" != "user" ]; then
+        EXTRA_KERNEL_FLAGS+=' LZ4_RAMDISK_COMPRESS_ARGS="--fast" LTO="thin"'
+    fi
+    if [ "${FLAG_CLEAN_BUILD}" = 'y' ] || [ "${FLAG_INSTALLCLEAN_BUILD}" = 'y' ]; then
+        EXTRA_KERNEL_FLAGS+=' RECOMPILE_KERNEL=1'
+        [ -d "${TARGET_KERNEL_OUT}" ] && rm -r "${TARGET_KERNEL_OUT}"
+    fi
+    eval "${EXTRA_KERNEL_FLAGS}" ANDROID_KERNEL_OUT="${TARGET_KERNEL_OUT}" KERNEL_VARIANT=gki ./kernel_platform/build/android/prepare_vendor.sh
+fi
 
 # Build a specific module(s)
 if [ "${MODULES}" ]; then
