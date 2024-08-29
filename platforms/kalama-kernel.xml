@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <project path="vendor/nxp/opensource/driver" name="platform/vendor/nxp/opensource/driver" remote="clo-la" revision="0fa6e331b8d5b0360eec46ee014a46543bb17c1a"/>
+  <project path="vendor/qcom/opensource/audio-kernel" name="platform/vendor/qcom/opensource/audio-kernel-ar" remote="clo-la" revision="a8a64a8fc6a453932444a947a4984cf17dbe1f1a"/>
+  <project path="vendor/qcom/opensource/bt-kernel" name="platform/vendor/qcom-opensource/bt-kernel" remote="clo-la" revision="8c53ad7d717c02f5adee072376ec737475a7be57"/>
+  <project path="vendor/qcom/opensource/camera-kernel" name="platform/vendor/opensource/camera-kernel" remote="clo-la" revision="f2af7720c4d1711abb084d00c60d56bc2337e25a"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" remote="clo-la" revision="e23c2ed81939f918da85c22922355733ddbce299"/>
+  <project path="vendor/qcom/opensource/dataipa" name="platform/vendor/opensource/dataipa" remote="clo-la" revision="c195420d026615311884076feef7b1e0d219c2a6"/>
+  <project path="vendor/qcom/opensource/datarmnet" name="platform/vendor/qcom/opensource/datarmnet" remote="clo-la" revision="67432597b0101b6a9a39e36f11dec3a53717b018"/>
+  <project path="vendor/qcom/opensource/datarmnet-ext" name="platform/vendor/qcom/opensource/datarmnet-ext" remote="clo-la" revision="90cb701257cc3c6dc983a339088b4ae549c8ad4b"/>
+  <project path="vendor/qcom/opensource/display-drivers" name="platform/vendor/opensource/display-drivers" remote="clo-la" revision="ef158e7a7bdbca313dcc8e303376814e0f222013"/>
+  <project path="vendor/qcom/opensource/eva-kernel" name="platform/vendor/opensource/eva-kernel" remote="clo-la" revision="08b40bf987c0e6fab3afceb23177f56fb43c6ebe"/>
+  <project path="vendor/qcom/opensource/graphics-kernel" name="platform/vendor/qcom/opensource/graphics-kernel" remote="clo-la" revision="1756da63eb3c173ff5c764faf13d9d7ffaa116df"/>
+  <project path="vendor/qcom/opensource/mm-driver" name="platform/vendor/opensource/mm-drivers" remote="clo-la" revision="d6609fc7a26f01fd8579309e24bb10b72243a150"/>
+  <project path="vendor/qcom/opensource/mmrm-driver" name="platform/vendor/opensource/mmrm-driver" remote="clo-la" revision="307f2bdaba6ecbaca8316bd4b585c997a19648c6"/>
+  <project path="vendor/qcom/opensource/mmrm-driver/test" name="platform/vendor/opensource/mmrm-driver-test" remote="clo-la" revision="e6e34bf83681bad071d05ef6baf8d8db2f7edd7d"/>
+  <project path="vendor/qcom/opensource/securemsm-kernel" name="platform/vendor/qcom/opensource/securemsm-kernel" remote="clo-la" revision="7ba93afad258ea932e6e2ff72108e44d53da9d89"/>
+  <project path="vendor/qcom/opensource/touch-drivers" name="platform/vendor/opensource/touch-drivers" remote="clo-la" revision="2b758009ae420c41da33c7e7795ee8100c2df782"/>
+  <project path="vendor/qcom/opensource/video-driver" name="platform/vendor/opensource/video-driver" remote="clo-la" revision="8c34aa151401c9741f7434b388002653835f4fbf"/>
+  <project path="vendor/qcom/opensource/wlan/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" remote="clo-la" revision="451f456799216a6332a7b3b71e5bec25e6bef8c8"/>
+  <project path="vendor/qcom/opensource/wlan/platform" name="platform/vendor/qcom-opensource/wlan/platform" remote="clo-la" revision="ee24eb10ff4f0e7940d3d8997c0de70c70e3da3a"/>
+  <project path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" remote="clo-la" revision="a07f68f35fcbb119382f90656f7e30824d6440e2"/>
+  <project path="vendor/qcom/opensource/wlan/qcacld-3.0" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" remote="clo-la" revision="b1211c9431bc275ef0f5919af6163eeabf52fb4f"/>
+  <project path="vendor/st/opensource/driver" name="platform/vendor/st/opensource/driver" remote="aospa" revision="e7d61c6256e9f86623fa79704a9e23be436d8ed7"/>
+
+  <!-- KERNEL.PLATFORM.2.0.r1-18400-kernel.0 -->
+  <project remote="clo-la" name="abl/tianocore/edk2" path="kernel_platform/bootable/bootloader/edk2" revision="e670e27ef0e588a2a6c163b1675501ca2fd57689" upstream="refs/heads/uefi.lnx.4.0.r1-rel"/>
+  <project remote="clo-la" name="kernel/build" path="kernel_platform/build/kernel" revision="8dad6c31ba11da8eb075079e79469a1a74d91fc6" upstream="refs/heads/kernel.lnx.5.15.r1-rel">
+    <linkfile dest="kernel_platform/build/build.sh" src="build.sh"/>
+    <linkfile dest="kernel_platform/build/build_abi.sh" src="build_abi.sh"/>
+    <linkfile dest="kernel_platform/build/build_test.sh" src="build_test.sh"/>
+    <linkfile dest="kernel_platform/build/build_utils.sh" src="build_utils.sh"/>
+    <linkfile dest="kernel_platform/build/build_abl.sh" src="build_abl.sh"/>
+    <linkfile dest="kernel_platform/build/build_module.sh" src="build_module.sh"/>
+    <linkfile dest="kernel_platform/build/all-variants.sh" src="all-variants.sh"/>
+    <linkfile dest="kernel_platform/build/brunch" src="brunch"/>
+    <linkfile dest="kernel_platform/build/_wrapper_common.sh" src="_wrapper_common.sh"/>
+    <linkfile dest="kernel_platform/build/android" src="android"/>
+    <linkfile dest="kernel_platform/build/build-tools/path" src="build-tools/path"/>
+    <linkfile dest="kernel_platform/build/config.sh" src="config.sh"/>
+    <linkfile dest="kernel_platform/build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="kernel_platform/build/_setup_env.sh" src="_setup_env.sh"/>
+    <linkfile dest="kernel_platform/build/multi-switcher.sh" src="multi-switcher.sh"/>
+    <linkfile dest="kernel_platform/tools/bazel" src="kleaf/bazel.sh"/>
+    <linkfile dest="kernel_platform/WORKSPACE" src="kleaf/bazel.WORKSPACE"/>
+    <linkfile dest="kernel_platform/build/abi" src="abi"/>
+    <linkfile dest="kernel_platform/build/static_analysis" src="static_analysis"/>
+  </project>
+  <project remote="clo-la" name="kernel/common" path="kernel_platform/common" revision="9d4d98498ddf76c33488829db9cf620d7a0d6edb" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel" groups="qki">
+    <linkfile dest=".source_date_epoch_dir" src="."/>
+  </project>
+  <project remote="clo-la" name="kernel/msm-5.15" path="kernel_platform/msm-kernel" revision="7b8cea863cee3517d856f297e2b7ce7ff4c98959" upstream="refs/heads/kernel.lnx.5.15.r1-rel"/>
+  <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="a27755ba41db8a1487c7d2ac7d0da22ec5e593c7" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="2158c0cec82374e92e9599e3a8fd9ec5c10ba7ad" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" revision="8908ad2471f44bf192a869189c35fb74ff8aa307" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/external/dtc" path="kernel_platform/external/dtc" revision="7d93a906f90ff0613866b167871a5bbba47ed320" upstream="refs/heads/kernel.build.lnx.1.0.r2-rel"/>
+  <project remote="clo-la" name="kernel_platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="2e47753264acc4dfb16031e1156201dc5498ef65" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/external/stardoc" path="kernel_platform/external/stardoc" revision="d8a0631cb67f57ab54c7939e9c052bca8a78fc2a" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/bazel/linux-x86_64" path="kernel_platform/prebuilts/bazel/linux-x86_64" revision="c0955edda06e82a14b37a23b68d0811d7cd16bb8" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="fe528f8d0a32bde2ae487801cbab4e05de91f218" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="30b304c89fb78d9d77ed2c016df44acea2232363" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="db9f3716c72d7612fc507b89d1fc3876f061350e" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r23" path="kernel_platform/prebuilts/ndk-r23" revision="93532f3052c14fbb337ff57d5732128dc7481ee6" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="c420e3ab93e51a2f2ab4f8e8b517463c34a7e8bd" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+  <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="58f2f7c11b5309aa4d15079b398852670b5baf7b" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel"/>
+</manifest>
