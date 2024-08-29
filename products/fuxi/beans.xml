@@ -5,12 +5,60 @@
 -->
 <manifest>
   <include name="../../platforms/kalama.xml"/>
+  <include name="../../platforms/kalama-kernel.xml"/>
 
   <project path="device/xiaomi/fuxi" name="AOSPA/android_device_xiaomi_fuxi" remote="aospa" revision="uvite"/>
-  <project path="device/xiaomi/fuxi-kernel" name="AOSPA/android_device_xiaomi_fuxi-kernel" remote="aospa" revision="uvite"/>
   <project path="device/xiaomi/sm8550-common" name="AOSPA/android_device_xiaomi_sm8550-common" remote="aospa" revision="uvite"/>
   <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="uvite"/>
   <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="uvite"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" clone-depth="1"/>
   <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="uvite-sm8550-leica" clone-depth="1"/>
+
+  <project path="kernel_platform/msm-kernel" name="AOSPA/kernel_platform_msm-kernel" remote="aospa" revision="uvite"/>
+  <project path="kernel_platform/common" name="AOSPA/kernel_platform_common" remote="aospa" revision="uvite">
+    <linkfile src="." dest=".source_date_epoch_dir"/>
+  </project>
+
+  <project path="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" name="AOSPA/vendor_qcom_proprietary_devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/audio-devicetree" name="AOSPA/vendor_qcom_proprietary_audio-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/bt-devicetree" name="AOSPA/vendor_qcom_proprietary_bt-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/camera-devicetree" name="AOSPA/vendor_qcom_proprietary_camera-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/data-devicetree" name="AOSPA/vendor_qcom_proprietary_data-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/display-devicetree" name="AOSPA/vendor_qcom_proprietary_display-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/ese-devicetree" name="AOSPA/vendor_qcom_proprietary_eSE-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/eva-devicetree" name="AOSPA/vendor_qcom_proprietary_eva-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/graphics-devicetree" name="AOSPA/vendor_qcom_proprietary_graphics-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/mm-devicetree" name="AOSPA/vendor_qcom_proprietary_mm-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/mmrm-devicetree" name="AOSPA/vendor_qcom_proprietary_mmrm-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/video-devicetree" name="AOSPA/vendor_qcom_proprietary_video-devicetree" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/proprietary/wlan-devicetree" name="AOSPA/vendor_qcom_proprietary_wlan-devicetree" remote="aospa" revision="uvite"/>
+
+  <project path="vendor/qcom/opensource/audio-kernel" name="AOSPA/vendor_qcom_opensource_audio-kernel-ar" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/opensource/camera-kernel" name="AOSPA/vendor_qcom_opensource_camera-kernel" remote="aospa" revision="uvite-fuxi"/>
+  <project path="vendor/qcom/opensource/display-drivers" name="AOSPA/vendor_qcom_opensource_display-drivers" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/opensource/touch-drivers" name="AOSPA/vendor_qcom_opensource_touch-drivers" remote="aospa" revision="uvite"/>
+  <project path="vendor/qcom/opensource/video-driver" name="AOSPA/vendor_qcom_opensource_video-driver" remote="aospa" revision="uvite"/>
+  <project path="vendor/st/opensource/driver" name="AOSPA/vendor_qcom_opensource_nfc-st-driver" remote="aospa" revision="uvite"/>
+
+  <project path="kernel_platform/build/kernel" name="AOSPA/kernel_platform_build" remote="aospa" revision="uvite">
+    <linkfile src="kleaf/bazel.sh" dest="kernel_platform/tools/bazel"/>
+    <linkfile src="_setup_env.sh" dest="kernel_platform/build/_setup_env.sh"/>
+    <linkfile src="config.sh" dest="kernel_platform/build/config.sh"/>
+    <linkfile src="build_abi.sh" dest="kernel_platform/build/build_abi.sh"/>
+    <linkfile src="build.sh" dest="kernel_platform/build/build.sh"/>
+    <linkfile src="build_module.sh" dest="kernel_platform/build/build_module.sh"/>
+    <linkfile src="build-tools/path" dest="kernel_platform/build/build-tools/path"/>
+    <linkfile src="multi-switcher.sh" dest="kernel_platform/build/multi-switcher.sh"/>
+    <linkfile src="build_utils.sh" dest="kernel_platform/build/build_utils.sh"/>
+    <linkfile src="_wrapper_common.sh" dest="kernel_platform/build/_wrapper_common.sh"/>
+    <linkfile src="brunch" dest="kernel_platform/build/brunch"/>
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="kernel_platform/WORKSPACE"/>
+    <linkfile src="static_analysis" dest="kernel_platform/build/static_analysis"/>
+    <linkfile src="build_abl.sh" dest="kernel_platform/build/build_abl.sh"/>
+    <linkfile src="abi" dest="kernel_platform/build/abi"/>
+    <linkfile src="envsetup.sh" dest="kernel_platform/build/envsetup.sh"/>
+    <linkfile src="all-variants.sh" dest="kernel_platform/build/all-variants.sh"/>
+    <linkfile src="android" dest="kernel_platform/build/android"/>
+    <linkfile src="build_test.sh" dest="kernel_platform/build/build_test.sh"/>
+  </project>
 </manifest>
