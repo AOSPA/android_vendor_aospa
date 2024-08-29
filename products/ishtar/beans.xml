@@ -1,13 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--
-     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-FileCopyrightText: 2024-2025 Paranoid Android
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
+  <include name="../platforms/kalama-kernel.xml" />
   <include name="../platforms/kalama.xml" />
-  
+
+  <!-- Kernel Dependencies -->
+  <project path="kernel_platform/msm-kernel" name="AOSPA/android_kernel_xiaomi_sm8550" remote="aospa" revision="vauxite" />
+
+  <project path="vendor/qcom/opensource/audio-kernel" name="AOSPA/vendor_qcom_opensource_audio-kernel-ar" remote="aospa" revision="xiaomi-8550">
+    <linkfile src="audio_kernel_vendor_board.mk" dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" />
+    <linkfile src="audio_kernel_product_board.mk" dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" />
+  </project>
+  <project path="vendor/qcom/opensource/camera-kernel" name="AOSPA/vendor_qcom_opensource_camera-kernel" remote="aospa" revision="xiaomi-8550">
+    <linkfile src="board.mk" dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" />
+    <linkfile src="product.mk" dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" />
+  </project>
+  <project path="vendor/qcom/opensource/display-drivers" name="AOSPA/vendor_qcom_opensource_display-drivers" remote="aospa" revision="xiaomi-8550">
+    <linkfile src="display_driver_product.mk" dest="vendor/qcom/defs/product-defs/vendor/display_driver_product.mk" />
+    <linkfile src="display_driver_board.mk" dest="vendor/qcom/defs/board-defs/vendor/display_driver_board.mk" />
+  </project>
+  <project path="vendor/qcom/opensource/touch-drivers" name="AOSPA/vendor_qcom_opensource_touch-drivers" remote="aospa" revision="xiaomi-8550">
+    <linkfile src="touch_driver_board.mk" dest="vendor/qcom/defs/board-defs/vendor/touch_driver_board.mk" />
+    <linkfile src="touch_driver_product.mk" dest="vendor/qcom/defs/product-defs/vendor/touch_driver_product.mk" />
+  </project>
+  <project path="vendor/st/opensource/driver" name="AOSPA/vendor_qcom_opensource_nfc-st-driver" remote="aospa" revision="kailua">
+    <linkfile src="nfc_kernel_dlkm_vendor_board.mk" dest="vendor/qcom/defs/board-defs/vendor/nfc_kernel_dlkm_vendor_board.mk" />
+    <linkfile src="nfc_kernel_dlkm_vendor_product.mk" dest="vendor/qcom/defs/product-defs/vendor/nfc_kernel_dlkm_vendor_product.mk" />
+  </project>
+
+  <project path="vendor/qcom/proprietary/devicetree" name="AOSPA/vendor_qcom_proprietary_devicetree" remote="aospa" revision="xiaomi-8550" />
+  <project path="vendor/qcom/proprietary/audio-devicetree" name="AOSPA/vendor_qcom_proprietary_audio-devicetree" remote="aospa" revision="xiaomi-8550" />
+  <project path="vendor/qcom/proprietary/camera-devicetree" name="AOSPA/vendor_qcom_proprietary_camera-devicetree" remote="aospa" revision="xiaomi-8550" />
+  <project path="vendor/qcom/proprietary/display-devicetree" name="AOSPA/vendor_qcom_proprietary_display-devicetree" remote="aospa" revision="xiaomi-8550" />
+
+  <!-- Device Dependencies -->
   <project path="device/xiaomi/ishtar" name="AOSPA/android_device_xiaomi_ishtar" remote="aospa" revision="vauxite" />
-  <project path="device/xiaomi/ishtar-kernel" name="AOSPA/android_device_xiaomi_ishtar-kernel" remote="aospa" revision="vauxite" clone-depth="1" />
   <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="vauxite" />
   <project path="device/xiaomi/sm8550-common" name="AOSPA/android_device_xiaomi_sm8550-common" remote="aospa" revision="vauxite" />
   <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
