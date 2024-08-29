@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../../platforms/kalama.xml"/>
+
+  <project path="device/xiaomi/nuwa" name="AOSPA/android_device_xiaomi_nuwa" remote="aospa" revision="uvite"/>
+  <project path="device/xiaomi/nuwa-kernel" name="AOSPA/android_device_xiaomi_nuwa-kernel" remote="aospa" revision="uvite"/>
+  <project path="device/xiaomi/sm8550-common" name="AOSPA/android_device_xiaomi_sm8550-common" remote="aospa" revision="uvite"/>
+  <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="uvite"/>
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="uvite"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" clone-depth="1"/>
+  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="uvite-sm8550-leica" clone-depth="1"/>
+</manifest>
