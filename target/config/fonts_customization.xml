@@ -442,4 +442,15 @@
   </family>
   <alias name="albertsans-medium" to="albertsans" weight="500" />
 
+  <family customizationType="new-named-family" name="vazirmatn">
+    <font weight="400" style="normal">Vazirmatn-Regular.ttf</font>
+    <font weight="400" style="italic">Vazirmatn-Light.ttf</font>
+    <font weight="500" style="normal">Vazirmatn-Medium.ttf</font>
+    <font weight="500" style="italic">Vazirmatn-ExtraLight.ttf</font>
+    <font weight="700" style="normal">Vazirmatn-Bold.ttf</font>
+    <font weight="700" style="italic">Vazirmatn-ExtraBold.ttf</font>
+  </family>
+  <alias name="vazirmatn-medium" to="vazirmatn" weight="500" />
+  <alias name="vazirmatn-bold" to="vazirmatn" weight="700" />
+
 </fonts-modification>
