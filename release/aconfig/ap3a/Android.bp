@@ -7,5 +7,6 @@ aconfig_value_set {
     name: "aconfig_value_set-paranoid-ap3a",
     values: [
         "aconfig-values-ap3a-com.android.systemui.flags-all",
+        "aconfig-values-ap3a-com.android.server.notification-all",
     ],
 }
