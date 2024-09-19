@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3a6b963_d5bdf22d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-09-19T01:31:09Z",
+      "side": 1,
+      "message": "What\u0027s pending:\n - remove obsolete devices\n - make manifests for common SoC Hals? kernels? you get it",
+      "revId": "e5adecd0c5d8160f7e5bf8b89497993991feaf4a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
