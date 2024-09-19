@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <project path="device/oneplus/oneplus5" name="AOSPA/android_device_oneplus_oneplus5" remote="aospa" revision="topaz" />
+  <project path="device/oneplus/oneplus5t" name="AOSPA/android_device_oneplus_oneplus5t" remote="aospa" revision="topaz" />
+  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" remote="aosp" revision="refs/tags/android-13.0.0_r3" />
+  <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" remote="aosp" revision="refs/tags/android-13.0.0_r3" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="topaz-8998" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="topaz-legacy-component" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="topaz-8998" />
+  <project path="kernel/msm-4.4" name="AOSPA/android_kernel_oneplus_msm8998" remote="aospa" revision="topaz" />
+  <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="14" clone-depth="1" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="blobs" revision="topaz" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="topaz-8998" />
+</manifest>
