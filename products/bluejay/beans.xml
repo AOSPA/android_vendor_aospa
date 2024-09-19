@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/google/bluejay" name="AOSPA/android_device_google_bluejay" remote="aospa" revision="topaz" />
+  <project path="device/google/bluejay-kernel" name="AOSPA/android_device_google_bluejay-kernel" remote="aospa" revision="topaz" />
+  <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="device/google/gs-common" name="device/google/gs-common" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="device/google/gs101" name="AOSPA/android_device_google_gs101" remote="aospa" revision="topaz" />
+  <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" remote="aospa" revision="topaz" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="hardware/google/pixel" name="AOSPA/android_hardware_google_pixel" remote="aospa" revision="topaz" />
+  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" revision="refs/tags/android-13.0.0_r12" />
+  <project path="vendor/google_devices" name="proprietary_vendor_google" remote="blobs-gitlab" revision="topaz" />
+</manifest>

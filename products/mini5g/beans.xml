@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/nubia/mini5g" name="AOSPA/android_device_nubia_mini5g" remote="aospa" revision="sapphire" />
+  <project path="kernel/msm-4.14" name="AOSPA/android_kernel_nubia_sm8150" remote="aospa" revision="sapphire" />
+</manifest>

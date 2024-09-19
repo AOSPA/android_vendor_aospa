@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/qcom/lito" name="AOSPA/android_device_qcom_lito" remote="github" revision="uvite" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="uvite-865" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="uvite-865" />
+  <project path="kernel/msm-4.19" name="AOSPA/android_kernel_qcom_sm7250" remote="github" revision="uvite" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="uvite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="uvite-SN100X-legacy" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="uvite-865" />
+  <project path="vendor/qcom/qrd" name="proprietary_vendor_qcom_qrd" remote="blobs" revision="uvite" />
+</manifest>

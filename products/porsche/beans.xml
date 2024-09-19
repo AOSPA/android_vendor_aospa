@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/realme/porsche" name="AOSPA/android_device_realme_porsche" remote="aospa" revision="uvite" />
+  <project path="hardware/oplus" name="AOSPA/android_hardware_oplus" remote="aospa" revision="uvite" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="uvite-888" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="uvite-legacy-component" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="uvite-888" />
+  <project path="kernel/msm-5.4" name="AOSPA/android_kernel_realme_sm8350" remote="aospa" revision="uvite" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-SN100X-legacy" />
+  <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="blobs-gitlab" revision="uvite-porsche" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="uvite-888" />
+  <project path="vendor/realme" name="proprietary_vendor_realme" remote="blobs" revision="uvite" />
+</manifest>

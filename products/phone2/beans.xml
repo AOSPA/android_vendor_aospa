@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/nothing/phone2" name="AOSPA/android_device_nothing_phone2" remote="aospa" revision="uvite" />
+  <project path="device/nothing/phone2-kernel" name="AOSPA/android_device_nothing_phone2-kernel" remote="aospa" revision="uvite" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="uvite-8450" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="uvite-8450" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="uvite-8450" />
+  <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="uvite" />
+  <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="blobs" revision="uvite" clone-depth="1" />
+  <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="blobs-gitlab" revision="uvite" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="uvite-8450" />
+  <project path="vendor/qcom/opensource/pal" name="AOSPA/android_vendor_qcom_opensource_arpal-lx" remote="aospa" revision="uvite-8450" />
+</manifest>

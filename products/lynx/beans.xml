@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/google/gs-common" name="device/google/gs-common" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="device/google/gs101" name="AOSPA/android_device_google_gs101" remote="aospa" revision="topaz" />
+  <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" remote="aospa" revision="topaz" />
+  <project path="device/google/gs201" name="AOSPA/android_device_google_gs201" remote="aospa" revision="topaz" />
+  <project path="device/google/gs201-sepolicy" name="AOSPA/android_device_google_gs201-sepolicy" remote="aospa" revision="topaz" />
+  <project path="device/google/lynx" name="AOSPA/android_device_google_lynx" remote="aospa" revision="topaz" />
+  <project path="device/google/lynx-kernel" name="device/google/lynx-kernel" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="device/google/lynx-sepolicy" name="AOSPA/android_device_google_lynx-sepolicy" remote="aospa" revision="topaz" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/google/pixel" name="AOSPA/android_hardware_google_pixel" remote="aospa" revision="topaz" />
+  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="hardware/st/nfc" name="platform/hardware/st/nfc" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="system/chre" name="platform/system/chre" remote="aosp" revision="refs/tags/android-13.0.0_r52" />
+  <project path="vendor/google_devices" name="proprietary_vendor_google" remote="blobs-gitlab" revision="topaz" />
+</manifest>

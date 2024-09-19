@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+  <project path="device/xiaomi/lisa" name="AOSPA/android_device_xiaomi_lisa" remote="aospa" revision="topaz" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="topaz-888" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="topaz-legacy-component" />
+  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="topaz-888" />
+  <project path="kernel/xiaomi/lahaina" name="AOSPA/android_kernel_xiaomi_lahaina" remote="aospa" revision="topaz" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="topaz-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="topaz-888" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="topaz" clone-depth="1" />
+  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="topaz-leica" clone-depth="1" />
+  <project path="vendor/xiaomi/firmware" name="proprietary_vendor_xiaomi_firmware" remote="blobs-gitlab" revision="topaz" clone-depth="1" />
+</manifest>
