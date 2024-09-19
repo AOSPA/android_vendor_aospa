@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0",
-    root: "vendor.qti.hardware.capabilityconfigstore",
+    root: "vendor.qti.hardware",
     system_ext_specific: true,
     srcs: [
         "types.hal",
