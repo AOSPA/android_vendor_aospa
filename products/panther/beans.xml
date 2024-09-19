@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <project path="device/google/gs-common" name="device/google/gs-common" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="device/google/gs101" name="AOSPA/android_device_google_gs101" remote="aospa" revision="topaz" />
+  <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" remote="aospa" revision="topaz" />
+  <project path="device/google/gs201" name="AOSPA/android_device_google_gs201" remote="aospa" revision="topaz" />
+  <project path="device/google/gs201-sepolicy" name="AOSPA/android_device_google_gs201-sepolicy" remote="aospa" revision="topaz" />
+  <project path="device/google/pantah" name="AOSPA/android_device_google_pantah" remote="aospa" revision="topaz" />
+  <project path="device/google/pantah-kernel" name="AOSPA/android_device_google_pantah-kernel" remote="aospa" revision="topaz" />
+  <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="hardware/google/pixel" name="AOSPA/android_hardware_google_pixel" remote="aospa" revision="topaz" />
+  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" revision="refs/tags/android-13.0.0_r13" />
+  <project path="vendor/google_devices" name="proprietary_vendor_google" remote="blobs-gitlab" revision="topaz" />
+</manifest>
