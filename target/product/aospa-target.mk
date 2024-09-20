@@ -61,6 +61,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
+    ParanoidSettings \
     ParanoidSystemUI
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -136,6 +137,7 @@ $(call inherit-product-if-exists, vendor/aospa/translations/translations.mk)
 # Paranoid Packages
 PRODUCT_PACKAGES += \
     ParanoidPapers \
+    ParanoidSettings \
     ParanoidSystemUI \
     ParanoidThemePicker
 
