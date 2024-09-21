@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2024 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,7 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
+    $(LOCAL_DIR)/bangkk/aospa_bangkk.mk \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
@@ -50,6 +51,7 @@ PRODUCT_MAKEFILES += \
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
+    aospa_bangkk-userdebug \
     aospa_bitra-userdebug \
     aospa_bladerunner-userdebug \
     aospa_davinci-userdebug \
