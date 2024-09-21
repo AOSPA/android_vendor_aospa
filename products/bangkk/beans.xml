@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../../platforms/holi.xml" />
+
+  <project path="device/motorola/bangkk" name="AOSPAnda/android_device_motorola_bangkk" remote="github" revision="vauxite" />
+  <project path="device/motorola/bangkk-kernel" name="AOSPAnda/android_device_motorola_bangkk-kernel" remote="github" revision="uvite" />
+  <project path="hardware/qcom/bootctrl" name="AOSPAnda/android_hardware_qcom_bootctrl" remote="github" revision="uvite" />
+  <project path="vendor/egistec/interfaces" name="moto-common/platform_vendor_egistec_interfaces" remote="github" revision="master" />
+  <project path="vendor/motorola/bangkk" name="AOSPAnda/android_vendor_motorola_bangkk" remote="github" revision="vauxite" />
+  <project path="vendor/qcom/opensource/recovery-ext" name="AOSPAnda/android_vendor_qcom_opensource_recovery-ext" remote="github" revision="uvite" />
+</manifest>
