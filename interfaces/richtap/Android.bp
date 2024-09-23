@@ -1,0 +1,26 @@
+aidl_interface {
+    name: "vendor.aac.hardware.richtap.vibrator",
+    vendor_available: true,
+    srcs: [
+        "vendor/aac/hardware/richtap/vibrator/*.aidl",
+    ],
+
+    stability: "vintf",
+
+    backend: {
+        java: {
+            platform_apis: true,
+        },
+        ndk: {
+            enabled: true,
+        },
+        cpp: {
+            enabled: true,
+        },
+    },
+
+    versions: [
+        "1",
+        "2",
+    ],
+}
