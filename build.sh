@@ -17,6 +17,7 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 
 # Set defaults
 BUILD_TYPE="userdebug"
+TARGET_RELEASE="ap3a"
 
 function checkExit () {
     EXIT_CODE=$?
@@ -38,6 +39,7 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -r, --repo-sync       Sync before building${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -v, --variant         AOSPA variant - Can be alpha, beta or stable${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -t, --build-type      Specify build type${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -p, --target-release  Specify target release${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -j, --jobs            Specify jobs/threads to use${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -m, --module          Build a specific module${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -s, --sign-keys       Specify path to sign key mappings${CLR_RST}"
@@ -50,8 +52,8 @@ function showHelpAndExit {
 }
 
 # Setup getopt.
-long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,imgzip,version:"
-getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:bd:zn: --long "$long_opts" \
+long_opts="help,clean,installclean,repo-sync,variant:,build-type:,target-release:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,imgzip,version:"
+getopt_cmd=$(getopt -o hcirv:t:p:j:m:s:p:bd:zn: --long "$long_opts" \
             -n $(basename $0) -- "$@") || \
             { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; exit 1;}
 
@@ -65,6 +67,7 @@ while true; do
         -r|--repo-sync|r|repo-sync) FLAG_SYNC=y;;
         -v|--variant|v|variant) AOSPA_VARIANT="$2"; shift;;
         -t|--build-type|t|build-type) BUILD_TYPE="$2"; shift;;
+        -p|--target-release|p|target-release) TARGET_RELEASE="$2"; shift;;
         -j|--jobs|j|jobs) JOBS="$2"; shift;;
         -m|--module|m|module) MODULES+=("$2"); echo $2; shift;;
         -s|--sign-keys|s|sign-keys) KEY_MAPPINGS="$2"; shift;;
@@ -180,7 +183,7 @@ echo -e ""
 # Lunch-time!
 echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependencies sync)${CLR_RST}"
 echo -e ""
-lunch "aospa_$DEVICE-$BUILD_TYPE"
+lunch "aospa_$DEVICE-$TARGET_RELEASE-$BUILD_TYPE"
 AOSPA_VERSION="$(get_build_var AOSPA_VERSION)"
 checkExit
 echo -e ""
