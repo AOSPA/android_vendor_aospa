@@ -4,5 +4,5 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
-  <project path="device/oneplus/oneplus7tpro" name="AOSPA/android_device_oneplus_oneplus7tpro" remote="aospa" revision="vauxite" />
+  <project path="device/oneplus/oneplus7tpronr" name="AOSPA/android_device_oneplus_oneplus7tpronr" remote="aospa" revision="vauxite" />
 </manifest>
