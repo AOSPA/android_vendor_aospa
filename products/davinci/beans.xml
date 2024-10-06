@@ -4,14 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
+  <include name="../platforms/taro.xml" />
+
   <project path="device/asus/davinci" name="AOSPA/android_device_asus_davinci" remote="aospa" revision="uvite" />
-  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="uvite-8450" />
-  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="topaz-8450" />
-  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="uvite-8450" />
   <project path="kernel_platform/msm-kernel" name="AOSPA/android_kernel_asus_sm8475" remote="aospa" revision="uvite" />
   <project path="kernel_platform/msm-kernel/arch/arm64/boot/dts/vendor" name="AOSPA/kernel_qcom_proprietary" remote="aospa" revision="topaz-asus-davinci" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="blobs" revision="uvite" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="uvite-8450" />
   <project path="vendor/qcom/opensource/audio-kernel" name="AOSPA/vendor_qcom_opensource_audio-kernel-ar" remote="aospa" revision="uvite-asus-davinci" />
   <project path="vendor/qcom/opensource/camera-kernel" name="AOSPA/vendor_qcom_opensource_camera-kernel" remote="aospa" revision="topaz-asus-davinci" />
   <project path="vendor/qcom/opensource/cvp-kernel" name="platform/vendor/opensource/cvp-kernel" remote="clo-la" revision="dcf120f6617fbf3335ffdcb1894b8ffc62e8bd6b" />
@@ -22,7 +20,6 @@
   <project path="vendor/qcom/opensource/eva-kernel" name="platform/vendor/opensource/eva-kernel" remote="clo-la" revision="8fee9b929fabf46ef975a03d55aa9262e059725e" />
   <project path="vendor/qcom/opensource/mmrm-driver" name="platform/vendor/opensource/mmrm-driver" remote="clo-la" revision="ce5c3a5859c1edea355144a7749e8b3ebe982abe" />
   <project path="vendor/qcom/opensource/mmrm-driver/test" name="platform/vendor/opensource/mmrm-driver-test" remote="clo-la" revision="5e5e099689db214795b00771e7715b7dbdc71b3c" />
-  <project path="vendor/qcom/opensource/pal" name="AOSPA/android_vendor_qcom_opensource_arpal-lx" remote="aospa" revision="uvite-8450" />
   <project path="vendor/qcom/opensource/video-driver" name="platform/vendor/opensource/video-driver" remote="clo-la" revision="66a651e08ae8263c1bc1244a32b4f47d738e91b4" />
   <project path="vendor/qcom/opensource/wlan/fw-api" name="platform/vendor/qcom-opensource/wlan/fw-api" remote="clo-la" revision="d1bed67b9224c6062bd3616b502059340e7d6022" />
   <project path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" remote="clo-la" revision="292c364f971a6ee4a850100e0e51259e964f98f4" />

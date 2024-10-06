@@ -4,13 +4,11 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
+  <include name="../platforms/lahaina.xml" />
+
   <project path="device/qcom/lahaina" name="AOSPA/android_device_qcom_lahaina" remote="github" revision="uvite" />
-  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="uvite-888" />
-  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
-  <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="uvite-888" />
   <project path="kernel/msm-5.4" name="AOSPA/android_kernel_qcom_sm8350" remote="github" revision="uvite" />
   <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="uvite-SN100X-legacy" />
   <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="uvite-SN100X-legacy" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="uvite-888" />
   <project path="vendor/qcom/qrd" name="proprietary_vendor_qcom_qrd" remote="blobs" revision="uvite" />
 </manifest>
