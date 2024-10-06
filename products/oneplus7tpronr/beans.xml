@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../oneplus7/common.xml" />
+
+  <project path="device/oneplus/oneplus7tpronr" name="AOSPA/android_device_oneplus_oneplus7tpronr" remote="aospa" revision="vauxite" />
+  <project path="vendor/oneplus/oneplus7tpronr" name="proprietary_vendor_oneplus_oneplus7tpronr" remote="blobs" revision="vauxite" clone-depth="1" />
+</manifest>
