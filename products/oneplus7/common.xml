@@ -4,7 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
-  <include name="../platforms/msmnile.xml" />
+  <include name="../../platforms/msmnile.xml" />
+  <remove-project name="AOSPA/android_hardware_qcom_gps" />
 
   <project path="device/oneplus/common" name="aospa-op7/device_oneplus_common" remote="github" revision="vauxite" />
   <project path="device/oneplus/sm8150-common" name="AOSPA/android_device_oneplus_sm8150-common" remote="aospa" revision="vauxite" />
