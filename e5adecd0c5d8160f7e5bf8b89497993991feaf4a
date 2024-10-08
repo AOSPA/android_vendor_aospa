@@ -16,6 +16,24 @@
       "message": "What\u0027s pending:\n - remove obsolete devices\n - make manifests for common SoC Hals? kernels? you get it",
       "revId": "e5adecd0c5d8160f7e5bf8b89497993991feaf4a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6005946c_7b4967b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2024-10-08T09:56:46Z",
+      "side": 1,
+      "message": "manifest for common things can be made in an as-needed basis IMO - obsolete devices can be a follow up, i think it\u0027s fair to say all google devices are dropped",
+      "parentUuid": "d3a6b963_d5bdf22d",
+      "revId": "e5adecd0c5d8160f7e5bf8b89497993991feaf4a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
