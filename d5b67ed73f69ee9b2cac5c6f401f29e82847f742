@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd6f556c_656600e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-08T16:02:01Z",
+      "side": 1,
+      "message": "clean un-maintained products before merging",
+      "revId": "d5b67ed73f69ee9b2cac5c6f401f29e82847f742",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
