@@ -24,6 +24,14 @@ function clomerge()
     python3 $T/vendor/aospa/build/tools/merge-clo.py $target_branch
 }
 
+function kernelmanifest()
+{
+    target_branch=$1
+    set_stuff_for_environment
+    T=$(gettop)
+    python3 $T/vendor/aospa/build/tools/kernel-manifest-generator.py $target_branch
+}
+
 function repopick()
 {
     T=$(gettop)
