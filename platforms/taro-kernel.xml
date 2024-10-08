@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <!-- KERNEL.PLATFORM.1.0.r1-18300-kernel.0 -->
+  <project name="kernel/build" path="kernel_platform/build" revision="115ffa9e22935a59871eaa5325a4309be9b2fe8b" upstream="refs/heads/kernel.lnx.5.10.r1-rel"/>
+  <project name="kernel/common" path="kernel_platform/common" revision="327844b610e469e0de8a719231b2b349856ce0dd" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" groups="qki"/>
+  <project name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="185a65bcbd6c893ce429b1a57ca326ecc7021bd9" upstream="refs/heads/kernel.lnx.5.10.r1-rel">
+    <linkfile src="build.config.msm.waipio" dest="kernel_platform/common/build.config.msm.waipio"/>
+    <linkfile src="build.config.msm.waipio.tuivm" dest="kernel_platform/common/build.config.msm.waipio.tuivm"/>
+    <linkfile src="build.config.msm.lahaina" dest="kernel_platform/common/build.config.msm.lahaina"/>
+  </project>
+  <project name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="1f4f639c8b5e34e005c6cdcec19c05defca59e37" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernel_platform/external/dtc" revision="3d33df151687d2690f61ca24292ddde160903c93" upstream="refs/heads/kernel.build.lnx.1.0.r1-rel"/>
+  <project name="kernel_platform/kernel/prebuilts/mainline/arm64" revision="de12e10cfe8d67d5c0627069306fda939f52154a" upstream="refs/heads/kernel.lnx.5.10.r1-rel"/>
+  <project name="kernel_platform/prebuilts/build-tools" revision="846214bd11004546cd3fc2590c73c628fcd6778c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="08410f46318f3f301b96ed058466ab0dde0b050b" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
+  <project name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts-master/clang/host/linux-x86" revision="0fc3d01a780023469b7acc18c56a9cf5099a6d6c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="c9f87ae369034b4942536a1c5bd62e4cd1d828e3" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+</manifest>
