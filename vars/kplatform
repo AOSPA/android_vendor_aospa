@@ -1,0 +1,7 @@
+#!/bin/bash
+
+declare -A KPLATFORM_ARRAY=(
+    ["taro"]="LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0"
+    ["kalama"]="LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0"
+    ["pineapple"]="LA.VENDOR.1.0.r1-26600-WAIPIO.QSSI15.0"
+)

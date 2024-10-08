@@ -24,6 +24,18 @@ function clomerge()
     python3 $T/vendor/aospa/build/tools/merge-clo.py $target_branch
 }
 
+function kernelmanifestgen()
+{
+    T=$(gettop)
+    source $T/vendor/aospa/vars/kplatform
+    for code in "${!KPLATFORM_ARRAY[@]}"; do
+        tag="${KPLATFORM_ARRAY[$code]}"
+        python3 $T/vendor/aospa/build/tools/kernel-manifest-generator.py \
+            "$tag" \
+            "$T/vendor/aospa/products/platforms/$code-kernel"
+    done
+}
+
 function repopick()
 {
     T=$(gettop)
