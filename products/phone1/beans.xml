@@ -6,10 +6,10 @@
 <manifest>
   <include name="../platforms/lahaina.xml" />
 
-  <project path="device/nothing/phone1" name="AOSPA/android_device_nothing_phone1" remote="aospa" revision="uvite" />
-  <project path="kernel/msm-5.4" name="AOSPA/android_kernel_nothing_sm7325" remote="aospa" revision="uvite" />
-  <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="uvite" />
-  <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="blobs" revision="uvite" clone-depth="1" />
-  <project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="blobs-gitlab" revision="uvite" clone-depth="1" />
-  <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="blobs-gitlab" revision="uvite" clone-depth="1" />
+  <project path="device/nothing/phone1" name="AOSPA/android_device_nothing_phone1" remote="aospa" revision="vauxite" />
+  <project path="kernel/msm-5.4" name="AOSPA/android_kernel_nothing_sm7325" remote="aospa" revision="vauxite" />
+  <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="vauxite" />
+  <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="blobs" revision="vauxite" clone-depth="1" />
+  <project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="blobs-gitlab" revision="vauxite" clone-depth="1" />
+  <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="blobs-gitlab" revision="vauxite" clone-depth="1" />
 </manifest>
