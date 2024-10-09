@@ -5,6 +5,7 @@
 -->
 <manifest>
   <include name="../platforms/kona.xml" />
+  <remove-project path="vendor/qcom/opensource/audio-hal/primary-hal" />
 
   <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="vauxite" />
   <project path="device/xiaomi/sm6225-common" name="AOSPA/android_device_xiaomi_sm6225-common" remote="aospa" revision="vauxite" />
