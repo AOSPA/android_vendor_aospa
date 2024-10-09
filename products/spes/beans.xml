@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
-  <include name="../platforms/kona.xml" />
+  <include name="../platforms/bengal.xml" />
 
   <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="vauxite" />
   <project path="device/xiaomi/sm6225-common" name="AOSPA/android_device_xiaomi_sm6225-common" remote="aospa" revision="vauxite" />
