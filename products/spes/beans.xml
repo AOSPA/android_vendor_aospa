@@ -6,13 +6,13 @@
 <manifest>
   <include name="../platforms/kona.xml" />
 
-  <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="uvite" />
-  <project path="device/xiaomi/sm6225-common" name="AOSPA/android_device_xiaomi_sm6225-common" remote="aospa" revision="uvite" />
-  <project path="device/xiaomi/spes" name="AOSPA/android_device_xiaomi_spes" remote="aospa" revision="uvite" />
-  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="uvite" />
-  <project path="kernel/xiaomi/sm6225" name="AOSPA/android_kernel_xiaomi_sm6225" remote="aospa" revision="uvite" />
+  <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="vauxite" />
+  <project path="device/xiaomi/sm6225-common" name="AOSPA/android_device_xiaomi_sm6225-common" remote="aospa" revision="vauxite" />
+  <project path="device/xiaomi/spes" name="AOSPA/android_device_xiaomi_spes" remote="aospa" revision="vauxite" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+  <project path="kernel/xiaomi/sm6225" name="AOSPA/android_kernel_xiaomi_sm6225" remote="aospa" revision="vauxite" />
   <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="14" clone-depth="1" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="uvite-bengal" />
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" clone-depth="1" />
-  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="uvite-sm6225" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-bengal" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="vauxite" clone-depth="1" />
+  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="vauxite-sm6225" clone-depth="1" />
 </manifest>
