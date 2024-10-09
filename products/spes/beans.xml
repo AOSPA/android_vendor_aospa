@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
-  <include name="../platforms/kona.xml" />
+  <include name="../platforms/bengal.xml" />
 
   <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="vauxite" />
   <project path="device/xiaomi/sm6225-common" name="AOSPA/android_device_xiaomi_sm6225-common" remote="aospa" revision="vauxite" />
@@ -14,4 +14,5 @@
   <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="14" clone-depth="1" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="vauxite" clone-depth="1" />
   <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="vauxite-sm6225" clone-depth="1" />
+
 </manifest>
