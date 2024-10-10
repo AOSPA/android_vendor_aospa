@@ -32,6 +32,10 @@ SOONG_CONFIG_aospaGlobalVars += \
     target_process_sdk_version_override \
     target_surfaceflinger_udfps_lib
 
+SOONG_CONFIG_NAMESPACES += aospaQcomVars
+SOONG_CONFIG_aospaQcomVars += \
+    supports_extended_compress_format
+
 # Set default values
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED ?= 1
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED ?= 0
@@ -56,6 +60,7 @@ SOONG_CONFIG_aospaGlobalVars_target_health_charging_control_deadline_path := $(T
 SOONG_CONFIG_aospaGlobalVars_target_health_charging_control_supports_bypass := $(TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS)
 SOONG_CONFIG_aospaGlobalVars_target_health_charging_control_supports_deadline := $(TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE)
 SOONG_CONFIG_aospaGlobalVars_target_health_charging_control_supports_toggle := $(TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE)
+SOONG_CONFIG_aospaQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 
 # Gestures
 define add-gesturevar-if-exist
