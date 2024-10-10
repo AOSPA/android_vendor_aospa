@@ -9,3 +9,6 @@ pocket                                      u:object_r:pocket_service:s0
 
 # Lineage
 lineagehealth                               u:object_r:lineage_health_interface_service:s0
+
+# PIH
+pih_manager                                 u:object_r:pih_manager_service:s0

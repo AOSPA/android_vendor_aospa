@@ -6,3 +6,6 @@ type pocket_service, system_api_service, system_server_service, service_manager_
 
 # Lineage
 type lineage_health_interface_service, system_api_service, system_server_service, service_manager_type;
+
+# PIH
+type pih_manager_service, app_api_service, system_api_service, system_server_service, service_manager_type;
