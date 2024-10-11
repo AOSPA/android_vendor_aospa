@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb5d93b9_f85c36cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-11T17:35:12Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/android_build_release/commit/7ae407378104ce0290a25851bdaddc1cd4415c97\nhttps://github.com/AOSPA/android_build_release/commit/be6f16f291b1af04ae1bed16de1edcb1557d4974\n\nnext is same as ap3a",
+      "revId": "afae6271ba49d8545a601064fb0808701011d9d7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
