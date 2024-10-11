@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10f3687b_a26889c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-11T17:36:08Z",
+      "side": 1,
+      "message": "use remove project, no need to add another platform",
+      "revId": "c30f3200edd0edee04a19f1ec3d06797bb4f3a72",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc8bdd95_51a4d6aa",
+        "filename": "products/spes/beans.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-11T17:36:08Z",
+      "side": 1,
+      "message": "remove this",
+      "revId": "c30f3200edd0edee04a19f1ec3d06797bb4f3a72",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
