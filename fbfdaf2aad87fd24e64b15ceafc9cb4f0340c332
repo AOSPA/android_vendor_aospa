@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "752a28a5_a864d11b",
+        "filename": "products/platforms/bengal.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-12T17:27:48Z",
+      "side": 1,
+      "message": "```suggestion\n  \u003cinclude name\u003d\"../platforms/kona.xml\" /\u003e\n  \u003cremove-project name\u003d\"AOSPA/android_hardware_qcom_audio\" /\u003e\n  \u003cproject path\u003d\"vendor/qcom/opensource/audio-hal/primary-hal\" name\u003d\"AOSPA/android_hardware_qcom_audio\" remote\u003d\"aospa\" revision\u003d\"vauxite-bengal\"/\u003e\n```\n\nsomething like this",
+      "revId": "fbfdaf2aad87fd24e64b15ceafc9cb4f0340c332",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
