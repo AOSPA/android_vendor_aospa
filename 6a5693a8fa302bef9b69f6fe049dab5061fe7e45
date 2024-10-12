@@ -33,6 +33,24 @@
       "message": "The current patch does not work, it still synchronizes kona audio and causes a build error.",
       "revId": "6a5693a8fa302bef9b69f6fe049dab5061fe7e45",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "543c0174_e40aaf43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-12T17:26:01Z",
+      "side": 1,
+      "message": "op7 does inherit msmnile XML and override gps, not sure what\u0027s the issue",
+      "parentUuid": "4a3cc86f_b8f7a615",
+      "revId": "6a5693a8fa302bef9b69f6fe049dab5061fe7e45",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
