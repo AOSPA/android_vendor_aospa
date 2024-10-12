@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9a44dd_ba444129",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-12T02:33:47Z",
+      "side": 1,
+      "message": "now that I think of it, you should be able to create a bengal.xml file if you want to.\ninherit kona.xml in it and override the project?",
+      "revId": "6a5693a8fa302bef9b69f6fe049dab5061fe7e45",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
