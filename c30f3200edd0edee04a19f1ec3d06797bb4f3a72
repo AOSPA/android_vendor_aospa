@@ -33,6 +33,24 @@
       "message": "remove this",
       "revId": "c30f3200edd0edee04a19f1ec3d06797bb4f3a72",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "870c7a3d_8a2e0d9d",
+        "filename": "products/spes/beans.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-12T02:32:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc8bdd95_51a4d6aa",
+      "revId": "c30f3200edd0edee04a19f1ec3d06797bb4f3a72",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
