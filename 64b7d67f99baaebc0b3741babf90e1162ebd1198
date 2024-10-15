@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dea9d589_17e8f192",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2024-10-15T17:27:06Z",
+      "side": 1,
+      "message": "It is possible to remove project, but it is not possible to include again\n\nsee: https://katb.in/okecoyoyepe",
+      "revId": "64b7d67f99baaebc0b3741babf90e1162ebd1198",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
