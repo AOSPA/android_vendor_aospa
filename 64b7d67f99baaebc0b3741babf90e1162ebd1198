@@ -16,6 +16,24 @@
       "message": "It is possible to remove project, but it is not possible to include again\n\nsee: https://katb.in/okecoyoyepe",
       "revId": "64b7d67f99baaebc0b3741babf90e1162ebd1198",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20478cf8_965f6d9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-10-16T02:15:46Z",
+      "side": 1,
+      "message": "@jyotiraditya@aospa.co can you check this?",
+      "parentUuid": "dea9d589_17e8f192",
+      "revId": "64b7d67f99baaebc0b3741babf90e1162ebd1198",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
