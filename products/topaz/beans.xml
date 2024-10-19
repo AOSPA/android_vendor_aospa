@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="vauxite"/>
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="shelbyhell/android_hardware_qcom_audio-ar" remote="github" revision="vauxite-bengal-5.15"/>
+  <project path="vendor/qcom/opensource/pal" name="ShelbyHell/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="vauxite-bengal-5.15"/>
+  <project path="vendor/qcom/opensource/agm" name="shelbyhell/android_vendor_qcom_opensource_agm" remote="github" revision="vauxite-bengal-5.15"/>
+  <project path="hardware/qcom/display" name="shelbyhell/android_hardware_qcom_display" remote="github" revision="vauxite-bengal-5.15"/>
+  <project path="hardware/qcom/gps" name="shelby-stuffs/android_hardware_qcom_gps" remote="github" revision="vauxite-bengal-5.15"/>
+  <project path="hardware/qcom/media" name="shelby-stuffs/android_hardware_qcom_media" remote="github" revision="uvite-bengal-5.15"/>
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite"/>
+</manifest>
