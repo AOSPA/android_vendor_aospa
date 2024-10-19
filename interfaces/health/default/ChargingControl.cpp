@@ -22,23 +22,38 @@ namespace health {
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE
 static const std::vector<ChargingEnabledNode> kChargingEnabledNodes = {
-        {HEALTH_CHARGING_CONTROL_CHARGING_PATH, HEALTH_CHARGING_CONTROL_CHARGING_ENABLED,
-         HEALTH_CHARGING_CONTROL_CHARGING_DISABLED},
-        {"/sys/class/power_supply/battery/battery_charging_enabled", "1", "0"},
-        {"/sys/class/power_supply/battery/charging_enabled", "1", "0"},
-        {"/sys/class/power_supply/battery/input_suspend", "0", "1"},
-        {"/sys/class/qcom-battery/input_suspend", "0", "1"},
+#ifdef HEALTH_CHARGING_CONTROL_CHARGING_PATH
+        {HEALTH_CHARGING_CONTROL_CHARGING_PATH,
+         HEALTH_CHARGING_CONTROL_CHARGING_ENABLED,
+         HEALTH_CHARGING_CONTROL_CHARGING_DISABLED,
+         {}},
+#else
+        {"/sys/class/power_supply/battery/battery_charging_enabled", "1", "0",
+         static_cast<int>(ChargingControlSupportedMode::TOGGLE) |
+                 static_cast<int>(ChargingControlSupportedMode::BYPASS)},
+        {"/sys/class/power_supply/battery/charging_enabled", "1", "0",
+         static_cast<int>(ChargingControlSupportedMode::TOGGLE) |
+                 static_cast<int>(ChargingControlSupportedMode::BYPASS)},
+        {"/sys/class/power_supply/battery/input_suspend", "0", "1",
+         static_cast<int>(ChargingControlSupportedMode::TOGGLE)},
+        {"/sys/class/qcom-battery/input_suspend", "0", "1",
+         static_cast<int>(ChargingControlSupportedMode::TOGGLE)},
+#endif
 };
+
+#define OPEN_RETRY_COUNT 10
 
 ChargingControl::ChargingControl() : mChargingEnabledNode(nullptr) {
     while (!mChargingEnabledNode) {
         for (const auto& node : kChargingEnabledNodes) {
-            if (access(node.path.c_str(), R_OK | W_OK) == 0) {
-                mChargingEnabledNode = &node;
-                break;
+            for (int retries = 0; retries < OPEN_RETRY_COUNT; retries++) {
+                if (access(node.path.c_str(), R_OK | W_OK) == 0) {
+                    mChargingEnabledNode = &node;
+                    return;
+                }
+                PLOG(WARNING) << "Failed to access() file " << node.path;
+                usleep(10000);
             }
-            PLOG(WARNING) << "Failed to access() file " << node.path;
-            usleep(100000);
         }
     }
 }
@@ -133,7 +148,11 @@ ndk::ScopedAStatus ChargingControl::getSupportedMode(int* _aidl_return) {
     mode |= static_cast<int>(ChargingControlSupportedMode::DEADLINE);
 #endif
 
+#ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE
+    *_aidl_return = mChargingEnabledNode->supported_mode.value_or(mode);
+#else
     *_aidl_return = mode;
+#endif
 
     return ndk::ScopedAStatus::ok();
 }
