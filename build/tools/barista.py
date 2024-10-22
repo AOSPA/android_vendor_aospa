@@ -71,6 +71,11 @@ def grind_beans(device: str) -> list[Element]:
         try:
             manifest = parse(manifest_path).getroot()
 
+            # Process all include files recursively
+            for include_elem in manifest.findall("include"):
+                include_path = manifest_path.parent / include_elem.get("name", "")
+                process_manifest(include_path)
+
             # Process remove-project tags
             for remove_elem in manifest.findall("remove-project"):
                 remove_projects.add(remove_elem.get("name", ""))
@@ -79,13 +84,10 @@ def grind_beans(device: str) -> list[Element]:
             for project in manifest.findall("project"):
                 path = project.get("path", "")
                 name = project.get("name", "")
-                if name not in remove_projects:
-                    projects[path] = project
+                projects[path] = project
+                if name in remove_projects:
+                    remove_projects.remove(name)
 
-            # Process all include files recursively
-            for include_elem in manifest.findall("include"):
-                include_path = manifest_path.parent / include_elem.get("name", "")
-                process_manifest(include_path)
         except FileNotFoundError:
             print(f"Warning: Include beans not found at {manifest_path}. Skipping.")
         except ParseError:
