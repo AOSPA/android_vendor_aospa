@@ -432,4 +432,23 @@
   <alias name="linotte-semi-bold" to="linotte" weight="600" />
   <alias name="linotte-bold" to="linotte" weight="700" />
 
+  <family customizationType="new-named-family" name="ubuntu">
+    <font weight="100" style="normal">Ubuntu-Thin.ttf</font>
+    <font weight="100" style="italic">Ubuntu-ThinItalic.ttf</font>
+    <font weight="300" style="normal">Ubuntu-Light.ttf</font>
+    <font weight="300" style="italic">Ubuntu-LightItalic.ttf</font>
+    <font weight="400" style="normal">Ubuntu-Regular.ttf</font>
+    <font weight="400" style="italic">Ubuntu-Italic.ttf</font>
+    <font weight="500" style="normal">Ubuntu-Medium.ttf</font>
+    <font weight="500" style="italic">Ubuntu-MediumItalic.ttf</font>
+    <font weight="700" style="normal">Ubuntu-Bold.ttf</font>
+    <font weight="700" style="italic">Ubuntu-BoldItalic.ttf</font>
+  </family>
+  <alias name="ubuntu-thin" to="ubuntu" weight="100" />
+    <alias name="ubuntu-light" to="ubuntu" weight="300" />
+    <alias name="ubuntu-regular" to="ubuntu" weight="400" />
+    <alias name="ubuntu-medium" to="ubuntu" weight="400" />
+    <alias name="ubuntu-bold" to="ubuntu" weight="400" />
+    <alias name="ubuntu-black" to="ubuntu" weight="700" />
+
 </fonts-modification>
