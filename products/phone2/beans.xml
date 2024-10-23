@@ -4,10 +4,21 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
+  <include name="../platforms/taro-kernel.xml" />
   <include name="../platforms/taro.xml" />
 
+  <!-- Kernel Dependencies -->
+  <project name="vendor_qcom_proprietary_audio-devicetree" path="vendor/qcom/proprietary/audio-devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_camera-devicetree" path="vendor/qcom/proprietary/camera-devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_cvp-devicetree" path="vendor/qcom/proprietary/cvp-devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_devicetree" path="vendor/qcom/proprietary/devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_display-devicetree" path="vendor/qcom/proprietary/display-devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_eva-devicetree" path="vendor/qcom/proprietary/eva-devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_mmrm-devicetree" path="vendor/qcom/proprietary/mmrm-devicetree" revision="waipio" />
+  <project name="vendor_qcom_proprietary_video-devicetree" path="vendor/qcom/proprietary/video-devicetree" revision="waipio" />
+
+  <!-- Device Dependencies -->
   <project path="device/nothing/phone2" name="AOSPA/android_device_nothing_phone2" remote="aospa" revision="vauxite" />
-  <project path="device/nothing/phone2-kernel" name="AOSPA/android_device_nothing_phone2-kernel" remote="aospa" revision="vauxite" />
   <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="vauxite" />
   <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="blobs" revision="vauxite" clone-depth="1" />
   <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="blobs-gitlab" revision="vauxite" clone-depth="1" />
