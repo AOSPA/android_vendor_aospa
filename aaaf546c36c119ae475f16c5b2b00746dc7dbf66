@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "083cd063_fe442536",
+        "filename": "vars/kplatform",
+        "patchSetId": 14
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000889
+      },
+      "writtenOn": "2024-10-25T12:36:06Z",
+      "side": 1,
+      "message": "Why 13.2.6? Shouldn\u0027t it be 13.2.0?",
+      "revId": "aaaf546c36c119ae475f16c5b2b00746dc7dbf66",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
