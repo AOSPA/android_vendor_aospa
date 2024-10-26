@@ -34,6 +34,24 @@
       "parentUuid": "083cd063_fe442536",
       "revId": "aaaf546c36c119ae475f16c5b2b00746dc7dbf66",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0be66f5e_28ce8c3f",
+        "filename": "vars/kplatform",
+        "patchSetId": 14
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000889
+      },
+      "writtenOn": "2024-10-26T09:10:37Z",
+      "side": 1,
+      "message": "Yeah, it\u0027s LA.VENDOR.13.2.0.r1-07300-KAILUA.0 there.\nFor my device stock tag is LA.VENDOR.13.2.0.r1-12000-KAILUA.0 as per the manufacturer.\nSo it seems like this shouldn\u0027t be 13.2.6.",
+      "parentUuid": "da5233b9_9f88cfcf",
+      "revId": "aaaf546c36c119ae475f16c5b2b00746dc7dbf66",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
