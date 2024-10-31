@@ -42,6 +42,10 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# Component overrides
+PRODUCT_COPY_FILES += \
+    vendor/aospa/target/config/component-overrides-aospa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/component-overrides-aospa.xml
+
 # curl
 PRODUCT_PACKAGES += \
     curl
