@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2898a30_cb45e89e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-11-06T15:50:13Z",
+      "side": 1,
+      "message": "merge other devices whenever they are ready",
+      "revId": "28931cd7e6a4ce870776db98b0b9909f53a2f333",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
