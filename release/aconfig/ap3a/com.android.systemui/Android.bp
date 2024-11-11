@@ -4,7 +4,7 @@
 //
 
 aconfig_values {
-    name: "aconfig-values-ap3a-com.android.systemui.flags-all",
+    name: "aconfig-values-ap3a-com.android.systemui-all",
     package: "com.android.systemui",
     srcs: [
         "*.textproto",
