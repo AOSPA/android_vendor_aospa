@@ -175,6 +175,23 @@ camera_override_format_from_reserved {
     },
 }
 
+soong_config_module_type {
+    name: "report_a2dp_return_delay_to_btaudiohal_in_ns",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    bool_variables: ["report_a2dp_return_delay_to_btaudiohal_in_ns"],
+    properties: ["cppflags"],
+}
+
+report_a2dp_return_delay_to_btaudiohal_in_ns {
+    name: "report_a2dp_return_delay_to_btaudiohal_in_ns_defaults",
+    soong_config_variables: {
+        report_a2dp_return_delay_to_btaudiohal_in_ns: {
+            cppflags: ["-DTARGET_SUPPORTS_A2DP_RETURN_DELAY_IN_NS"],
+        },
+    },
+}
+
 surfaceflinger_udfps_lib {
     name: "surfaceflinger_udfps_lib_defaults",
     soong_config_variables: {

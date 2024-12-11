@@ -20,6 +20,7 @@ SOONG_CONFIG_aospaGlobalVars += \
     camera_override_format_from_reserved \
     needs_camera_boottime \
     powershare_node \
+    report_a2dp_return_delay_to_btaudiohal_in_ns \
     target_camera_package_name \
     target_health_charging_control_charging_enabled \
     target_health_charging_control_charging_disabled \
@@ -45,12 +46,14 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS ?= true
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE ?= false
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE ?= true
 TARGET_INIT_VENDOR_LIB ?= vendor_init
+TARGET_SUPPORTS_A2DP_RETURN_DELAY_IN_NS ?= true
 TARGET_SURFACEFLINGER_UDFPS_LIB ?= surfaceflinger_udfps_lib
 
 # Soong value variables
 SOONG_CONFIG_aospaGlobalVars_camera_override_format_from_reserved := $(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED)
 SOONG_CONFIG_aospaGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_aospaGlobalVars_powershare_node := $(TARGET_POWERSHARE_NODE)
+SOONG_CONFIG_aospaGlobalVars_report_a2dp_return_delay_to_btaudiohal_in_ns := $(TARGET_SUPPORTS_A2DP_RETURN_DELAY_IN_NS)
 SOONG_CONFIG_aospaGlobalVars_target_camera_package_name := $(TARGET_CAMERA_PACKAGE_NAME)
 SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
 SOONG_CONFIG_aospaGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET_LD_SHIM_LIBS))
