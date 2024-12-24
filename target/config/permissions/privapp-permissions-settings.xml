@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.launcher3">
+        <permission name="android.permission.ACCESS_CONTEXTUAL_SEARCH"/>
+    </privapp-permissions>
+</permissions>
