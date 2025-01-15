@@ -144,4 +144,7 @@
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
+    <!-- Biometric Dialog values -->
+    <integer name="biometric_dialog_text_gravity">1</integer> <!-- CENTER_HORIZONTAL -->
+
 </resources>
