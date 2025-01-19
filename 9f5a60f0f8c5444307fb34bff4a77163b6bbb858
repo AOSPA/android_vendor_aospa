@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df4ecf6e_ecf770fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001069
+      },
+      "writtenOn": "2025-01-19T10:33:55Z",
+      "side": 1,
+      "message": "Buildable\nThis is to fix some Russian telecom operators",
+      "revId": "9f5a60f0f8c5444307fb34bff4a77163b6bbb858",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
