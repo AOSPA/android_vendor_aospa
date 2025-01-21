@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9d161ce_ffd0deac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000889
+      },
+      "writtenOn": "2025-01-21T14:32:43Z",
+      "side": 1,
+      "message": "https://github.com/anonymix007/android_device_nubia_nx729j/commit/3d1fb010b7fa8fe819050d98bc4406315a057e9f",
+      "revId": "2ae4ba3c7688446dae88feda91aecd81afec9596",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
