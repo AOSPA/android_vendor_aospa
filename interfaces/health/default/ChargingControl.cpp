@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2023 The LineageOS Project
+ * Copyright (C) 2022-2025 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -53,6 +53,9 @@ static const std::vector<std::string> kChargingDeadlineNodes = {
 
 ChargingControl::ChargingControl() : mChargingEnabledNode(nullptr), mChargingDeadlineNode(nullptr) {
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE
+#ifdef HEALTH_CHARGING_CONTROL_CHARGING_PATH
+    mChargingEnabledNode = &kChargingEnabledNodes[0];
+#else
     while (!mChargingEnabledNode) {
         for (const auto& node : kChargingEnabledNodes) {
             for (int retries = 0; retries < OPEN_RETRY_COUNT; retries++) {
@@ -65,6 +68,7 @@ ChargingControl::ChargingControl() : mChargingEnabledNode(nullptr), mChargingDea
             }
         }
     }
+#endif
 #endif
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE
