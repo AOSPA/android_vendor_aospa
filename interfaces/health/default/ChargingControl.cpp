@@ -92,7 +92,7 @@ ndk::ScopedAStatus ChargingControl::getChargingEnabled(bool* _aidl_return) {
     std::string content;
     if (!android::base::ReadFileToString(mChargingEnabledNode->path, &content, true)) {
         LOG(ERROR) << "Failed to read current charging enabled value";
-        return ndk::ScopedAStatus::fromExceptionCode(EX_ILLEGAL_STATE);
+        return ndk::ScopedAStatus::fromExceptionCode(EX_UNSUPPORTED_OPERATION);
     }
 
     content = android::base::Trim(content);
@@ -114,7 +114,7 @@ ndk::ScopedAStatus ChargingControl::setChargingEnabled(bool enabled) {
             enabled ? mChargingEnabledNode->value_true : mChargingEnabledNode->value_false;
     if (!android::base::WriteStringToFile(value, mChargingEnabledNode->path, true)) {
         LOG(ERROR) << "Failed to write to charging enable node: " << strerror(errno);
-        return ndk::ScopedAStatus::fromExceptionCode(EX_ILLEGAL_STATE);
+        return ndk::ScopedAStatus::fromExceptionCode(EX_UNSUPPORTED_OPERATION);
     }
 
     return ndk::ScopedAStatus::ok();
