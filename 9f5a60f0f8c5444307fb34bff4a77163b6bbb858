@@ -16,6 +16,23 @@
       "message": "Buildable\nThis is to fix some Russian telecom operators",
       "revId": "9f5a60f0f8c5444307fb34bff4a77163b6bbb858",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9e9991a_dea5b55a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2025-01-22T16:18:09Z",
+      "side": 1,
+      "message": "i don\u0027t know what made you think pushing a 27k LOC change would be mergeable, but please limit the change to affected operators",
+      "revId": "9f5a60f0f8c5444307fb34bff4a77163b6bbb858",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
