@@ -18,6 +18,6 @@ cc_binary {
     shared_libs: [
         "libbase",
         "libbinder_ndk",
-        "vendor.lineage.health-V1-ndk",
+        "vendor.lineage.health-V2-ndk",
     ],
 }
