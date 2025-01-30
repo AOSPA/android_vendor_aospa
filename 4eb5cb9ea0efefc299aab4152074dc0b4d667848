@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "208a4658_654b0466",
+        "filename": "build.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2025-01-30T05:52:06Z",
+      "side": 1,
+      "message": "modify this to exclude old kernels instead",
+      "revId": "4eb5cb9ea0efefc299aab4152074dc0b4d667848",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
