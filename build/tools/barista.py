@@ -168,6 +168,8 @@ def main():
                     )
 
         existing = barista_manifest.find(f".//project[@path='{path}']")
+        if existing is None:
+            existing = barista_manifest.find(f".//project[@name='{path}']")
 
         if existing is None:
             barista_manifest.append(project)
