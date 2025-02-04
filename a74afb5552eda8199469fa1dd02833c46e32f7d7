@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cf9b6d9_6b7361a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000804
+      },
+      "writtenOn": "2025-02-04T10:41:24Z",
+      "side": 1,
+      "message": "Works fine, tested on Nothing Phone 1",
+      "revId": "a74afb5552eda8199469fa1dd02833c46e32f7d7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
