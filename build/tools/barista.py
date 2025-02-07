@@ -62,6 +62,10 @@ def blend_includes(manifest: Element) -> Element:
 
 def grind_beans(device: str) -> list[Element]:
     """Parse the AOSPA XML file (beans) for the given device."""
+    # Clear any existing manifest to avoid stale references
+    if BARISTA_BLEND_PATH.exists():
+        BARISTA_BLEND_PATH.unlink()
+
     beans_path = Path(BARISTA_BEANS_PATH.format(device))
     if not beans_path.is_file():
         raise FileNotFoundError(f"No beans found for the device ({device}).")
