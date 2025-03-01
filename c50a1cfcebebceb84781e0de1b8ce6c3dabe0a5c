@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f60e655e_ba4c2a2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2025-03-01T04:54:45Z",
+      "side": 1,
+      "message": "+2 but only because I choose to",
+      "revId": "c50a1cfcebebceb84781e0de1b8ce6c3dabe0a5c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
