@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/pineapple.xml" />
+
+  <project path="device/nubia/caza" name="BladeRunner-A2C/android_device_nubia_caza" remote="github" revision="vauxite" />
+  <project path="device/nubia/caza-kernel" name="BladeRunner-A2C/android_device_nubia_caza-kernel" remote="github" revision="vauxite" clone-depth="1" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="vauxite-8450" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="vauxite-8450" />
+  <project path="vendor/nubia/caza" name="vendor_nubia_caza" remote="github" revision="vauxite" clone-depth="1" />
+</manifest>
