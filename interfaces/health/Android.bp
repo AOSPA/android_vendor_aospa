@@ -1,7 +1,8 @@
-//
-// SPDX-FileCopyrightText: The LineageOS Project
-// SPDX-License-Identifier: Apache-2.0
-//
+/*
+ * Copyright (C) 2022-2025 The LineageOS Project
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
 aidl_interface {
     name: "vendor.lineage.health",
@@ -18,10 +19,12 @@ aidl_interface {
             sdk_version: "module_current",
         },
     },
+    frozen: true,
     versions_with_info: [
         {
             version: "1",
             imports: [],
         },
     ],
+
 }
