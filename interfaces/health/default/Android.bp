@@ -16,6 +16,12 @@ cc_binary {
     }) + select(soong_config_variable("lineage_health", "charging_control_deadline_path"), {
         any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_DEADLINE_PATH=\"" + flag_val + "\""],
         default: [],
+    }) + select(soong_config_variable("lineage_health", "charging_control_limit_start_path"), {
+        any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_LIMIT_START_PATH=\"" + flag_val + "\""],
+        default: [],
+    }) + select(soong_config_variable("lineage_health", "charging_control_limit_stop_path"), {
+        any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_LIMIT_STOP_PATH=\"" + flag_val + "\""],
+        default: [],
     }) + select(soong_config_variable("lineage_health", "charging_control_charging_enabled"), {
         any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_CHARGING_ENABLED=\"" + flag_val + "\""],
         default: ["-DHEALTH_CHARGING_CONTROL_CHARGING_ENABLED=\"1\""],

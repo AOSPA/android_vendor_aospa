@@ -54,8 +54,13 @@ static const std::vector<std::string> kChargingDeadlineNodes = {
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT
 static const std::vector<ChargingLimitNode> kChargingLimitNodes = {
+#if defined(HEALTH_CHARGING_CONTROL_LIMIT_START_PATH) && defined(HEALTH_CHARGING_CONTROL_LIMIT_STOP_PATH)
+        {HEALTH_CHARGING_CONTROL_LIMIT_START_PATH,
+         HEALTH_CHARGING_CONTROL_LIMIT_STOP_PATH},
+#else
         {"/sys/devices/platform/google,charger/charge_start_level",
          "/sys/devices/platform/google,charger/charge_stop_level"},
+#endif
 };
 #endif
 
@@ -108,6 +113,9 @@ ChargingControl::ChargingControl()
 #endif
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT
+#if defined(HEALTH_CHARGING_CONTROL_LIMIT_START_PATH) && defined(HEALTH_CHARGING_CONTROL_LIMIT_STOP_PATH)
+    mChargingLimitNode = kChargingLimitNodes[0];
+#else
     while (!mChargingLimitNode) {
         for (const auto& node : kChargingLimitNodes) {
             for (int retries = 0; retries < OPEN_RETRY_COUNT; retries++) {
@@ -125,6 +133,7 @@ ChargingControl::ChargingControl()
             }
         }
     }
+#endif
 #endif
 }
 
