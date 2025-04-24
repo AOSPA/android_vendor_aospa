@@ -44,8 +44,11 @@ static const std::vector<ChargingEnabledNode> kChargingEnabledNodes = {
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE
 static const std::vector<std::string> kChargingDeadlineNodes = {
+#ifdef HEALTH_CHARGING_CONTROL_DEADLINE_PATH
         HEALTH_CHARGING_CONTROL_DEADLINE_PATH,
+#else
         "/sys/class/power_supply/battery/charge_deadline",
+#endif
 };
 #endif
 
@@ -83,6 +86,9 @@ ChargingControl::ChargingControl()
 #endif
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE
+#ifdef HEALTH_CHARGING_CONTROL_DEADLINE_PATH
+    mChargingEnabledNode = &kChargingDeadlineNodes[0];
+#else
     while (!mChargingDeadlineNode) {
         for (const auto& node : kChargingDeadlineNodes) {
             for (int retries = 0; retries < OPEN_RETRY_COUNT; retries++) {
@@ -98,6 +104,7 @@ ChargingControl::ChargingControl()
             }
         }
     }
+#endif
 #endif
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT
