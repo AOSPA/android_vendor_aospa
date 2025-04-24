@@ -6,11 +6,39 @@
 
 cc_binary {
     name: "vendor.lineage.health-service.default",
-    defaults: ["health_charging_control_defaults"],
     vendor: true,
     relative_install_path: "hw",
     init_rc: ["vendor.lineage.health-service.default.rc"],
     vintf_fragments: ["vendor.lineage.health-service.default.xml"],
+    cflags: select(soong_config_variable("lineage_health", "charging_control_charging_path"), {
+        any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_CHARGING_PATH=\"" + flag_val + "\""],
+        default: [],
+    }) + select(soong_config_variable("lineage_health", "charging_control_deadline_path"), {
+        any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_DEADLINE_PATH=\"" + flag_val + "\""],
+        default: [],
+    }) + select(soong_config_variable("lineage_health", "charging_control_charging_enabled"), {
+        any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_CHARGING_ENABLED=\"" + flag_val + "\""],
+        default: ["-DHEALTH_CHARGING_CONTROL_CHARGING_ENABLED=\"1\""],
+    }) + select(soong_config_variable("lineage_health", "charging_control_charging_disabled"), {
+        any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_CHARGING_DISABLED=\"" + flag_val + "\""],
+        default: ["-DHEALTH_CHARGING_CONTROL_CHARGING_DISABLED=\"0\""],
+    }) + select(soong_config_variable("lineage_health", "charging_control_supports_bypass"), {
+        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS"],
+        "false": [],
+        default: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS"],
+    }) + select(soong_config_variable("lineage_health", "charging_control_supports_deadline"), {
+        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE"],
+        "false": [],
+        default: [],
+    }) + select(soong_config_variable("lineage_health", "charging_control_supports_limit"), {
+        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT"],
+        "false": [],
+        default: [],
+    }) + select(soong_config_variable("lineage_health", "charging_control_supports_toggle"), {
+        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
+        "false": [],
+        default: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
+    }),
     srcs: [
         "service.cpp",
         "ChargingControl.cpp",
