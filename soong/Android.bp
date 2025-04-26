@@ -1,3 +1,7 @@
+//
+// SPDX-FileCopyrightText: Paranoid Android
+// SPDX-License-Identifier: Apache-2.0
+//
 // AOSPA Soong Configurations
 
 soong_config_module_type {

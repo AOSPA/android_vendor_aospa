@@ -1,3 +1,8 @@
+//
+// SPDX-FileCopyrightText: Paranoid Android
+// SPDX-License-Identifier: Apache-2.0
+//
+
 soong_config_module_type {
     name: "powerfeature_cc_defaults",
     module_type: "cc_defaults",
