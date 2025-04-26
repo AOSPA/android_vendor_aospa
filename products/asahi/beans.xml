@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/pineapple.xml" />
+
+  <project path="device/sony/asahi" name="BladeRunner-A2C/device_sony_asahi" remote="github" revision="vauxite" />
+  <project path="device/sony/asahi-kernel" name="BladeRunner-A2C/device_sony_asahi-kernel" remote="github" revision="vauxite" />
+  <project path="hardware/sony" name="AOSPA-Overlook/ android_hardware_sony" remote="github" revision="vauxite" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/sony/asahi" name="BladeRunner-A2C/vendor_sony_asahi" remote="github" revision="vauxite" />
+</manifest>
