@@ -114,7 +114,7 @@ ChargingControl::ChargingControl()
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT
 #if defined(HEALTH_CHARGING_CONTROL_LIMIT_START_PATH) && defined(HEALTH_CHARGING_CONTROL_LIMIT_STOP_PATH)
-    mChargingLimitNode = kChargingLimitNodes[0];
+    mChargingLimitNode = &kChargingLimitNodes[0];
 #else
     while (!mChargingLimitNode) {
         for (const auto& node : kChargingLimitNodes) {
