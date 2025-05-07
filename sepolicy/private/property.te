@@ -1,3 +1,6 @@
+# Lineage Health
+system_internal_prop(lineage_health_prop)
+
 # PIHooks
 system_public_prop(pih_disable_prop)
 
