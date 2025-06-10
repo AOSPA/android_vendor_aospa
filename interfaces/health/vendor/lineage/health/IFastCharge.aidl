@@ -13,7 +13,7 @@ interface IFastCharge {
     /**
      * Get supported fast charging modes.
      *
-     * @return A bitmap of upported fast charging modes, specified by {@link FastChargeMode}
+     * @return A bitmap of supported fast charging modes, specified by {@link FastChargeMode}
      *         If error:
      *         - Return service specific error with code STATUS_UNKNOWN
      */
