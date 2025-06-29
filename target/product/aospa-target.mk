@@ -175,6 +175,10 @@ PRODUCT_PACKAGES += \
 # Qualcomm Common
 $(call inherit-product, device/qcom/common/common.mk)
 
+# Quick Tap
+PRODUCT_PACKAGES += \
+    ColumbusService
+
 # Rescue Party
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
