@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c1bdcc5_10e2d2bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2025-07-28T17:40:59Z",
+      "side": 1,
+      "message": "the gms/vending components are disabled but not for settings intelligence, odd",
+      "revId": "e4c97e31d7fff77750462fa6d7e3bd5df5cd7825",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
