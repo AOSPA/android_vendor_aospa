@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2023 The LineageOS Project
+ * Copyright (C) 2022-2025 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -44,10 +44,23 @@ cc_binary {
         "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
         "false": [],
         default: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
+    }) + select(soong_config_variable("lineage_health", "fast_charge_node"), {
+        any @ flag_val: ["-DHEALTH_FAST_CHARGE_NODE=\"" + flag_val + "\""],
+        default: ["-DHEALTH_FAST_CHARGE_NODE="],
+    }) + select(soong_config_variable("lineage_health", "fast_charge_value_none"), {
+        any @ flag_val: ["-DHEALTH_FAST_CHARGE_VALUE_NONE=\"" + flag_val + "\""],
+        default: ["-DHEALTH_FAST_CHARGE_VALUE_NONE="],
+    }) + select(soong_config_variable("lineage_health", "fast_charge_value_fast_charge"), {
+        any @ flag_val: ["-DHEALTH_FAST_CHARGE_VALUE_FAST_CHARGE=\"" + flag_val + "\""],
+        default: ["-DHEALTH_FAST_CHARGE_VALUE_FAST_CHARGE="],
+    }) + select(soong_config_variable("lineage_health", "fast_charge_value_super_fast_charge"), {
+        any @ flag_val: ["-DHEALTH_FAST_CHARGE_VALUE_SUPER_FAST_CHARGE=\"" + flag_val + "\""],
+        default: ["-DHEALTH_FAST_CHARGE_VALUE_SUPER_FAST_CHARGE="],
     }),
     srcs: [
         "service.cpp",
         "ChargingControl.cpp",
+        "FastCharge.cpp",
     ],
     shared_libs: [
         "libbase",
