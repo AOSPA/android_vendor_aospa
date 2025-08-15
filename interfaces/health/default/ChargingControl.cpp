@@ -9,9 +9,7 @@
 #include <android-base/file.h>
 #include <android-base/logging.h>
 #include <android-base/strings.h>
-#include <android/binder_status.h>
 #include <fstream>
-#include "android/binder_auto_utils.h"
 
 #define LOG_TAG "vendor.lineage.health-service.default"
 
