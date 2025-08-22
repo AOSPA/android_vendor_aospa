@@ -34,5 +34,3 @@ function sort-blobs-list() {
     T=$(gettop)
     $T/tools/extract-utils/sort-blobs-list.py $@
 }
-
-export SKIP_ABI_CHECKS="true"
