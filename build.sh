@@ -218,7 +218,16 @@ if [ -d "$DIR_ROOT/kernel_platform/" ] && (
         EXTRA_KERNEL_FLAGS+=' RECOMPILE_KERNEL=1'
         [ -d "${TARGET_KERNEL_OUT}" ] && rm -r "${TARGET_KERNEL_OUT}"
     fi
-    eval "${EXTRA_KERNEL_FLAGS}" ANDROID_KERNEL_OUT="${TARGET_KERNEL_OUT}" KERNEL_VARIANT=gki ./kernel_platform/build/android/prepare_vendor.sh
+
+    case "${TARGET_KERNEL_VERSION}" in
+        6.6)
+        KERNEL_VARIANT=perf
+        ;;
+    *)
+        KERNEL_VARIANT=gki
+        ;;
+    esac
+    eval "${EXTRA_KERNEL_FLAGS}" ANDROID_KERNEL_OUT="${TARGET_KERNEL_OUT}" KERNEL_VARIANT="${KERNEL_VARIANT}" ./kernel_platform/build/android/prepare_vendor.sh
 fi
 
 # Build a specific module(s)
