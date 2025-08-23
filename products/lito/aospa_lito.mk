@@ -24,12 +24,12 @@ PRODUCT_DEVICE := lito
 PRODUCT_MODEL := lito for arm64
 
 PRODUCT_GMS_CLIENTID_BASE := android-qualcomm
-PRODUCT_SYSTEM_NAME := lito
-PRODUCT_SYSTEM_DEVICE := lito
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    DeviceName=lito \
+    DeviceProduct=lito \
+    SystemDevice=lito \
+    SystemName=lito
 
 endif

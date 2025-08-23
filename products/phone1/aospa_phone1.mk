@@ -26,8 +26,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=Spacewar \
-    TARGET_PRODUCT=Spacewar
+    DeviceName=Spacewar \
+    DeviceProduct=Spacewar \
+    SystemDevice=Spacewar \
+    SystemName=Spacewar
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 

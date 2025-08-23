@@ -28,12 +28,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Lahaina for arm64"
 
 PRODUCT_GMS_CLIENTID_BASE := android-qualcomm
-PRODUCT_SYSTEM_NAME := lahaina
-PRODUCT_SYSTEM_DEVICE := lahaina
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    DeviceName=lahaina \
+    DeviceProduct=lahaina \
+    SystemDevice=lahaina \
+    SystemName=lahaina
 
 endif

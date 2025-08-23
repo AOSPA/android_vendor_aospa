@@ -26,8 +26,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=Pong \
-    TARGET_PRODUCT=Pong
+    DeviceName=Pong \
+    DeviceProduct=Pong \
+    SystemDevice=Pong \
+    SystemName=Pong
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
