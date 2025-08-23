@@ -28,11 +28,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1440
 
-PRODUCT_SYSTEM_NAME := OnePlus7Pro
-PRODUCT_SYSTEM_DEVICE := OnePlus7Pro
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=OnePlus7Pro \
-    TARGET_PRODUCT=OnePlus7Pro
+    DeviceName=OnePlus7Pro \
+    DeviceProduct=OnePlus7Pro \
+    SystemDevice=OnePlus7Pro \
+    SystemName=OnePlus7Pro
 
 endif

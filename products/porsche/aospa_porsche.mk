@@ -21,15 +21,14 @@ PRODUCT_MANUFACTURER := realme
 PRODUCT_MODEL := realme GT 2
 PRODUCT_NAME := aospa_porsche
 
-PRODUCT_SYSTEM_NAME := RE58B2L1
-PRODUCT_SYSTEM_DEVICE := RE58B2L1
-
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    DeviceName=RE58B2L1 \
+    DeviceProduct=RE58B2L1 \
+    SystemDevice=RE58B2L1 \
+    SystemName=RE58B2L1
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080

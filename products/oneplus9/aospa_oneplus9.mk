@@ -21,12 +21,11 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := LE2115
 PRODUCT_NAME := aospa_oneplus9
 
-PRODUCT_SYSTEM_NAME := OnePlus9
-PRODUCT_SYSTEM_DEVICE := OnePlus9
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    DeviceName=OnePlus9 \
+    DeviceProduct=OnePlus9 \
+    SystemDevice=OnePlus9 \
+    SystemName=OnePlus9
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
