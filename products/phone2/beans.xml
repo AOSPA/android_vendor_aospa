@@ -8,7 +8,7 @@
   <include name="../platforms/taro.xml" />
 
   <!-- Kernel Dependencies -->
-  <project path="kernel_platform/msm-kernel" name="AOSPA/android_kernel_nothing_sm8475" remote="aospa" revision="vauxite" >
+  <project path="kernel_platform/msm-kernel" name="AOSPA/android_kernel_nothing_sm8475" remote="aospa" revision="beryl" >
     <linkfile src="build.config.msm.waipio" dest="kernel_platform/common/build.config.msm.waipio" />
     <linkfile src="build.config.msm.waipio.tuivm" dest="kernel_platform/common/build.config.msm.waipio.tuivm" />
     <linkfile src="build.config.msm.lahaina" dest="kernel_platform/common/build.config.msm.lahaina" />
@@ -31,8 +31,8 @@
   <project path="vendor/qcom/proprietary/display-devicetree" name="AOSPA/vendor_qcom_proprietary_display-devicetree" remote="aospa" revision="phone2" />
 
   <!-- Device Dependencies -->
-  <project path="device/nothing/phone2" name="AOSPA/android_device_nothing_phone2" remote="aospa" revision="vauxite" />
-  <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="vauxite" />
-  <project path="vendor/nothing/phone2" name="proprietary_vendor_nothing_phone2" remote="blobs" revision="vauxite" clone-depth="1" />
-  <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="blobs-gitlab" revision="vauxite" clone-depth="1" />
+  <project path="device/nothing/phone2" name="AOSPA/android_device_nothing_phone2" remote="aospa" revision="beryl" />
+  <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="beryl" />
+  <project path="vendor/nothing/phone2" name="proprietary_vendor_nothing_phone2" remote="blobs" revision="beryl" clone-depth="1" />
+  <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="blobs-gitlab" revision="beryl" clone-depth="1" />
 </manifest>
