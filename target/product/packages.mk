@@ -47,9 +47,9 @@ endif
 PRODUCT_PACKAGES += \
     init.aospa-hub.rc
 
-# Paranoid ThemePicker
+# Theme Picker
 PRODUCT_PACKAGES += \
-    ParanoidThemePicker
+    ThemePicker
 
 # Gestures
 PRODUCT_PACKAGES += \
