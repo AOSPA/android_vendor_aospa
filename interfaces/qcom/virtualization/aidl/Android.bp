@@ -1,0 +1,34 @@
+aidl_interface {
+    name: "vendor.qti.qvirt",
+    srcs: ["vendor/qti/qvirt/*.aidl"],
+    product_available: true,
+    vendor_available: true,
+    stability: "vintf",
+    owner: "qti",
+    backend: {
+        java: {
+            sdk_version: "module_current",
+        },
+        cpp: {
+            enabled: false,
+        },
+        ndk: {
+            enabled: true,
+        },
+        rust: {
+            enabled: true,
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+        {
+            version: "2",
+            imports: [],
+        },
+
+    ],
+    frozen: true,
+}
