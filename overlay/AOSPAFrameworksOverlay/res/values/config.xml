@@ -27,6 +27,7 @@
         <item>"/vendor/lib64/libllvm-glnext.so"</item>
         <item>"/vendor/lib64/libllvm-qcom.so"</item>
         <item>"/vendor/lib64/libllvm-qgl.so"</item>
+        <item>"/vendor/lib64/libsdmextension.so"</item>
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
     </string-array>
