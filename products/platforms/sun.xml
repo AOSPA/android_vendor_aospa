@@ -9,7 +9,6 @@
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="xiaomi-8750/android_vendor_qcom_opensource_audio-hal_st-hal" remote="aospa" revision="beryl-8750" />
   <project path="vendor/qcom/opensource/audioreach-graphservices" name="xiaomi-8750/android_vendor_qcom_opensource_audioreach-graphservices" remote="aospa" revision="beryl-8750" />
   <project path="vendor/qcom/opensource/dataipa" name="xiaomi-8750/android_vendor_qcom_opensource_dataipa" remote="aospa" revision="beryl-8750"/>
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="xiaomi-8750/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" revision="beryl-8750"/>
   <project path="vendor/qcom/opensource/display-core" name="xiaomi-8750/android_vendor_qcom_opensource_display-core" remote="aospa" revision="beryl-8750"/>
   <project path="vendor/qcom/opensource/display-intf" name="xiaomi-8750/android_vendor_qcom_opensource_display-intf" remote="aospa" revision="beryl-8750"/>
   <project path="vendor/qcom/opensource/pal" name="xiaomi-8750/android_vendor_qcom_opensource_arpal-lx" remote="aospa" revision="beryl-8750"/>
