@@ -29,20 +29,20 @@ cc_binary {
         any @ flag_val: ["-DHEALTH_CHARGING_CONTROL_CHARGING_DISABLED=\"" + flag_val + "\""],
         default: ["-DHEALTH_CHARGING_CONTROL_CHARGING_DISABLED=\"0\""],
     }) + select(soong_config_variable("lineage_health", "charging_control_supports_bypass"), {
-        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS"],
-        "false": [],
+        true: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS"],
+        false: [],
         default: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS"],
     }) + select(soong_config_variable("lineage_health", "charging_control_supports_deadline"), {
-        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE"],
-        "false": [],
+        true: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE"],
+        false: [],
         default: [],
     }) + select(soong_config_variable("lineage_health", "charging_control_supports_limit"), {
-        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT"],
-        "false": [],
+        true: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_LIMIT"],
+        false: [],
         default: [],
     }) + select(soong_config_variable("lineage_health", "charging_control_supports_toggle"), {
-        "true": ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
-        "false": [],
+        true: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
+        false: [],
         default: ["-DHEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE"],
     }) + select(soong_config_variable("lineage_health", "fast_charge_node"), {
         any @ flag_val: ["-DHEALTH_FAST_CHARGE_NODE=\"" + flag_val + "\""],
