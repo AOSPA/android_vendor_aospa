@@ -10,6 +10,7 @@ PRODUCT_PACKAGES += \
     AOSPAImmersiveNavigationOverlay \
     AOSPANetworkStackOverlay \
     AOSPANetworkStackMainlineOverlay \
+    AOSPAOverlayStub \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
