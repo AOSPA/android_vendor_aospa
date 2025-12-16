@@ -3,13 +3,13 @@
   <!-- AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.184 -->
   <project name="AOSPA/kernel_platform_build" path="kernel_platform/build" remote="aospa" revision="waipio" />
   <project name="AOSPA/android_kernel_qcom_sm8450" path="kernel_platform/common" remote="aospa" revision="beryl" />
-  <project name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="79565e976b109188afbe3b299b4683920a48860b" upstream="refs/heads/kernel.lnx.5.10.r1-rel" remote="clo-la">
+  <project name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="6f203f706f75a9307a944ad80b1cfc956ee5ffbc" upstream="refs/heads/kernel.lnx.5.10.r1-rel" remote="clo-la">
     <linkfile src="build.config.msm.waipio" dest="kernel_platform/common/build.config.msm.waipio" />
     <linkfile src="build.config.msm.waipio.tuivm" dest="kernel_platform/common/build.config.msm.waipio.tuivm" />
     <linkfile src="build.config.msm.lahaina" dest="kernel_platform/common/build.config.msm.lahaina" />
   </project>
   <project name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="1f4f639c8b5e34e005c6cdcec19c05defca59e37" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" remote="clo-la" clone-depth="1" />
-  <project name="kernel_platform/external/dtc" revision="6b9782623c17de2dbac8fbd36b07d9cb1c832774" upstream="refs/heads/kernel.build.lnx.1.0.r1-rel" remote="clo-la" />
+  <project name="kernel_platform/external/dtc" revision="688b3c437753c3486a360955034cd0add45450b4" upstream="refs/heads/kernel.build.lnx.1.0.r1-rel" remote="clo-la" />
   <project name="kernel_platform/kernel/prebuilts/mainline/arm64" revision="de12e10cfe8d67d5c0627069306fda939f52154a" upstream="refs/heads/kernel.lnx.5.10.r1-rel" remote="clo-la" clone-depth="1" />
   <project name="kernel_platform/prebuilts/build-tools" revision="846214bd11004546cd3fc2590c73c628fcd6778c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" remote="clo-la" clone-depth="1" />
   <project name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="08410f46318f3f301b96ed058466ab0dde0b050b" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" remote="clo-la" />
@@ -25,34 +25,34 @@
     <linkfile src="mmrm_kernel_board.mk" dest="vendor/qcom/defs/board-defs/vendor/mmrm_kernel_board.mk" />
     <linkfile src="mmrm_kernel_product.mk" dest="vendor/qcom/defs/product-defs/vendor/mmrm_kernel_product.mk" />
   </project>
-  <project name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver" revision="b7f1722c7033a57e62b83ddc922f79244c5a29c0" upstream="refs/heads/video-kernel-waipio.lnx.1.0.r2-rel" groups="cyborg" remote="clo-la">
+  <project name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver" revision="66256693d2930b5846686fa1894fd42e8b7b8d5a" upstream="refs/heads/video-kernel-waipio.lnx.1.0.r2-rel" groups="cyborg" remote="clo-la">
     <linkfile src="video_kernel_product.mk" dest="vendor/qcom/defs/product-defs/vendor/video_kernel_product.mk" />
     <linkfile src="video_kernel_board.mk" dest="vendor/qcom/defs/board-defs/vendor/video_kernel_board.mk" />
   </project>
   <!-- AU_TECHPACK_CAMERA.LA.2.0.R1.00.00.00.000.125 -->
-  <project name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="fecedcb2ffe640aa572c2b6b1a0bc88590e0f582" upstream="refs/heads/camera-kernel.lnx.5.0.r2-rel" remote="clo-la">
+  <project name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel" revision="66daa58f92d5af6a3f33032be7d51542618ffa04" upstream="refs/heads/camera-kernel.lnx.5.0.r2-rel" remote="clo-la">
     <linkfile src="board.mk" dest="vendor/qcom/defs/board-defs/vendor/camera-kernel_board.mk" />
     <linkfile src="product.mk" dest="vendor/qcom/defs/product-defs/vendor/camera-kernel_product.mk" />
   </project>
   <!-- Base Manifest -->
   <project name="AOSPA/android_kernel_qcom-headers" path="kernel/qcom-headers" remote="aospa" />
-  <project name="platform/vendor/opensource/cvp-kernel" path="vendor/qcom/opensource/cvp-kernel" revision="a63449c176fb3d01268d6b35ba71c336a1e8cc54" upstream="refs/heads/cvp-kernel.lnx.1.0.r1-rel" remote="clo-la">
+  <project name="platform/vendor/opensource/cvp-kernel" path="vendor/qcom/opensource/cvp-kernel" revision="20dab65c3c45e2dc78de69c748d30232a2d6b6b9" upstream="refs/heads/cvp-kernel.lnx.1.0.r1-rel" remote="clo-la">
     <linkfile src="cvp_kernel_product.mk" dest="vendor/qcom/defs/product-defs/vendor/cvp_kernel_product.mk" />
     <linkfile src="cvp_kernel_board.mk" dest="vendor/qcom/defs/board-defs/vendor/cvp_kernel_board.mk" />
   </project>
-  <project name="platform/vendor/opensource/dataipa" path="vendor/qcom/opensource/dataipa" revision="83d2d913036b28d4f4f8ad4c55f01a78e66819a1" upstream="refs/heads/data-kernel.lnx.1.2.r3-rel" remote="clo-la">
+  <project name="platform/vendor/opensource/dataipa" path="vendor/qcom/opensource/dataipa" revision="3d754dddeac1b3ffd16e736636890b400e4f2148" upstream="refs/heads/data-kernel.lnx.1.2.r3-rel" remote="clo-la">
     <linkfile src="dataipa_dlkm_vendor_board.mk" dest="vendor/qcom/defs/board-defs/vendor/dataipa_dlkm_vendor_board.mk" />
     <linkfile src="dataipa_dlkm_vendor_product.mk" dest="vendor/qcom/defs/product-defs/vendor/dataipa_dlkm_vendor_product.mk" />
   </project>
-  <project name="platform/vendor/opensource/eva-kernel" path="vendor/qcom/opensource/eva-kernel" revision="3630b89078519b4b5465929ac353597f7371e410" upstream="refs/heads/eva-kernel.lnx.1.0.r1-rel" remote="clo-la">
+  <project name="platform/vendor/opensource/eva-kernel" path="vendor/qcom/opensource/eva-kernel" revision="16723037d6bb5ad28f392739dbf50d9d7ece7c96" upstream="refs/heads/eva-kernel.lnx.1.0.r1-rel" remote="clo-la">
     <linkfile src="eva_kernel_product.mk" dest="vendor/qcom/defs/product-defs/vendor/eva_kernel_product.mk" />
     <linkfile src="eva_kernel_board.mk" dest="vendor/qcom/defs/board-defs/vendor/eva_kernel_board.mk" />
   </project>
   <project name="platform/vendor/opensource/touch-drivers" path="vendor/qcom/opensource/touch-drivers" revision="7bcfa88cc1988d8496b988020f10366dd145eef1" upstream="refs/heads/touch-kernel.lnx.5.10.r1-rel" remote="clo-la" />
-  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="24f05f3ca7b1ee3358b4af86a47f6caa8ac5b2b4" upstream="refs/heads/wlan-api.lnx.1.0.r68-rel" remote="clo-la" />
-  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="7c2686c39c10ea665666e2614c28937126359e8a" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.r30-rel" remote="clo-la" />
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="bc7de3c2d21593a542d5d745aff829e9bf8cb0ab" upstream="refs/heads/wlan-api.lnx.1.0.r68-rel" remote="clo-la" />
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="35ddfcc11e3d600ce6db98e661831dbe3ccd9208" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.r30-rel" remote="clo-la" />
   <project name="AOSPA/vendor_qcom_opensource_wlan_qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="aospa" revision="waipio" />
-  <project name="platform/vendor/qcom/opensource/audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" revision="c41e75552dc41e2b2b2afc443b214f9a124f4c8a" upstream="refs/heads/audio-kernel.lnx.5.10.r1-rel" remote="clo-la">
+  <project name="platform/vendor/qcom/opensource/audio-kernel-ar" path="vendor/qcom/opensource/audio-kernel" revision="ce0b734460af2424f68bf58f90eab71ea8983247" upstream="refs/heads/audio-kernel.lnx.5.10.r1-rel" remote="clo-la">
     <linkfile src="audio_kernel_vendor_board.mk" dest="vendor/qcom/defs/board-defs/vendor/audio_kernel_vendor_board.mk" />
     <linkfile src="audio_kernel_product_board.mk" dest="vendor/qcom/defs/product-defs/vendor/audio_kernel_product_board.mk" />
   </project>
