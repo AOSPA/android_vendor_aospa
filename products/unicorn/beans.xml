@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/taro.xml" />
+
+  <project path="device/xiaomi/unicorn" name="BladeRunner-A2C/device_xiaomi_unicorn" remote="github-ssh" revision="vauxite" />
+  <project path="device/xiaomi/unicorn-kernel" name="BladeRunner-A2C/device_xiaomi_unicorn-kernel" remote="github-ssh" revision="vauxite" />
+  <project path="device/xiaomi/sm8450-common" name="BladeRunner-A2C/device_xiaomi_sm8450-common" remote="github-ssh" revision="vauxite" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="vauxite-8450" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="vauxite-8450" />
+  <project path="vendor/xiaomi/unicorn" name="BladeRunner-A2C/vendor_xiaomi_unicorn" remote="github-ssh" revision="vauxite" />
+  <project path="vendor/xiaomi/sm8450-common" name="BladeRunner-A2C/vendor_xiaomi_sm8450-common" remote="github-ssh" revision="vauxite" />
+</manifest>
