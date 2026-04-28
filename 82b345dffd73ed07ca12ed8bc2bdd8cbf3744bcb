@@ -34,6 +34,24 @@
       "parentUuid": "151a5403_2de6b206",
       "revId": "82b345dffd73ed07ca12ed8bc2bdd8cbf3744bcb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73670c17_97437dd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2026-04-28T15:27:51Z",
+      "side": 1,
+      "message": "if so you should reverse the check, gki for 5.10, 5.15 and 6.1\nall of these should be forward-looking",
+      "parentUuid": "ed162599_b8ee83b4",
+      "revId": "82b345dffd73ed07ca12ed8bc2bdd8cbf3744bcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
