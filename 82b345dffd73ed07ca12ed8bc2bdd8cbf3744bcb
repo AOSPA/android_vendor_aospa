@@ -16,6 +16,24 @@
       "message": "is this something required only for 6.6? i guess we dont have 6.12 source to really tell",
       "revId": "82b345dffd73ed07ca12ed8bc2bdd8cbf3744bcb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed162599_b8ee83b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000895
+      },
+      "writtenOn": "2026-04-28T13:13:42Z",
+      "side": 1,
+      "message": "Yes only for \u003e\u003d6.6",
+      "parentUuid": "151a5403_2de6b206",
+      "revId": "82b345dffd73ed07ca12ed8bc2bdd8cbf3744bcb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
