@@ -4,5 +4,11 @@ persist.sys.pihooks.disable.            u:object_r:pih_disable_prop:s0
 # Recovery update
 persist.vendor.recovery_update          u:object_r:recovery_update_prop:s0
 
+# Custom version
+ro.aospa.version                        u:object_r:custom_version_prop:s0
+ro.aospa.version.major                  u:object_r:custom_version_prop:s0
+ro.aospa.version.minor                  u:object_r:custom_version_prop:s0
+ro.aospa.build.variant                  u:object_r:custom_version_prop:s0
+
 # Tethering
 persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0

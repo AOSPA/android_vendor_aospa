@@ -4,5 +4,8 @@ system_public_prop(pih_disable_prop)
 # Recovery update
 system_internal_prop(recovery_update_prop)
 
+# Custom version
+system_internal_prop(custom_version_prop)
+
 # Tethering
 system_internal_prop(device_config_tethering_prop)

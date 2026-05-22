@@ -1,0 +1,2 @@
+# Allow Settings to read custom version
+get_prop(system_app, custom_version_prop)
