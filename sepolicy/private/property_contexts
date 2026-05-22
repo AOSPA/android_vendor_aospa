@@ -2,6 +2,7 @@
 persist.sys.pihooks.disable.            u:object_r:pih_disable_prop:s0
 
 # Custom version
+ro.aospa.device                         u:object_r:custom_version_prop:s0
 ro.aospa.version                        u:object_r:custom_version_prop:s0
 ro.aospa.version.major                  u:object_r:custom_version_prop:s0
 ro.aospa.version.minor                  u:object_r:custom_version_prop:s0
