@@ -22,5 +22,5 @@ allow hub_app cache_recovery_file:file create_file_perms;
 allow hub_app ota_package_file:dir create_dir_perms;
 allow hub_app ota_package_file:file create_file_perms;
 
-get_prop(hub_app, default_prop)
+get_prop(hub_app, custom_version_prop)
 get_prop(hub_app, build_prop)
