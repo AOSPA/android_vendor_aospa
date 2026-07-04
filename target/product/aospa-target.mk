@@ -14,6 +14,9 @@ PRODUCT_PACKAGES += \
 # Some CTS test case failed after enabling feature config_stopSystemPackagesByDefault
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
+# Exclude repos from bp scanning
+PRODUCT_SOURCE_ROOT_DIRS += -prebuilts/misc/protobuf_vendorcompat
+
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
