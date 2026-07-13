@@ -2,7 +2,7 @@
 <manifest>
   <!-- AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.198 -->
   <project name="AOSPA/kernel_platform_build" path="kernel_platform/build" remote="aospa" revision="waipio" />
-  <project name="AOSPA/android_kernel_qcom_sm8450" path="kernel_platform/common" remote="aospa" revision="beryl" />
+  <project name="AOSPA/android_kernel_qcom_sm8450" path="kernel_platform/common" remote="aospa" revision="" />
   <project name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="736482b8dd62aa160e27c0b01797eb238c843cba" upstream="refs/heads/kernel.lnx.5.10.r1-rel" remote="clo-la">
     <linkfile src="build.config.msm.waipio" dest="kernel_platform/common/build.config.msm.waipio" />
     <linkfile src="build.config.msm.waipio.tuivm" dest="kernel_platform/common/build.config.msm.waipio.tuivm" />
