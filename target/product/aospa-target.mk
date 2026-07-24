@@ -143,17 +143,6 @@ ifneq ($(filter STABLE BETA,$(AOSPA_BUILDTYPE)),)
 PRODUCT_PACKAGES += ParanoidHub
 endif
 
-# Paranoid Sense
-PRODUCT_PACKAGES += \
-    ParanoidSense
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
-
-# Enable Sense service for 64-bit only
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.face.sense_service=$(TARGET_SUPPORTS_64_BIT_APPS)
-
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/default_permissions_com.google.android.deskclock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default_permissions_com.google.android.deskclock.xml \
