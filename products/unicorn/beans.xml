@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/taro.xml" />
+
+  <project path="device/xiaomi/unicorn" name="BladeRunner-A2C/device_xiaomi_unicorn" remote="github" revision="calcite" />
+  <project path="device/xiaomi/unicorn-kernel" name="BladeRunner-A2C/device_xiaomi_unicorn-kernel" remote="github" revision="calcite" clone-depth="1" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="calcite" />
+  <project path="vendor/xiaomi/unicorn" name="BladeRunner-A2C/vendor_xiaomi_unicorn" remote="github" revision="calcite" clone-depth="1" />
+  <project path="vendor/xiaomi/unicorn-firmware" name="BladeRunner-A2C/vendor_xiaomi_unicorn-firmware" remote="gitlab" revision="calcite" clone-depth="1" />
+  <project path="vendor/xiaomi/camera" name="BladeRunner-A2C/vendor_xiaomi_camera" remote="gitlab" revision="calcite-unicorn" clone-depth="1" />
+</manifest>
