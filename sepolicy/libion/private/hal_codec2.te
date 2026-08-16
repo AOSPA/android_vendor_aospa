@@ -1,0 +1,4 @@
+# Allow both server and client access to ion
+allow hal_codec2_server ion_device:chr_file r_file_perms;
+
+allow hal_codec2_client ion_device:chr_file r_file_perms;

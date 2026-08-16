@@ -1,0 +1,2 @@
+# use /dev/ion for screen capture
+allow dumpstate ion_device:chr_file r_file_perms;

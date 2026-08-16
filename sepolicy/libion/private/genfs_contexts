@@ -1,0 +1,4 @@
+genfscon sysfs /kernel/ion                        u:object_r:sysfs_ion:s0
+genfscon tracefs /events/kmem/ion_heap_grow/      u:object_r:debugfs_tracing:s0
+genfscon tracefs /events/kmem/ion_heap_shrink/    u:object_r:debugfs_tracing:s0
+genfscon tracefs /events/ion/ion_stat/            u:object_r:debugfs_tracing:s0

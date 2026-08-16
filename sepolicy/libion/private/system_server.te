@@ -1,0 +1,4 @@
+# Read /sys/kernel/ion/*.
+allow system_server sysfs_ion:file r_file_perms;
+
+allow system_server ion_device:chr_file r_file_perms;
