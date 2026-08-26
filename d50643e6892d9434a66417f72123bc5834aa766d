@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a9a2643_d7596911",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2026-08-26T02:40:43Z",
+      "side": 1,
+      "message": "if you are cleaning up do everything in one go",
+      "revId": "d50643e6892d9434a66417f72123bc5834aa766d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
