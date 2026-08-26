@@ -94,6 +94,11 @@
     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 
+    <!-- Whether device supports double tap to sleep. This will allow the user to enable/disable
+         double tap gestures in non-action areas in the lock screen and launcher workspace to go to
+         sleep. -->
+    <bool name="config_supportDoubleTapSleep">true</bool>
+
     <!-- Default value for performant auth feature. -->
     <bool name="config_performantAuthDefault">true</bool>
 
