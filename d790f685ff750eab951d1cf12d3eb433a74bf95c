@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57dedd95_3517cd9d",
+        "filename": "products/platforms/pineapple.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001176
+      },
+      "writtenOn": "2026-10-08T16:24:24Z",
+      "side": 1,
+      "message": "this should be only applied if audio is built from source",
+      "revId": "d790f685ff750eab951d1cf12d3eb433a74bf95c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
