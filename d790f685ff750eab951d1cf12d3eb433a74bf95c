@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "23d6e5f3_6db5bf3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000895
+      },
+      "writtenOn": "2026-10-10T01:48:21Z",
+      "side": 1,
+      "message": "just guard them for prebuilt",
+      "revId": "d790f685ff750eab951d1cf12d3eb433a74bf95c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "57dedd95_3517cd9d",
         "filename": "products/platforms/pineapple.xml",
         "patchSetId": 2
