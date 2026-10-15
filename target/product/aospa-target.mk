@@ -14,6 +14,14 @@ PRODUCT_PACKAGES += \
 # Some CTS test case failed after enabling feature config_stopSystemPackagesByDefault
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
+# Exclude repos from bp scanning
+PRODUCT_SOURCE_ROOT_DIRS += -prebuilts/misc/protobuf_vendorcompat \
+    -platform_testing/libraries/sdv \
+    -platform_testing/tests/sdv \
+    -platform_testing/libraries/automotive/display_safety \
+    -platform_testing/tests/automotive/display_safety \
+    -device/generic/trusty/microdroid
+
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
@@ -115,10 +123,6 @@ SYSTEMUI_OPTIMIZE_JAVA := true
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.arm64.memtag.system_server=off
 
-# Navigation
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-
 # One Handed Mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
@@ -133,6 +137,11 @@ $(call inherit-product-if-exists, vendor/aospa/translations/translations.mk)
 PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidSystemUI
+
+# Paranoid Hub (OTA)
+ifneq ($(filter STABLE BETA,$(AOSPA_BUILDTYPE)),)
+PRODUCT_PACKAGES += ParanoidHub
+endif
 
 # Paranoid Sense
 PRODUCT_PACKAGES += \

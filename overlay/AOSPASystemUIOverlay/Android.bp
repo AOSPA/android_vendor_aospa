@@ -6,5 +6,4 @@
 runtime_resource_overlay {
     name: "AOSPASystemUIOverlay",
     product_specific: true,
-    sdk_version: "current",
 }

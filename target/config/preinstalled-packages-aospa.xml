@@ -29,6 +29,12 @@
         <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
     </install-in-user-type>
 
+    <!--  PADoze  -->
+    <install-in-user-type package="co.aospa.doze">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+    </install-in-user-type>
+
     <!--  Nothing Camera  -->
     <install-in-user-type package="com.nothing.camera">
         <install-in user-type="SYSTEM" />

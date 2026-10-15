@@ -6,6 +6,5 @@
 runtime_resource_overlay {
     name: "FontUrbanistOverlay",
     product_specific: true,
-    sdk_version: "current",
     theme: "FontUrbanist",
 }

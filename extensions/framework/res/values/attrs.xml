@@ -30,5 +30,8 @@
         <attr name="showSign" format="boolean" />
         <attr name="units" format="string|reference" />
         <attr name="continuousUpdates" format="boolean" />
+        <attr name="textStart" format="string|reference" />
+        <attr name="textEnd" format="string|reference" />
+        <attr name="showButtons" format="boolean" />
     </declare-styleable>
 </resources>

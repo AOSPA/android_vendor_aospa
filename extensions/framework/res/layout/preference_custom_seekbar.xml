@@ -74,7 +74,7 @@
             android:id="@+id/value_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
+            android:layout_marginBottom="8dp"
             android:layout_below="@android:id/summary"
             android:layout_alignStart="@android:id/title" >
 
@@ -100,10 +100,12 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/seekbar_frame"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="12dp"
             android:layout_below="@id/value_frame"
             android:layout_alignStart="@android:id/title" >
 
@@ -112,27 +114,55 @@
                 android:src="@drawable/ic_custom_seekbar_minus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true" />
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginEnd="4dp" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingStart="0dp"
+                android:paddingEnd="4dp" />
 
             <ImageView
                 android:id="@+id/plus"
                 android:src="@drawable/ic_custom_seekbar_plus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true" />
+                android:layout_gravity="end|center_vertical" />
+        </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/seekbar"
-                android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/label_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekbar_frame"
+            android:layout_marginEnd="12dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginEnd="3dp"
-                android:layout_toEndOf="@id/minus"
-                android:layout_toStartOf="@id/plus"
-                android:layout_centerVertical="true" />
-        </RelativeLayout>
+                android:layout_gravity="start|top"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/textColorSecondary"
+                android:gravity="start"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@android:id/text2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/textColorSecondary"
+                android:gravity="end"
+                android:layout_weight="1"/>
+        </LinearLayout>
     </RelativeLayout>
 
     <!-- Preference should place its actual preference widget here. -->

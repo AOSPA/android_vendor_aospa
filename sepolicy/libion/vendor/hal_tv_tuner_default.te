@@ -1,0 +1,1 @@
+allow hal_tv_tuner_default ion_device:chr_file r_file_perms;

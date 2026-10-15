@@ -6,12 +6,12 @@
 <manifest>
   <include name="../platforms/taro.xml" />
 
-  <project path="device/xiaomi/marble" name="AOSPA/android_device_xiaomi_marble" remote="aospa" revision="uvite" />
-  <project path="device/xiaomi/marble-kernel" name="AOSPA/android_device_xiaomi_marble-kernel" remote="aospa" revision="uvite" clone-depth="1" />
-  <project path="device/xiaomi/sm8450-common" name="AOSPA/android_device_xiaomi_sm8450-common" remote="aospa" revision="uvite" />
-  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="uvite" />
-  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-8450" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-8450" />
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" clone-depth="1" />
-  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="uvite-marble" clone-depth="1" />
+  <project path="device/xiaomi/marble" name="AOSPA/android_device_xiaomi_marble" remote="aospa" revision="beryl" />
+  <project path="device/xiaomi/marble-kernel" name="AOSPA/android_device_xiaomi_marble-kernel" remote="aospa" revision="beryl" clone-depth="1" />
+  <project path="device/xiaomi/sm8450-common" name="AOSPA/android_device_xiaomi_sm8450-common" remote="aospa" revision="beryl" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="beryl" />
+  <project path="vendor/xiaomi/marble" name="proprietary_vendor_xiaomi_marble" remote="blobs" revision="beryl" clone-depth="1" />
+  <project path="vendor/xiaomi/marble-firmware" name="proprietary_vendor_xiaomi_marble-firmware" remote="blobs-gitlab" revision="beryl" clone-depth="1" />
+  <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="blobs" revision="beryl" clone-depth="1" />
+  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="beryl-marble" clone-depth="1" />
 </manifest>

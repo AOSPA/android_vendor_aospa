@@ -6,5 +6,4 @@
 runtime_resource_overlay {
     name: "AOSPASettingsOverlay",
     product_specific: true,
-    sdk_version: "current",
 }

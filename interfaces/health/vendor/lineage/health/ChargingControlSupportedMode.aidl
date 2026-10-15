@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2023 The LineageOS Project
+ * Copyright (C) 2022-2025 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -22,4 +22,9 @@ enum ChargingControlSupportedMode {
      * The device supports control charging by specifying the deadline
      */
     DEADLINE = 1 << 2,
+
+    /**
+     * The device supports control charging by specifying the limit
+     */
+    LIMIT = 1 << 3,
 }

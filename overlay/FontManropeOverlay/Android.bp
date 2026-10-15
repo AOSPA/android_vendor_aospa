@@ -6,6 +6,5 @@
 runtime_resource_overlay {
     name: "FontManropeOverlay",
     product_specific: true,
-    sdk_version: "current",
     theme: "FontManrope",
 }

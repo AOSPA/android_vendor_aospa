@@ -17,6 +17,17 @@
 <resources>
     <array name="color_bundles">
         <item>default</item>
+        <item>wht</item>
+        <item>bue</item>
+        <item>red</item>
+        <item>porcelain</item>
+        <item>obsidian</item>
+        <item>moonstone</item>
+        <item>jade</item>
+        <item>iris</item>
+        <item>lemongrass</item>
+        <item>indigo</item>
+        <item>peony</item>
         <item>bundle1</item>
         <item>bundle2</item>
         <item>bundle3</item>

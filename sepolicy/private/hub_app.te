@@ -1,26 +1,28 @@
 type hub_app, domain, coredomain;
 
 app_domain(hub_app)
+priv_app_domain(hub_app)
+
+# Allow ParanoidHub to access the internet.
 net_domain(hub_app)
 
-binder_call(hub_app, gpuservice)
+# Allow ParanoidHub to apply an A/B payload through update_engine.
 binder_call(hub_app, update_engine)
-
-allow hub_app app_api_service:service_manager find;
-allow hub_app recovery_service:service_manager find;
-allow hub_app system_api_service:service_manager find;
 allow hub_app update_engine_service:service_manager find;
 
-allow hub_app app_data_file:dir create_dir_perms;
-allow hub_app app_data_file:{ file lnk_file } create_file_perms;
+# Allow ParanoidHub to publish system update info.
+allow hub_app system_update_service:service_manager find;
 
+# Allow ParanoidHub to write to /cache, for devices without A/B partitions.
 allow hub_app cache_file:dir r_dir_perms;
-
 allow hub_app cache_recovery_file:dir rw_dir_perms;
 allow hub_app cache_recovery_file:file create_file_perms;
+# /cache is a symlink to /data/cache on some devices.
+allow hub_app cache_file:lnk_file r_file_perms;
 
+# Allow ParanoidHub to write to /data/hub_updates for OTA packages.
 allow hub_app ota_package_file:dir create_dir_perms;
 allow hub_app ota_package_file:file create_file_perms;
 
-get_prop(hub_app, default_prop)
-get_prop(hub_app, build_prop)
+# Allow ParanoidHub to read the device name and build variant.
+get_prop(hub_app, aospa_build_prop)

@@ -1,0 +1,2 @@
+# Allow recovery to read the AOSPA version.
+get_prop(recovery, aospa_build_prop)

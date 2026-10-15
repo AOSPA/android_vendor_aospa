@@ -6,6 +6,5 @@
 runtime_resource_overlay {
     name: "FontInterOverlay",
     product_specific: true,
-    sdk_version: "current",
     theme: "FontInter",
 }

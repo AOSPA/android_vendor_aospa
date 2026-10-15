@@ -1,0 +1,2 @@
+# Allow access to the ion memory allocation device.
+allow hal_face ion_device:chr_file r_file_perms;

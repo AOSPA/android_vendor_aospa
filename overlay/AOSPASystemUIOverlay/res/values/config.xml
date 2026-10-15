@@ -16,8 +16,9 @@
          increase the rate of unintentional unlocks. -->
     <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
 
-    <!-- Display Volte icon -->
+    <!-- Display IMS icons -->
     <bool name="config_display_volte">false</bool>
+    <bool name="config_display_vowifi">false</bool>
 
     <!-- A collection of defaults for the quick affordances on the lock screen. Each item must be a
     string with two parts: the ID of the slot and the comma-delimited list of affordance IDs,

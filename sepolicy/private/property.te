@@ -1,5 +1,5 @@
-# Lineage Health
-system_internal_prop(lineage_health_prop)
+# AOSPA build identity
+system_internal_prop(aospa_build_prop)
 
 # PIHooks
 system_public_prop(pih_disable_prop)

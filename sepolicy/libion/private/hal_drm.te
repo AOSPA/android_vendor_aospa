@@ -1,0 +1,2 @@
+# Allow access to ion memory allocation device
+allow { hal_drm -hal_widevine_system } ion_device:chr_file rw_file_perms;

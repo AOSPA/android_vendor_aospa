@@ -1,0 +1,2 @@
+# Allow NN HAL service to read a client-provided ION memory fd.
+allow hal_neuralnetworks_server ion_device:chr_file r_file_perms;
