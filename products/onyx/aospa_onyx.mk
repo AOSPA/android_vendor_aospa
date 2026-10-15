@@ -25,8 +25,8 @@ PRODUCT_SYSTEM_NAME := onyx_global
 PRODUCT_SYSTEM_DEVICE := onyx
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="onyx_global-user 15 AQ3A.250226.002 OS3.0.5.0.WOLMIXM release-keys" \
-    BuildFingerprint=POCO/onyx_global/onyx:15/AQ3A.250226.002/OS3.0.5.0.WOLMIXM:user/release-keys \
+    BuildDesc="onyx_global-user 15 AQ3A.250226.002 OS3.0.303.0.WOLMIXM release-keys" \
+    BuildFingerprint=POCO/onyx_global/onyx:15/AQ3A.250226.002/OS3.0.303.0.WOLMIXM:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
