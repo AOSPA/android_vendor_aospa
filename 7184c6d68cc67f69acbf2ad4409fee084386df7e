@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5660ba8a_79094b0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2026-10-22T17:13:12Z",
+      "side": 1,
+      "message": "interface and resources can be removed too\nhttps://github.com/aospa-op12/android_vendor_aospa/commit/851d3a358b34767e7f7e33ac2eaaf13646b1eae1",
+      "revId": "7184c6d68cc67f69acbf2ad4409fee084386df7e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
